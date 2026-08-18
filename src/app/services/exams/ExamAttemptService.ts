@@ -147,6 +147,7 @@ export class ExamAttemptService {
           correctIndex: q.correctIndex,
           correctIndices: q.correctIndices,
           correctAnswer: q.correctAnswer,
+          grammarTopic: q?.grammarTopic,
           userAnswer,
           isCorrect,
           partialScore,

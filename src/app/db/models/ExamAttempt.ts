@@ -10,6 +10,7 @@ const attemptQuestionSchema = new Schema(
     correctIndex: { type: Number },
     correctIndices: [{ type: Number }],
     correctAnswer: { type: String },
+    grammarTopic: { type: String },
     userAnswer: { type: Schema.Types.Mixed, required: true },
     isCorrect: { type: Boolean, required: true },
     partialScore: { type: Number },
