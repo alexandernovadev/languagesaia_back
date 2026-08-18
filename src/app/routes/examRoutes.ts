@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { validateObjectId } from "../middlewares/validateObjectId";
+import { aiLimiter } from "../middlewares/rateLimiters";
 import {
   generate,
   validate,
@@ -28,10 +29,10 @@ router.param("attemptId", validateObjectId);
 router.get("/export-file", exportExamsToJSON);
 router.post("/import-file", ...createJsonUploadMiddleware(), importExamsFromFile as any);
 
-// Generate, validate, correct (no persistence)
-router.post("/generate", generate);
-router.post("/validate", validate);
-router.post("/correct", correct);
+// Generate, validate, correct (no persistence) — call an AI provider
+router.post("/generate", aiLimiter, generate);
+router.post("/validate", aiLimiter, validate);
+router.post("/correct", aiLimiter, correct);
 
 // Exam CRUD
 router.get("/", list);
@@ -46,7 +47,8 @@ router.get("/:id/attempts", listAttemptsByExam);
 router.post("/:id/attempts", startAttempt);
 router.get("/:id/attempts/:attemptId", getAttempt);
 router.delete("/:id/attempts/:attemptId", deleteAttempt);
-router.post("/:id/attempts/:attemptId/submit", submitAttempt);
-router.post("/:id/attempts/:attemptId/questions/:questionIndex/chat", chatOnQuestion);
+// Submit triggers AI grading/feedback; question chat is AI too
+router.post("/:id/attempts/:attemptId/submit", aiLimiter, submitAttempt);
+router.post("/:id/attempts/:attemptId/questions/:questionIndex/chat", aiLimiter, chatOnQuestion);
 
 export default router;

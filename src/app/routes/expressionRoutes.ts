@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { validateObjectId } from "../middlewares/validateObjectId";
+import { aiLimiter } from "../middlewares/rateLimiters";
 import {
   createExpression, getExpressionById, getExpressions, updateExpression, deleteExpression,
   getExpressionByExpression, getExpressionsByType, getExpressionsOnly,
@@ -17,8 +18,8 @@ router.get("/export-file", exportExpressionsToJSON);
 router.post("/import-file", ...createJsonUploadMiddleware(), importExpressionsFromFile);
 
 // AI Generation routes
-router.post("/generate", generateExpression);
-router.post("/:id/generate-image", updateImageExpression);
+router.post("/generate", aiLimiter, generateExpression);
+router.post("/:id/generate-image", aiLimiter, updateImageExpression);
 
 // Filter and search routes
 router.get("/by-type/:type", getExpressionsByType);
@@ -27,7 +28,7 @@ router.get("/:expression/expression", getExpressionByExpression);
 
 // Chat routes
 router.post("/:id/chat", addChatMessage);
-router.post("/:id/chat/stream", streamChatResponse);
+router.post("/:id/chat/stream", aiLimiter, streamChatResponse);
 router.get("/:id/chat", getChatHistory);
 router.delete("/:id/chat", clearChatHistory);
 

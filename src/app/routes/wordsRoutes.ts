@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { validateObjectId } from "../middlewares/validateObjectId";
+import { aiLimiter } from "../middlewares/rateLimiters";
 import {
   createWord,
   getWordById,
@@ -44,17 +45,17 @@ router.get("/:word/word", getWordByName);
 
 // Chat routes
 router.post("/:id/chat", addChatMessage);
-router.post("/:id/chat/stream", streamChatResponse);
+router.post("/:id/chat/stream", aiLimiter, streamChatResponse);
 router.get("/:id/chat", getChatHistory);
 router.delete("/:id/chat", clearChatHistory);
 
 // AI Generation routes
-router.post("/generate", generateWordJson);
-router.post("/:id/generate-examples", generateWordExamplesJson);
-router.post("/:id/generate-code-switching", generateWordExamplesCodeSwitchingJson);
-router.post("/:id/generate-types", generateWordTypesJson);
-router.post("/:id/generate-synonyms", generateWordSynomymsJson);
-router.post("/:id/generate-image", updateImageWord);
+router.post("/generate", aiLimiter, generateWordJson);
+router.post("/:id/generate-examples", aiLimiter, generateWordExamplesJson);
+router.post("/:id/generate-code-switching", aiLimiter, generateWordExamplesCodeSwitchingJson);
+router.post("/:id/generate-types", aiLimiter, generateWordTypesJson);
+router.post("/:id/generate-synonyms", aiLimiter, generateWordSynomymsJson);
+router.post("/:id/generate-image", aiLimiter, updateImageWord);
 
 // CRUD routes (MUST BE LAST)
 router.get("/:id", getWordById);

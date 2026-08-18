@@ -2,13 +2,11 @@ import express, { Request, Response, NextFunction } from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import helmet from "helmet";
-import rateLimit from "express-rate-limit";
 import path from "path";
 import {
-  RATE_LIMIT_WINDOW_MS, RATE_LIMIT_GENERAL_MAX, RATE_LIMIT_AUTH_MAX,
-  RATE_LIMIT_AI_WINDOW_MS, RATE_LIMIT_AI_MAX,
   SERVER_TIMEOUT_MS, AI_REQUEST_TIMEOUT_MS,
 } from "./config/constants";
+import { generalLimiter, authLimiter } from "./app/middlewares/rateLimiters";
 
 import { connectDB, disconnectDB } from "./app/db/mongoConnection";
 import { initializeBackupScheduler } from "./app/services/backup/backupSchedulerService";
@@ -62,31 +60,8 @@ if (trustProxyEnv === "false" || trustProxyEnv === "0") {
 // Security headers
 app.use(helmet());
 
-// Rate limiting
-const generalLimiter = rateLimit({
-  windowMs: RATE_LIMIT_WINDOW_MS,
-  max: RATE_LIMIT_GENERAL_MAX,
-  standardHeaders: true,
-  legacyHeaders: false,
-  message: { success: false, error: "Too many requests, please try again later" },
-});
-
-const authLimiter = rateLimit({
-  windowMs: RATE_LIMIT_WINDOW_MS,
-  max: RATE_LIMIT_AUTH_MAX,
-  standardHeaders: true,
-  legacyHeaders: false,
-  message: { success: false, error: "Too many login attempts, please try again later" },
-});
-
-const aiLimiter = rateLimit({
-  windowMs: RATE_LIMIT_AI_WINDOW_MS,
-  max: RATE_LIMIT_AI_MAX,
-  standardHeaders: true,
-  legacyHeaders: false,
-  message: { success: false, error: "AI request limit reached, please slow down" },
-});
-
+// Rate limiting — generalLimiter covers everything; aiLimiter is applied
+// per-route (in each router) only to endpoints that actually call an AI provider.
 app.use(generalLimiter);
 
 // Middleware to parse JSON
@@ -118,12 +93,12 @@ const extendTimeout = (_req: Request, res: Response, next: NextFunction) => {
 
 // Routes
 app.use("/api/auth", authLimiter, AuthRoutes);
-app.use("/api/lectures", authMiddleware, aiLimiter, extendTimeout, LectureRoutes);
-app.use("/api/words", authMiddleware, aiLimiter, extendTimeout, WordsRoutes);
-app.use("/api/expressions", authMiddleware, aiLimiter, extendTimeout, ExpressionRoutes);
+app.use("/api/lectures", authMiddleware, extendTimeout, LectureRoutes);
+app.use("/api/words", authMiddleware, extendTimeout, WordsRoutes);
+app.use("/api/expressions", authMiddleware, extendTimeout, ExpressionRoutes);
 app.use("/api/users", authMiddleware, UserRoutes);
 app.use("/api/stats", authMiddleware, StatsRoutes);
-app.use("/api/exams", authMiddleware, aiLimiter, extendTimeout, ExamRoutes);
+app.use("/api/exams", authMiddleware, extendTimeout, ExamRoutes);
 app.use("/api/ai-config", authMiddleware, AIConfigRoutes);
 
 // Labs routes (conditional auth)

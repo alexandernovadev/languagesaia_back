@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { validateObjectId } from "../middlewares/validateObjectId";
+import { aiLimiter } from "../middlewares/rateLimiters";
 import {
   createLecture,
   getLectureById,
@@ -20,9 +21,9 @@ router.param("id", validateObjectId);
 router.param("idlecture", validateObjectId);
 
 // AI Generation routes
-router.post("/generate-text", generateTextStream);
-router.post("/generate-topic-stream", generateTopicStream);
-router.post("/generate-image/:idlecture", updateImageLecture);
+router.post("/generate-text", aiLimiter, generateTextStream);
+router.post("/generate-topic-stream", aiLimiter, generateTopicStream);
+router.post("/generate-image/:idlecture", aiLimiter, updateImageLecture);
 // Audio generation route removed - service no longer available
 
 // Export/Import routes
