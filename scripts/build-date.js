@@ -6,24 +6,28 @@ const path = require('path');
 // Generate build date
 const buildDate = new Date().toISOString();
 
-// Path to main.ts
-const mainTsPath = path.join(__dirname, '../src/main.ts');
+// Path to compiled output (never touch src/main.ts so builds stay idempotent)
+const mainJsPath = path.join(__dirname, '../dist/main.js');
 
-// Read the current main.ts file
-let mainTsContent = fs.readFileSync(mainTsPath, 'utf8');
+if (!fs.existsSync(mainJsPath)) {
+  console.log('⚠️  dist/main.js not found, skipping build date update');
+  process.exit(0);
+}
+
+// Read the compiled main.js
+let mainJsContent = fs.readFileSync(mainJsPath, 'utf8');
 
 // Replace the date line with the build date
-const dateRegex = /date:\s*new Date\(\)\.toISOString\(\)/;
+const dateRegex = /date:\s*(?:new Date\(\)\.toISOString\(\)|"[^"]*")/;
 const replacement = `date: "${buildDate}"`;
 
-if (dateRegex.test(mainTsContent)) {
-  mainTsContent = mainTsContent.replace(dateRegex, replacement);
-  
+if (dateRegex.test(mainJsContent)) {
+  mainJsContent = mainJsContent.replace(dateRegex, replacement);
+
   // Write back to the file
-  fs.writeFileSync(mainTsPath, mainTsContent);
-  
+  fs.writeFileSync(mainJsPath, mainJsContent);
+
   console.log(`✅ Build date updated: ${buildDate}`);
 } else {
-  console.log('⚠️  Could not find date line to replace in main.ts');
-  process.exit(1);
-} 
+  console.log('⚠️  Could not find date line to replace in dist/main.js');
+}

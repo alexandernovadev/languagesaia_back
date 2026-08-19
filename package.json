@@ -1,9 +1,9 @@
 {
   "name": "back",
-  "version": "8.0.11",
+  "version": "8.0.12",
   "main": "dist/main.js",
   "scripts": {
-    "build": "node scripts/build-date.js && rm -rf ./dist && tsc && mv dist/src/* dist/ && rm -rf dist/src && cp -r public dist/public",
+    "build": "rm -rf ./dist && tsc && mv dist/src/* dist/ && rm -rf dist/src && cp -r public dist/public && node scripts/build-date.js",
     "build:dev": "node scripts/build-date.js && rm -rf ./dist && tsc && mv dist/src/* dist/ && rm -rf dist/src && cp -r public dist/public",
     "start": "node dist/main.js",
     "dev": "yarn clean:logs && nodemon --exec ts-node src/main.ts",
