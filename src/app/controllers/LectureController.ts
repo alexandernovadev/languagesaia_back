@@ -328,10 +328,10 @@ export const importLecturesFromFile = async (
 
 export const generateAudioForLecture = async (req: Request, res: Response) => {
   const { id } = req.params;
-  const { voice } = req.body || {};
+  const { voice, instructions } = req.body || {};
 
   try {
-    const result = await generateLectureAudio(id, voice || undefined);
+    const result = await generateLectureAudio(id, voice || undefined, instructions || undefined);
     return successResponse(
       res,
       "Lecture audio generated successfully",

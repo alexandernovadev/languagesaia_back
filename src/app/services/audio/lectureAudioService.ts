@@ -11,6 +11,9 @@ const execFileAsync = promisify(execFile);
 
 const TTS_MODEL = process.env.TTS_MODEL || "gpt-4o-mini-tts";
 const TTS_VOICE = process.env.TTS_VOICE || "nova";
+const TTS_INSTRUCTIONS =
+  process.env.TTS_INSTRUCTIONS ||
+  "Narrate like a storyteller reading a fairy tale: warm, expressive, calm and clear, with gentle emphasis on key moments.";
 const MAX_CHARS = 4096;
 
 const getClient = () =>
@@ -65,12 +68,17 @@ const chunkByParagraphs = (text: string, maxChars: number): string[] => {
   return chunks;
 };
 
-const synthChunk = async (text: string, voice: string): Promise<Buffer> => {
+const synthChunk = async (
+  text: string,
+  voice: string,
+  instructions?: string
+): Promise<Buffer> => {
   const client = getClient();
   const response = await client.audio.speech.create({
     model: TTS_MODEL,
     voice,
     input: text,
+    instructions,
     response_format: "mp3",
   });
   const arrayBuffer = await response.arrayBuffer();
@@ -113,7 +121,8 @@ const concatMp3 = async (buffers: Buffer[]): Promise<Buffer> => {
 
 export const generateLectureAudio = async (
   lectureId: string,
-  voice: string = TTS_VOICE
+  voice: string = TTS_VOICE,
+  instructions?: string
 ): Promise<{ urlAudio: string; recordId: string }> => {
   const lecture = await Lecture.findById(lectureId);
   if (!lecture) throw new Error("Lecture not found");
@@ -122,11 +131,12 @@ export const generateLectureAudio = async (
   const plainText = stripMarkdown(lecture.content);
   if (!plainText) throw new Error("Lecture content is empty after cleaning");
 
+  const effectiveInstructions = instructions || TTS_INSTRUCTIONS;
   const chunks = chunkByParagraphs(plainText, MAX_CHARS);
   const buffers: Buffer[] = [];
   for (let i = 0; i < chunks.length; i++) {
     logger.info(`Generando audio chunk ${i + 1}/${chunks.length} para lecture ${lectureId}`);
-    buffers.push(await synthChunk(chunks[i], voice));
+    buffers.push(await synthChunk(chunks[i], voice, effectiveInstructions));
   }
 
   const audioBuffer = await concatMp3(buffers);
