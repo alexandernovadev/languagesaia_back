@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 import Lecture from "../src/app/db/models/Lecture";
-import { removeMarkdownTables } from "../src/app/utils/text/sanitizeLectureContent";
+import { sanitizeLectureContent } from "../src/app/utils/text/sanitizeLectureContent";
 
 (async () => {
   const uri = process.env.MONGO_URL;
@@ -12,12 +12,16 @@ import { removeMarkdownTables } from "../src/app/utils/text/sanitizeLectureConte
   await mongoose.connect(uri);
   console.log("Conectado a MongoDB");
 
-  const withPipes = await Lecture.find({ content: { $regex: /\|/ } }).select("_id content").lean();
-  console.log(`Lecturas con "|" en content: ${withPipes.length}`);
+  const withIssues = await Lecture.find({
+    content: { $regex: /(\|)|(^#{1,6}\S)/m },
+  })
+    .select("_id content")
+    .lean();
+  console.log(`Lecturas con tablas o headings rotos: ${withIssues.length}`);
 
   let cleaned = 0;
-  for (const lecture of withPipes) {
-    const sanitized = removeMarkdownTables(lecture.content || "");
+  for (const lecture of withIssues) {
+    const sanitized = sanitizeLectureContent(lecture.content || "");
     if (sanitized !== lecture.content) {
       await Lecture.updateOne({ _id: lecture._id }, { $set: { content: sanitized } });
       cleaned++;
@@ -25,7 +29,7 @@ import { removeMarkdownTables } from "../src/app/utils/text/sanitizeLectureConte
     }
   }
 
-  console.log(`Tablas eliminadas en ${cleaned} lecturas`);
+  console.log(`Contenido corregido en ${cleaned} lecturas`);
   await mongoose.disconnect();
   process.exit(0);
 })().catch(async (err) => {

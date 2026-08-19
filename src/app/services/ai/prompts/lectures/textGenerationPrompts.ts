@@ -61,6 +61,7 @@ CRITICAL - Vocabulary:
 
 Formatting guidelines:
 - Title must be "# Title".
+- ALWAYS write a space after the # characters in every heading (e.g. "# Title", "## Subtitle", "### Subtitle"). NEVER write "#Title" or "##Subtitle" without the space.
 - Use one main subtitle as "## Subtitle".
 - Use additional subtitles as "### Subtitle" frequently (every 2-3 paragraphs) for clear structure.
 - You can use h4 (####) and h5 (#####) headers for sub-sections.

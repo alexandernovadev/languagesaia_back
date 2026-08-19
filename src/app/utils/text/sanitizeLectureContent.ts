@@ -64,8 +64,13 @@ export const removeMarkdownTables = (content: string): string => {
 };
 
 export const sanitizeLectureContent = (content: string): string => {
-  return removeMarkdownTables(content || "").trim();
+  return normalizeHeadingMarks(removeMarkdownTables(content || "")).trim();
 };
+
+const HEADING_MARK_RE = /^(#{1,6})(?=\S)/gm;
+
+export const normalizeHeadingMarks = (content: string): string =>
+  content.replace(HEADING_MARK_RE, "$1 ");
 
 // Streaming filter: removes markdown tables from a live text stream.
 // Any "|" line that could be the start of a table (or is inside one) is
