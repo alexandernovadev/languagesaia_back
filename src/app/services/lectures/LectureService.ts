@@ -1,6 +1,7 @@
 import Lecture from "../../db/models/Lecture";
 import { ILecture } from "../../../../types/models";
 import { calculateReadingTimeFromContent } from "../../utils/text/calculateReadingTime";
+import { sanitizeLectureContent } from "../../utils/text/sanitizeLectureContent";
 import { escapeRegex } from "../../utils/escapeRegex";
 
 interface PaginatedResult<T> {
@@ -13,11 +14,13 @@ interface PaginatedResult<T> {
 export class LectureService {
   // Basic CRUD operations
   async createLecture(data: ILecture): Promise<ILecture> {
+    const content = sanitizeLectureContent(data.content || "");
     // Auto-calculate reading time in minutes from content if not provided or invalid
-    const estimatedMinutes = calculateReadingTimeFromContent(data.content || "");
+    const estimatedMinutes = calculateReadingTimeFromContent(content);
 
     const lecture = new Lecture({
       ...data,
+      content,
       time: typeof data.time === "number" && data.time > 0 ? data.time : estimatedMinutes,
     });
     return await lecture.save();
@@ -31,7 +34,10 @@ export class LectureService {
     id: string,
     data: Partial<ILecture>
   ): Promise<ILecture | null> {
-    return await Lecture.findByIdAndUpdate(id, data, { new: true });
+    const updateData = data.content !== undefined
+      ? { ...data, content: sanitizeLectureContent(data.content) }
+      : data;
+    return await Lecture.findByIdAndUpdate(id, updateData, { new: true });
   }
 
   async updateImage(

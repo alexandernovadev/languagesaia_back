@@ -18,6 +18,7 @@ import { WordQueryService } from "../services/words/WordQueryService";
 import { promptAddEasyWords } from "../services/ai/prompts/promptAddEasyWords";
 import { generateImage } from "../services/ai/imageAIService";
 import { generateLectureAudio } from "../services/audio/lectureAudioService";
+import { createMarkdownTableFilter } from "../utils/text/sanitizeLectureContent";
 import { getAIProvider } from "../services/ai/aiConfigHelper";
 import type { ImageProvider } from "../../config/aiConfig";
 import logger from "../utils/logger";
@@ -465,13 +466,15 @@ export const generateTextStream = async (req: Request, res: Response) => {
       userId,
     });
 
-    // Read the stream and send the data to the client
+    // Read the stream, strip markdown tables live, and send to the client
+    const tableFilter = createMarkdownTableFilter();
     for await (const chunk of stream as any) {
       const content = chunk.choices?.[0]?.delta?.content || "";
       if (content) {
-        res.write(content);
+        res.write(tableFilter.push(content));
       }
     }
+    res.write(tableFilter.flush());
 
     // Close the stream when done
     res.end();
