@@ -1,6 +1,7 @@
 import OpenAI from "openai";
 import { execFile } from "child_process";
 import { promisify } from "util";
+import ffmpegPath from "ffmpeg-static";
 import { AI_CONFIG } from "../../../config/aiConfig";
 import Lecture from "../../db/models/Lecture";
 import { uploadAudioToPocketBase, deleteAudioFromPocketBase } from "./pocketBaseService";
@@ -93,7 +94,7 @@ const concatMp3 = async (buffers: Buffer[]): Promise<Buffer> => {
 
   try {
     const out = join(tmpDir, `merged-${Date.now()}.mp3`);
-    await execFileAsync("ffmpeg", [
+    await execFileAsync(ffmpegPath, [
       "-y",
       "-f", "concat",
       "-safe", "0",

@@ -113,7 +113,7 @@ app.use("/api", authMiddleware, UploadRoutes);
 
 app.get("/", (req: Request, res: Response) => {
   successResponse(res, "Server is running", {
-    date: new Date().toISOString(),
+    date: "2026-08-19T18:25:18.190Z",
     version: VERSION,
     environment: NODE_ENV,
   });
