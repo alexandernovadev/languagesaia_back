@@ -67,6 +67,8 @@ export const toLectureDTO = (doc: any) => {
     typeWrite: d.typeWrite,
     language: d.language,
     urlAudio: d.urlAudio,
+    audioRecordId: d.audioRecordId,
+    voice: d.voice,
     img: d.img,
     content: d.content,
     createdAt: d.createdAt,

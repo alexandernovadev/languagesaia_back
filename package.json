@@ -1,6 +1,6 @@
 {
   "name": "back",
-  "version": "7.9.12",
+  "version": "8.0.0",
   "main": "dist/main.js",
   "scripts": {
     "build": "node scripts/build-date.js && rm -rf ./dist && tsc && mv dist/src/* dist/ && rm -rf dist/src && cp -r public dist/public",
@@ -39,6 +39,7 @@
     "node-cron": "^4.2.1",
     "nodemailer": "^7.0.5",
     "openai": "^5.12.2",
+    "pocketbase": "^0.27.3",
     "sharp": "^0.34.5",
     "winston": "^3.17.0",
     "zod": "^3.25.76"

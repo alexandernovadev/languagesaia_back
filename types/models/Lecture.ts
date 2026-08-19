@@ -8,6 +8,8 @@ export interface ILecture extends Document {
   language: Language;
   img?: string;
   urlAudio?: string;
+  audioRecordId?: string;
+  voice?: string;
   content: string;
   createdAt?: Date;
   updatedAt?: Date;

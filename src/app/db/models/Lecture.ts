@@ -22,6 +22,8 @@ const lectureSchema = new Schema<ILecture>(
       enum: languagesList
     },
     urlAudio: { type: String, default: "" },
+    audioRecordId: { type: String, default: "" },
+    voice: { type: String, default: "" },
     img: { type: String, default: "" },
     content: { type: String, required: true },
   },

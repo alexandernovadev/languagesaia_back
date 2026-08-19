@@ -17,6 +17,7 @@ import {
 import { WordQueryService } from "../services/words/WordQueryService";
 import { promptAddEasyWords } from "../services/ai/prompts/promptAddEasyWords";
 import { generateImage } from "../services/ai/imageAIService";
+import { generateLectureAudio } from "../services/audio/lectureAudioService";
 import { getAIProvider } from "../services/ai/aiConfigHelper";
 import type { ImageProvider } from "../../config/aiConfig";
 import logger from "../utils/logger";
@@ -324,6 +325,24 @@ export const importLecturesFromFile = async (
 };
 
 // ===== AI GENERATION FUNCTIONS FOR LECTURES =====
+
+export const generateAudioForLecture = async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const { voice } = req.body || {};
+
+  try {
+    const result = await generateLectureAudio(id, voice || undefined);
+    return successResponse(
+      res,
+      "Lecture audio generated successfully",
+      { urlAudio: result.urlAudio, recordId: result.recordId }
+    );
+  } catch (error: any) {
+    logger.error("Error generating lecture audio:", error);
+    const status = error.message?.includes("not found") ? 404 : 500;
+    return errorResponse(res, error.message || "Error generating lecture audio", status, error);
+  }
+};
 
 export const updateImageLecture = async (req: Request, res: Response) => {
   const { lectureString, imgOld } = req.body;

@@ -13,6 +13,7 @@ import {
   updateImageLecture,
   generateTextStream,
   generateTopicStream,
+  generateAudioForLecture,
 } from "../controllers/LectureController";
 import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
 
@@ -24,7 +25,7 @@ router.param("idlecture", validateObjectId);
 router.post("/generate-text", aiLimiter, generateTextStream);
 router.post("/generate-topic-stream", aiLimiter, generateTopicStream);
 router.post("/generate-image/:idlecture", aiLimiter, updateImageLecture);
-// Audio generation route removed - service no longer available
+router.post("/:id/generate-audio", aiLimiter, generateAudioForLecture);
 
 // Export/Import routes
 router.get("/export-file", exportLecturesToJSON);
