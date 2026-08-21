@@ -45,14 +45,22 @@ These grammar patterns MUST be used naturally in the chapter: ${targetGrammar.jo
 `
     : "";
 
+  const RECENT_FULL_COUNT = 2;
+  const recentChapters = previousChapters.slice(-RECENT_FULL_COUNT);
+  const earlierChapters = previousChapters.slice(0, -RECENT_FULL_COUNT);
+
   const contextInstruction = previousChapters.length > 0
     ? `
 PREVIOUS CHAPTERS CONTEXT:
-The story so far has ${previousChapters.length} chapter(s). Here is a summary of the last ${Math.min(previousChapters.length, 2)} chapter(s):
-${previousChapters.slice(-2).map((ch, i) => `Chapter ${chapterNumber - previousChapters.length + i + 1}: "${ch.title}"\n${ch.content.slice(0, 500)}${ch.content.length > 500 ? "..." : ""}`).join("\n\n")}
+${earlierChapters.length > 0
+    ? `Earlier chapters so far (titles only, for background — do not re-narrate them): ${earlierChapters.map((ch) => `"${ch.title}"`).join(", ")}\n`
+    : ""}
+FULL TEXT of the ${recentChapters.length === 1 ? "previous chapter" : `last ${recentChapters.length} chapters`} (continue naturally from exactly where the most recent one ends):
+
+${recentChapters.map((ch, i) => `--- Chapter ${chapterNumber - recentChapters.length + i}: "${ch.title}" ---\n${ch.content}`).join("\n\n")}
 
 CONTINUATION RULES (MANDATORY):
-- Continue the story EXACTLY from where the previous chapter ended.
+- Continue the story EXACTLY from where the chapter above ended.
 - Keep the SAME characters, names, places, setting, tone, and style.
 - NEVER repeat, summarize, recap, or retell anything that already happened.
 - NEVER introduce a new title for this chapter within the content (the chapter title is separate).
@@ -104,9 +112,9 @@ PARAGRAPH BREAKS (CRITICAL):
 
 FORMATTING:
 - NEVER use Markdown tables, pipe characters (|), or any tabular/column layout.
+- NEVER use blockquotes (the ">" character) for dialogue, quotes, or anything else — write dialogue as regular paragraphs.
 - Use **bold** generously to highlight key vocabulary, important concepts, and punchy phrases (2-4 per paragraph).
 - Use *italic* for emphasis, emotions, or to draw attention to specific words.
-- Use blockquotes (>) for dialogue, memorable quotes, or key takeaways.
 - ALWAYS write a space after the # characters in every heading (e.g. "# Title", "## Subtitle"). NEVER write "#Title".
 - NEVER repeat the # symbol in a heading. NEVER write "## # Subtitle" or "# # Title".
 - Do NOT add any headings within the chapter content. The chapter title is provided separately.

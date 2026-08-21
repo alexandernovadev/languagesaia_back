@@ -123,6 +123,12 @@ export const StoryCreateSchema = z.object({
 
 export const StoryUpdateSchema = StoryCreateSchema.partial();
 
+export const StoryIdeaSchema = z.object({
+  seed: z.string().max(2000).optional(),
+  genre: z.enum(storyGenresEnum).optional(),
+  languageLevel: z.enum(certLevelsEnum).optional(),
+});
+
 // ─── Helper ───────────────────────────────────────────────────────────────────
 
 /**

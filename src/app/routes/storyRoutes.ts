@@ -14,10 +14,14 @@ import {
   updateProgress,
   getProgress,
   generateChapterStream,
+  generateIdea,
 } from "../controllers/StoryController";
 
 const router = Router();
 router.param("id", validateObjectId);
+
+// AI idea generation (no story id required yet)
+router.post("/generate-idea", aiLimiter, generateIdea);
 
 // CRUD routes
 router.post("/", createStory);

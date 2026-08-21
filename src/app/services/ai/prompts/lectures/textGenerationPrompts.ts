@@ -73,13 +73,13 @@ Formatting guidelines:
 CRITICAL - FORBIDDEN FORMATS:
 - NEVER use Markdown tables, pipe characters (|), or any tabular/column layout (no header rows, no "---" separator rows, no cells).
 - NEVER use HTML tables or any multi-column structure.
-- Content must be written as paragraphs, flat lists (no nesting), and blockquotes only.
+- Content must be written as paragraphs and flat lists (no nesting) only.
+- NEVER use blockquotes (the ">" character) for dialogue, quotes, or anything else — write dialogue as regular paragraphs.
 - If you need to present multiple items, use a simple flat list, never a table.
 
 Rich markdown formatting:
 - Use **bold** generously to highlight key vocabulary, important concepts, and punchy phrases (2-4 per paragraph).
 - Use *italic* for emphasis, emotions, or to draw attention to specific words.
-- Use blockquotes (>) for dialogue, memorable quotes, or key takeaways.
 - Vary paragraph length—mix short impactful sentences with longer descriptive ones.
 - Make the text visually rich and engaging with clear visual hierarchy.
 
@@ -176,13 +176,13 @@ Formatting guidelines:
 CRITICAL - FORBIDDEN FORMATS:
 - NEVER use Markdown tables, pipe characters (|), or any tabular/column layout (no header rows, no "---" separator rows, no cells).
 - NEVER use HTML tables or any multi-column structure.
-- Content must be written as paragraphs, flat lists (no nesting), and blockquotes only.
+- Content must be written as paragraphs and flat lists (no nesting) only.
+- NEVER use blockquotes (the ">" character) for dialogue, quotes, or anything else — write dialogue as regular paragraphs.
 - If you need to present multiple items, use a simple flat list, never a table.
 
 Rich markdown formatting:
 - Use **bold** generously to highlight key vocabulary, important concepts, and punchy phrases (2-4 per paragraph).
 - Use *italic* for emphasis, emotions, or to draw attention to specific words.
-- Use blockquotes (>) for dialogue, memorable quotes, or key takeaways.
 - Vary paragraph length—mix short impactful sentences with longer descriptive ones.
 - Make the text visually rich and engaging with clear visual hierarchy.
 

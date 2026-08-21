@@ -1,6 +1,7 @@
 import { generateText } from "./aiService";
 import { TextProvider } from "../../../config/aiConfig";
 import { createChapterGenerationPrompt } from "./prompts/stories/chapterGenerationPrompts";
+import { createStoryIdeaPrompt } from "./prompts/stories/storyIdeaPrompts";
 import { getAIProvider } from "./aiConfigHelper";
 
 export interface StoryTextGenerationOptions {
@@ -28,4 +29,27 @@ export const generateChapterText = async (
       stream: true,
     }
   );
+};
+
+export const generateStoryIdea = async (
+  params: Parameters<typeof createStoryIdeaPrompt>[0],
+  options: StoryTextGenerationOptions = {}
+) => {
+  const provider = await getAIProvider(options.userId, 'story', 'topic', options);
+  const promptData = createStoryIdeaPrompt(params);
+
+  const response = await generateText(
+    provider,
+    `${promptData.system}\n\n${promptData.user}`,
+    undefined,
+    {
+      ...options,
+      responseFormat: "json_object",
+      temperature: options.temperature || 0.8,
+      stream: false,
+    }
+  );
+  const content = response.choices[0].message.content;
+  if (!content) throw new Error("Completion content is null");
+  return JSON.parse(content) as { title: string; description: string };
 };

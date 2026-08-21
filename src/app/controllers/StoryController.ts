@@ -3,8 +3,8 @@ import { StoryService } from "../services/stories/StoryService";
 import { successResponse, errorResponse } from "../utils/responseHelpers";
 import { parseLimit } from "../utils/pagination";
 import { toStoryDTO, mapPaginated } from "../dto/mappers";
-import { StoryCreateSchema, StoryUpdateSchema, parseBody } from "../validators/schemas";
-import { generateChapterText } from "../services/ai/storyAIService";
+import { StoryCreateSchema, StoryUpdateSchema, StoryIdeaSchema, parseBody } from "../validators/schemas";
+import { generateChapterText, generateStoryIdea } from "../services/ai/storyAIService";
 import { createMarkdownTableFilter } from "../utils/text/sanitizeLectureContent";
 import logger from "../utils/logger";
 
@@ -235,5 +235,22 @@ export const generateChapterStream = async (req: Request, res: Response): Promis
   } catch (error: any) {
     logger.error("Error generating chapter stream:", error);
     return errorResponse(res, "Error trying to generate chapter", 500, error);
+  }
+};
+
+export const generateIdea = async (req: Request, res: Response): Promise<Response> => {
+  try {
+    const parsed = parseBody(StoryIdeaSchema, req.body, res);
+    if (!parsed) return errorResponse(res, "Invalid request body", 400);
+
+    const userId = req.user?._id?.toString?.() ?? (req.user as { id?: string })?.id ?? null;
+    const idea = await generateStoryIdea(
+      { seed: parsed.seed, genre: parsed.genre, level: parsed.languageLevel },
+      { userId }
+    );
+    return successResponse(res, "Story idea generated", idea);
+  } catch (error: any) {
+    logger.error("Error generating story idea:", error);
+    return errorResponse(res, error.message || "Error generating story idea", 500, error);
   }
 };

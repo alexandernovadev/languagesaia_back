@@ -40,6 +40,7 @@ const DEFAULT_CONFIGS: Record<AIFeature, Record<string, TextProvider>> = {
   },
   story: {
     text: "deepseek",
+    topic: "deepseek",
     image: "openai", // Images always use OpenAI (DALL-E)
   },
 };
