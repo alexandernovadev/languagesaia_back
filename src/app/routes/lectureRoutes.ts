@@ -13,6 +13,7 @@ import {
   updateImageLecture,
   generateTextStream,
   generateTopicStream,
+  continueLectureStream,
   generateAudioForLecture,
 } from "../controllers/LectureController";
 import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
@@ -24,6 +25,7 @@ router.param("idlecture", validateObjectId);
 // AI Generation routes
 router.post("/generate-text", aiLimiter, generateTextStream);
 router.post("/generate-topic-stream", aiLimiter, generateTopicStream);
+router.post("/:id/continue", aiLimiter, continueLectureStream);
 router.post("/generate-image/:idlecture", aiLimiter, updateImageLecture);
 router.post("/:id/generate-audio", aiLimiter, generateAudioForLecture);
 

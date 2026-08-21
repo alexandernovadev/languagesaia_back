@@ -12,6 +12,7 @@ import {
 import {
   generateLectureText,
   generateLectureTopic,
+  generateLectureContinuation,
   createLectureImagePrompt,
 } from "../services/ai/lectureAIService";
 import { WordQueryService } from "../services/words/WordQueryService";
@@ -540,5 +541,65 @@ export const generateTopicStream = async (req: Request, res: Response) => {
   } catch (error: any) {
     logger.error("Error generating topic stream:", error);
     return errorResponse(res, "Error generating topic", 500, error);
+  }
+};
+
+// Context window: only the end of the existing story is sent to the model
+const CONTINUATION_CONTEXT_CHARS = 3000;
+
+export const continueLectureStream = async (req: Request, res: Response) => {
+  const { rangeMin, rangeMax, instructions } = req.body;
+
+  try {
+    const lecture = await lectureService.getLectureById(req.params.id);
+    if (!lecture) {
+      return errorResponse(res, "Lecture not found", 404);
+    }
+
+    const fullContent = lecture.content || "";
+    if (!fullContent.trim()) {
+      return errorResponse(res, "Lecture has no content to continue", 400);
+    }
+
+    // Set up streaming headers
+    res.setHeader("Content-Type", "text/plain; charset=utf-8");
+    res.setHeader("Cache-Control", "no-cache");
+    res.setHeader("Connection", "keep-alive");
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+    const context =
+      fullContent.length > CONTINUATION_CONTEXT_CHARS
+        ? fullContent.slice(-CONTINUATION_CONTEXT_CHARS)
+        : fullContent;
+
+    const userId = req.user?._id || req.user?.id || null;
+    const stream = await generateLectureContinuation({
+      content: context,
+      level: lecture.difficulty,
+      typeWrite: lecture.typeWrite,
+      language: lecture.language,
+      rangeMin: Number(rangeMin) || 150,
+      rangeMax: Number(rangeMax) || 250,
+      instructions: typeof instructions === "string" ? instructions : "",
+    }, {
+      stream: true,
+      userId,
+    });
+
+    // Read the stream, strip markdown tables live, and send to the client
+    const tableFilter = createMarkdownTableFilter();
+    for await (const chunk of stream as any) {
+      const content = chunk.choices?.[0]?.delta?.content || "";
+      if (content) {
+        res.write(tableFilter.push(content));
+      }
+    }
+    res.write(tableFilter.flush());
+
+    res.end();
+  } catch (error: any) {
+    logger.error("Error generating continuation stream:", error);
+    return errorResponse(res, "Error trying to continue lecture", 500, error);
   }
 };

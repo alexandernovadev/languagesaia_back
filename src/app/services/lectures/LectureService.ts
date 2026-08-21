@@ -34,9 +34,23 @@ export class LectureService {
     id: string,
     data: Partial<ILecture>
   ): Promise<ILecture | null> {
-    const updateData = data.content !== undefined
-      ? { ...data, content: sanitizeLectureContent(data.content) }
-      : data;
+    let updateData = data;
+
+    if (data.content !== undefined) {
+      const content = sanitizeLectureContent(data.content);
+      // Recalculate reading time and invalidate stale audio when content changes
+      updateData = {
+        ...data,
+        content,
+        time: typeof data.time === "number" && data.time > 0
+          ? data.time
+          : calculateReadingTimeFromContent(content),
+        urlAudio: "",
+        audioRecordId: "",
+        voice: "",
+      };
+    }
+
     return await Lecture.findByIdAndUpdate(id, updateData, { new: true });
   }
 

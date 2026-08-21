@@ -4,6 +4,7 @@ import {
   createLectureTextGenerationPrompt,
   createTopicGenerationPrompt,
   createLectureImagePrompt,
+  createContinuationPrompt,
 } from "./prompts/lectures";
 import { getAIProvider } from "./aiConfigHelper";
 
@@ -95,3 +96,23 @@ export const generateLectureTopic = async (
 
 // For images, only returns the prompt — generation is handled by the image service
 export { createLectureImagePrompt };
+
+export const generateLectureContinuation = async (
+  params: Parameters<typeof createContinuationPrompt>[0],
+  options: LectureTextGenerationOptions = {}
+) => {
+  const provider = await getAIProvider(options.userId, 'lecture', 'text', options);
+  const promptData = createContinuationPrompt(params);
+
+  return generateText(
+    provider,
+    `${promptData.system}\n\n${promptData.user}`,
+    undefined,
+    {
+      ...options,
+      responseFormat: "text",
+      temperature: options.temperature || 0.7,
+      stream: true,
+    }
+  );
+};

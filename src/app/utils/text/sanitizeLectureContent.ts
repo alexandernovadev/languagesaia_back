@@ -63,14 +63,53 @@ export const removeMarkdownTables = (content: string): string => {
   return lines.join("\n").replace(/\n{3,}/g, "\n\n");
 };
 
-export const sanitizeLectureContent = (content: string): string => {
-  return normalizeHeadingMarks(removeMarkdownTables(content || "")).trim();
-};
-
-const HEADING_MARK_RE = /^(#{1,6})(?=\S)/gm;
+const HEADING_MARK_RE = /^(#{1,6})(?:[ \t]*#+)*[ \t]*(?=\S)/gm;
 
 export const normalizeHeadingMarks = (content: string): string =>
   content.replace(HEADING_MARK_RE, "$1 ");
+
+// Restore paragraph breaks lost by AI output: a line ending in sentence
+// punctuation followed by a line starting with a capital letter becomes a
+// paragraph boundary (skips headings, lists, blockquotes and code).
+const normalizeParagraphBreaks = (content: string): string => {
+  const lines = content.split("\n");
+  const result: string[] = [];
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    result.push(line);
+    const next = lines[i + 1];
+    if (!next) continue;
+    const t = line.trim();
+    const n = next.trim();
+    if (!t || !n) continue;
+    if (/^[#>|\-*+\d.]/.test(t) || /^[#>|\-*+\d.]/.test(n)) continue;
+    if (/[.!?]["'"”]?$/.test(t) && /^[A-ZÀ-Ý"“]/.test(n)) {
+      result.push("");
+    }
+  }
+  return result.join("\n");
+};
+
+// If the AI returned the whole content as a single line (no newlines),
+// split it into paragraphs of a few sentences each.
+const splitSingleLineParagraphs = (content: string): string => {
+  if (content.includes("\n") || !content.trim()) return content;
+  const sentences = (content.trim().match(/[^.!?]+[.!?]+["'"”]?|\S+$/g) || []).map((s) => s.trim());
+  const paragraphs: string[] = [];
+  for (let i = 0; i < sentences.length; i += 3) {
+    paragraphs.push(sentences.slice(i, i + 3).join(" "));
+  }
+  return paragraphs.filter(Boolean).join("\n\n");
+};
+
+export const sanitizeLectureContent = (content: string): string => {
+  const cleaned = normalizeParagraphBreaks(
+    splitSingleLineParagraphs(
+      normalizeHeadingMarks(removeMarkdownTables(content || ""))
+    )
+  );
+  return cleaned.trim();
+};
 
 // Streaming filter: removes markdown tables from a live text stream.
 // Any "|" line that could be the start of a table (or is inside one) is
@@ -84,11 +123,21 @@ export const createMarkdownTableFilter = () => {
     const lines = pending.split("\n");
     if (lines.length < 2) return "";
 
-    // Find the earliest pipe line that is either an unconfirmed table
-    // start (its next non-blank line has not arrived yet) or a confirmed
-    // table start (next non-blank line is a delimiter row). Everything
-    // from that line onward is held back.
+    // Hold back from the last non-empty line: trailing blank lines belong
+    // to the pending part, otherwise paragraph breaks get lost at chunk
+    // boundaries (e.g. a chunk ending in "\n\n").
     let holdFrom = -1;
+    for (let i = lines.length - 1; i >= 0; i--) {
+      if (lines[i].trim() !== "") {
+        holdFrom = i;
+        break;
+      }
+    }
+    if (holdFrom < 0) holdFrom = 0; // only blank lines so far: hold everything
+
+    // If the earliest pipe line is an unconfirmed table start (its next
+    // non-blank line has not arrived yet) or a confirmed table start (next
+    // non-blank line is a delimiter row), hold from that line instead.
     for (let i = 0; i < lines.length; i++) {
       if (!lines[i].includes("|")) continue;
       let j = i + 1;
@@ -104,14 +153,14 @@ export const createMarkdownTableFilter = () => {
       // Next line exists and is not a delimiter: not a table, keep scanning
     }
 
-    if (holdFrom < 0) {
-      // Nothing unconfirmed: flush everything except the last line,
-      // which may be a partial line mid-stream.
-      holdFrom = lines.length - 1;
+    // Compute the raw-string boundary where line `holdFrom` starts, so the
+    // flushed part keeps its newlines exactly (no join/rejoin).
+    let boundary = 0;
+    for (let i = 0; i < holdFrom; i++) {
+      boundary += lines[i].length + 1;
     }
-
-    const ready = lines.slice(0, holdFrom).join("\n");
-    pending = lines.slice(holdFrom).join("\n");
+    const ready = pending.slice(0, boundary);
+    pending = pending.slice(boundary);
     return removeMarkdownTables(ready);
   };
 

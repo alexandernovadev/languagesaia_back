@@ -62,6 +62,7 @@ CRITICAL - Vocabulary:
 Formatting guidelines:
 - Title must be "# Title".
 - ALWAYS write a space after the # characters in every heading (e.g. "# Title", "## Subtitle", "### Subtitle"). NEVER write "#Title" or "##Subtitle" without the space.
+- NEVER repeat the # symbol in a heading. NEVER write "## # Subtitle" or "# # Title" or any heading with more than one group of # symbols.
 - Use one main subtitle as "## Subtitle".
 - Use additional subtitles as "### Subtitle" frequently (every 2-3 paragraphs) for clear structure.
 - You can use h4 (####) and h5 (#####) headers for sub-sections.
@@ -107,5 +108,96 @@ ${selectedWordsInstructions}
     user: prompt && prompt.trim().length > 0
       ? "The topic would be " + prompt
       : "Generate a random everyday-life topic and write the text accordingly.",
+  };
+};
+
+export interface LectureContinuationPromptParams {
+  content: string;
+  level: string;
+  typeWrite: string;
+  language: string;
+  rangeMin?: number;
+  rangeMax?: number;
+  instructions?: string;
+}
+
+export const createContinuationPrompt = (params: LectureContinuationPromptParams) => {
+  const {
+    content,
+    level,
+    typeWrite,
+    language,
+    rangeMin = 150,
+    rangeMax = 250,
+    instructions = "",
+  } = params;
+
+  const instructionsSection = instructions && instructions.trim().length > 0
+    ? `
+🎯 USER INSTRUCTIONS (MANDATORY):
+${instructions.trim()}
+- Follow these instructions as the main plot direction for the continuation.
+`
+    : "";
+
+  return {
+    system: `
+You are continuing an existing story for language learning purposes.
+LANGUAGE: Always write in "${language}" according to ISO 639-1 standards.
+This text is for educational purposes with a "${typeWrite}" style, using vocabulary and
+complexity appropriate for a ${level} level.
+
+CRITICAL - Vocabulary:
+- ALWAYS use everyday, common vocabulary regardless of level. Never use rare, archaic, or overly formal words.
+- Complexity comes from grammar and sentence structure, NOT from obscure vocabulary.
+- Each word should be clickable and easily searchable in a dictionary.
+
+CONTINUATION RULES (MANDATORY):
+- Continue the story EXACTLY from where the existing text ends. The first sentence must follow naturally from the last sentence of the existing text.
+- Keep the SAME characters, names, places, setting, tone, and style as the existing text.
+- NEVER repeat, summarize, recap, or retell anything that already happened in the existing text.
+- NEVER introduce a new title, new headings, or "#" marks of any kind.
+- Do NOT add conclusions, closing phrases, or summaries at the end ("in conclusion", "to conclude", "the end", "para finalizar", "en conclusión", etc.).
+- The continuation must end in a way that could naturally continue further (another part may be generated later).
+- If user instructions are given, weave them naturally into the plot without explaining them.
+
+PARAGRAPH BREAKS (CRITICAL):
+- ALWAYS separate paragraphs with an empty line: write "\n\n" between paragraphs (an empty line between them).
+- NEVER write two paragraphs on the same line.
+- NEVER join the whole text into a single line or a single block without line breaks.
+- Use 1-3 sentences per paragraph, then a blank line, then the next paragraph.
+
+Formatting guidelines:
+- Write plain paragraphs and flat lists only.
+- ALWAYS write a space after the # characters in every heading (e.g. "# Title"). NEVER write "#Title" without the space.
+- Don't use old fashioned words.
+- Don't use nested lists (sub-lists) in the Markdown.
+
+CRITICAL - FORBIDDEN FORMATS:
+- NEVER use Markdown tables, pipe characters (|), or any tabular/column layout (no header rows, no "---" separator rows, no cells).
+- NEVER use HTML tables or any multi-column structure.
+- Content must be written as paragraphs, flat lists (no nesting), and blockquotes only.
+- If you need to present multiple items, use a simple flat list, never a table.
+
+Rich markdown formatting:
+- Use **bold** generously to highlight key vocabulary, important concepts, and punchy phrases (2-4 per paragraph).
+- Use *italic* for emphasis, emotions, or to draw attention to specific words.
+- Use blockquotes (>) for dialogue, memorable quotes, or key takeaways.
+- Vary paragraph length—mix short impactful sentences with longer descriptive ones.
+- Make the text visually rich and engaging with clear visual hierarchy.
+
+Length:
+- The continuation MUST be between ${rangeMin} and ${rangeMax} WORDS (not characters).
+- CRITICAL: Do NOT stop generating until you reach at least ${rangeMin} words.
+- CRITICAL: Do NOT exceed ${rangeMax} words.
+${instructionsSection}
+`.trim(),
+    user: `This is the existing text so far (it may be truncated; only the end matters). Continue the story EXACTLY from where it ends, following all rules:
+
+"""
+${content}
+"""
+
+Write ONLY the continuation text. No titles, no headings, no explanations.`,
   };
 };

@@ -13,7 +13,7 @@ import { sanitizeLectureContent } from "../src/app/utils/text/sanitizeLectureCon
   console.log("Conectado a MongoDB");
 
   const withIssues = await Lecture.find({
-    content: { $regex: /(\|)|(^#{1,6}\S)/m },
+    content: { $regex: /(\|)|(^#{1,6}[ \t]*#)/m },
   })
     .select("_id content")
     .lean();
@@ -30,6 +30,19 @@ import { sanitizeLectureContent } from "../src/app/utils/text/sanitizeLectureCon
   }
 
   console.log(`Contenido corregido en ${cleaned} lecturas`);
+
+  // Normalize paragraph breaks (and single-line content) in every lecture
+  const all = await Lecture.find({}).select("_id content").lean();
+  let spaced = 0;
+  for (const lecture of all) {
+    const normalized = sanitizeLectureContent(lecture.content || "");
+    if (normalized !== lecture.content) {
+      await Lecture.updateOne({ _id: lecture._id }, { $set: { content: normalized } });
+      spaced++;
+    }
+  }
+  console.log(`Párrafos normalizados en ${spaced} lecturas`);
+
   await mongoose.disconnect();
   process.exit(0);
 })().catch(async (err) => {
