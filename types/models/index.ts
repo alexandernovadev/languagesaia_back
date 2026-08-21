@@ -9,3 +9,5 @@ export type { IExam, IExamQuestion, IExamAttempt, IAttemptQuestion, ExamQuestion
 export type { AIFeature } from './AIConfig';
 export type { AIOperation } from './AIConfig';
 export type { AIProvider } from './AIConfig';
+export type { IStory, IChapter } from './Story';
+export type { IStoryProgress } from './StoryProgress';

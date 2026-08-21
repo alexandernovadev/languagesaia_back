@@ -137,6 +137,35 @@ export const toAttemptDTO = (doc: any) => {
   };
 };
 
+// ─── Story ─────────────────────────────────────────────────────────────────────
+
+export const toStoryDTO = (doc: any) => {
+  if (!doc) return null;
+  const d = plain(doc);
+  return {
+    _id: d._id,
+    title: d.title,
+    description: d.description,
+    img: d.img,
+    languageLevel: d.languageLevel,
+    targetVocabulary: d.targetVocabulary,
+    targetGrammar: d.targetGrammar,
+    genre: d.genre,
+    chapters: (d.chapters || []).map((ch: any) => ({
+      order: ch.order,
+      title: ch.title,
+      content: ch.content,
+      urlAudio: ch.urlAudio,
+      audioRecordId: ch.audioRecordId,
+      voice: ch.voice,
+      createdAt: ch.createdAt,
+    })),
+    userId: d.userId,
+    createdAt: d.createdAt,
+    updatedAt: d.updatedAt,
+  };
+};
+
 // ─── Paginated helper ─────────────────────────────────────────────────────────
 
 export const mapPaginated = <T>(

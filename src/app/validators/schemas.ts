@@ -7,6 +7,7 @@ import {
   certificationLevelsList,
   expressionTypesList,
   readingTypesList,
+  storyGenresList,
 } from "../data/business/shared";
 import { errorResponse } from "../utils/responseHelpers";
 
@@ -17,6 +18,7 @@ const wordTypesEnum = wordTypesList as [string, ...string[]];
 const certLevelsEnum = certificationLevelsList as [string, ...string[]];
 const expressionTypesEnum = expressionTypesList as [string, ...string[]];
 const readingTypesEnum = readingTypesList as [string, ...string[]];
+const storyGenresEnum = storyGenresList as [string, ...string[]];
 
 // ─── Word ────────────────────────────────────────────────────────────────────
 
@@ -106,6 +108,20 @@ export const ExamGenerateSchema = z.object({
   topic: z.string().optional(),
   language: z.string().optional(),
 });
+
+// ─── Story ─────────────────────────────────────────────────────────────────────
+
+export const StoryCreateSchema = z.object({
+  title: z.string().min(1).max(200),
+  description: z.string().min(1).max(2000),
+  img: z.string().optional(),
+  languageLevel: z.enum(certLevelsEnum),
+  targetVocabulary: z.array(z.string()).max(20).optional(),
+  targetGrammar: z.array(z.string()).optional(),
+  genre: z.enum(storyGenresEnum),
+});
+
+export const StoryUpdateSchema = StoryCreateSchema.partial();
 
 // ─── Helper ───────────────────────────────────────────────────────────────────
 

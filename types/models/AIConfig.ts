@@ -1,6 +1,6 @@
 import { Document } from "mongoose";
 
-export type AIFeature = "word" | "expression" | "lecture" | "exam";
+export type AIFeature = "word" | "expression" | "lecture" | "exam" | "story";
 
 export type AIOperation =
   | "generate"

@@ -38,6 +38,10 @@ const DEFAULT_CONFIGS: Record<AIFeature, Record<string, TextProvider>> = {
     questionFeedback: "openai",
     evaluateTranslation: "openai",
   },
+  story: {
+    text: "deepseek",
+    image: "openai", // Images always use OpenAI (DALL-E)
+  },
 };
 
 export class AIConfigService {
