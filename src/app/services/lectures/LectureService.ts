@@ -3,13 +3,7 @@ import { ILecture } from "../../../../types/models";
 import { calculateReadingTimeFromContent } from "../../utils/text/calculateReadingTime";
 import { sanitizeLectureContent } from "../../utils/text/sanitizeLectureContent";
 import { escapeRegex } from "../../utils/escapeRegex";
-
-interface PaginatedResult<T> {
-  data: T[];
-  total: number;
-  page: number;
-  pages: number;
-}
+import { paginateQuery, PaginatedResult } from "../db/paginationHelper";
 
 export class LectureService {
   // Basic CRUD operations
@@ -92,17 +86,7 @@ export class LectureService {
     limit: number = 10
   ): Promise<PaginatedResult<ILecture>> {
     const skip = (page - 1) * limit;
-    const [total, data] = await Promise.all([
-      Lecture.countDocuments(),
-      Lecture.find().skip(skip).sort({ createdAt: -1 }).limit(limit),
-    ]);
-
-    return {
-      data,
-      total,
-      page,
-      pages: Math.ceil(total / limit),
-    };
+    return paginateQuery(Lecture, {}, { sort: { createdAt: -1 }, skip, limit, page });
   }
 
   // Find operations
@@ -137,20 +121,13 @@ export class LectureService {
     // Include textScore to sort by relevance
     const projection = { score: { $meta: "textScore" } } as any;
 
-    const [total, data] = await Promise.all([
-      Lecture.countDocuments(filter),
-      Lecture.find(filter, projection)
-        .sort({ score: { $meta: "textScore" } })
-        .skip(skip)
-        .limit(limit),
-    ]);
-
-    return {
-      data,
-      total,
+    return paginateQuery(Lecture, filter, {
+      sort: { score: { $meta: "textScore" } },
+      projection,
+      skip,
+      limit,
       page,
-      pages: Math.ceil(total / limit),
-    };
+    });
   }
 
   async countLecturesByLevel(level: string): Promise<number> {
@@ -279,19 +256,6 @@ export class LectureService {
     // Projection
     const projection = query.$text ? { score: { $meta: "textScore" } } : {};
 
-    const [total, data] = await Promise.all([
-      Lecture.countDocuments(query),
-      Lecture.find(query, projection)
-        .sort(sortObj)
-        .skip(skip)
-        .limit(limit),
-    ]);
-
-    return {
-      data,
-      total,
-      page,
-      pages: Math.ceil(total / limit),
-    };
+    return paginateQuery(Lecture, query, { sort: sortObj, projection, skip, limit, page });
   }
 }

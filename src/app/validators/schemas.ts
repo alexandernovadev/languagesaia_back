@@ -116,8 +116,6 @@ export const StoryCreateSchema = z.object({
   description: z.string().min(1).max(2000),
   img: z.string().optional(),
   languageLevel: z.enum(certLevelsEnum),
-  targetVocabulary: z.array(z.string()).max(20).optional(),
-  targetGrammar: z.array(z.string()).optional(),
   genre: z.enum(storyGenresEnum),
 });
 
@@ -127,6 +125,20 @@ export const StoryIdeaSchema = z.object({
   seed: z.string().max(2000).optional(),
   genre: z.enum(storyGenresEnum).optional(),
   languageLevel: z.enum(certLevelsEnum).optional(),
+});
+
+export const ChapterGenerateSchema = z.object({
+  instructions: z.string().max(2000).optional(),
+  requestEnding: z.boolean().optional(),
+  targetVocabulary: z.array(z.string()).max(20).optional(),
+  targetGrammar: z.array(z.string()).optional(),
+});
+
+export const ChapterSaveSchema = z.object({
+  title: z.string().min(1),
+  content: z.string().min(1),
+  targetVocabulary: z.array(z.string()).max(20).optional(),
+  targetGrammar: z.array(z.string()).optional(),
 });
 
 // ─── Helper ───────────────────────────────────────────────────────────────────

@@ -3,13 +3,7 @@ import StoryProgress from "../../db/models/StoryProgress";
 import { IStory, IChapter, IStoryProgress } from "../../../../types/models";
 import { sanitizeLectureContent } from "../../utils/text/sanitizeLectureContent";
 import { escapeRegex } from "../../utils/escapeRegex";
-
-interface PaginatedResult<T> {
-  data: T[];
-  total: number;
-  page: number;
-  pages: number;
-}
+import { paginateQuery, PaginatedResult } from "../db/paginationHelper";
 
 export class StoryService {
   async createStory(data: Partial<IStory> & { userId: string }): Promise<IStory> {
@@ -18,8 +12,6 @@ export class StoryService {
       description: data.description || "",
       img: data.img || "",
       languageLevel: data.languageLevel,
-      targetVocabulary: data.targetVocabulary || [],
-      targetGrammar: data.targetGrammar || [],
       genre: data.genre,
       chapters: [],
       userId: data.userId,
@@ -91,12 +83,12 @@ export class StoryService {
     const sortField = ["createdAt", "title", "languageLevel"].includes(sortBy) ? sortBy : "createdAt";
     const sortDirection = sortOrder === "asc" ? 1 : -1;
 
-    const [total, data] = await Promise.all([
-      Story.countDocuments(query),
-      Story.find(query).sort({ [sortField]: sortDirection }).skip(skip).limit(limit),
-    ]);
-
-    return { data, total, page, pages: Math.ceil(total / limit) };
+    return paginateQuery(Story, query, {
+      sort: { [sortField]: sortDirection },
+      skip,
+      limit,
+      page,
+    });
   }
 
   async addChapter(storyId: string, chapter: Omit<IChapter, "createdAt">): Promise<IStory | null> {
@@ -135,6 +127,12 @@ export class StoryService {
     if (data.voice !== undefined) {
       updateData[`${updateKey}.voice`] = data.voice;
     }
+    if (data.targetVocabulary !== undefined) {
+      updateData[`${updateKey}.targetVocabulary`] = data.targetVocabulary;
+    }
+    if (data.targetGrammar !== undefined) {
+      updateData[`${updateKey}.targetGrammar`] = data.targetGrammar;
+    }
 
     return await Story.findByIdAndUpdate(storyId, { $set: updateData }, { new: true });
   }
@@ -155,7 +153,11 @@ export class StoryService {
     const story = await Story.findById(storyId);
     if (!story) return [];
 
-    const targetWords = story.targetVocabulary.map((w) => w.toLowerCase());
+    const targetWordsSet = new Set<string>();
+    story.chapters.forEach((ch) => {
+      (ch.targetVocabulary || []).forEach((w) => targetWordsSet.add(w.toLowerCase()));
+    });
+    const targetWords = Array.from(targetWordsSet);
     if (!targetWords.length) return [];
 
     const report = targetWords.map((word) => {

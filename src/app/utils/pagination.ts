@@ -10,3 +10,19 @@ export function parseLimit(raw: unknown, defaultValue: number): number {
   const value = isNaN(parsed) ? defaultValue : parsed;
   return Math.min(Math.max(value, 1), MAX_PAGINATION_LIMIT);
 }
+
+/**
+ * Parses a comma-separated query param into an array, passing through
+ * arrays and single values unchanged. Used by list endpoints that accept
+ * repeatable filters (e.g. `?genre=fantasy,mystery`).
+ */
+export function parseArrayParam(
+  param: string | string[] | undefined
+): string | string[] | undefined {
+  if (!param) return undefined;
+  if (Array.isArray(param)) return param;
+  if (typeof param === "string" && param.includes(",")) {
+    return param.split(",").map((v) => v.trim()).filter(Boolean);
+  }
+  return param;
+}

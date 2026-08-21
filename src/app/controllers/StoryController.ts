@@ -1,11 +1,19 @@
 import { Request, Response } from "express";
 import { StoryService } from "../services/stories/StoryService";
 import { successResponse, errorResponse } from "../utils/responseHelpers";
-import { parseLimit } from "../utils/pagination";
+import { parseLimit, parseArrayParam } from "../utils/pagination";
 import { toStoryDTO, mapPaginated } from "../dto/mappers";
-import { StoryCreateSchema, StoryUpdateSchema, StoryIdeaSchema, parseBody } from "../validators/schemas";
+import {
+  StoryCreateSchema,
+  StoryUpdateSchema,
+  StoryIdeaSchema,
+  ChapterGenerateSchema,
+  ChapterSaveSchema,
+  parseBody,
+} from "../validators/schemas";
 import { generateChapterText, generateStoryIdea } from "../services/ai/storyAIService";
-import { createMarkdownTableFilter } from "../utils/text/sanitizeLectureContent";
+import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
+import { getUserId } from "../utils/http/requestUser";
 import logger from "../utils/logger";
 
 const storyService = new StoryService();
@@ -15,7 +23,7 @@ export const createStory = async (req: Request, res: Response): Promise<Response
     const storyData = parseBody(StoryCreateSchema, req.body, res);
     if (!storyData) return errorResponse(res, "Invalid request body", 400);
 
-    const userId = req.user?._id?.toString?.() ?? (req.user as { id?: string })?.id ?? null;
+    const userId = getUserId(req);
     if (!userId) return errorResponse(res, "Authentication required", 401);
 
     const story = await storyService.createStory({ ...storyData, userId } as any);
@@ -74,15 +82,6 @@ export const getAllStories = async (req: Request, res: Response): Promise<Respon
     const page = parseInt(qPage) || 1;
     const limit = parseLimit(qLimit, 12);
 
-    const parseArrayParam = (param: string | string[] | undefined): string | string[] | undefined => {
-      if (!param) return undefined;
-      if (Array.isArray(param)) return param;
-      if (typeof param === "string" && param.includes(",")) {
-        return param.split(",").map((v) => v.trim()).filter(Boolean);
-      }
-      return param;
-    };
-
     const stories = await storyService.getStoriesAdvanced({
       page,
       limit,
@@ -101,16 +100,18 @@ export const getAllStories = async (req: Request, res: Response): Promise<Respon
 
 export const addChapter = async (req: Request, res: Response): Promise<Response> => {
   try {
-    const { title, content } = req.body;
-    if (!title || !content) return errorResponse(res, "Title and content are required", 400);
+    const chapterData = parseBody(ChapterSaveSchema, req.body, res);
+    if (!chapterData) return res;
 
     const story = await storyService.getStoryById(req.params.id);
     if (!story) return errorResponse(res, "Story not found", 404);
 
     const chapter = {
       order: story.chapters.length,
-      title,
-      content,
+      title: chapterData.title,
+      content: chapterData.content,
+      targetVocabulary: chapterData.targetVocabulary || [],
+      targetGrammar: chapterData.targetGrammar || [],
     };
 
     const updated = await storyService.addChapter(req.params.id, chapter);
@@ -163,7 +164,7 @@ export const updateProgress = async (req: Request, res: Response): Promise<Respo
       return errorResponse(res, "Valid chapterIndex is required", 400);
     }
 
-    const userId = req.user?._id?.toString?.() ?? (req.user as { id?: string })?.id ?? null;
+    const userId = getUserId(req);
     if (!userId) return errorResponse(res, "Authentication required", 401);
 
     const progress = await storyService.updateProgress(userId, req.params.id, chapterIndex);
@@ -175,7 +176,7 @@ export const updateProgress = async (req: Request, res: Response): Promise<Respo
 
 export const getProgress = async (req: Request, res: Response): Promise<Response> => {
   try {
-    const userId = req.user?._id?.toString?.() ?? (req.user as { id?: string })?.id ?? null;
+    const userId = getUserId(req);
     if (!userId) return errorResponse(res, "Authentication required", 401);
 
     const progress = await storyService.getProgress(userId, req.params.id);
@@ -186,7 +187,9 @@ export const getProgress = async (req: Request, res: Response): Promise<Response
 };
 
 export const generateChapterStream = async (req: Request, res: Response): Promise<Response> => {
-  const { instructions, requestEnding } = req.body;
+  const parsed = parseBody(ChapterGenerateSchema, req.body, res);
+  if (!parsed) return res;
+  const { instructions, requestEnding, targetVocabulary, targetGrammar } = parsed;
 
   try {
     const story = await storyService.getStoryById(req.params.id);
@@ -197,21 +200,16 @@ export const generateChapterStream = async (req: Request, res: Response): Promis
       content: ch.content,
     }));
 
-    // Set up streaming headers
-    res.setHeader("Content-Type", "text/plain; charset=utf-8");
-    res.setHeader("Cache-Control", "no-cache");
-    res.setHeader("Connection", "keep-alive");
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    setSSEHeaders(res);
 
-    const userId = req.user?._id || req.user?.id || null;
+    const userId = getUserId(req);
     const stream = await generateChapterText({
       storyTitle: story.title,
       storyDescription: story.description,
       storyGenre: story.genre,
       languageLevel: story.languageLevel,
-      targetVocabulary: story.targetVocabulary,
-      targetGrammar: story.targetGrammar,
+      targetVocabulary: targetVocabulary || [],
+      targetGrammar: targetGrammar || [],
       previousChapters,
       chapterNumber: story.chapters.length + 1,
       instructions: typeof instructions === "string" ? instructions : "",
@@ -221,17 +219,7 @@ export const generateChapterStream = async (req: Request, res: Response): Promis
       userId,
     });
 
-    // Read the stream, strip markdown tables live, and send to the client
-    const tableFilter = createMarkdownTableFilter();
-    for await (const chunk of stream as any) {
-      const content = chunk.choices?.[0]?.delta?.content || "";
-      if (content) {
-        res.write(tableFilter.push(content));
-      }
-    }
-    res.write(tableFilter.flush());
-
-    res.end();
+    await streamTextResponse(res, stream as AsyncIterable<any>);
   } catch (error: any) {
     logger.error("Error generating chapter stream:", error);
     return errorResponse(res, "Error trying to generate chapter", 500, error);
@@ -243,7 +231,7 @@ export const generateIdea = async (req: Request, res: Response): Promise<Respons
     const parsed = parseBody(StoryIdeaSchema, req.body, res);
     if (!parsed) return errorResponse(res, "Invalid request body", 400);
 
-    const userId = req.user?._id?.toString?.() ?? (req.user as { id?: string })?.id ?? null;
+    const userId = getUserId(req);
     const idea = await generateStoryIdea(
       { seed: parsed.seed, genre: parsed.genre, level: parsed.languageLevel },
       { userId }

@@ -1,11 +1,5 @@
 // Centralized export of all AI prompts
 
-// Text Generation Prompts
-export {
-  createTextGenerationPrompt,
-  type TextGenerationPromptParams,
-} from './textGenerationPrompts';
-
 // Topic Generation Prompts
 export {
   createTopicGenerationPrompt,

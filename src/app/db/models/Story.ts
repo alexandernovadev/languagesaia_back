@@ -10,6 +10,8 @@ const ChapterSchema = new Schema(
     urlAudio: { type: String, default: "" },
     audioRecordId: { type: String, default: "" },
     voice: { type: String, default: "" },
+    targetVocabulary: { type: [String], default: [] },
+    targetGrammar: { type: [String], default: [] },
   },
   { timestamps: true }
 );
@@ -20,8 +22,6 @@ const storySchema = new Schema<IStory>(
     description: { type: String, required: true },
     img: { type: String, default: "" },
     languageLevel: { type: String, required: true, enum: certificationLevelsList },
-    targetVocabulary: { type: [String], default: [] },
-    targetGrammar: { type: [String], default: [] },
     genre: { type: String, required: true, enum: storyGenresList },
     chapters: { type: [ChapterSchema], default: [] },
     userId: { type: String, required: true },

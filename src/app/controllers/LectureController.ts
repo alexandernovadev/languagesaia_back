@@ -3,7 +3,7 @@ import { LectureService } from "../services/lectures/LectureService";
 import { LectureExportService } from "../services/lectures/LectureExportService";
 import { LectureImportService } from "../services/import/LectureImportService";
 import { successResponse, errorResponse } from "../utils/responseHelpers";
-import { parseLimit } from "../utils/pagination";
+import { parseLimit, parseArrayParam } from "../utils/pagination";
 import { validateJsonBuffer, MAX_IMPORT_ITEMS } from "../middlewares/uploadMiddleware";
 import {
   deleteImageFromCloudinary,
@@ -19,7 +19,8 @@ import { WordQueryService } from "../services/words/WordQueryService";
 import { promptAddEasyWords } from "../services/ai/prompts/promptAddEasyWords";
 import { generateImage } from "../services/ai/imageAIService";
 import { generateLectureAudio } from "../services/audio/lectureAudioService";
-import { createMarkdownTableFilter } from "../utils/text/sanitizeLectureContent";
+import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
+import { getUserId } from "../utils/http/requestUser";
 import { getAIProvider } from "../services/ai/aiConfigHelper";
 import type { ImageProvider } from "../../config/aiConfig";
 import logger from "../utils/logger";
@@ -143,17 +144,6 @@ export const getAllLectures = async (
 
     const page = parseInt(qPage) || 1;
     const limit = parseLimit(qLimit, 10);
-
-    // Parse comma-separated strings into arrays for level, language, typeWrite
-    const parseArrayParam = (param: string | string[] | undefined): string | string[] | undefined => {
-      if (!param) return undefined;
-      if (Array.isArray(param)) return param;
-      // If it's a string with commas, split it
-      if (typeof param === 'string' && param.includes(',')) {
-        return param.split(',').map(v => v.trim()).filter(v => v);
-      }
-      return param;
-    };
 
     const languageToUse = parseArrayParam(language) ?? (req.user?.language ? [req.user.language] : undefined);
     const lectures = await lectureService.getLecturesAdvanced({
@@ -355,8 +345,7 @@ export const updateImageLecture = async (req: Request, res: Response) => {
   }
 
   try {
-    const userId =
-      req.user?._id?.toString?.() ?? (req.user as { id?: string })?.id ?? null;
+    const userId = getUserId(req);
     const imageProvider = (await getAIProvider(
       userId,
       "lecture",
@@ -443,14 +432,9 @@ export const generateTextStream = async (req: Request, res: Response) => {
       promptWords = promptAddEasyWords(wordsArray);
     }
 
-    // Set up streaming headers
-    res.setHeader("Content-Type", "text/plain; charset=utf-8");
-    res.setHeader("Cache-Control", "no-cache");
-    res.setHeader("Connection", "keep-alive");
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    setSSEHeaders(res);
 
-    const userId = req.user?._id || req.user?.id || null;
+    const userId = getUserId(req);
     // Pasar stream: true en las opciones
     const stream = await generateLectureText({
       prompt: (prompt || "").toString(),
@@ -467,18 +451,7 @@ export const generateTextStream = async (req: Request, res: Response) => {
       userId,
     });
 
-    // Read the stream, strip markdown tables live, and send to the client
-    const tableFilter = createMarkdownTableFilter();
-    for await (const chunk of stream as any) {
-      const content = chunk.choices?.[0]?.delta?.content || "";
-      if (content) {
-        res.write(tableFilter.push(content));
-      }
-    }
-    res.write(tableFilter.flush());
-
-    // Close the stream when done
-    res.end();
+    await streamTextResponse(res, stream as AsyncIterable<any>);
   } catch (error) {
     return errorResponse(
       res,
@@ -511,14 +484,9 @@ export const generateTopicStream = async (req: Request, res: Response) => {
       );
     }
 
-    // Set headers for streaming
-    res.setHeader("Content-Type", "text/plain; charset=utf-8");
-    res.setHeader("Cache-Control", "no-cache");
-    res.setHeader("Connection", "keep-alive");
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    setSSEHeaders(res);
 
-    const userId = req.user?._id || req.user?.id || null;
+    const userId = getUserId(req);
     const language = req.user?.language || "en";
     const stream = await generateLectureTopic({
       existingText: existingText || "",
@@ -529,15 +497,7 @@ export const generateTopicStream = async (req: Request, res: Response) => {
       userId,
     });
 
-    // Stream the response
-    for await (const chunk of stream as any) {
-      const content = chunk.choices?.[0]?.delta?.content || "";
-      if (content) {
-        res.write(content);
-      }
-    }
-
-    res.end();
+    await streamTextResponse(res, stream as AsyncIterable<any>, { filterMarkdownTables: false });
   } catch (error: any) {
     logger.error("Error generating topic stream:", error);
     return errorResponse(res, "Error generating topic", 500, error);
@@ -561,19 +521,14 @@ export const continueLectureStream = async (req: Request, res: Response) => {
       return errorResponse(res, "Lecture has no content to continue", 400);
     }
 
-    // Set up streaming headers
-    res.setHeader("Content-Type", "text/plain; charset=utf-8");
-    res.setHeader("Cache-Control", "no-cache");
-    res.setHeader("Connection", "keep-alive");
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    setSSEHeaders(res);
 
     const context =
       fullContent.length > CONTINUATION_CONTEXT_CHARS
         ? fullContent.slice(-CONTINUATION_CONTEXT_CHARS)
         : fullContent;
 
-    const userId = req.user?._id || req.user?.id || null;
+    const userId = getUserId(req);
     const stream = await generateLectureContinuation({
       content: context,
       level: lecture.difficulty,
@@ -587,17 +542,7 @@ export const continueLectureStream = async (req: Request, res: Response) => {
       userId,
     });
 
-    // Read the stream, strip markdown tables live, and send to the client
-    const tableFilter = createMarkdownTableFilter();
-    for await (const chunk of stream as any) {
-      const content = chunk.choices?.[0]?.delta?.content || "";
-      if (content) {
-        res.write(tableFilter.push(content));
-      }
-    }
-    res.write(tableFilter.flush());
-
-    res.end();
+    await streamTextResponse(res, stream as AsyncIterable<any>);
   } catch (error: any) {
     logger.error("Error generating continuation stream:", error);
     return errorResponse(res, "Error trying to continue lecture", 500, error);

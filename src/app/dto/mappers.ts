@@ -148,8 +148,6 @@ export const toStoryDTO = (doc: any) => {
     description: d.description,
     img: d.img,
     languageLevel: d.languageLevel,
-    targetVocabulary: d.targetVocabulary,
-    targetGrammar: d.targetGrammar,
     genre: d.genre,
     chapters: (d.chapters || []).map((ch: any) => ({
       order: ch.order,
@@ -158,6 +156,8 @@ export const toStoryDTO = (doc: any) => {
       urlAudio: ch.urlAudio,
       audioRecordId: ch.audioRecordId,
       voice: ch.voice,
+      targetVocabulary: ch.targetVocabulary,
+      targetGrammar: ch.targetGrammar,
       createdAt: ch.createdAt,
     })),
     userId: d.userId,
