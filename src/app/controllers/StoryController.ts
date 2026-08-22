@@ -203,11 +203,13 @@ export const generateChapterStream = async (req: Request, res: Response): Promis
     setSSEHeaders(res);
 
     const userId = getUserId(req);
+    const language = req.user?.language || "en";
     const stream = await generateChapterText({
       storyTitle: story.title,
       storyDescription: story.description,
       storyGenre: story.genre,
       languageLevel: story.languageLevel,
+      language,
       targetVocabulary: targetVocabulary || [],
       targetGrammar: targetGrammar || [],
       previousChapters,
@@ -232,8 +234,9 @@ export const generateIdea = async (req: Request, res: Response): Promise<Respons
     if (!parsed) return errorResponse(res, "Invalid request body", 400);
 
     const userId = getUserId(req);
+    const language = req.user?.language || "en";
     const idea = await generateStoryIdea(
-      { seed: parsed.seed, genre: parsed.genre, level: parsed.languageLevel },
+      { seed: parsed.seed, genre: parsed.genre, level: parsed.languageLevel, language },
       { userId }
     );
     return successResponse(res, "Story idea generated", idea);

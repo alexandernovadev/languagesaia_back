@@ -1,3 +1,5 @@
+import { getLangLabel } from "../langUtils";
+
 export interface StoryIdeaPromptParams {
   seed?: string;
   genre?: string;
@@ -7,12 +9,13 @@ export interface StoryIdeaPromptParams {
 
 export const createStoryIdeaPrompt = (params: StoryIdeaPromptParams) => {
   const { seed = "", genre = "any genre", level = "B1", language = "en" } = params;
+  const langLabel = getLangLabel(language);
   const hasSeed = seed.trim().length > 0;
 
   return {
     system: `
 You are an AI specialized in inventing story premises for language learners.
-LANGUAGE: Always output in ${language}.
+LANGUAGE: Always output in ${langLabel}.
 🎯 TASK: Generate a story "title" and "description" for a ${genre} story at ${level} level.
 ${
   hasSeed
@@ -20,7 +23,7 @@ ${
     - Treat the provided text as the user's own title/description draft (it may be partial, rough, or in another language)
     - Expand and polish it into a proper title + description, keeping the core idea intact
     - Do NOT ignore or replace the user's concept — build on top of it
-    - Translate/adapt to ${language} if needed`
+    - Translate/adapt to ${langLabel} if needed`
     : `🎲 RANDOM PREMISE: No user text was provided — invent a completely original story premise
     - Make it engaging and appropriate for the ${genre} genre and ${level} level`
 }
@@ -33,7 +36,7 @@ ${
 - No text before or after the JSON
 `.trim(),
     user: hasSeed
-      ? `Turn this into a polished story title and description in ${language} for a ${genre} story at ${level} level: ${seed.trim()}`
-      : `Invent an original story title and description in ${language} for a ${genre} story at ${level} level.`,
+      ? `Turn this into a polished story title and description in ${langLabel} for a ${genre} story at ${level} level: ${seed.trim()}`
+      : `Invent an original story title and description in ${langLabel} for a ${genre} story at ${level} level.`,
   };
 };

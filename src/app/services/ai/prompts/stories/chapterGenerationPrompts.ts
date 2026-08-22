@@ -1,8 +1,11 @@
+import { getLangLabel } from "../langUtils";
+
 export interface ChapterGenerationPromptParams {
   storyTitle: string;
   storyDescription: string;
   storyGenre: string;
   languageLevel: string;
+  language?: string;
   targetVocabulary: string[];
   targetGrammar: string[];
   previousChapters: { title: string; content: string }[];
@@ -16,6 +19,7 @@ export const createChapterGenerationPrompt = (params: ChapterGenerationPromptPar
     storyTitle,
     storyGenre,
     languageLevel,
+    language = "en",
     targetVocabulary,
     targetGrammar,
     previousChapters,
@@ -23,6 +27,7 @@ export const createChapterGenerationPrompt = (params: ChapterGenerationPromptPar
     instructions = "",
     requestEnding = false,
   } = params;
+  const langLabel = getLangLabel(language);
 
   const vocabInstruction = targetVocabulary.length > 0
     ? `
@@ -97,7 +102,7 @@ Weave them naturally into the plot without explaining them.
 
   return {
     system: `
-You are a skilled storyteller writing a ${storyGenre} story titled "${storyTitle}" for English language learners at ${languageLevel} level.
+You are a skilled storyteller writing a ${storyGenre} story titled "${storyTitle}" for ${langLabel} language learners at ${languageLevel} level.
 
 STORY DESCRIPTION:
 ${params.storyDescription}
@@ -123,7 +128,7 @@ LEVEL-APPROPRIATE LANGUAGE:
 - For ${languageLevel} level:
   - **A1-A2:** Use simple words, basic sentences, short clear examples.
   - **B1-B2:** Use intermediate vocabulary, compound sentences, real-world examples.
-  - **C1-C2:** Use everyday, common English vocabulary. Complexity comes from grammar and sentence structure, NOT from rare or fancy words.
+  - **C1-C2:** Use everyday, common ${langLabel} vocabulary. Complexity comes from grammar and sentence structure, NOT from rare or fancy words.
 
 ${vocabInstruction}
 ${grammarInstruction}
@@ -136,7 +141,7 @@ LENGTH:
 - CRITICAL: Do NOT stop generating until you reach at least 300 words.
 - Count words carefully.
 
-LANGUAGE: English only.
+LANGUAGE: Always write in ${langLabel} only.
 `,
     user: `Write chapter ${chapterNumber} of "${storyTitle}" (${storyGenre}). ${requestEnding ? "This is the FINAL chapter — bring the story to a satisfying conclusion." : "Continue the story naturally without a final ending."}`,
   };
