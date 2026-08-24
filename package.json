@@ -1,6 +1,6 @@
 {
   "name": "back",
-  "version": "8.3.22",
+  "version": "8.3.99",
   "main": "dist/main.js",
   "scripts": {
     "build": "rm -rf ./dist && tsc && mv dist/src/* dist/ && rm -rf dist/src && cp -r public dist/public && node scripts/build-date.js",
