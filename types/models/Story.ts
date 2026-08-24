@@ -1,5 +1,5 @@
 import { Document } from "mongoose";
-import { CertificationLevel, StoryGenre } from "../business";
+import { CertificationLevel, StoryGenre, Language } from "../business";
 
 export interface IChapter {
   order: number;
@@ -18,6 +18,7 @@ export interface IStory extends Document {
   description: string;
   img: string;
   languageLevel: CertificationLevel;
+  language: Language;
   genre: StoryGenre;
   chapters: IChapter[];
   userId: string;

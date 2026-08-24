@@ -26,7 +26,8 @@ export const createStory = async (req: Request, res: Response): Promise<Response
     const userId = getUserId(req);
     if (!userId) return errorResponse(res, "Authentication required", 401);
 
-    const story = await storyService.createStory({ ...storyData, userId } as any);
+    const language = req.user?.language || "en";
+    const story = await storyService.createStory({ ...storyData, language, userId } as any);
     return successResponse(res, "Story created successfully", toStoryDTO(story), 201);
   } catch (error) {
     logger.error("Error creating story:", error);
@@ -75,6 +76,7 @@ export const getAllStories = async (req: Request, res: Response): Promise<Respon
       search = "",
       genre,
       level,
+      language,
       sortBy,
       sortOrder,
     } = req.query as any;
@@ -82,12 +84,15 @@ export const getAllStories = async (req: Request, res: Response): Promise<Respon
     const page = parseInt(qPage) || 1;
     const limit = parseLimit(qLimit, 12);
 
+    const languageToUse = parseArrayParam(language) ?? (req.user?.language ? [req.user.language] : undefined);
+
     const stories = await storyService.getStoriesAdvanced({
       page,
       limit,
       search,
       genre: parseArrayParam(genre),
       level: parseArrayParam(level),
+      language: languageToUse,
       sortBy,
       sortOrder,
     });

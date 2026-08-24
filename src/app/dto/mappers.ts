@@ -148,6 +148,7 @@ export const toStoryDTO = (doc: any) => {
     description: d.description,
     img: d.img,
     languageLevel: d.languageLevel,
+    language: d.language,
     genre: d.genre,
     chapters: (d.chapters || []).map((ch: any) => ({
       order: ch.order,

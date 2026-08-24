@@ -12,6 +12,7 @@ export class StoryService {
       description: data.description || "",
       img: data.img || "",
       languageLevel: data.languageLevel,
+      language: data.language,
       genre: data.genre,
       chapters: [],
       userId: data.userId,
@@ -49,6 +50,7 @@ export class StoryService {
     search?: string;
     genre?: string | string[];
     level?: string | string[];
+    language?: string | string[];
     sortBy?: string;
     sortOrder?: string;
   } = {}): Promise<PaginatedResult<IStory>> {
@@ -58,6 +60,7 @@ export class StoryService {
       search = "",
       genre,
       level,
+      language,
       sortBy = "createdAt",
       sortOrder = "desc",
     } = filters;
@@ -78,6 +81,10 @@ export class StoryService {
 
     if (level) {
       query.languageLevel = Array.isArray(level) ? { $in: level } : level;
+    }
+
+    if (language) {
+      query.language = Array.isArray(language) ? { $in: language } : language;
     }
 
     const sortField = ["createdAt", "title", "languageLevel"].includes(sortBy) ? sortBy : "createdAt";

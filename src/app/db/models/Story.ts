@@ -1,6 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 import { IStory } from "../../../../types/models";
-import { certificationLevelsList, storyGenresList } from "../../data/business/shared";
+import { certificationLevelsList, storyGenresList, languagesList } from "../../data/business/shared";
 
 const ChapterSchema = new Schema(
   {
@@ -22,6 +22,7 @@ const storySchema = new Schema<IStory>(
     description: { type: String, required: true },
     img: { type: String, default: "" },
     languageLevel: { type: String, required: true, enum: certificationLevelsList },
+    language: { type: String, required: true, enum: languagesList },
     genre: { type: String, required: true, enum: storyGenresList },
     chapters: { type: [ChapterSchema], default: [] },
     userId: { type: String, required: true },
@@ -30,6 +31,7 @@ const storySchema = new Schema<IStory>(
 );
 
 storySchema.index({ genre: 1, languageLevel: 1 });
+storySchema.index({ language: 1 });
 storySchema.index({ userId: 1 });
 storySchema.index({ "chapters.order": 1 });
 
