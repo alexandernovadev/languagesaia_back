@@ -66,7 +66,8 @@ ${recentChapters.map((ch, i) => `--- Chapter ${chapterNumber - recentChapters.le
 
 CONTINUATION RULES (MANDATORY):
 - Continue the story EXACTLY from where the chapter above ended.
-- Keep the SAME characters, names, places, setting, tone, and style.
+- Keep the SAME characters, names, and overall tone/style, unless the USER INSTRUCTIONS above explicitly ask for a change.
+- Keep the SAME places/setting UNLESS the USER INSTRUCTIONS above explicitly request a new location or scene — in that case, transition into it naturally.
 - NEVER repeat, summarize, recap, or retell anything that already happened.
 - NEVER introduce a new title for this chapter within the content (the chapter title is separate).
 `
@@ -94,9 +95,12 @@ CONTINUATION RULES (MANDATORY):
 
   const userInstructions = instructions
     ? `
-USER INSTRUCTIONS:
-The user has given these specific instructions: ${instructions}
-Weave them naturally into the plot without explaining them.
+🎯 USER INSTRUCTIONS FOR THIS CHAPTER (HIGHEST PRIORITY — MUST FOLLOW):
+"${instructions}"
+- This is the single most important requirement for this chapter. Build the chapter's events around it.
+- If it implies a change of scene, location, or focus, make that change happen — adapt the setting/scene as needed while keeping the same established characters and overall story tone.
+- Do NOT ignore, water down, or just vaguely gesture at this instruction — it must be clearly reflected in what actually happens in the chapter.
+- Weave it naturally into the narrative; do NOT explain it or break the fourth wall about it.
 `
     : "";
 
@@ -106,7 +110,7 @@ You are a skilled storyteller writing a ${storyGenre} story titled "${storyTitle
 
 STORY DESCRIPTION:
 ${params.storyDescription}
-
+${userInstructions}
 CHAPTER ${chapterNumber} GENERATION RULES:
 
 PARAGRAPH BREAKS (CRITICAL):
@@ -134,7 +138,6 @@ ${vocabInstruction}
 ${grammarInstruction}
 ${contextInstruction}
 ${endingInstruction}
-${userInstructions}
 
 LENGTH:
 - The chapter MUST be between 300 and 500 words (not characters).
@@ -143,6 +146,6 @@ LENGTH:
 
 LANGUAGE: Always write in ${langLabel} only.
 `,
-    user: `Write chapter ${chapterNumber} of "${storyTitle}" (${storyGenre}). ${requestEnding ? "This is the FINAL chapter — bring the story to a satisfying conclusion." : "Continue the story naturally without a final ending."}`,
+    user: `Write chapter ${chapterNumber} of "${storyTitle}" (${storyGenre}). ${requestEnding ? "This is the FINAL chapter — bring the story to a satisfying conclusion." : "Continue the story naturally without a final ending."}${instructions ? ` Make sure this chapter follows this specific instruction: "${instructions}".` : ""}`,
   };
 };
