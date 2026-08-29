@@ -73,6 +73,12 @@ CRITICAL - SINGLE CHOICE (unique, fillInBlank):
 - BAD: 4 options that could all work in different contexts. GOOD: 1 correct + 3 wrong forms (wrong tense, wrong agreement, wrong structure).
 - Example fillInBlank "She _____ to school": correct "goes"; wrong "go" (no -s), "going" (needs auxiliary), "gone" (past participle wrong). All wrong options are plausible mistakes but clearly incorrect.
 
+CRITICAL - ASPECT/NUANCE GRAMMAR TOPICS (e.g. simple past vs past continuous, present perfect vs simple past, simple vs continuous forms):
+- For these topics, more than one tense/aspect can be grammatically valid in an underspecified sentence (e.g. "When I _____ the article, I realized my mistake" - both "read" and "was reading" are grammatical, just different nuance). This is NOT a valid single-choice question as-is.
+- You MUST add disambiguating context (a time marker, a second clause, an adverb, an interrupting action, a duration phrase) so that ONLY ONE option is correct in that specific sentence. Do not rely on the blank alone to force a single answer.
+- Example: instead of "When I _____ the article, I realized my mistake" use "I _____ the article for ten minutes when the phone suddenly rang" (forces past continuous) or "As soon as I _____ the article, I closed the book" (forces simple past).
+- Before finalizing such a question, double-check mentally that each distractor, if inserted, would actually sound wrong/ungrammatical to a native speaker given the added context - not just "less natural" or "a different nuance".
+
 CRITICAL - MULTIPLE CHOICE (multiple):
 - Use correctIndices (array), never correctIndex. At least 2 correct options.
 - The 2+ correct options must BOTH be valid answers to the question.
