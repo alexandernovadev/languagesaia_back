@@ -56,8 +56,14 @@ OUTPUT: Return ONLY valid JSON. No markdown, no explanation.
 RULES:
 - Each question has "type" matching the requested type
 - Distribute grammar topics across questions
-- Match vocabulary and structures to ${difficulty} level
+- Match vocabulary and structures to ${difficulty} level (see CEFR LEVEL CALIBRATION below)
 - explanation: brief, pedagogical, in ${language}
+
+CRITICAL - CEFR LEVEL CALIBRATION for ${difficulty}:
+- A1-A2: Very simple, high-frequency vocabulary. Short, simple sentences (present/past simple, basic connectors like "and", "but", "because"). No idioms, no complex clauses. Question "text" ~6-10 words per sentence.
+- B1-B2: Intermediate vocabulary. Compound/complex sentences, wider tense range (perfect tenses, conditionals, passive voice, reported speech), some idiomatic language. Distractors can involve subtler grammar mistakes. Question "text" ~10-16 words, allowing one subordinate clause.
+- C1-C2: Everyday, common vocabulary (do NOT rely on rare/fancy words) - complexity comes from grammar, sentence structure, and nuance instead: advanced conditionals, inversion, subordination, nuanced tense/aspect contrasts, register shifts. Distractors must be subtle, realistic errors a learner at this level could plausibly make - not obvious mistakes. Question "text" ~14-22 words, with embedded/subordinate structures.
+- Do NOT reuse the same sentence length/structure across different levels. The difference between ${difficulty} and other levels must be clearly visible in the generated text, not just in vocabulary choice.
 
 CRITICAL - UNIQUENESS:
 - Each question must be clearly different from the others. No duplicate or near-duplicate questions.

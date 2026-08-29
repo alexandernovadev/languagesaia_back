@@ -102,7 +102,7 @@ export const ExamCreateSchema = z.object({
 
 export const ExamGenerateSchema = z.object({
   grammarTopics: z.array(z.string()).min(1, "At least one grammar topic required"),
-  difficulty: z.string().min(1),
+  difficulty: z.enum(certLevelsEnum),
   questionCount: z.number({ coerce: true }).int().positive().max(50),
   questionTypes: z.array(z.string()).optional(),
   topic: z.string().optional(),
