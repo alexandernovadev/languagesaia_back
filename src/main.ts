@@ -9,7 +9,8 @@ import {
 import { generalLimiter, authLimiter } from "./app/middlewares/rateLimiters";
 
 import { connectDB, disconnectDB } from "./app/db/mongoConnection";
-import { initializeBackupScheduler } from "./app/services/backup/backupSchedulerService";
+// Disabled for now — not vital, may re-enable later now that we run our own VPS.
+// import { initializeBackupScheduler } from "./app/services/backup/backupSchedulerService";
 import logger from "./app/utils/logger";
 
 // Routes
@@ -157,12 +158,13 @@ async function init() {
       logger.info(`Express trust proxy: ${JSON.stringify(app.get("trust proxy"))}`);
 
       // Initialize backup cron scheduler
-      try {
-        initializeBackupScheduler();
-        logger.info("Backup cron scheduler initialized");
-      } catch (error) {
-        logger.error("Failed to initialize backup cron scheduler", { error });
-      }
+      // Disabled for now — not vital, may re-enable later now that we run our own VPS.
+      // try {
+      //   initializeBackupScheduler();
+      //   logger.info("Backup cron scheduler initialized");
+      // } catch (error) {
+      //   logger.error("Failed to initialize backup cron scheduler", { error });
+      // }
     });
 
     // Default socket timeout: 30s. AI/upload routes override this to 120s
