@@ -17,6 +17,7 @@ import {
   generateChapterTitleHandler,
   updateImageStory,
   generateIdea,
+  generateChapterAudioHandler,
 } from "../controllers/StoryController";
 
 const router = Router();
@@ -39,6 +40,7 @@ router.post("/:id/chapters/title", aiLimiter, generateChapterTitleHandler);
 router.post("/:id/chapters/save", addChapter);
 router.put("/:id/chapters/:chapterIndex", updateChapter);
 router.delete("/:id/chapters/:chapterIndex", deleteChapter);
+router.post("/:id/chapters/:chapterIndex/generate-audio", aiLimiter, generateChapterAudioHandler);
 
 // Vocab report
 router.get("/:id/vocab-report", getVocabReport);

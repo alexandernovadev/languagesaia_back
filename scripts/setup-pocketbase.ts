@@ -36,7 +36,7 @@ const COLLECTION = "lecture_audio";
         mimeTypes: ["audio/mpeg", "audio/mp3", "audio/wav", "audio/m4a"],
       },
       {
-        name: "lectureId",
+        name: "contentId",
         type: "text",
         required: false,
         max: 100,

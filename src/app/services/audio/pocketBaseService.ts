@@ -36,11 +36,11 @@ export const audioFileUrl = (record: any): string => {
 export const uploadAudioToPocketBase = async (
   audioBuffer: Buffer,
   filename: string,
-  meta: { lectureId: string; voice: string }
+  meta: { contentId: string; voice: string }
 ): Promise<{ url: string; recordId: string }> => {
   const client = await ensureAuth();
   const formData = new FormData();
-  formData.append("lectureId", meta.lectureId);
+  formData.append("contentId", meta.contentId);
   formData.append("voice", meta.voice);
   formData.append("audio", new Blob([new Uint8Array(audioBuffer)], { type: "audio/mpeg" }), filename);
 

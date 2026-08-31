@@ -23,6 +23,8 @@ import {
 import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
 import { getUserId } from "../utils/http/requestUser";
 import logger from "../utils/logger";
+import { DEFAULT_TTS_VOICE, generateChapterAudio } from "../services/audio/textToSpeechService";
+import { deleteAudioFromPocketBase, uploadAudioToPocketBase } from "../services/audio/pocketBaseService";
 
 const storyService = new StoryService();
 
@@ -158,6 +160,54 @@ export const deleteChapter = async (req: Request, res: Response): Promise<Respon
     return successResponse(res, "Chapter deleted successfully", toStoryDTO(story));
   } catch (error) {
     return errorResponse(res, "Error deleting chapter", 500, error);
+  }
+};
+
+export const generateChapterAudioHandler = async (req: Request, res: Response): Promise<Response> => {
+  try {
+    const chapterIndex = parseInt(req.params.chapterIndex);
+    if (isNaN(chapterIndex) || chapterIndex < 0) {
+      return errorResponse(res, "Invalid chapter index", 400);
+    }
+
+    const story = await storyService.getStoryById(req.params.id);
+    const chapter = story?.chapters[chapterIndex];
+    if (!story || !chapter) return errorResponse(res, "Story or chapter not found", 404);
+
+    const voice = typeof req.body?.voice === "string" && req.body.voice.trim()
+      ? req.body.voice.trim()
+      : DEFAULT_TTS_VOICE;
+    const audioBuffer = await generateChapterAudio(chapter.content, voice);
+    const filename = `story-${req.params.id}-chapter-${chapterIndex}.mp3`;
+    const uploaded = await uploadAudioToPocketBase(audioBuffer, filename, {
+      contentId: req.params.id,
+      voice,
+    });
+
+    try {
+      const updated = await storyService.updateChapter(req.params.id, chapterIndex, {
+        urlAudio: uploaded.url,
+        audioRecordId: uploaded.recordId,
+        voice,
+      });
+      if (!updated) throw new Error("Failed to update chapter audio reference");
+    } catch (error) {
+      await deleteAudioFromPocketBase(uploaded.recordId);
+      throw error;
+    }
+
+    if (chapter.audioRecordId) {
+      await deleteAudioFromPocketBase(chapter.audioRecordId);
+    }
+
+    return successResponse(res, "Chapter audio generated successfully", {
+      urlAudio: uploaded.url,
+      recordId: uploaded.recordId,
+      voice,
+    });
+  } catch (error) {
+    logger.error("Error generating chapter audio:", error);
+    return errorResponse(res, "Error generating chapter audio", 500, error);
   }
 };
 
