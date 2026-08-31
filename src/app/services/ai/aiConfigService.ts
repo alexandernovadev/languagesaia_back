@@ -39,6 +39,10 @@ const DEFAULT_CONFIGS: Record<AIFeature, Record<string, TextProvider>> = {
     title: "deepseek",
     image: "openai", // Images always use OpenAI (DALL-E)
   },
+  reader: {
+    translate: "openai",
+    classify: "openai",
+  },
 };
 
 export class AIConfigService {

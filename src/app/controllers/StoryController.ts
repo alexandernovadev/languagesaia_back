@@ -12,6 +12,7 @@ import {
   parseBody,
 } from "../validators/schemas";
 import { generateChapterText, generateStoryIdea, generateChapterTitle } from "../services/ai/storyAIService";
+import { translateSelection, classifySelection } from "../services/ai/readerAIService";
 import { generateImage } from "../services/ai/imageAIService";
 import { createStoryImagePrompt } from "../services/ai/prompts";
 import { getAIProvider } from "../services/ai/aiConfigHelper";
@@ -308,6 +309,37 @@ export const getVocabReport = async (req: Request, res: Response): Promise<Respo
   }
 };
 
+export const translateSelectionHandler = async (req: Request, res: Response): Promise<Response> => {
+  try {
+    const { text, targetLanguage } = req.body as { text?: string; targetLanguage?: string };
+    if (!text || !text.trim()) return errorResponse(res, "text is required", 400);
+    if (!targetLanguage || !targetLanguage.trim()) return errorResponse(res, "targetLanguage is required", 400);
+
+    const userId = getUserId(req);
+    const translation = await translateSelection(text.trim(), targetLanguage.trim(), { userId });
+
+    return successResponse(res, "Translation generated", { translation });
+  } catch (error) {
+    logger.error("Error translating selection:", error);
+    return errorResponse(res, "Error translating selection", 500, error);
+  }
+};
+
+export const classifySelectionHandler = async (req: Request, res: Response): Promise<Response> => {
+  try {
+    const { text } = req.body as { text?: string };
+    if (!text || !text.trim()) return errorResponse(res, "text is required", 400);
+
+    const userId = getUserId(req);
+    const classification = await classifySelection(text.trim(), { userId });
+
+    return successResponse(res, "Classification generated", classification);
+  } catch (error) {
+    logger.error("Error classifying selection:", error);
+    return errorResponse(res, "Error classifying selection", 500, error);
+  }
+};
+
 export const updateProgress = async (req: Request, res: Response): Promise<Response> => {
   try {
     const { chapterIndex } = req.body;
@@ -420,8 +452,7 @@ export const generateChapterTitleHandler = async (req: Request, res: Response): 
   }
 };
 
-export const generateChapterStream = async (req: Request, res: Response): Promise<Response> => {
-  const parsed = parseBody(ChapterGenerateSchema, req.body, res);
+export const generateChapterStream = async (req: Request, res: Response): Promise<Response> => {  const parsed = parseBody(ChapterGenerateSchema, req.body, res);
   if (!parsed) return res;
   const { instructions, requestEnding, targetVocabulary, targetGrammar } = parsed;
 

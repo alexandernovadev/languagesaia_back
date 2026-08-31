@@ -20,6 +20,8 @@ import {
   generateChapterAudioHandler,
   exportStoriesToJSON,
   importStoriesFromFile,
+  translateSelectionHandler,
+  classifySelectionHandler,
 } from "../controllers/StoryController";
 import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
 
@@ -28,6 +30,10 @@ router.param("id", validateObjectId);
 
 // AI idea generation (no story id required yet)
 router.post("/generate-idea", aiLimiter, generateIdea);
+
+// Selection helpers (text selection in the reader)
+router.post("/selection/translate", aiLimiter, translateSelectionHandler);
+router.post("/selection/classify", aiLimiter, classifySelectionHandler);
 
 // CRUD routes
 router.get("/export-file", exportStoriesToJSON);

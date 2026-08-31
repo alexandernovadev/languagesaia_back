@@ -1,6 +1,6 @@
 import { Document } from "mongoose";
 
-export type AIFeature = "word" | "expression" | "exam" | "story";
+export type AIFeature = "word" | "expression" | "exam" | "story" | "reader";
 
 export type AIOperation =
   | "generate"
@@ -17,7 +17,9 @@ export type AIOperation =
   | "correct"
   | "questionChat"
   | "questionFeedback"
-  | "evaluateTranslation";
+  | "evaluateTranslation"
+  | "translate"
+  | "classify";
 
 export type AIProvider = 'openai' | 'deepseek';
 
