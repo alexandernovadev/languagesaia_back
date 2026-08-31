@@ -23,6 +23,9 @@ import {
 import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
 import { getUserId } from "../utils/http/requestUser";
 import logger from "../utils/logger";
+import storyImportExportService from "../services/import/StoryImportExportService";
+import { MAX_IMPORT_ITEMS } from "../../config/constants";
+import { validateJsonBuffer } from "../middlewares/uploadMiddleware";
 import {
   DEFAULT_TTS_VOICE,
   generateChapterAudio,
@@ -31,6 +34,84 @@ import {
 import { deleteAudioFromPocketBase, uploadAudioToPocketBase } from "../services/audio/pocketBaseService";
 
 const storyService = new StoryService();
+
+export const exportStoriesToJSON = async (req: Request, res: Response): Promise<Response> => {
+  try {
+    const backup = await storyImportExportService.getBackupForExport();
+    const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
+    res.setHeader("Content-Type", "application/json");
+    res.setHeader("Content-Disposition", `attachment; filename="stories-export-${timestamp}.json"`);
+    return successResponse(res, `Exported ${backup.stories.length} stories successfully`, {
+      type: "stories",
+      version: 1,
+      exportDate: new Date().toISOString(),
+      totalStories: backup.stories.length,
+      totalProgress: backup.storyProgress.length,
+      stories: backup.stories,
+      storyProgress: backup.storyProgress,
+    });
+  } catch (error) {
+    logger.error("Error exporting stories:", error);
+    return errorResponse(res, "Error exporting stories", 500, error);
+  }
+};
+
+export const importStoriesFromFile = async (req: Request, res: Response): Promise<Response> => {
+  try {
+    if (!req.file) return errorResponse(res, "No file uploaded", 400);
+    if (!validateJsonBuffer(req.file.buffer)) return errorResponse(res, "File content is not valid JSON", 400);
+
+    let fileData: any;
+    try {
+      fileData = JSON.parse(req.file.buffer.toString("utf-8"));
+    } catch {
+      return errorResponse(res, "Invalid JSON file format", 400);
+    }
+
+    const payload = fileData.data?.data || fileData.data || fileData;
+    const stories = Array.isArray(payload?.stories) ? payload.stories : null;
+    const storyProgress = Array.isArray(payload?.storyProgress) ? payload.storyProgress : [];
+    if (!stories) return errorResponse(res, "Invalid file structure. Expected 'stories' array", 400);
+    if (stories.length > MAX_IMPORT_ITEMS) {
+      return errorResponse(res, `Import exceeds maximum of ${MAX_IMPORT_ITEMS} stories per request`, 400);
+    }
+
+    const { duplicateStrategy = "skip", validateOnly = "false", batchSize = "10" } = req.query;
+    const validStrategies = ["skip", "overwrite", "error", "merge"];
+    if (!validStrategies.includes(duplicateStrategy as string)) {
+      return errorResponse(res, `Invalid duplicateStrategy. Must be one of: ${validStrategies.join(", ")}`, 400);
+    }
+    const batchSizeNum = parseInt(batchSize as string);
+    if (isNaN(batchSizeNum) || batchSizeNum < 1 || batchSizeNum > 100) {
+      return errorResponse(res, "Invalid batchSize. Must be a number between 1 and 100", 400);
+    }
+
+    const validationResults = storyImportExportService.validateStories(stories);
+    if (validateOnly === "true") {
+      return successResponse(res, "Validation completed", {
+        totalStories: stories.length,
+        totalProgress: storyProgress.length,
+        valid: validationResults.filter((result) => result.status === "valid").length,
+        invalid: validationResults.filter((result) => result.status === "invalid").length,
+        validationResults,
+      });
+    }
+
+    if (validationResults.some((result) => result.status === "invalid")) {
+      return errorResponse(res, "Cannot import stories with invalid records", 400);
+    }
+
+    const result = await storyImportExportService.importBackup(
+      { stories, storyProgress },
+      duplicateStrategy as "skip" | "overwrite" | "error" | "merge",
+      batchSizeNum
+    );
+    return successResponse(res, "Stories import completed successfully", result);
+  } catch (error) {
+    logger.error("Error importing stories:", error);
+    return errorResponse(res, "Error importing stories", 500, error);
+  }
+};
 
 export const createStory = async (req: Request, res: Response): Promise<Response> => {
   try {

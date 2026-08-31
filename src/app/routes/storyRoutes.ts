@@ -18,7 +18,10 @@ import {
   updateImageStory,
   generateIdea,
   generateChapterAudioHandler,
+  exportStoriesToJSON,
+  importStoriesFromFile,
 } from "../controllers/StoryController";
+import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
 
 const router = Router();
 router.param("id", validateObjectId);
@@ -27,6 +30,8 @@ router.param("id", validateObjectId);
 router.post("/generate-idea", aiLimiter, generateIdea);
 
 // CRUD routes
+router.get("/export-file", exportStoriesToJSON);
+router.post("/import-file", ...createJsonUploadMiddleware(), importStoriesFromFile);
 router.post("/", createStory);
 router.get("/", getAllStories);
 router.get("/:id", getStoryById);
