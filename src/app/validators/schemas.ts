@@ -6,7 +6,6 @@ import {
   wordTypesList,
   certificationLevelsList,
   expressionTypesList,
-  readingTypesList,
   storyGenresList,
 } from "../data/business/shared";
 import { errorResponse } from "../utils/responseHelpers";
@@ -17,7 +16,6 @@ const difficultyEnum = difficultyList as [string, ...string[]];
 const wordTypesEnum = wordTypesList as [string, ...string[]];
 const certLevelsEnum = certificationLevelsList as [string, ...string[]];
 const expressionTypesEnum = expressionTypesList as [string, ...string[]];
-const readingTypesEnum = readingTypesList as [string, ...string[]];
 const storyGenresEnum = storyGenresList as [string, ...string[]];
 
 // ─── Word ────────────────────────────────────────────────────────────────────
@@ -41,20 +39,6 @@ export const WordCreateSchema = z.object({
 });
 
 export const WordUpdateSchema = WordCreateSchema.partial();
-
-// ─── Lecture ─────────────────────────────────────────────────────────────────
-
-export const LectureCreateSchema = z.object({
-  time: z.number({ coerce: true }).positive(),
-  difficulty: z.enum(certLevelsEnum),
-  typeWrite: z.enum(readingTypesEnum),
-  language: z.enum(langEnum),
-  urlAudio: z.string().optional(),
-  img: z.string().optional(),
-  content: z.string().min(1),
-});
-
-export const LectureUpdateSchema = LectureCreateSchema.partial();
 
 // ─── Expression ──────────────────────────────────────────────────────────────
 

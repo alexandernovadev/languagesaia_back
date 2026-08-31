@@ -25,11 +25,6 @@ const DEFAULT_CONFIGS: Record<AIFeature, Record<string, TextProvider>> = {
     chat: "openai",
     image: "openai", // Images always use OpenAI (DALL-E)
   },
-  lecture: {
-    text: "deepseek",
-    topic: "deepseek",
-    image: "openai", // Images always use OpenAI (DALL-E)
-  },
   exam: {
     generate: "openai",
     validate: "deepseek",

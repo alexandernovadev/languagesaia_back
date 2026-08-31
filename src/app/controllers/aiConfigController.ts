@@ -67,10 +67,10 @@ export const saveAIConfig = async (req: Request, res: Response) => {
       return errorResponse(res, "Feature, operation, and provider are required", 400);
     }
 
-    if (!["word", "expression", "lecture", "exam"].includes(feature)) {
+    if (!["word", "expression", "exam"].includes(feature)) {
       return errorResponse(
         res,
-        "Invalid feature. Must be 'word', 'expression', 'lecture', or 'exam'",
+        "Invalid feature. Must be 'word', 'expression', or 'exam'",
         400
       );
     }

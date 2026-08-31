@@ -28,9 +28,9 @@ interface GenerateAIContentParams {
 /**
  * Shared tail end of every AI text-generation call: resolve the provider,
  * call the model, and either return the raw stream or extract/validate/parse
- * the completion content. Used by storyAIService and lectureAIService (the
- * same "getAIProvider -> generateText -> validate content" shape also
- * appears in wordAIService/examAIService, left untouched for now).
+ * the completion content. Used by storyAIService (the same
+ * "getAIProvider -> generateText -> validate content" shape also appears
+ * in wordAIService/examAIService, left untouched for now).
  */
 export async function generateAIContent(
   params: GenerateAIContentParams

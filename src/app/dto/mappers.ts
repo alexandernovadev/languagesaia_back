@@ -55,27 +55,6 @@ export const toWordDTO = (doc: any) => {
   };
 };
 
-// ─── Lecture ──────────────────────────────────────────────────────────────────
-
-export const toLectureDTO = (doc: any) => {
-  if (!doc) return null;
-  const d = plain(doc);
-  return {
-    _id: d._id,
-    time: d.time,
-    difficulty: d.difficulty,
-    typeWrite: d.typeWrite,
-    language: d.language,
-    urlAudio: d.urlAudio,
-    audioRecordId: d.audioRecordId,
-    voice: d.voice,
-    img: d.img,
-    content: d.content,
-    createdAt: d.createdAt,
-    updatedAt: d.updatedAt,
-  };
-};
-
 // ─── Expression ───────────────────────────────────────────────────────────────
 
 export const toExpressionDTO = (doc: any) => {

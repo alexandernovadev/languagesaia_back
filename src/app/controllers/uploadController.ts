@@ -3,7 +3,6 @@ import { successResponse, errorResponse } from "../utils/responseHelpers";
 import logger from "../utils/logger";
 import { uploadImageToCloudinary, deleteImageFromCloudinary } from "../services/cloudinary/cloudinaryService";
 import Word from "../db/models/Word";
-import Lecture from "../db/models/Lecture";
 import Expression from "../db/models/Expression";
 import Story from "../db/models/Story";
 
@@ -30,7 +29,7 @@ export const uploadImageHandler = async (
     }
 
     // Validate entity type
-    if (!["word", "lecture", "expression", "story"].includes(entityType)) {
+    if (!["word", "expression", "story"].includes(entityType)) {
       errorResponse(res, "Invalid entity type", 400);
       return;
     }
@@ -45,10 +44,6 @@ export const uploadImageHandler = async (
       case "word":
         entity = await Word.findById(entityId);
         folder = "words";
-        break;
-      case "lecture":
-        entity = await Lecture.findById(entityId);
-        folder = "lectures";
         break;
       case "expression":
         entity = await Expression.findById(entityId);

@@ -11,7 +11,7 @@ const AIConfigSchema: Schema = new Schema(
     feature: {
       type: String,
       required: true,
-      enum: ["word", "expression", "lecture", "exam"],
+      enum: ["word", "expression", "exam"],
       index: true,
     },
     operation: {
