@@ -3,6 +3,7 @@ import Expression from "../../db/models/Expression";
 import Lecture from "../../db/models/Lecture";
 import Exam from "../../db/models/Exam";
 import ExamAttempt from "../../db/models/ExamAttempt";
+import Story from "../../db/models/Story";
 import logger from "../../utils/logger";
 
 export class LabsService {
@@ -80,6 +81,32 @@ export class LabsService {
       };
     } catch (error) {
       logger.error("❌ Error deleting all lectures:", error);
+      throw error;
+    }
+  }
+
+  /**
+   * Delete all stories from the database
+   * ⚠️ DANGEROUS OPERATION - Cannot be undone
+   */
+  async deleteAllStories(): Promise<{ deletedCount: number; timestamp: Date }> {
+    try {
+      logger.warn("⚠️ INITIATING: Delete all stories operation");
+
+      const result = await Story.deleteMany({});
+      const timestamp = new Date();
+
+      logger.warn("⚠️ COMPLETED: All stories deleted", {
+        deletedCount: result.deletedCount,
+        timestamp: timestamp.toISOString()
+      });
+
+      return {
+        deletedCount: result.deletedCount || 0,
+        timestamp
+      };
+    } catch (error) {
+      logger.error("❌ Error deleting all stories:", error);
       throw error;
     }
   }

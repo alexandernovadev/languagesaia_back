@@ -12,6 +12,7 @@ export type AIOperation =
   | "image"
   | "text"
   | "topic"
+  | "title"
   | "validate"
   | "correct"
   | "questionChat"

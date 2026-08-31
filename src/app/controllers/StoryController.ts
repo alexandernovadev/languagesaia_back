@@ -11,7 +11,7 @@ import {
   ChapterSaveSchema,
   parseBody,
 } from "../validators/schemas";
-import { generateChapterText, generateStoryIdea } from "../services/ai/storyAIService";
+import { generateChapterText, generateStoryIdea, generateChapterTitle } from "../services/ai/storyAIService";
 import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
 import { getUserId } from "../utils/http/requestUser";
 import logger from "../utils/logger";
@@ -188,6 +188,36 @@ export const getProgress = async (req: Request, res: Response): Promise<Response
     return successResponse(res, "Progress retrieved", progress);
   } catch (error) {
     return errorResponse(res, "Error retrieving progress", 500, error);
+  }
+};
+
+export const generateChapterTitleHandler = async (req: Request, res: Response): Promise<Response> => {
+  try {
+    const { content } = req.body as { content?: string };
+    if (!content || !content.trim()) {
+      return errorResponse(res, "content is required", 400);
+    }
+
+    const story = await storyService.getStoryById(req.params.id);
+    if (!story) return errorResponse(res, "Story not found", 404);
+
+    const userId = getUserId(req);
+    const language = req.user?.language || "en";
+
+    const title = await generateChapterTitle(
+      {
+        storyTitle: story.title,
+        storyGenre: story.genre,
+        language,
+        chapterContent: content,
+      },
+      { userId }
+    );
+
+    return successResponse(res, "Title generated", { title });
+  } catch (error) {
+    logger.error("Error generating chapter title:", error);
+    return errorResponse(res, "Error generating chapter title", 500, error);
   }
 };
 

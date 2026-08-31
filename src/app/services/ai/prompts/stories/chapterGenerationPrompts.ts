@@ -124,6 +124,9 @@ FORMATTING:
 - NEVER use blockquotes (the ">" character) for dialogue, quotes, or anything else — write dialogue as regular paragraphs.
 - Use **bold** generously to highlight key vocabulary, important concepts, and punchy phrases (2-4 per paragraph).
 - Use *italic* for emphasis, emotions, or to draw attention to specific words.
+- Use <u>underline</u> the first time a character name or place name is introduced.
+- Use <mark>highlight</mark> for idiomatic expressions or important plot turns (1-2 per chapter, not more).
+- Mix all of these naturally across the chapter — don't cluster them all in one paragraph and leave the rest plain.
 - ALWAYS write a space after the # characters in every heading (e.g. "# Title", "## Subtitle"). NEVER write "#Title".
 - NEVER repeat the # symbol in a heading. NEVER write "## # Subtitle" or "# # Title".
 - Do NOT add any headings within the chapter content. The chapter title is provided separately.
@@ -140,8 +143,8 @@ ${contextInstruction}
 ${endingInstruction}
 
 LENGTH:
-- The chapter MUST be between 300 and 500 words (not characters).
-- CRITICAL: Do NOT stop generating until you reach at least 300 words.
+- The chapter MUST be between 600 and 700 words (not characters).
+- CRITICAL: Do NOT stop generating until you reach at least 600 words.
 - Count words carefully.
 
 LANGUAGE: Always write in ${langLabel} only.

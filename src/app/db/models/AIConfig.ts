@@ -27,6 +27,7 @@ const AIConfigSchema: Schema = new Schema(
         "image",
         "text",
         "topic",
+        "title",
         "validate",
         "correct",
         "questionChat",

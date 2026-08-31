@@ -14,6 +14,7 @@ import {
   updateProgress,
   getProgress,
   generateChapterStream,
+  generateChapterTitleHandler,
   generateIdea,
 } from "../controllers/StoryController";
 
@@ -32,6 +33,7 @@ router.delete("/:id", deleteStory);
 
 // Chapter routes
 router.post("/:id/chapters", aiLimiter, generateChapterStream);
+router.post("/:id/chapters/title", aiLimiter, generateChapterTitleHandler);
 router.post("/:id/chapters/save", addChapter);
 router.put("/:id/chapters/:chapterIndex", updateChapter);
 router.delete("/:id/chapters/:chapterIndex", deleteChapter);
