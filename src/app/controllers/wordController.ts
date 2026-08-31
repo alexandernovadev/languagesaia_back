@@ -47,7 +47,9 @@ export const getWordByName = async (
       return errorResponse(res, "A single word parameter is required");
     }
 
-    const foundWord = await wordService.findWordByWord(word);
+    const language = (req.query.language as string) || req.user?.language || "en";
+
+    const foundWord = await wordService.findWordByWord(word, language);
     if (!foundWord) {
       return errorResponse(res, "Word not found", 404);
     }

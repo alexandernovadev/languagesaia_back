@@ -5,6 +5,7 @@ import { sendBackupByEmail } from "../services/backup/backupEmailService";
 import { LabsService } from "../services/labs/labsService";
 import logger from "../utils/logger";
 import Word from "../db/models/Word";
+import { normalizeWordKey } from "../utils/text/normalizeWordKey";
 
 const labsService = new LabsService();
 
@@ -157,6 +158,57 @@ export const migrateSinonymsToSynonyms = async (
     return successResponse(res, "Migration completed", { modifiedCount: result.modifiedCount });
   } catch (error) {
     logger.error("Migration sinonyms→synonyms failed", { error });
+    return errorResponse(res, "Migration failed", 500, error);
+  }
+};
+
+/**
+ * One-time migration: enforce uniqueness on (word + language), case-insensitive.
+ * 1. Backfills the `wordKey` field (lowercased + trimmed) on all documents.
+ * 2. Drops the legacy single-field unique index `word_1`.
+ * 3. Creates the compound unique index `{ wordKey: 1, language: 1 }`.
+ * ⚠️ If two documents share the same wordKey + language, step 3 will fail.
+ */
+export const migrateWordUniqueIndex = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    const missing = await Word.find({
+      $or: [{ wordKey: { $exists: false } }, { wordKey: null }, { wordKey: "" }],
+    }).select("word");
+
+    let backfilled = 0;
+    for (const doc of missing) {
+      doc.wordKey = normalizeWordKey(doc.word);
+      await doc.save();
+      backfilled++;
+    }
+
+    let droppedOldIndex = false;
+    try {
+      await Word.collection.dropIndex("word_1");
+      droppedOldIndex = true;
+    } catch {
+      // Legacy index may not exist (fresh install) — ignore.
+    }
+
+    await Word.collection.createIndex(
+      { wordKey: 1, language: 1 },
+      { unique: true }
+    );
+
+    logger.info("Migration word unique index completed", {
+      backfilled,
+      droppedOldIndex,
+    });
+
+    return successResponse(res, "Word unique index migrated", {
+      backfilled,
+      droppedOldIndex,
+    });
+  } catch (error) {
+    logger.error("Migration word unique index failed", { error });
     return errorResponse(res, "Migration failed", 500, error);
   }
 };

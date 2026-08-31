@@ -1,6 +1,7 @@
 import mongoose, { Schema } from "mongoose";
 import { ChatMessage, IWord } from "../../../../types/models";
 import { chatRolesList, difficultyList, languagesList, wordTypesList } from "../../data/business/shared";
+import { normalizeWordKey } from "../../utils/text/normalizeWordKey";
 
 const ChatMessageSchema: Schema = new Schema<ChatMessage>({
   id: {
@@ -27,7 +28,11 @@ const WordSchema: Schema = new Schema<IWord>(
     word: {
       type: String,
       required: true,
-      unique: true,
+      minlength: 1,
+      maxlength: 100,
+    },
+    wordKey: {
+      type: String,
       minlength: 1,
       maxlength: 100,
     },
@@ -94,6 +99,14 @@ const WordSchema: Schema = new Schema<IWord>(
   },
   { timestamps: true }
 );
+
+// Keep `wordKey` in sync with `word` on every save (case-insensitive uniqueness).
+WordSchema.pre("save", function (this: IWord, next) {
+  if (this.word) {
+    this.wordKey = normalizeWordKey(this.word);
+  }
+  next();
+});
 
 // Compound indexes for the most common query patterns
 WordSchema.index({ language: 1, difficulty: 1 }); // getAnkiCards, getWords filtered by language+difficulty

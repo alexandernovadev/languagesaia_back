@@ -8,11 +8,12 @@ import {
 } from "../../utils/importTypes";
 import { WordValidator } from "../../utils/validators/wordValidator";
 import { validateWordTypesForLanguage } from "../../data/business/shared/wordTypeCatalog";
+import { normalizeWordKey } from "../../utils/text/normalizeWordKey";
 
 export class WordImportService {
   private async checkDuplicate(word: Partial<IWord>): Promise<IWord | null> {
     if (!word.word) return null;
-    return await Word.findOne({ word: word.word });
+    return await Word.findOne({ wordKey: normalizeWordKey(word.word), language: word.language });
   }
 
   private async processWord(

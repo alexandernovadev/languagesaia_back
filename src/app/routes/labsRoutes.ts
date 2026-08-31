@@ -7,7 +7,8 @@ import {
   deleteAllLectures,
   deleteAllExams,
   deleteAllStories,
-  migrateSinonymsToSynonyms
+  migrateSinonymsToSynonyms,
+  migrateWordUniqueIndex
 } from "../controllers/labsController";
 
 const routes = Router();
@@ -20,6 +21,7 @@ routes.post("/backup/send-email", sendBackupByEmailHandler);
 
 // Migrations
 routes.post("/migrations/sinonyms-to-synonyms", migrateSinonymsToSynonyms);
+routes.post("/migrations/word-unique-index", migrateWordUniqueIndex);
 
 // Data Management - Dangerous Operations ⚠️
 routes.delete("/data/words/delete-all", deleteAllWords);

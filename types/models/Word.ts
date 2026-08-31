@@ -4,6 +4,7 @@ import { Difficulty, Language } from "../business";
 
 export interface IWord extends Document {
   word: string;
+  wordKey?: string;
   definition: string;
   examples?: string[];
   type?: string[];

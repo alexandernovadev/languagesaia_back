@@ -1,6 +1,7 @@
 import Word from "../../db/models/Word";
 import { IWord } from "../../../../types/models";
 import { escapeRegex } from "../../utils/escapeRegex";
+import { normalizeWordKey } from "../../utils/text/normalizeWordKey";
 import {
   validateWordTypesForLanguage,
   WordTypeValidationError,
@@ -269,8 +270,10 @@ export class WordService {
     return await Word.findByIdAndDelete(id);
   }
 
-  async findWordByWord(word: string): Promise<IWord | null> {
-    return await Word.findOne({ word });
+  async findWordByWord(word: string, language?: string): Promise<IWord | null> {
+    const query: Record<string, unknown> = { wordKey: normalizeWordKey(word) };
+    if (language) query.language = language;
+    return await Word.findOne(query);
   }
 
   async updateWordReview(wordId: string, difficulty: number): Promise<IWord | null> {
