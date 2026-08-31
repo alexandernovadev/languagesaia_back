@@ -5,9 +5,6 @@ import { sendBackupByEmail } from "../services/backup/backupEmailService";
 import { LabsService } from "../services/labs/labsService";
 import logger from "../utils/logger";
 import Word from "../db/models/Word";
-import Lecture from "../db/models/Lecture";
-import Story from "../db/models/Story";
-import User from "../db/models/User";
 
 const labsService = new LabsService();
 
@@ -24,9 +21,6 @@ const labsService = new LabsService();
  * Backup & Maintenance:
  * - POST /api/labs/backup/send-email - Send backup by email
  * 
- * Migrations:
- * - POST /api/labs/migrations/lectures-to-stories - Migrate all lectures into stories
- *
  * Data Management (DANGEROUS):
  * - DELETE /api/labs/data/words/delete-all - Delete all words
  * - DELETE /api/labs/data/expressions/delete-all - Delete all expressions
@@ -163,89 +157,6 @@ export const migrateSinonymsToSynonyms = async (
     return successResponse(res, "Migration completed", { modifiedCount: result.modifiedCount });
   } catch (error) {
     logger.error("Migration sinonyms→synonyms failed", { error });
-    return errorResponse(res, "Migration failed", 500, error);
-  }
-};
-
-/**
- * One-time migration: convert every Lecture into a single-chapter Story,
- * owned by the admin user. Title = first H1, description = first H2,
- * chapter content = the rest of the markdown (H1/H2 lines stripped).
- * If a lecture has no H1/H2, title falls back to the first 40 chars of the
- * content and description to "SIN DESC" (content is kept as-is, unstripped).
- * Genre is fixed to "adventure" (no real equivalent to typeWrite exists).
- * ⚠️ Not idempotent — running it twice duplicates the stories.
- */
-export const migrateLecturesToStories = async (
-  req: Request,
-  res: Response
-): Promise<Response> => {
-  try {
-    const adminUser = await User.findOne({ role: "admin" });
-    if (!adminUser) {
-      return errorResponse(res, "No admin user found", 404);
-    }
-
-    const lectures = await Lecture.find({});
-    let migrated = 0;
-
-    for (const lecture of lectures) {
-      const rawContent = lecture.content || "";
-      const lines = rawContent.split("\n");
-      const h1Index = lines.findIndex((line) => line.trim().startsWith("# "));
-      const h2Index = lines.findIndex((line) => line.trim().startsWith("## "));
-
-      let title: string;
-      let description: string;
-      let content: string;
-
-      if (h1Index === -1 || h2Index === -1) {
-        title = rawContent.trim().substring(0, 40);
-        description = "SIN DESC";
-        content = rawContent;
-      } else {
-        title = lines[h1Index].trim().substring(2).trim();
-        description = lines[h2Index].trim().substring(3).trim();
-        content = lines
-          .filter((_, idx) => idx !== h1Index && idx !== h2Index)
-          .join("\n")
-          .replace(/\n{3,}/g, "\n\n")
-          .trim();
-      }
-
-      await Story.create({
-        title,
-        description,
-        img: lecture.img || "",
-        languageLevel: lecture.difficulty,
-        language: lecture.language,
-        genre: "adventure",
-        chapters: [
-          {
-            order: 1,
-            title,
-            content,
-            targetVocabulary: [],
-            targetGrammar: [],
-          },
-        ],
-        userId: String(adminUser._id),
-      });
-
-      migrated++;
-    }
-
-    logger.info("Migration lectures→stories completed", {
-      total: lectures.length,
-      migrated,
-    });
-
-    return successResponse(res, "Migration completed", {
-      total: lectures.length,
-      migrated,
-    });
-  } catch (error) {
-    logger.error("Migration lectures→stories failed:", error);
     return errorResponse(res, "Migration failed", 500, error);
   }
 };

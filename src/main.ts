@@ -21,7 +21,6 @@ import LabsRoutes from "./app/routes/labsRoutes";
 import UploadRoutes from "./app/routes/uploadRoutes";
 import AuthRoutes from "./app/routes/authRoutes";
 import UserRoutes from "./app/routes/userRoutes";
-import StatsRoutes from "./app/routes/statsRoutes";
 import ExamRoutes from "./app/routes/examRoutes";
 import AIConfigRoutes from "./app/routes/aiConfigRoutes";
 
@@ -98,7 +97,6 @@ app.use("/api/stories", authMiddleware, extendTimeout, StoryRoutes);
 app.use("/api/words", authMiddleware, extendTimeout, WordsRoutes);
 app.use("/api/expressions", authMiddleware, extendTimeout, ExpressionRoutes);
 app.use("/api/users", authMiddleware, UserRoutes);
-app.use("/api/stats", authMiddleware, StatsRoutes);
 app.use("/api/exams", authMiddleware, extendTimeout, ExamRoutes);
 app.use("/api/ai-config", authMiddleware, AIConfigRoutes);
 
