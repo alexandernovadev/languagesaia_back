@@ -10,6 +10,10 @@ const ChapterSchema = new Schema(
     urlAudio: { type: String, default: "" },
     audioRecordId: { type: String, default: "" },
     voice: { type: String, default: "" },
+    audioAlignment: {
+      type: [{ word: String, start: Number, end: Number }],
+      default: [],
+    },
     targetVocabulary: { type: [String], default: [] },
     targetGrammar: { type: [String], default: [] },
   },

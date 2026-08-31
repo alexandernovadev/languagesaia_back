@@ -23,7 +23,11 @@ import {
 import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
 import { getUserId } from "../utils/http/requestUser";
 import logger from "../utils/logger";
-import { DEFAULT_TTS_VOICE, generateChapterAudio } from "../services/audio/textToSpeechService";
+import {
+  DEFAULT_TTS_VOICE,
+  generateChapterAudio,
+  transcribeAudioWithWordTimestamps,
+} from "../services/audio/textToSpeechService";
 import { deleteAudioFromPocketBase, uploadAudioToPocketBase } from "../services/audio/pocketBaseService";
 
 const storyService = new StoryService();
@@ -179,6 +183,7 @@ export const generateChapterAudioHandler = async (req: Request, res: Response): 
       : DEFAULT_TTS_VOICE;
     const audioBuffer = await generateChapterAudio(chapter.content, voice);
     const filename = `story-${req.params.id}-chapter-${chapterIndex}.mp3`;
+    const audioAlignment = await transcribeAudioWithWordTimestamps(audioBuffer, filename);
     const uploaded = await uploadAudioToPocketBase(audioBuffer, filename, {
       contentId: req.params.id,
       voice,
@@ -189,6 +194,7 @@ export const generateChapterAudioHandler = async (req: Request, res: Response): 
         urlAudio: uploaded.url,
         audioRecordId: uploaded.recordId,
         voice,
+        audioAlignment,
       });
       if (!updated) throw new Error("Failed to update chapter audio reference");
     } catch (error) {
@@ -204,6 +210,7 @@ export const generateChapterAudioHandler = async (req: Request, res: Response): 
       urlAudio: uploaded.url,
       recordId: uploaded.recordId,
       voice,
+      audioAlignment,
     });
   } catch (error) {
     logger.error("Error generating chapter audio:", error);

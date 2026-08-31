@@ -134,6 +134,9 @@ export class StoryService {
     if (data.voice !== undefined) {
       updateData[`${updateKey}.voice`] = data.voice;
     }
+    if (data.audioAlignment !== undefined) {
+      updateData[`${updateKey}.audioAlignment`] = data.audioAlignment;
+    }
     if (data.targetVocabulary !== undefined) {
       updateData[`${updateKey}.targetVocabulary`] = data.targetVocabulary;
     }
