@@ -1,11 +1,5 @@
 // Centralized export of all AI prompts
 
-// Topic Generation Prompts
-export {
-  createTopicGenerationPrompt,
-  type TopicGenerationPromptParams,
-} from './topicGenerationPrompts';
-
 // Expression Prompts
 export {
   createExpressionGenerationPrompt,
@@ -23,5 +17,4 @@ export {
   type ImagePromptParams,
   imageWordPrompt,
   createExpressionImagePrompt,
-  createLectureImagePrompt,
 } from './imagePrompts';

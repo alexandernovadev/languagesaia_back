@@ -68,17 +68,15 @@ export const sendBackupByEmailHandler = async (
     
     logger.info("✅ Backup enviado por email exitosamente", {
       wordsCount: result.wordsCount,
-      lecturesCount: result.lecturesCount,
       expressionsCount: result.expressionsCount,
       emailSent: result.emailSent
     });
-    
+
     return successResponse(
-      res, 
-      "Backup sent by email successfully", 
-      { 
+      res,
+      "Backup sent by email successfully",
+      {
         wordsCount: result.wordsCount,
-        lecturesCount: result.lecturesCount,
         expressionsCount: result.expressionsCount,
         emailSent: result.emailSent
       }

@@ -81,7 +81,6 @@ const executeScheduledBackup = async (): Promise<void> => {
       logger.info('Scheduled backup completed successfully', {
         operationId,
         wordsCount: result.wordsCount,
-        lecturesCount: result.lecturesCount,
         expressionsCount: result.expressionsCount,
         duration: `${Date.now() - startTime}ms`,
         totalRuns,

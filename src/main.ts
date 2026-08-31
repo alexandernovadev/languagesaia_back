@@ -13,7 +13,6 @@ import { initializeBackupScheduler } from "./app/services/backup/backupScheduler
 import logger from "./app/utils/logger";
 
 // Routes
-import LectureRoutes from "./app/routes/lectureRoutes";
 import StoryRoutes from "./app/routes/storyRoutes";
 import WordsRoutes from "./app/routes/wordsRoutes";
 import ExpressionRoutes from "./app/routes/expressionRoutes";
@@ -94,7 +93,6 @@ const extendTimeout = (_req: Request, res: Response, next: NextFunction) => {
 
 // Routes
 app.use("/api/auth", authLimiter, AuthRoutes);
-app.use("/api/lectures", authMiddleware, extendTimeout, LectureRoutes);
 app.use("/api/stories", authMiddleware, extendTimeout, StoryRoutes);
 app.use("/api/words", authMiddleware, extendTimeout, WordsRoutes);
 app.use("/api/expressions", authMiddleware, extendTimeout, ExpressionRoutes);

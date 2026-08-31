@@ -1,4 +1,4 @@
-import { ILecture, IWord } from "../../../types/models";
+import { IWord } from "../../../types/models";
 
 // Strategies for handling duplicates
 export type DuplicateStrategy = 'skip' | 'overwrite' | 'error' | 'merge';
@@ -18,7 +18,7 @@ export interface ValidationResult {
 }
 
 // Generic processing result
-export interface ProcessingResult<T = Partial<ILecture>> {
+export interface ProcessingResult<T = unknown> {
   index: number;
   data: T;
   status: 'valid' | 'invalid' | 'duplicate' | 'error';
@@ -61,16 +61,8 @@ export interface ImportResult {
 }
 
 // Specific types for backwards compatibility
-export interface LectureProcessingResult extends ProcessingResult<Partial<ILecture>> {
-  lecture: Partial<ILecture>; // Backwards compatibility
-}
-
 export interface WordProcessingResult extends ProcessingResult<Partial<IWord>> {
   word: Partial<IWord>; // Backwards compatibility
-}
-
-export interface LectureImportResult extends ImportResult {
-  totalLectures: number; // Backwards compatibility
 }
 
 export interface WordImportResult extends ImportResult {
@@ -78,7 +70,7 @@ export interface WordImportResult extends ImportResult {
 }
 
 // Import request payload
-export interface ImportRequest<T = Partial<ILecture>> {
+export interface ImportRequest<T = unknown> {
   data: T[];
   config: ImportConfig;
-} 
+}
