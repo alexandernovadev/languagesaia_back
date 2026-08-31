@@ -17,4 +17,5 @@ export {
   type ImagePromptParams,
   imageWordPrompt,
   createExpressionImagePrompt,
+  createStoryImagePrompt,
 } from './imagePrompts';

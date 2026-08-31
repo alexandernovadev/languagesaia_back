@@ -15,6 +15,7 @@ import {
   getProgress,
   generateChapterStream,
   generateChapterTitleHandler,
+  updateImageStory,
   generateIdea,
 } from "../controllers/StoryController";
 
@@ -30,6 +31,7 @@ router.get("/", getAllStories);
 router.get("/:id", getStoryById);
 router.put("/:id", updateStory);
 router.delete("/:id", deleteStory);
+router.post("/:id/generate-image", aiLimiter, updateImageStory);
 
 // Chapter routes
 router.post("/:id/chapters", aiLimiter, generateChapterStream);

@@ -12,6 +12,14 @@ import {
   parseBody,
 } from "../validators/schemas";
 import { generateChapterText, generateStoryIdea, generateChapterTitle } from "../services/ai/storyAIService";
+import { generateImage } from "../services/ai/imageAIService";
+import { createStoryImagePrompt } from "../services/ai/prompts";
+import { getAIProvider } from "../services/ai/aiConfigHelper";
+import type { ImageProvider } from "../../config/aiConfig";
+import {
+  deleteImageFromCloudinary,
+  uploadImageToCloudinary,
+} from "../services/cloudinary/cloudinaryService";
 import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
 import { getUserId } from "../utils/http/requestUser";
 import logger from "../utils/logger";
@@ -188,6 +196,59 @@ export const getProgress = async (req: Request, res: Response): Promise<Response
     return successResponse(res, "Progress retrieved", progress);
   } catch (error) {
     return errorResponse(res, "Error retrieving progress", 500, error);
+  }
+};
+
+export const updateImageStory = async (req: Request, res: Response): Promise<Response> => {
+  const { content, imgOld } = req.body as { content?: string; imgOld?: string };
+  const storyId = req.params.id;
+
+  if (!content) {
+    return errorResponse(res, "content is required.", 400);
+  }
+
+  try {
+    const userId = getUserId(req);
+    const imageProvider = (await getAIProvider(userId, "story", "image")) as ImageProvider;
+    const imageResponse = await generateImage(imageProvider, createStoryImagePrompt(content));
+    if (!imageResponse) {
+      return errorResponse(res, "Failed to generate image.", 400);
+    }
+
+    const imageBase64 = (imageResponse as any).b64_json;
+    if (!imageBase64) {
+      return errorResponse(res, "Failed to get image data from response.", 400);
+    }
+
+    let deleteOldImagePromise: Promise<unknown> = Promise.resolve();
+
+    if (imgOld && imgOld.includes("res.cloudinary.com")) {
+      const parts = imgOld.split("/");
+      let publicId = parts.pop() as string;
+      if (publicId && publicId.includes(".")) {
+        publicId = publicId.split(".")[0];
+      }
+      deleteOldImagePromise = deleteImageFromCloudinary("languagesai/stories/" + publicId);
+    }
+
+    const [, urlImage] = await Promise.all([
+      deleteOldImagePromise,
+      uploadImageToCloudinary(imageBase64, "stories"),
+    ]);
+
+    if (!urlImage) {
+      return errorResponse(res, "Failed to upload image to Cloudinary.", 500);
+    }
+
+    const updatedStory = await storyService.updateStory(storyId, { img: urlImage as string });
+    if (!updatedStory) {
+      return errorResponse(res, "Story not found or failed to update.", 404);
+    }
+
+    return successResponse(res, "Story image updated successfully", { img: updatedStory.img || urlImage });
+  } catch (error) {
+    logger.error("Error generating story image:", error);
+    return errorResponse(res, "Error generating story image", 500, error);
   }
 };
 

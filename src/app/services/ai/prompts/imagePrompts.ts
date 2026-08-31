@@ -48,6 +48,33 @@ export const imageWordPrompt = (word: string) => {
 `.trim();
 };
 
+export const createStoryImagePrompt = (content: string) => {
+  return `
+    Create a book-cover-style illustration for a story, based on this premise:
+
+    "${content}"
+
+    GUIDELINES:
+    • Create a striking, evocative visual that captures the mood and theme of the story
+    • Use a clean, professional illustration style suitable for a book cover
+    • Focus on the central theme or a key scene — avoid cluttered compositions
+    • Use rich, atmospheric colors that match the story's genre and tone
+
+    STYLE REQUIREMENTS:
+    • Cinematic, book-cover-quality illustration
+    • Clear focal point, balanced composition
+    • Avoid text, symbols, or labels in the image
+
+    PEOPLE REPRESENTATION:
+    • If showing people, use modern, casual clothing and appearances
+    • Do NOT show people wearing headscarves, turbans, or traditional head coverings
+    • Avoid any cultural or religious head coverings
+    • Use diverse but neutral, modern appearances
+
+    Create an evocative illustration that represents the essence of this story.
+`.trim();
+};
+
 export const createExpressionImagePrompt = (expression: string) => {
   return `
     Create a clean educational illustration that conveys the meaning and typical context of the expression: "${expression}"

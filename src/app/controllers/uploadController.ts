@@ -5,6 +5,7 @@ import { uploadImageToCloudinary, deleteImageFromCloudinary } from "../services/
 import Word from "../db/models/Word";
 import Lecture from "../db/models/Lecture";
 import Expression from "../db/models/Expression";
+import Story from "../db/models/Story";
 
 interface UploadRequest extends Request {
   file?: Express.Multer.File;
@@ -29,7 +30,7 @@ export const uploadImageHandler = async (
     }
 
     // Validate entity type
-    if (!["word", "lecture", "expression"].includes(entityType)) {
+    if (!["word", "lecture", "expression", "story"].includes(entityType)) {
       errorResponse(res, "Invalid entity type", 400);
       return;
     }
@@ -52,6 +53,10 @@ export const uploadImageHandler = async (
       case "expression":
         entity = await Expression.findById(entityId);
         folder = "expressions";
+        break;
+      case "story":
+        entity = await Story.findById(entityId);
+        folder = "stories";
         break;
       default:
         errorResponse(res, "Unsupported entity type", 400);
