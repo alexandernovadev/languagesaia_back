@@ -19,6 +19,7 @@ import { validateJsonBuffer, MAX_IMPORT_ITEMS } from "../middlewares/uploadMiddl
 import logger from "../utils/logger";
 import { ExamCreateSchema, ExamGenerateSchema, parseBody } from "../validators/schemas";
 import { toExamDTO, toAttemptDTO, mapPaginated } from "../dto/mappers";
+import { routeParams } from "../utils/http/routeParams";
 
 const examService = new ExamService();
 const examExportService = new ExamExportService();
@@ -112,7 +113,7 @@ export const create = async (req: Request, res: Response) => {
 /** GET /api/exams/:id - Fetches an exam by ID */
 export const getById = async (req: Request, res: Response) => {
   try {
-    const exam = await examService.getById(req.params.id);
+    const exam = await examService.getById(routeParams(req).id);
     if (!exam) return errorResponse(res, "Exam not found", 404);
     return successResponse(res, "Exam found", toExamDTO(exam));
   } catch (error: any) {
@@ -137,7 +138,7 @@ export const list = async (req: Request, res: Response) => {
 /** DELETE /api/exams/:id - Deletes an exam */
 export const remove = async (req: Request, res: Response) => {
   try {
-    const exam = await examService.delete(req.params.id);
+    const exam = await examService.delete(routeParams(req).id);
     if (!exam) return errorResponse(res, "Exam not found", 404);
     return successResponse(res, "Exam deleted", {});
   } catch (error: any) {
@@ -154,7 +155,7 @@ export const startAttempt = async (req: Request, res: Response) => {
     const userId = req.user?._id || req.user?.id;
     if (!userId) return errorResponse(res, "Unauthorized", 401);
 
-    const attempt = await attemptService.create(req.params.id, userId.toString());
+    const attempt = await attemptService.create(routeParams(req).id, userId.toString());
     return successResponse(res, "Attempt started", toAttemptDTO(attempt), 201);
   } catch (error: any) {
     return errorResponse(res, error.message || "Error starting attempt", 500, error);
@@ -175,7 +176,7 @@ export const submitAttempt = async (req: Request, res: Response) => {
 
     const explainsLanguage = req.user?.explainsLanguage || "es";
     const attempt = await attemptService.submit(
-      req.params.attemptId,
+      routeParams(req).attemptId,
       answers,
       userId.toString(),
       explainsLanguage
@@ -193,7 +194,7 @@ export const deleteAttempt = async (req: Request, res: Response) => {
     const userId = req.user?._id || req.user?.id;
     if (!userId) return errorResponse(res, "Unauthorized", 401);
 
-    const deleted = await attemptService.delete(req.params.attemptId, userId.toString());
+    const deleted = await attemptService.delete(routeParams(req).attemptId, userId.toString());
     if (!deleted) return errorResponse(res, "Attempt not found", 404);
     return successResponse(res, "Attempt deleted", {});
   } catch (error: any) {
@@ -204,7 +205,7 @@ export const deleteAttempt = async (req: Request, res: Response) => {
 /** GET /api/exams/:id/attempts/:attemptId - Fetches an attempt with exam populated */
 export const getAttempt = async (req: Request, res: Response) => {
   try {
-    const attempt = await attemptService.getById(req.params.attemptId);
+    const attempt = await attemptService.getById(routeParams(req).attemptId);
     if (!attempt) return errorResponse(res, "Attempt not found", 404);
     return successResponse(res, "Attempt found", toAttemptDTO(attempt));
   } catch (error: any) {
@@ -220,7 +221,7 @@ export const listAttemptsByExam = async (req: Request, res: Response) => {
 
     const limit = parseLimit(req.query.limit, 20);
     const attempts = await attemptService.getByExam(
-      req.params.id,
+      routeParams(req).id,
       userId.toString(),
       limit
     );
@@ -256,7 +257,7 @@ export const chatOnQuestion = async (req: Request, res: Response) => {
     const { message } = req.body;
     if (!message?.trim()) return errorResponse(res, "message required", 400);
 
-    const attempt = await attemptService.getById(req.params.attemptId);
+    const attempt = await attemptService.getById(routeParams(req).attemptId);
     if (!attempt || attempt.userId.toString() !== userId.toString()) {
       return errorResponse(res, "Attempt not found", 404);
     }
@@ -264,7 +265,7 @@ export const chatOnQuestion = async (req: Request, res: Response) => {
     const exam = attempt.examId as any;
     if (!exam?.questions) return errorResponse(res, "Exam not found", 404);
 
-    const questionIndex = parseInt(req.params.questionIndex);
+    const questionIndex = parseInt(routeParams(req).questionIndex);
     const q = exam.questions[questionIndex];
     const aq = attempt.attemptQuestions?.[questionIndex];
     if (!q || !aq) return errorResponse(res, "Question not found", 404);
@@ -290,14 +291,14 @@ export const chatOnQuestion = async (req: Request, res: Response) => {
     });
 
     await attemptService.addChatMessage(
-      req.params.attemptId,
+      routeParams(req).attemptId,
       questionIndex,
       "user",
       message.trim(),
       userId.toString()
     );
     await attemptService.addChatMessage(
-      req.params.attemptId,
+      routeParams(req).attemptId,
       questionIndex,
       "assistant",
       aiResponse,

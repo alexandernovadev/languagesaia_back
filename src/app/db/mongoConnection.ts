@@ -8,7 +8,7 @@ import {
   MONGO_HEARTBEAT_FREQUENCY_MS,
 } from "../../config/constants";
 
-dotenv.config();
+dotenv.config({ quiet: true });
 
 const uri = process.env.MONGO_URL as string;
 

@@ -27,6 +27,7 @@ import logger from "../utils/logger";
 import { WordTypeValidationError } from "../data/business/shared";
 import { WordCreateSchema, WordUpdateSchema, parseBody } from "../validators/schemas";
 import { toWordDTO, mapPaginated } from "../dto/mappers";
+import { routeParams } from "../utils/http/routeParams";
 
 const wordService = new WordService();
 const wordQueryService = new WordQueryService();
@@ -40,7 +41,7 @@ export const getWordByName = async (
 ): Promise<Response> => {
   try {
     // Forzamos el tipo a `string`, y si es un array, tomamos el primer elemento.
-    const word = (req.params.word || req.query.word) as string | undefined;
+    const word = (routeParams(req).word || req.query.word) as string | undefined;
 
     // Ensure `word` is a non-empty string.
     if (!word || Array.isArray(word)) {
@@ -96,7 +97,7 @@ export const getWordById = async (
   res: Response
 ): Promise<Response> => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const word = await wordService.getWordById(id);
     if (!word) {
       return errorResponse(res, "Word not found", 404);
@@ -203,7 +204,7 @@ export const updateWord = async (
   res: Response
 ): Promise<Response> => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const updateData = parseBody(WordUpdateSchema, req.body, res);
     if (!updateData) return errorResponse(res, "Invalid request body", 400);
     const updatedWord = await wordService.updateWord(id, updateData as any);
@@ -229,7 +230,7 @@ export const updateWordDifficulty = async (
   res: Response
 ): Promise<Response> => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const difficulty = req.body.difficulty;
 
     const updatedWord = await wordService.updateWordDifficulty(id, difficulty);
@@ -253,7 +254,7 @@ export const deleteWord = async (
   res: Response
 ): Promise<Response> => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const deletedWord = await wordService.deleteWord(id);
     if (!deletedWord) {
       return errorResponse(res, "Word no found by ID: " + id, 403);
@@ -352,7 +353,7 @@ export const updateIncrementWordSeens = async (
   res: Response
 ): Promise<Response> => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const updatedWord = await wordService.incrementWordSeen(id);
 
     if (!updatedWord) {
@@ -520,7 +521,7 @@ export const importWordsFromFile = async (
 // Chat methods
 export const addChatMessage = async (req: Request, res: Response) => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const { message } = req.body;
 
     if (!message) {
@@ -541,7 +542,7 @@ export const addChatMessage = async (req: Request, res: Response) => {
 
 export const getChatHistory = async (req: Request, res: Response) => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const chatHistory = await wordChatService.getChatHistory(id);
     return successResponse(res, "Chat history retrieved", chatHistory);
   } catch (error: any) {
@@ -552,7 +553,7 @@ export const getChatHistory = async (req: Request, res: Response) => {
 
 export const clearChatHistory = async (req: Request, res: Response) => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const word = await wordChatService.clearChatHistory(id);
     if (!word) {
       return errorResponse(res, "Word not found", 404);
@@ -568,7 +569,7 @@ export const clearChatHistory = async (req: Request, res: Response) => {
 // Streaming chat response
 export const streamChatResponse = async (req: Request, res: Response) => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const { message } = req.body;
 
     if (!message) {
@@ -657,7 +658,7 @@ export const generateWordJson = async (req: Request, res: Response) => {
 export const generateWordExamplesJson = async (req: Request, res: Response) => {
   const { word, oldExamples, provider } = req.body;
   const language = req.body.language || req.user?.language || "en";
-  const { id } = req.params as { id: string };
+  const { id } = routeParams(req) as { id: string };
   const userId = req.user?._id || req.user?.id || null;
 
   if (!word) {
@@ -688,7 +689,7 @@ export const generateWordExamplesCodeSwitchingJson = async (
 ) => {
   const { word, oldExamples, provider } = req.body;
   const language = req.body.language || req.user?.language || "en";
-  const { id } = req.params as { id: string };
+  const { id } = routeParams(req) as { id: string };
   const userId = req.user?._id || req.user?.id || null;
 
   if (!word) {
@@ -727,7 +728,7 @@ export const generateWordExamplesCodeSwitchingJson = async (
 export const generateWordTypesJson = async (req: Request, res: Response) => {
   const { word, oldExamples, provider } = req.body;
   const language = req.body.language || req.user?.language || "en";
-  const { id } = req.params as { id: string };
+  const { id } = routeParams(req) as { id: string };
   const userId = req.user?._id || req.user?.id || null;
 
   if (!word) {
@@ -758,7 +759,7 @@ export const generateWordTypesJson = async (req: Request, res: Response) => {
 export const generateWordSynomymsJson = async (req: Request, res: Response) => {
   const { word, oldExamples, provider } = req.body;
   const language = req.body.language || req.user?.language || "en";
-  const { id } = req.params as { id: string };
+  const { id } = routeParams(req) as { id: string };
   const userId = req.user?._id || req.user?.id || null;
 
   if (!word) {
@@ -785,7 +786,7 @@ export const generateWordSynomymsJson = async (req: Request, res: Response) => {
 
 export const updateImageWord = async (req: Request, res: Response) => {
   const { word, imgOld } = req.body;
-  const IDWord = req.params.id;
+  const IDWord = routeParams(req).id;
 
   if (!word) {
     return errorResponse(res, "Word is required.", 400);

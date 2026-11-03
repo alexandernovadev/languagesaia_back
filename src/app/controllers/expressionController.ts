@@ -19,6 +19,7 @@ import { toExpressionDTO, mapPaginated } from "../dto/mappers";
 import { generateImage } from "../services/ai/imageAIService";
 import { getAIProvider } from "../services/ai/aiConfigHelper";
 import type { ImageProvider } from "../../config/aiConfig";
+import { routeParams } from "../utils/http/routeParams";
 
 const expressionService = new ExpressionService();
 const expressionChatService = new ExpressionChatService();
@@ -45,7 +46,7 @@ export const createExpression = async (req: Request, res: Response) => {
 // Get an expression by ID
 export const getExpressionById = async (req: Request, res: Response) => {
   try {
-    const expression = await expressionService.getExpressionById(req.params.id);
+    const expression = await expressionService.getExpressionById(routeParams(req).id);
     if (!expression) {
       return errorResponse(res, "Expression not found", 404);
     }
@@ -78,7 +79,7 @@ export const updateExpression = async (req: Request, res: Response) => {
     const updateData = parseBody(ExpressionUpdateSchema, req.body, res);
     if (!updateData) return errorResponse(res, "Invalid request body", 400);
     const expression = await expressionService.updateExpression(
-      req.params.id,
+      routeParams(req).id,
       updateData as any
     );
     if (!expression) {
@@ -94,7 +95,7 @@ export const updateExpression = async (req: Request, res: Response) => {
 // Delete an expression
 export const deleteExpression = async (req: Request, res: Response) => {
   try {
-    const expression = await expressionService.deleteExpression(req.params.id);
+    const expression = await expressionService.deleteExpression(routeParams(req).id);
     if (!expression) {
       return errorResponse(res, "Expression not found", 404);
     }
@@ -112,7 +113,7 @@ export const getExpressionByExpression = async (
 ) => {
   try {
     const expression = await expressionService.findExpressionByExpression(
-      req.params.expression
+      routeParams(req).expression
     );
     if (!expression) {
       return errorResponse(res, "Expression not found", 404);
@@ -131,7 +132,7 @@ export const getExpressionByExpression = async (
 // Get expressions by type
 export const getExpressionsByType = async (req: Request, res: Response) => {
   try {
-    const { type } = req.params;
+    const { type } = routeParams(req);
     const { limit = 10, search } = req.query;
     const expressions = await expressionService.getExpressionsByType(
       type,
@@ -327,7 +328,7 @@ export const importExpressionsFromFile = async (
 // Chat methods
 export const addChatMessage = async (req: Request, res: Response) => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const { message } = req.body;
 
     if (!message) {
@@ -353,7 +354,7 @@ export const addChatMessage = async (req: Request, res: Response) => {
 
 export const getChatHistory = async (req: Request, res: Response) => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const chatHistory = await expressionChatService.getChatHistory(id);
     return successResponse(
       res,
@@ -368,7 +369,7 @@ export const getChatHistory = async (req: Request, res: Response) => {
 
 export const clearChatHistory = async (req: Request, res: Response) => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const expression = await expressionChatService.clearChatHistory(id);
     if (!expression) {
       return errorResponse(res, "Expression not found", 404);
@@ -383,7 +384,7 @@ export const clearChatHistory = async (req: Request, res: Response) => {
 // Streaming chat response (AI)
 export const streamChatResponse = async (req: Request, res: Response) => {
   try {
-    const { id } = req.params;
+    const { id } = routeParams(req);
     const { message } = req.body;
     if (!message) {
       return errorResponse(res, "Message is required", 400);
@@ -447,7 +448,7 @@ export const generateExpression = async (req: Request, res: Response) => {
 
 export const updateImageExpression = async (req: Request, res: Response) => {
   const { expressionString, imgOld } = req.body;
-  const IDExpression = req.params.id;
+  const IDExpression = routeParams(req).id;
 
   if (!expressionString) {
     return errorResponse(res, "Expression prompt is required.", 400);

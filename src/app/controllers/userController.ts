@@ -4,6 +4,7 @@ import { UserService } from "../services/users/userService";
 import { successResponse, errorResponse } from "../utils/responseHelpers";
 import { toUserDTO, mapPaginated } from "../dto/mappers";
 import { validateJsonBuffer, MAX_IMPORT_ITEMS } from "../middlewares/uploadMiddleware";
+import { routeParams } from "../utils/http/routeParams";
 
 const userService = new UserService();
 
@@ -18,7 +19,7 @@ export const getUsers = async (req: Request, res: Response) => {
 
 export const getUserById = async (req: Request, res: Response) => {
   try {
-    const user = await userService.getUserById(req.params.id);
+    const user = await userService.getUserById(routeParams(req).id);
     if (!user) return errorResponse(res, "User not found", 404);
     return successResponse(res, "User found", toUserDTO(user));
   } catch (error) {
@@ -42,7 +43,7 @@ export const createUser = async (req: Request, res: Response) => {
 export const updateUser = async (req: Request, res: Response) => {
   try {
     const user = await userService.updateUser(
-      req.params.id,
+      routeParams(req).id,
       req.body,
       req,
       req.user?._id?.toString()
@@ -57,7 +58,7 @@ export const updateUser = async (req: Request, res: Response) => {
 export const deleteUser = async (req: Request, res: Response) => {
   try {
     const user = await userService.deleteUser(
-      req.params.id,
+      routeParams(req).id,
       req,
       req.user?._id?.toString()
     );

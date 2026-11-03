@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import User from "../../db/models/User";
 import logger from "../../utils/logger";
 
-dotenv.config();
+dotenv.config({ quiet: true });
 
 export const seedAdminUser = async () => {
   try {

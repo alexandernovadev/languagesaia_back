@@ -1,4 +1,4 @@
-import { Model, FilterQuery } from "mongoose";
+import { Model, QueryFilter } from "mongoose";
 
 export interface PaginatedResult<T> {
   data: T[];
@@ -14,7 +14,7 @@ export interface PaginatedResult<T> {
  */
 export async function paginateQuery<T>(
   model: Model<T>,
-  query: FilterQuery<T>,
+  query: QueryFilter<T>,
   options: {
     sort?: Record<string, unknown>;
     projection?: Record<string, unknown>;
@@ -30,5 +30,5 @@ export async function paginateQuery<T>(
     model.find(query, projection).sort(sort as any).skip(skip).limit(limit),
   ]);
 
-  return { data, total, page, pages: Math.ceil(total / limit) };
+  return { data: data as T[], total, page, pages: Math.ceil(total / limit) };
 }

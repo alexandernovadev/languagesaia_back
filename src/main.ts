@@ -32,7 +32,7 @@ import { authMiddleware } from "./app/middlewares/authMiddleware";
 // Import package.json for version
 import packageJson from "../package.json";
 
-dotenv.config();
+dotenv.config({ quiet: true });
 
 const app = express();
 const NODE_ENV = process.env.NODE_ENV || "development";

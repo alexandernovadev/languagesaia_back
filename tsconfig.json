@@ -1,19 +1,22 @@
 {
   "compilerOptions": {
     "lib": [
-      "es6",
-      "dom"
+      "ES2023"
     ],
-    "target": "ES6",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "target": "ES2023",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "rootDir": ".",
     "outDir": "./dist",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
+    "types": [
+      "node"
+    ],
+    "strict": false,
     "sourceMap": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*",

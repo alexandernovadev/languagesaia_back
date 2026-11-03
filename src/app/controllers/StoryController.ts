@@ -33,6 +33,7 @@ import {
   transcribeAudioWithWordTimestamps,
 } from "../services/audio/textToSpeechService";
 import { deleteAudioFromPocketBase, uploadAudioToPocketBase } from "../services/audio/pocketBaseService";
+import { routeParams } from "../utils/http/routeParams";
 
 const storyService = new StoryService();
 
@@ -133,7 +134,7 @@ export const createStory = async (req: Request, res: Response): Promise<Response
 
 export const getStoryById = async (req: Request, res: Response): Promise<Response> => {
   try {
-    const story = await storyService.getStoryById(req.params.id);
+    const story = await storyService.getStoryById(routeParams(req).id);
     if (!story) return errorResponse(res, "Story not found", 404);
     return successResponse(res, "Story retrieved successfully", toStoryDTO(story));
   } catch (error) {
@@ -146,7 +147,7 @@ export const updateStory = async (req: Request, res: Response): Promise<Response
     const updateData = parseBody(StoryUpdateSchema, req.body, res);
     if (!updateData) return errorResponse(res, "Invalid request body", 400);
 
-    const story = await storyService.updateStory(req.params.id, updateData as any);
+    const story = await storyService.updateStory(routeParams(req).id, updateData as any);
     if (!story) return errorResponse(res, "Story not found", 404);
     return successResponse(res, "Story updated successfully", toStoryDTO(story));
   } catch (error) {
@@ -156,7 +157,7 @@ export const updateStory = async (req: Request, res: Response): Promise<Response
 
 export const deleteStory = async (req: Request, res: Response): Promise<Response> => {
   try {
-    const story = await storyService.deleteStory(req.params.id);
+    const story = await storyService.deleteStory(routeParams(req).id);
     if (!story) return errorResponse(res, "Story not found", 404);
     return successResponse(res, "Story deleted successfully", {});
   } catch (error) {
@@ -204,7 +205,7 @@ export const addChapter = async (req: Request, res: Response): Promise<Response>
     const chapterData = parseBody(ChapterSaveSchema, req.body, res);
     if (!chapterData) return res;
 
-    const story = await storyService.getStoryById(req.params.id);
+    const story = await storyService.getStoryById(routeParams(req).id);
     if (!story) return errorResponse(res, "Story not found", 404);
 
     const chapter = {
@@ -215,7 +216,7 @@ export const addChapter = async (req: Request, res: Response): Promise<Response>
       targetGrammar: chapterData.targetGrammar || [],
     };
 
-    const updated = await storyService.addChapter(req.params.id, chapter);
+    const updated = await storyService.addChapter(routeParams(req).id, chapter);
     if (!updated) return errorResponse(res, "Failed to add chapter", 500);
     return successResponse(res, "Chapter added successfully", toStoryDTO(updated), 201);
   } catch (error) {
@@ -225,10 +226,10 @@ export const addChapter = async (req: Request, res: Response): Promise<Response>
 
 export const updateChapter = async (req: Request, res: Response): Promise<Response> => {
   try {
-    const chapterIndex = parseInt(req.params.chapterIndex);
+    const chapterIndex = parseInt(routeParams(req).chapterIndex);
     if (isNaN(chapterIndex)) return errorResponse(res, "Invalid chapter index", 400);
 
-    const story = await storyService.updateChapter(req.params.id, chapterIndex, req.body);
+    const story = await storyService.updateChapter(routeParams(req).id, chapterIndex, req.body);
     if (!story) return errorResponse(res, "Story or chapter not found", 404);
     return successResponse(res, "Chapter updated successfully", toStoryDTO(story));
   } catch (error) {
@@ -238,10 +239,10 @@ export const updateChapter = async (req: Request, res: Response): Promise<Respon
 
 export const deleteChapter = async (req: Request, res: Response): Promise<Response> => {
   try {
-    const chapterIndex = parseInt(req.params.chapterIndex);
+    const chapterIndex = parseInt(routeParams(req).chapterIndex);
     if (isNaN(chapterIndex)) return errorResponse(res, "Invalid chapter index", 400);
 
-    const story = await storyService.deleteChapter(req.params.id, chapterIndex);
+    const story = await storyService.deleteChapter(routeParams(req).id, chapterIndex);
     if (!story) return errorResponse(res, "Story or chapter not found", 404);
     return successResponse(res, "Chapter deleted successfully", toStoryDTO(story));
   } catch (error) {
@@ -251,12 +252,12 @@ export const deleteChapter = async (req: Request, res: Response): Promise<Respon
 
 export const generateChapterAudioHandler = async (req: Request, res: Response): Promise<Response> => {
   try {
-    const chapterIndex = parseInt(req.params.chapterIndex);
+    const chapterIndex = parseInt(routeParams(req).chapterIndex);
     if (isNaN(chapterIndex) || chapterIndex < 0) {
       return errorResponse(res, "Invalid chapter index", 400);
     }
 
-    const story = await storyService.getStoryById(req.params.id);
+    const story = await storyService.getStoryById(routeParams(req).id);
     const chapter = story?.chapters[chapterIndex];
     if (!story || !chapter) return errorResponse(res, "Story or chapter not found", 404);
 
@@ -264,15 +265,15 @@ export const generateChapterAudioHandler = async (req: Request, res: Response): 
       ? req.body.voice.trim()
       : DEFAULT_TTS_VOICE;
     const audioBuffer = await generateChapterAudio(chapter.content, voice);
-    const filename = `story-${req.params.id}-chapter-${chapterIndex}.mp3`;
+    const filename = `story-${routeParams(req).id}-chapter-${chapterIndex}.mp3`;
     const audioAlignment = await transcribeAudioWithWordTimestamps(audioBuffer, filename);
     const uploaded = await uploadAudioToPocketBase(audioBuffer, filename, {
-      contentId: req.params.id,
+      contentId: routeParams(req).id,
       voice,
     });
 
     try {
-      const updated = await storyService.updateChapter(req.params.id, chapterIndex, {
+      const updated = await storyService.updateChapter(routeParams(req).id, chapterIndex, {
         urlAudio: uploaded.url,
         audioRecordId: uploaded.recordId,
         voice,
@@ -302,7 +303,7 @@ export const generateChapterAudioHandler = async (req: Request, res: Response): 
 
 export const getVocabReport = async (req: Request, res: Response): Promise<Response> => {
   try {
-    const report = await storyService.getVocabReport(req.params.id);
+    const report = await storyService.getVocabReport(routeParams(req).id);
     return successResponse(res, "Vocabulary report generated", report);
   } catch (error) {
     return errorResponse(res, "Error generating vocabulary report", 500, error);
@@ -350,7 +351,7 @@ export const updateProgress = async (req: Request, res: Response): Promise<Respo
     const userId = getUserId(req);
     if (!userId) return errorResponse(res, "Authentication required", 401);
 
-    const progress = await storyService.updateProgress(userId, req.params.id, chapterIndex);
+    const progress = await storyService.updateProgress(userId, routeParams(req).id, chapterIndex);
     return successResponse(res, "Progress updated", progress);
   } catch (error) {
     return errorResponse(res, "Error updating progress", 500, error);
@@ -362,7 +363,7 @@ export const getProgress = async (req: Request, res: Response): Promise<Response
     const userId = getUserId(req);
     if (!userId) return errorResponse(res, "Authentication required", 401);
 
-    const progress = await storyService.getProgress(userId, req.params.id);
+    const progress = await storyService.getProgress(userId, routeParams(req).id);
     return successResponse(res, "Progress retrieved", progress);
   } catch (error) {
     return errorResponse(res, "Error retrieving progress", 500, error);
@@ -371,7 +372,7 @@ export const getProgress = async (req: Request, res: Response): Promise<Response
 
 export const updateImageStory = async (req: Request, res: Response): Promise<Response> => {
   const { content, imgOld } = req.body as { content?: string; imgOld?: string };
-  const storyId = req.params.id;
+  const storyId = routeParams(req).id;
 
   if (!content) {
     return errorResponse(res, "content is required.", 400);
@@ -429,7 +430,7 @@ export const generateChapterTitleHandler = async (req: Request, res: Response): 
       return errorResponse(res, "content is required", 400);
     }
 
-    const story = await storyService.getStoryById(req.params.id);
+    const story = await storyService.getStoryById(routeParams(req).id);
     if (!story) return errorResponse(res, "Story not found", 404);
 
     const userId = getUserId(req);
@@ -457,7 +458,7 @@ export const generateChapterStream = async (req: Request, res: Response): Promis
   const { instructions, requestEnding, targetVocabulary, targetGrammar } = parsed;
 
   try {
-    const story = await storyService.getStoryById(req.params.id);
+    const story = await storyService.getStoryById(routeParams(req).id);
     if (!story) return errorResponse(res, "Story not found", 404);
 
     const previousChapters = story.chapters.map((ch) => ({

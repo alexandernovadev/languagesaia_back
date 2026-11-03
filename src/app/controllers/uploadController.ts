@@ -5,6 +5,7 @@ import { uploadImageToCloudinary, deleteImageFromCloudinary } from "../services/
 import Word from "../db/models/Word";
 import Expression from "../db/models/Expression";
 import Story from "../db/models/Story";
+import { routeParams } from "../utils/http/routeParams";
 
 interface UploadRequest extends Request {
   file?: Express.Multer.File;
@@ -15,7 +16,7 @@ export const uploadImageHandler = async (
   res: Response
 ): Promise<void> => {
   try {
-    const { entityType, entityId } = req.params;
+    const { entityType, entityId } = routeParams(req);
     const imageFile = req.file;
 
     if (!imageFile) {

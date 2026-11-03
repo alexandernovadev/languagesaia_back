@@ -101,11 +101,10 @@ const WordSchema: Schema = new Schema<IWord>(
 );
 
 // Keep `wordKey` in sync with `word` on every save (case-insensitive uniqueness).
-WordSchema.pre("save", function (this: IWord, next) {
+WordSchema.pre("save", function (this: IWord) {
   if (this.word) {
     this.wordKey = normalizeWordKey(this.word);
   }
-  next();
 });
 
 // Case-insensitive uniqueness: one entry per (word, language)

@@ -4,6 +4,7 @@ import { errorResponse, successResponse } from "../utils/responseHelpers";
 import { AIFeature, AIOperation } from "../../../types/models";
 import { TextProvider } from "../../config/aiConfig";
 import logger from "../utils/logger";
+import { routeParams } from "../utils/http/routeParams";
 
 /**
  * Get all configurations for the current user
@@ -29,7 +30,7 @@ export const getAIConfigs = async (req: Request, res: Response) => {
  */
 export const getAIConfig = async (req: Request, res: Response) => {
   try {
-    const { feature, operation } = req.params as { feature: AIFeature; operation: AIOperation };
+    const { feature, operation } = routeParams(req) as { feature: AIFeature; operation: AIOperation };
     const userId = req.user?._id || req.user?.id || null;
 
     if (!feature || !operation) {
@@ -98,7 +99,7 @@ export const saveAIConfig = async (req: Request, res: Response) => {
  */
 export const deleteAIConfig = async (req: Request, res: Response) => {
   try {
-    const { feature, operation } = req.params as { feature: AIFeature; operation: AIOperation };
+    const { feature, operation } = routeParams(req) as { feature: AIFeature; operation: AIOperation };
     const userId = req.user?._id || req.user?.id || null;
 
     if (!feature || !operation) {
