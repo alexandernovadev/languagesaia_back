@@ -11,11 +11,5 @@ export {
 // Word Prompts
 export * from './words';
 
-// Image Prompts
-export {
-  createImagePrompt,
-  type ImagePromptParams,
-  imageWordPrompt,
-  createExpressionImagePrompt,
-  createStoryImagePrompt,
-} from './imagePrompts';
+// Image Prompts (FLUX: scene written by the text AI + house style)
+export { buildImagePrompt, wordImagePrompt, expressionImagePrompt, storyImagePrompt, type ImageSubject } from './imagePrompts';

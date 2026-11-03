@@ -10,7 +10,7 @@ import {
   deleteImageFromCloudinary,
   uploadImageToCloudinary,
 } from "../services/cloudinary/cloudinaryService";
-import { createExpressionImagePrompt } from "../services/ai/prompts";
+import { expressionImagePrompt } from "../services/ai/prompts";
 import { successResponse, errorResponse } from "../utils/responseHelpers";
 import { validateJsonBuffer, MAX_IMPORT_ITEMS } from "../middlewares/uploadMiddleware";
 import logger from "../utils/logger";
@@ -453,8 +453,8 @@ export const updateImageExpression = async (req: Request, res: Response) => {
   }
 
   try {
-    const imageResponse = await generateImage(createExpressionImagePrompt(expressionString)
-    );
+    const expressionDoc = await expressionService.getExpressionById(IDExpression);
+    const imageResponse = await generateImage(await expressionImagePrompt(expressionDoc ?? { expression: expressionString }));
     if (!imageResponse) {
       return errorResponse(res, "Failed to generate image.", 400);
     }

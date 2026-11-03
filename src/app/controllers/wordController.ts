@@ -16,7 +16,7 @@ import {
   generateWordChat,
 } from "../services/ai/wordAIService";
 import { generateImage } from "../services/ai/imageAIService";
-import { imageWordPrompt } from "../services/ai/prompts";
+import { wordImagePrompt } from "../services/ai/prompts";
 import {
   deleteImageFromCloudinary,
   uploadImageToCloudinary,
@@ -788,7 +788,8 @@ export const updateImageWord = async (req: Request, res: Response) => {
   }
 
   try {
-    const imageResponse = await generateImage(imageWordPrompt(word));
+    const wordDoc = await wordService.getWordById(IDWord);
+    const imageResponse = await generateImage(await wordImagePrompt(wordDoc ?? { word }));
     if (!imageResponse) {
       return errorResponse(res, "Failed to generate image.", 400);
     }
