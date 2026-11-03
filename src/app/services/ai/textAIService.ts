@@ -1,14 +1,15 @@
 /**
- * Text generation — always DeepSeek.
+ * Text generation. Provider and models come from config/aiConfig.ts (TEXT_AI).
  */
 
 import OpenAI from "openai";
-import { DEEPSEEK, DeepSeekModel } from "../../../config/aiConfig";
+import { TEXT_AI, TextModelTier } from "../../../config/aiConfig";
 
-const client = new OpenAI({ apiKey: DEEPSEEK.apiKey, baseURL: DEEPSEEK.baseURL });
+const client = new OpenAI({ apiKey: TEXT_AI.apiKey, baseURL: TEXT_AI.baseURL });
 
 export interface TextGenerationOptions {
-  model?: DeepSeekModel;
+  /** Which model from TEXT_AI.models to use. Defaults to "default". */
+  tier?: TextModelTier;
   temperature?: number;
   stream?: boolean;
   maxTokens?: number;
@@ -19,7 +20,7 @@ type ChatMessage = { role: string; content: string };
 
 const complete = (messages: ChatMessage[], options: TextGenerationOptions) => {
   const request: any = {
-    model: options.model ?? DEEPSEEK.models.chat,
+    model: TEXT_AI.models[options.tier ?? "default"],
     messages,
     temperature: options.temperature ?? 0.7,
     stream: options.stream ?? false,

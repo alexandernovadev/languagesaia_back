@@ -52,7 +52,7 @@ export const validateExam = async (
   const fullPrompt = `${promptData.system}\n\n${promptData.user}`;
 
   const response = await generateText(fullPrompt, {
-    model: "deepseek-reasoner",
+    tier: "reasoning",
     responseFormat: "json_object",
     temperature: 0.3,
     maxTokens: 4000,
@@ -75,7 +75,7 @@ export const correctExam = async (
   const fullPrompt = `${promptData.system}\n\n${promptData.user}`;
 
   const response = await generateText(fullPrompt, {
-    model: "deepseek-reasoner",
+    tier: "reasoning",
     responseFormat: "json_object",
     temperature: 0.3,
     maxTokens: 4000,

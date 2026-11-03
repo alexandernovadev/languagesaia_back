@@ -82,7 +82,7 @@ const publicPath = path.join(__dirname, "..", "public");
 app.use("/audios", express.static(path.join(publicPath, "audios")));
 app.use("/images", express.static(path.join(publicPath, "images")));
 
-// Extends the socket timeout for routes that call OpenAI (streaming, image gen)
+// Extends the socket timeout for routes that call an AI provider (streaming, image gen)
 const extendTimeout = (_req: Request, res: Response, next: NextFunction) => {
   res.setTimeout(AI_REQUEST_TIMEOUT_MS, () => {
     errorResponse(res, "Request timed out", 408);

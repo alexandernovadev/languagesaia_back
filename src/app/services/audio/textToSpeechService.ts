@@ -1,15 +1,11 @@
 import OpenAI from "openai";
-import { OPENAI } from "../../../config/aiConfig";
+import { AUDIO_AI } from "../../../config/aiConfig";
 
-export const DEFAULT_TTS_VOICE = "coral";
-export const DEFAULT_TTS_INSTRUCTIONS =
-  "Speak like an engaging storyteller. Use a warm, expressive and cheerful tone. " +
-  "Speak slowly and clearly, with natural pauses between sentences. " +
-  "Pronounce every word carefully. Keep the energy positive and animated, but never exaggerated.";
+export const DEFAULT_TTS_VOICE = AUDIO_AI.defaultVoice;
 
 const client = new OpenAI({
-  apiKey: OPENAI.apiKey,
-  baseURL: OPENAI.baseURL,
+  apiKey: AUDIO_AI.apiKey,
+  baseURL: AUDIO_AI.baseURL,
 });
 
 // Keep this as close as possible to what KaraokeView.tsx treats as "spoken words"
@@ -52,10 +48,10 @@ export const generateChapterAudio = async (
   if (!input) throw new Error("Chapter content is empty");
 
   const response = await client.audio.speech.create({
-    model: "gpt-4o-mini-tts",
+    model: AUDIO_AI.ttsModel,
     voice,
     input,
-    instructions: DEFAULT_TTS_INSTRUCTIONS,
+    instructions: AUDIO_AI.instructions,
     response_format: "mp3",
   });
 
@@ -74,7 +70,7 @@ export const transcribeAudioWithWordTimestamps = async (
 ): Promise<AudioWordTiming[]> => {
   const response = await client.audio.transcriptions.create({
     file: new File([new Uint8Array(audioBuffer)], filename, { type: "audio/mpeg" }),
-    model: "whisper-1",
+    model: AUDIO_AI.transcriptionModel,
     response_format: "verbose_json",
     timestamp_granularities: ["word"],
   } as any);

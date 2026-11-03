@@ -1,18 +1,18 @@
 /**
- * Image generation — OpenAI DALL·E (DeepSeek has no image models).
+ * Image generation. Provider and model come from config/aiConfig.ts (IMAGE_AI).
  */
 
 import OpenAI from "openai";
-import { OPENAI } from "../../../config/aiConfig";
+import { IMAGE_AI } from "../../../config/aiConfig";
 import logger from "../../utils/logger";
 
-const client = new OpenAI({ apiKey: OPENAI.apiKey, baseURL: OPENAI.baseURL });
+const client = new OpenAI({ apiKey: IMAGE_AI.apiKey, baseURL: IMAGE_AI.baseURL });
 
 /** Returns the first generated image (`b64_json`). */
 export const generateImage = async (prompt: string) => {
   try {
     const response = await client.images.generate({
-      model: OPENAI.imageModel,
+      model: IMAGE_AI.model,
       prompt,
       n: 1,
       size: "1024x1024",
@@ -21,7 +21,7 @@ export const generateImage = async (prompt: string) => {
     });
     return response.data[0];
   } catch (error) {
-    logger.error("Error generating image with DALL-E:", error);
+    logger.error(`Error generating image with ${IMAGE_AI.name}:`, error);
     throw new Error(`Error generating image: ${error}`);
   }
 };
