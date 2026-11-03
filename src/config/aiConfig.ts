@@ -3,9 +3,11 @@
  *  AI CONFIG — the ONE file to touch when changing AI providers or models.
  * ─────────────────────────────────────────────────────────────────────────────
  *  Every AI call in the app reads from here. Nothing else hardcodes a provider,
- *  URL, key or model name. All providers must speak the OpenAI-compatible API.
+ *  URL, key or model name.
  *
  *  To switch a provider: change its `baseURL`, `apiKey` env var and model names.
+ *  TEXT_AI and AUDIO_AI must speak the OpenAI-compatible API; IMAGE_AI uses
+ *  fal.ai's REST API (see services/ai/imageAIService.ts).
  */
 
 /** Text generation: words, expressions, stories, reader, chats, exams. */
@@ -23,10 +25,13 @@ export const TEXT_AI = {
 
 /** Image generation: word / expression / story pictures. */
 export const IMAGE_AI = {
-  name: "OpenAI",
-  apiKey: process.env.OPENAI_API_KEY,
-  baseURL: "https://api.openai.com/v1",
-  model: "dall-e-3",
+  name: "fal.ai",
+  apiKey: process.env.FAL_KEY,
+  baseURL: "https://fal.run",
+  model: "fal-ai/flux/schnell",
+  /** square_hd = 1024x1024. Others: square, portrait_4_3, portrait_16_9, landscape_4_3, landscape_16_9 */
+  size: "square_hd",
+  outputFormat: "jpeg",
 } as const;
 
 /** Audio: chapter narration (TTS) and word timestamps for karaoke (transcription). */

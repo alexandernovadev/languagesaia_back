@@ -794,7 +794,7 @@ export const updateImageWord = async (req: Request, res: Response) => {
     }
 
     // Extract base64 string from the response object
-    const imageBase64 = (imageResponse as any).b64_json;
+    const imageBase64 = imageResponse.b64_json;
     if (!imageBase64) {
       return errorResponse(res, "Failed to get image data from response.", 400);
     }

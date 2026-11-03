@@ -382,7 +382,7 @@ export const updateImageStory = async (req: Request, res: Response): Promise<Res
       return errorResponse(res, "Failed to generate image.", 400);
     }
 
-    const imageBase64 = (imageResponse as any).b64_json;
+    const imageBase64 = imageResponse.b64_json;
     if (!imageBase64) {
       return errorResponse(res, "Failed to get image data from response.", 400);
     }

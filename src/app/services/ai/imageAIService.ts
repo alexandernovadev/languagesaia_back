@@ -1,25 +1,46 @@
 /**
  * Image generation. Provider and model come from config/aiConfig.ts (IMAGE_AI).
+ * Uses fal.ai's synchronous REST endpoint with `sync_mode`, so the image comes
+ * back inline as a base64 data URI (nothing is stored on fal's side).
  */
 
-import OpenAI from "openai";
 import { IMAGE_AI } from "../../../config/aiConfig";
 import logger from "../../utils/logger";
 
-const client = new OpenAI({ apiKey: IMAGE_AI.apiKey, baseURL: IMAGE_AI.baseURL });
+interface FalImageResponse {
+  images: Array<{ url: string; width: number; height: number; content_type?: string }>;
+  has_nsfw_concepts?: boolean[];
+}
 
-/** Returns the first generated image (`b64_json`). */
-export const generateImage = async (prompt: string) => {
+/** Returns the generated image as base64 (`b64_json`), ready to upload to Cloudinary. */
+export const generateImage = async (prompt: string): Promise<{ b64_json: string }> => {
   try {
-    const response = await client.images.generate({
-      model: IMAGE_AI.model,
-      prompt,
-      n: 1,
-      size: "1024x1024",
-      quality: "hd",
-      response_format: "b64_json",
+    const response = await fetch(`${IMAGE_AI.baseURL}/${IMAGE_AI.model}`, {
+      method: "POST",
+      headers: {
+        Authorization: `Key ${IMAGE_AI.apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        prompt,
+        image_size: IMAGE_AI.size,
+        num_images: 1,
+        output_format: IMAGE_AI.outputFormat,
+        sync_mode: true,
+      }),
     });
-    return response.data[0];
+
+    if (!response.ok) {
+      throw new Error(`${response.status} ${await response.text()}`);
+    }
+
+    const data = (await response.json()) as FalImageResponse;
+    const dataUri = data.images?.[0]?.url;
+    if (!dataUri?.startsWith("data:")) {
+      throw new Error("No inline image returned");
+    }
+
+    return { b64_json: dataUri.slice(dataUri.indexOf(",") + 1) };
   } catch (error) {
     logger.error(`Error generating image with ${IMAGE_AI.name}:`, error);
     throw new Error(`Error generating image: ${error}`);
