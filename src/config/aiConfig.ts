@@ -17,14 +17,13 @@ export const TEXT_AI = {
   baseURL: "https://api.fireworks.ai/inference/v1",
   /**
    * Must be a SERVERLESS model on Fireworks (or a deployment you own).
-   * qwen3p8-2p4t-a95b is NOT serverless: without an on-demand deployment the
-   * requests hang. qwen3p8-max is the same Qwen 3.8 family and is serverless.
+   * Qwen 3.8 (qwen3p8-*) was too slow / often hanging on Fireworks serverless.
    */
   models: {
     /** Default for every text task. */
-    default: "accounts/fireworks/models/qwen3p8-max",
+    default: "accounts/fireworks/models/deepseek-v4p1-flash",
     /** Tasks that need careful reasoning (exam validation & correction). */
-    reasoning: "accounts/fireworks/models/qwen3p8-max",
+    reasoning: "accounts/fireworks/models/deepseek-v4p1-flash",
   },
   /** How much the model "thinks" before answering, per tier (low | medium | high | none). */
   reasoningEffort: {
@@ -33,10 +32,10 @@ export const TEXT_AI = {
   },
   /**
    * Backup model. If the main model doesn't START answering within
-   * `primaryTimeoutMs` (Fireworks sometimes leaves Qwen requests hanging),
+   * `primaryTimeoutMs` (Fireworks sometimes leaves requests hanging),
    * the same request is retried here so the app never gets stuck.
    */
-  fallback: "accounts/fireworks/models/deepseek-v4p1-flash",
+  fallback: "accounts/fireworks/models/kimi-k3",
   primaryTimeoutMs: 20_000,
   /** After the main model fails, use the backup directly for this long, then try the main one again. */
   primaryCooldownMs: 5 * 60_000,
