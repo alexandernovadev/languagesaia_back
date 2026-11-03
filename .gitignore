@@ -25,3 +25,6 @@ exports
 *.sw?
 
 .env
+
+# local env backups
+.env*.bak

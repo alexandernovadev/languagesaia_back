@@ -105,7 +105,7 @@ if echo "$BACKUP_SEND_RESPONSE" | grep -q '"success":true'; then
     print_info "Check your email at titoantifa69@gmail.com"
     print_info "You should receive:"
     print_info "- Subject: 🔒 Backup Diario - LanguageAI [Date]"
-    print_info "- 2 JSON files attached (words and lectures)"
+    print_info "- 3 JSON files attached (words, expressions and exams)"
 else
     print_error "Backup failed to send"
     print_info "Check the response above for errors"

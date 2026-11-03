@@ -108,6 +108,9 @@ WordSchema.pre("save", function (this: IWord, next) {
   next();
 });
 
+// Case-insensitive uniqueness: one entry per (word, language)
+WordSchema.index({ wordKey: 1, language: 1 }, { unique: true });
+
 // Compound indexes for the most common query patterns
 WordSchema.index({ language: 1, difficulty: 1 }); // getAnkiCards, getWords filtered by language+difficulty
 WordSchema.index({ language: 1, createdAt: -1 }); // getWords sorted by date with language filter

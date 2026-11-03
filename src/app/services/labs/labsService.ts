@@ -1,6 +1,5 @@
 import Word from "../../db/models/Word";
 import Expression from "../../db/models/Expression";
-import Lecture from "../../db/models/Lecture";
 import Exam from "../../db/models/Exam";
 import ExamAttempt from "../../db/models/ExamAttempt";
 import Story from "../../db/models/Story";
@@ -55,32 +54,6 @@ export class LabsService {
       };
     } catch (error) {
       logger.error("❌ Error deleting all expressions:", error);
-      throw error;
-    }
-  }
-
-  /**
-   * Delete all lectures from the database
-   * ⚠️ DANGEROUS OPERATION - Cannot be undone
-   */
-  async deleteAllLectures(): Promise<{ deletedCount: number; timestamp: Date }> {
-    try {
-      logger.warn("⚠️ INITIATING: Delete all lectures operation");
-      
-      const result = await Lecture.deleteMany({});
-      const timestamp = new Date();
-      
-      logger.warn("⚠️ COMPLETED: All lectures deleted", {
-        deletedCount: result.deletedCount,
-        timestamp: timestamp.toISOString()
-      });
-      
-      return {
-        deletedCount: result.deletedCount || 0,
-        timestamp
-      };
-    } catch (error) {
-      logger.error("❌ Error deleting all lectures:", error);
       throw error;
     }
   }

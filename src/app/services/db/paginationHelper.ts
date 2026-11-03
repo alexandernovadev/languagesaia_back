@@ -9,7 +9,7 @@ export interface PaginatedResult<T> {
 
 /**
  * Runs the count + find round trip shared by every advanced paginated
- * listing (Story, Lecture, ...). Callers stay responsible for building the
+ * listing (Story, Exam, ...). Callers stay responsible for building the
  * domain-specific `query`/`sort`/`projection` — this only wraps the DB call.
  */
 export async function paginateQuery<T>(
