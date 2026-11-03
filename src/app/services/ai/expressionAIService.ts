@@ -1,5 +1,4 @@
-import { generateText } from "./aiService";
-import { TextProvider } from "../../../config/aiConfig";
+import { generateText } from "./textAIService";
 import {
   createExpressionGenerationPrompt,
   createExpressionChatPrompt,
@@ -7,10 +6,8 @@ import {
   ExpressionChatPromptParams,
 } from "./prompts/expressions";
 import { generateChat } from "./textAIService";
-import { getAIProvider } from "./aiConfigHelper";
 
 export interface ExpressionGenerationOptions {
-  provider?: TextProvider;
   userId?: string | null; // To look up user AI configuration
   [key: string]: any;
 }
@@ -19,13 +16,8 @@ export const generateExpressionData = async (
   params: ExpressionGenerationPromptParams,
   options: ExpressionGenerationOptions = {}
 ) => {
-  const provider = await getAIProvider(options.userId, 'expression', 'generate', options);
   const promptData = createExpressionGenerationPrompt(params);
-  const response = await generateText(
-    provider,
-    `${promptData.system}\n\n${promptData.user}`,
-    undefined,
-    {
+  const response = await generateText(`${promptData.system}\n\n${promptData.user}`, {
       ...options,
       responseFormat: "json_object",
       temperature: options.temperature || 0.2,
@@ -40,9 +32,8 @@ export const generateExpressionChat = async (
   params: ExpressionChatPromptParams,
   options: ExpressionGenerationOptions = {}
 ) => {
-  const provider = await getAIProvider(options.userId, 'expression', 'chat', options);
   const promptData = createExpressionChatPrompt(params);
-  return generateChat(provider, promptData.messages, undefined, {
+  return generateChat(promptData.messages, {
     ...options,
     temperature: options.temperature || 0.7,
     stream: options.stream || true,

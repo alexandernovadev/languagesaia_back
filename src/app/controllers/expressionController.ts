@@ -17,8 +17,6 @@ import logger from "../utils/logger";
 import { ExpressionCreateSchema, ExpressionUpdateSchema, parseBody } from "../validators/schemas";
 import { toExpressionDTO, mapPaginated } from "../dto/mappers";
 import { generateImage } from "../services/ai/imageAIService";
-import { getAIProvider } from "../services/ai/aiConfigHelper";
-import type { ImageProvider } from "../../config/aiConfig";
 import { routeParams } from "../utils/http/routeParams";
 
 const expressionService = new ExpressionService();
@@ -455,16 +453,7 @@ export const updateImageExpression = async (req: Request, res: Response) => {
   }
 
   try {
-    const userId =
-      req.user?._id?.toString?.() ?? (req.user as { id?: string })?.id ?? null;
-    const imageProvider = (await getAIProvider(
-      userId,
-      "expression",
-      "image"
-    )) as ImageProvider;
-    const imageResponse = await generateImage(
-      imageProvider,
-      createExpressionImagePrompt(expressionString)
+    const imageResponse = await generateImage(createExpressionImagePrompt(expressionString)
     );
     if (!imageResponse) {
       return errorResponse(res, "Failed to generate image.", 400);

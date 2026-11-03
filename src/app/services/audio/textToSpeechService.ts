@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import { AI_CONFIG } from "../../../config/aiConfig";
+import { OPENAI } from "../../../config/aiConfig";
 
 export const DEFAULT_TTS_VOICE = "coral";
 export const DEFAULT_TTS_INSTRUCTIONS =
@@ -8,8 +8,8 @@ export const DEFAULT_TTS_INSTRUCTIONS =
   "Pronounce every word carefully. Keep the energy positive and animated, but never exaggerated.";
 
 const client = new OpenAI({
-  apiKey: AI_CONFIG.providers.openai.apiKey,
-  baseURL: AI_CONFIG.providers.openai.baseURL,
+  apiKey: OPENAI.apiKey,
+  baseURL: OPENAI.baseURL,
 });
 
 // Keep this as close as possible to what KaraokeView.tsx treats as "spoken words"

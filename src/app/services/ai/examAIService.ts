@@ -1,5 +1,4 @@
 import { generateText, generateChat } from "./textAIService";
-import { getAIProvider } from "./aiConfigHelper";
 import {
   createExamGenerationPrompt,
   createExamValidationPrompt,
@@ -8,11 +7,6 @@ import {
   createExamQuestionFeedbackPrompt,
   createExamEvaluateTranslationPrompt,
 } from "./prompts/exams";
-import type { DeepSeekModel, TextProvider } from "../../../config/aiConfig";
-
-function reasoningModel(provider: TextProvider): DeepSeekModel | undefined {
-  return provider === "deepseek" ? "deepseek-reasoner" : undefined;
-}
 
 export interface GenerateExamParams {
   language: string;
@@ -39,8 +33,7 @@ export const generateExam = async (
   });
   const fullPrompt = `${promptData.system}\n\n${promptData.user}`;
 
-  const provider = await getAIProvider(options?.userId, "exam", "generate");
-  const response = await generateText(provider, fullPrompt, undefined, {
+  const response = await generateText(fullPrompt, {
     responseFormat: "json_object",
     temperature: 0.3,
   });
@@ -58,9 +51,8 @@ export const validateExam = async (
   const promptData = createExamValidationPrompt(examJson);
   const fullPrompt = `${promptData.system}\n\n${promptData.user}`;
 
-  const provider = await getAIProvider(options?.userId, "exam", "validate");
-  const model = reasoningModel(provider);
-  const response = await generateText(provider, fullPrompt, model, {
+  const response = await generateText(fullPrompt, {
+    model: "deepseek-reasoner",
     responseFormat: "json_object",
     temperature: 0.3,
     maxTokens: 4000,
@@ -82,9 +74,8 @@ export const correctExam = async (
   const promptData = createExamCorrectionPrompt({ examJson, validationJson });
   const fullPrompt = `${promptData.system}\n\n${promptData.user}`;
 
-  const provider = await getAIProvider(options?.userId, "exam", "correct");
-  const model = reasoningModel(provider);
-  const response = await generateText(provider, fullPrompt, model, {
+  const response = await generateText(fullPrompt, {
+    model: "deepseek-reasoner",
     responseFormat: "json_object",
     temperature: 0.3,
     maxTokens: 4000,
@@ -118,8 +109,7 @@ export const generateExamQuestionChat = async (params: ExamQuestionChatParams) =
   const { userId, ...promptParams } = params;
   const { messages } = createExamQuestionChatPrompt(promptParams);
 
-  const provider = await getAIProvider(userId, "exam", "questionChat");
-  const response = await generateChat(provider, messages, undefined, {
+  const response = await generateChat(messages, {
     temperature: 0.3,
   });
 
@@ -153,8 +143,7 @@ export const generateExamQuestionFeedback = async (
   const { system, messages } = createExamQuestionFeedbackPrompt(feedbackParams);
   const fullPrompt = `${system}\n\n${messages[0].content}`;
 
-  const provider = await getAIProvider(userId, "exam", "questionFeedback");
-  const response = await generateText(provider, fullPrompt, undefined, {
+  const response = await generateText(fullPrompt, {
     temperature: 0.3,
     maxTokens: 300,
   });
@@ -189,8 +178,7 @@ export const evaluateTranslationAnswer = async (params: {
   });
   const fullPrompt = `${system}\n\n${user}`;
 
-  const provider = await getAIProvider(userId, "exam", "evaluateTranslation");
-  const response = await generateText(provider, fullPrompt, undefined, {
+  const response = await generateText(fullPrompt, {
     responseFormat: "json_object",
     temperature: 0.3,
     maxTokens: 500,

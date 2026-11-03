@@ -14,10 +14,8 @@ import {
   generateWordTypes,
   generateWordSynonyms,
   generateWordChat,
-  generateImage,
-} from "../services/ai";
-import { getAIProvider } from "../services/ai/aiConfigHelper";
-import type { ImageProvider } from "../../config/aiConfig";
+} from "../services/ai/wordAIService";
+import { generateImage } from "../services/ai/imageAIService";
 import { imageWordPrompt } from "../services/ai/prompts";
 import {
   deleteImageFromCloudinary,
@@ -627,7 +625,7 @@ export const streamChatResponse = async (req: Request, res: Response) => {
 // ===== AI GENERATION FUNCTIONS FOR WORDS =====
 
 export const generateWordJson = async (req: Request, res: Response) => {
-  const { word, provider } = req.body;
+  const { word } = req.body;
   const language = req.body.language || req.user?.language || "en";
   const userId = req.user?._id || req.user?.id || null;
 
@@ -637,7 +635,7 @@ export const generateWordJson = async (req: Request, res: Response) => {
 
   try {
     // Generate the word data using unified AI service
-    const wordData = await generateWordData(word, language, [], { provider, userId });
+    const wordData = await generateWordData(word, language, [], { userId });
 
     // Save the generated word to the database
     const savedWord = await wordService.createWord(wordData);
@@ -656,7 +654,7 @@ export const generateWordJson = async (req: Request, res: Response) => {
 };
 
 export const generateWordExamplesJson = async (req: Request, res: Response) => {
-  const { word, oldExamples, provider } = req.body;
+  const { word, oldExamples } = req.body;
   const language = req.body.language || req.user?.language || "en";
   const { id } = routeParams(req) as { id: string };
   const userId = req.user?._id || req.user?.id || null;
@@ -667,7 +665,6 @@ export const generateWordExamplesJson = async (req: Request, res: Response) => {
 
   try {
     const generated = await generateWordExamples(word, language, oldExamples, {
-      provider,
       userId,
     });
     const updated = await wordService.updateWordExamples(
@@ -687,7 +684,7 @@ export const generateWordExamplesCodeSwitchingJson = async (
   req: Request,
   res: Response
 ) => {
-  const { word, oldExamples, provider } = req.body;
+  const { word, oldExamples } = req.body;
   const language = req.body.language || req.user?.language || "en";
   const { id } = routeParams(req) as { id: string };
   const userId = req.user?._id || req.user?.id || null;
@@ -701,7 +698,7 @@ export const generateWordExamplesCodeSwitchingJson = async (
       word,
       language,
       oldExamples,
-      { provider, userId }
+      { userId }
     );
     const updated = await wordService.updateWordCodeSwitching(
       id,
@@ -726,7 +723,7 @@ export const generateWordExamplesCodeSwitchingJson = async (
 };
 
 export const generateWordTypesJson = async (req: Request, res: Response) => {
-  const { word, oldExamples, provider } = req.body;
+  const { word, oldExamples } = req.body;
   const language = req.body.language || req.user?.language || "en";
   const { id } = routeParams(req) as { id: string };
   const userId = req.user?._id || req.user?.id || null;
@@ -737,7 +734,6 @@ export const generateWordTypesJson = async (req: Request, res: Response) => {
 
   try {
     const generated = await generateWordTypes(word, language, oldExamples, {
-      provider,
       userId,
     });
     const updated = await wordService.updateWordType(
@@ -757,7 +753,7 @@ export const generateWordTypesJson = async (req: Request, res: Response) => {
 };
 
 export const generateWordSynomymsJson = async (req: Request, res: Response) => {
-  const { word, oldExamples, provider } = req.body;
+  const { word, oldExamples } = req.body;
   const language = req.body.language || req.user?.language || "en";
   const { id } = routeParams(req) as { id: string };
   const userId = req.user?._id || req.user?.id || null;
@@ -768,7 +764,6 @@ export const generateWordSynomymsJson = async (req: Request, res: Response) => {
 
   try {
     const generated = await generateWordSynonyms(word, language, oldExamples, {
-      provider,
       userId,
     });
     const updated = await wordService.updateWordSynonyms(
@@ -793,14 +788,7 @@ export const updateImageWord = async (req: Request, res: Response) => {
   }
 
   try {
-    const userId =
-      req.user?._id?.toString?.() ?? (req.user as { id?: string })?.id ?? null;
-    const imageProvider = (await getAIProvider(
-      userId,
-      "word",
-      "image"
-    )) as ImageProvider;
-    const imageResponse = await generateImage(imageProvider, imageWordPrompt(word));
+    const imageResponse = await generateImage(imageWordPrompt(word));
     if (!imageResponse) {
       return errorResponse(res, "Failed to generate image.", 400);
     }

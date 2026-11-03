@@ -7,7 +7,6 @@ import {
 } from "../../data/business/shared";
 import Exam from "./Exam";
 import ExamAttempt from "./ExamAttempt";
-import AIConfig from "./AIConfig";
 
 const UserSchema: Schema = new Schema(
   {
@@ -42,7 +41,6 @@ UserSchema.pre("findOneAndDelete", async function () {
   await Promise.all([
     Exam.deleteMany({ createdBy: userId }),
     ExamAttempt.deleteMany({ userId }),
-    AIConfig.deleteMany({ userId: userId.toString() }),
   ]);
 });
 

@@ -22,7 +22,6 @@ import UploadRoutes from "./app/routes/uploadRoutes";
 import AuthRoutes from "./app/routes/authRoutes";
 import UserRoutes from "./app/routes/userRoutes";
 import ExamRoutes from "./app/routes/examRoutes";
-import AIConfigRoutes from "./app/routes/aiConfigRoutes";
 
 // Utils
 import { errorResponse, successResponse } from "./app/utils/responseHelpers";
@@ -98,7 +97,6 @@ app.use("/api/words", authMiddleware, extendTimeout, WordsRoutes);
 app.use("/api/expressions", authMiddleware, extendTimeout, ExpressionRoutes);
 app.use("/api/users", authMiddleware, UserRoutes);
 app.use("/api/exams", authMiddleware, extendTimeout, ExamRoutes);
-app.use("/api/ai-config", authMiddleware, AIConfigRoutes);
 
 // Labs routes (conditional auth)
 if (LABS_AUTH) {

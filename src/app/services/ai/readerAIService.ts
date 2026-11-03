@@ -14,8 +14,6 @@ export const translateSelection = async (
   options: ReaderTextOptions = {}
 ): Promise<string> => {
   return generateAIContent({
-    feature: "reader",
-    operation: "translate",
     promptData: {
       system:
         "You are a precise translator. Translate the user's text into the requested language. Return only the translation, nothing else.",
@@ -32,8 +30,6 @@ export const classifySelection = async (
   options: ReaderTextOptions = {}
 ): Promise<SelectionClassification> => {
   const result = await generateAIContent({
-    feature: "reader",
-    operation: "classify",
     promptData: {
       system:
         "You classify selected English text. Respond ONLY with valid JSON.",

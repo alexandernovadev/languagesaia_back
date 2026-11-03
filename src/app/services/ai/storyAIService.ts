@@ -10,8 +10,6 @@ export const generateChapterText = async (
   options: StoryTextGenerationOptions = {}
 ) => {
   return generateAIContent({
-    feature: "story",
-    operation: "text",
     promptData: createChapterGenerationPrompt(params),
     options,
     stream: true,
@@ -24,8 +22,6 @@ export const generateChapterTitle = async (
   options: StoryTextGenerationOptions = {}
 ): Promise<string> => {
   return generateAIContent({
-    feature: "story",
-    operation: "title",
     promptData: createChapterTitlePrompt(params),
     options,
     stream: false,
@@ -38,8 +34,6 @@ export const generateStoryIdea = async (
   options: StoryTextGenerationOptions = {}
 ): Promise<{ title: string; description: string }> => {
   return generateAIContent({
-    feature: "story",
-    operation: "topic",
     promptData: createStoryIdeaPrompt(params),
     options,
     stream: false,

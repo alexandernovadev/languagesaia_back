@@ -15,8 +15,6 @@ import { generateChapterText, generateStoryIdea, generateChapterTitle } from "..
 import { translateSelection, classifySelection } from "../services/ai/readerAIService";
 import { generateImage } from "../services/ai/imageAIService";
 import { createStoryImagePrompt } from "../services/ai/prompts";
-import { getAIProvider } from "../services/ai/aiConfigHelper";
-import type { ImageProvider } from "../../config/aiConfig";
 import {
   deleteImageFromCloudinary,
   uploadImageToCloudinary,
@@ -379,9 +377,7 @@ export const updateImageStory = async (req: Request, res: Response): Promise<Res
   }
 
   try {
-    const userId = getUserId(req);
-    const imageProvider = (await getAIProvider(userId, "story", "image")) as ImageProvider;
-    const imageResponse = await generateImage(imageProvider, createStoryImagePrompt(content));
+    const imageResponse = await generateImage(createStoryImagePrompt(content));
     if (!imageResponse) {
       return errorResponse(res, "Failed to generate image.", 400);
     }

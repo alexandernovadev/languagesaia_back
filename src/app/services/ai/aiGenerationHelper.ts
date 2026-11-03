@@ -1,10 +1,6 @@
-import { generateText } from "./aiService";
-import { TextProvider } from "../../../config/aiConfig";
-import { getAIProvider } from "./aiConfigHelper";
-import { AIFeature, AIOperation } from "../../../../types/models";
+import { generateText } from "./textAIService";
 
 export interface AIContentOptions {
-  provider?: TextProvider;
   userId?: string | null;
   stream?: boolean;
   temperature?: number;
@@ -12,8 +8,6 @@ export interface AIContentOptions {
 }
 
 interface GenerateAIContentParams {
-  feature: AIFeature;
-  operation: AIOperation;
   promptData: { system: string; user: string };
   options: AIContentOptions;
   /** Final streaming decision for this call (some callers force it, others forward `options.stream`). */
@@ -26,18 +20,16 @@ interface GenerateAIContentParams {
 }
 
 /**
- * Shared tail end of every AI text-generation call: resolve the provider,
+ * Shared tail end of every AI text-generation call:
  * call the model, and either return the raw stream or extract/validate/parse
  * the completion content. Used by storyAIService (the same
- * "getAIProvider -> generateText -> validate content" shape also appears
+ * "generateText -> validate content" shape also appears
  * in wordAIService/examAIService, left untouched for now).
  */
 export async function generateAIContent(
   params: GenerateAIContentParams
 ): Promise<any> {
   const {
-    feature,
-    operation,
     promptData,
     options,
     stream,
@@ -46,12 +38,11 @@ export async function generateAIContent(
     parseJSON = false,
   } = params;
 
-  const provider = await getAIProvider(options.userId, feature, operation, options);
   const temperature = options.temperature ?? defaultTemperature;
   const prompt = `${promptData.system}\n\n${promptData.user}`;
 
   if (stream) {
-    return generateText(provider, prompt, undefined, {
+    return generateText(prompt, {
       ...options,
       responseFormat: "text",
       temperature,
@@ -59,7 +50,7 @@ export async function generateAIContent(
     });
   }
 
-  const response = await generateText(provider, prompt, undefined, {
+  const response = await generateText(prompt, {
     ...options,
     responseFormat: nonStreamResponseFormat,
     temperature,

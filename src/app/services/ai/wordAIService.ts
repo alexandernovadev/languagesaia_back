@@ -16,13 +16,10 @@ import {
   createWordExamplesPrompt,
   createWordCodeSwitchingPrompt,
 } from "./prompts/words";
-import { TextProvider } from "../../../config/aiConfig";
 import { Language } from "../../../../types/business";
-import { getAIProvider } from "./aiConfigHelper";
 
 // Options for word generation
 export interface WordGenerationOptions extends TextGenerationOptions {
-  provider?: TextProvider;
   userId?: string | null; // To look up user AI configuration
 }
 
@@ -33,7 +30,6 @@ export const generateWordData = async (
   wordDataExamples: any[] = [],
   options: WordGenerationOptions = {}
 ) => {
-  const provider = await getAIProvider(options.userId, 'word', 'generate', options);
 
   // Create prompt using separated function
   const promptData = createWordGenerationPrompt({
@@ -43,11 +39,7 @@ export const generateWordData = async (
   });
 
   // Generate using centralized service
-  const response = await generateText(
-    provider,
-    `${promptData.system}\n\n${promptData.user}`,
-    undefined,
-    {
+  const response = await generateText(`${promptData.system}\n\n${promptData.user}`, {
       ...options,
       responseFormat: "json_object",
       temperature: options.temperature || 0.1,
@@ -70,7 +62,6 @@ export const generateWordExamples = async (
   oldExamples: string = "",
   options: WordGenerationOptions = {}
 ) => {
-  const provider = await getAIProvider(options.userId, 'word', 'examples', options);
 
   const promptData = createWordExamplesPrompt({
     word: word,
@@ -78,11 +69,7 @@ export const generateWordExamples = async (
     oldExamples,
   });
 
-  const response = await generateText(
-    provider,
-    `${promptData.system}\n\n${promptData.user}`,
-    undefined,
-    {
+  const response = await generateText(`${promptData.system}\n\n${promptData.user}`, {
       ...options,
       responseFormat: "json_object",
       temperature: options.temperature || 0.5,
@@ -104,7 +91,6 @@ export const generateWordCodeSwitching = async (
   oldExamples: string = "",
   options: WordGenerationOptions = {}
 ) => {
-  const provider = await getAIProvider(options.userId, 'word', 'codeSwitching', options);
 
   const promptData = createWordCodeSwitchingPrompt({
     prompt: word,
@@ -112,11 +98,7 @@ export const generateWordCodeSwitching = async (
     oldExamples,
   });
 
-  const response = await generateText(
-    provider,
-    `${promptData.system}\n\n${promptData.user}`,
-    undefined,
-    {
+  const response = await generateText(`${promptData.system}\n\n${promptData.user}`, {
       ...options,
       responseFormat: "json_object",
       temperature: options.temperature || 0.5,
@@ -138,7 +120,6 @@ export const generateWordTypes = async (
   oldExamples: string = "",
   options: WordGenerationOptions = {}
 ) => {
-  const provider = await getAIProvider(options.userId, 'word', 'types', options);
 
   const promptData = createWordTypesPrompt({
     word,
@@ -146,11 +127,7 @@ export const generateWordTypes = async (
     oldExamples,
   });
 
-  const response = await generateText(
-    provider,
-    `${promptData.system}\n\n${promptData.user}`,
-    undefined,
-    {
+  const response = await generateText(`${promptData.system}\n\n${promptData.user}`, {
       ...options,
       responseFormat: "json_object",
       temperature: options.temperature || 0.5,
@@ -172,7 +149,6 @@ export const generateWordSynonyms = async (
   oldExamples: string = "",
   options: WordGenerationOptions = {}
 ) => {
-  const provider = await getAIProvider(options.userId, 'word', 'synonyms', options);
 
   const promptData = createWordSynonymsPrompt({
     word,
@@ -180,11 +156,7 @@ export const generateWordSynonyms = async (
     oldExamples,
   });
 
-  const response = await generateText(
-    provider,
-    `${promptData.system}\n\n${promptData.user}`,
-    undefined,
-    {
+  const response = await generateText(`${promptData.system}\n\n${promptData.user}`, {
       ...options,
       responseFormat: "json_object",
       temperature: options.temperature || 0.5,
@@ -209,7 +181,6 @@ export const generateWordChat = async (
   language?: string,
   explainsLanguage?: string
 ) => {
-  const provider = await getAIProvider(options.userId, 'word', 'chat', options);
 
   const promptData = createWordChatPrompt({
     wordText,
@@ -220,7 +191,7 @@ export const generateWordChat = async (
     explainsLanguage,
   });
 
-  return generateChat(provider, promptData.messages, undefined, {
+  return generateChat(promptData.messages, {
     ...options,
     temperature: options.temperature || 0.7,
     stream: options.stream || true,
