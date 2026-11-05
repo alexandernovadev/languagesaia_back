@@ -11,7 +11,9 @@ export const RATE_LIMIT_AI_MAX = 20;
 
 // ─── Timeouts ─────────────────────────────────────────────────────────────────
 export const SERVER_TIMEOUT_MS = 30_000;     // General socket timeout
-export const AI_REQUEST_TIMEOUT_MS = 120_000; // Extended timeout for AI/upload routes
+// Extended timeout for AI routes. Must stay above TEXT_AI.primaryTimeoutMsFull + TEXT_AI.timeoutMs
+// (main model + backup = 135 s), plus room for the picture in image routes.
+export const AI_REQUEST_TIMEOUT_MS = 180_000;
 
 // ─── File uploads ─────────────────────────────────────────────────────────────
 export const MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024; // 10 MB

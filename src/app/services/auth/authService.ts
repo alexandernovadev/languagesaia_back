@@ -13,9 +13,9 @@ const JWT_SECRET = process.env.JWT_SECRET;
 const REFRESH_TOKEN_SECRET = process.env.REFRESH_TOKEN_SECRET;
 
 export const AuthService = {
-  // Generate a JWT token
+  // Generate a JWT token. Identity only: authMiddleware reads the rest from the database.
   generateToken: (user: IUser) => {
-    return jwt.sign({ user }, JWT_SECRET, { expiresIn: JWT_EXPIRES_IN });
+    return jwt.sign({ user: { _id: user._id } }, JWT_SECRET, { expiresIn: JWT_EXPIRES_IN });
   },
 
   // Generate a refresh token (longer expiration)

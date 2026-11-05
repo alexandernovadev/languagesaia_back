@@ -116,7 +116,7 @@ export const importStoriesFromFile = async (req: Request, res: Response): Promis
 export const createStory = async (req: Request, res: Response): Promise<Response> => {
   try {
     const storyData = parseBody(StoryCreateSchema, req.body, res);
-    if (!storyData) return errorResponse(res, "Invalid request body", 400);
+    if (!storyData) return res;
 
     const userId = getUserId(req);
     if (!userId) return errorResponse(res, "Authentication required", 401);
@@ -143,7 +143,7 @@ export const getStoryById = async (req: Request, res: Response): Promise<Respons
 export const updateStory = async (req: Request, res: Response): Promise<Response> => {
   try {
     const updateData = parseBody(StoryUpdateSchema, req.body, res);
-    if (!updateData) return errorResponse(res, "Invalid request body", 400);
+    if (!updateData) return res;
 
     const story = await storyService.updateStory(routeParams(req).id, updateData as any);
     if (!story) return errorResponse(res, "Story not found", 404);
@@ -494,7 +494,7 @@ export const generateChapterStream = async (req: Request, res: Response): Promis
 export const generateIdea = async (req: Request, res: Response): Promise<Response> => {
   try {
     const parsed = parseBody(StoryIdeaSchema, req.body, res);
-    if (!parsed) return errorResponse(res, "Invalid request body", 400);
+    if (!parsed) return res;
 
     const userId = getUserId(req);
     const language = req.user?.language || "en";

@@ -36,10 +36,14 @@ export class WordQueryService {
         { $project: { randomSort: 0 } },
       ])) as unknown as IWord[];
     } else {
-      return (await Word.find(matchFilter)
-        .sort({ difficulty: -1, seen: 1, createdAt: -1 })
-        .limit(limit)
-        .lean()) as unknown as IWord[];
+      // difficulty is text: sorting it directly would be alphabetical, so rank it first
+      return (await Word.aggregate([
+        { $match: matchFilter },
+        { $addFields: { difficultyRank: { $indexOfArray: [["hard", "medium", "easy"], "$difficulty"] } } },
+        { $sort: { difficultyRank: 1, seen: 1, createdAt: -1 } },
+        { $limit: limit },
+        { $project: { difficultyRank: 0 } },
+      ])) as unknown as IWord[];
     }
   }
 

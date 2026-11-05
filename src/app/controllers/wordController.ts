@@ -49,7 +49,7 @@ export const createWord = async (
 ): Promise<Response> => {
   try {
     const wordData = parseBody(WordCreateSchema, req.body, res);
-    if (!wordData) return errorResponse(res, "Invalid request body", 400);
+    if (!wordData) return res;
     const newWord = await wordService.createWord(wordData as any);
 
     return successResponse(res, "Word created successfully", toWordDTO(newWord), 201);
@@ -183,7 +183,7 @@ export const updateWord = async (
   try {
     const { id } = routeParams(req);
     const updateData = parseBody(WordUpdateSchema, req.body, res);
-    if (!updateData) return errorResponse(res, "Invalid request body", 400);
+    if (!updateData) return res;
     const updatedWord = await wordService.updateWord(id, updateData as any);
     if (!updatedWord) {
       return errorResponse(res, "Word not found", 404);

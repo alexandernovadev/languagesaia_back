@@ -7,6 +7,11 @@ export const successResponse = (
   data?: any,
   statusCode = 200
 ) => {
+  // Already answered (e.g. the request timed out while the AI was still working)
+  if (res.headersSent) {
+    logger.warn(`Response already sent, dropping: ${message}`);
+    return res;
+  }
   return res.status(statusCode).json({ success: true, message, data });
 };
 
@@ -33,5 +38,10 @@ export const errorResponse = (
     stack: errorInstance.stack || "No stack available",
   });
 
+  if (res.headersSent) {
+    // A stream broke halfway: cut the connection so the client sees a failure, not a short answer
+    if (!res.writableEnded) res.destroy();
+    return res;
+  }
   return res.status(statusCode).json({ success: false, error: errorMessage });
 };

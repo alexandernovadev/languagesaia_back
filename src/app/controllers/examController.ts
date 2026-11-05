@@ -67,7 +67,6 @@ export const chatStream = async (req: Request, res: Response) => {
     await streamTextResponse(res, stream as any, { filterMarkdownTables: false, onComplete: save });
   } catch (error: any) {
     logger.error("Exam chat error:", error);
-    if (!res.headersSent) return fail(res, error, "Error in chat");
-    res.end();
+    return fail(res, error, "Error in chat");
   }
 };

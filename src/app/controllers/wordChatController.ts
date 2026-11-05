@@ -75,9 +75,6 @@ export const streamChatResponse = async (req: Request, res: Response) => {
       return errorResponse(res, "Word not found", 404);
     }
 
-    // Add user message first
-    await wordChatService.addUserMessage(id, message);
-
     setSSEHeaders(res);
 
     const stream = await generateWordChat(
@@ -92,7 +89,11 @@ export const streamChatResponse = async (req: Request, res: Response) => {
 
     await streamTextResponse(res, stream as any, {
       filterMarkdownTables: false,
-      onComplete: (text) => wordChatService.addAssistantMessage(id, text),
+      // Saved together, only once the answer is complete
+      onComplete: async (text) => {
+        await wordChatService.addUserMessage(id, message);
+        await wordChatService.addAssistantMessage(id, text);
+      },
     });
   } catch (error: any) {
     logger.error("Error streaming chat response:", error);

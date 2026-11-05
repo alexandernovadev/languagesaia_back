@@ -28,7 +28,7 @@ const expressionImportExportService = new ExpressionImportExportService();
 export const createExpression = async (req: Request, res: Response) => {
   try {
     const expressionData = parseBody(ExpressionCreateSchema, req.body, res);
-    if (!expressionData) return errorResponse(res, "Invalid request body", 400);
+    if (!expressionData) return res;
     const expression = await expressionService.createExpression(expressionData as any);
     return successResponse(
       res,
@@ -76,7 +76,7 @@ export const getExpressions = async (req: Request, res: Response) => {
 export const updateExpression = async (req: Request, res: Response) => {
   try {
     const updateData = parseBody(ExpressionUpdateSchema, req.body, res);
-    if (!updateData) return errorResponse(res, "Invalid request body", 400);
+    if (!updateData) return res;
     const expression = await expressionService.updateExpression(
       routeParams(req).id,
       updateData as any
@@ -392,7 +392,6 @@ export const streamChatResponse = async (req: Request, res: Response) => {
     if (!expression) {
       return errorResponse(res, "Expression not found", 404);
     }
-    await expressionChatService.addUserMessage(id, message);
     setSSEHeaders(res);
     const chatHistory = expression.chat || [];
     const explainsLanguage = req.user?.explainsLanguage || "es";
@@ -408,7 +407,11 @@ export const streamChatResponse = async (req: Request, res: Response) => {
     const stream = await generateExpressionChat(params, { stream: true, userId });
     await streamTextResponse(res, stream as any, {
       filterMarkdownTables: false,
-      onComplete: (text) => expressionChatService.addAssistantMessage(id, text),
+      // Saved together, only once the answer is complete
+      onComplete: async (text) => {
+        await expressionChatService.addUserMessage(id, message);
+        await expressionChatService.addAssistantMessage(id, text);
+      },
     });
   } catch (error: any) {
     logger.error("Error streaming chat response:", error);

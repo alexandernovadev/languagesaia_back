@@ -161,7 +161,7 @@ async function init() {
       // }
     });
 
-    // Default socket timeout: 30s. AI/upload routes override this to 120s
+    // Default socket timeout: 30s. AI routes override this to AI_REQUEST_TIMEOUT_MS
     // via the extendTimeout middleware applied on their routers.
     server.setTimeout(SERVER_TIMEOUT_MS);
   } catch (error) {
