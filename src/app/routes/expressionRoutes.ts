@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { requireAdmin } from "../middlewares/requireAdmin";
 import { validateObjectId } from "../middlewares/validateObjectId";
 import { aiLimiter } from "../middlewares/rateLimiters";
 import {
@@ -15,7 +16,7 @@ router.param("id", validateObjectId);
 
 // Import/Export routes (MUST BE BEFORE DYNAMIC ROUTES)
 router.get("/export-file", exportExpressionsToJSON);
-router.post("/import-file", ...createJsonUploadMiddleware(), importExpressionsFromFile);
+router.post("/import-file", requireAdmin, ...createJsonUploadMiddleware(), importExpressionsFromFile);
 
 // AI Generation routes
 router.post("/generate", aiLimiter, generateExpression);

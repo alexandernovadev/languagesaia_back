@@ -41,6 +41,25 @@ export interface BatchResult {
   results?: ProcessingResult[];
 }
 
+// One item that couldn't be imported, for the admin panel
+export interface ImportFailure {
+  index: number;
+  label: string;
+  error: string;
+}
+
+// What an import would do, before touching anything
+export interface ImportPreview {
+  total: number;
+  new: number;
+  duplicates: number;
+  invalid: number;
+  failures: ImportFailure[];
+}
+
+/** Enough to fix a file; the counters always have the full total. */
+export const MAX_REPORTED_FAILURES = 20;
+
 // Final import result
 export interface ImportResult {
   totalItems: number;
@@ -53,6 +72,7 @@ export interface ImportResult {
   totalUpdated: number;
   totalSkipped: number;
   batches: BatchResult[];
+  failures: ImportFailure[];
   summary: {
     success: boolean;
     message: string;

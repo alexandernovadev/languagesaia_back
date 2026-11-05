@@ -120,22 +120,9 @@ export const importWordsFromFile = async (
     // Convert validateOnly to boolean
     const validateOnlyBool = validateOnly === "true";
 
-    // If validateOnly is true, just validate without importing
+    // validateOnly: report what would happen, without importing
     if (validateOnlyBool) {
-      const validationResults = await wordImportService.validateWords(words);
-      const validCount = validationResults.filter(
-        (r) => r.status === "valid"
-      ).length;
-      const invalidCount = validationResults.filter(
-        (r) => r.status === "invalid"
-      ).length;
-
-      return successResponse(res, "Validation completed", {
-        totalWords: words.length,
-        valid: validCount,
-        invalid: invalidCount,
-        validationResults,
-      });
+      return successResponse(res, "Validation completed", await wordImportService.previewWords(words));
     }
 
     // Import words

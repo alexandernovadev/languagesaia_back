@@ -1,6 +1,8 @@
 import { Router } from "express";
 import {
   createAdminUser,
+  getBackupStatusHandler,
+  getSystemInfoHandler,
   sendBackupByEmailHandler,
   deleteAllWords,
   deleteAllExpressions,
@@ -13,7 +15,11 @@ const routes = Router();
 // User management
 routes.post("/users/create-admin", createAdminUser);
 
+// System
+routes.get("/system", getSystemInfoHandler);
+
 // Backup and maintenance
+routes.get("/backup/status", getBackupStatusHandler);
 routes.post("/backup/send-email", sendBackupByEmailHandler);
 
 // Data Management - Dangerous Operations ⚠️

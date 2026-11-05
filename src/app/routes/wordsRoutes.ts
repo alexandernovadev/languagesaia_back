@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { validateObjectId } from "../middlewares/validateObjectId";
 import { aiLimiter } from "../middlewares/rateLimiters";
+import { requireAdmin } from "../middlewares/requireAdmin";
 import {
   createWord,
   getWordById,
@@ -35,7 +36,7 @@ router.param("id", validateObjectId);
 
 // Import/Export routes (MUST BE BEFORE DYNAMIC ROUTES)
 router.get("/export-file", exportWordsToJSON);
-router.post("/import-file", ...createJsonUploadMiddleware(), importWordsFromFile);
+router.post("/import-file", requireAdmin, ...createJsonUploadMiddleware(), importWordsFromFile);
 
 // Static routes
 // Ruta unificada para tarjetas Anki

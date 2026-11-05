@@ -179,6 +179,7 @@ export const getCronStatus = () => {
     schedule: BACKUP_CRON_SCHEDULE,
     timezone: process.env.BACKUP_TIMEZONE || 'America/New_York',
     lastRun: lastRunTime?.toISOString(),
+    nextRun: isCronActive ? backupCronJob?.getNextRun()?.toISOString() : undefined,
     totalRuns,
     successfulRuns,
     failedRuns,

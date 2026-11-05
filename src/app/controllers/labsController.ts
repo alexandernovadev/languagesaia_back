@@ -3,6 +3,7 @@ import { errorResponse, successResponse } from "../utils/responseHelpers";
 import { seedAdminUser } from "../services/seed/user";
 import { sendBackupByEmail } from "../services/backup/backupEmailService";
 import { LabsService } from "../services/labs/labsService";
+import { getSystemInfo } from "../services/system/systemService";
 import logger from "../utils/logger";
 
 const labsService = new LabsService();
@@ -17,7 +18,11 @@ const labsService = new LabsService();
  * User Management:
  * - POST /api/labs/users/create-admin - Create admin user
  * 
+ * System:
+ * - GET  /api/labs/system - Server, database, AI and recent errors
+ *
  * Backup & Maintenance:
+ * - GET  /api/labs/backup/status - Word totals, schedule and recent backups
  * - POST /api/labs/backup/send-email - Send backup by email
  * 
  * Data Management (DANGEROUS):
@@ -43,6 +48,34 @@ export const createAdminUser = async (
     );
   } catch (error) {
     return errorResponse(res, "Error creating admin user", 500, error);
+  }
+};
+
+/**
+ * Server, database, AI and recent errors
+ */
+export const getSystemInfoHandler = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    return successResponse(res, "System info", await getSystemInfo());
+  } catch (error) {
+    return errorResponse(res, "Error reading system info", 500, error);
+  }
+};
+
+/**
+ * Word totals, schedule and recent backups
+ */
+export const getBackupStatusHandler = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    return successResponse(res, "Backup status", await labsService.getBackupStatus());
+  } catch (error) {
+    return errorResponse(res, "Error reading backup status", 500, error);
   }
 };
 

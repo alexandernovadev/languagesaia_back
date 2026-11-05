@@ -30,7 +30,7 @@ export const errorResponse = (
             ? typeof errordata === "object"
               ? JSON.stringify(errordata)
               : String(errordata)
-            : "Unknown error"
+            : String(errorMessage)
         );
 
   logger.error("Error Response:", {

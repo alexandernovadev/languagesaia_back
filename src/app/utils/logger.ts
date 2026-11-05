@@ -11,6 +11,7 @@ const logFormat = printf(({ level, message, timestamp, stack }) => {
 });
 
 const NODE_ENV = process.env.NODE_ENV || "development";
+export const LOG_DIR = path.join(__dirname, "../../../logs");
 
 // Build transports array - Console only in development
 const transportsList = [];
@@ -21,10 +22,10 @@ if (NODE_ENV === "development") {
 
 transportsList.push(
   new transports.File({
-    filename: path.join(__dirname, "../../../logs/app.log"),
+    filename: path.join(LOG_DIR, "app.log"),
   }),
   new transports.File({
-    filename: path.join(__dirname, "../../../logs/errors.log"),
+    filename: path.join(LOG_DIR, "errors.log"),
     level: "error",
   })
 );
@@ -39,12 +40,12 @@ const logger = createLogger({
   transports: transportsList,
   exceptionHandlers: [
     new transports.File({
-      filename: path.join(__dirname, "../../../logs/exceptions.log"),
+      filename: path.join(LOG_DIR, "exceptions.log"),
     }),
   ],
   rejectionHandlers: [
     new transports.File({
-      filename: path.join(__dirname, "../../../logs/rejections.log"),
+      filename: path.join(LOG_DIR, "rejections.log"),
     }),
   ],
 });

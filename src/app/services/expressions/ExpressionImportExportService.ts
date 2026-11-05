@@ -1,5 +1,6 @@
 import Expression from "../../db/models/Expression";
 import { IExpression } from "../../../../types/models";
+import { ImportFailure, ImportPreview, MAX_REPORTED_FAILURES } from "../../utils/importTypes";
 
 export class ExpressionImportExportService {
   async getAllExpressionsForExport(): Promise<IExpression[]> {
@@ -9,6 +10,30 @@ export class ExpressionImportExportService {
       results.push(doc as unknown as IExpression);
     }
     return results;
+  }
+
+  /** What importing these expressions would do. Changes nothing. */
+  async previewExpressions(expressions: any[]): Promise<ImportPreview> {
+    const existing = await Expression.find({}, { expression: 1 }).lean();
+    const known = new Set(existing.map((e) => e.expression));
+    const preview: ImportPreview = { total: expressions.length, new: 0, duplicates: 0, invalid: 0, failures: [] };
+
+    expressions.forEach((item, index) => {
+      const error = !item.expression ? "Expression is required" : !item.definition ? "Definition is required" : null;
+      if (error) {
+        preview.invalid++;
+        if (preview.failures.length < MAX_REPORTED_FAILURES) {
+          preview.failures.push({ index, label: item.expression || `#${index + 1}`, error });
+        }
+      } else if (known.has(item.expression)) {
+        preview.duplicates++;
+      } else {
+        known.add(item.expression);
+        preview.new++;
+      }
+    });
+
+    return preview;
   }
 
   async importExpressions(
@@ -24,6 +49,7 @@ export class ExpressionImportExportService {
     totalSkipped: number;
     totalErrors: number;
     batches: any[];
+    failures: ImportFailure[];
     summary: { success: boolean; message: string; duration: number };
   }> {
     const startTime = Date.now();
@@ -32,6 +58,7 @@ export class ExpressionImportExportService {
     let totalUpdated = 0;
     let totalSkipped = 0;
     let totalErrors = 0;
+    const failures: ImportFailure[] = [];
 
     const batchSize = config.batchSize || 10;
 
@@ -44,7 +71,7 @@ export class ExpressionImportExportService {
       let batchSkipped = 0;
       let batchErrors = 0;
 
-      for (const expressionData of batchExpressions) {
+      for (const [offset, expressionData] of batchExpressions.entries()) {
         try {
           const existing = await Expression.findOne({
             expression: expressionData.expression,
@@ -67,8 +94,12 @@ export class ExpressionImportExportService {
             await new Expression(expressionData).save();
             batchInserted++; totalInserted++;
           }
-        } catch {
+        } catch (error: any) {
           batchErrors++; totalErrors++;
+          if (failures.length < MAX_REPORTED_FAILURES) {
+            const index = i + offset;
+            failures.push({ index, label: expressionData.expression || `#${index + 1}`, error: error.message });
+          }
         }
       }
 
@@ -90,6 +121,7 @@ export class ExpressionImportExportService {
       totalSkipped,
       totalErrors,
       batches,
+      failures,
       summary: {
         success: totalErrors === 0,
         message: `Import completed. ${totalInserted} inserted, ${totalUpdated} updated, ${totalSkipped} skipped, ${totalErrors} errors`,

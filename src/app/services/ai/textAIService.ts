@@ -60,6 +60,12 @@ const complete = async (messages: ChatMessage[], options: TextGenerationOptions)
   }
 };
 
+/** For the admin panel: is the app on the backup model right now? */
+export const getTextAIStatus = () => ({
+  usingFallback: Date.now() < primaryDownUntil,
+  fallbackUntil: Date.now() < primaryDownUntil ? new Date(primaryDownUntil).toISOString() : null,
+});
+
 /** Single prompt sent as one user message. */
 export const generateText = (prompt: string, options: TextGenerationOptions = {}) =>
   complete([{ role: "user", content: prompt }], options);

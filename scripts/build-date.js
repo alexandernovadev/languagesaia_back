@@ -14,6 +14,9 @@ if (!fs.existsSync(mainJsPath)) {
   process.exit(0);
 }
 
+// The admin panel reads this to show the last deploy
+fs.writeFileSync(path.join(__dirname, '../dist/build-info.json'), JSON.stringify({ date: buildDate }));
+
 // Read the compiled main.js
 let mainJsContent = fs.readFileSync(mainJsPath, 'utf8');
 

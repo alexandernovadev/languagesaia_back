@@ -270,38 +270,9 @@ export const importExpressionsFromFile = async (
     // Convert validateOnly to boolean
     const validateOnlyBool = validateOnly === "true";
 
-    // If validateOnly is true, just validate without importing
+    // validateOnly: report what would happen, without importing
     if (validateOnlyBool) {
-      const validationResults = expressions.map(
-        (expression: any, index: number) => ({
-          index,
-          data: expression,
-          status:
-            expression.expression && expression.definition
-              ? "valid"
-              : "invalid",
-          errors: !expression.expression
-            ? ["Expression is required"]
-            : !expression.definition
-            ? ["Definition is required"]
-            : [],
-        })
-      );
-
-      const validCount = validationResults.filter(
-        (r: any) => r.status === "valid"
-      ).length;
-      const invalidCount = validationResults.filter(
-        (r: any) => r.status === "invalid"
-      ).length;
-
-      return successResponse(res, "Validation completed", {
-        totalExpressions: expressions.length,
-        valid: validCount,
-        invalid: invalidCount,
-        validationResults,
-        message: `Validation completed. ${validCount} valid, ${invalidCount} invalid`,
-      });
+      return successResponse(res, "Validation completed", await expressionImportExportService.previewExpressions(expressions));
     }
 
     // Import expressions

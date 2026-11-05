@@ -5,6 +5,9 @@ import {
   ProcessingResult,
   BatchResult,
   ImportResult,
+  ImportFailure,
+  ImportPreview,
+  MAX_REPORTED_FAILURES,
 } from "../../utils/importTypes";
 import { WordValidator } from "../../utils/validators/wordValidator";
 import { validateWordTypesForLanguage } from "../../data/business/shared/wordTypeCatalog";
@@ -80,20 +83,23 @@ export class WordImportService {
             validationResult,
             action: 'skipped',
           };
-        case 'overwrite': {
+        case 'overwrite':
+        case 'merge': {
           const merged = {
             ...existingWord.toObject(),
             ...word,
             updatedAt: new Date(),
           };
-          const owReject = assertTypesOk(
+          const typeError = assertTypesOk(
             merged.type as string[] | undefined,
             merged.language as string | undefined
           );
-          if (owReject) return owReject;
+          if (typeError) return typeError;
+          // The file may come from another database: its _id can differ and _id can't change
+          const { _id, __v, ...fields } = word as Partial<IWord> & { __v?: number };
           await Word.findByIdAndUpdate(
             existingWord._id,
-            { ...word, updatedAt: new Date() },
+            { ...fields, updatedAt: new Date() },
             { new: true }
           );
           return {
@@ -102,30 +108,6 @@ export class WordImportService {
             status: 'valid',
             validationResult,
             action: 'updated',
-          };
-        }
-        case 'merge': {
-          const mergedM = {
-            ...existingWord.toObject(),
-            ...word,
-            updatedAt: new Date(),
-          };
-          const mergeReject = assertTypesOk(
-            mergedM.type as string[] | undefined,
-            mergedM.language as string | undefined
-          );
-          if (mergeReject) return mergeReject;
-          await Word.findByIdAndUpdate(
-            existingWord._id,
-            { ...word, updatedAt: new Date() },
-            { new: true }
-          );
-          return {
-            index,
-            data: word,
-            status: 'valid',
-            validationResult,
-            action: 'merged',
           };
         }
       }
@@ -154,6 +136,7 @@ export class WordImportService {
     let totalInserted = 0;
     let totalUpdated = 0;
     let totalSkipped = 0;
+    const failures: ImportFailure[] = [];
 
     // No transaction: compatible with MongoDB standalone (no replica set required).
     for (let i = 0; i < words.length; i += config.batchSize) {
@@ -167,7 +150,19 @@ export class WordImportService {
       let batchUpdated = 0;
       let batchSkipped = 0;
       for (let j = 0; j < batchWords.length; j++) {
-        const result = await this.processWord(batchWords[j], i + j, config);
+        const index = i + j;
+        // One bad word must never stop the rest of the import
+        const result: ProcessingResult<Partial<IWord>> = await this.processWord(batchWords[j], index, config).catch((error) => ({
+          index,
+          data: batchWords[j],
+          status: 'error' as const,
+          error: error.message,
+          action: 'skipped' as const,
+        }));
+        const reason = result.error ?? result.validationResult?.errors.join(", ");
+        if (reason && result.status !== 'duplicate' && failures.length < MAX_REPORTED_FAILURES) {
+          failures.push({ index, label: batchWords[j].word || `#${index + 1}`, error: reason });
+        }
         switch (result.status) {
           case 'valid': batchValid++; totalValid++; break;
           case 'invalid': batchInvalid++; totalInvalid++; break;
@@ -206,6 +201,7 @@ export class WordImportService {
       totalUpdated,
       totalSkipped,
       batches,
+      failures,
       summary: {
         success: totalErrors === 0,
         message: `Import completed. ${totalInserted} inserted, ${totalUpdated} updated, ${totalSkipped} skipped, ${totalErrors} errors`,
@@ -214,12 +210,36 @@ export class WordImportService {
     };
   }
 
-  async validateWords(words: Partial<IWord>[]): Promise<ProcessingResult<Partial<IWord>>[]> {
-    return words.map((word, index) => ({
-      index,
-      data: word,
-      status: WordValidator.validateWord(word, index).isValid ? 'valid' : 'invalid',
-      validationResult: WordValidator.validateWord(word, index),
-    }));
+  /** What importing these words would do. Changes nothing. */
+  async previewWords(words: Partial<IWord>[]): Promise<ImportPreview> {
+    const existing = await Word.find({}, { wordKey: 1, language: 1 }).lean();
+    const known = new Set(existing.map((w) => `${w.language}:${w.wordKey}`));
+    const preview: ImportPreview = { total: words.length, new: 0, duplicates: 0, invalid: 0, failures: [] };
+
+    words.forEach((word, index) => {
+      const { errors } = WordValidator.validateWord(word, index);
+      const types = word.language ? validateWordTypesForLanguage(word.type as string[], word.language) : null;
+      if (types && types.ok === false) errors.push(`Types not allowed for language "${word.language}": ${types.invalid.join(", ")}`);
+
+      if (errors.length > 0) {
+        preview.invalid++;
+        if (preview.failures.length < MAX_REPORTED_FAILURES) {
+          preview.failures.push({ index, label: word.word || `#${index + 1}`, error: errors.join(", ") });
+        }
+        return;
+      }
+
+      const key = `${word.language}:${normalizeWordKey(word.word as string)}`;
+      if (known.has(key)) {
+        preview.duplicates++;
+      } else {
+        known.add(key);
+        preview.new++;
+      }
+    });
+
+    return preview;
   }
-} 
+}
+
+export default new WordImportService();

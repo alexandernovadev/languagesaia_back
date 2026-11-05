@@ -75,11 +75,11 @@ Todo cuelga de `/api` y, salvo `/api/auth`, necesita `Authorization: Bearer <tok
 | `/api/expressions` | Expresiones |
 | `/api/stories` | Historias y capítulos |
 | `/api/exams` | Prácticas, respuestas, estadísticas y chat |
-| `/api/labs` | Operaciones de administración |
+| `/api/labs` | Panel de admin (solo rol `admin`) |
 | `/api/upload-image/:entityType/:entityId` | Subida de imágenes |
 
 Las respuestas tienen la forma `{ success: true, message, data }` o `{ success: false, error }`. Un token inválido o caducado devuelve 401, y el front lo renueva con `/api/auth/refresh`.
 
 ## Backups
 
-El programador de backups por correo está desactivado en `src/main.ts`.
+Cada noche (`BACKUP_CRON_SCHEDULE`) se envían por correo las palabras y las expresiones en JSON, si `BACKUP_EMAIL_ENABLED=true`. Se gestionan desde `/admin` en la app.

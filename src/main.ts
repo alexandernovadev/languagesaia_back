@@ -9,8 +9,7 @@ import {
 import { generalLimiter, authLimiter } from "./app/middlewares/rateLimiters";
 
 import { connectDB, disconnectDB } from "./app/db/mongoConnection";
-// Disabled for now — not vital, may re-enable later now that we run our own VPS.
-// import { initializeBackupScheduler } from "./app/services/backup/backupSchedulerService";
+import { initializeBackupScheduler } from "./app/services/backup/backupSchedulerService";
 import logger from "./app/utils/logger";
 
 // Routes
@@ -27,6 +26,7 @@ import ExamRoutes from "./app/routes/examRoutes";
 import { errorResponse, successResponse } from "./app/utils/responseHelpers";
 import { requestLogger } from "./app/utils/requestLogger";
 import { authMiddleware } from "./app/middlewares/authMiddleware";
+import { requireAdmin } from "./app/middlewares/requireAdmin";
 
 // Import package.json for version
 import packageJson from "../package.json";
@@ -35,7 +35,6 @@ const app = express();
 const NODE_ENV = process.env.NODE_ENV || "development";
 const PORT = process.env.PORT || 3000;
 const VERSION = `v${packageJson.version}-${NODE_ENV}`;
-const LABS_AUTH = (process.env.LABS_AUTH || "true").toLowerCase() === "true";
 const CORS_ORIGINS = (process.env.CORS_ORIGINS || "http://localhost:5173")
   .split(",")
   .map((o) => o.trim())
@@ -96,12 +95,8 @@ app.use("/api/expressions", authMiddleware, extendTimeout, ExpressionRoutes);
 app.use("/api/users", authMiddleware, UserRoutes);
 app.use("/api/exams", authMiddleware, extendTimeout, ExamRoutes);
 
-// Labs routes (conditional auth)
-if (LABS_AUTH) {
-  app.use("/api/labs", authMiddleware, LabsRoutes);
-} else {
-  app.use("/api/labs", LabsRoutes);
-}
+// Admin panel
+app.use("/api/labs", authMiddleware, requireAdmin, extendTimeout, LabsRoutes);
 
 // Upload routes (must be after labs to avoid conflict)
 app.use("/api", authMiddleware, UploadRoutes);
@@ -151,14 +146,7 @@ async function init() {
       logger.info(`Server running on port ${PORT} - "${NODE_ENV}"`);
       logger.info(`Express trust proxy: ${JSON.stringify(app.get("trust proxy"))}`);
 
-      // Initialize backup cron scheduler
-      // Disabled for now — not vital, may re-enable later now that we run our own VPS.
-      // try {
-      //   initializeBackupScheduler();
-      //   logger.info("Backup cron scheduler initialized");
-      // } catch (error) {
-      //   logger.error("Failed to initialize backup cron scheduler", { error });
-      // }
+      initializeBackupScheduler();
     });
 
     // Default socket timeout: 30s. AI routes override this to AI_REQUEST_TIMEOUT_MS
