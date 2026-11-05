@@ -10,22 +10,24 @@ import {
   getWordByName,
   getAnkiCards,
   updateIncrementWordSeens,
-  exportWordsToJSON,
-  importWordsFromFile,
   getWordsByTypeOptimized,
+  updateWordDifficulty,
+} from "../controllers/wordController";
+import { exportWordsToJSON, importWordsFromFile } from "../controllers/wordImportExportController";
+import {
   addChatMessage,
   getChatHistory,
   clearChatHistory,
   streamChatResponse,
-  // AI Generation functions
+} from "../controllers/wordChatController";
+import {
   generateWordJson,
   generateWordExamplesJson,
   generateWordExamplesCodeSwitchingJson,
   generateWordTypesJson,
-  generateWordSynomymsJson,
+  generateWordSynonymsJson,
   updateImageWord,
-  updateWordDifficulty,
-} from "../controllers/wordController";
+} from "../controllers/wordAIController";
 import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
 
 const router = Router();
@@ -54,7 +56,7 @@ router.post("/generate", aiLimiter, generateWordJson);
 router.post("/:id/generate-examples", aiLimiter, generateWordExamplesJson);
 router.post("/:id/generate-code-switching", aiLimiter, generateWordExamplesCodeSwitchingJson);
 router.post("/:id/generate-types", aiLimiter, generateWordTypesJson);
-router.post("/:id/generate-synonyms", aiLimiter, generateWordSynomymsJson);
+router.post("/:id/generate-synonyms", aiLimiter, generateWordSynonymsJson);
 router.post("/:id/generate-image", aiLimiter, updateImageWord);
 
 // CRUD routes (MUST BE LAST)

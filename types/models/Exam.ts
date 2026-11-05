@@ -1,56 +1,63 @@
 import { Document, Types } from "mongoose";
-import { CertificationLevel, Language } from "../business";
 
-export type ExamQuestionType = "multiple" | "unique" | "fillInBlank" | "translateText";
+/**
+ * Exercise types (phase 1). Duolingo-style, answered one by one.
+ * - choice     pick the right option (answerIndex)
+ * - fillBlank  sentence with "___", tap the right chip (answerIndex)
+ * - order      build the sentence from shuffled tokens (answerTokens, tokens include distractors)
+ * - translate  free translation, graded by AI with partial score (reference)
+ * - match      pair words with their translation (pairs) — built from the user's own words
+ * - findError  tap the wrong word in a sentence (tokens, errorIndex, correction)
+ */
+export type ExamQuestionType = "choice" | "fillBlank" | "order" | "translate" | "match" | "findError";
+export type ExamMode = "quick" | "topic" | "mistakes";
 
 export interface IExamQuestion {
-  id?: string;
   type: ExamQuestionType;
-  text: string;
+  /** What the learner reads (instruction / sentence / Spanish text to translate). */
+  prompt: string;
+  grammarTopic?: string;
+  explanation?: string;
   options?: string[];
-  correctIndex?: number;
-  correctIndices?: number[];
-  correctAnswer?: string;
-  grammarTopic: string;
-  explanation: string;
+  answerIndex?: number;
+  tokens?: string[];
+  answerTokens?: string[];
+  reference?: string;
+  pairs?: Array<{ left: string; right: string }>;
+  errorIndex?: number;
+  correction?: string;
 }
 
 export interface IExam extends Document {
   title: string;
-  language: Language;
-  difficulty: CertificationLevel;
+  mode: ExamMode;
+  language: string;
+  level: string;
   grammarTopics: string[];
-  topic?: string;
   questions: IExamQuestion[];
   createdBy?: Types.ObjectId;
   createdAt?: Date;
   updatedAt?: Date;
 }
 
-export interface IAttemptQuestion {
-  questionIndex: number;
-  questionText: string;
-  questionType: ExamQuestionType;
-  options?: string[];
-  correctIndex?: number;
-  correctIndices?: number[];
-  correctAnswer?: string;
-  grammarTopic?: string;
-  userAnswer: number | number[] | string;
-  isCorrect: boolean;
-  partialScore?: number;
-  isPartial?: boolean;
-  aiFeedback?: string;
-  chat: Array<{ role: string; content: string }>;
+export interface IAttemptAnswer {
+  index: number;
+  answer: unknown;
+  correct: boolean;
+  /** 0–1 (translate can be partial). */
+  score: number;
+  feedback?: string;
+  chat?: Array<{ role: "user" | "assistant"; content: string }>;
 }
 
 export interface IExamAttempt extends Document {
   examId: Types.ObjectId;
   userId: Types.ObjectId;
-  score: number;
-  startedAt: Date;
-  completedAt: Date;
-  attemptQuestions: IAttemptQuestion[];
+  language: string;
+  answers: IAttemptAnswer[];
+  score?: number;
+  xp?: number;
+  completedAt?: Date;
   createdAt?: Date;
   updatedAt?: Date;
 }

@@ -61,36 +61,13 @@ export const ExpressionCreateSchema = z.object({
 
 export const ExpressionUpdateSchema = ExpressionCreateSchema.partial();
 
-// ─── Exam ─────────────────────────────────────────────────────────────────────
+// ─── Exam / practice ──────────────────────────────────────────────────────────
 
-const ExamQuestionSchema = z.object({
-  id: z.string().optional(),
-  type: z.enum(["multiple", "unique", "fillInBlank", "translateText"]),
-  text: z.string().min(1),
-  options: z.array(z.string()).optional(),
-  correctIndex: z.number().optional(),
-  correctIndices: z.array(z.number()).optional(),
-  correctAnswer: z.string().optional(),
-  grammarTopic: z.string().min(1),
-  explanation: z.string().min(1),
-});
-
-export const ExamCreateSchema = z.object({
-  title: z.string().min(1),
-  language: z.enum(langEnum),
-  difficulty: z.enum(certLevelsEnum),
+export const PracticeCreateSchema = z.object({
+  mode: z.enum(["quick", "topic", "mistakes"]),
+  level: z.enum(certLevelsEnum).optional(),
   grammarTopics: z.array(z.string()).optional(),
-  topic: z.string().optional(),
-  questions: z.array(ExamQuestionSchema).optional(),
-});
-
-export const ExamGenerateSchema = z.object({
-  grammarTopics: z.array(z.string()).min(1, "At least one grammar topic required"),
-  difficulty: z.enum(certLevelsEnum),
-  questionCount: z.coerce.number().int().positive().max(50),
-  questionTypes: z.array(z.string()).optional(),
-  topic: z.string().optional(),
-  language: z.string().optional(),
+  count: z.coerce.number().int().min(3).max(20).optional(),
 });
 
 // ─── Story ─────────────────────────────────────────────────────────────────────

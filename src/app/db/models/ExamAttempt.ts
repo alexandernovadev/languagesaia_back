@@ -1,44 +1,31 @@
 import mongoose, { Schema } from "mongoose";
 import { IExamAttempt } from "../../../../types/models";
 
-const attemptQuestionSchema = new Schema(
+const answerSchema = new Schema(
   {
-    questionIndex: { type: Number, required: true },
-    questionText: { type: String, required: true },
-    questionType: { type: String, required: true, enum: ["multiple", "unique", "fillInBlank", "translateText"] },
-    options: [{ type: String }],
-    correctIndex: { type: Number },
-    correctIndices: [{ type: Number }],
-    correctAnswer: { type: String },
-    grammarTopic: { type: String },
-    userAnswer: { type: Schema.Types.Mixed, required: true },
-    isCorrect: { type: Boolean, required: true },
-    partialScore: { type: Number },
-    isPartial: { type: Boolean },
-    aiFeedback: { type: String },
-    chat: [
-      {
-        role: { type: String, required: true },
-        content: { type: String, required: true },
-      },
-    ],
+    index: { type: Number, required: true },
+    answer: { type: Schema.Types.Mixed },
+    correct: { type: Boolean, required: true },
+    score: { type: Number, required: true, min: 0, max: 1 },
+    feedback: { type: String },
+    chat: [{ role: { type: String, enum: ["user", "assistant"] }, content: { type: String }, _id: false }],
   },
-  { _id: false }
+  { _id: false },
 );
 
-const examAttemptSchema = new Schema<IExamAttempt>(
+const attemptSchema = new Schema<IExamAttempt>(
   {
     examId: { type: Schema.Types.ObjectId, ref: "Exam", required: true },
     userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
-    score: { type: Number, required: true },
-    startedAt: { type: Date, required: true },
-    completedAt: { type: Date, required: true },
-    attemptQuestions: [attemptQuestionSchema],
+    language: { type: String, required: true },
+    answers: [answerSchema],
+    score: { type: Number },
+    xp: { type: Number },
+    completedAt: { type: Date },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
-examAttemptSchema.index({ userId: 1 });
-examAttemptSchema.index({ examId: 1 });
+attemptSchema.index({ userId: 1, createdAt: -1 });
 
-export default mongoose.model<IExamAttempt>("ExamAttempt", examAttemptSchema);
+export default mongoose.model<IExamAttempt>("ExamAttempt", attemptSchema);

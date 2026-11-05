@@ -37,6 +37,8 @@ export const TEXT_AI = {
    */
   fallback: "accounts/fireworks/models/kimi-k3",
   primaryTimeoutMs: 20_000,
+  /** Same, for non-streamed calls: there the whole answer must arrive (exam generation takes 15–25 s). */
+  primaryTimeoutMsFull: 45_000,
   /** After the main model fails, use the backup directly for this long, then try the main one again. */
   primaryCooldownMs: 5 * 60_000,
   /** Hard limit for the backup request. */

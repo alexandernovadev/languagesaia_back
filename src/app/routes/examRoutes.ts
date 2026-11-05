@@ -1,54 +1,25 @@
 import { Router } from "express";
-import { validateObjectId } from "../middlewares/validateObjectId";
 import { aiLimiter } from "../middlewares/rateLimiters";
-import {
-  generate,
-  validate,
-  correct,
-  create,
-  getById,
-  list,
-  remove,
-  startAttempt,
-  submitAttempt,
-  getAttempt,
-  deleteAttempt,
-  listAttempts,
-  listAttemptsByExam,
-  chatOnQuestion,
-  exportExamsToJSON,
-  importExamsFromFile,
-} from "../controllers/examController";
-import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
+import { answer, catalog, chatHistory, chatStream, createPractice, finish, stats } from "../controllers/examController";
 
+/**
+ * Exams (Bruno) — Duolingo-style practices.
+ *   GET  /catalog                                   grammar topics for the user's language
+ *   GET  /stats                                     weak points + recent practices
+ *   POST /practice                                  { mode, level?, grammarTopics?, count? } → exam + attemptId
+ *   POST /attempts/:attemptId/answer                { index, answer } → { correct, score, feedback? }
+ *   POST /attempts/:attemptId/finish                → { score, xp, correct, total }
+ *   GET  /attempts/:attemptId/questions/:index/chat
+ *   POST /attempts/:attemptId/questions/:index/chat/stream   { message } → text stream
+ */
 const router = Router();
-router.param("id", validateObjectId);
-router.param("attemptId", validateObjectId);
 
-// Export/Import routes (MUST BE BEFORE DYNAMIC ROUTES) DONE
-router.get("/export-file", exportExamsToJSON);
-router.post("/import-file", ...createJsonUploadMiddleware(), importExamsFromFile as any);
-
-// Generate, validate, correct (no persistence) — call an AI provider
-router.post("/generate", aiLimiter, generate);
-router.post("/validate", aiLimiter, validate);
-router.post("/correct", aiLimiter, correct);
-
-// Exam CRUD
-router.get("/", list);
-router.post("/", create);
-
-// Attempts (static routes first to avoid :id conflict)
-router.get("/attempts/my", listAttempts);
-
-router.get("/:id", getById);
-router.delete("/:id", remove);
-router.get("/:id/attempts", listAttemptsByExam);
-router.post("/:id/attempts", startAttempt);
-router.get("/:id/attempts/:attemptId", getAttempt);
-router.delete("/:id/attempts/:attemptId", deleteAttempt);
-// Submit triggers AI grading/feedback; question chat is AI too
-router.post("/:id/attempts/:attemptId/submit", aiLimiter, submitAttempt);
-router.post("/:id/attempts/:attemptId/questions/:questionIndex/chat", aiLimiter, chatOnQuestion);
+router.get("/catalog", catalog);
+router.get("/stats", stats);
+router.post("/practice", aiLimiter, createPractice);
+router.post("/attempts/:attemptId/answer", answer);
+router.post("/attempts/:attemptId/finish", finish);
+router.get("/attempts/:attemptId/questions/:index/chat", chatHistory);
+router.post("/attempts/:attemptId/questions/:index/chat/stream", aiLimiter, chatStream);
 
 export default router;

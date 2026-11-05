@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import { AuthService } from "../services/auth/authService";
+import User from "../db/models/User";
 import { errorResponse } from "../utils/responseHelpers";
 import logger from "../utils/logger";
 
@@ -16,7 +17,14 @@ declare global {
   }
 }
 
-export const authMiddleware = (
+/**
+ * The token only proves who the user is. Everything else (language, etc.) is
+ * read from the database, because the copy inside the token goes stale as soon
+ * as the user edits their profile.
+ *
+ * A bad or expired token must answer 401: that's what makes the app refresh it.
+ */
+export const authMiddleware = async (
   req: Request,
   res: Response,
   next: NextFunction
@@ -29,17 +37,26 @@ export const authMiddleware = (
 
   const token = authHeader.split(" ")[1];
 
+  let userId: string;
   try {
     const decoded = AuthService.verifyToken(token) as any;
-    req.user = {
-      id: decoded.user._id || decoded.user.id,
-      _id: decoded.user._id || decoded.user.id,
-      ...decoded.user,
-    };
-    logger.debug("Auth middleware - user authenticated", { userId: req.user._id });
-    next();
+    userId = decoded.user._id || decoded.user.id;
   } catch (error) {
     logger.error("Auth middleware - invalid token", { error });
-    return errorResponse(res, "Unauthorized access", 403, error);
+    return errorResponse(res, "Unauthorized access", 401, error);
   }
+
+  try {
+    const user = await User.findById(userId).select("-password").lean();
+    if (!user) {
+      return errorResponse(res, "Unauthorized access", 401, "Token user no longer exists");
+    }
+    const id = String(user._id);
+    req.user = { ...user, id, _id: id };
+  } catch (error) {
+    return errorResponse(res, "Internal server error", 500, error);
+  }
+
+  logger.debug("Auth middleware - user authenticated", { userId });
+  next();
 };

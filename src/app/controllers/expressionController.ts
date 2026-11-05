@@ -14,6 +14,7 @@ import { expressionImagePrompt } from "../services/ai/prompts";
 import { successResponse, errorResponse } from "../utils/responseHelpers";
 import { validateJsonBuffer, MAX_IMPORT_ITEMS } from "../middlewares/uploadMiddleware";
 import logger from "../utils/logger";
+import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
 import { ExpressionCreateSchema, ExpressionUpdateSchema, parseBody } from "../validators/schemas";
 import { toExpressionDTO, mapPaginated } from "../dto/mappers";
 import { generateImage } from "../services/ai/imageAIService";
@@ -392,11 +393,7 @@ export const streamChatResponse = async (req: Request, res: Response) => {
       return errorResponse(res, "Expression not found", 404);
     }
     await expressionChatService.addUserMessage(id, message);
-    res.setHeader("Content-Type", "text/plain; charset=utf-8");
-    res.setHeader("Cache-Control", "no-cache");
-    res.setHeader("Connection", "keep-alive");
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    setSSEHeaders(res);
     const chatHistory = expression.chat || [];
     const explainsLanguage = req.user?.explainsLanguage || "es";
     const params = {
@@ -409,16 +406,10 @@ export const streamChatResponse = async (req: Request, res: Response) => {
     };
     const userId = req.user?._id || req.user?.id || null;
     const stream = await generateExpressionChat(params, { stream: true, userId });
-    let fullResponse = "";
-    for await (const chunk of stream as any) {
-      const content = chunk.choices?.[0]?.delta?.content || "";
-      if (content) {
-        fullResponse += content;
-        res.write(content);
-      }
-    }
-    await expressionChatService.addAssistantMessage(id, fullResponse);
-    res.end();
+    await streamTextResponse(res, stream as any, {
+      filterMarkdownTables: false,
+      onComplete: (text) => expressionChatService.addAssistantMessage(id, text),
+    });
   } catch (error: any) {
     logger.error("Error streaming chat response:", error);
     return errorResponse(res, error.message, 500, error);

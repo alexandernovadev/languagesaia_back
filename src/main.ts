@@ -1,5 +1,5 @@
+import "./config/env";
 import express, { Request, Response, NextFunction } from "express";
-import dotenv from "dotenv";
 import cors from "cors";
 import helmet from "helmet";
 import path from "path";
@@ -30,8 +30,6 @@ import { authMiddleware } from "./app/middlewares/authMiddleware";
 
 // Import package.json for version
 import packageJson from "../package.json";
-
-dotenv.config({ quiet: true });
 
 const app = express();
 const NODE_ENV = process.env.NODE_ENV || "development";

@@ -23,7 +23,7 @@ type ChatMessage = { role: string; content: string };
 
 /**
  * Sends the request to the main model; if it doesn't start answering within
- * TEXT_AI.primaryTimeoutMs (or fails with a timeout/connection/5xx error),
+ * TEXT_AI.primaryTimeoutMs (streams) / primaryTimeoutMsFull (full answers) (or fails with a timeout/connection/5xx error),
  * retries once with TEXT_AI.fallback. For streams, "start answering" means the
  * response headers arrived, so a hanging provider is detected quickly.
  */
@@ -49,7 +49,7 @@ const complete = async (messages: ChatMessage[], options: TextGenerationOptions)
     return client.chat.completions.create(backup, { timeout: TEXT_AI.timeoutMs });
   }
   try {
-    return await client.chat.completions.create(primary, { timeout: TEXT_AI.primaryTimeoutMs });
+    return await client.chat.completions.create(primary, { timeout: base.stream ? TEXT_AI.primaryTimeoutMs : TEXT_AI.primaryTimeoutMsFull });
   } catch (error: any) {
     const status = error?.status as number | undefined;
     const retriable = status === undefined || status === 408 || status === 429 || status >= 500;
