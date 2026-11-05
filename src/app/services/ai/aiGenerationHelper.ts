@@ -24,7 +24,7 @@ interface GenerateAIContentParams {
  * call the model, and either return the raw stream or extract/validate/parse
  * the completion content. Used by storyAIService (the same
  * "generateText -> validate content" shape also appears
- * in wordAIService/examAIService, left untouched for now).
+ * in wordAIService/lessonAIService, left untouched for now).
  */
 export async function generateAIContent(
   params: GenerateAIContentParams

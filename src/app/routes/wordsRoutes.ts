@@ -12,6 +12,7 @@ import {
   getAnkiCards,
   updateIncrementWordSeens,
   getWordsByTypeOptimized,
+  getWordCountsByLanguage,
   updateWordDifficulty,
 } from "../controllers/wordController";
 import { exportWordsToJSON, importWordsFromFile } from "../controllers/wordImportExportController";
@@ -42,6 +43,7 @@ router.post("/import-file", requireAdmin, ...createJsonUploadMiddleware(), impor
 // Ruta unificada para tarjetas Anki
 router.get("/anki-cards", getAnkiCards);
 router.get("/by-type-optimized", getWordsByTypeOptimized);
+router.get("/languages", getWordCountsByLanguage);
 
 // Dynamic routes with parameters
 router.get("/:word/word", getWordByName);

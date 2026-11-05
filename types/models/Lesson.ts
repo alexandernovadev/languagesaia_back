@@ -9,11 +9,11 @@ import { Document, Types } from "mongoose";
  * - match      pair words with their translation (pairs) — built from the user's own words
  * - findError  tap the wrong word in a sentence (tokens, errorIndex, correction)
  */
-export type ExamQuestionType = "choice" | "fillBlank" | "order" | "translate" | "match" | "findError";
-export type ExamMode = "quick" | "topic" | "mistakes";
+export type LessonQuestionType = "choice" | "fillBlank" | "order" | "translate" | "match" | "findError";
+export type LessonMode = "quick" | "topic" | "mistakes";
 
-export interface IExamQuestion {
-  type: ExamQuestionType;
+export interface ILessonQuestion {
+  type: LessonQuestionType;
   /** What the learner reads (instruction / sentence / Spanish text to translate). */
   prompt: string;
   grammarTopic?: string;
@@ -22,19 +22,33 @@ export interface IExamQuestion {
   answerIndex?: number;
   tokens?: string[];
   answerTokens?: string[];
+  /** Other correct sentences for "order", normalized. */
+  altAnswers?: string[];
   reference?: string;
   pairs?: Array<{ left: string; right: string }>;
   errorIndex?: number;
   correction?: string;
+  /** Its entry in the exercise bank. */
+  exerciseId?: Types.ObjectId;
 }
 
-export interface IExam extends Document {
+/** An exercise in the bank, ready to reuse in any lesson of its language and level. */
+export interface IExercise extends Omit<ILessonQuestion, "exerciseId">, Document {
+  language: string;
+  explainsLanguage: string;
+  level: string;
+  reported: boolean;
+  createdAt?: Date;
+  updatedAt?: Date;
+}
+
+export interface ILesson extends Document {
   title: string;
-  mode: ExamMode;
+  mode: LessonMode;
   language: string;
   level: string;
   grammarTopics: string[];
-  questions: IExamQuestion[];
+  questions: ILessonQuestion[];
   createdBy?: Types.ObjectId;
   createdAt?: Date;
   updatedAt?: Date;
@@ -47,17 +61,21 @@ export interface IAttemptAnswer {
   /** 0–1 (translate can be partial). */
   score: number;
   feedback?: string;
+  /** The learner flagged the exercise as wrong: it no longer counts. */
+  reported?: boolean;
   chat?: Array<{ role: "user" | "assistant"; content: string }>;
 }
 
-export interface IExamAttempt extends Document {
-  examId: Types.ObjectId;
+export interface ILessonAttempt extends Document {
+  lessonId: Types.ObjectId;
   userId: Types.ObjectId;
   language: string;
   answers: IAttemptAnswer[];
   score?: number;
   xp?: number;
   completedAt?: Date;
+  /** Left unfinished and replaced by a new lesson. Its answers still count. */
+  abandonedAt?: Date;
   createdAt?: Date;
   updatedAt?: Date;
 }

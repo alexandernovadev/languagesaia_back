@@ -1,6 +1,6 @@
 /**
  * Grammar catalog per learning language, with Spanish labels for the UI and a
- * suggested CEFR level. Used to build exams and to track weak points.
+ * suggested CEFR level. Used to build lessons and to track weak points.
  * Languages without their own catalog use GENERIC.
  */
 export interface GrammarTopic {

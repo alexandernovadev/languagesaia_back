@@ -10,7 +10,7 @@ API de Glota, una app para aprender idiomas con IA. Antes se llamaba LanguagesAI
 
 | Para qué | Proveedor |
 |---|---|
-| Texto (palabras, expresiones, historias, chats, exámenes) | Fireworks |
+| Texto (palabras, expresiones, historias, chats, lecciones) | Fireworks |
 | Imágenes | fal.ai |
 | Audio de capítulos y transcripción | OpenAI |
 | Almacenamiento de imágenes | Cloudinary |
@@ -51,7 +51,7 @@ src/
 └── app/
     ├── routes/      Definición de endpoints
     ├── controllers/ Entrada y salida HTTP
-    ├── services/    Lógica de negocio e integraciones (ai/, words/, exams/…)
+    ├── services/    Lógica de negocio e integraciones (ai/, words/, lessons/…)
     ├── db/models/   Esquemas de Mongoose
     ├── middlewares/ Auth, límites de peticiones y subidas
     ├── validators/  Esquemas de Zod
@@ -74,7 +74,7 @@ Todo cuelga de `/api` y, salvo `/api/auth`, necesita `Authorization: Bearer <tok
 | `/api/words` | Palabras, tarjetas de repaso, chat y generación con IA |
 | `/api/expressions` | Expresiones |
 | `/api/stories` | Historias y capítulos |
-| `/api/exams` | Prácticas, respuestas, estadísticas y chat |
+| `/api/lessons` | Prácticas, respuestas, estadísticas y chat |
 | `/api/labs` | Panel de admin (solo rol `admin`) |
 | `/api/upload-image/:entityType/:entityId` | Subida de imágenes |
 

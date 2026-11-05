@@ -1,5 +1,5 @@
 import mongoose, { Schema } from "mongoose";
-import { IExamAttempt } from "../../../../types/models";
+import { ILessonAttempt } from "../../../../types/models";
 
 const answerSchema = new Schema(
   {
@@ -8,24 +8,26 @@ const answerSchema = new Schema(
     correct: { type: Boolean, required: true },
     score: { type: Number, required: true, min: 0, max: 1 },
     feedback: { type: String },
+    reported: { type: Boolean },
     chat: [{ role: { type: String, enum: ["user", "assistant"] }, content: { type: String }, _id: false }],
   },
   { _id: false },
 );
 
-const attemptSchema = new Schema<IExamAttempt>(
+const attemptSchema = new Schema<ILessonAttempt>(
   {
-    examId: { type: Schema.Types.ObjectId, ref: "Exam", required: true },
+    lessonId: { type: Schema.Types.ObjectId, ref: "Lesson", required: true },
     userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
     language: { type: String, required: true },
     answers: [answerSchema],
     score: { type: Number },
     xp: { type: Number },
     completedAt: { type: Date },
+    abandonedAt: { type: Date },
   },
   { timestamps: true },
 );
 
 attemptSchema.index({ userId: 1, createdAt: -1 });
 
-export default mongoose.model<IExamAttempt>("ExamAttempt", attemptSchema);
+export default mongoose.model<ILessonAttempt>("LessonAttempt", attemptSchema);

@@ -77,9 +77,9 @@ export const toExpressionDTO = (doc: any) => {
   };
 };
 
-// ─── Exam ─────────────────────────────────────────────────────────────────────
+// ─── Lesson ─────────────────────────────────────────────────────────────────────
 
-export const toExamDTO = (doc: any) => {
+export const toLessonDTO = (doc: any) => {
   if (!doc) return null;
   const d = plain(doc);
   return {
@@ -98,14 +98,14 @@ export const toExamDTO = (doc: any) => {
   };
 };
 
-// ─── ExamAttempt ──────────────────────────────────────────────────────────────
+// ─── LessonAttempt ──────────────────────────────────────────────────────────────
 
 export const toAttemptDTO = (doc: any) => {
   if (!doc) return null;
   const d = plain(doc);
   return {
     _id: d._id,
-    examId: d.examId,
+    lessonId: d.lessonId,
     userId: d.userId,
     score: d.score,
     startedAt: d.startedAt,

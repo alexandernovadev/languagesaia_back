@@ -20,7 +20,7 @@ import LabsRoutes from "./app/routes/labsRoutes";
 import UploadRoutes from "./app/routes/uploadRoutes";
 import AuthRoutes from "./app/routes/authRoutes";
 import UserRoutes from "./app/routes/userRoutes";
-import ExamRoutes from "./app/routes/examRoutes";
+import LessonRoutes from "./app/routes/lessonRoutes";
 
 // Utils
 import { errorResponse, successResponse } from "./app/utils/responseHelpers";
@@ -93,7 +93,7 @@ app.use("/api/stories", authMiddleware, extendTimeout, StoryRoutes);
 app.use("/api/words", authMiddleware, extendTimeout, WordsRoutes);
 app.use("/api/expressions", authMiddleware, extendTimeout, ExpressionRoutes);
 app.use("/api/users", authMiddleware, UserRoutes);
-app.use("/api/exams", authMiddleware, extendTimeout, ExamRoutes);
+app.use("/api/lessons", authMiddleware, extendTimeout, LessonRoutes);
 
 // Admin panel
 app.use("/api/labs", authMiddleware, requireAdmin, extendTimeout, LabsRoutes);

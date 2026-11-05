@@ -1,7 +1,7 @@
 import Word from "../../db/models/Word";
 import Expression from "../../db/models/Expression";
-import Exam from "../../db/models/Exam";
-import ExamAttempt from "../../db/models/ExamAttempt";
+import Lesson from "../../db/models/Lesson";
+import LessonAttempt from "../../db/models/LessonAttempt";
 import Story from "../../db/models/Story";
 import BackupRun from "../../db/models/BackupRun";
 import { getCronStatus } from "../backup/backupSchedulerService";
@@ -123,32 +123,32 @@ export class LabsService {
   }
 
   /**
-   * Delete all exams and their attempts from the database
+   * Delete all lessons and their attempts from the database
    * ⚠️ DANGEROUS OPERATION - Cannot be undone
    */
-  async deleteAllExams(): Promise<{ deletedCount: number; deletedAttempts: number; timestamp: Date }> {
+  async deleteAllLessons(): Promise<{ deletedCount: number; deletedAttempts: number; timestamp: Date }> {
     try {
-      logger.warn("⚠️ INITIATING: Delete all exams operation");
+      logger.warn("⚠️ INITIATING: Delete all lessons operation");
 
-      const [examsResult, attemptsResult] = await Promise.all([
-        Exam.deleteMany({}),
-        ExamAttempt.deleteMany({}),
+      const [lessonsResult, attemptsResult] = await Promise.all([
+        Lesson.deleteMany({}),
+        LessonAttempt.deleteMany({}),
       ]);
       const timestamp = new Date();
 
-      logger.warn("⚠️ COMPLETED: All exams and attempts deleted", {
-        deletedCount: examsResult.deletedCount,
+      logger.warn("⚠️ COMPLETED: All lessons and attempts deleted", {
+        deletedCount: lessonsResult.deletedCount,
         deletedAttempts: attemptsResult.deletedCount,
         timestamp: timestamp.toISOString(),
       });
 
       return {
-        deletedCount: examsResult.deletedCount || 0,
+        deletedCount: lessonsResult.deletedCount || 0,
         deletedAttempts: attemptsResult.deletedCount || 0,
         timestamp,
       };
     } catch (error) {
-      logger.error("❌ Error deleting all exams:", error);
+      logger.error("❌ Error deleting all lessons:", error);
       throw error;
     }
   }

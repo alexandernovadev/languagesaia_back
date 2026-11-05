@@ -6,7 +6,7 @@ import {
   sendBackupByEmailHandler,
   deleteAllWords,
   deleteAllExpressions,
-  deleteAllExams,
+  deleteAllLessons,
   deleteAllStories,
 } from "../controllers/labsController";
 
@@ -25,7 +25,7 @@ routes.post("/backup/send-email", sendBackupByEmailHandler);
 // Data Management - Dangerous Operations ⚠️
 routes.delete("/data/words/delete-all", deleteAllWords);
 routes.delete("/data/expressions/delete-all", deleteAllExpressions);
-routes.delete("/data/exams/delete-all", deleteAllExams);
+routes.delete("/data/lessons/delete-all", deleteAllLessons);
 routes.delete("/data/stories/delete-all", deleteAllStories);
 
 export default routes;

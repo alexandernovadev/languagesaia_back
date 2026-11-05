@@ -16,7 +16,7 @@ En `src/config/aiConfig.ts` (`TEXT_AI`), el único sitio que hay que tocar:
 - Si el principal **no empieza a responder en 20 s** (`primaryTimeoutMs`), la misma petición se repite con el respaldo.
 - Tras un fallo, durante **5 min** (`primaryCooldownMs`) todo va directo al respaldo; luego se vuelve a probar el principal.
 - Límite duro de cada petición al respaldo: **90 s** (`timeoutMs`).
-- Razonamiento (`reasoningEffort`): `low` para casi todo, `medium` para exámenes; las imágenes piden la escena con `none`.
+- Razonamiento (`reasoningEffort`): `low` para todo, incluidas las lecciones; las imágenes piden la escena con `none`.
 - En el log del back: `[AI] … did not answer …; using fallback …`.
 
 ## ✅ Funcionan (chat), de más rápido a más lento

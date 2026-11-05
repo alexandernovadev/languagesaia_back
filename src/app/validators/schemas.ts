@@ -61,9 +61,9 @@ export const ExpressionCreateSchema = z.object({
 
 export const ExpressionUpdateSchema = ExpressionCreateSchema.partial();
 
-// ─── Exam / practice ──────────────────────────────────────────────────────────
+// ─── Lesson ──────────────────────────────────────────────────────────
 
-export const PracticeCreateSchema = z.object({
+export const LessonCreateSchema = z.object({
   mode: z.enum(["quick", "topic", "mistakes"]),
   level: z.enum(certLevelsEnum).optional(),
   grammarTopics: z.array(z.string()).optional(),

@@ -173,18 +173,18 @@ export const deleteAllExpressions = async (
 };
 
 /**
- * Delete all exams and their attempts from the database
+ * Delete all lessons and their attempts from the database
  * ⚠️ DANGEROUS OPERATION - Cannot be undone
  */
-export const deleteAllExams = async (
+export const deleteAllLessons = async (
   req: Request,
   res: Response
 ): Promise<Response> => {
   try {
-    const result = await labsService.deleteAllExams();
+    const result = await labsService.deleteAllLessons();
     return successResponse(
       res,
-      "Successfully deleted all exams and attempts",
+      "Successfully deleted all lessons and attempts",
       {
         deletedCount: result.deletedCount,
         deletedAttempts: result.deletedAttempts,
@@ -192,8 +192,8 @@ export const deleteAllExams = async (
       }
     );
   } catch (error) {
-    logger.error("Error in deleteAllExams controller:", error);
-    return errorResponse(res, "Error deleting all exams", 500, error);
+    logger.error("Error in deleteAllLessons controller:", error);
+    return errorResponse(res, "Error deleting all lessons", 500, error);
   }
 };
 

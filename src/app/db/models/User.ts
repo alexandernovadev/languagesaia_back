@@ -5,8 +5,8 @@ import {
   languagesList,
   contentLanguagesList,
 } from "../../data/business/shared";
-import Exam from "./Exam";
-import ExamAttempt from "./ExamAttempt";
+import Lesson from "./Lesson";
+import LessonAttempt from "./LessonAttempt";
 
 const UserSchema: Schema = new Schema(
   {
@@ -39,8 +39,8 @@ UserSchema.pre("findOneAndDelete", async function () {
   const filter = this.getFilter();
   const userId = filter._id;
   await Promise.all([
-    Exam.deleteMany({ createdBy: userId }),
-    ExamAttempt.deleteMany({ userId }),
+    Lesson.deleteMany({ createdBy: userId }),
+    LessonAttempt.deleteMany({ userId }),
   ]);
 });
 

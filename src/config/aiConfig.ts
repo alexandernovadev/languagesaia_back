@@ -10,7 +10,7 @@
  *  fal.ai's REST API (see services/ai/imageAIService.ts).
  */
 
-/** Text generation: words, expressions, stories, reader, chats, exams. */
+/** Text generation: words, expressions, stories, reader, chats, lessons. */
 export const TEXT_AI = {
   name: "Fireworks",
   apiKey: process.env.FIREWORKS_API_KEY,
@@ -22,7 +22,7 @@ export const TEXT_AI = {
   models: {
     /** Default for every text task. */
     default: "accounts/fireworks/models/deepseek-v4p1-flash",
-    /** Tasks that need careful reasoning (exam validation & correction). */
+    /** Tasks that need careful reasoning (lesson validation & correction). */
     reasoning: "accounts/fireworks/models/deepseek-v4p1-flash",
   },
   /** How much the model "thinks" before answering, per tier (low | medium | high | none). */
@@ -37,7 +37,7 @@ export const TEXT_AI = {
    */
   fallback: "accounts/fireworks/models/kimi-k3",
   primaryTimeoutMs: 20_000,
-  /** Same, for non-streamed calls: there the whole answer must arrive (exam generation takes 15–25 s). */
+  /** Same, for non-streamed calls: there the whole answer must arrive (lesson generation takes 15–25 s). */
   primaryTimeoutMsFull: 45_000,
   /** After the main model fails, use the backup directly for this long, then try the main one again. */
   primaryCooldownMs: 5 * 60_000,

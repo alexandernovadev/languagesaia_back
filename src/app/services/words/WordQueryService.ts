@@ -47,6 +47,14 @@ export class WordQueryService {
     }
   }
 
+  /** How many words there are per language, for the language switcher. */
+  async countByLanguage(): Promise<Array<{ language: string; count: number }>> {
+    return Word.aggregate([
+      { $group: { _id: "$language", count: { $sum: 1 } } },
+      { $project: { _id: 0, language: "$_id", count: 1 } },
+    ]);
+  }
+
   async getLastEasyWords(): Promise<IWord[]> {
     return (await Word.find({ difficulty: "easy" })
       .sort({ createdAt: -1 })

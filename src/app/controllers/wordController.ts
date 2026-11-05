@@ -290,6 +290,17 @@ export const getAnkiCards = async (
   }
 };
 
+export const getWordCountsByLanguage = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    return successResponse(res, "Word counts by language", await wordQueryService.countByLanguage());
+  } catch (error) {
+    return errorResponse(res, "An error occurred while counting words", 500, error);
+  }
+};
+
 export const getWordsByTypeOptimized = async (
   req: Request,
   res: Response
