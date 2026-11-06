@@ -12,6 +12,7 @@ import logger from "../utils/logger";
 import { AudioWordTiming, narrateChapter, narrationVoice } from "../services/audio/textToSpeechService";
 import { uploadAudioToPocketBase } from "../services/audio/pocketBaseService";
 import { routeParams } from "../utils/http/routeParams";
+import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
 
 const storyService = new StoryService();
 
@@ -41,15 +42,31 @@ export const createStory = async (req: Request, res: Response): Promise<Response
   }
 };
 
-export const nextChapter = async (req: Request, res: Response): Promise<Response> => {
+/** Tells the reader the text is complete; the response stays open while the chapter is saved. */
+const END_OF_TEXT = "\u0003";
+
+export const nextChapter = async (req: Request, res: Response): Promise<Response | void> => {
+  let chapter: Awaited<ReturnType<typeof storyService.writeChapter>> = null;
   try {
     const userId = getUserId(req);
-    const story = await storyService.nextChapter(routeParams(req).id, userId, { userId });
-    if (!story) return errorResponse(res, "Story not found", 404);
-    return successResponse(res, "Chapter written", toStoryDTO(story), 201);
+    chapter = await storyService.writeChapter(routeParams(req).id, userId, { userId });
+    if (!chapter) return errorResponse(res, "Story not found", 404);
+    const { stream, save } = chapter;
+
+    setSSEHeaders(res);
+    await streamTextResponse(res, stream as any, {
+      filterMarkdownTables: false,
+      onComplete: async (text) => {
+        res.write(END_OF_TEXT);
+        await save(text);
+      },
+    });
   } catch (error: any) {
     logger.error("Error writing chapter:", error);
+    if (res.headersSent) return void res.destroy(); // cut the stream so the reader knows it failed
     return errorResponse(res, error.message || "Error writing chapter", error.status ?? 500, error);
+  } finally {
+    chapter?.release();
   }
 };
 

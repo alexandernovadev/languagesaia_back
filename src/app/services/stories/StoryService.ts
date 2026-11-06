@@ -7,7 +7,7 @@ import { paginateQuery, PaginatedResult } from "../db/paginationHelper";
 import UserWord from "../../db/models/UserWord";
 import { toObjectId } from "../words/UserWordService";
 import Word from "../../db/models/Word";
-import { generateChapter, generateStoryIdea } from "../ai/storyAIService";
+import { generateChapterDetails, generateStoryIdea, streamChapter } from "../ai/storyAIService";
 import { AIContentOptions } from "../ai/aiGenerationHelper";
 
 const WORD_POOL = 40;
@@ -48,17 +48,18 @@ export class StoryService {
       .slice(0, WORDS_PER_CHAPTER);
   }
 
-  async nextChapter(storyId: string, userId: string, options: AIContentOptions = {}): Promise<IStory | null> {
+  /** Starts the next chapter. Call `save` with the streamed text, and `release` when it's over. */
+  async writeChapter(storyId: string, userId: string, options: AIContentOptions = {}) {
     const story = await Story.findById(storyId);
     if (!story) return null;
     if (story.chapters.length >= story.totalChapters) throw Object.assign(new Error("The story is finished"), { status: 409 });
     if (writing.has(storyId)) throw Object.assign(new Error("Already writing this chapter"), { status: 409 });
 
     writing.add(storyId);
+    const release = () => writing.delete(storyId);
     try {
       const words = await this.wordsToPractice(userId, story.language);
-      const chapterNumber = story.chapters.length + 1;
-      const draft = await generateChapter(
+      const stream = await streamChapter(
         {
           title: story.title,
           description: story.description,
@@ -66,7 +67,7 @@ export class StoryService {
           genre: story.genre,
           level: story.languageLevel,
           language: story.language,
-          chapterNumber,
+          chapterNumber: story.chapters.length + 1,
           totalChapters: story.totalChapters,
           summaries: story.chapters.map((c) => c.summary ?? ""),
           previousText: story.chapters.at(-1)?.content,
@@ -74,18 +75,29 @@ export class StoryService {
         },
         options,
       );
-      story.chapters.push({
-        order: chapterNumber - 1,
-        title: draft.title,
-        content: sanitizeLectureContent(draft.content),
-        summary: draft.summary,
-        targetVocabulary: draft.usedForms ?? [],
-        questions: draft.questions,
-      } as any);
-      return await story.save();
-    } finally {
-      writing.delete(storyId);
+      return { stream, release, save: (text: string) => this.saveChapter(story, text, words, options) };
+    } catch (error) {
+      release();
+      throw error;
     }
+  }
+
+  private async saveChapter(story: IStory, text: string, words: string[], options: AIContentOptions) {
+    const [firstLine, ...rest] = text.trim().split("\n");
+    const title = firstLine.replace(/[#*"“”]/g, "").trim();
+    const content = sanitizeLectureContent(rest.join("\n").trim());
+    if (!title || !content) throw new Error("The chapter came back incomplete");
+
+    const details = await generateChapterDetails({ content, language: story.language, words }, options);
+    story.chapters.push({
+      order: story.chapters.length,
+      title,
+      content,
+      summary: details.summary,
+      targetVocabulary: details.usedForms ?? [],
+      questions: details.questions,
+    } as any);
+    await story.save();
   }
 
   async getStoryById(id: string): Promise<IStory | null> {
@@ -189,7 +201,7 @@ export class StoryService {
   async updateProgress(userId: string, storyId: string, chapterIndex: number): Promise<IStoryProgress> {
     const progress = await StoryProgress.findOneAndUpdate(
       { userId, storyId } as any,
-      { $addToSet: { completedChapters: chapterIndex }, $set: { currentChapter: chapterIndex + 1, lastReadAt: new Date() } },
+      { $addToSet: { completedChapters: chapterIndex }, $max: { currentChapter: chapterIndex + 1 }, $set: { lastReadAt: new Date() } },
       { upsert: true, returnDocument: "after" },
     );
     return progress as IStoryProgress;

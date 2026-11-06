@@ -1,4 +1,4 @@
-import { createChapterPrompt, ChapterPromptParams } from "./prompts/stories/chapterGenerationPrompts";
+import { createChapterDetailsPrompt, createChapterPrompt, ChapterDetailsParams, ChapterPromptParams } from "./prompts/stories/chapterGenerationPrompts";
 import { createStoryIdeaPrompt, StoryIdeaPromptParams } from "./prompts/stories/storyIdeaPrompts";
 import { generateAIContent, AIContentOptions } from "./aiGenerationHelper";
 
@@ -8,9 +8,7 @@ export interface StoryIdea {
   protagonist: string;
 }
 
-export interface ChapterDraft {
-  title: string;
-  content: string;
+export interface ChapterDetails {
   summary: string;
   usedForms: string[];
   questions: { question: string; options: string[]; answer: number }[];
@@ -22,16 +20,20 @@ const json = (promptData: { system: string; user: string }, options: AIContentOp
 export const generateStoryIdea = (params: StoryIdeaPromptParams, options: AIContentOptions = {}): Promise<StoryIdea> =>
   json(createStoryIdeaPrompt(params), options, 0.9);
 
-const isValid = (c: ChapterDraft) =>
-  !!c?.title && !!c.content && !!c.summary && c.questions?.length === 3 &&
+/** The title on the first line, then the text, as it's written. No thinking first: it held the first word back over 20 s. */
+export const streamChapter = (params: ChapterPromptParams, options: AIContentOptions = {}) =>
+  generateAIContent({ promptData: createChapterPrompt(params), options: { ...options, reasoningEffort: "none" }, stream: true, defaultTemperature: 0.8 });
+
+const isValid = (c: ChapterDetails) =>
+  !!c?.summary && c.questions?.length === 3 &&
   c.questions.every((q) => q.question && q.options?.length === 3 && [0, 1, 2].includes(q.answer));
 
-/** A chapter with a broken shape can't be read, so it gets one more try. */
-export const generateChapter = async (params: ChapterPromptParams, options: AIContentOptions = {}): Promise<ChapterDraft> => {
-  const promptData = createChapterPrompt(params);
-  const first: ChapterDraft = await json(promptData, options, 0.8);
-  if (isValid(first)) return first;
-  const second: ChapterDraft = await json(promptData, options, 0.8);
-  if (isValid(second)) return second;
-  throw new Error("The chapter came back incomplete");
+/** Broken details get one more try. After that the chapter stays readable, without questions. */
+export const generateChapterDetails = async (params: ChapterDetailsParams, options: AIContentOptions = {}): Promise<ChapterDetails> => {
+  const promptData = createChapterDetailsPrompt(params);
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const details: ChapterDetails | null = await json(promptData, options, 0.3).catch(() => null);
+    if (details && isValid(details)) return details;
+  }
+  return { summary: "", usedForms: [], questions: [] };
 };

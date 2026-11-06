@@ -26,8 +26,12 @@ const LEVEL_RULES: Record<string, string> = {
   C2: "Rich, natural prose. Complexity comes from sentence structure, never from rare words.",
 };
 
+/** Models can't count words, but they can count paragraphs. Simple levels write shorter ones. */
+const LEVEL_PARAGRAPHS: Record<string, number> = { A1: 16, A2: 16, B1: 15, B2: 12, C1: 12, C2: 12 };
+
 export const createChapterPrompt = (p: ChapterPromptParams) => {
   const lang = getLangLabel(p.language);
+  const paragraphs = LEVEL_PARAGRAPHS[p.level] ?? 15;
   const isFirst = p.chapterNumber === 1;
   const isLast = p.chapterNumber === p.totalChapters;
 
@@ -51,23 +55,16 @@ Language: only ${lang}. ${getVariantRules(p.language)}
 Level ${p.level}: ${LEVEL_RULES[p.level] ?? LEVEL_RULES.B1}
 
 Writing rules:
-- Between 180 and 220 words.
+- Between 680 and 700 words: exactly ${paragraphs} paragraphs of about ${Math.round(690 / paragraphs)} words each.
 - Plain text. No Markdown, no headings, no lists.
-- Paragraphs of 1 to 3 sentences, separated by one blank line.
+- Separate paragraphs with one blank line. A line of dialogue belongs inside its paragraph, never alone.
 - Show events and dialogue, with concrete details. Avoid clichés and moral lessons.
 - Keep the same protagonist, names, places and tone in every chapter.
 
-Respond with only a JSON object:
-{
-  "title": "chapter title, 2 to 6 words, without the word chapter",
-  "content": "the chapter text, with \\n\\n between paragraphs",
-  "summary": "what happened, in 2 sentences, in English, naming characters and facts to remember",
-  "usedForms": ["each word from the list that you really used, exactly as it appears in the text, for example fell or batia"],
-  "questions": [
-    { "question": "comprehension question in ${lang}", "options": ["three short options"], "answer": 0 }
-  ]
-}
-Write exactly 3 questions about facts in this chapter, each with exactly 3 options. "answer" is the index of the right option, and the right option changes position between questions.`,
+Respond with only this, nothing before or after it:
+- First line: the chapter title, 2 to 6 words, without the word chapter.
+- One blank line.
+- The chapter text.`,
     user: `Story: ${p.title}
 Genre: ${p.genre}
 Premise: ${p.description}
@@ -75,5 +72,33 @@ Protagonist: ${p.protagonist}
 Chapter ${p.chapterNumber} of ${p.totalChapters}. ${position}
 ${history}${previous}
 Use these words naturally, at least 5 of them, conjugated or inflected when needed, without explaining them: ${p.words.join(", ") || "none"}.`,
+  };
+};
+
+export interface ChapterDetailsParams {
+  content: string;
+  language: string;
+  words: string[];
+}
+
+/** What the reader needs once the text exists: it runs after the chapter has been streamed. */
+export const createChapterDetailsPrompt = (p: ChapterDetailsParams) => {
+  const lang = getLangLabel(p.language);
+  return {
+    system: `You prepare a chapter of graded fiction in ${lang} for a learner.
+
+Respond with only a JSON object:
+{
+  "summary": "what happened, in 2 sentences, in English, naming characters and facts to remember",
+  "usedForms": ["each word from the list that was really used, exactly as it appears in the text, for example fell or batia"],
+  "questions": [
+    { "question": "comprehension question in ${lang}", "options": ["three short options"], "answer": 0 }
+  ]
+}
+Write exactly 3 questions about facts in this chapter, each with exactly 3 options. "answer" is the index of the right option, and the right option changes position between questions.`,
+    user: `Chapter:
+${p.content}
+
+Word list: ${p.words.join(", ") || "none"}.`,
   };
 };

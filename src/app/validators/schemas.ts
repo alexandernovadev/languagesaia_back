@@ -75,7 +75,7 @@ export const LessonCreateSchema = z.object({
 export const StoryCreateSchema = z.object({
   languageLevel: z.enum(certLevelsEnum),
   genre: z.enum(storyGenresEnum),
-  totalChapters: z.union([z.literal(3), z.literal(6), z.literal(10)]).default(6),
+  totalChapters: z.union([z.literal(3), z.literal(6)]).default(6),
   theme: z.string().max(500).optional(),
 });
 
