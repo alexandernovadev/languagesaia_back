@@ -25,6 +25,8 @@ const ChapterSchema = new Schema(
       type: [{ _id: false, question: String, options: [String], answer: Number }],
       default: [],
     },
+    /** The reader's conversation with Tula about this chapter. */
+    chat: { type: [{ _id: false, role: String, content: String }], default: [] },
     /** Words that only mean something together. Missing means not looked for yet. */
     phrases: {
       type: [{ _id: false, text: String, base: String, type: { type: String }, meaning: String, sentence: String }],

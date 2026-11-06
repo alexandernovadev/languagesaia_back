@@ -124,6 +124,14 @@ export class StoryService {
     void this.paintChapter(String(story._id), index); // last of all: it needs the finished chapter
   }
 
+  async addChatTurn(storyId: string, index: number, question: string, answer: string) {
+    await Story.updateOne(
+      { _id: storyId },
+      { $push: { [`chapters.${index}.chat`]: { $each: [{ role: "user", content: question }, { role: "assistant", content: answer }] } } },
+      { timestamps: false },
+    );
+  }
+
   async markPhrases(storyId: string, index: number) {
     try {
       const story = await Story.findById(storyId);

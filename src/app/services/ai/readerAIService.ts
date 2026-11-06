@@ -1,5 +1,7 @@
 import { generateAIContent, AIContentOptions } from "./aiGenerationHelper";
 import { getLangLabel, getVariantRules } from "./prompts/langUtils";
+import { generateChat } from "./textAIService";
+import { createReadingChatSystem, ReadingChatParams } from "./prompts/stories/readingChatPrompts";
 
 export interface WordLookup {
   lemma: string;
@@ -20,4 +22,12 @@ Respond with only a JSON object: {"lemma": "dictionary form of the word", "trans
     defaultTemperature: 0.1,
     nonStreamResponseFormat: "json_object",
     parseJSON: true,
+  });
+
+/** Answers about a part of the text the reader selected. Short answers: no thinking needed. */
+export const streamReadingChat = (context: ReadingChatParams, history: { role: "user" | "assistant"; content: string }[], message: string) =>
+  generateChat([{ role: "system", content: createReadingChatSystem(context) }, ...history, { role: "user", content: message }], {
+    stream: true,
+    temperature: 0.4,
+    reasoningEffort: "none",
   });

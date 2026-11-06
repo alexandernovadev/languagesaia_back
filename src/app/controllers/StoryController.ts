@@ -12,6 +12,7 @@ import logger from "../utils/logger";
 import { AudioWordTiming, narrateChapter, narrationVoice } from "../services/audio/textToSpeechService";
 import { uploadAudioToPocketBase } from "../services/audio/pocketBaseService";
 import { routeParams } from "../utils/http/routeParams";
+import { streamReadingChat } from "../services/ai/readerAIService";
 import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
 
 const storyService = new StoryService();
@@ -69,6 +70,51 @@ export const nextChapter = async (req: Request, res: Response): Promise<Response
     return errorResponse(res, error.message || "Error writing chapter", error.status ?? 500, error);
   } finally {
     chapter?.release();
+  }
+};
+
+const MAX_SELECTION = 600;
+const MAX_HISTORY = 12;
+
+export const getReadingChat = async (req: Request, res: Response): Promise<Response> => {
+  try {
+    const { id, chapterIndex } = routeParams(req);
+    const story = await storyService.getStoryById(id);
+    return successResponse(res, "Chapter chat", story?.chapters[Number(chapterIndex)]?.chat ?? []);
+  } catch (error) {
+    return errorResponse(res, "Error loading the chat", 500, error);
+  }
+};
+
+/** One conversation per chapter, about anything in it or a part the reader selected. */
+export const readingChat = async (req: Request, res: Response): Promise<Response | void> => {
+  try {
+    const { id, chapterIndex } = routeParams(req);
+    const index = Number(chapterIndex);
+    const message = String(req.body?.message ?? "").trim();
+    const selection = String(req.body?.selection ?? "").trim().slice(0, MAX_SELECTION);
+    if (!message) return errorResponse(res, "message is required", 400);
+
+    const story = await storyService.getStoryById(id);
+    const chapter = story?.chapters[index];
+    if (!story || !chapter) return errorResponse(res, "Chapter not found", 404);
+
+    const history = (chapter.chat ?? []).slice(-MAX_HISTORY).map(({ role, content }) => ({ role, content }));
+    const asked = selection ? `About this part of the text: "${selection}"\n\n${message}` : message;
+    const stream = await streamReadingChat(
+      { story: story.title, chapterTitle: chapter.title, chapter: chapter.content, language: story.language, level: story.languageLevel, explains: req.user?.explainsLanguage || "es" },
+      history,
+      asked,
+    );
+    setSSEHeaders(res);
+    await streamTextResponse(res, stream as any, {
+      filterMarkdownTables: false,
+      onComplete: (text) => storyService.addChatTurn(id, index, selection ? `«${selection}»\n${message}` : message, text),
+    });
+  } catch (error: any) {
+    logger.error("Error in the reading chat:", error);
+    if (res.headersSent) return void res.destroy();
+    return errorResponse(res, "Error in the reading chat", 500, error);
   }
 };
 

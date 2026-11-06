@@ -11,6 +11,8 @@ import {
   getProgress,
   generateChapterAudioHandler,
   lookupTappedWord,
+  readingChat,
+  getReadingChat,
 } from "../controllers/StoryController";
 
 const router = Router();
@@ -29,6 +31,8 @@ router.delete("/:id", deleteStory);
 
 // Chapter routes
 router.post("/:id/chapters/next", aiLimiter, nextChapter);
+router.get("/:id/chapters/:chapterIndex/chat", getReadingChat);
+router.post("/:id/chapters/:chapterIndex/chat/stream", aiLimiter, readingChat);
 router.post("/:id/chapters/:chapterIndex/generate-audio", aiLimiter, generateChapterAudioHandler);
 
 // Progress routes

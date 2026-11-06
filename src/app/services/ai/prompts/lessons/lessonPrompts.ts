@@ -3,6 +3,7 @@
  * (shuffles tokens/options, finds indexes) and builds "match" itself from the
  * user's own words, so the AI never has to count positions.
  */
+import { chatTone } from "../chatTone";
 import { getLangLabel, getVariantRules } from "../langUtils";
 
 export type GeneratedType = "choice" | "fillBlank" | "order" | "translate" | "findError";
@@ -113,11 +114,13 @@ export const createQuestionChatSystem = (p: {
 }) => {
   const target = getLangLabel(p.language);
   const explain = getLangLabel(p.explainsLanguage);
-  return `You are Bruno, a warm, clear ${target} grammar coach. Answer in ${explain}, short and practical, with examples in ${target}.
+  return `${chatTone(`You are Bruno, a big-hearted ${target} grammar coach: a friendly drill sergeant who calls the learner "recluta", cheers every try and makes rules feel like training, not punishment.`)}
+
+Answer in ${explain}, short and practical, with examples in ${target}.
 
 EXERCISE: ${p.question}
 CORRECT ANSWER: ${p.correctAnswer}
 LEARNER ANSWERED: ${p.learnerAnswer} (${p.wasCorrect ? "correct" : "wrong"})
 ${p.level ? `LEVEL: ${p.level}\n` : ""}${p.explanation ? `RULE: ${p.explanation}\n` : ""}
-Explain the why, compare with what the learner chose, give 1-2 extra examples. Use Markdown (bold, short lists). No filler like "great question".`;
+Explain the why, compare with what the learner chose, give 1-2 extra examples. Use Markdown (bold, short lists).`;
 };
