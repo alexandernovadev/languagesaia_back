@@ -8,6 +8,7 @@ import { generateWordCodeSwitching, generateWordExamples, generateWordSynonyms }
 import type { Language } from "../../../../types/business";
 
 const FULL_EXAMPLES = 5;
+const MAX_SYNONYMS = 6;
 
 /** Two opens at once must not pay twice. */
 const running = new Map<string, Promise<unknown>>();
@@ -19,7 +20,7 @@ const fill = async (id: string, userId: string | null) => {
   if (word.completedAt) return pick(word);
 
   const language = word.language as Language;
-  const options = { userId };
+  const options = { userId, reasoningEffort: "none" as const }; // short lists: thinking only added a long wait
   const [examples, codeSwitching, synonyms] = await Promise.allSettled([
     word.examples.length < FULL_EXAMPLES ? generateWordExamples(word.word, language, word.examples.join("\n"), options) : null,
     word.codeSwitching?.length ? null : generateWordCodeSwitching(word.word, language, "", options),
@@ -30,7 +31,7 @@ const fill = async (id: string, userId: string | null) => {
     word.examples = [...word.examples, ...examples.value.examples].slice(0, FULL_EXAMPLES);
   }
   if (codeSwitching.status === "fulfilled" && codeSwitching.value?.codeSwitching) word.codeSwitching = codeSwitching.value.codeSwitching;
-  if (synonyms.status === "fulfilled" && synonyms.value?.synonyms) word.synonyms = synonyms.value.synonyms;
+  if (synonyms.status === "fulfilled" && synonyms.value?.synonyms) word.synonyms = synonyms.value.synonyms.slice(0, MAX_SYNONYMS);
 
   // a part that failed is tried again the next time the word is opened
   const allDone = [examples, codeSwitching, synonyms].every((part) => part.status === "fulfilled");
