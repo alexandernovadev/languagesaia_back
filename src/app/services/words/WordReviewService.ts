@@ -1,11 +1,11 @@
 /**
- * Spaced repetition: each answer decides when a word comes back. Each day
- * brings the overdue words, then a limited number of new ones.
+ * Spaced repetition: each answer decides when a word comes back. The schedule
+ * only sets the order, never a limit: you can always keep studying.
  */
 import UserWord from "../../db/models/UserWord";
 import Word from "../../db/models/Word";
 import { IWordReview } from "../../../../types/models";
-import { MAX_INTERVAL_DAYS, MAX_NEW_CARDS_PER_DAY } from "../../../config/constants";
+import { MAX_INTERVAL_DAYS } from "../../../config/constants";
 import { joinWord, toObjectId } from "./UserWordService";
 
 export type ReviewAnswer = "again" | "hard" | "easy";
@@ -47,12 +47,6 @@ export class WordReviewService {
     return { userId: toObjectId(user._id as string), language: user.language ?? "en" };
   }
 
-  /** New words still allowed today. */
-  private async newLeftToday(user: User, now: Date) {
-    const started = await UserWord.countDocuments({ ...this.scope(user), "review.firstReviewedAt": { $gte: startOfDay(now) } });
-    return Math.max(0, MAX_NEW_CARDS_PER_DAY - started);
-  }
-
   /** Dictionary words this learner doesn't have yet. */
   private async dictionaryWords(user: User) {
     const scope = this.scope(user);
@@ -76,17 +70,16 @@ export class WordReviewService {
   async summary(user: User) {
     const now = new Date();
     const scope = this.scope(user);
-    const [due, unscheduled, waiting, left, next] = await Promise.all([
+    const [due, unscheduled, waiting, next] = await Promise.all([
       UserWord.countDocuments({ ...scope, "review.dueAt": { $lte: now } }),
       UserWord.countDocuments({ ...scope, "review.dueAt": { $exists: false } }),
       this.dictionaryWords(user).then((filter) => Word.countDocuments(filter)),
-      this.newLeftToday(user, now),
       UserWord.findOne({ ...scope, "review.dueAt": { $gt: now } }, { "review.dueAt": 1 }).sort({ "review.dueAt": 1 }).lean<any>(),
     ]);
-    return { due, newToday: Math.min(unscheduled + waiting, left), nextDueAt: next?.review?.dueAt ?? null };
+    return { due, newWords: unscheduled + waiting, nextDueAt: next?.review?.dueAt ?? null };
   }
 
-  /** Overdue first (the oldest on top), then new words: the hardest and least seen. */
+  /** Overdue first (the oldest on top), then new words (the hardest and least seen), then the next ones due. */
   async queue(user: User, limit: number) {
     const now = new Date();
     const scope = this.scope(user);
@@ -96,7 +89,7 @@ export class WordReviewService {
       { $limit: limit },
       ...joinWord,
     ]);
-    const room = Math.min(limit - due.length, await this.newLeftToday(user, now));
+    const room = limit - due.length;
     if (room <= 0) return due;
 
     const unscheduled = await UserWord.countDocuments({ ...scope, "review.dueAt": { $exists: false } });
@@ -109,7 +102,16 @@ export class WordReviewService {
       { $limit: room },
       ...joinWord,
     ]);
-    return [...due, ...fresh];
+    const left = room - fresh.length;
+    if (left <= 0) return [...due, ...fresh];
+
+    const early = await UserWord.aggregate([
+      { $match: { ...scope, "review.dueAt": { $gt: now } } },
+      { $sort: { "review.dueAt": 1 } },
+      { $limit: left },
+      ...joinWord,
+    ]);
+    return [...due, ...fresh, ...early];
   }
 
   async answer(user: User, wordId: string, answer: ReviewAnswer) {

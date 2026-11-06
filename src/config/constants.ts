@@ -23,7 +23,6 @@ export const MAX_IMPORT_ITEMS = 5_000;
 export const MAX_PAGINATION_LIMIT = 100;
 
 // ─── Review ───────────────────────────────────────────────────────────────────
-export const MAX_NEW_CARDS_PER_DAY = 20;
 export const MAX_INTERVAL_DAYS = 180;
 
 // Longest example or expression sent to the voice model

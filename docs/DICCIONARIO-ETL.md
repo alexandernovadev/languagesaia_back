@@ -79,7 +79,7 @@ No lleva imagen: la tarjeta sin imagen muestra la inicial. El admin la crea a ma
 ## Reglas
 
 - El ETL solo escribe en `words`: **nunca en la lista de nadie**.
-- Las palabras entran solas a "Mis palabras": cuando Repasar se queda sin nuevas, toma las siguientes por `rank`, dentro del límite de 20 al día. Una palabra de la lista no se puede quitar.
+- Las palabras entran solas a "Mis palabras": cuando Repasar se queda sin nuevas, toma las siguientes por `rank`, sin límite diario. Una palabra de la lista no se puede quitar.
 - Las palabras existentes no se sobrescriben, salvo con `--redo`.
 - Portugués solo de Brasil e inglés solo de USA, en todos los prompts (`prompts/langUtils.ts`).
 - Las tildes importan: son parte del idioma.
