@@ -1,0 +1,1222 @@
+[
+ {
+  "rank": 1314,
+  "word": "recently",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˈriːsəntli/",
+  "definition": "Not long ago.",
+  "examples": [
+   "I saw him recently.",
+   "We recently moved to Denver.",
+   "Have you talked to her recently?"
+  ],
+  "spanish": {
+   "word": "recientemente",
+   "definition": "Hace poco."
+  },
+  "synonyms": [
+   "lately"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1315,
+  "word": "slowly",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˈsloʊli/",
+  "definition": "At a low speed.",
+  "examples": [
+   "Please speak slowly.",
+   "He walked slowly to the door.",
+   "Drive slowly here."
+  ],
+  "spanish": {
+   "word": "lentamente",
+   "definition": "A baja velocidad."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1316,
+  "word": "easily",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˈiːzəli/",
+  "definition": "Without difficulty.",
+  "examples": [
+   "She won easily.",
+   "I can easily do that.",
+   "He gets tired easily."
+  ],
+  "spanish": {
+   "word": "fácilmente",
+   "definition": "Sin dificultad."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1317,
+  "word": "basically",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˈbeɪsɪkli/",
+  "definition": "In the most important way; in simple words.",
+  "examples": [
+   "Basically, we need more money.",
+   "It's basically the same thing.",
+   "He basically lives here."
+  ],
+  "spanish": {
+   "word": "básicamente",
+   "definition": "De la forma más importante; en palabras simples."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1318,
+  "word": "personally",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˈpɜːrsənəli/",
+  "definition": "In your own opinion; by yourself.",
+  "examples": [
+   "Personally, I like it.",
+   "I know him personally.",
+   "She called me personally."
+  ],
+  "spanish": {
+   "word": "personalmente",
+   "definition": "En tu propia opinión; por ti mismo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1319,
+  "word": "carefully",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˈkerfəli/",
+  "definition": "With attention, to avoid mistakes.",
+  "examples": [
+   "Listen carefully.",
+   "Drive carefully.",
+   "She read the letter carefully."
+  ],
+  "spanish": {
+   "word": "cuidadosamente",
+   "definition": "Con atención, para evitar errores."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1320,
+  "word": "eventually",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ɪˈventʃuəli/",
+  "definition": "In the end, after some time.",
+  "examples": [
+   "Eventually, he said yes.",
+   "You'll get used to it eventually.",
+   "We eventually found the house."
+  ],
+  "spanish": {
+   "word": "finalmente",
+   "definition": "Al final, después de un tiempo."
+  },
+  "synonyms": [
+   "finally"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1321,
+  "word": "extremely",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ɪkˈstriːmli/",
+  "definition": "Very, very much.",
+  "examples": [
+   "It's extremely hot today.",
+   "She's extremely smart.",
+   "I'm extremely tired."
+  ],
+  "spanish": {
+   "word": "extremadamente",
+   "definition": "Muchísimo."
+  },
+  "synonyms": [
+   "very"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1322,
+  "word": "badly",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˈbædli/",
+  "definition": "In a bad way; very much.",
+  "examples": [
+   "He was badly hurt.",
+   "She sang badly.",
+   "I need a vacation badly."
+  ],
+  "spanish": {
+   "word": "mal / gravemente",
+   "definition": "De mala manera; mucho."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1323,
+  "word": "upstairs",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˌʌpˈsterz/",
+  "definition": "On or to a higher floor.",
+  "examples": [
+   "My room is upstairs.",
+   "She went upstairs.",
+   "Who's upstairs?"
+  ],
+  "spanish": {
+   "word": "arriba",
+   "definition": "En o hacia un piso más alto."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1324,
+  "word": "downstairs",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˌdaʊnˈsterz/",
+  "definition": "On or to a lower floor.",
+  "examples": [
+   "The kitchen is downstairs.",
+   "He ran downstairs.",
+   "I'll wait for you downstairs."
+  ],
+  "spanish": {
+   "word": "abajo",
+   "definition": "En o hacia un piso más bajo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1325,
+  "word": "apparently",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/əˈperəntli/",
+  "definition": "It seems that.",
+  "examples": [
+   "Apparently, she's sick.",
+   "He apparently left early.",
+   "Apparently, the store is closed."
+  ],
+  "spanish": {
+   "word": "al parecer",
+   "definition": "Parece que."
+  },
+  "synonyms": [
+   "seemingly"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1326,
+  "word": "american",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/əˈmerɪkən/",
+  "definition": "From the USA.",
+  "examples": [
+   "I love American movies.",
+   "She's American.",
+   "He drives an American car."
+  ],
+  "spanish": {
+   "word": "estadounidense",
+   "definition": "De Estados Unidos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1327,
+  "word": "french",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/frentʃ/",
+  "definition": "From France; the language of France.",
+  "examples": [
+   "I'm learning French.",
+   "We ate at a French restaurant.",
+   "I like French fries."
+  ],
+  "spanish": {
+   "word": "francés",
+   "definition": "De Francia; el idioma de Francia."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1328,
+  "word": "german",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ˈdʒɜːrmən/",
+  "definition": "From Germany; the language of Germany.",
+  "examples": [
+   "He speaks German.",
+   "She drives a German car.",
+   "My neighbor is German."
+  ],
+  "spanish": {
+   "word": "alemán",
+   "definition": "De Alemania; el idioma de Alemania."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1329,
+  "word": "chinese",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/tʃaɪˈniːz/",
+  "definition": "From China; the language of China.",
+  "examples": [
+   "Let's order Chinese food.",
+   "She studies Chinese.",
+   "He's a Chinese student."
+  ],
+  "spanish": {
+   "word": "chino",
+   "definition": "De China; el idioma de China."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1330,
+  "word": "japanese",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ˌdʒæpəˈniːz/",
+  "definition": "From Japan; the language of Japan.",
+  "examples": [
+   "I love Japanese food.",
+   "He speaks Japanese.",
+   "She has a Japanese car."
+  ],
+  "spanish": {
+   "word": "japonés",
+   "definition": "De Japón; el idioma de Japón."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1331,
+  "word": "spanish",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ˈspænɪʃ/",
+  "definition": "From Spain; the language of Spain.",
+  "examples": [
+   "I speak Spanish.",
+   "She teaches Spanish.",
+   "We watched a Spanish movie."
+  ],
+  "spanish": {
+   "word": "español",
+   "definition": "De España; el idioma de España."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1332,
+  "word": "italian",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ɪˈtæljən/",
+  "definition": "From Italy; the language of Italy.",
+  "examples": [
+   "I love Italian food.",
+   "Her husband is Italian.",
+   "He's learning Italian."
+  ],
+  "spanish": {
+   "word": "italiano",
+   "definition": "De Italia; el idioma de Italia."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1333,
+  "word": "russian",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ˈrʌʃən/",
+  "definition": "From Russia; the language of Russia.",
+  "examples": [
+   "She speaks Russian.",
+   "He read a Russian novel.",
+   "My teacher is Russian."
+  ],
+  "spanish": {
+   "word": "ruso",
+   "definition": "De Rusia; el idioma de Rusia."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1334,
+  "word": "british",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈbrɪtɪʃ/",
+  "definition": "From the United Kingdom.",
+  "examples": [
+   "She has a British accent.",
+   "He's British.",
+   "I like British TV shows."
+  ],
+  "spanish": {
+   "word": "británico",
+   "definition": "Del Reino Unido."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1335,
+  "word": "interview",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɪntərvjuː/",
+  "definition": "A meeting where someone asks you questions.",
+  "examples": [
+   "I have a job interview tomorrow.",
+   "The interview went well.",
+   "I watched her interview on TV."
+  ],
+  "spanish": {
+   "word": "entrevista",
+   "definition": "Reunión donde alguien te hace preguntas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1336,
+  "word": "mayor",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmeɪər/",
+  "definition": "The leader of a city.",
+  "examples": [
+   "The mayor gave a speech.",
+   "She was elected mayor.",
+   "He's the mayor of Chicago."
+  ],
+  "spanish": {
+   "word": "alcalde",
+   "definition": "El líder de una ciudad."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1337,
+  "word": "member",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmembər/",
+  "definition": "A person in a group.",
+  "examples": [
+   "He's a member of the team.",
+   "She's a member of my family.",
+   "Are you a member of this gym?"
+  ],
+  "spanish": {
+   "word": "miembro",
+   "definition": "Persona de un grupo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1338,
+  "word": "path",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pæθ/",
+  "definition": "A small road for walking.",
+  "examples": [
+   "We walked along the path.",
+   "This path goes to the lake.",
+   "Stay on the path."
+  ],
+  "spanish": {
+   "word": "sendero",
+   "definition": "Camino pequeño para caminar."
+  },
+  "synonyms": [
+   "trail"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1339,
+  "word": "style",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/staɪl/",
+  "definition": "A way of doing or looking.",
+  "examples": [
+   "I love your style.",
+   "Her hair style is new.",
+   "He has his own style."
+  ],
+  "spanish": {
+   "word": "estilo",
+   "definition": "Manera de hacer o de verse."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1340,
+  "word": "speech",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/spiːtʃ/",
+  "definition": "A talk to a group of people.",
+  "examples": [
+   "He gave a great speech.",
+   "I have to make a speech at the wedding.",
+   "Her speech lasted an hour."
+  ],
+  "spanish": {
+   "word": "discurso",
+   "definition": "Charla para un grupo de personas."
+  },
+  "synonyms": [
+   "talk"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1341,
+  "word": "amount",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/əˈmaʊnt/",
+  "definition": "How much of something there is.",
+  "examples": [
+   "That's a large amount of money.",
+   "Add a small amount of sugar.",
+   "What's the total amount?"
+  ],
+  "spanish": {
+   "word": "cantidad",
+   "definition": "Cuánto hay de algo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1342,
+  "word": "journey",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdʒɜːrni/",
+  "definition": "A long trip.",
+  "examples": [
+   "It was a long journey.",
+   "Have a safe journey.",
+   "Our journey took two days."
+  ],
+  "spanish": {
+   "word": "viaje",
+   "definition": "Trayecto largo."
+  },
+  "synonyms": [
+   "trip"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1343,
+  "word": "divorce",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/dɪˈvɔːrs/",
+  "definition": "The legal end of a marriage.",
+  "examples": [
+   "They're getting a divorce.",
+   "Her parents' divorce was hard.",
+   "He asked for a divorce."
+  ],
+  "spanish": {
+   "word": "divorcio",
+   "definition": "Fin legal de un matrimonio."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1344,
+  "word": "funeral",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfjuːnərəl/",
+  "definition": "A ceremony after someone dies.",
+  "examples": [
+   "We went to his funeral.",
+   "The funeral is on Friday.",
+   "Many people came to the funeral."
+  ],
+  "spanish": {
+   "word": "funeral",
+   "definition": "Ceremonia después de que alguien muere."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1345,
+  "word": "page",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/peɪdʒ/",
+  "definition": "One side of a sheet in a book.",
+  "examples": [
+   "Turn to page ten.",
+   "I read fifty pages last night.",
+   "This page is missing."
+  ],
+  "spanish": {
+   "word": "página",
+   "definition": "Un lado de una hoja de un libro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1346,
+  "word": "permission",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pərˈmɪʃən/",
+  "definition": "When someone says you can do something.",
+  "examples": [
+   "You need permission to enter.",
+   "Did you ask for permission?",
+   "He gave me permission to leave."
+  ],
+  "spanish": {
+   "word": "permiso",
+   "definition": "Cuando alguien dice que puedes hacer algo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1347,
+  "word": "lesson",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlesən/",
+  "definition": "A time when you learn something.",
+  "examples": [
+   "I take piano lessons.",
+   "I learned my lesson.",
+   "Today's lesson was easy."
+  ],
+  "spanish": {
+   "word": "lección",
+   "definition": "Momento en el que aprendes algo."
+  },
+  "synonyms": [
+   "class"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1348,
+  "word": "owner",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈoʊnər/",
+  "definition": "A person who has something.",
+  "examples": [
+   "He's the owner of this store.",
+   "Who's the owner of that car?",
+   "The dog's owner came to get it."
+  ],
+  "spanish": {
+   "word": "dueño",
+   "definition": "Persona que tiene algo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1349,
+  "word": "secretary",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsekrəteri/",
+  "definition": "A person who does office work for someone.",
+  "examples": [
+   "Ask my secretary.",
+   "She works as a secretary.",
+   "The secretary answered the phone."
+  ],
+  "spanish": {
+   "word": "secretaria",
+   "definition": "Persona que hace trabajo de oficina para alguien."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1350,
+  "word": "century",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsentʃəri/",
+  "definition": "A hundred years.",
+  "examples": [
+   "This house is a century old.",
+   "We live in the twenty-first century.",
+   "It was built in the last century."
+  ],
+  "spanish": {
+   "word": "siglo",
+   "definition": "Cien años."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1351,
+  "word": "pair",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/per/",
+  "definition": "Two things that go together.",
+  "examples": [
+   "I bought a pair of shoes.",
+   "I need a new pair of glasses.",
+   "Work in pairs, please."
+  ],
+  "spanish": {
+   "word": "par",
+   "definition": "Dos cosas que van juntas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1352,
+  "word": "thief",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/θiːf/",
+  "definition": "A person who steals.",
+  "examples": [
+   "A thief took my bag.",
+   "The police caught the thief.",
+   "Stop, thief!"
+  ],
+  "spanish": {
+   "word": "ladrón",
+   "definition": "Persona que roba."
+  },
+  "synonyms": [
+   "robber"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1353,
+  "word": "event",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪˈvent/",
+  "definition": "Something important that happens.",
+  "examples": [
+   "The event starts at eight.",
+   "It was a great event.",
+   "She plans big events."
+  ],
+  "spanish": {
+   "word": "evento",
+   "definition": "Algo importante que pasa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1354,
+  "word": "shape",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʃeɪp/",
+  "definition": "The form of something; how healthy you are.",
+  "examples": [
+   "What shape is it?",
+   "A circle is a round shape.",
+   "I'm in good shape."
+  ],
+  "spanish": {
+   "word": "forma",
+   "definition": "La figura de algo; qué tan sano estás."
+  },
+  "synonyms": [
+   "form"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1355,
+  "word": "insurance",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪnˈʃʊrəns/",
+  "definition": "A plan that pays you if something bad happens.",
+  "examples": [
+   "Do you have car insurance?",
+   "My health insurance is expensive.",
+   "The insurance paid for it."
+  ],
+  "spanish": {
+   "word": "seguro",
+   "definition": "Plan que te paga si pasa algo malo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1356,
+  "word": "player",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpleɪər/",
+  "definition": "A person who plays a game or sport.",
+  "examples": [
+   "He's a great soccer player.",
+   "Each player gets five cards.",
+   "She's the best player on the team."
+  ],
+  "spanish": {
+   "word": "jugador",
+   "definition": "Persona que juega un juego o deporte."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1357,
+  "word": "knowledge",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnɑːlɪdʒ/",
+  "definition": "What you know.",
+  "examples": [
+   "She has a lot of knowledge about art.",
+   "Knowledge is power.",
+   "I have no knowledge of that."
+  ],
+  "spanish": {
+   "word": "conocimiento",
+   "definition": "Lo que sabes."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1358,
+  "word": "direction",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/dəˈrekʃən/",
+  "definition": "The way someone or something moves; instructions.",
+  "examples": [
+   "We're going in the wrong direction.",
+   "Can you give me directions?",
+   "Which direction is north?"
+  ],
+  "spanish": {
+   "word": "dirección",
+   "definition": "Hacia dónde se mueve algo; instrucciones."
+  },
+  "synonyms": [
+   "way"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1359,
+  "word": "meal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/miːl/",
+  "definition": "Food that you eat at one time.",
+  "examples": [
+   "Dinner is my favorite meal.",
+   "We had a great meal.",
+   "I eat three meals a day."
+  ],
+  "spanish": {
+   "word": "comida",
+   "definition": "Alimentos que comes en un momento."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1360,
+  "word": "image",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɪmɪdʒ/",
+  "definition": "A picture.",
+  "examples": [
+   "This image is too small.",
+   "Send me the image.",
+   "I can see the image on the screen."
+  ],
+  "spanish": {
+   "word": "imagen",
+   "definition": "Una foto o dibujo."
+  },
+  "synonyms": [
+   "picture"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1361,
+  "word": "plate",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pleɪt/",
+  "definition": "A flat round dish for food.",
+  "examples": [
+   "Put the plates on the table.",
+   "My plate is empty.",
+   "He washed the plates."
+  ],
+  "spanish": {
+   "word": "plato",
+   "definition": "Pieza plana y redonda para la comida."
+  },
+  "synonyms": [
+   "dish"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1362,
+  "word": "traffic",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtræfɪk/",
+  "definition": "Cars and trucks on the road.",
+  "examples": [
+   "There's a lot of traffic today.",
+   "I got stuck in traffic.",
+   "Traffic is bad in the morning."
+  ],
+  "spanish": {
+   "word": "tráfico",
+   "definition": "Carros y camiones en la calle."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1363,
+  "word": "courage",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɜːrɪdʒ/",
+  "definition": "The strength to do something scary.",
+  "examples": [
+   "It takes courage to say that.",
+   "She showed great courage.",
+   "I finally had the courage to ask."
+  ],
+  "spanish": {
+   "word": "valentía",
+   "definition": "La fuerza para hacer algo que da miedo."
+  },
+  "synonyms": [
+   "bravery"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1364,
+  "word": "disease",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/dɪˈziːz/",
+  "definition": "A serious illness.",
+  "examples": [
+   "He has heart disease.",
+   "This disease is dangerous.",
+   "Doctors found a cure for the disease."
+  ],
+  "spanish": {
+   "word": "enfermedad",
+   "definition": "Mal grave de salud."
+  },
+  "synonyms": [
+   "illness"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1365,
+  "word": "winner",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwɪnər/",
+  "definition": "A person who wins.",
+  "examples": [
+   "And the winner is... you!",
+   "She was the winner of the race.",
+   "Every kid was a winner that day."
+  ],
+  "spanish": {
+   "word": "ganador",
+   "definition": "Persona que gana."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1366,
+  "word": "appointment",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/əˈpɔɪntmənt/",
+  "definition": "A time to meet someone.",
+  "examples": [
+   "I have a doctor's appointment.",
+   "Can I make an appointment?",
+   "She missed her appointment."
+  ],
+  "spanish": {
+   "word": "cita",
+   "definition": "Hora para ver a alguien."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1367,
+  "word": "neighborhood",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈneɪbərhʊd/",
+  "definition": "The area around your home.",
+  "examples": [
+   "This is a nice neighborhood.",
+   "I grew up in this neighborhood.",
+   "Is your neighborhood safe?"
+  ],
+  "spanish": {
+   "word": "vecindario",
+   "definition": "El área alrededor de tu casa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1368,
+  "word": "midnight",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmɪdnaɪt/",
+  "definition": "Twelve o'clock at night.",
+  "examples": [
+   "The party ended at midnight.",
+   "We got home after midnight.",
+   "It's almost midnight."
+  ],
+  "spanish": {
+   "word": "medianoche",
+   "definition": "Las doce de la noche."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1369,
+  "word": "mail",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/meɪl/",
+  "definition": "Letters and packages.",
+  "examples": [
+   "Did we get any mail today?",
+   "I sent it by mail.",
+   "The mail comes at noon."
+  ],
+  "spanish": {
+   "word": "correo",
+   "definition": "Cartas y paquetes."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1370,
+  "word": "happiness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhæpinəs/",
+  "definition": "The feeling of being happy.",
+  "examples": [
+   "Money can't buy happiness.",
+   "I wish you happiness.",
+   "Her eyes were full of happiness."
+  ],
+  "spanish": {
+   "word": "felicidad",
+   "definition": "El sentimiento de estar feliz."
+  },
+  "synonyms": [
+   "joy"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1371,
+  "word": "success",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/səkˈses/",
+  "definition": "Getting what you wanted.",
+  "examples": [
+   "The party was a big success.",
+   "I wish you success.",
+   "Her book was a success."
+  ],
+  "spanish": {
+   "word": "éxito",
+   "definition": "Conseguir lo que querías."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 1372,
+  "word": "factory",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfæktəri/",
+  "definition": "A building where things are made.",
+  "examples": [
+   "My dad works in a factory.",
+   "The factory makes cars.",
+   "The factory closed last year."
+  ],
+  "spanish": {
+   "word": "fábrica",
+   "definition": "Edificio donde se hacen cosas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ }
+]
