@@ -11,6 +11,8 @@ const client = new OpenAI({ apiKey: TEXT_AI.apiKey, baseURL: TEXT_AI.baseURL, ma
 export interface TextGenerationOptions {
   /** Which model from TEXT_AI.models to use. Defaults to "default". */
   tier?: TextModelTier;
+  /** A specific model, when a task needs a second opinion. */
+  model?: string;
   temperature?: number;
   stream?: boolean;
   maxTokens?: number;
@@ -41,7 +43,7 @@ const complete = async (messages: ChatMessage[], options: TextGenerationOptions)
   if (options.responseFormat === "json_object") base.response_format = { type: "json_object" };
 
   const effort = options.reasoningEffort ?? TEXT_AI.reasoningEffort[tier];
-  const primary = { ...base, model: TEXT_AI.models[tier], reasoning_effort: effort };
+  const primary = { ...base, model: options.model ?? TEXT_AI.models[tier], reasoning_effort: effort };
   const backup = { ...base, model: TEXT_AI.fallback, reasoning_effort: effort };
 
   // The main model failed recently: don't make the user wait again, go straight to the backup.

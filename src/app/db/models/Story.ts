@@ -25,6 +25,11 @@ const ChapterSchema = new Schema(
       type: [{ _id: false, question: String, options: [String], answer: Number }],
       default: [],
     },
+    /** Words that only mean something together. Missing means not looked for yet. */
+    phrases: {
+      type: [{ _id: false, text: String, base: String, type: { type: String }, meaning: String, sentence: String }],
+      default: undefined,
+    },
   },
   { timestamps: true }
 );

@@ -12,6 +12,7 @@ export interface IChapter {
   audioAlignment?: { word: string; start: number; end: number }[];
   summary?: string;
   idea?: string;
+  phrases?: { text: string; base: string; type: string; meaning: string; sentence: string }[];
   targetVocabulary?: string[];
   questions?: { question: string; options: string[]; answer: number }[];
   createdAt: Date;

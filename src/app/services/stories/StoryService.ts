@@ -9,6 +9,7 @@ import { toObjectId } from "../words/UserWordService";
 import Word from "../../db/models/Word";
 import { generateChapterDetails, generateStoryIdea, streamChapter } from "../ai/storyAIService";
 import { generateImage } from "../ai/imageAIService";
+import { findPhrases } from "../ai/phraseAIService";
 import { chapterImagePrompt, storyImagePrompt, storyVisualGuide } from "../ai/prompts";
 import { uploadImageToCloudinary } from "../cloudinary/cloudinaryService";
 import logger from "../../utils/logger";
@@ -118,7 +119,21 @@ export class StoryService {
       questions: details.questions,
     } as any);
     await story.save();
-    void this.paintChapter(String(story._id), story.chapters.length - 1); // last of all: it needs the finished chapter
+    const index = story.chapters.length - 1;
+    void this.markPhrases(String(story._id), index);
+    void this.paintChapter(String(story._id), index); // last of all: it needs the finished chapter
+  }
+
+  async markPhrases(storyId: string, index: number) {
+    try {
+      const story = await Story.findById(storyId);
+      const chapter = story?.chapters[index];
+      if (!story || !chapter) return;
+      const phrases = await findPhrases(chapter.content, story.language);
+      await Story.updateOne({ _id: story._id }, { [`chapters.${index}.phrases`]: phrases }, { timestamps: false });
+    } catch (error) {
+      logger.error("Could not mark the chapter's phrases:", error);
+    }
   }
 
   /** Same people and place in every chapter: the guide is written once and reused. */
