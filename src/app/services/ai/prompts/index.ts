@@ -4,4 +4,4 @@
 export * from './words';
 
 // Image Prompts (FLUX: scene written by the text AI + house style)
-export { buildImagePrompt, wordImagePrompt, expressionImagePrompt, storyImagePrompt, type ImageSubject } from './imagePrompts';
+export { buildImagePrompt, wordImagePrompt, expressionImagePrompt, storyImagePrompt, storyVisualGuide, chapterImagePrompt, type ImageSubject } from './imagePrompts';

@@ -139,6 +139,7 @@ export const toStoryDTO = (doc: any) => {
       order: ch.order,
       title: ch.title,
       content: ch.content,
+      img: ch.img,
       urlAudio: ch.urlAudio,
       audioRecordId: ch.audioRecordId,
       voice: ch.voice,

@@ -5,6 +5,7 @@ export interface IChapter {
   order: number;
   title: string;
   content: string;
+  img?: string;
   urlAudio?: string;
   audioRecordId?: string;
   voice?: string;
@@ -24,6 +25,7 @@ export interface IStory extends Document {
   language: Language;
   genre: StoryGenre;
   protagonist: string;
+  visualGuide?: string;
   totalChapters: number;
   chapters: IChapter[];
   userId: Types.ObjectId;

@@ -81,6 +81,68 @@ export const buildImagePrompt = async (s: ImageSubject): Promise<string> => {
   return prompt;
 };
 
+// ── Chapter pictures ──
+
+const askJson = async (prompt: string, field: string, reasoningEffort: "none" | "low") => {
+  const res: any = await generateText(prompt, { responseFormat: "json_object", temperature: 0.6, reasoningEffort });
+  return String(JSON.parse(res.choices[0].message.content ?? "{}")[field] ?? "").replace(/["“”«»`]/g, "").replace(/\s+/g, " ").trim();
+};
+
+/**
+ * What every picture of a story shares: FLUX remembers nothing, so the same
+ * people and place have to be described word for word in each prompt.
+ */
+export const storyVisualGuide = (s: { title: string; description: string; protagonist: string; genre: string; firstChapter: string }) =>
+  askJson(
+    `You are the art director of an illustrated story. Write the visual guide every picture must follow.
+
+Title: ${s.title}
+Genre: ${s.genre}
+Premise: ${s.description}
+Protagonist: ${s.protagonist}
+First chapter:
+${s.firstChapter}
+
+Write in English, 40 to 55 words, only what can be seen:
+- The protagonist: approximate age, build, skin tone, hair color and style, and one exact outfit with colors.
+- Any second character who matters, in the same way but shorter.
+- The main place and its era, and one color palette and kind of light.
+Choose concrete details and stay faithful to the text.
+
+Return JSON: {"guide": "..."}`,
+    "guide",
+    "low",
+  );
+
+/** Reads the whole chapter and paints the moment that sums it up. */
+export const chapterImagePrompt = async (c: { title: string; content: string; summary?: string; genre: string; guide: string }) => {
+  const scene = await askJson(
+    `You write prompts for an image model that only understands visual descriptions. Read this whole chapter, then describe the one moment that best represents the chapter as a whole.
+
+Genre: ${c.genre}
+Chapter title: ${c.title}
+${c.summary ? `What happens: ${c.summary}\n` : ""}Full chapter:
+${c.content}
+
+Visual guide, which the picture must respect exactly: ${c.guide}
+
+How to write the scene, in English, 70 to 90 words:
+- Be precise and faithful to the chapter: the exact place, the time of day, the weather and the light.
+- Who is there, where each one stands, what they are doing and the expression on their faces.
+- The objects from the chapter that matter, and where they are.
+- What fills the foreground and the background, and the mood.
+- Purely visual: describe only what is visible, never thoughts, sounds or words. Avoid anything with writing on it (signs, labels, screens, letters, maps with names).
+- Do not repeat the guide: the people's looks are added afterwards. Refer to them as the woman, the boy, the old man.
+
+Return JSON: {"scene": "..."}`,
+    "scene",
+    "low",
+  );
+  const prompt = `${scene} ${c.guide} ${IMAGE_AI.styles.story}`;
+  logger.info(`[image] chapter prompt: ${prompt}`);
+  return prompt;
+};
+
 // ── Helpers per content type ──
 
 export const wordImagePrompt = (w: { word: string; definition?: string; type?: string[]; spanish?: { word?: string; definition?: string } }) =>

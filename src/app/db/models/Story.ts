@@ -7,6 +7,7 @@ const ChapterSchema = new Schema(
     order: { type: Number, required: true },
     title: { type: String, required: true },
     content: { type: String, required: true },
+    img: { type: String, default: "" },
     urlAudio: { type: String, default: "" },
     audioRecordId: { type: String, default: "" },
     voice: { type: String, default: "" },
@@ -37,6 +38,8 @@ const storySchema = new Schema<IStory>(
     language: { type: String, required: true, enum: languagesList },
     genre: { type: String, required: true, enum: storyGenresList },
     protagonist: { type: String, default: "" },
+    /** Looks of the people and the place, repeated in every picture. */
+    visualGuide: { type: String, default: "" },
     totalChapters: { type: Number, default: 6 },
     chapters: { type: [ChapterSchema], default: [] },
     userId: { type: Schema.Types.ObjectId, ref: "User", required: true },

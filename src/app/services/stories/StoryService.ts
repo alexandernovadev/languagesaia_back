@@ -9,7 +9,7 @@ import { toObjectId } from "../words/UserWordService";
 import Word from "../../db/models/Word";
 import { generateChapterDetails, generateStoryIdea, streamChapter } from "../ai/storyAIService";
 import { generateImage } from "../ai/imageAIService";
-import { storyImagePrompt } from "../ai/prompts";
+import { chapterImagePrompt, storyImagePrompt, storyVisualGuide } from "../ai/prompts";
 import { uploadImageToCloudinary } from "../cloudinary/cloudinaryService";
 import logger from "../../utils/logger";
 import { AIContentOptions } from "../ai/aiGenerationHelper";
@@ -118,6 +118,29 @@ export class StoryService {
       questions: details.questions,
     } as any);
     await story.save();
+    void this.paintChapter(String(story._id), story.chapters.length - 1); // last of all: it needs the finished chapter
+  }
+
+  /** Same people and place in every chapter: the guide is written once and reused. */
+  async paintChapter(storyId: string, index: number) {
+    try {
+      const story = await Story.findById(storyId);
+      const chapter = story?.chapters[index];
+      if (!story || !chapter) return;
+
+      let guide = story.visualGuide;
+      if (!guide) {
+        guide = await storyVisualGuide({ ...story.toObject(), firstChapter: story.chapters[0].content });
+        await Story.updateOne({ _id: story._id }, { visualGuide: guide }, { timestamps: false });
+      }
+
+      const prompt = await chapterImagePrompt({ title: chapter.title, content: chapter.content, summary: chapter.summary, genre: story.genre, guide });
+      const { b64_json } = await generateImage(prompt, "landscape_16_9");
+      const img = await uploadImageToCloudinary(b64_json, "stories");
+      if (img) await Story.updateOne({ _id: story._id }, { [`chapters.${index}.img`]: img }, { timestamps: false });
+    } catch (error) {
+      logger.error("Could not paint the chapter:", error);
+    }
   }
 
   async getStoryById(id: string): Promise<IStory | null> {
