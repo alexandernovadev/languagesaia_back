@@ -13,6 +13,8 @@ export interface IWord extends Document {
   synonyms?: string[];
   codeSwitching?: string[];
   rank?: number;
+  /** When the AI filled in what a lean dictionary word was missing. */
+  completedAt?: Date;
   conjugations?: Record<string, Record<string, string>>;
   source?: string;
   reviewNotes?: string[];

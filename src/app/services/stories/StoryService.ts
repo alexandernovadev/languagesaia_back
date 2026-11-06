@@ -8,6 +8,10 @@ import UserWord from "../../db/models/UserWord";
 import { toObjectId } from "../words/UserWordService";
 import Word from "../../db/models/Word";
 import { generateChapterDetails, generateStoryIdea, streamChapter } from "../ai/storyAIService";
+import { generateImage } from "../ai/imageAIService";
+import { storyImagePrompt } from "../ai/prompts";
+import { uploadImageToCloudinary } from "../cloudinary/cloudinaryService";
+import logger from "../../utils/logger";
 import { AIContentOptions } from "../ai/aiGenerationHelper";
 
 const WORD_POOL = 40;
@@ -28,7 +32,21 @@ export class StoryService {
   async createStory(params: NewStory, userId: string, options: AIContentOptions = {}): Promise<IStory> {
     const { genre, languageLevel, language, totalChapters, theme } = params;
     const idea = await generateStoryIdea({ genre, level: languageLevel, language, totalChapters, theme }, options);
-    return Story.create({ ...idea, genre, languageLevel, language, totalChapters, userId: toObjectId(userId), chapters: [] } as Partial<IStory>);
+    const story = await Story.create({ ...idea, genre, languageLevel, language, totalChapters, userId: toObjectId(userId), chapters: [] } as Partial<IStory>);
+    void this.paintCover(story); // nobody waits for it: until it's ready the card shows the genre's colors
+    return story;
+  }
+
+  /** A failed cover is no reason to fail the story. */
+  async paintCover(story: IStory) {
+    try {
+      const prompt = await storyImagePrompt(`${story.description} Main character: ${story.protagonist}`, story);
+      const { b64_json } = await generateImage(prompt, "landscape_4_3");
+      const img = await uploadImageToCloudinary(b64_json, "stories");
+      if (img) await Story.updateOne({ _id: story._id }, { img }, { timestamps: false });
+    } catch (error) {
+      logger.error("Could not paint the story cover:", error);
+    }
   }
 
   /** The words to practice: those in review with the shortest interval, then the rest of the list. */

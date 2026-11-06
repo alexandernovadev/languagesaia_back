@@ -13,7 +13,7 @@ interface FalImageResponse {
 }
 
 /** Returns the generated image as base64 (`b64_json`), ready to upload to Cloudinary. */
-export const generateImage = async (prompt: string): Promise<{ b64_json: string }> => {
+export const generateImage = async (prompt: string, size: string = IMAGE_AI.size): Promise<{ b64_json: string }> => {
   try {
     const response = await fetch(`${IMAGE_AI.baseURL}/${IMAGE_AI.model}`, {
       method: "POST",
@@ -23,7 +23,7 @@ export const generateImage = async (prompt: string): Promise<{ b64_json: string 
       },
       body: JSON.stringify({
         prompt,
-        image_size: IMAGE_AI.size,
+        image_size: size,
         num_images: 1,
         output_format: IMAGE_AI.outputFormat,
         sync_mode: true,

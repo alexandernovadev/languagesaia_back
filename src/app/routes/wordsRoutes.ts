@@ -24,6 +24,7 @@ import {
   generateWordJson,
   generateWordExamplesJson,
   generateWordExamplesCodeSwitchingJson,
+  completeWordJson,
   generateWordTypesJson,
   generateWordSynonymsJson,
   updateImageWord,
@@ -56,6 +57,7 @@ router.delete("/:id/chat", clearChatHistory);
 
 // Words are shared: only an admin changes their content
 router.post("/generate", aiLimiter, generateWordJson);
+router.post("/:id/complete", completeWordJson);
 router.post("/:id/generate-examples", requireAdmin, aiLimiter, generateWordExamplesJson);
 router.post("/:id/generate-code-switching", requireAdmin, aiLimiter, generateWordExamplesCodeSwitchingJson);
 router.post("/:id/generate-types", requireAdmin, aiLimiter, generateWordTypesJson);

@@ -57,6 +57,7 @@ const WordSchema: Schema = new Schema<IWord>(
       default: [],
     },
     /** Position in the language's list of most common words. */
+    completedAt: { type: Date },
     rank: {
       type: Number,
     },

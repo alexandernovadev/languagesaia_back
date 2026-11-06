@@ -12,6 +12,7 @@ import {
   generateWordSynonyms,
 } from "../services/ai/wordAIService";
 import { generateImage } from "../services/ai/imageAIService";
+import { completeWord } from "../services/words/WordCompletionService";
 import { wordImagePrompt } from "../services/ai/prompts";
 import {
   deleteImageFromCloudinary,
@@ -55,6 +56,17 @@ export const generateWordJson = async (req: Request, res: Response) => {
       return errorResponse(res, error.message, 400, error);
     }
     return errorResponse(res, "Error generating or saving word", 500, error);
+  }
+};
+
+/** Fills in what a lean dictionary word is missing, the first time it's opened. */
+export const completeWordJson = async (req: Request, res: Response) => {
+  try {
+    const word = await completeWord(routeParams(req).id, getUserId(req));
+    if (!word) return errorResponse(res, "Word not found", 404);
+    return successResponse(res, "Word completed", word);
+  } catch (error) {
+    return errorResponse(res, "Error completing the word", 500, error);
   }
 };
 

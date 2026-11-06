@@ -51,6 +51,7 @@ export const toWordDTO = (doc: any) => {
     codeSwitching: d.codeSwitching,
     conjugations: d.conjugations,
     rank: d.rank,
+    completedAt: d.completedAt,
     spanish: d.spanish,
     chat: d.chat,
     createdAt: d.createdAt,
