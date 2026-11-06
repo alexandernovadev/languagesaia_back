@@ -15,6 +15,7 @@ const storyGenresJson: StoryGenreOption[] = [
   { value: "drama", label: "Drama" },
   { value: "comedy", label: "Comedy" },
   { value: "thriller", label: "Thriller" },
+  { value: "action", label: "Action" },
   { value: "historical", label: "Historical" },
 ];
 

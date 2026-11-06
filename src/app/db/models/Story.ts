@@ -14,8 +14,14 @@ const ChapterSchema = new Schema(
       type: [{ word: String, start: Number, end: Number }],
       default: [],
     },
+    /** What happened: the next chapters are written from these. */
+    summary: { type: String, default: "" },
+    /** The learner's words used in this chapter. */
     targetVocabulary: { type: [String], default: [] },
-    targetGrammar: { type: [String], default: [] },
+    questions: {
+      type: [{ _id: false, question: String, options: [String], answer: Number }],
+      default: [],
+    },
   },
   { timestamps: true }
 );
@@ -28,8 +34,10 @@ const storySchema = new Schema<IStory>(
     languageLevel: { type: String, required: true, enum: certificationLevelsList },
     language: { type: String, required: true, enum: languagesList },
     genre: { type: String, required: true, enum: storyGenresList },
+    protagonist: { type: String, default: "" },
+    totalChapters: { type: Number, default: 6 },
     chapters: { type: [ChapterSchema], default: [] },
-    userId: { type: String, required: true },
+    userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
   },
   { timestamps: true }
 );

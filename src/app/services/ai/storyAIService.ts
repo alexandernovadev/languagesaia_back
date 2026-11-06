@@ -1,44 +1,37 @@
-import { createChapterGenerationPrompt } from "./prompts/stories/chapterGenerationPrompts";
-import { createStoryIdeaPrompt } from "./prompts/stories/storyIdeaPrompts";
-import { createChapterTitlePrompt } from "./prompts/stories/chapterTitlePrompts";
+import { createChapterPrompt, ChapterPromptParams } from "./prompts/stories/chapterGenerationPrompts";
+import { createStoryIdeaPrompt, StoryIdeaPromptParams } from "./prompts/stories/storyIdeaPrompts";
 import { generateAIContent, AIContentOptions } from "./aiGenerationHelper";
 
-export type StoryTextGenerationOptions = AIContentOptions;
+export interface StoryIdea {
+  title: string;
+  description: string;
+  protagonist: string;
+}
 
-export const generateChapterText = async (
-  params: Parameters<typeof createChapterGenerationPrompt>[0],
-  options: StoryTextGenerationOptions = {}
-) => {
-  return generateAIContent({
-    promptData: createChapterGenerationPrompt(params),
-    options,
-    stream: true,
-    defaultTemperature: 0.7,
-  });
-};
+export interface ChapterDraft {
+  title: string;
+  content: string;
+  summary: string;
+  usedForms: string[];
+  questions: { question: string; options: string[]; answer: number }[];
+}
 
-export const generateChapterTitle = async (
-  params: Parameters<typeof createChapterTitlePrompt>[0],
-  options: StoryTextGenerationOptions = {}
-): Promise<string> => {
-  return generateAIContent({
-    promptData: createChapterTitlePrompt(params),
-    options,
-    stream: false,
-    defaultTemperature: 0.8,
-  });
-};
+const json = (promptData: { system: string; user: string }, options: AIContentOptions, defaultTemperature: number) =>
+  generateAIContent({ promptData, options, stream: false, defaultTemperature, nonStreamResponseFormat: "json_object", parseJSON: true });
 
-export const generateStoryIdea = async (
-  params: Parameters<typeof createStoryIdeaPrompt>[0],
-  options: StoryTextGenerationOptions = {}
-): Promise<{ title: string; description: string }> => {
-  return generateAIContent({
-    promptData: createStoryIdeaPrompt(params),
-    options,
-    stream: false,
-    defaultTemperature: 0.8,
-    nonStreamResponseFormat: "json_object",
-    parseJSON: true,
-  });
+export const generateStoryIdea = (params: StoryIdeaPromptParams, options: AIContentOptions = {}): Promise<StoryIdea> =>
+  json(createStoryIdeaPrompt(params), options, 0.9);
+
+const isValid = (c: ChapterDraft) =>
+  !!c?.title && !!c.content && !!c.summary && c.questions?.length === 3 &&
+  c.questions.every((q) => q.question && q.options?.length === 3 && [0, 1, 2].includes(q.answer));
+
+/** A chapter with a broken shape can't be read, so it gets one more try. */
+export const generateChapter = async (params: ChapterPromptParams, options: AIContentOptions = {}): Promise<ChapterDraft> => {
+  const promptData = createChapterPrompt(params);
+  const first: ChapterDraft = await json(promptData, options, 0.8);
+  if (isValid(first)) return first;
+  const second: ChapterDraft = await json(promptData, options, 0.8);
+  if (isValid(second)) return second;
+  throw new Error("The chapter came back incomplete");
 };

@@ -7,5 +7,6 @@ export type { IExpression } from './Expression';
 export type { ILesson, ILessonQuestion, IExercise, ILessonAttempt, IAttemptAnswer, LessonQuestionType, LessonMode } from './Lesson';
 export type { IProgress, IXpDay } from './Progress';
 export type { ISpeechClip } from './SpeechClip';
+export type { IWordForm } from './WordForm';
 export type { IStory, IChapter } from './Story';
 export type { IStoryProgress } from './StoryProgress';

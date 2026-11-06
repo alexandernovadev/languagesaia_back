@@ -11,7 +11,6 @@ export {
 } from './languages';
 export { expressionTypesJson, expressionTypesList } from './expressionTypes';
 export { chatRolesJson, chatRolesList } from './chatRoles';
-export { readingTypesJson, readingTypesList } from './readingTypes';
 export { systemRolesJson, systemRolesList } from './systemRoles';
 export { wordTypesJson, wordTypesList } from './wordTypes';
 export { storyGenresJson, storyGenresList } from './storyGenres';
@@ -24,7 +23,7 @@ export {
 
 // Re-export business types for convenience
 export type { 
-  Topic, Skill, WordType, ExpressionType, ReadingType, 
+  Topic, Skill, WordType, ExpressionType, 
   Difficulty, CertificationLevel, Language, UserRole, ChatRole,
   GrammarTopic, GrammarTopicOption, StoryGenre
 } from '../../../../../types/business';

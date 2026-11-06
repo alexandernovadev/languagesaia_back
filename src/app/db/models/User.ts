@@ -9,6 +9,8 @@ import Lesson from "./Lesson";
 import UserWord from "./UserWord";
 import LessonAttempt from "./LessonAttempt";
 import Progress from "./Progress";
+import Story from "./Story";
+import StoryProgress from "./StoryProgress";
 import XpDay from "./XpDay";
 
 const UserSchema: Schema = new Schema(
@@ -47,6 +49,8 @@ UserSchema.pre("findOneAndDelete", async function () {
     UserWord.deleteMany({ userId }),
     Progress.deleteMany({ userId }),
     XpDay.deleteMany({ userId }),
+    Story.deleteMany({ userId }),
+    StoryProgress.deleteMany({ userId }),
   ]);
 });
 

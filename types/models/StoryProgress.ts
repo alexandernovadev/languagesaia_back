@@ -1,8 +1,8 @@
-import { Document } from "mongoose";
+import { Document, Types } from "mongoose";
 
 export interface IStoryProgress extends Document {
-  userId: string;
-  storyId: string;
+  userId: Types.ObjectId;
+  storyId: Types.ObjectId;
   currentChapter: number;
   completedChapters: number[];
   lastReadAt: Date;

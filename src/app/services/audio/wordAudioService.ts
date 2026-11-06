@@ -21,7 +21,7 @@ function once(key: string, create: () => Promise<string>) {
 }
 
 async function record(text: string, language: string, contentId: string) {
-  const { buffer } = await synthesizeSpeech(text, language);
+  const buffer = await synthesizeSpeech(text, language);
   const { url } = await uploadAudioToPocketBase(buffer, `${contentId}.mp3`, { contentId, voice: DEFAULT_TTS_VOICE });
   return url;
 }

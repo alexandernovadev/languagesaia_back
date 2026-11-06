@@ -3,8 +3,8 @@ import { IStoryProgress } from "../../../../types/models";
 
 const storyProgressSchema = new Schema<IStoryProgress>(
   {
-    userId: { type: String, required: true },
-    storyId: { type: String, required: true },
+    userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    storyId: { type: Schema.Types.ObjectId, ref: "Story", required: true },
     currentChapter: { type: Number, default: 0 },
     completedChapters: { type: [Number], default: [] },
     lastReadAt: { type: Date, default: Date.now },

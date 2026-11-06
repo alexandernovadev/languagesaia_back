@@ -5,6 +5,7 @@
  */
 import LessonAttempt from "../../db/models/LessonAttempt";
 import Progress from "../../db/models/Progress";
+import StoryProgress from "../../db/models/StoryProgress";
 import UserWord from "../../db/models/UserWord";
 import XpDay from "../../db/models/XpDay";
 import { IProgress } from "../../../../types/models";
@@ -74,18 +75,20 @@ export class ProgressService {
 
   /** The study calendar and what the achievements are measured against. */
   async overview(userId: string, timeZone?: string, now = new Date()) {
-    const [days, goalDays, reviewed, lessons, progress] = await Promise.all([
+    const [days, goalDays, reviewed, lessons, progress, reading] = await Promise.all([
       XpDay.find({ userId }, { _id: 0, day: 1, xp: 1 }).sort({ day: -1 }).limit(CALENDAR_DAYS).lean(),
       XpDay.countDocuments({ userId, xp: { $gte: DAILY_XP_GOAL } }),
       UserWord.countDocuments({ userId, "review.firstReviewedAt": { $exists: true } }),
       LessonAttempt.countDocuments({ userId, completedAt: { $exists: true } }),
       Progress.findOne({ userId }).lean(),
+      StoryProgress.find({ userId } as any, { completedChapters: 1 }).lean(),
     ]);
+    const chapters = reading.reduce((sum, r) => sum + r.completedChapters.length, 0);
     return {
       today: dayIn(timeZone, now),
       goal: DAILY_XP_GOAL,
       days,
-      totals: { goalDays, reviewed, lessons, bestStreak: progress?.bestStreak ?? 0, level: levelOf(progress?.xp ?? 0) },
+      totals: { goalDays, reviewed, lessons, chapters, bestStreak: progress?.bestStreak ?? 0, level: levelOf(progress?.xp ?? 0) },
     };
   }
 

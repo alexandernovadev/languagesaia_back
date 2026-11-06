@@ -8,6 +8,5 @@ export type { Topic } from './topics';
 export type { Skill } from './skills';
 export type { WordType } from './wordTypes';
 export type { ExpressionType } from './expressionTypes';
-export type { ReadingType } from './readingTypes';
 export type { GrammarTopic, GrammarTopicOption } from './grammarTopics';
 export type { StoryGenre } from './storyGenres';

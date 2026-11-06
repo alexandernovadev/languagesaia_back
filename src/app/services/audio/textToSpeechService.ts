@@ -1,4 +1,4 @@
-import { AUDIO_AI } from "../../../config/aiConfig";
+import { AUDIO_AI, NARRATION_AI } from "../../../config/aiConfig";
 
 export const DEFAULT_TTS_VOICE: string = AUDIO_AI.defaultVoice;
 
@@ -11,7 +11,7 @@ const LANGUAGE_BOOST: Record<string, string> = {
 };
 
 async function callFal<T>(model: string, input: unknown): Promise<T> {
-  const response = await fetch(`${AUDIO_AI.baseURL}/${model}`, {
+  const response = await fetch(`https://fal.run/${model}`, {
     method: "POST",
     headers: { Authorization: `Key ${AUDIO_AI.apiKey}`, "Content-Type": "application/json" },
     body: JSON.stringify(input),
@@ -20,13 +20,13 @@ async function callFal<T>(model: string, input: unknown): Promise<T> {
   return (await response.json()) as T;
 }
 
-export interface Speech {
-  buffer: Buffer;
-  /** Where fal keeps the file for a while: enough to transcribe it. */
-  url: string;
+async function download(url: string): Promise<Buffer> {
+  const file = await fetch(url);
+  if (!file.ok) throw new Error(`Audio download failed: ${file.status}`);
+  return Buffer.from(await file.arrayBuffer());
 }
 
-export async function synthesizeSpeech(text: string, language: string, voice: string = DEFAULT_TTS_VOICE): Promise<Speech> {
+export async function synthesizeSpeech(text: string, language: string, voice: string = DEFAULT_TTS_VOICE): Promise<Buffer> {
   const { audio } = await callFal<{ audio?: { url?: string } }>(AUDIO_AI.ttsModel, {
     prompt: text,
     language_boost: LANGUAGE_BOOST[language],
@@ -35,49 +35,8 @@ export async function synthesizeSpeech(text: string, language: string, voice: st
     audio_setting: { format: "mp3", sample_rate: AUDIO_AI.sampleRate, bitrate: AUDIO_AI.bitrate },
   });
   if (!audio?.url) throw new Error("No audio returned");
-  const file = await fetch(audio.url);
-  if (!file.ok) throw new Error(`Audio download failed: ${file.status}`);
-  return { buffer: Buffer.from(await file.arrayBuffer()), url: audio.url };
+  return download(audio.url);
 }
-
-// Keep this as close as possible to what KaraokeView.tsx treats as "spoken words"
-// (front/src/shared/components/lecture/KaraokeView.tsx parseContent/tokenize): same
-// markers stripped (headings, list bullets, blockquotes, emphasis), hyphens inside
-// words preserved. The closer these two texts are, the fewer gaps the word-alignment
-// algorithm has to interpolate.
-const cleanTextForSpeech = (content: string): string =>
-  content
-    .replace(/```[\s\S]*?```/g, " ")
-    .replace(/~~~[\s\S]*?~~~/g, " ")
-    .replace(/!\[([^\]]*)\]\([^)]*\)/g, "$1")
-    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
-    .replace(/<u>([^<]*)<\/u>/gi, "$1")
-    .replace(/<[^>]*>/g, " ")
-    .split("\n")
-    .map((line) =>
-      line
-        .replace(/^\s{0,3}#{1,6}\s+/, "")
-        .replace(/^\s*>\s?/, "")
-        .replace(/^\s*\d+[.)]\s+/, "")
-        .replace(/^\s*[-*+]\s+/, "")
-        .replace(/^\s*[-*_]{3,}\s*$/, "")
-    )
-    .join("\n")
-    .replace(/\*\*\*([^*\n]+)\*\*\*/g, "$1")
-    .replace(/\*\*([^*\n]+)\*\*/g, "$1")
-    .replace(/\*([^*\n]+)\*/g, "$1")
-    .replace(/__([^_\n]+)__/g, "$1")
-    .replace(/_([^_\n]+)_/g, "$1")
-    .replace(/`([^`\n]+)`/g, "$1")
-    .replace(/\s+/g, " ")
-    .trim();
-
-export const generateChapterAudio = async (content: string, language: string, voice = DEFAULT_TTS_VOICE): Promise<Speech> => {
-  const input = cleanTextForSpeech(content);
-  if (!input) throw new Error("Chapter content is empty");
-  if (input.length > AUDIO_AI.maxCharacters) throw new Error(`Chapter is too long for one recording: ${input.length} characters`);
-  return synthesizeSpeech(input, language, voice);
-};
 
 export interface AudioWordTiming {
   word: string;
@@ -85,14 +44,46 @@ export interface AudioWordTiming {
   end: number;
 }
 
-export const transcribeAudioWithWordTimestamps = async (audioUrl: string, language: string): Promise<AudioWordTiming[]> => {
-  const { chunks = [] } = await callFal<{ chunks?: Array<{ text?: string; timestamp?: [number, number] }> }>(AUDIO_AI.transcriptionModel, {
-    audio_url: audioUrl,
-    language,
-    chunk_level: "word",
-  });
+interface CharacterTimes {
+  characters: string[];
+  character_start_times_seconds: number[];
+  character_end_times_seconds: number[];
+}
 
-  return chunks
-    .map(({ text, timestamp }) => ({ word: String(text ?? "").trim(), start: Number(timestamp?.[0]), end: Number(timestamp?.[1]) }))
-    .filter((item) => item.word && Number.isFinite(item.start) && Number.isFinite(item.end));
-};
+/** Joins the characters into words, split by whitespace just like the reader splits the text. */
+function wordTimings(chunks: CharacterTimes[]): AudioWordTiming[] {
+  const words: AudioWordTiming[] = [];
+  let current: AudioWordTiming | null = null;
+  for (const chunk of chunks) {
+    chunk.characters.forEach((character, i) => {
+      if (!character.trim()) {
+        current = null;
+        return;
+      }
+      const end = chunk.character_end_times_seconds[i];
+      if (current) {
+        current.word += character;
+        current.end = end;
+      } else {
+        current = { word: character, start: chunk.character_start_times_seconds[i], end };
+        words.push(current);
+      }
+    });
+  }
+  return words;
+}
+
+export const narrationVoice = (language: string) => NARRATION_AI.voices[language] ?? NARRATION_AI.defaultVoice;
+
+export async function narrateChapter(content: string, language: string) {
+  if (content.length > NARRATION_AI.maxCharacters) throw new Error(`Chapter is too long to narrate: ${content.length} characters`);
+  const { audio, timestamps } = await callFal<{ audio?: { url?: string }; timestamps?: CharacterTimes[] }>(NARRATION_AI.model, {
+    text: content,
+    voice: narrationVoice(language),
+    language_code: language,
+    timestamps: true,
+  });
+  if (!audio?.url || !timestamps?.length) throw new Error("The narration came back incomplete");
+  return { buffer: await download(audio.url), alignment: wordTimings(timestamps) };
+}
+

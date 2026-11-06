@@ -1,42 +1,29 @@
-import { getLangLabel } from "../langUtils";
+import { getLangLabel, getVariantRules } from "../langUtils";
 
 export interface StoryIdeaPromptParams {
-  seed?: string;
-  genre?: string;
-  level?: string;
-  language?: string;
+  theme?: string;
+  genre: string;
+  level: string;
+  language: string;
+  totalChapters: number;
 }
 
-export const createStoryIdeaPrompt = (params: StoryIdeaPromptParams) => {
-  const { seed = "", genre = "any genre", level = "B1", language = "en" } = params;
-  const langLabel = getLangLabel(language);
-  const hasSeed = seed.trim().length > 0;
-
+export const createStoryIdeaPrompt = ({ theme = "", genre, level, language, totalChapters }: StoryIdeaPromptParams) => {
+  const lang = getLangLabel(language);
   return {
-    system: `
-You are an AI specialized in inventing story premises for language learners.
-LANGUAGE: Always output in ${langLabel}.
-🎯 TASK: Generate a story "title" and "description" for a ${genre} story at ${level} level.
-${
-  hasSeed
-    ? `📝 USER TEXT (MANDATORY BASE): ${seed.trim()}
-    - Treat the provided text as the user's own title/description draft (it may be partial, rough, or in another language)
-    - Expand and polish it into a proper title + description, keeping the core idea intact
-    - Do NOT ignore or replace the user's concept — build on top of it
-    - Translate/adapt to ${langLabel} if needed`
-    : `🎲 RANDOM PREMISE: No user text was provided — invent a completely original story premise
-    - Make it engaging and appropriate for the ${genre} genre and ${level} level`
-}
-📋 REQUIREMENTS:
-- "title": short and catchy, 3-12 words, no quotes, no trailing punctuation
-- "description": 1-3 sentences (roughly 150-400 characters), hooks the reader, appropriate for ${level} language learners
-- NO markdown, NO headings, NO explanations outside the JSON
-🎨 OUTPUT FORMAT:
-- Respond with ONLY a JSON object: {"title": "...", "description": "..."}
-- No text before or after the JSON
-`.trim(),
-    user: hasSeed
-      ? `Turn this into a polished story title and description in ${langLabel} for a ${genre} story at ${level} level: ${seed.trim()}`
-      : `Invent an original story title and description in ${langLabel} for a ${genre} story at ${level} level.`,
+    system: `You invent premises for short graded fiction for adults learning ${lang}.
+
+Language: only ${lang}. ${getVariantRules(language)}
+The story has ${totalChapters} short chapters, so it needs one clear problem that can grow and end in that space. Avoid clichés.
+
+Respond with only a JSON object:
+{
+  "title": "catchy title, 2 to 6 words, without quotes",
+  "description": "1 or 2 sentences that hook the reader, simple enough for level ${level}",
+  "protagonist": "in English: name, age, job and one trait; a name that fits ${lang}"
+}`,
+    user: theme.trim()
+      ? `Write a ${genre} premise built on this idea from the reader: ${theme.trim()}`
+      : `Invent an original ${genre} premise.`,
   };
 };

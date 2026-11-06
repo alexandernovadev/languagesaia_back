@@ -8,4 +8,5 @@ export type StoryGenre =
   | "drama"
   | "comedy"
   | "thriller"
+  | "action"
   | "historical";

@@ -66,18 +66,27 @@ export const IMAGE_AI = {
   },
 } as const;
 
-/** Audio: pronunciation, chapter narration and word timestamps for karaoke. */
+/** Audio: pronunciation of words, examples and expressions. */
 export const AUDIO_AI = {
   name: "fal.ai",
   apiKey: process.env.FAL_KEY,
   baseURL: "https://fal.run",
   ttsModel: "fal-ai/minimax/speech-2.8-hd",
-  transcriptionModel: "fal-ai/whisper",
   defaultVoice: "Wise_Woman",
   sampleRate: 44100,
   bitrate: 128000,
-  /** The most the voice model reads in one request. */
-  maxCharacters: 10000,
+} as const;
+
+/** Chapter narration: it returns the time of every character, which makes the karaoke exact. */
+export const NARRATION_AI = {
+  name: "fal.ai",
+  apiKey: process.env.FAL_KEY,
+  baseURL: "https://fal.run",
+  model: "fal-ai/elevenlabs/tts/eleven-v3",
+  voices: { en: "Bill", pt: "Matilda" } as Record<string, string>,
+  defaultVoice: "Bill",
+  /** The most the model reads in one request. */
+  maxCharacters: 5000,
 } as const;
 
 export type TextModelTier = keyof typeof TEXT_AI.models;

@@ -4,40 +4,92 @@ import { IStory, IChapter, IStoryProgress } from "../../../../types/models";
 import { sanitizeLectureContent } from "../../utils/text/sanitizeLectureContent";
 import { escapeRegex } from "../../utils/escapeRegex";
 import { paginateQuery, PaginatedResult } from "../db/paginationHelper";
+import UserWord from "../../db/models/UserWord";
+import { toObjectId } from "../words/UserWordService";
+import Word from "../../db/models/Word";
+import { generateChapter, generateStoryIdea } from "../ai/storyAIService";
+import { AIContentOptions } from "../ai/aiGenerationHelper";
+
+const WORD_POOL = 40;
+const WORDS_PER_CHAPTER = 8;
+
+export interface NewStory {
+  genre: string;
+  languageLevel: string;
+  language: string;
+  totalChapters: number;
+  theme?: string;
+}
+
+/** One chapter at a time per story: a double tap must not pay for two. */
+const writing = new Set<string>();
 
 export class StoryService {
-  async createStory(data: Partial<IStory> & { userId: string }): Promise<IStory> {
-    const story = new Story({
-      title: data.title || "",
-      description: data.description || "",
-      img: data.img || "",
-      languageLevel: data.languageLevel,
-      language: data.language,
-      genre: data.genre,
-      chapters: [],
-      userId: data.userId,
-    });
-    return await story.save();
+  async createStory(params: NewStory, userId: string, options: AIContentOptions = {}): Promise<IStory> {
+    const { genre, languageLevel, language, totalChapters, theme } = params;
+    const idea = await generateStoryIdea({ genre, level: languageLevel, language, totalChapters, theme }, options);
+    return Story.create({ ...idea, genre, languageLevel, language, totalChapters, userId: toObjectId(userId), chapters: [] } as Partial<IStory>);
+  }
+
+  /** The words to practice: those in review with the shortest interval, then the rest of the list. */
+  private async wordsToPractice(userId: string, language: string): Promise<string[]> {
+    const scope: any = { userId: toObjectId(userId), language };
+    const reviewing = await UserWord.find({ ...scope, "review.dueAt": { $exists: true } }, { wordId: 1 })
+      .sort({ "review.intervalDays": 1 })
+      .limit(WORD_POOL)
+      .lean();
+    const fresh = reviewing.length >= WORD_POOL
+      ? []
+      : await UserWord.find({ ...scope, "review.dueAt": { $exists: false } }, { wordId: 1 }).limit(WORD_POOL - reviewing.length).lean();
+    const words = await Word.find({ _id: { $in: [...reviewing, ...fresh].map((m) => m.wordId) } }, { word: 1 }).lean();
+    return words
+      .map((w) => w.word)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, WORDS_PER_CHAPTER);
+  }
+
+  async nextChapter(storyId: string, userId: string, options: AIContentOptions = {}): Promise<IStory | null> {
+    const story = await Story.findById(storyId);
+    if (!story) return null;
+    if (story.chapters.length >= story.totalChapters) throw Object.assign(new Error("The story is finished"), { status: 409 });
+    if (writing.has(storyId)) throw Object.assign(new Error("Already writing this chapter"), { status: 409 });
+
+    writing.add(storyId);
+    try {
+      const words = await this.wordsToPractice(userId, story.language);
+      const chapterNumber = story.chapters.length + 1;
+      const draft = await generateChapter(
+        {
+          title: story.title,
+          description: story.description,
+          protagonist: story.protagonist,
+          genre: story.genre,
+          level: story.languageLevel,
+          language: story.language,
+          chapterNumber,
+          totalChapters: story.totalChapters,
+          summaries: story.chapters.map((c) => c.summary ?? ""),
+          previousText: story.chapters.at(-1)?.content,
+          words,
+        },
+        options,
+      );
+      story.chapters.push({
+        order: chapterNumber - 1,
+        title: draft.title,
+        content: sanitizeLectureContent(draft.content),
+        summary: draft.summary,
+        targetVocabulary: draft.usedForms ?? [],
+        questions: draft.questions,
+      } as any);
+      return await story.save();
+    } finally {
+      writing.delete(storyId);
+    }
   }
 
   async getStoryById(id: string): Promise<IStory | null> {
     return await Story.findById(id);
-  }
-
-  async updateStory(id: string, data: Partial<IStory>): Promise<IStory | null> {
-    let updateData = data;
-
-    if (data.chapters !== undefined) {
-      updateData = {
-        ...data,
-        chapters: data.chapters.map((ch) => ({
-          ...ch,
-          content: sanitizeLectureContent(ch.content || ""),
-        })),
-      };
-    }
-
-    return await Story.findByIdAndUpdate(id, updateData, { new: true });
   }
 
   async deleteStory(id: string): Promise<IStory | null> {
@@ -45,6 +97,7 @@ export class StoryService {
   }
 
   async getStoriesAdvanced(filters: {
+    userId?: string;
     page?: number;
     limit?: number;
     search?: string;
@@ -67,6 +120,7 @@ export class StoryService {
 
     const skip = (page - 1) * limit;
     const query: Record<string, any> = {};
+    if (filters.userId) query.userId = filters.userId;
 
     if (search.trim()) {
       query.$or = [
@@ -98,19 +152,6 @@ export class StoryService {
     });
   }
 
-  async addChapter(storyId: string, chapter: Omit<IChapter, "createdAt">): Promise<IStory | null> {
-    const story = await Story.findById(storyId);
-    if (!story) return null;
-
-    story.chapters.push({
-      ...chapter,
-      content: sanitizeLectureContent(chapter.content || ""),
-      createdAt: new Date(),
-    } as any);
-
-    return await story.save();
-  }
-
   async updateChapter(
     storyId: string,
     chapterIndex: number,
@@ -140,80 +181,23 @@ export class StoryService {
     if (data.targetVocabulary !== undefined) {
       updateData[`${updateKey}.targetVocabulary`] = data.targetVocabulary;
     }
-    if (data.targetGrammar !== undefined) {
-      updateData[`${updateKey}.targetGrammar`] = data.targetGrammar;
-    }
 
     return await Story.findByIdAndUpdate(storyId, { $set: updateData }, { new: true });
   }
 
-  async deleteChapter(storyId: string, chapterIndex: number): Promise<IStory | null> {
-    const story = await Story.findById(storyId);
-    if (!story || chapterIndex >= story.chapters.length) return null;
-
-    story.chapters.splice(chapterIndex, 1);
-    story.chapters.forEach((ch, i) => {
-      (ch as any).order = i;
-    });
-
-    return await story.save();
+  /** The chapter is done: the reader moves on to the next one. */
+  async updateProgress(userId: string, storyId: string, chapterIndex: number): Promise<IStoryProgress> {
+    const progress = await StoryProgress.findOneAndUpdate(
+      { userId, storyId } as any,
+      { $addToSet: { completedChapters: chapterIndex }, $set: { currentChapter: chapterIndex + 1, lastReadAt: new Date() } },
+      { upsert: true, returnDocument: "after" },
+    );
+    return progress as IStoryProgress;
   }
 
-  async getVocabReport(storyId: string): Promise<{ word: string; count: number; chapters: number[] }[]> {
-    const story = await Story.findById(storyId);
-    if (!story) return [];
-
-    const targetWordsSet = new Set<string>();
-    story.chapters.forEach((ch) => {
-      (ch.targetVocabulary || []).forEach((w) => targetWordsSet.add(w.toLowerCase()));
-    });
-    const targetWords = Array.from(targetWordsSet);
-    if (!targetWords.length) return [];
-
-    const report = targetWords.map((word) => {
-      const regex = new RegExp(`\\b${escapeRegex(word)}\\b`, "gi");
-      const chapters: number[] = [];
-      let totalCount = 0;
-
-      story.chapters.forEach((ch, idx) => {
-        const matches = ch.content.match(regex);
-        const count = matches ? matches.length : 0;
-        if (count > 0) {
-          chapters.push(idx);
-          totalCount += count;
-        }
-      });
-
-      return { word, count: totalCount, chapters };
-    });
-
-    return report.filter((r) => r.count > 0);
-  }
-
-  async updateProgress(
-    userId: string,
-    storyId: string,
-    chapterIndex: number
-  ): Promise<IStoryProgress> {
-    let progress = await StoryProgress.findOne({ userId, storyId });
-
-    if (!progress) {
-      progress = new StoryProgress({
-        userId,
-        storyId,
-        currentChapter: chapterIndex,
-        completedChapters: [],
-        lastReadAt: new Date(),
-      });
-    } else {
-      progress.currentChapter = chapterIndex;
-      progress.lastReadAt = new Date();
-      if (!progress.completedChapters.includes(chapterIndex)) {
-        progress.completedChapters.push(chapterIndex);
-      }
-    }
-
-    return await progress.save();
+  async finishedChapters(userId: string, storyIds: string[]): Promise<Map<string, number>> {
+    const rows = await StoryProgress.find({ userId, storyId: { $in: storyIds } } as any, { storyId: 1, completedChapters: 1 }).lean();
+    return new Map(rows.map((r) => [String(r.storyId), r.completedChapters.length]));
   }
 
   async getProgress(userId: string, storyId: string): Promise<IStoryProgress | null> {

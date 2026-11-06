@@ -3,58 +3,33 @@ import { validateObjectId } from "../middlewares/validateObjectId";
 import { aiLimiter } from "../middlewares/rateLimiters";
 import {
   createStory,
+  nextChapter,
   getAllStories,
   getStoryById,
-  updateStory,
   deleteStory,
-  addChapter,
-  updateChapter,
-  deleteChapter,
-  getVocabReport,
   updateProgress,
   getProgress,
-  generateChapterStream,
-  generateChapterTitleHandler,
-  updateImageStory,
-  generateIdea,
   generateChapterAudioHandler,
-  exportStoriesToJSON,
-  importStoriesFromFile,
-  translateSelectionHandler,
-  classifySelectionHandler,
+  lookupTappedWord,
 } from "../controllers/StoryController";
-import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
 
 const router = Router();
 router.param("id", validateObjectId);
 
 // AI idea generation (no story id required yet)
-router.post("/generate-idea", aiLimiter, generateIdea);
 
 // Selection helpers (text selection in the reader)
-router.post("/selection/translate", aiLimiter, translateSelectionHandler);
-router.post("/selection/classify", aiLimiter, classifySelectionHandler);
+router.post("/word-lookup", lookupTappedWord);
 
 // CRUD routes
-router.get("/export-file", exportStoriesToJSON);
-router.post("/import-file", ...createJsonUploadMiddleware(), importStoriesFromFile);
-router.post("/", createStory);
+router.post("/", aiLimiter, createStory);
 router.get("/", getAllStories);
 router.get("/:id", getStoryById);
-router.put("/:id", updateStory);
 router.delete("/:id", deleteStory);
-router.post("/:id/generate-image", aiLimiter, updateImageStory);
 
 // Chapter routes
-router.post("/:id/chapters", aiLimiter, generateChapterStream);
-router.post("/:id/chapters/title", aiLimiter, generateChapterTitleHandler);
-router.post("/:id/chapters/save", addChapter);
-router.put("/:id/chapters/:chapterIndex", updateChapter);
-router.delete("/:id/chapters/:chapterIndex", deleteChapter);
+router.post("/:id/chapters/next", aiLimiter, nextChapter);
 router.post("/:id/chapters/:chapterIndex/generate-audio", aiLimiter, generateChapterAudioHandler);
-
-// Vocab report
-router.get("/:id/vocab-report", getVocabReport);
 
 // Progress routes
 router.post("/:id/progress", updateProgress);
