@@ -262,10 +262,10 @@ export const generateChapterAudioHandler = async (req: Request, res: Response): 
     const voice = typeof req.body?.voice === "string" && req.body.voice.trim()
       ? req.body.voice.trim()
       : DEFAULT_TTS_VOICE;
-    const audioBuffer = await generateChapterAudio(chapter.content, voice);
+    const speech = await generateChapterAudio(chapter.content, story.language, voice);
     const filename = `story-${routeParams(req).id}-chapter-${chapterIndex}.mp3`;
-    const audioAlignment = await transcribeAudioWithWordTimestamps(audioBuffer, filename);
-    const uploaded = await uploadAudioToPocketBase(audioBuffer, filename, {
+    const audioAlignment = await transcribeAudioWithWordTimestamps(speech.url, story.language);
+    const uploaded = await uploadAudioToPocketBase(speech.buffer, filename, {
       contentId: routeParams(req).id,
       voice,
     });

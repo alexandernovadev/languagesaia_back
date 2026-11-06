@@ -1,12 +1,44 @@
-import OpenAI from "openai";
 import { AUDIO_AI } from "../../../config/aiConfig";
 
-export const DEFAULT_TTS_VOICE = AUDIO_AI.defaultVoice;
+export const DEFAULT_TTS_VOICE: string = AUDIO_AI.defaultVoice;
 
-const client = new OpenAI({
-  apiKey: AUDIO_AI.apiKey,
-  baseURL: AUDIO_AI.baseURL,
-});
+const LANGUAGE_BOOST: Record<string, string> = {
+  en: "English",
+  pt: "Portuguese",
+  es: "Spanish",
+  fr: "French",
+  it: "Italian",
+};
+
+async function callFal<T>(model: string, input: unknown): Promise<T> {
+  const response = await fetch(`${AUDIO_AI.baseURL}/${model}`, {
+    method: "POST",
+    headers: { Authorization: `Key ${AUDIO_AI.apiKey}`, "Content-Type": "application/json" },
+    body: JSON.stringify(input),
+  });
+  if (!response.ok) throw new Error(`${response.status} ${await response.text()}`);
+  return (await response.json()) as T;
+}
+
+export interface Speech {
+  buffer: Buffer;
+  /** Where fal keeps the file for a while: enough to transcribe it. */
+  url: string;
+}
+
+export async function synthesizeSpeech(text: string, language: string, voice: string = DEFAULT_TTS_VOICE): Promise<Speech> {
+  const { audio } = await callFal<{ audio?: { url?: string } }>(AUDIO_AI.ttsModel, {
+    prompt: text,
+    language_boost: LANGUAGE_BOOST[language],
+    output_format: "url",
+    voice_setting: { voice_id: voice },
+    audio_setting: { format: "mp3", sample_rate: AUDIO_AI.sampleRate, bitrate: AUDIO_AI.bitrate },
+  });
+  if (!audio?.url) throw new Error("No audio returned");
+  const file = await fetch(audio.url);
+  if (!file.ok) throw new Error(`Audio download failed: ${file.status}`);
+  return { buffer: Buffer.from(await file.arrayBuffer()), url: audio.url };
+}
 
 // Keep this as close as possible to what KaraokeView.tsx treats as "spoken words"
 // (front/src/shared/components/lecture/KaraokeView.tsx parseContent/tokenize): same
@@ -40,22 +72,11 @@ const cleanTextForSpeech = (content: string): string =>
     .replace(/\s+/g, " ")
     .trim();
 
-export const generateChapterAudio = async (
-  content: string,
-  voice = DEFAULT_TTS_VOICE
-): Promise<Buffer> => {
+export const generateChapterAudio = async (content: string, language: string, voice = DEFAULT_TTS_VOICE): Promise<Speech> => {
   const input = cleanTextForSpeech(content);
   if (!input) throw new Error("Chapter content is empty");
-
-  const response = await client.audio.speech.create({
-    model: AUDIO_AI.ttsModel,
-    voice,
-    input,
-    instructions: AUDIO_AI.instructions,
-    response_format: "mp3",
-  });
-
-  return Buffer.from(await response.arrayBuffer());
+  if (input.length > AUDIO_AI.maxCharacters) throw new Error(`Chapter is too long for one recording: ${input.length} characters`);
+  return synthesizeSpeech(input, language, voice);
 };
 
 export interface AudioWordTiming {
@@ -64,20 +85,14 @@ export interface AudioWordTiming {
   end: number;
 }
 
-export const transcribeAudioWithWordTimestamps = async (
-  audioBuffer: Buffer,
-  filename: string
-): Promise<AudioWordTiming[]> => {
-  const response = await client.audio.transcriptions.create({
-    file: new File([new Uint8Array(audioBuffer)], filename, { type: "audio/mpeg" }),
-    model: AUDIO_AI.transcriptionModel,
-    response_format: "verbose_json",
-    timestamp_granularities: ["word"],
-  } as any);
+export const transcribeAudioWithWordTimestamps = async (audioUrl: string, language: string): Promise<AudioWordTiming[]> => {
+  const { chunks = [] } = await callFal<{ chunks?: Array<{ text?: string; timestamp?: [number, number] }> }>(AUDIO_AI.transcriptionModel, {
+    audio_url: audioUrl,
+    language,
+    chunk_level: "word",
+  });
 
-  return ((response as any).words || []).map((item: any) => ({
-    word: String(item.word || "").trim(),
-    start: Number(item.start),
-    end: Number(item.end),
-  })).filter((item: AudioWordTiming) => item.word && Number.isFinite(item.start) && Number.isFinite(item.end));
+  return chunks
+    .map(({ text, timestamp }) => ({ word: String(text ?? "").trim(), start: Number(timestamp?.[0]), end: Number(timestamp?.[1]) }))
+    .filter((item) => item.word && Number.isFinite(item.start) && Number.isFinite(item.end));
 };

@@ -6,8 +6,8 @@
  *  URL, key or model name.
  *
  *  To switch a provider: change its `baseURL`, `apiKey` env var and model names.
- *  TEXT_AI and AUDIO_AI must speak the OpenAI-compatible API; IMAGE_AI uses
- *  fal.ai's REST API (see services/ai/imageAIService.ts).
+ *  TEXT_AI must speak the OpenAI-compatible API; IMAGE_AI and AUDIO_AI use
+ *  fal.ai's REST API (see services/ai/imageAIService.ts and audio/).
  */
 
 /** Text generation: words, expressions, stories, reader, chats, lessons. */
@@ -66,29 +66,18 @@ export const IMAGE_AI = {
   },
 } as const;
 
-/** Word pronunciation, on demand. Changing the model only affects words without audio. */
-export const WORD_AUDIO_AI = {
+/** Audio: pronunciation, chapter narration and word timestamps for karaoke. */
+export const AUDIO_AI = {
   name: "fal.ai",
   apiKey: process.env.FAL_KEY,
   baseURL: "https://fal.run",
-  model: "fal-ai/minimax/speech-2.8-hd",
-  voice: "Wise_Woman",
+  ttsModel: "fal-ai/minimax/speech-2.8-hd",
+  transcriptionModel: "fal-ai/whisper",
+  defaultVoice: "Wise_Woman",
   sampleRate: 44100,
   bitrate: 128000,
-} as const;
-
-/** Audio: chapter narration (TTS) and word timestamps for karaoke (transcription). */
-export const AUDIO_AI = {
-  name: "OpenAI",
-  apiKey: process.env.OPENAI_API_KEY,
-  baseURL: "https://api.openai.com/v1",
-  ttsModel: "gpt-4o-mini-tts",
-  transcriptionModel: "whisper-1",
-  defaultVoice: "coral",
-  instructions:
-    "Speak like an engaging storyteller. Use a warm, expressive and cheerful tone. " +
-    "Speak slowly and clearly, with natural pauses between sentences. " +
-    "Pronounce every word carefully. Keep the energy positive and animated, but never exaggerated.",
+  /** The most the voice model reads in one request. */
+  maxCharacters: 10000,
 } as const;
 
 export type TextModelTier = keyof typeof TEXT_AI.models;

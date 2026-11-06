@@ -47,6 +47,7 @@ async function main() {
     const started = Date.now();
     const prompt = await wordImagePrompt(word);
     const png = path.join(LAB, "out", `${name}.png`);
+    fs.rmSync(png, { force: true }); // mflux won't overwrite: an old file would be uploaded again
     const run = spawnSync(
       path.join(LAB, ".venv/bin/mflux-generate"),
       ["--model", MODEL, "--base-model", "schnell", "--steps", "4", "--width", String(SIZE), "--height", String(SIZE), "--prompt", prompt, "--output", png],

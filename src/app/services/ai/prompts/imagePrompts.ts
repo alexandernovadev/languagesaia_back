@@ -31,6 +31,14 @@ const BRIEF: Record<ImageSubject["kind"], string> = {
   story: "a book-cover scene for this story: its main character or key moment, with the mood of the genre",
 };
 
+/** Learned from bad pictures: mixed meanings and people cut off behind furniture. */
+const FIGURE_RULES = `- Show one meaning only, the most common one, even if the definition lists several.
+- For an abstract meaning, show one concrete everyday moment that makes it clear.
+- If there is a person, there is exactly one, shown as a full-length figure, small enough to fit in the frame with space above the head and below the feet.
+- Always name the person's lower clothing and shoes with colors (for example blue jeans and white sneakers), and say both feet stand on the ground or floor.
+- The person stands or sits in the open. Any prop is small and held in the hands or resting on the floor beside them. Tables, desks and counters stay out of the scene.
+`;
+
 const sceneRequest = (s: ImageSubject) => `You write prompts for an image model that only understands visual descriptions.
 Describe ${BRIEF[s.kind]}.
 
@@ -41,7 +49,7 @@ How to write the scene:
 - Describe only what is visible: subject, action, setting, mood, colors of key objects.
 - One clear subject in a simple setting. People (if any) look modern and casual, and everything is friendly for all ages.
 - Purely visual: describe objects, people and places only; avoid anything with writing on it (signs, labels, books with titles, screens, posters).
-- Do not repeat the ${s.kind === "story" ? "title" : s.kind} itself and do not use quotation marks.
+${s.kind === "story" ? "" : FIGURE_RULES}- Do not repeat the ${s.kind === "story" ? "title" : s.kind} itself and do not use quotation marks.
 
 Return JSON: {"scene": "..."}`;
 

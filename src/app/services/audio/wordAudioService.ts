@@ -6,16 +6,8 @@ import { createHash } from "crypto";
 import SpeechClip from "../../db/models/SpeechClip";
 import Word from "../../db/models/Word";
 import { IWord } from "../../../../types/models";
-import { WORD_AUDIO_AI } from "../../../config/aiConfig";
 import { uploadAudioToPocketBase } from "./pocketBaseService";
-
-const LANGUAGE_BOOST: Record<string, string> = {
-  en: "English",
-  pt: "Portuguese",
-  es: "Spanish",
-  fr: "French",
-  it: "Italian",
-};
+import { DEFAULT_TTS_VOICE, synthesizeSpeech } from "./textToSpeechService";
 
 /** Two quick taps on the same text must not pay for it twice. */
 const inFlight = new Map<string, Promise<string>>();
@@ -28,30 +20,9 @@ function once(key: string, create: () => Promise<string>) {
   return job;
 }
 
-async function synthesize(text: string, language: string): Promise<Buffer> {
-  const response = await fetch(`${WORD_AUDIO_AI.baseURL}/${WORD_AUDIO_AI.model}`, {
-    method: "POST",
-    headers: { Authorization: `Key ${WORD_AUDIO_AI.apiKey}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
-      prompt: text,
-      language_boost: LANGUAGE_BOOST[language],
-      output_format: "url",
-      voice_setting: { voice_id: WORD_AUDIO_AI.voice },
-      audio_setting: { format: "mp3", sample_rate: WORD_AUDIO_AI.sampleRate, bitrate: WORD_AUDIO_AI.bitrate },
-    }),
-  });
-  if (!response.ok) throw new Error(`${response.status} ${await response.text()}`);
-
-  const { audio } = (await response.json()) as { audio?: { url?: string } };
-  if (!audio?.url) throw new Error("No audio returned");
-  const file = await fetch(audio.url);
-  if (!file.ok) throw new Error(`Audio download failed: ${file.status}`);
-  return Buffer.from(await file.arrayBuffer());
-}
-
 async function record(text: string, language: string, contentId: string) {
-  const buffer = await synthesize(text, language);
-  const { url } = await uploadAudioToPocketBase(buffer, `${contentId}.mp3`, { contentId, voice: WORD_AUDIO_AI.voice });
+  const { buffer } = await synthesizeSpeech(text, language);
+  const { url } = await uploadAudioToPocketBase(buffer, `${contentId}.mp3`, { contentId, voice: DEFAULT_TTS_VOICE });
   return url;
 }
 
