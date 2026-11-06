@@ -1,6 +1,5 @@
 import { Document } from "mongoose";
-import { ChatMessage } from "./ChatMessage";
-import { Difficulty, Language } from "../business";
+import { Language } from "../business";
 
 export interface IWord extends Document {
   word: string;
@@ -9,17 +8,18 @@ export interface IWord extends Document {
   examples?: string[];
   type?: string[];
   IPA?: string;
-  seen?: number;
   img?: string;
-  difficulty?: Difficulty;
   synonyms?: string[];
   codeSwitching?: string[];
+  rank?: number;
+  conjugations?: Record<string, Record<string, string>>;
+  source?: string;
+  reviewNotes?: string[];
   language: Language;
   spanish?: {
     definition: string;
     word: string;
   };
-  chat?: ChatMessage[];
   createdAt?: Date;
   updatedAt?: Date;
 }

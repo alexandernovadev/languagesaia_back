@@ -2,12 +2,14 @@
 import { Request, Response } from "express";
 import { WordService } from "../services/words/wordService";
 import { WordQueryService } from "../services/words/WordQueryService";
+import userWordService, { withProgress } from "../services/words/UserWordService";
 import { errorResponse, successResponse } from "../utils/responseHelpers";
 import { parseLimit } from "../utils/pagination";
 import { WordTypeValidationError } from "../data/business/shared";
 import { WordCreateSchema, WordUpdateSchema, parseBody } from "../validators/schemas";
 import { toWordDTO, mapPaginated } from "../dto/mappers";
 import { routeParams } from "../utils/http/routeParams";
+import { getUserId } from "../utils/http/requestUser";
 
 const wordService = new WordService();
 const wordQueryService = new WordQueryService();
@@ -32,7 +34,8 @@ export const getWordByName = async (
       return errorResponse(res, "Word not found", 404);
     }
 
-    return successResponse(res, "Get Word successFully", toWordDTO(foundWord));
+    const mine = await userWordService.find(getUserId(req), String(foundWord._id));
+    return successResponse(res, "Get Word successFully", toWordDTO(withProgress(foundWord, mine)));
   } catch (error) {
     return errorResponse(
       res,
@@ -51,8 +54,9 @@ export const createWord = async (
     const wordData = parseBody(WordCreateSchema, req.body, res);
     if (!wordData) return res;
     const newWord = await wordService.createWord(wordData as any);
+    const mine = await userWordService.add(getUserId(req), newWord);
 
-    return successResponse(res, "Word created successfully", toWordDTO(newWord), 201);
+    return successResponse(res, "Word created successfully", toWordDTO(withProgress(newWord, mine)), 201);
   } catch (error) {
     if (error instanceof WordTypeValidationError) {
       return errorResponse(res, error.message, 400, error);
@@ -80,7 +84,8 @@ export const getWordById = async (
       return errorResponse(res, "Word not found", 404);
     }
 
-    return successResponse(res, "Word listed by Id successfully", toWordDTO(word));
+    const mine = await userWordService.find(getUserId(req), id);
+    return successResponse(res, "Word listed by Id successfully", toWordDTO(withProgress(word, mine)));
   } catch (error) {
     return errorResponse(
       res,
@@ -140,7 +145,7 @@ export const getWords = async (
       : (req.user?.language ? [req.user.language] : undefined);
     const types = type ? type.split(",").map((t) => t.trim()) : undefined;
 
-    const wordList = await wordService.getWords({
+    const wordList = await wordService.getWords(getUserId(req), {
       page,
       limit,
       wordUser,
@@ -188,7 +193,8 @@ export const updateWord = async (
     if (!updatedWord) {
       return errorResponse(res, "Word not found", 404);
     }
-    return successResponse(res, "Word updated successfully", toWordDTO(updatedWord));
+    const mine = await userWordService.find(getUserId(req), id);
+    return successResponse(res, "Word updated successfully", toWordDTO(withProgress(updatedWord, mine)));
   } catch (error) {
     if (error instanceof WordTypeValidationError) {
       return errorResponse(res, error.message, 400, error);
@@ -210,38 +216,16 @@ export const updateWordDifficulty = async (
     const { id } = routeParams(req);
     const difficulty = req.body.difficulty;
 
-    const updatedWord = await wordService.updateWordDifficulty(id, difficulty);
-    if (!updatedWord) {
+    const mine = await userWordService.setDifficulty(getUserId(req), id, difficulty);
+    if (!mine) {
       return errorResponse(res, "Word not found", 404);
     }
 
-    return successResponse(res, "Word difficulty updated successfully", toWordDTO(updatedWord));
+    return successResponse(res, "Word difficulty updated successfully", { difficulty: mine.difficulty });
   } catch (error) {
     return errorResponse(
       res,
       "An error occurred while updating the word difficulty ",
-      500,
-      error
-    );
-  }
-};
-
-export const deleteWord = async (
-  req: Request,
-  res: Response
-): Promise<Response> => {
-  try {
-    const { id } = routeParams(req);
-    const deletedWord = await wordService.deleteWord(id);
-    if (!deletedWord) {
-      return errorResponse(res, "Word no found by ID: " + id, 403);
-    }
-
-    return successResponse(res, "Word deleted successfully", {});
-  } catch (error) {
-    return errorResponse(
-      res,
-      "An error occurred while deleting the word",
       500,
       error
     );
@@ -266,7 +250,7 @@ export const getAnkiCards = async (
         ? typeParam.split(",").map((t) => t.trim()).filter(Boolean)
         : undefined;
 
-    const words = await wordQueryService.getAnkiCards({
+    const words = await wordQueryService.getAnkiCards(getUserId(req), {
       mode: mode as "random" | "review",
       limit,
       difficulty,
@@ -295,7 +279,7 @@ export const getWordCountsByLanguage = async (
   res: Response
 ): Promise<Response> => {
   try {
-    return successResponse(res, "Word counts by language", await wordQueryService.countByLanguage());
+    return successResponse(res, "Word counts by language", await userWordService.countByLanguage(getUserId(req)));
   } catch (error) {
     return errorResponse(res, "An error occurred while counting words", 500, error);
   }
@@ -342,17 +326,13 @@ export const updateIncrementWordSeens = async (
 ): Promise<Response> => {
   try {
     const { id } = routeParams(req);
-    const updatedWord = await wordService.incrementWordSeen(id);
+    const mine = await userWordService.incrementSeen(getUserId(req), id);
 
-    if (!updatedWord) {
+    if (!mine) {
       return errorResponse(res, "Word Not Found ", 404);
     }
 
-    return successResponse(
-      res,
-      "Word seen count incremented successfully",
-      toWordDTO(updatedWord)
-    );
+    return successResponse(res, "Word seen count incremented successfully", { seen: mine.seen });
   } catch (error) {
     return errorResponse(
       res,

@@ -1,13 +1,34 @@
 import Word from "../../db/models/Word";
+import UserWord from "../../db/models/UserWord";
 import Expression from "../../db/models/Expression";
 import Lesson from "../../db/models/Lesson";
 import LessonAttempt from "../../db/models/LessonAttempt";
 import Story from "../../db/models/Story";
+import Exercise from "../../db/models/Exercise";
 import BackupRun from "../../db/models/BackupRun";
 import { getCronStatus } from "../backup/backupSchedulerService";
 import logger from "../../utils/logger";
 
 export class LabsService {
+  /** What the admin panel can delete, and how much of it there is. */
+  async getDataCounts() {
+    const [words, expressions, lessons, exercises, stories] = await Promise.all([
+      Word.countDocuments(),
+      Expression.countDocuments(),
+      Lesson.countDocuments(),
+      Exercise.countDocuments(),
+      Story.countDocuments(),
+    ]);
+    return { words, expressions, lessons, exercises, stories };
+  }
+
+  /** Empties the exercise bank. New lessons go back to asking the AI. */
+  async deleteAllExercises(): Promise<{ deletedCount: number; timestamp: Date }> {
+    logger.warn("⚠️ INITIATING: Delete all exercises operation");
+    const result = await Exercise.deleteMany({});
+    return { deletedCount: result.deletedCount || 0, timestamp: new Date() };
+  }
+
   /** Everything the admin panel shows about backups. */
   async getBackupStatus() {
     const [byLanguage, expressionsTotal, runs] = await Promise.all([
@@ -52,7 +73,7 @@ export class LabsService {
     try {
       logger.warn("⚠️ INITIATING: Delete all words operation");
       
-      const result = await Word.deleteMany({});
+      const [result] = await Promise.all([Word.deleteMany({}), UserWord.deleteMany({})]);
       const timestamp = new Date();
       
       logger.warn("⚠️ COMPLETED: All words deleted", {

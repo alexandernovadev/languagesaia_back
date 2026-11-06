@@ -1,4 +1,5 @@
 import Word from "../../db/models/Word";
+import UserWord from "../../db/models/UserWord";
 import { IWord } from "../../../../types/models";
 import {
   ImportConfig,
@@ -7,6 +8,7 @@ import {
   ImportResult,
   ImportFailure,
   ImportPreview,
+  ImportedWord,
   MAX_REPORTED_FAILURES,
 } from "../../utils/importTypes";
 import { WordValidator } from "../../utils/validators/wordValidator";
@@ -14,16 +16,28 @@ import { validateWordTypesForLanguage } from "../../data/business/shared/wordTyp
 import { normalizeWordKey } from "../../utils/text/normalizeWordKey";
 
 export class WordImportService {
-  private async checkDuplicate(word: Partial<IWord>): Promise<IWord | null> {
+  private async checkDuplicate(word: ImportedWord): Promise<IWord | null> {
     if (!word.word) return null;
     return await Word.findOne({ wordKey: normalizeWordKey(word.word), language: word.language });
   }
 
+  /** Puts the word in the user's list. Replaces their progress only when the file wins. */
+  private async linkToUser(word: ImportedWord, userId: string, replace: boolean) {
+    const stored = await this.checkDuplicate(word);
+    if (!stored) return;
+    const progress = { difficulty: word.difficulty ?? "hard", seen: word.seen ?? 0, chat: word.chat ?? [], ...(word.review && { review: word.review }) };
+    await UserWord.updateOne(
+      { userId, wordId: stored._id },
+      replace ? { $set: progress, $setOnInsert: { language: stored.language } } : { $setOnInsert: { ...progress, language: stored.language } },
+      { upsert: true },
+    );
+  }
+
   private async processWord(
-    word: Partial<IWord>,
+    word: ImportedWord,
     index: number,
     config: ImportConfig
-  ): Promise<ProcessingResult<Partial<IWord>>> {
+  ): Promise<ProcessingResult<ImportedWord>> {
     const validationResult = WordValidator.validateWord(word, index);
     if (!validationResult.isValid) {
       return {
@@ -38,7 +52,7 @@ export class WordImportService {
     const assertTypesOk = (
       types: string[] | undefined,
       lang: string | undefined
-    ): ProcessingResult<Partial<IWord>> | null => {
+    ): ProcessingResult<ImportedWord> | null => {
       if (!lang) return null;
       const check = validateWordTypesForLanguage(types, lang);
       if (check.ok !== false) return null;
@@ -96,7 +110,7 @@ export class WordImportService {
           );
           if (typeError) return typeError;
           // The file may come from another database: its _id can differ and _id can't change
-          const { _id, __v, ...fields } = word as Partial<IWord> & { __v?: number };
+          const { _id, __v, ...fields } = word as ImportedWord & { __v?: number };
           await Word.findByIdAndUpdate(
             existingWord._id,
             { ...fields, updatedAt: new Date() },
@@ -124,7 +138,7 @@ export class WordImportService {
   }
 
   async importWords(
-    words: Partial<IWord>[],
+    words: ImportedWord[],
     config: ImportConfig
   ): Promise<ImportResult> {
     const startTime = Date.now();
@@ -152,7 +166,12 @@ export class WordImportService {
       for (let j = 0; j < batchWords.length; j++) {
         const index = i + j;
         // One bad word must never stop the rest of the import
-        const result: ProcessingResult<Partial<IWord>> = await this.processWord(batchWords[j], index, config).catch((error) => ({
+        const result: ProcessingResult<ImportedWord> = await this.processWord(batchWords[j], index, config)
+          .then(async (processed) => {
+            if (processed.status !== "invalid") await this.linkToUser(batchWords[j], config.userId, processed.action !== "skipped");
+            return processed;
+          })
+          .catch((error) => ({
           index,
           data: batchWords[j],
           status: 'error' as const,
@@ -211,7 +230,7 @@ export class WordImportService {
   }
 
   /** What importing these words would do. Changes nothing. */
-  async previewWords(words: Partial<IWord>[]): Promise<ImportPreview> {
+  async previewWords(words: ImportedWord[]): Promise<ImportPreview> {
     const existing = await Word.find({}, { wordKey: 1, language: 1 }).lean();
     const known = new Set(existing.map((w) => `${w.language}:${w.wordKey}`));
     const preview: ImportPreview = { total: words.length, new: 0, duplicates: 0, invalid: 0, failures: [] };

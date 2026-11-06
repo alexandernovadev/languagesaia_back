@@ -80,6 +80,12 @@ Todo cuelga de `/api` y, salvo `/api/auth`, necesita `Authorization: Bearer <tok
 
 Las respuestas tienen la forma `{ success: true, message, data }` o `{ success: false, error }`. Un token inválido o caducado devuelve 401, y el front lo renueva con `/api/auth/refresh`.
 
+## Palabras y usuarios
+
+`Word` es el diccionario compartido: definición, ejemplos, imagen. Solo un admin cambia su contenido. `UserWord` guarda lo de cada usuario: dificultad, veces vistas, chat y calendario de repaso. "Mis palabras" son las que tienen un `UserWord`; añadir una que ya está en el diccionario solo la enlaza, sin usar la IA.
+
+Para llevar los datos a otro servidor: exportar e importar desde `/admin/datos`, con el admin ya creado. El archivo incluye el progreso del admin (dificultad, veces vistas, chat y calendario de repaso).
+
 ## Backups
 
 Cada noche (`BACKUP_CRON_SCHEDULE`) se envían por correo las palabras y las expresiones en JSON, si `BACKUP_EMAIL_ENABLED=true`. Se gestionan desde `/admin` en la app.

@@ -6,7 +6,10 @@ import {
   contentLanguagesList,
 } from "../../data/business/shared";
 import Lesson from "./Lesson";
+import UserWord from "./UserWord";
 import LessonAttempt from "./LessonAttempt";
+import Progress from "./Progress";
+import XpDay from "./XpDay";
 
 const UserSchema: Schema = new Schema(
   {
@@ -41,6 +44,9 @@ UserSchema.pre("findOneAndDelete", async function () {
   await Promise.all([
     Lesson.deleteMany({ createdBy: userId }),
     LessonAttempt.deleteMany({ userId }),
+    UserWord.deleteMany({ userId }),
+    Progress.deleteMany({ userId }),
+    XpDay.deleteMany({ userId }),
   ]);
 });
 

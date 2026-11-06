@@ -1,5 +1,8 @@
+import { getUserId, timeZoneOf } from "../utils/http/requestUser";
 import { Request, Response } from "express";
 import { ExpressionService } from "../services/expressions/expressionService";
+import progressService from "../services/progress/ProgressService";
+import { ADD_WORD_XP } from "../../config/constants";
 import { ExpressionChatService } from "../services/expressions/ExpressionChatService";
 import { ExpressionImportExportService } from "../services/expressions/ExpressionImportExportService";
 import {
@@ -30,10 +33,11 @@ export const createExpression = async (req: Request, res: Response) => {
     const expressionData = parseBody(ExpressionCreateSchema, req.body, res);
     if (!expressionData) return res;
     const expression = await expressionService.createExpression(expressionData as any);
+    const reward = await progressService.award(getUserId(req), ADD_WORD_XP, timeZoneOf(req));
     return successResponse(
       res,
       "Expression created successfully",
-      toExpressionDTO(expression),
+      { ...toExpressionDTO(expression), reward },
       201
     );
   } catch (error: any) {

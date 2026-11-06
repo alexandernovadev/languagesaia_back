@@ -21,6 +21,7 @@ import UploadRoutes from "./app/routes/uploadRoutes";
 import AuthRoutes from "./app/routes/authRoutes";
 import UserRoutes from "./app/routes/userRoutes";
 import LessonRoutes from "./app/routes/lessonRoutes";
+import ProgressRoutes from "./app/routes/progressRoutes";
 
 // Utils
 import { errorResponse, successResponse } from "./app/utils/responseHelpers";
@@ -94,12 +95,13 @@ app.use("/api/words", authMiddleware, extendTimeout, WordsRoutes);
 app.use("/api/expressions", authMiddleware, extendTimeout, ExpressionRoutes);
 app.use("/api/users", authMiddleware, UserRoutes);
 app.use("/api/lessons", authMiddleware, extendTimeout, LessonRoutes);
+app.use("/api/progress", authMiddleware, ProgressRoutes);
 
 // Admin panel
 app.use("/api/labs", authMiddleware, requireAdmin, extendTimeout, LabsRoutes);
 
 // Upload routes (must be after labs to avoid conflict)
-app.use("/api", authMiddleware, UploadRoutes);
+app.use("/api", authMiddleware, requireAdmin, UploadRoutes);
 
 app.get("/", (req: Request, res: Response) => {
   successResponse(res, "Server is running", {

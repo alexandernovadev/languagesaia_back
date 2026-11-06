@@ -1,6 +1,6 @@
 {
   "name": "back",
-  "version": "9.0.0",
+  "version": "9.1.0",
   "main": "dist/main.js",
   "scripts": {
     "build": "rm -rf ./dist && tsc && mv dist/src/* dist/ && rm -rf dist/src && cp -r public dist/public && node scripts/build-date.js",
@@ -8,7 +8,8 @@
     "start": "node dist/main.js",
     "dev": "pnpm clean:logs && tsx watch src/main.ts",
     "typecheck": "tsc --noEmit",
-    "clean:logs": "node scripts/clean-logs.js"
+    "clean:logs": "node scripts/clean-logs.js",
+    "seed:dictionary": "tsx scripts/seed-dictionary.ts"
   },
   "keywords": [],
   "author": "NovaAlex Labs",

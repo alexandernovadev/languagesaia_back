@@ -1,6 +1,9 @@
 /** Words: everything the AI generates (the word itself, its fields, its picture). */
 import { Request, Response } from "express";
 import { WordService } from "../services/words/wordService";
+import userWordService, { withProgress } from "../services/words/UserWordService";
+import progressService from "../services/progress/ProgressService";
+import { ADD_WORD_XP } from "../../config/constants";
 import {
   generateWordData,
   generateWordExamples,
@@ -19,7 +22,7 @@ import type { Language } from "../../../types/business";
 import { errorResponse, successResponse } from "../utils/responseHelpers";
 import { toWordDTO } from "../dto/mappers";
 import { routeParams } from "../utils/http/routeParams";
-import { getUserId } from "../utils/http/requestUser";
+import { getUserId, timeZoneOf } from "../utils/http/requestUser";
 
 const wordService = new WordService();
 
@@ -33,17 +36,20 @@ export const generateWordJson = async (req: Request, res: Response) => {
   }
 
   try {
-    // Generate the word data using unified AI service
-    const wordData = await generateWordData(word, language, [], { userId });
+    // Already in the dictionary: it only has to be linked, no AI needed
+    const known = await wordService.findWordByWord(word, language);
+    const alreadyInList = known ? !!(await userWordService.find(userId, String(known._id))) : false;
 
-    // Save the generated word to the database
-    const savedWord = await wordService.createWord(wordData);
+    let saved = known;
+    if (!saved) {
+      const wordData = await generateWordData(word, language, [], { userId });
+      // the AI may normalize it ("running" → "run") into a word that already exists
+      saved = (await wordService.findWordByWord(wordData.word, language)) ?? (await wordService.createWord(wordData));
+    }
 
-    return successResponse(
-      res,
-      "Word generated and saved successfully",
-      toWordDTO(savedWord)
-    );
+    const mine = await userWordService.add(userId, saved);
+    const reward = alreadyInList ? null : await progressService.award(userId, ADD_WORD_XP, timeZoneOf(req));
+    return successResponse(res, "Word ready", { ...toWordDTO(withProgress(saved, mine)), alreadyInList, reward });
   } catch (error) {
     if (error instanceof WordTypeValidationError) {
       return errorResponse(res, error.message, 400, error);

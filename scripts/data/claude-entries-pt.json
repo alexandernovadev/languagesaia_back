@@ -1,0 +1,2571 @@
+[
+ {
+  "rank": 617,
+  "word": "porquê",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/poʁˈke/",
+  "definition": "A razão ou o motivo de alguma coisa.",
+  "examples": [
+   "Eu não entendo o porquê disso.",
+   "Ela explicou o porquê da decisão.",
+   "Todo problema tem um porquê."
+  ],
+  "spanish": {
+   "word": "porqué",
+   "definition": "La razón o el motivo de algo."
+  },
+  "synonyms": [
+   "motivo",
+   "razão"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 884,
+  "word": "pôr",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˈpoʁ/",
+  "definition": "Colocar uma coisa em algum lugar.",
+  "examples": [
+   "Vou pôr o livro na mesa.",
+   "Você pode pôr açúcar no café?",
+   "Ela põe a roupa no armário."
+  ],
+  "spanish": {
+   "word": "poner",
+   "definition": "Colocar una cosa en algún lugar."
+  },
+  "synonyms": [
+   "colocar",
+   "botar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "ponho",
+    "voce": "põe",
+    "nos": "pomos",
+    "eles": "põem"
+   },
+   "preterito": {
+    "eu": "pus",
+    "voce": "pôs",
+    "nos": "pusemos",
+    "eles": "puseram"
+   },
+   "imperfeito": {
+    "eu": "punha",
+    "voce": "punha",
+    "nos": "púnhamos",
+    "eles": "punham"
+   },
+   "futuro": {
+    "eu": "porei",
+    "voce": "porá",
+    "nos": "poremos",
+    "eles": "porão"
+   },
+   "subjuntivo": {
+    "eu": "ponha",
+    "voce": "ponha",
+    "nos": "ponhamos",
+    "eles": "ponham"
+   }
+  }
+ },
+ {
+  "rank": 913,
+  "word": "beijo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbej.ʒu/",
+  "definition": "Toque com os lábios para mostrar carinho.",
+  "examples": [
+   "Ela me deu um beijo no rosto.",
+   "Um beijo para você!",
+   "O beijo foi muito rápido."
+  ],
+  "spanish": {
+   "word": "beso",
+   "definition": "Toque con los labios para mostrar cariño."
+  },
+  "synonyms": [
+   "beijinho"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 914,
+  "word": "quieto",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈkjɛ.tu/",
+  "definition": "Que está calmo, sem se mexer e sem fazer barulho.",
+  "examples": [
+   "Fica quieto, por favor.",
+   "O menino ficou quieto na sala.",
+   "O cachorro está quieto hoje."
+  ],
+  "spanish": {
+   "word": "quieto",
+   "definition": "Que está tranquilo, sin moverse ni hacer ruido."
+  },
+  "synonyms": [
+   "calado",
+   "calmo",
+   "parado"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 915,
+  "word": "prestar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/pɾesˈtaʁ/",
+  "definition": "Dar ou oferecer algo; servir para alguma coisa.",
+  "examples": [
+   "Preste atenção na aula.",
+   "Eles prestam um bom serviço.",
+   "Esse celular não presta mais."
+  ],
+  "spanish": {
+   "word": "prestar",
+   "definition": "Dar u ofrecer algo; servir para alguna cosa."
+  },
+  "synonyms": [
+   "oferecer",
+   "servir"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "presto",
+    "voce": "presta",
+    "nos": "prestamos",
+    "eles": "prestam"
+   },
+   "preterito": {
+    "eu": "prestei",
+    "voce": "prestou",
+    "nos": "prestamos",
+    "eles": "prestaram"
+   },
+   "imperfeito": {
+    "eu": "prestava",
+    "voce": "prestava",
+    "nos": "prestávamos",
+    "eles": "prestavam"
+   },
+   "futuro": {
+    "eu": "prestarei",
+    "voce": "prestará",
+    "nos": "prestaremos",
+    "eles": "prestarão"
+   },
+   "subjuntivo": {
+    "eu": "preste",
+    "voce": "preste",
+    "nos": "prestemos",
+    "eles": "prestem"
+   }
+  }
+ },
+ {
+  "rank": 916,
+  "word": "decidir",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/de.siˈdʒiʁ/",
+  "definition": "Escolher o que fazer depois de pensar.",
+  "examples": [
+   "Preciso decidir hoje.",
+   "Nós decidimos viajar em julho.",
+   "Ela decidiu mudar de emprego."
+  ],
+  "spanish": {
+   "word": "decidir",
+   "definition": "Elegir qué hacer después de pensarlo."
+  },
+  "synonyms": [
+   "escolher",
+   "resolver"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "decido",
+    "voce": "decide",
+    "nos": "decidimos",
+    "eles": "decidem"
+   },
+   "preterito": {
+    "eu": "decidi",
+    "voce": "decidiu",
+    "nos": "decidimos",
+    "eles": "decidiram"
+   },
+   "imperfeito": {
+    "eu": "decidia",
+    "voce": "decidia",
+    "nos": "decidíamos",
+    "eles": "decidiam"
+   },
+   "futuro": {
+    "eu": "decidirei",
+    "voce": "decidirá",
+    "nos": "decidiremos",
+    "eles": "decidirão"
+   },
+   "subjuntivo": {
+    "eu": "decida",
+    "voce": "decida",
+    "nos": "decidamos",
+    "eles": "decidam"
+   }
+  }
+ },
+ {
+  "rank": 917,
+  "word": "troca",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtɾɔ.kɐ/",
+  "definition": "Ação de dar uma coisa e receber outra.",
+  "examples": [
+   "Fizemos uma troca de presentes.",
+   "A loja aceita troca?",
+   "Essa troca foi boa para mim."
+  ],
+  "spanish": {
+   "word": "cambio",
+   "definition": "Acción de dar una cosa y recibir otra."
+  },
+  "synonyms": [
+   "permuta",
+   "substituição"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 918,
+  "word": "verde",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ˈveʁ.dʒi/",
+  "definition": "A cor da grama e das folhas.",
+  "examples": [
+   "Meu carro é verde.",
+   "A banana ainda está verde.",
+   "Eu gosto de verde."
+  ],
+  "spanish": {
+   "word": "verde",
+   "definition": "El color de la hierba y de las hojas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 919,
+  "word": "seguida",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/seˈɡi.dɐ/",
+  "definition": "Usada em \"em seguida\": logo depois, sem demora.",
+  "examples": [
+   "Eu volto em seguida.",
+   "Ele comeu e em seguida saiu.",
+   "Ela chegou e em seguida começou a trabalhar."
+  ],
+  "spanish": {
+   "word": "seguida",
+   "definition": "Se usa en \"em seguida\": enseguida, justo después."
+  },
+  "synonyms": [
+   "continuação"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 920,
+  "word": "universo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/u.niˈvɛʁ.su/",
+  "definition": "Tudo o que existe: estrelas, planetas e espaço.",
+  "examples": [
+   "O universo é muito grande.",
+   "A Terra é uma parte do universo.",
+   "Ele gosta de estudar o universo."
+  ],
+  "spanish": {
+   "word": "universo",
+   "definition": "Todo lo que existe: estrellas, planetas y espacio."
+  },
+  "synonyms": [
+   "cosmo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 921,
+  "word": "uso",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈu.zu/",
+  "definition": "Ação de usar alguma coisa.",
+  "examples": [
+   "O uso do celular é proibido aqui.",
+   "Leia as instruções de uso.",
+   "Esse carro tem pouco uso."
+  ],
+  "spanish": {
+   "word": "uso",
+   "definition": "Acción de usar alguna cosa."
+  },
+  "synonyms": [
+   "utilização",
+   "emprego"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 922,
+  "word": "abaixo",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/aˈbaj.ʃu/",
+  "definition": "Em um lugar mais baixo.",
+  "examples": [
+   "Veja a foto abaixo.",
+   "Ele mora dois andares abaixo.",
+   "A temperatura está abaixo de zero."
+  ],
+  "spanish": {
+   "word": "abajo",
+   "definition": "En un lugar más bajo."
+  },
+  "synonyms": [
+   "embaixo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 923,
+  "word": "antigo",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ɐ̃ˈtʃi.ɡu/",
+  "definition": "Que existe há muito tempo; que é do passado.",
+  "examples": [
+   "Essa casa é muito antiga.",
+   "Ele tem um carro antigo.",
+   "Meu antigo chefe me ligou."
+  ],
+  "spanish": {
+   "word": "antiguo",
+   "definition": "Que existe desde hace mucho tiempo; del pasado."
+  },
+  "synonyms": [
+   "velho",
+   "ultrapassado"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 924,
+  "word": "madame",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/maˈdɐ̃.mi/",
+  "definition": "Forma educada de falar com uma senhora.",
+  "examples": [
+   "Bom dia, madame.",
+   "A madame já chegou.",
+   "Por aqui, madame."
+  ],
+  "spanish": {
+   "word": "señora",
+   "definition": "Forma educada de dirigirse a una señora."
+  },
+  "synonyms": [
+   "senhora",
+   "dona"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 925,
+  "word": "passe",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpa.si/",
+  "definition": "Bilhete de transporte; ação de passar a bola.",
+  "examples": [
+   "Comprei um passe de ônibus.",
+   "Ele fez um bom passe para o amigo.",
+   "Meu passe vale por um mês."
+  ],
+  "spanish": {
+   "word": "pase",
+   "definition": "Billete de transporte; acción de pasar el balón."
+  },
+  "synonyms": [
+   "bilhete"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 926,
+  "word": "apoio",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aˈpo.ju/",
+  "definition": "Ajuda que damos a uma pessoa.",
+  "examples": [
+   "Obrigado pelo seu apoio.",
+   "Ela precisa de apoio agora.",
+   "Minha família me dá muito apoio."
+  ],
+  "spanish": {
+   "word": "apoyo",
+   "definition": "Ayuda que le damos a una persona."
+  },
+  "synonyms": [
+   "ajuda",
+   "suporte"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 928,
+  "word": "mercado",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/meʁˈka.du/",
+  "definition": "Lugar onde compramos comida e outras coisas.",
+  "examples": [
+   "Vou ao mercado comprar leite.",
+   "O mercado fecha às dez.",
+   "Esse mercado é bem barato."
+  ],
+  "spanish": {
+   "word": "mercado",
+   "definition": "Lugar donde compramos comida y otras cosas."
+  },
+  "synonyms": [
+   "feira",
+   "supermercado"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 929,
+  "word": "escuro",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/isˈku.ɾu/",
+  "definition": "Que tem pouca luz; cor pouco clara.",
+  "examples": [
+   "O quarto está escuro.",
+   "Ela usa um casaco azul-escuro.",
+   "Tenho medo do escuro."
+  ],
+  "spanish": {
+   "word": "oscuro",
+   "definition": "Que tiene poca luz; de color poco claro."
+  },
+  "synonyms": [
+   "sombrio"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 930,
+  "word": "bolo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbo.lu/",
+  "definition": "Doce feito no forno com farinha, ovos e açúcar.",
+  "examples": [
+   "Fiz um bolo de chocolate.",
+   "Quer um pedaço de bolo?",
+   "O bolo está muito gostoso."
+  ],
+  "spanish": {
+   "word": "pastel",
+   "definition": "Dulce hecho en el horno con harina, huevos y azúcar."
+  },
+  "synonyms": [
+   "torta"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 931,
+  "word": "conhecido",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ko.ɲeˈsi.du/",
+  "definition": "Que muitas pessoas conhecem; pessoa que conhecemos pouco.",
+  "examples": [
+   "Ele é um cantor conhecido.",
+   "Encontrei um conhecido na rua.",
+   "Esse lugar é bem conhecido."
+  ],
+  "spanish": {
+   "word": "conocido",
+   "definition": "Que mucha gente conoce; persona que conocemos poco."
+  },
+  "synonyms": [
+   "famoso"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 932,
+  "word": "banda",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbɐ̃.dɐ/",
+  "definition": "Grupo de pessoas que tocam música juntas.",
+  "examples": [
+   "Minha banda favorita vem ao Brasil.",
+   "Ele toca violão em uma banda.",
+   "A banda começou a tocar."
+  ],
+  "spanish": {
+   "word": "banda",
+   "definition": "Grupo de personas que tocan música juntas."
+  },
+  "synonyms": [
+   "grupo",
+   "conjunto"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 933,
+  "word": "detalhe",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/deˈta.ʎi/",
+  "definition": "Parte pequena de uma coisa.",
+  "examples": [
+   "Esse detalhe é importante.",
+   "Ela explicou tudo em detalhe.",
+   "É só um detalhe."
+  ],
+  "spanish": {
+   "word": "detalle",
+   "definition": "Parte pequeña de una cosa."
+  },
+  "synonyms": [
+   "pormenor"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 934,
+  "word": "valor",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/vaˈloʁ/",
+  "definition": "Quanto uma coisa custa ou vale.",
+  "examples": [
+   "Qual é o valor da conta?",
+   "Esse anel tem muito valor.",
+   "A família tem um grande valor para mim."
+  ],
+  "spanish": {
+   "word": "valor",
+   "definition": "Cuánto cuesta o vale una cosa."
+  },
+  "synonyms": [
+   "preço",
+   "importância"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 935,
+  "word": "doença",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/doˈẽ.sɐ/",
+  "definition": "Problema de saúde.",
+  "examples": [
+   "Essa doença é muito rara.",
+   "Ele tem uma doença grave.",
+   "A vacina evita a doença."
+  ],
+  "spanish": {
+   "word": "enfermedad",
+   "definition": "Problema de salud."
+  },
+  "synonyms": [
+   "enfermidade"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 936,
+  "word": "relógio",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/heˈlɔ.ʒju/",
+  "definition": "Objeto que mostra as horas.",
+  "examples": [
+   "Meu relógio parou.",
+   "Olhe o relógio, já é tarde.",
+   "Ganhei um relógio novo."
+  ],
+  "spanish": {
+   "word": "reloj",
+   "definition": "Objeto que muestra la hora."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 937,
+  "word": "caminhão",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ka.miˈɲɐ̃w̃/",
+  "definition": "Veículo grande que transporta cargas.",
+  "examples": [
+   "O caminhão está na estrada.",
+   "Meu pai dirige um caminhão.",
+   "Um caminhão bloqueou a rua."
+  ],
+  "spanish": {
+   "word": "camión",
+   "definition": "Vehículo grande que transporta cargas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 938,
+  "word": "rico",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈhi.ku/",
+  "definition": "Que tem muito dinheiro.",
+  "examples": [
+   "Ele é um homem rico.",
+   "Eles ficaram ricos.",
+   "Essa fruta é rica em vitamina C."
+  ],
+  "spanish": {
+   "word": "rico",
+   "definition": "Que tiene mucho dinero."
+  },
+  "synonyms": [
+   "milionário"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 939,
+  "word": "espécie",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/isˈpɛ.sji/",
+  "definition": "Grupo de animais ou plantas; tipo de coisa.",
+  "examples": [
+   "Essa espécie de ave é rara.",
+   "É uma espécie de bolo.",
+   "Existem muitas espécies de peixes."
+  ],
+  "spanish": {
+   "word": "especie",
+   "definition": "Grupo de animales o plantas; tipo de cosa."
+  },
+  "synonyms": [
+   "tipo",
+   "classe"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 940,
+  "word": "culpado",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/kuwˈpa.du/",
+  "definition": "Que fez algo errado e é responsável por isso.",
+  "examples": [
+   "Ele é culpado pelo acidente.",
+   "Eu me sinto culpado.",
+   "A polícia achou o culpado."
+  ],
+  "spanish": {
+   "word": "culpable",
+   "definition": "Que hizo algo malo y es responsable de ello."
+  },
+  "synonyms": [
+   "responsável"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 941,
+  "word": "dente",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdẽ.tʃi/",
+  "definition": "Cada parte branca e dura da boca usada para mastigar.",
+  "examples": [
+   "Estou com dor de dente.",
+   "Escovo os dentes de manhã.",
+   "A criança perdeu um dente."
+  ],
+  "spanish": {
+   "word": "diente",
+   "definition": "Cada parte blanca y dura de la boca que sirve para masticar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 943,
+  "word": "agradável",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/a.ɡɾaˈda.vew/",
+  "definition": "Que dá prazer ou é bom de sentir.",
+  "examples": [
+   "O clima está agradável hoje.",
+   "Ela é uma pessoa agradável.",
+   "Foi uma noite muito agradável."
+  ],
+  "spanish": {
+   "word": "agradable",
+   "definition": "Que da placer o es bueno de sentir."
+  },
+  "synonyms": [
+   "gostoso",
+   "legal"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 944,
+  "word": "arrumar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/a.huˈmaʁ/",
+  "definition": "Colocar em ordem; conseguir.",
+  "examples": [
+   "Vou arrumar meu quarto.",
+   "Ela arrumou um emprego novo.",
+   "Preciso arrumar a mala."
+  ],
+  "spanish": {
+   "word": "ordenar",
+   "definition": "Poner en orden; conseguir."
+  },
+  "synonyms": [
+   "organizar",
+   "ajeitar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "arrumo",
+    "voce": "arruma",
+    "nos": "arrumamos",
+    "eles": "arrumam"
+   },
+   "preterito": {
+    "eu": "arrumei",
+    "voce": "arrumou",
+    "nos": "arrumamos",
+    "eles": "arrumaram"
+   },
+   "imperfeito": {
+    "eu": "arrumava",
+    "voce": "arrumava",
+    "nos": "arrumávamos",
+    "eles": "arrumavam"
+   },
+   "futuro": {
+    "eu": "arrumarei",
+    "voce": "arrumará",
+    "nos": "arrumaremos",
+    "eles": "arrumarão"
+   },
+   "subjuntivo": {
+    "eu": "arrume",
+    "voce": "arrume",
+    "nos": "arrumemos",
+    "eles": "arrumem"
+   }
+  }
+ },
+ {
+  "rank": 945,
+  "word": "máximo",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ˈma.si.mu/",
+  "definition": "O maior possível.",
+  "examples": [
+   "Faça o máximo que puder.",
+   "A velocidade máxima é oitenta.",
+   "Ele deu o máximo no jogo."
+  ],
+  "spanish": {
+   "word": "máximo",
+   "definition": "Lo mayor posible."
+  },
+  "synonyms": [
+   "limite"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 946,
+  "word": "política",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/poˈli.tʃi.kɐ/",
+  "definition": "Atividade de governar um país ou uma cidade.",
+  "examples": [
+   "Não gosto de falar de política.",
+   "Ela trabalha com política.",
+   "A política do país mudou."
+  ],
+  "spanish": {
+   "word": "política",
+   "definition": "Actividad de gobernar un país o una ciudad."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 947,
+  "word": "majestade",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ma.ʒesˈta.dʒi/",
+  "definition": "Título dado a reis e rainhas.",
+  "examples": [
+   "Sua Majestade chegou ao palácio.",
+   "A rainha falou com majestade.",
+   "Bom dia, Vossa Majestade."
+  ],
+  "spanish": {
+   "word": "majestad",
+   "definition": "Título que se da a reyes y reinas."
+  },
+  "synonyms": [
+   "grandeza"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 948,
+  "word": "parque",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpaʁ.ki/",
+  "definition": "Lugar público com árvores e área para passear.",
+  "examples": [
+   "Vamos ao parque no domingo.",
+   "As crianças brincam no parque.",
+   "O parque fica perto de casa."
+  ],
+  "spanish": {
+   "word": "parque",
+   "definition": "Lugar público con árboles y zona para pasear."
+  },
+  "synonyms": [
+   "jardim"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 949,
+  "word": "leite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlej.tʃi/",
+  "definition": "Líquido branco que vem da vaca e de outros animais.",
+  "examples": [
+   "Tomo café com leite.",
+   "Compre leite, por favor.",
+   "O bebê bebeu o leite."
+  ],
+  "spanish": {
+   "word": "leche",
+   "definition": "Líquido blanco que viene de la vaca y de otros animales."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 950,
+  "word": "quebrar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/keˈbɾaʁ/",
+  "definition": "Fazer uma coisa se partir em pedaços.",
+  "examples": [
+   "Eu quebrei o copo.",
+   "Cuidado para não quebrar o celular.",
+   "O carro quebrou na estrada."
+  ],
+  "spanish": {
+   "word": "romper",
+   "definition": "Hacer que una cosa se parta en pedazos."
+  },
+  "synonyms": [
+   "partir",
+   "romper"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "quebro",
+    "voce": "quebra",
+    "nos": "quebramos",
+    "eles": "quebram"
+   },
+   "preterito": {
+    "eu": "quebrei",
+    "voce": "quebrou",
+    "nos": "quebramos",
+    "eles": "quebraram"
+   },
+   "imperfeito": {
+    "eu": "quebrava",
+    "voce": "quebrava",
+    "nos": "quebrávamos",
+    "eles": "quebravam"
+   },
+   "futuro": {
+    "eu": "quebrarei",
+    "voce": "quebrará",
+    "nos": "quebraremos",
+    "eles": "quebrarão"
+   },
+   "subjuntivo": {
+    "eu": "quebre",
+    "voce": "quebre",
+    "nos": "quebremos",
+    "eles": "quebrem"
+   }
+  }
+ },
+ {
+  "rank": 951,
+  "word": "concordar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/kõ.koʁˈdaʁ/",
+  "definition": "Ter a mesma opinião.",
+  "examples": [
+   "Eu concordo com você.",
+   "Eles não concordam nunca.",
+   "Você concorda com o plano?"
+  ],
+  "spanish": {
+   "word": "estar de acuerdo",
+   "definition": "Tener la misma opinión."
+  },
+  "synonyms": [
+   "aceitar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "concordo",
+    "voce": "concorda",
+    "nos": "concordamos",
+    "eles": "concordam"
+   },
+   "preterito": {
+    "eu": "concordei",
+    "voce": "concordou",
+    "nos": "concordamos",
+    "eles": "concordaram"
+   },
+   "imperfeito": {
+    "eu": "concordava",
+    "voce": "concordava",
+    "nos": "concordávamos",
+    "eles": "concordavam"
+   },
+   "futuro": {
+    "eu": "concordarei",
+    "voce": "concordará",
+    "nos": "concordaremos",
+    "eles": "concordarão"
+   },
+   "subjuntivo": {
+    "eu": "concorde",
+    "voce": "concorde",
+    "nos": "concordemos",
+    "eles": "concordem"
+   }
+  }
+ },
+ {
+  "rank": 952,
+  "word": "discutir",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/dʒis.kuˈtʃiʁ/",
+  "definition": "Falar sobre um assunto; brigar com palavras.",
+  "examples": [
+   "Precisamos discutir o projeto.",
+   "Eles discutiram por causa do dinheiro.",
+   "Não quero discutir com você."
+  ],
+  "spanish": {
+   "word": "discutir",
+   "definition": "Hablar sobre un tema; pelear con palabras."
+  },
+  "synonyms": [
+   "debater",
+   "brigar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "discuto",
+    "voce": "discute",
+    "nos": "discutimos",
+    "eles": "discutem"
+   },
+   "preterito": {
+    "eu": "discuti",
+    "voce": "discutiu",
+    "nos": "discutimos",
+    "eles": "discutiram"
+   },
+   "imperfeito": {
+    "eu": "discutia",
+    "voce": "discutia",
+    "nos": "discutíamos",
+    "eles": "discutiam"
+   },
+   "futuro": {
+    "eu": "discutirei",
+    "voce": "discutirá",
+    "nos": "discutiremos",
+    "eles": "discutirão"
+   },
+   "subjuntivo": {
+    "eu": "discuta",
+    "voce": "discuta",
+    "nos": "discutamos",
+    "eles": "discutam"
+   }
+  }
+ },
+ {
+  "rank": 953,
+  "word": "desistir",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/de.zisˈtʃiʁ/",
+  "definition": "Parar de tentar fazer alguma coisa.",
+  "examples": [
+   "Não vou desistir do meu sonho.",
+   "Ele desistiu da viagem.",
+   "Nunca desista!"
+  ],
+  "spanish": {
+   "word": "rendirse",
+   "definition": "Dejar de intentar hacer alguna cosa."
+  },
+  "synonyms": [
+   "abandonar",
+   "renunciar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "desisto",
+    "voce": "desiste",
+    "nos": "desistimos",
+    "eles": "desistem"
+   },
+   "preterito": {
+    "eu": "desisti",
+    "voce": "desistiu",
+    "nos": "desistimos",
+    "eles": "desistiram"
+   },
+   "imperfeito": {
+    "eu": "desistia",
+    "voce": "desistia",
+    "nos": "desistíamos",
+    "eles": "desistiam"
+   },
+   "futuro": {
+    "eu": "desistirei",
+    "voce": "desistirá",
+    "nos": "desistiremos",
+    "eles": "desistirão"
+   },
+   "subjuntivo": {
+    "eu": "desista",
+    "voce": "desista",
+    "nos": "desistamos",
+    "eles": "desistam"
+   }
+  }
+ },
+ {
+  "rank": 954,
+  "word": "levantar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/le.vɐ̃ˈtaʁ/",
+  "definition": "Pôr algo mais alto; sair da cama ou da cadeira.",
+  "examples": [
+   "Eu me levanto às sete.",
+   "Levante a mão, por favor.",
+   "Ele levantou a caixa."
+  ],
+  "spanish": {
+   "word": "levantar",
+   "definition": "Poner algo más alto; salir de la cama o de la silla."
+  },
+  "synonyms": [
+   "erguer",
+   "subir"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "levanto",
+    "voce": "levanta",
+    "nos": "levantamos",
+    "eles": "levantam"
+   },
+   "preterito": {
+    "eu": "levantei",
+    "voce": "levantou",
+    "nos": "levantamos",
+    "eles": "levantaram"
+   },
+   "imperfeito": {
+    "eu": "levantava",
+    "voce": "levantava",
+    "nos": "levantávamos",
+    "eles": "levantavam"
+   },
+   "futuro": {
+    "eu": "levantarei",
+    "voce": "levantará",
+    "nos": "levantaremos",
+    "eles": "levantarão"
+   },
+   "subjuntivo": {
+    "eu": "levante",
+    "voce": "levante",
+    "nos": "levantemos",
+    "eles": "levantem"
+   }
+  }
+ },
+ {
+  "rank": 955,
+  "word": "velocidade",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ve.lo.siˈda.dʒi/",
+  "definition": "Rapidez com que algo se move.",
+  "examples": [
+   "Ele dirige em alta velocidade.",
+   "A velocidade da internet é boa.",
+   "Reduza a velocidade aqui."
+  ],
+  "spanish": {
+   "word": "velocidad",
+   "definition": "Rapidez con la que algo se mueve."
+  },
+  "synonyms": [
+   "rapidez"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 956,
+  "word": "avó",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aˈvɔ/",
+  "definition": "Mãe do pai ou da mãe de uma pessoa.",
+  "examples": [
+   "Minha avó faz um bolo delicioso.",
+   "Visito minha avó no domingo.",
+   "A avó dele tem oitenta anos."
+  ],
+  "spanish": {
+   "word": "abuela",
+   "definition": "Madre del padre o de la madre de una persona."
+  },
+  "synonyms": [
+   "vovó"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 957,
+  "word": "cirurgia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/si.ɾuʁˈʒi.ɐ/",
+  "definition": "Operação feita por um médico.",
+  "examples": [
+   "Ele fez uma cirurgia no joelho.",
+   "A cirurgia foi um sucesso.",
+   "Ela vai precisar de cirurgia."
+  ],
+  "spanish": {
+   "word": "cirugía",
+   "definition": "Operación hecha por un médico."
+  },
+  "synonyms": [
+   "operação"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 958,
+  "word": "acesso",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aˈsɛ.su/",
+  "definition": "Possibilidade de entrar ou de usar algo.",
+  "examples": [
+   "Você tem acesso à internet?",
+   "O acesso ao prédio é pela rua de trás.",
+   "Perdi o acesso à minha conta."
+  ],
+  "spanish": {
+   "word": "acceso",
+   "definition": "Posibilidad de entrar o de usar algo."
+  },
+  "synonyms": [
+   "entrada"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 959,
+  "word": "machucar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ma.ʃuˈkaʁ/",
+  "definition": "Causar dor ou ferida.",
+  "examples": [
+   "Machuquei o pé no jogo.",
+   "Cuidado para não se machucar.",
+   "Esse sapato machuca meu pé."
+  ],
+  "spanish": {
+   "word": "lastimar",
+   "definition": "Causar dolor o una herida."
+  },
+  "synonyms": [
+   "ferir"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "machuco",
+    "voce": "machuca",
+    "nos": "machucamos",
+    "eles": "machucam"
+   },
+   "preterito": {
+    "eu": "machuquei",
+    "voce": "machucou",
+    "nos": "machucamos",
+    "eles": "machucaram"
+   },
+   "imperfeito": {
+    "eu": "machucava",
+    "voce": "machucava",
+    "nos": "machucávamos",
+    "eles": "machucavam"
+   },
+   "futuro": {
+    "eu": "machucarei",
+    "voce": "machucará",
+    "nos": "machucaremos",
+    "eles": "machucarão"
+   },
+   "subjuntivo": {
+    "eu": "machuque",
+    "voce": "machuque",
+    "nos": "machuquemos",
+    "eles": "machuquem"
+   }
+  }
+ },
+ {
+  "rank": 960,
+  "word": "marca",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmaʁ.kɐ/",
+  "definition": "Nome de um produto; sinal em alguma coisa.",
+  "examples": [
+   "Qual é a marca do seu celular?",
+   "Essa marca é muito cara.",
+   "A bola deixou uma marca na parede."
+  ],
+  "spanish": {
+   "word": "marca",
+   "definition": "Nombre de un producto; señal en alguna cosa."
+  },
+  "synonyms": [
+   "sinal"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 961,
+  "word": "cinema",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/siˈne.mɐ/",
+  "definition": "Lugar onde assistimos a filmes.",
+  "examples": [
+   "Vamos ao cinema hoje?",
+   "O cinema estava cheio.",
+   "Eu adoro cinema brasileiro."
+  ],
+  "spanish": {
+   "word": "cine",
+   "definition": "Lugar donde vemos películas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 962,
+  "word": "relaxar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/he.laˈʃaʁ/",
+  "definition": "Descansar e ficar tranquilo.",
+  "examples": [
+   "Preciso relaxar um pouco.",
+   "Relaxa, vai dar tudo certo!",
+   "Ela relaxou na praia."
+  ],
+  "spanish": {
+   "word": "relajarse",
+   "definition": "Descansar y quedarse tranquilo."
+  },
+  "synonyms": [
+   "descansar",
+   "acalmar-se"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "relaxo",
+    "voce": "relaxa",
+    "nos": "relaxamos",
+    "eles": "relaxam"
+   },
+   "preterito": {
+    "eu": "relaxei",
+    "voce": "relaxou",
+    "nos": "relaxamos",
+    "eles": "relaxaram"
+   },
+   "imperfeito": {
+    "eu": "relaxava",
+    "voce": "relaxava",
+    "nos": "relaxávamos",
+    "eles": "relaxavam"
+   },
+   "futuro": {
+    "eu": "relaxarei",
+    "voce": "relaxará",
+    "nos": "relaxaremos",
+    "eles": "relaxarão"
+   },
+   "subjuntivo": {
+    "eu": "relaxe",
+    "voce": "relaxe",
+    "nos": "relaxemos",
+    "eles": "relaxem"
+   }
+  }
+ },
+ {
+  "rank": 963,
+  "word": "hum",
+  "type": [
+   "interjection"
+  ],
+  "IPA": "/ũ/",
+  "definition": "Som usado para mostrar dúvida ou que algo é gostoso.",
+  "examples": [
+   "Hum, não sei não.",
+   "Hum, que cheiro bom!",
+   "Hum, deixa eu pensar."
+  ],
+  "spanish": {
+   "word": "mmm",
+   "definition": "Sonido que muestra duda o que algo está rico."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 964,
+  "word": "livrar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/liˈvɾaʁ/",
+  "definition": "Tirar alguém de um perigo ou de um problema.",
+  "examples": [
+   "Preciso me livrar desse problema.",
+   "Ele livrou o amigo do perigo.",
+   "Vou me livrar dessas roupas velhas."
+  ],
+  "spanish": {
+   "word": "librar",
+   "definition": "Sacar a alguien de un peligro o de un problema."
+  },
+  "synonyms": [
+   "salvar",
+   "soltar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "livro",
+    "voce": "livra",
+    "nos": "livramos",
+    "eles": "livram"
+   },
+   "preterito": {
+    "eu": "livrei",
+    "voce": "livrou",
+    "nos": "livramos",
+    "eles": "livraram"
+   },
+   "imperfeito": {
+    "eu": "livrava",
+    "voce": "livrava",
+    "nos": "livrávamos",
+    "eles": "livravam"
+   },
+   "futuro": {
+    "eu": "livrarei",
+    "voce": "livrará",
+    "nos": "livraremos",
+    "eles": "livrarão"
+   },
+   "subjuntivo": {
+    "eu": "livre",
+    "voce": "livre",
+    "nos": "livremos",
+    "eles": "livrem"
+   }
+  }
+ },
+ {
+  "rank": 965,
+  "word": "vento",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈvẽ.tu/",
+  "definition": "Ar que se move com força.",
+  "examples": [
+   "O vento está forte hoje.",
+   "O vento levou meu chapéu.",
+   "Gosto do vento do mar."
+  ],
+  "spanish": {
+   "word": "viento",
+   "definition": "Aire que se mueve con fuerza."
+  },
+  "synonyms": [
+   "brisa"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 966,
+  "word": "encontrado",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ẽ.kõˈtɾa.du/",
+  "definition": "Que alguém achou.",
+  "examples": [
+   "O celular foi encontrado na rua.",
+   "O cachorro encontrado está bem.",
+   "Nada foi encontrado na casa."
+  ],
+  "spanish": {
+   "word": "encontrado",
+   "definition": "Que alguien halló."
+  },
+  "synonyms": [
+   "achado"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 967,
+  "word": "depender",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/de.pẽˈdeʁ/",
+  "definition": "Precisar de alguém ou de algo.",
+  "examples": [
+   "Isso depende de você.",
+   "Ele ainda depende dos pais.",
+   "Vai depender do tempo."
+  ],
+  "spanish": {
+   "word": "depender",
+   "definition": "Necesitar de alguien o de algo."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "presente": {
+    "eu": "dependo",
+    "voce": "depende",
+    "nos": "dependemos",
+    "eles": "dependem"
+   },
+   "preterito": {
+    "eu": "dependi",
+    "voce": "dependeu",
+    "nos": "dependemos",
+    "eles": "dependeram"
+   },
+   "imperfeito": {
+    "eu": "dependia",
+    "voce": "dependia",
+    "nos": "dependíamos",
+    "eles": "dependiam"
+   },
+   "futuro": {
+    "eu": "dependerei",
+    "voce": "dependerá",
+    "nos": "dependeremos",
+    "eles": "dependerão"
+   },
+   "subjuntivo": {
+    "eu": "dependa",
+    "voce": "dependa",
+    "nos": "dependamos",
+    "eles": "dependam"
+   }
+  }
+ },
+ {
+  "rank": 968,
+  "word": "acabado",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/a.kaˈba.du/",
+  "definition": "Que terminou; muito cansado ou gasto.",
+  "examples": [
+   "O trabalho está acabado.",
+   "Estou acabado depois do jogo.",
+   "O sapato está acabado."
+  ],
+  "spanish": {
+   "word": "acabado",
+   "definition": "Que terminó; muy cansado o gastado."
+  },
+  "synonyms": [
+   "terminado",
+   "pronto"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 969,
+  "word": "portanto",
+  "type": [
+   "conjunction"
+  ],
+  "IPA": "/poʁˈtɐ̃.tu/",
+  "definition": "Por isso; então.",
+  "examples": [
+   "Está chovendo, portanto vamos ficar em casa.",
+   "Estudei muito, portanto passei.",
+   "Ele é novo aqui, portanto não conhece ninguém."
+  ],
+  "spanish": {
+   "word": "por lo tanto",
+   "definition": "Por eso; entonces."
+  },
+  "synonyms": [
+   "logo",
+   "então"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 970,
+  "word": "sobreviver",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/so.bɾe.viˈveʁ/",
+  "definition": "Continuar vivo depois de um perigo.",
+  "examples": [
+   "Ele sobreviveu ao acidente.",
+   "As plantas não sobrevivem sem água.",
+   "Vamos sobreviver a esta semana!"
+  ],
+  "spanish": {
+   "word": "sobrevivir",
+   "definition": "Seguir vivo después de un peligro."
+  },
+  "synonyms": [
+   "resistir"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "sobrevivo",
+    "voce": "sobrevive",
+    "nos": "sobrevivemos",
+    "eles": "sobrevivem"
+   },
+   "preterito": {
+    "eu": "sobrevivi",
+    "voce": "sobreviveu",
+    "nos": "sobrevivemos",
+    "eles": "sobreviveram"
+   },
+   "imperfeito": {
+    "eu": "sobrevivia",
+    "voce": "sobrevivia",
+    "nos": "sobrevivíamos",
+    "eles": "sobreviviam"
+   },
+   "futuro": {
+    "eu": "sobreviverei",
+    "voce": "sobreviverá",
+    "nos": "sobreviveremos",
+    "eles": "sobreviverão"
+   },
+   "subjuntivo": {
+    "eu": "sobreviva",
+    "voce": "sobreviva",
+    "nos": "sobrevivamos",
+    "eles": "sobrevivam"
+   }
+  }
+ },
+ {
+  "rank": 971,
+  "word": "ti",
+  "type": [
+   "pronoun"
+  ],
+  "IPA": "/ˈtʃi/",
+  "definition": "Forma de \"tu\" usada depois de preposição; pouco comum no Brasil.",
+  "examples": [
+   "Isso é para ti.",
+   "Eu penso em ti.",
+   "Só confio em ti."
+  ],
+  "spanish": {
+   "word": "ti",
+   "definition": "Forma de \"tu\" que se usa después de preposición; poco común en Brasil."
+  },
+  "synonyms": [
+   "você"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 972,
+  "word": "fechar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/feˈʃaʁ/",
+  "definition": "Tampar uma abertura; encerrar.",
+  "examples": [
+   "Feche a porta, por favor.",
+   "A loja fecha às seis.",
+   "Eu fechei os olhos."
+  ],
+  "spanish": {
+   "word": "cerrar",
+   "definition": "Tapar una abertura; terminar."
+  },
+  "synonyms": [
+   "encerrar",
+   "trancar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "fecho",
+    "voce": "fecha",
+    "nos": "fechamos",
+    "eles": "fecham"
+   },
+   "preterito": {
+    "eu": "fechei",
+    "voce": "fechou",
+    "nos": "fechamos",
+    "eles": "fecharam"
+   },
+   "imperfeito": {
+    "eu": "fechava",
+    "voce": "fechava",
+    "nos": "fechávamos",
+    "eles": "fechavam"
+   },
+   "futuro": {
+    "eu": "fecharei",
+    "voce": "fechará",
+    "nos": "fecharemos",
+    "eles": "fecharão"
+   },
+   "subjuntivo": {
+    "eu": "feche",
+    "voce": "feche",
+    "nos": "fechemos",
+    "eles": "fechem"
+   }
+  }
+ },
+ {
+  "rank": 973,
+  "word": "permissão",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/peʁ.miˈsɐ̃w̃/",
+  "definition": "Autorização para fazer alguma coisa.",
+  "examples": [
+   "Peça permissão para sair.",
+   "Você tem permissão para entrar?",
+   "Ele saiu sem permissão."
+  ],
+  "spanish": {
+   "word": "permiso",
+   "definition": "Autorización para hacer alguna cosa."
+  },
+  "synonyms": [
+   "autorização",
+   "licença"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 974,
+  "word": "princesa",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pɾĩˈse.zɐ/",
+  "definition": "Filha de um rei ou de uma rainha.",
+  "examples": [
+   "A princesa mora no castelo.",
+   "Minha filha é uma princesa.",
+   "A princesa casou com o rei."
+  ],
+  "spanish": {
+   "word": "princesa",
+   "definition": "Hija de un rey o de una reina."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 975,
+  "word": "maldição",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/maw.dʒiˈsɐ̃w̃/",
+  "definition": "Palavras que desejam o mal; desgraça.",
+  "examples": [
+   "A bruxa lançou uma maldição.",
+   "Essa casa tem uma maldição.",
+   "Parece uma maldição!"
+  ],
+  "spanish": {
+   "word": "maldición",
+   "definition": "Palabras que desean el mal; desgracia."
+  },
+  "synonyms": [
+   "praga"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 976,
+  "word": "briga",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbɾi.ɡɐ/",
+  "definition": "Discussão forte ou luta entre pessoas.",
+  "examples": [
+   "Teve uma briga no bar.",
+   "A briga acabou rápido.",
+   "Não quero briga com você."
+  ],
+  "spanish": {
+   "word": "pelea",
+   "definition": "Discusión fuerte o lucha entre personas."
+  },
+  "synonyms": [
+   "luta",
+   "discussão"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 977,
+  "word": "desaparecer",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/de.za.pa.ɾeˈseʁ/",
+  "definition": "Deixar de ser visto; sumir.",
+  "examples": [
+   "Meu celular desapareceu.",
+   "O sol desapareceu atrás da nuvem.",
+   "Ele desapareceu sem avisar."
+  ],
+  "spanish": {
+   "word": "desaparecer",
+   "definition": "Dejar de verse; esfumarse."
+  },
+  "synonyms": [
+   "sumir"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "desapareço",
+    "voce": "desaparece",
+    "nos": "desaparecemos",
+    "eles": "desaparecem"
+   },
+   "preterito": {
+    "eu": "desapareci",
+    "voce": "desapareceu",
+    "nos": "desaparecemos",
+    "eles": "desapareceram"
+   },
+   "imperfeito": {
+    "eu": "desaparecia",
+    "voce": "desaparecia",
+    "nos": "desaparecíamos",
+    "eles": "desapareciam"
+   },
+   "futuro": {
+    "eu": "desaparecerei",
+    "voce": "desaparecerá",
+    "nos": "desapareceremos",
+    "eles": "desaparecerão"
+   },
+   "subjuntivo": {
+    "eu": "desapareça",
+    "voce": "desapareça",
+    "nos": "desapareçamos",
+    "eles": "desapareçam"
+   }
+  }
+ },
+ {
+  "rank": 978,
+  "word": "anel",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aˈnɛw/",
+  "definition": "Joia usada no dedo.",
+  "examples": [
+   "Ele me deu um anel.",
+   "Perdi meu anel de ouro.",
+   "Esse anel é da minha avó."
+  ],
+  "spanish": {
+   "word": "anillo",
+   "definition": "Joya que se usa en el dedo."
+  },
+  "synonyms": [
+   "aliança"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 979,
+  "word": "pago",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈpa.ɡu/",
+  "definition": "Que alguém já pagou.",
+  "examples": [
+   "O almoço já está pago.",
+   "O estacionamento é pago.",
+   "O salário foi pago ontem."
+  ],
+  "spanish": {
+   "word": "pagado",
+   "definition": "Que alguien ya pagó."
+  },
+  "synonyms": [
+   "quitado"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 980,
+  "word": "normalmente",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/noʁ.mawˈmẽ.tʃi/",
+  "definition": "Na maioria das vezes; de forma normal.",
+  "examples": [
+   "Normalmente acordo às sete.",
+   "Ele normalmente vem de ônibus.",
+   "A loja abre normalmente amanhã."
+  ],
+  "spanish": {
+   "word": "normalmente",
+   "definition": "La mayoría de las veces; de forma normal."
+  },
+  "synonyms": [
+   "geralmente"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 981,
+  "word": "parado",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/paˈɾa.du/",
+  "definition": "Que não se move.",
+  "examples": [
+   "O carro está parado.",
+   "Fiquei parado no trânsito.",
+   "Não fique parado aí!"
+  ],
+  "spanish": {
+   "word": "parado",
+   "definition": "Que no se mueve."
+  },
+  "synonyms": [
+   "imóvel"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 982,
+  "word": "dono",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdo.nu/",
+  "definition": "Pessoa a quem uma coisa pertence.",
+  "examples": [
+   "Quem é o dono do carro?",
+   "O dono da loja é simpático.",
+   "O cachorro ama seu dono."
+  ],
+  "spanish": {
+   "word": "dueño",
+   "definition": "Persona a quien pertenece una cosa."
+  },
+  "synonyms": [
+   "proprietário"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 983,
+  "word": "descansar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/dʒis.kɐ̃ˈsaʁ/",
+  "definition": "Parar de trabalhar para recuperar as forças.",
+  "examples": [
+   "Preciso descansar hoje.",
+   "Ela descansou depois do almoço.",
+   "Vá descansar um pouco."
+  ],
+  "spanish": {
+   "word": "descansar",
+   "definition": "Dejar de trabajar para recuperar fuerzas."
+  },
+  "synonyms": [
+   "repousar",
+   "relaxar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "descanso",
+    "voce": "descansa",
+    "nos": "descansamos",
+    "eles": "descansam"
+   },
+   "preterito": {
+    "eu": "descansei",
+    "voce": "descansou",
+    "nos": "descansamos",
+    "eles": "descansaram"
+   },
+   "imperfeito": {
+    "eu": "descansava",
+    "voce": "descansava",
+    "nos": "descansávamos",
+    "eles": "descansavam"
+   },
+   "futuro": {
+    "eu": "descansarei",
+    "voce": "descansará",
+    "nos": "descansaremos",
+    "eles": "descansarão"
+   },
+   "subjuntivo": {
+    "eu": "descanse",
+    "voce": "descanse",
+    "nos": "descansemos",
+    "eles": "descansem"
+   }
+  }
+ },
+ {
+  "rank": 984,
+  "word": "palco",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpaw.ku/",
+  "definition": "Lugar alto onde artistas se apresentam.",
+  "examples": [
+   "A cantora subiu no palco.",
+   "O palco é muito grande.",
+   "Ele tem medo de palco."
+  ],
+  "spanish": {
+   "word": "escenario",
+   "definition": "Lugar alto donde se presentan los artistas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 985,
+  "word": "ponte",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpõ.tʃi/",
+  "definition": "Construção que passa por cima de um rio ou de uma rua.",
+  "examples": [
+   "A ponte é muito antiga.",
+   "Atravessamos a ponte a pé.",
+   "A ponte liga as duas cidades."
+  ],
+  "spanish": {
+   "word": "puente",
+   "definition": "Construcción que pasa por encima de un río o de una calle."
+  },
+  "synonyms": [
+   "viaduto"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 986,
+  "word": "noiva",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnoj.vɐ/",
+  "definition": "Mulher que vai se casar.",
+  "examples": [
+   "A noiva está linda.",
+   "Minha noiva é do Brasil.",
+   "A noiva chegou à igreja."
+  ],
+  "spanish": {
+   "word": "novia",
+   "definition": "Mujer que se va a casar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 987,
+  "word": "casado",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/kaˈza.du/",
+  "definition": "Que tem marido ou esposa.",
+  "examples": [
+   "Ele é casado há dez anos.",
+   "Você é casado?",
+   "Meus pais são casados."
+  ],
+  "spanish": {
+   "word": "casado",
+   "definition": "Que tiene marido o esposa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 988,
+  "word": "língua",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlĩ.ɡwɐ/",
+  "definition": "Idioma; parte da boca que sente o gosto.",
+  "examples": [
+   "O português é uma língua bonita.",
+   "Queimei a língua com o café.",
+   "Quantas línguas você fala?"
+  ],
+  "spanish": {
+   "word": "lengua",
+   "definition": "Idioma; parte de la boca que siente el sabor."
+  },
+  "synonyms": [
+   "idioma"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 989,
+  "word": "ouvido",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/oˈvi.du/",
+  "definition": "Parte do corpo que usamos para escutar.",
+  "examples": [
+   "Estou com dor de ouvido.",
+   "Ele falou no meu ouvido.",
+   "Música alta faz mal ao ouvido."
+  ],
+  "spanish": {
+   "word": "oído",
+   "definition": "Parte del cuerpo que usamos para escuchar."
+  },
+  "synonyms": [
+   "orelha"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 990,
+  "word": "peso",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpe.zu/",
+  "definition": "Quanto uma coisa ou pessoa pesa.",
+  "examples": [
+   "Qual é o seu peso?",
+   "Essa mala tem muito peso.",
+   "Perdi peso este ano."
+  ],
+  "spanish": {
+   "word": "peso",
+   "definition": "Cuánto pesa una cosa o una persona."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 991,
+  "word": "trocar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/tɾoˈkaʁ/",
+  "definition": "Dar uma coisa e receber outra; substituir.",
+  "examples": [
+   "Vou trocar de roupa.",
+   "Troquei o celular por um novo.",
+   "Vamos trocar ideias."
+  ],
+  "spanish": {
+   "word": "cambiar",
+   "definition": "Dar una cosa y recibir otra; sustituir."
+  },
+  "synonyms": [
+   "mudar",
+   "substituir"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "troco",
+    "voce": "troca",
+    "nos": "trocamos",
+    "eles": "trocam"
+   },
+   "preterito": {
+    "eu": "troquei",
+    "voce": "trocou",
+    "nos": "trocamos",
+    "eles": "trocaram"
+   },
+   "imperfeito": {
+    "eu": "trocava",
+    "voce": "trocava",
+    "nos": "trocávamos",
+    "eles": "trocavam"
+   },
+   "futuro": {
+    "eu": "trocarei",
+    "voce": "trocará",
+    "nos": "trocaremos",
+    "eles": "trocarão"
+   },
+   "subjuntivo": {
+    "eu": "troque",
+    "voce": "troque",
+    "nos": "troquemos",
+    "eles": "troquem"
+   }
+  }
+ },
+ {
+  "rank": 992,
+  "word": "debaixo",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/deˈbaj.ʃu/",
+  "definition": "Em posição mais baixa que outra coisa.",
+  "examples": [
+   "O gato está debaixo da mesa.",
+   "Coloquei a mala debaixo da cama.",
+   "Ficamos debaixo da árvore."
+  ],
+  "spanish": {
+   "word": "debajo",
+   "definition": "En una posición más baja que otra cosa."
+  },
+  "synonyms": [
+   "embaixo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 993,
+  "word": "unido",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/uˈni.du/",
+  "definition": "Que está junto; que tem boa relação.",
+  "examples": [
+   "Minha família é muito unida.",
+   "Eles são amigos unidos.",
+   "O time está unido."
+  ],
+  "spanish": {
+   "word": "unido",
+   "definition": "Que está junto; que tiene buena relación."
+  },
+  "synonyms": [
+   "junto"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 994,
+  "word": "correto",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/koˈhɛ.tu/",
+  "definition": "Que não tem erro.",
+  "examples": [
+   "A resposta está correta.",
+   "Esse é o caminho correto.",
+   "Ele é um homem correto."
+  ],
+  "spanish": {
+   "word": "correcto",
+   "definition": "Que no tiene errores."
+  },
+  "synonyms": [
+   "certo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 996,
+  "word": "obter",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/obiˈteʁ/",
+  "definition": "Conseguir alguma coisa.",
+  "examples": [
+   "Ele obteve bons resultados.",
+   "Quero obter mais informação.",
+   "Ela obteve o visto."
+  ],
+  "spanish": {
+   "word": "obtener",
+   "definition": "Conseguir alguna cosa."
+  },
+  "synonyms": [
+   "conseguir"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "obtenho",
+    "voce": "obtém",
+    "nos": "obtemos",
+    "eles": "obtêm"
+   },
+   "preterito": {
+    "eu": "obtive",
+    "voce": "obteve",
+    "nos": "obtivemos",
+    "eles": "obtiveram"
+   },
+   "imperfeito": {
+    "eu": "obtinha",
+    "voce": "obtinha",
+    "nos": "obtínhamos",
+    "eles": "obtinham"
+   },
+   "futuro": {
+    "eu": "obterei",
+    "voce": "obterá",
+    "nos": "obteremos",
+    "eles": "obterão"
+   },
+   "subjuntivo": {
+    "eu": "obtenha",
+    "voce": "obtenha",
+    "nos": "obtenhamos",
+    "eles": "obtenham"
+   }
+  }
+ },
+ {
+  "rank": 997,
+  "word": "controlar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/kõ.tɾoˈlaʁ/",
+  "definition": "Dirigir ou dominar alguma coisa.",
+  "examples": [
+   "Preciso controlar meus gastos.",
+   "Ele controla tudo no escritório.",
+   "Não consigo controlar o medo."
+  ],
+  "spanish": {
+   "word": "controlar",
+   "definition": "Dirigir o dominar alguna cosa."
+  },
+  "synonyms": [
+   "dominar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "controlo",
+    "voce": "controla",
+    "nos": "controlamos",
+    "eles": "controlam"
+   },
+   "preterito": {
+    "eu": "controlei",
+    "voce": "controlou",
+    "nos": "controlamos",
+    "eles": "controlaram"
+   },
+   "imperfeito": {
+    "eu": "controlava",
+    "voce": "controlava",
+    "nos": "controlávamos",
+    "eles": "controlavam"
+   },
+   "futuro": {
+    "eu": "controlarei",
+    "voce": "controlará",
+    "nos": "controlaremos",
+    "eles": "controlarão"
+   },
+   "subjuntivo": {
+    "eu": "controle",
+    "voce": "controle",
+    "nos": "controlemos",
+    "eles": "controlem"
+   }
+  }
+ },
+ {
+  "rank": 998,
+  "word": "calça",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkaw.sɐ/",
+  "definition": "Roupa que cobre as pernas.",
+  "examples": [
+   "Comprei uma calça jeans.",
+   "Essa calça está apertada.",
+   "Ele usa calça preta."
+  ],
+  "spanish": {
+   "word": "pantalón",
+   "definition": "Prenda que cubre las piernas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 999,
+  "word": "orgulho",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/oʁˈɡu.ʎu/",
+  "definition": "Sentimento de satisfação com algo ou alguém.",
+  "examples": [
+   "Tenho orgulho de você.",
+   "Ela sente orgulho da filha.",
+   "Meu pai é meu orgulho."
+  ],
+  "spanish": {
+   "word": "orgullo",
+   "definition": "Sentimiento de satisfacción por algo o alguien."
+  },
+  "synonyms": [
+   "honra"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 1000,
+  "word": "acordar",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/a.koʁˈdaʁ/",
+  "definition": "Parar de dormir.",
+  "examples": [
+   "Eu acordo às seis.",
+   "Acorde, já é tarde!",
+   "Ele acordou de bom humor."
+  ],
+  "spanish": {
+   "word": "despertar",
+   "definition": "Dejar de dormir."
+  },
+  "synonyms": [
+   "despertar"
+  ],
+  "conjugations": {
+   "presente": {
+    "eu": "acordo",
+    "voce": "acorda",
+    "nos": "acordamos",
+    "eles": "acordam"
+   },
+   "preterito": {
+    "eu": "acordei",
+    "voce": "acordou",
+    "nos": "acordamos",
+    "eles": "acordaram"
+   },
+   "imperfeito": {
+    "eu": "acordava",
+    "voce": "acordava",
+    "nos": "acordávamos",
+    "eles": "acordavam"
+   },
+   "futuro": {
+    "eu": "acordarei",
+    "voce": "acordará",
+    "nos": "acordaremos",
+    "eles": "acordarão"
+   },
+   "subjuntivo": {
+    "eu": "acorde",
+    "voce": "acorde",
+    "nos": "acordemos",
+    "eles": "acordem"
+   }
+  }
+ }
+]

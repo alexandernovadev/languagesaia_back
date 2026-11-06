@@ -1,4 +1,6 @@
 import Word from "../../db/models/Word";
+import UserWord from "../../db/models/UserWord";
+import { joinWord, toObjectId } from "./UserWordService";
 import { IWord } from "../../../../types/models";
 import { escapeRegex } from "../../utils/escapeRegex";
 import { normalizeWordKey } from "../../utils/text/normalizeWordKey";
@@ -30,7 +32,9 @@ export class WordService {
     return await Word.findById(id);
   }
 
+  /** The learner's list, with the dictionary's data and their own. */
   async getWords(
+    userId: string,
     filters: {
       page?: number;
       limit?: number;
@@ -55,7 +59,7 @@ export class WordService {
       updatedAfter?: string;
       updatedBefore?: string;
     } = {}
-  ): Promise<PaginatedResult<IWord>> {
+  ): Promise<PaginatedResult<any>> {
     const {
       page = 1,
       limit = 10,
@@ -195,20 +199,25 @@ export class WordService {
       filter.updatedAt = updatedAtFilter;
     }
 
-    const total = await Word.countDocuments(filter);
-    const pages = Math.ceil(total / limit);
+    // difficulty, seen and language are on UserWord; the rest is on the word
+    const { difficulty: byDifficulty, seen: bySeen, language: byLanguage, ...wordFilter } = filter;
+    const mine: Record<string, unknown> = { userId: toObjectId(userId) };
+    if (byDifficulty) mine.difficulty = byDifficulty;
+    if (bySeen) mine.seen = bySeen;
+    if (byLanguage) mine.language = byLanguage;
 
-    const sortDirection = sortOrder === "asc" ? 1 : -1;
-    const sortOptions: Record<string, 1 | -1> = {};
-    sortOptions[sortBy] = sortDirection as 1 | -1;
+    const sortField = sortBy === "createdAt" ? "addedAt" : sortBy;
+    const [result] = await UserWord.aggregate([
+      { $match: mine },
+      ...joinWord,
+      { $match: wordFilter },
+      { $sort: { [sortField]: sortOrder === "asc" ? 1 : -1 } },
+      { $project: { chat: 0 } },
+      { $facet: { data: [{ $skip: (page - 1) * limit }, { $limit: limit }], count: [{ $count: "total" }] } },
+    ]);
 
-    const data = await Word.find(filter)
-      .sort(sortOptions)
-      .skip((page - 1) * limit)
-      .limit(limit)
-      .exec();
-
-    return { data, total, page, pages };
+    const total = result.count[0]?.total ?? 0;
+    return { data: result.data, total, page, pages: Math.ceil(total / limit) };
   }
 
   async updateWord(id: string, updateData: Partial<IWord>): Promise<IWord | null> {
@@ -230,10 +239,6 @@ export class WordService {
     }
 
     return await Word.findByIdAndUpdate(id, updateData, { new: true });
-  }
-
-  async updateWordDifficulty(id: string, difficulty: string): Promise<{ difficulty?: string } | null> {
-    return await Word.findByIdAndUpdate(id, { difficulty }, { new: true, projection: { difficulty: 1 } });
   }
 
   async updateWordExamples(id: string, examples: string[]): Promise<{ examples?: string[] } | null> {
@@ -262,31 +267,12 @@ export class WordService {
     return await Word.findByIdAndUpdate(id, { img }, { new: true, projection: { img: 1 } });
   }
 
-  async incrementWordSeen(id: string): Promise<{ seen?: number } | null> {
-    return await Word.findByIdAndUpdate(id, { $inc: { seen: 1 } }, { new: true, projection: { seen: 1 } });
-  }
-
-  async deleteWord(id: string): Promise<IWord | null> {
-    return await Word.findByIdAndDelete(id);
-  }
-
   async findWordByWord(word: string, language?: string): Promise<IWord | null> {
     const query: Record<string, unknown> = { wordKey: normalizeWordKey(word) };
     if (language) query.language = language;
     return await Word.findOne(query);
   }
 
-  async updateWordReview(wordId: string, difficulty: number): Promise<IWord | null> {
-    const word = await Word.findById(wordId);
-    if (!word) return null;
-
-    const updateData = {
-      difficulty: difficulty === 1 ? "easy" : difficulty === 2 ? "medium" : "hard",
-      seen: (word.seen || 0) + 1,
-    };
-
-    return await Word.findByIdAndUpdate(wordId, updateData, { new: true });
-  }
 }
 
 export default new WordService();

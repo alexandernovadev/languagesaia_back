@@ -1,58 +1,34 @@
-import Word from "../../db/models/Word";
-import { IWord, ChatMessage } from "../../../../types/models";
+import UserWord from "../../db/models/UserWord";
+import { IUserWord, ChatMessage } from "../../../../types/models";
 import { generateId } from "../../utils/generateId";
 import { MAX_CHAT_MESSAGES } from "../../../config/constants";
 
+/** Each learner has their own chat about a word. */
 export class WordChatService {
-  async addChatMessage(wordId: string, message: string): Promise<IWord | null> {
-    return await this.addUserMessage(wordId, message);
+  private async add(userId: string, wordId: string, role: ChatMessage["role"], content: string): Promise<IUserWord | null> {
+    const mine = await UserWord.findOne({ userId, wordId });
+    if (!mine) return null;
+
+    mine.chat.push({ id: generateId(), role, content, timestamp: new Date() });
+    if (mine.chat.length > MAX_CHAT_MESSAGES) mine.chat = mine.chat.slice(-MAX_CHAT_MESSAGES);
+    return mine.save();
   }
 
-  async addUserMessage(wordId: string, message: string): Promise<IWord | null> {
-    const word = await Word.findById(wordId);
-    if (!word) return null;
-
-    const userMessage: ChatMessage = {
-      id: generateId(),
-      role: "user",
-      content: message,
-      timestamp: new Date(),
-    };
-
-    word.chat = word.chat || [];
-    word.chat.push(userMessage);
-    if (word.chat.length > MAX_CHAT_MESSAGES) word.chat = word.chat.slice(-MAX_CHAT_MESSAGES);
-    return await word.save();
+  addUserMessage(userId: string, wordId: string, message: string) {
+    return this.add(userId, wordId, "user", message);
   }
 
-  async addAssistantMessage(wordId: string, message: string): Promise<IWord | null> {
-    const word = await Word.findById(wordId);
-    if (!word) return null;
-
-    const assistantMessage: ChatMessage = {
-      id: generateId(),
-      role: "assistant",
-      content: message,
-      timestamp: new Date(),
-    };
-
-    word.chat = word.chat || [];
-    word.chat.push(assistantMessage);
-    if (word.chat.length > MAX_CHAT_MESSAGES) word.chat = word.chat.slice(-MAX_CHAT_MESSAGES);
-    return await word.save();
+  addAssistantMessage(userId: string, wordId: string, message: string) {
+    return this.add(userId, wordId, "assistant", message);
   }
 
-  async getChatHistory(wordId: string): Promise<ChatMessage[]> {
-    const word = await Word.findById(wordId);
-    if (!word) return [];
-    return word.chat || [];
+  async getChatHistory(userId: string, wordId: string): Promise<ChatMessage[]> {
+    const mine = await UserWord.findOne({ userId, wordId });
+    return mine?.chat ?? [];
   }
 
-  async clearChatHistory(wordId: string): Promise<IWord | null> {
-    const word = await Word.findById(wordId);
-    if (!word) return null;
-    word.chat = [];
-    return await word.save();
+  async clearChatHistory(userId: string, wordId: string): Promise<IUserWord | null> {
+    return UserWord.findOneAndUpdate({ userId, wordId }, { chat: [] }, { new: true });
   }
 }
 

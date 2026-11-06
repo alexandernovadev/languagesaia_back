@@ -1,10 +1,15 @@
-import { IWord } from "../../../types/models";
+import { ChatMessage, IWord, IWordReview } from "../../../types/models";
 
 // Strategies for handling duplicates
 export type DuplicateStrategy = 'skip' | 'overwrite' | 'error' | 'merge';
 
+/** A word as it comes in a file: the dictionary's data plus the learner's. */
+export type ImportedWord = Partial<IWord> & { difficulty?: string; seen?: number; chat?: ChatMessage[]; review?: IWordReview };
+
 // Import configuration
 export interface ImportConfig {
+  /** Who the imported progress (difficulty, seen, chat) belongs to. */
+  userId: string;
   duplicateStrategy: DuplicateStrategy;
   validateOnly: boolean;
   batchSize: number;
@@ -81,8 +86,8 @@ export interface ImportResult {
 }
 
 // Specific types for backwards compatibility
-export interface WordProcessingResult extends ProcessingResult<Partial<IWord>> {
-  word: Partial<IWord>; // Backwards compatibility
+export interface WordProcessingResult extends ProcessingResult<ImportedWord> {
+  word: ImportedWord; // Backwards compatibility
 }
 
 export interface WordImportResult extends ImportResult {

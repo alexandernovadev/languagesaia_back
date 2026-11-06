@@ -1,8 +1,7 @@
-import { IWord } from "../../../../types/models";
-import { ValidationResult } from "../importTypes";
+import { ImportedWord, ValidationResult } from "../importTypes";
 
 export class WordValidator {
-  static validateWord(word: Partial<IWord>, index: number): ValidationResult {
+  static validateWord(word: ImportedWord, index: number): ValidationResult {
     const errors: string[] = [];
     const warnings: string[] = [];
 
@@ -58,7 +57,7 @@ export class WordValidator {
     };
   }
 
-  static validateWords(words: Partial<IWord>[]): ValidationResult[] {
+  static validateWords(words: ImportedWord[]): ValidationResult[] {
     return words.map((word, index) => this.validateWord(word, index));
   }
 } 

@@ -4,6 +4,7 @@ import { WordExportService } from "../services/words/WordExportService";
 import { WordImportService } from "../services/import/WordImportService";
 import { errorResponse, successResponse } from "../utils/responseHelpers";
 import { validateJsonBuffer, MAX_IMPORT_ITEMS } from "../middlewares/uploadMiddleware";
+import { getUserId } from "../utils/http/requestUser";
 import logger from "../utils/logger";
 
 const wordExportService = new WordExportService();
@@ -127,6 +128,7 @@ export const importWordsFromFile = async (
 
     // Import words
     const importResult = await wordImportService.importWords(words, {
+      userId: getUserId(req),
       duplicateStrategy: duplicateStrategy as any,
       validateOnly: false,
       batchSize: batchSizeNum,

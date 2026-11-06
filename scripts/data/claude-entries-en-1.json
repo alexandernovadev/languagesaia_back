@@ -1,0 +1,2366 @@
+[
+  {
+    "rank": 1,
+    "word": "you",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/juː/",
+    "definition": "The person or people someone is talking to.",
+    "examples": [
+      "You are my best friend.",
+      "Do you speak English?",
+      "I can help you."
+    ],
+    "spanish": {
+      "word": "tú / usted",
+      "definition": "La persona o personas a las que se habla."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 2,
+    "word": "I",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/aɪ/",
+    "definition": "The person who is speaking or writing.",
+    "examples": [
+      "I am tired.",
+      "I live in Colombia.",
+      "I like coffee."
+    ],
+    "spanish": {
+      "word": "yo",
+      "definition": "La persona que habla o escribe."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 3,
+    "word": "the",
+    "type": [
+      "determiner"
+    ],
+    "IPA": "/ðə/",
+    "definition": "Used before a noun when we know which one.",
+    "examples": [
+      "The door is open.",
+      "Where is the car?",
+      "I saw the movie."
+    ],
+    "spanish": {
+      "word": "el / la / los / las",
+      "definition": "Se usa antes de un sustantivo cuando sabemos cuál es."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4,
+    "word": "a",
+    "type": [
+      "determiner"
+    ],
+    "IPA": "/ə/",
+    "definition": "Used before a singular noun when it is one of many.",
+    "examples": [
+      "I have a dog.",
+      "She is a teacher.",
+      "He bought a car."
+    ],
+    "spanish": {
+      "word": "un / una",
+      "definition": "Se usa antes de un sustantivo singular no específico."
+    },
+    "synonyms": [
+      "one"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 5,
+    "word": "it",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/ɪt/",
+    "definition": "A thing, an animal or a situation already mentioned.",
+    "examples": [
+      "It is raining.",
+      "I love it.",
+      "Where is it?"
+    ],
+    "spanish": {
+      "word": "eso / lo",
+      "definition": "Una cosa, animal o situación ya mencionada."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 6,
+    "word": "and",
+    "type": [
+      "conjunction"
+    ],
+    "IPA": "/ænd/",
+    "definition": "Used to join words or ideas.",
+    "examples": [
+      "I like tea and coffee.",
+      "She sings and dances.",
+      "You and I are friends."
+    ],
+    "spanish": {
+      "word": "y",
+      "definition": "Se usa para unir palabras o ideas."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 7,
+    "word": "that",
+    "type": [
+      "determiner",
+      "pronoun",
+      "conjunction"
+    ],
+    "IPA": "/ðæt/",
+    "definition": "Used for something that is not near; also introduces a clause.",
+    "examples": [
+      "That car is new.",
+      "What is that?",
+      "I think that he is right."
+    ],
+    "spanish": {
+      "word": "ese / eso / que",
+      "definition": "Se usa para algo que no está cerca; también introduce una oración."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 8,
+    "word": "of",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/ʌv/",
+    "definition": "Shows that something belongs to or is part of something.",
+    "examples": [
+      "A cup of coffee.",
+      "The name of the street.",
+      "She is a friend of mine."
+    ],
+    "spanish": {
+      "word": "de",
+      "definition": "Indica pertenencia o que algo es parte de otra cosa."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 9,
+    "word": "be",
+    "type": [
+      "verb",
+      "auxiliary verb"
+    ],
+    "IPA": "/biː/",
+    "definition": "To exist; used to describe people and things.",
+    "examples": [
+      "I am happy.",
+      "She is my sister.",
+      "They were at home."
+    ],
+    "spanish": {
+      "word": "ser / estar",
+      "definition": "Existir; se usa para describir personas y cosas."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "be",
+        "past": "was / were",
+        "participle": "been",
+        "gerund": "being",
+        "third": "is"
+      }
+    }
+  },
+  {
+    "rank": 10,
+    "word": "in",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/ɪn/",
+    "definition": "Inside a place, or during a period of time.",
+    "examples": [
+      "She lives in Brazil.",
+      "The keys are in my bag.",
+      "I was born in May."
+    ],
+    "spanish": {
+      "word": "en / dentro de",
+      "definition": "Dentro de un lugar o durante un período."
+    },
+    "synonyms": [
+      "inside"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 11,
+    "word": "what",
+    "type": [
+      "pronoun",
+      "determiner"
+    ],
+    "IPA": "/wʌt/",
+    "definition": "Used to ask about a thing.",
+    "examples": [
+      "What is your name?",
+      "What time is it?",
+      "I know what you want."
+    ],
+    "spanish": {
+      "word": "qué / lo que",
+      "definition": "Se usa para preguntar por una cosa."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 12,
+    "word": "we",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/wiː/",
+    "definition": "The speaker and one or more other people.",
+    "examples": [
+      "We are friends.",
+      "We live here.",
+      "Can we go now?"
+    ],
+    "spanish": {
+      "word": "nosotros",
+      "definition": "El hablante y una o más personas."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 13,
+    "word": "this",
+    "type": [
+      "determiner",
+      "pronoun"
+    ],
+    "IPA": "/ðɪs/",
+    "definition": "Used for something near you.",
+    "examples": [
+      "This is my house.",
+      "I like this song.",
+      "What is this?"
+    ],
+    "spanish": {
+      "word": "este / esto",
+      "definition": "Se usa para algo que está cerca."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 14,
+    "word": "he",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/hiː/",
+    "definition": "A man or boy already mentioned.",
+    "examples": [
+      "He is my brother.",
+      "He works at a bank.",
+      "Is he at home?"
+    ],
+    "spanish": {
+      "word": "él",
+      "definition": "Un hombre o niño ya mencionado."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 15,
+    "word": "for",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/fɔːr/",
+    "definition": "Shows who gets something, a purpose or a time period.",
+    "examples": [
+      "This gift is for you.",
+      "I waited for two hours.",
+      "We went out for dinner."
+    ],
+    "spanish": {
+      "word": "para / por",
+      "definition": "Indica para quién es algo, un fin o un período."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 16,
+    "word": "my",
+    "type": [
+      "determiner"
+    ],
+    "IPA": "/maɪ/",
+    "definition": "Belonging to me.",
+    "examples": [
+      "This is my phone.",
+      "My mother is a doctor.",
+      "I lost my keys."
+    ],
+    "spanish": {
+      "word": "mi",
+      "definition": "Que me pertenece."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 17,
+    "word": "on",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/ɑːn/",
+    "definition": "Touching the top of something; also used with days.",
+    "examples": [
+      "The book is on the table.",
+      "See you on Monday.",
+      "There is a picture on the wall."
+    ],
+    "spanish": {
+      "word": "en / sobre",
+      "definition": "Tocando la parte de arriba de algo; también con días."
+    },
+    "synonyms": [
+      "upon"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 18,
+    "word": "have",
+    "type": [
+      "verb",
+      "auxiliary verb"
+    ],
+    "IPA": "/hæv/",
+    "definition": "To own or hold something.",
+    "examples": [
+      "I have two brothers.",
+      "She has a new car.",
+      "We have finished."
+    ],
+    "spanish": {
+      "word": "tener / haber",
+      "definition": "Poseer o tener algo."
+    },
+    "synonyms": [
+      "own"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "have",
+        "past": "had",
+        "participle": "had",
+        "gerund": "having",
+        "third": "has"
+      }
+    }
+  },
+  {
+    "rank": 19,
+    "word": "your",
+    "type": [
+      "determiner"
+    ],
+    "IPA": "/jʊr/",
+    "definition": "Belonging to you.",
+    "examples": [
+      "What is your name?",
+      "I like your shoes.",
+      "Is this your bag?"
+    ],
+    "spanish": {
+      "word": "tu / su",
+      "definition": "Que te pertenece."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 20,
+    "word": "do",
+    "type": [
+      "verb",
+      "auxiliary verb"
+    ],
+    "IPA": "/duː/",
+    "definition": "To perform an action; also used to make questions.",
+    "examples": [
+      "What do you do?",
+      "I do my homework at night.",
+      "Do you like pizza?"
+    ],
+    "spanish": {
+      "word": "hacer",
+      "definition": "Realizar una acción; también sirve para hacer preguntas."
+    },
+    "synonyms": [
+      "make",
+      "perform"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "do",
+        "past": "did",
+        "participle": "done",
+        "gerund": "doing",
+        "third": "does"
+      }
+    }
+  },
+  {
+    "rank": 21,
+    "word": "no",
+    "type": [
+      "determiner",
+      "adverb"
+    ],
+    "IPA": "/noʊ/",
+    "definition": "Used to give a negative answer.",
+    "examples": [
+      "No, thank you.",
+      "There is no milk.",
+      "No, I don't want it."
+    ],
+    "spanish": {
+      "word": "no / ningún",
+      "definition": "Se usa para dar una respuesta negativa."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 22,
+    "word": "not",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/nɑːt/",
+    "definition": "Used to make a sentence negative.",
+    "examples": [
+      "I am not tired.",
+      "She does not eat meat.",
+      "This is not my car."
+    ],
+    "spanish": {
+      "word": "no",
+      "definition": "Se usa para negar una oración."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 23,
+    "word": "know",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/noʊ/",
+    "definition": "To have information or to be familiar with someone.",
+    "examples": [
+      "I know the answer.",
+      "Do you know him?",
+      "She knew my name."
+    ],
+    "spanish": {
+      "word": "saber / conocer",
+      "definition": "Tener información o estar familiarizado con alguien."
+    },
+    "synonyms": [
+      "understand"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "know",
+        "past": "knew",
+        "participle": "known",
+        "gerund": "knowing",
+        "third": "knows"
+      }
+    }
+  },
+  {
+    "rank": 24,
+    "word": "can",
+    "type": [
+      "modal verb"
+    ],
+    "IPA": "/kæn/",
+    "definition": "Used to say that something is possible or allowed.",
+    "examples": [
+      "I can swim.",
+      "Can you help me?",
+      "She can speak Portuguese."
+    ],
+    "spanish": {
+      "word": "poder",
+      "definition": "Indica que algo es posible o está permitido."
+    },
+    "synonyms": [
+      "be able to"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "can",
+        "past": "could",
+        "participle": "-",
+        "gerund": "-",
+        "third": "can"
+      }
+    }
+  },
+  {
+    "rank": 25,
+    "word": "with",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/wɪð/",
+    "definition": "Together with someone or something.",
+    "examples": [
+      "I live with my parents.",
+      "Coffee with milk, please.",
+      "Come with me."
+    ],
+    "spanish": {
+      "word": "con",
+      "definition": "Junto con alguien o algo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 26,
+    "word": "but",
+    "type": [
+      "conjunction"
+    ],
+    "IPA": "/bʌt/",
+    "definition": "Used to show a contrast.",
+    "examples": [
+      "I like it, but it is expensive.",
+      "She is young but smart.",
+      "I called him, but he didn't answer."
+    ],
+    "spanish": {
+      "word": "pero",
+      "definition": "Se usa para mostrar un contraste."
+    },
+    "synonyms": [
+      "however"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 27,
+    "word": "all",
+    "type": [
+      "determiner",
+      "pronoun"
+    ],
+    "IPA": "/ɔːl/",
+    "definition": "The whole number or amount.",
+    "examples": [
+      "All my friends are here.",
+      "I ate all the cake.",
+      "That's all."
+    ],
+    "spanish": {
+      "word": "todo / todos",
+      "definition": "La cantidad o el número completo."
+    },
+    "synonyms": [
+      "every",
+      "everything"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 28,
+    "word": "so",
+    "type": [
+      "adverb",
+      "conjunction"
+    ],
+    "IPA": "/soʊ/",
+    "definition": "To a high degree; also shows a result.",
+    "examples": [
+      "I am so happy.",
+      "It was late, so I left.",
+      "Thank you so much."
+    ],
+    "spanish": {
+      "word": "tan / así que",
+      "definition": "En alto grado; también indica un resultado."
+    },
+    "synonyms": [
+      "very",
+      "therefore"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 29,
+    "word": "just",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/dʒʌst/",
+    "definition": "Only; also a very short time ago.",
+    "examples": [
+      "I just arrived.",
+      "It's just a game.",
+      "Just a moment, please."
+    ],
+    "spanish": {
+      "word": "solo / justo",
+      "definition": "Solamente; también hace muy poco tiempo."
+    },
+    "synonyms": [
+      "only"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 30,
+    "word": "there",
+    "type": [
+      "adverb",
+      "pronoun"
+    ],
+    "IPA": "/ðer/",
+    "definition": "In that place; also used to say something exists.",
+    "examples": [
+      "Put it over there.",
+      "There is a bank near here.",
+      "I was there yesterday."
+    ],
+    "spanish": {
+      "word": "allí / hay",
+      "definition": "En ese lugar; también indica que algo existe."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 31,
+    "word": "here",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/hɪr/",
+    "definition": "In this place.",
+    "examples": [
+      "Come here.",
+      "I live here.",
+      "Here is your coffee."
+    ],
+    "spanish": {
+      "word": "aquí",
+      "definition": "En este lugar."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 32,
+    "word": "they",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/ðeɪ/",
+    "definition": "Two or more people or things already mentioned.",
+    "examples": [
+      "They are my friends.",
+      "They live in Canada.",
+      "Are they coming?"
+    ],
+    "spanish": {
+      "word": "ellos / ellas",
+      "definition": "Dos o más personas o cosas ya mencionadas."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 33,
+    "word": "like",
+    "type": [
+      "verb",
+      "preposition"
+    ],
+    "IPA": "/laɪk/",
+    "definition": "To enjoy something; also similar to.",
+    "examples": [
+      "I like music.",
+      "She likes to read.",
+      "He looks like his father."
+    ],
+    "spanish": {
+      "word": "gustar / como",
+      "definition": "Disfrutar algo; también parecido a."
+    },
+    "synonyms": [
+      "enjoy"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "like",
+        "past": "liked",
+        "participle": "liked",
+        "gerund": "liking",
+        "third": "likes"
+      }
+    }
+  },
+  {
+    "rank": 34,
+    "word": "get",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ɡet/",
+    "definition": "To receive or obtain something; to become.",
+    "examples": [
+      "I got a new job.",
+      "Can you get some milk?",
+      "It's getting cold."
+    ],
+    "spanish": {
+      "word": "conseguir / obtener",
+      "definition": "Recibir u obtener algo; volverse."
+    },
+    "synonyms": [
+      "obtain",
+      "receive"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "get",
+        "past": "got",
+        "participle": "gotten",
+        "gerund": "getting",
+        "third": "gets"
+      }
+    }
+  },
+  {
+    "rank": 35,
+    "word": "she",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/ʃiː/",
+    "definition": "A woman or girl already mentioned.",
+    "examples": [
+      "She is my sister.",
+      "She works at home.",
+      "Is she your friend?"
+    ],
+    "spanish": {
+      "word": "ella",
+      "definition": "Una mujer o niña ya mencionada."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 36,
+    "word": "go",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ɡoʊ/",
+    "definition": "To move to another place.",
+    "examples": [
+      "I go to work by bus.",
+      "We went to the beach.",
+      "Where are you going?"
+    ],
+    "spanish": {
+      "word": "ir",
+      "definition": "Moverse a otro lugar."
+    },
+    "synonyms": [
+      "leave"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "go",
+        "past": "went",
+        "participle": "gone",
+        "gerund": "going",
+        "third": "goes"
+      }
+    }
+  },
+  {
+    "rank": 37,
+    "word": "if",
+    "type": [
+      "conjunction"
+    ],
+    "IPA": "/ɪf/",
+    "definition": "Used to talk about a possible situation.",
+    "examples": [
+      "If it rains, we stay home.",
+      "Call me if you need help.",
+      "I don't know if he is here."
+    ],
+    "spanish": {
+      "word": "si",
+      "definition": "Se usa para hablar de una situación posible."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 38,
+    "word": "right",
+    "type": [
+      "adjective",
+      "adverb",
+      "noun"
+    ],
+    "IPA": "/raɪt/",
+    "definition": "Correct; also the opposite of left.",
+    "examples": [
+      "You are right.",
+      "Turn right at the corner.",
+      "That's the right answer."
+    ],
+    "spanish": {
+      "word": "correcto / derecha",
+      "definition": "Correcto; también lo contrario de izquierda."
+    },
+    "synonyms": [
+      "correct"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 39,
+    "word": "out",
+    "type": [
+      "adverb",
+      "preposition"
+    ],
+    "IPA": "/aʊt/",
+    "definition": "Away from the inside of a place.",
+    "examples": [
+      "Let's go out tonight.",
+      "She is out of the office.",
+      "Get out of here!"
+    ],
+    "spanish": {
+      "word": "fuera",
+      "definition": "Lejos del interior de un lugar."
+    },
+    "synonyms": [
+      "outside"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 40,
+    "word": "about",
+    "type": [
+      "preposition",
+      "adverb"
+    ],
+    "IPA": "/əˈbaʊt/",
+    "definition": "On the subject of; also approximately.",
+    "examples": [
+      "This book is about love.",
+      "What are you talking about?",
+      "It costs about ten dollars."
+    ],
+    "spanish": {
+      "word": "sobre / acerca de",
+      "definition": "Sobre un tema; también aproximadamente."
+    },
+    "synonyms": [
+      "around"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 41,
+    "word": "up",
+    "type": [
+      "adverb",
+      "preposition"
+    ],
+    "IPA": "/ʌp/",
+    "definition": "Toward a higher place.",
+    "examples": [
+      "Stand up, please.",
+      "Look up at the sky.",
+      "She lives up the street."
+    ],
+    "spanish": {
+      "word": "arriba",
+      "definition": "Hacia un lugar más alto."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 42,
+    "word": "at",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/æt/",
+    "definition": "Shows a place or a time.",
+    "examples": [
+      "I am at home.",
+      "The class starts at nine.",
+      "We met at the airport."
+    ],
+    "spanish": {
+      "word": "en / a",
+      "definition": "Indica un lugar o una hora."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 43,
+    "word": "now",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/naʊ/",
+    "definition": "At this moment.",
+    "examples": [
+      "I am busy now.",
+      "Do it now, please.",
+      "She lives in Lima now."
+    ],
+    "spanish": {
+      "word": "ahora",
+      "definition": "En este momento."
+    },
+    "synonyms": [
+      "currently"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 44,
+    "word": "oh",
+    "type": [
+      "interjection"
+    ],
+    "IPA": "/oʊ/",
+    "definition": "Used to show surprise or another feeling.",
+    "examples": [
+      "Oh, I forgot!",
+      "Oh no, it's late!",
+      "Oh, that's nice."
+    ],
+    "spanish": {
+      "word": "oh",
+      "definition": "Se usa para mostrar sorpresa u otra emoción."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 45,
+    "word": "one",
+    "type": [
+      "determiner",
+      "pronoun"
+    ],
+    "IPA": "/wʌn/",
+    "definition": "The number 1.",
+    "examples": [
+      "I have one sister.",
+      "Which one do you want?",
+      "One coffee, please."
+    ],
+    "spanish": {
+      "word": "uno / una",
+      "definition": "El número 1."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 46,
+    "word": "come",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kʌm/",
+    "definition": "To move toward the speaker.",
+    "examples": [
+      "Come here, please.",
+      "She came to my house.",
+      "Are you coming to the party?"
+    ],
+    "spanish": {
+      "word": "venir",
+      "definition": "Moverse hacia quien habla."
+    },
+    "synonyms": [
+      "arrive"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "come",
+        "past": "came",
+        "participle": "come",
+        "gerund": "coming",
+        "third": "comes"
+      }
+    }
+  },
+  {
+    "rank": 47,
+    "word": "well",
+    "type": [
+      "adverb",
+      "interjection"
+    ],
+    "IPA": "/wel/",
+    "definition": "In a good way.",
+    "examples": [
+      "She speaks English well.",
+      "Well, I think you're right.",
+      "Are you feeling well?"
+    ],
+    "spanish": {
+      "word": "bien",
+      "definition": "De buena manera."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 48,
+    "word": "how",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/haʊ/",
+    "definition": "Used to ask about the way or condition.",
+    "examples": [
+      "How are you?",
+      "How do you say this?",
+      "I know how to cook."
+    ],
+    "spanish": {
+      "word": "cómo",
+      "definition": "Se usa para preguntar por la manera o el estado."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 49,
+    "word": "yeah",
+    "type": [
+      "interjection"
+    ],
+    "IPA": "/jeə/",
+    "definition": "An informal way to say yes.",
+    "examples": [
+      "Yeah, I know.",
+      "Yeah, that's right.",
+      "Oh yeah, I remember."
+    ],
+    "spanish": {
+      "word": "sí",
+      "definition": "Forma informal de decir sí."
+    },
+    "synonyms": [
+      "yes"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 50,
+    "word": "will",
+    "type": [
+      "modal verb"
+    ],
+    "IPA": "/wɪl/",
+    "definition": "Used to talk about the future.",
+    "examples": [
+      "I will call you tomorrow.",
+      "It will rain tonight.",
+      "Will you help me?"
+    ],
+    "spanish": {
+      "word": "auxiliar de futuro",
+      "definition": "Se usa para hablar del futuro."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "will",
+        "past": "would",
+        "participle": "-",
+        "gerund": "-",
+        "third": "will"
+      }
+    }
+  },
+  {
+    "rank": 51,
+    "word": "want",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/wɑːnt/",
+    "definition": "To wish to have or do something.",
+    "examples": [
+      "I want a coffee.",
+      "She wants to travel.",
+      "What do you want?"
+    ],
+    "spanish": {
+      "word": "querer",
+      "definition": "Desear tener o hacer algo."
+    },
+    "synonyms": [
+      "wish",
+      "desire"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "want",
+        "past": "wanted",
+        "participle": "wanted",
+        "gerund": "wanting",
+        "third": "wants"
+      }
+    }
+  },
+  {
+    "rank": 52,
+    "word": "think",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/θɪŋk/",
+    "definition": "To use your mind; to have an opinion.",
+    "examples": [
+      "I think you're right.",
+      "What do you think?",
+      "She thought about it."
+    ],
+    "spanish": {
+      "word": "pensar / creer",
+      "definition": "Usar la mente; tener una opinión."
+    },
+    "synonyms": [
+      "believe"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "think",
+        "past": "thought",
+        "participle": "thought",
+        "gerund": "thinking",
+        "third": "thinks"
+      }
+    }
+  },
+  {
+    "rank": 53,
+    "word": "as",
+    "type": [
+      "conjunction",
+      "preposition"
+    ],
+    "IPA": "/æz/",
+    "definition": "Used to compare, or to show a role.",
+    "examples": [
+      "She is as tall as me.",
+      "He works as a driver.",
+      "Do as I say."
+    ],
+    "spanish": {
+      "word": "como",
+      "definition": "Se usa para comparar o indicar una función."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 54,
+    "word": "see",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/siː/",
+    "definition": "To notice with your eyes.",
+    "examples": [
+      "I can see the sea.",
+      "Did you see that movie?",
+      "See you tomorrow!"
+    ],
+    "spanish": {
+      "word": "ver",
+      "definition": "Percibir con los ojos."
+    },
+    "synonyms": [
+      "watch",
+      "notice"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "see",
+        "past": "saw",
+        "participle": "seen",
+        "gerund": "seeing",
+        "third": "sees"
+      }
+    }
+  },
+  {
+    "rank": 55,
+    "word": "good",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ɡʊd/",
+    "definition": "Of high quality; pleasant.",
+    "examples": [
+      "This is a good book.",
+      "She is a good doctor.",
+      "Good morning!"
+    ],
+    "spanish": {
+      "word": "bueno",
+      "definition": "De buena calidad; agradable."
+    },
+    "synonyms": [
+      "nice",
+      "great"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 56,
+    "word": "who",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/huː/",
+    "definition": "Used to ask about a person.",
+    "examples": [
+      "Who is that?",
+      "Who called you?",
+      "The man who lives here is kind."
+    ],
+    "spanish": {
+      "word": "quién / que",
+      "definition": "Se usa para preguntar por una persona."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 57,
+    "word": "why",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/waɪ/",
+    "definition": "Used to ask for a reason.",
+    "examples": [
+      "Why are you sad?",
+      "Why not?",
+      "I don't know why he left."
+    ],
+    "spanish": {
+      "word": "por qué",
+      "definition": "Se usa para preguntar la razón."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 58,
+    "word": "from",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/frʌm/",
+    "definition": "Shows where something starts.",
+    "examples": [
+      "I am from Colombia.",
+      "This gift is from my mom.",
+      "The store is open from nine to five."
+    ],
+    "spanish": {
+      "word": "de / desde",
+      "definition": "Indica de dónde viene algo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 59,
+    "word": "let",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/let/",
+    "definition": "To allow someone to do something.",
+    "examples": [
+      "Let me help you.",
+      "Let's go!",
+      "My parents let me stay out."
+    ],
+    "spanish": {
+      "word": "dejar / permitir",
+      "definition": "Permitir que alguien haga algo."
+    },
+    "synonyms": [
+      "allow"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "let",
+        "past": "let",
+        "participle": "let",
+        "gerund": "letting",
+        "third": "lets"
+      }
+    }
+  },
+  {
+    "rank": 60,
+    "word": "yes",
+    "type": [
+      "interjection"
+    ],
+    "IPA": "/jes/",
+    "definition": "Used to give a positive answer.",
+    "examples": [
+      "Yes, please.",
+      "Yes, I understand.",
+      "Yes, she is here."
+    ],
+    "spanish": {
+      "word": "sí",
+      "definition": "Se usa para dar una respuesta afirmativa."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 61,
+    "word": "when",
+    "type": [
+      "adverb",
+      "conjunction"
+    ],
+    "IPA": "/wen/",
+    "definition": "At what time.",
+    "examples": [
+      "When is your birthday?",
+      "Call me when you arrive.",
+      "I was happy when I saw her."
+    ],
+    "spanish": {
+      "word": "cuándo / cuando",
+      "definition": "En qué momento."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 62,
+    "word": "okay",
+    "type": [
+      "adjective",
+      "interjection"
+    ],
+    "IPA": "/oʊˈkeɪ/",
+    "definition": "Fine or acceptable; used to agree.",
+    "examples": [
+      "Are you okay?",
+      "Okay, let's go.",
+      "It's okay, don't worry."
+    ],
+    "spanish": {
+      "word": "bien / de acuerdo",
+      "definition": "Bien o aceptable; se usa para aceptar."
+    },
+    "synonyms": [
+      "fine",
+      "all right"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 63,
+    "word": "back",
+    "type": [
+      "adverb",
+      "noun"
+    ],
+    "IPA": "/bæk/",
+    "definition": "To a previous place; the rear part of the body.",
+    "examples": [
+      "I'll be back soon.",
+      "My back hurts.",
+      "Go back to your seat."
+    ],
+    "spanish": {
+      "word": "de vuelta / espalda",
+      "definition": "A un lugar anterior; la parte trasera del cuerpo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 64,
+    "word": "look",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/lʊk/",
+    "definition": "To turn your eyes toward something; to seem.",
+    "examples": [
+      "Look at this picture.",
+      "You look tired.",
+      "I'm looking for my keys."
+    ],
+    "spanish": {
+      "word": "mirar / parecer",
+      "definition": "Dirigir la vista hacia algo; parecer."
+    },
+    "synonyms": [
+      "watch",
+      "seem"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "look",
+        "past": "looked",
+        "participle": "looked",
+        "gerund": "looking",
+        "third": "looks"
+      }
+    }
+  },
+  {
+    "rank": 65,
+    "word": "would",
+    "type": [
+      "modal verb"
+    ],
+    "IPA": "/wʊd/",
+    "definition": "Used for polite requests and imagined situations.",
+    "examples": [
+      "I would like a coffee.",
+      "Would you help me?",
+      "I would go if I could."
+    ],
+    "spanish": {
+      "word": "auxiliar condicional",
+      "definition": "Se usa para pedir algo con cortesía y en situaciones imaginarias."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "would",
+        "past": "would",
+        "participle": "-",
+        "gerund": "-",
+        "third": "would"
+      }
+    }
+  },
+  {
+    "rank": 66,
+    "word": "where",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/wer/",
+    "definition": "In or to what place.",
+    "examples": [
+      "Where do you live?",
+      "Where is the bathroom?",
+      "I know where he is."
+    ],
+    "spanish": {
+      "word": "dónde",
+      "definition": "En qué lugar o a qué lugar."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 67,
+    "word": "take",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/teɪk/",
+    "definition": "To carry or move something; to accept.",
+    "examples": [
+      "Take your umbrella.",
+      "I took the bus to work.",
+      "It takes two hours."
+    ],
+    "spanish": {
+      "word": "tomar / llevar",
+      "definition": "Llevar o mover algo; aceptar."
+    },
+    "synonyms": [
+      "carry",
+      "grab"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "take",
+        "past": "took",
+        "participle": "taken",
+        "gerund": "taking",
+        "third": "takes"
+      }
+    }
+  },
+  {
+    "rank": 68,
+    "word": "then",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ðen/",
+    "definition": "At that time; next.",
+    "examples": [
+      "Eat first, then go out.",
+      "I was young then.",
+      "And then what happened?"
+    ],
+    "spanish": {
+      "word": "entonces / luego",
+      "definition": "En ese momento; después."
+    },
+    "synonyms": [
+      "next"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 69,
+    "word": "or",
+    "type": [
+      "conjunction"
+    ],
+    "IPA": "/ɔːr/",
+    "definition": "Used to show a choice.",
+    "examples": [
+      "Tea or coffee?",
+      "Is it true or false?",
+      "Now or never."
+    ],
+    "spanish": {
+      "word": "o",
+      "definition": "Se usa para mostrar una opción."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 70,
+    "word": "our",
+    "type": [
+      "determiner"
+    ],
+    "IPA": "/aʊr/",
+    "definition": "Belonging to us.",
+    "examples": [
+      "This is our house.",
+      "Our teacher is nice.",
+      "We love our dog."
+    ],
+    "spanish": {
+      "word": "nuestro",
+      "definition": "Que nos pertenece."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 71,
+    "word": "tell",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/tel/",
+    "definition": "To give information to someone.",
+    "examples": [
+      "Tell me the truth.",
+      "She told me a story.",
+      "Can you tell him I called?"
+    ],
+    "spanish": {
+      "word": "decir / contar",
+      "definition": "Dar información a alguien."
+    },
+    "synonyms": [
+      "say",
+      "inform"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "tell",
+        "past": "told",
+        "participle": "told",
+        "gerund": "telling",
+        "third": "tells"
+      }
+    }
+  },
+  {
+    "rank": 72,
+    "word": "really",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ˈriːəli/",
+    "definition": "Very; in fact.",
+    "examples": [
+      "I really like it.",
+      "It's really cold today.",
+      "Really? I didn't know."
+    ],
+    "spanish": {
+      "word": "realmente / muy",
+      "definition": "Muy; de verdad."
+    },
+    "synonyms": [
+      "very",
+      "truly"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 73,
+    "word": "man",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mæn/",
+    "definition": "An adult male person.",
+    "examples": [
+      "That man is my uncle.",
+      "He is a good man.",
+      "Two men are at the door."
+    ],
+    "spanish": {
+      "word": "hombre",
+      "definition": "Persona adulta de sexo masculino."
+    },
+    "synonyms": [
+      "guy"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 74,
+    "word": "some",
+    "type": [
+      "determiner",
+      "pronoun"
+    ],
+    "IPA": "/sʌm/",
+    "definition": "An amount that is not exact.",
+    "examples": [
+      "I need some water.",
+      "Some people like it.",
+      "Do you want some?"
+    ],
+    "spanish": {
+      "word": "algo de / algunos",
+      "definition": "Una cantidad no exacta."
+    },
+    "synonyms": [
+      "a few"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 75,
+    "word": "say",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/seɪ/",
+    "definition": "To speak words.",
+    "examples": [
+      "What did you say?",
+      "She said hello.",
+      "How do you say this in English?"
+    ],
+    "spanish": {
+      "word": "decir",
+      "definition": "Pronunciar palabras."
+    },
+    "synonyms": [
+      "tell",
+      "speak"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "say",
+        "past": "said",
+        "participle": "said",
+        "gerund": "saying",
+        "third": "says"
+      }
+    }
+  },
+  {
+    "rank": 76,
+    "word": "hey",
+    "type": [
+      "interjection"
+    ],
+    "IPA": "/heɪ/",
+    "definition": "Used to get attention or to say hello.",
+    "examples": [
+      "Hey, how are you?",
+      "Hey, wait for me!",
+      "Hey, look at this."
+    ],
+    "spanish": {
+      "word": "oye / hola",
+      "definition": "Se usa para llamar la atención o saludar."
+    },
+    "synonyms": [
+      "hi"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 77,
+    "word": "could",
+    "type": [
+      "modal verb"
+    ],
+    "IPA": "/kʊd/",
+    "definition": "Past of can; used for polite requests and possibility.",
+    "examples": [
+      "Could you help me?",
+      "I could swim when I was five.",
+      "It could rain later."
+    ],
+    "spanish": {
+      "word": "podría / podía",
+      "definition": "Pasado de \"can\"; se usa para pedir con cortesía."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "could",
+        "past": "could",
+        "participle": "-",
+        "gerund": "-",
+        "third": "could"
+      }
+    }
+  },
+  {
+    "rank": 78,
+    "word": "by",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/baɪ/",
+    "definition": "Near; shows who did something or how.",
+    "examples": [
+      "I live by the sea.",
+      "This book is by a famous writer.",
+      "We came by train."
+    ],
+    "spanish": {
+      "word": "por / junto a",
+      "definition": "Cerca; indica quién hizo algo o cómo."
+    },
+    "synonyms": [
+      "near"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 79,
+    "word": "need",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/niːd/",
+    "definition": "To require something.",
+    "examples": [
+      "I need your help.",
+      "She needs a new phone.",
+      "You need to sleep."
+    ],
+    "spanish": {
+      "word": "necesitar",
+      "definition": "Requerir algo."
+    },
+    "synonyms": [
+      "require"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "need",
+        "past": "needed",
+        "participle": "needed",
+        "gerund": "needing",
+        "third": "needs"
+      }
+    }
+  },
+  {
+    "rank": 80,
+    "word": "something",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/ˈsʌmθɪŋ/",
+    "definition": "A thing that is not named.",
+    "examples": [
+      "I want to tell you something.",
+      "Do you want something to eat?",
+      "There is something in my shoe."
+    ],
+    "spanish": {
+      "word": "algo",
+      "definition": "Una cosa no nombrada."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 81,
+    "word": "too",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/tuː/",
+    "definition": "Also; more than needed.",
+    "examples": [
+      "I like it too.",
+      "It's too hot today.",
+      "This shirt is too big."
+    ],
+    "spanish": {
+      "word": "también / demasiado",
+      "definition": "También; más de lo necesario."
+    },
+    "synonyms": [
+      "also"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 82,
+    "word": "more",
+    "type": [
+      "determiner",
+      "adverb"
+    ],
+    "IPA": "/mɔːr/",
+    "definition": "A larger amount.",
+    "examples": [
+      "I need more time.",
+      "Tell me more.",
+      "She is more careful now."
+    ],
+    "spanish": {
+      "word": "más",
+      "definition": "Una cantidad mayor."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 83,
+    "word": "way",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/weɪ/",
+    "definition": "A road or method of doing something.",
+    "examples": [
+      "This is the way to the station.",
+      "There is a better way to do it.",
+      "I'm on my way."
+    ],
+    "spanish": {
+      "word": "camino / manera",
+      "definition": "Un camino o una forma de hacer algo."
+    },
+    "synonyms": [
+      "path",
+      "method"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 84,
+    "word": "down",
+    "type": [
+      "adverb",
+      "preposition"
+    ],
+    "IPA": "/daʊn/",
+    "definition": "Toward a lower place.",
+    "examples": [
+      "Sit down, please.",
+      "Go down the stairs.",
+      "The sun goes down at six."
+    ],
+    "spanish": {
+      "word": "abajo",
+      "definition": "Hacia un lugar más bajo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 85,
+    "word": "make",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/meɪk/",
+    "definition": "To create or produce something.",
+    "examples": [
+      "I make breakfast every day.",
+      "She made a cake.",
+      "Don't make noise."
+    ],
+    "spanish": {
+      "word": "hacer / crear",
+      "definition": "Crear o producir algo."
+    },
+    "synonyms": [
+      "create",
+      "build"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "make",
+        "past": "made",
+        "participle": "made",
+        "gerund": "making",
+        "third": "makes"
+      }
+    }
+  },
+  {
+    "rank": 86,
+    "word": "very",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ˈveri/",
+    "definition": "To a high degree.",
+    "examples": [
+      "I am very happy.",
+      "It's very cold.",
+      "Thank you very much."
+    ],
+    "spanish": {
+      "word": "muy",
+      "definition": "En alto grado."
+    },
+    "synonyms": [
+      "really"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 87,
+    "word": "never",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ˈnevər/",
+    "definition": "At no time.",
+    "examples": [
+      "I never eat meat.",
+      "She has never been to Paris.",
+      "Never give up."
+    ],
+    "spanish": {
+      "word": "nunca",
+      "definition": "En ningún momento."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 88,
+    "word": "only",
+    "type": [
+      "adverb",
+      "adjective"
+    ],
+    "IPA": "/ˈoʊnli/",
+    "definition": "Just; no more than.",
+    "examples": [
+      "I have only one brother.",
+      "She is an only child.",
+      "It's only ten dollars."
+    ],
+    "spanish": {
+      "word": "solo / único",
+      "definition": "Nada más que."
+    },
+    "synonyms": [
+      "just"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 89,
+    "word": "people",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈpiːpəl/",
+    "definition": "Men, women and children.",
+    "examples": [
+      "Many people live here.",
+      "Those people are my friends.",
+      "People like to travel."
+    ],
+    "spanish": {
+      "word": "gente / personas",
+      "definition": "Hombres, mujeres y niños."
+    },
+    "synonyms": [
+      "persons"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 90,
+    "word": "over",
+    "type": [
+      "preposition",
+      "adverb"
+    ],
+    "IPA": "/ˈoʊvər/",
+    "definition": "Above; more than; finished.",
+    "examples": [
+      "The plane flew over the city.",
+      "The game is over.",
+      "She is over thirty."
+    ],
+    "spanish": {
+      "word": "sobre / terminado",
+      "definition": "Por encima; más de; terminado."
+    },
+    "synonyms": [
+      "above"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 91,
+    "word": "because",
+    "type": [
+      "conjunction"
+    ],
+    "IPA": "/bɪˈkɔːz/",
+    "definition": "Used to give a reason.",
+    "examples": [
+      "I stayed home because I was sick.",
+      "She left because she was tired.",
+      "We love it because it's fun."
+    ],
+    "spanish": {
+      "word": "porque",
+      "definition": "Se usa para dar una razón."
+    },
+    "synonyms": [
+      "since"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 92,
+    "word": "little",
+    "type": [
+      "adjective",
+      "adverb"
+    ],
+    "IPA": "/ˈlɪtəl/",
+    "definition": "Small in size or amount.",
+    "examples": [
+      "She has a little dog.",
+      "I speak a little English.",
+      "Wait a little."
+    ],
+    "spanish": {
+      "word": "pequeño / poco",
+      "definition": "Pequeño en tamaño o cantidad."
+    },
+    "synonyms": [
+      "small"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 93,
+    "word": "please",
+    "type": [
+      "adverb",
+      "interjection"
+    ],
+    "IPA": "/pliːz/",
+    "definition": "Used to ask politely.",
+    "examples": [
+      "Sit down, please.",
+      "Please help me.",
+      "A coffee, please."
+    ],
+    "spanish": {
+      "word": "por favor",
+      "definition": "Se usa para pedir algo con cortesía."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 94,
+    "word": "love",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/lʌv/",
+    "definition": "To like someone or something very much.",
+    "examples": [
+      "I love my family.",
+      "She loves music.",
+      "Love is important."
+    ],
+    "spanish": {
+      "word": "amar / amor",
+      "definition": "Querer mucho a alguien o algo."
+    },
+    "synonyms": [
+      "adore"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "love",
+        "past": "loved",
+        "participle": "loved",
+        "gerund": "loving",
+        "third": "loves"
+      }
+    }
+  },
+  {
+    "rank": 95,
+    "word": "should",
+    "type": [
+      "modal verb"
+    ],
+    "IPA": "/ʃʊd/",
+    "definition": "Used to give advice.",
+    "examples": [
+      "You should rest.",
+      "We should go now.",
+      "Should I call her?"
+    ],
+    "spanish": {
+      "word": "debería",
+      "definition": "Se usa para dar un consejo."
+    },
+    "synonyms": [
+      "ought to"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "should",
+        "past": "should",
+        "participle": "-",
+        "gerund": "-",
+        "third": "should"
+      }
+    }
+  },
+  {
+    "rank": 96,
+    "word": "mean",
+    "type": [
+      "verb",
+      "adjective"
+    ],
+    "IPA": "/miːn/",
+    "definition": "To have a meaning; also not kind.",
+    "examples": [
+      "What does this word mean?",
+      "I didn't mean that.",
+      "He is mean to his sister."
+    ],
+    "spanish": {
+      "word": "significar / malo",
+      "definition": "Tener un significado; también no ser amable."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "mean",
+        "past": "meant",
+        "participle": "meant",
+        "gerund": "meaning",
+        "third": "means"
+      }
+    }
+  },
+  {
+    "rank": 97,
+    "word": "sorry",
+    "type": [
+      "adjective",
+      "interjection"
+    ],
+    "IPA": "/ˈsɑːri/",
+    "definition": "Used to apologize.",
+    "examples": [
+      "I'm sorry I'm late.",
+      "Sorry, I didn't hear you.",
+      "She is sorry about it."
+    ],
+    "spanish": {
+      "word": "lo siento / perdón",
+      "definition": "Se usa para disculparse."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 98,
+    "word": "give",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ɡɪv/",
+    "definition": "To let someone have something.",
+    "examples": [
+      "Give me the book.",
+      "She gave me a gift.",
+      "I'll give you my number."
+    ],
+    "spanish": {
+      "word": "dar",
+      "definition": "Hacer que alguien tenga algo."
+    },
+    "synonyms": [
+      "offer"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "give",
+        "past": "gave",
+        "participle": "given",
+        "gerund": "giving",
+        "third": "gives"
+      }
+    }
+  },
+  {
+    "rank": 99,
+    "word": "off",
+    "type": [
+      "adverb",
+      "preposition"
+    ],
+    "IPA": "/ɔːf/",
+    "definition": "Away from a place; not working.",
+    "examples": [
+      "Turn off the light.",
+      "Get off the bus here.",
+      "I have the day off."
+    ],
+    "spanish": {
+      "word": "apagado / fuera",
+      "definition": "Lejos de un lugar; sin funcionar."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 100,
+    "word": "thank",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/θæŋk/",
+    "definition": "To say you are grateful.",
+    "examples": [
+      "Thank you very much.",
+      "I want to thank my parents.",
+      "She thanked him for the gift."
+    ],
+    "spanish": {
+      "word": "agradecer",
+      "definition": "Decir que estás agradecido."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "thank",
+        "past": "thanked",
+        "participle": "thanked",
+        "gerund": "thanking",
+        "third": "thanks"
+      }
+    }
+  }
+]

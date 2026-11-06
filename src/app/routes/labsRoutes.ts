@@ -4,7 +4,9 @@ import {
   getBackupStatusHandler,
   getSystemInfoHandler,
   sendBackupByEmailHandler,
+  deleteAllExercises,
   deleteAllWords,
+  getDataCountsHandler,
   deleteAllExpressions,
   deleteAllLessons,
   deleteAllStories,
@@ -23,7 +25,9 @@ routes.get("/backup/status", getBackupStatusHandler);
 routes.post("/backup/send-email", sendBackupByEmailHandler);
 
 // Data Management - Dangerous Operations ⚠️
+routes.get("/data/counts", getDataCountsHandler);
 routes.delete("/data/words/delete-all", deleteAllWords);
+routes.delete("/data/exercises/delete-all", deleteAllExercises);
 routes.delete("/data/expressions/delete-all", deleteAllExpressions);
 routes.delete("/data/lessons/delete-all", deleteAllLessons);
 routes.delete("/data/stories/delete-all", deleteAllStories);

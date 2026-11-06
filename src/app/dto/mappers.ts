@@ -48,6 +48,8 @@ export const toWordDTO = (doc: any) => {
     img: d.img,
     difficulty: d.difficulty,
     codeSwitching: d.codeSwitching,
+    conjugations: d.conjugations,
+    rank: d.rank,
     spanish: d.spanish,
     chat: d.chat,
     createdAt: d.createdAt,

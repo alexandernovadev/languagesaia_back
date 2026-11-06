@@ -26,6 +26,8 @@ const labsService = new LabsService();
  * - POST /api/labs/backup/send-email - Send backup by email
  * 
  * Data Management (DANGEROUS):
+ * - GET    /api/labs/data/counts - How much of each there is
+ * - DELETE /api/labs/data/exercises/delete-all - Empty the exercise bank
  * - DELETE /api/labs/data/words/delete-all - Delete all words
  * - DELETE /api/labs/data/expressions/delete-all - Delete all expressions
  * - DELETE /api/labs/data/stories/delete-all - Delete all stories
@@ -119,6 +121,35 @@ export const sendBackupByEmailHandler = async (
       stack: error.stack
     });
     return errorResponse(res, "Error sending backup by email", 500, error);
+  }
+};
+
+/**
+ * How much of each kind of data there is
+ */
+export const getDataCountsHandler = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    return successResponse(res, "Data counts", await labsService.getDataCounts());
+  } catch (error) {
+    return errorResponse(res, "Error reading data counts", 500, error);
+  }
+};
+
+/**
+ * Empty the exercise bank
+ * ⚠️ DANGEROUS OPERATION - Cannot be undone
+ */
+export const deleteAllExercises = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    return successResponse(res, "Successfully deleted all exercises", await labsService.deleteAllExercises());
+  } catch (error) {
+    return errorResponse(res, "Error deleting all exercises", 500, error);
   }
 };
 

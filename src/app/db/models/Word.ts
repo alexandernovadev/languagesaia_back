@@ -1,28 +1,9 @@
 import mongoose, { Schema } from "mongoose";
-import { ChatMessage, IWord } from "../../../../types/models";
-import { chatRolesList, difficultyList, languagesList, wordTypesList } from "../../data/business/shared";
+import { IWord } from "../../../../types/models";
+import { languagesList, wordTypesList } from "../../data/business/shared";
 import { normalizeWordKey } from "../../utils/text/normalizeWordKey";
 
-const ChatMessageSchema: Schema = new Schema<ChatMessage>({
-  id: {
-    type: String,
-    required: true,
-  },
-  role: {
-    type: String,
-    enum: chatRolesList,
-    required: true,
-  },
-  content: {
-    type: String,
-    required: true,
-  },
-  timestamp: {
-    type: Date,
-    default: Date.now,
-  },
-});
-
+/** The shared dictionary. What belongs to each learner lives in UserWord. */
 const WordSchema: Schema = new Schema<IWord>(
   {
     word: {
@@ -64,21 +45,29 @@ const WordSchema: Schema = new Schema<IWord>(
     IPA: {
       type: String,
     },
-    seen: {
-      type: Number,
-      default: 0,
-    },
     img: {
       type: String,
-    },
-    difficulty: {
-      type: String,
-      enum: difficultyList,
-      default: "hard",
     },
     codeSwitching: {
       type: [String],
       default: [],
+    },
+    /** Position in the language's list of most common words. */
+    rank: {
+      type: Number,
+    },
+    /** Verbs only: tense → person → form. */
+    conjugations: {
+      type: Schema.Types.Mixed,
+    },
+    /** Which AI wrote the entry, when it came from the bulk seed. */
+    source: {
+      type: String,
+    },
+    /** What the AI reviewer found wrong. Empty when it passed. */
+    reviewNotes: {
+      type: [String],
+      default: undefined,
     },
     spanish: {
       definition: {
@@ -91,10 +80,6 @@ const WordSchema: Schema = new Schema<IWord>(
         minlength: 1,
         maxlength: 100,
       },
-    },
-    chat: {
-      type: [ChatMessageSchema],
-      default: [],
     },
   },
   { timestamps: true }
@@ -111,7 +96,7 @@ WordSchema.pre("save", function (this: IWord) {
 WordSchema.index({ wordKey: 1, language: 1 }, { unique: true });
 
 // Compound indexes for the most common query patterns
-WordSchema.index({ language: 1, difficulty: 1 }); // getAnkiCards, getWords filtered by language+difficulty
+WordSchema.index({ language: 1, rank: 1 }); // the next most common words for a learner
 WordSchema.index({ language: 1, createdAt: -1 }); // getWords sorted by date with language filter
 
 // Crear el modelo

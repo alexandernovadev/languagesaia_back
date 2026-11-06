@@ -1,3 +1,4 @@
+import { timeZoneOf } from "../utils/http/requestUser";
 import { Request, Response } from "express";
 import lessonService from "../services/lessons/LessonService";
 import { errorResponse, successResponse } from "../utils/responseHelpers";
@@ -68,7 +69,7 @@ export const answer = async (req: Request, res: Response) => {
 
 export const finish = async (req: Request, res: Response) => {
   try {
-    return successResponse(res, "Lesson finished", await lessonService.finish(userOf(req), routeParams(req).attemptId));
+    return successResponse(res, "Lesson finished", await lessonService.finish(userOf(req), routeParams(req).attemptId, timeZoneOf(req)));
   } catch (error) {
     return fail(res, error, "Error finishing lesson");
   }

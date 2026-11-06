@@ -15,12 +15,14 @@ import { Types } from "mongoose";
 import Exercise from "../../db/models/Exercise";
 import Lesson from "../../db/models/Lesson";
 import LessonAttempt from "../../db/models/LessonAttempt";
-import Word from "../../db/models/Word";
+import UserWord from "../../db/models/UserWord";
+import { joinWord, toObjectId } from "../words/UserWordService";
 import { grammarCatalog, grammarLabel } from "../../data/business/shared/grammar";
 import { generateExercises, gradeTranslation, reviewExercises, streamQuestionChat } from "../ai/lessonAIService";
 import type { GeneratedType, LessonGenerationParams } from "../ai/prompts/lessons/lessonPrompts";
 import { ILessonQuestion, LessonMode } from "../../../../types/models";
 import logger from "../../utils/logger";
+import progressService from "../progress/ProgressService";
 
 type User = { _id: string | Types.ObjectId; language?: string; explainsLanguage?: string };
 
@@ -143,13 +145,19 @@ function normalize(raw: any): ILessonQuestion | null {
   return null;
 }
 
-/** 5 of the user's words with a Spanish translation → a "match" exercise. */
-async function buildMatch(language: string): Promise<ILessonQuestion | null> {
-  const words = await Word.aggregate([
-    { $match: { language, "spanish.word": { $exists: true, $ne: "" }, difficulty: { $in: ["hard", "medium"] } } },
-    { $sample: { size: 5 } },
+/** Random hard or medium words of this learner. */
+const sampleWords = (user: User, language: string, size: number, extra: Record<string, unknown> = {}) =>
+  UserWord.aggregate([
+    { $match: { userId: toObjectId(user._id), language, difficulty: { $in: ["hard", "medium"] } } },
+    ...joinWord,
+    { $match: extra },
+    { $sample: { size } },
     { $project: { word: 1, "spanish.word": 1 } },
-  ]);
+  ] as any[]);
+
+/** 5 of the user's words with a Spanish translation → a "match" exercise. */
+async function buildMatch(user: User, language: string): Promise<ILessonQuestion | null> {
+  const words = await sampleWords(user, language, 5, { "spanish.word": { $exists: true, $ne: "" } });
   if (words.length < 4) return null;
   return {
     type: "match",
@@ -159,12 +167,8 @@ async function buildMatch(language: string): Promise<ILessonQuestion | null> {
   };
 }
 
-async function vocabularyFor(language: string): Promise<string[]> {
-  const words = await Word.aggregate([
-    { $match: { language, difficulty: { $in: ["hard", "medium"] } } },
-    { $sample: { size: 12 } },
-    { $project: { word: 1 } },
-  ]);
+async function vocabularyFor(user: User, language: string): Promise<string[]> {
+  const words = await sampleWords(user, language, 12);
   return words.map((w: any) => w.word);
 }
 
@@ -299,7 +303,7 @@ export class LessonService {
       }
       if (!topics.length) throw Object.assign(new Error("Elige al menos un tema"), { status: 400 });
 
-      const match = await buildMatch(language);
+      const match = await buildMatch(user, language);
       const aiCount = match ? count - 1 : count;
       const banked = await this.fromBank(user, { language, explainsLanguage, level, topics }, aiCount);
       const missing = aiCount - banked.length;
@@ -307,7 +311,7 @@ export class LessonService {
 
       let draft: Awaited<ReturnType<LessonService["draftExercises"]>> | null = null;
       if (missing > 0) {
-        const vocabulary = input.mode === "quick" ? await vocabularyFor(language) : [];
+        const vocabulary = input.mode === "quick" ? await vocabularyFor(user, language) : [];
         draft = await this.draftExercises(
           { language, explainsLanguage, level, topics: topics.map((t) => `${t}: ${grammarLabel(language, t)}`), vocabulary },
           missing,
@@ -427,7 +431,7 @@ export class LessonService {
     return { correct, score, feedback };
   }
 
-  async finish(user: User, attemptId: string) {
+  async finish(user: User, attemptId: string, timeZone?: string) {
     const attempt = await LessonAttempt.findOne({ _id: attemptId, userId: user._id });
     if (!attempt) throw Object.assign(new Error("Attempt not found"), { status: 404 });
     const lesson = await Lesson.findById(attempt.lessonId).lean();
@@ -438,11 +442,13 @@ export class LessonService {
     const correct = counted.filter((a) => a.correct).length;
     const score = total ? Math.round((sum / total) * 100) : 0;
     const xp = Math.round(sum * 2) + (score === 100 ? 5 : 0);
+    const firstTime = !attempt.completedAt;
     attempt.score = score;
     attempt.xp = xp;
     attempt.completedAt = new Date();
     await attempt.save();
-    return { score, xp, correct, total };
+    const reward = firstTime ? await progressService.award(String(user._id), xp, timeZone) : null;
+    return { score, xp, correct, total, reward };
   }
 
   /** Bruno explains one exercise; the conversation is saved on the answer. */

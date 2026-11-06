@@ -7,7 +7,6 @@ import {
   getWordById,
   getWords,
   updateWord,
-  deleteWord,
   getWordByName,
   getAnkiCards,
   updateIncrementWordSeens,
@@ -17,7 +16,6 @@ import {
 } from "../controllers/wordController";
 import { exportWordsToJSON, importWordsFromFile } from "../controllers/wordImportExportController";
 import {
-  addChatMessage,
   getChatHistory,
   clearChatHistory,
   streamChatResponse,
@@ -30,13 +28,14 @@ import {
   generateWordSynonymsJson,
   updateImageWord,
 } from "../controllers/wordAIController";
+import { answerReview, practiceWord, getReviewQueue, getReviewSummary } from "../controllers/wordReviewController";
 import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
 
 const router = Router();
 router.param("id", validateObjectId);
 
 // Import/Export routes (MUST BE BEFORE DYNAMIC ROUTES)
-router.get("/export-file", exportWordsToJSON);
+router.get("/export-file", requireAdmin, exportWordsToJSON);
 router.post("/import-file", requireAdmin, ...createJsonUploadMiddleware(), importWordsFromFile);
 
 // Static routes
@@ -44,31 +43,33 @@ router.post("/import-file", requireAdmin, ...createJsonUploadMiddleware(), impor
 router.get("/anki-cards", getAnkiCards);
 router.get("/by-type-optimized", getWordsByTypeOptimized);
 router.get("/languages", getWordCountsByLanguage);
+router.get("/review/summary", getReviewSummary);
+router.get("/review/queue", getReviewQueue);
 
 // Dynamic routes with parameters
 router.get("/:word/word", getWordByName);
 
 // Chat routes
-router.post("/:id/chat", addChatMessage);
 router.post("/:id/chat/stream", aiLimiter, streamChatResponse);
 router.get("/:id/chat", getChatHistory);
 router.delete("/:id/chat", clearChatHistory);
 
-// AI Generation routes
+// Words are shared: only an admin changes their content
 router.post("/generate", aiLimiter, generateWordJson);
-router.post("/:id/generate-examples", aiLimiter, generateWordExamplesJson);
-router.post("/:id/generate-code-switching", aiLimiter, generateWordExamplesCodeSwitchingJson);
-router.post("/:id/generate-types", aiLimiter, generateWordTypesJson);
-router.post("/:id/generate-synonyms", aiLimiter, generateWordSynonymsJson);
-router.post("/:id/generate-image", aiLimiter, updateImageWord);
+router.post("/:id/generate-examples", requireAdmin, aiLimiter, generateWordExamplesJson);
+router.post("/:id/generate-code-switching", requireAdmin, aiLimiter, generateWordExamplesCodeSwitchingJson);
+router.post("/:id/generate-types", requireAdmin, aiLimiter, generateWordTypesJson);
+router.post("/:id/generate-synonyms", requireAdmin, aiLimiter, generateWordSynonymsJson);
+router.post("/:id/generate-image", requireAdmin, aiLimiter, updateImageWord);
 
 // CRUD routes (MUST BE LAST)
 router.get("/:id", getWordById);
 router.get("/", getWords);
-router.post("/", createWord);
-router.put("/:id", updateWord);
-router.delete("/:id", deleteWord);
+router.post("/", requireAdmin, createWord);
+router.put("/:id", requireAdmin, updateWord);
 router.put('/:id/difficulty', updateWordDifficulty);
 router.put("/:id/increment-seen", updateIncrementWordSeens);
+router.post("/:id/review", answerReview);
+router.post("/:id/practice", practiceWord);
 
 export default router;

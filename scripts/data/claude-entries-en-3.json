@@ -1,0 +1,2356 @@
+[
+  {
+    "rank": 200,
+    "word": "dead",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ded/",
+    "definition": "Not alive.",
+    "examples": [
+      "The plant is dead.",
+      "My phone is dead.",
+      "He has been dead for years."
+    ],
+    "spanish": {
+      "word": "muerto",
+      "definition": "Que no está vivo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 201,
+    "word": "mind",
+    "type": [
+      "noun",
+      "verb"
+    ],
+    "IPA": "/maɪnd/",
+    "definition": "The part of you that thinks; to be bothered.",
+    "examples": [
+      "I changed my mind.",
+      "Do you mind if I sit here?",
+      "What's on your mind?"
+    ],
+    "spanish": {
+      "word": "mente / importar",
+      "definition": "La parte de ti que piensa; molestar."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "mind",
+        "past": "minded",
+        "participle": "minded",
+        "gerund": "minding",
+        "third": "minds"
+      }
+    }
+  },
+  {
+    "rank": 202,
+    "word": "best",
+    "type": [
+      "adjective",
+      "adverb"
+    ],
+    "IPA": "/best/",
+    "definition": "Better than all others.",
+    "examples": [
+      "She is my best friend.",
+      "This is the best pizza.",
+      "I did my best."
+    ],
+    "spanish": {
+      "word": "mejor",
+      "definition": "Superior a todos los demás."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 203,
+    "word": "mom",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mɑːm/",
+    "definition": "An informal word for mother.",
+    "examples": [
+      "My mom is a nurse.",
+      "Hi, Mom!",
+      "I called my mom."
+    ],
+    "spanish": {
+      "word": "mamá",
+      "definition": "Forma informal de decir madre."
+    },
+    "synonyms": [
+      "mother"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 204,
+    "word": "morning",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmɔːrnɪŋ/",
+    "definition": "The first part of the day.",
+    "examples": [
+      "Good morning!",
+      "I run every morning.",
+      "She left this morning."
+    ],
+    "spanish": {
+      "word": "mañana",
+      "definition": "La primera parte del día."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 205,
+    "word": "boy",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/bɔɪ/",
+    "definition": "A male child.",
+    "examples": [
+      "That boy is my son.",
+      "He is a good boy.",
+      "Two boys are playing."
+    ],
+    "spanish": {
+      "word": "niño / chico",
+      "definition": "Niño varón."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 206,
+    "word": "together",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/təˈɡeðər/",
+    "definition": "With each other.",
+    "examples": [
+      "We work together.",
+      "Let's go together.",
+      "They live together."
+    ],
+    "spanish": {
+      "word": "juntos",
+      "definition": "El uno con el otro."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 207,
+    "word": "yourself",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/jʊrˈself/",
+    "definition": "You, and no one else.",
+    "examples": [
+      "Take care of yourself.",
+      "Did you do it yourself?",
+      "Be yourself."
+    ],
+    "spanish": {
+      "word": "tú mismo",
+      "definition": "Tú y nadie más."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 208,
+    "word": "job",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/dʒɑːb/",
+    "definition": "The work you do to earn money.",
+    "examples": [
+      "I have a new job.",
+      "She is looking for a job.",
+      "Good job!"
+    ],
+    "spanish": {
+      "word": "trabajo",
+      "definition": "Lo que haces para ganar dinero."
+    },
+    "synonyms": [
+      "work"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 209,
+    "word": "family",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈfæməli/",
+    "definition": "Parents, children and relatives.",
+    "examples": [
+      "I love my family.",
+      "She has a big family.",
+      "We eat with the family."
+    ],
+    "spanish": {
+      "word": "familia",
+      "definition": "Padres, hijos y parientes."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 210,
+    "word": "real",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/riːl/",
+    "definition": "True; not imaginary.",
+    "examples": [
+      "Is this real?",
+      "What's your real name?",
+      "She is a real friend."
+    ],
+    "spanish": {
+      "word": "real / verdadero",
+      "definition": "Verdadero; no imaginario."
+    },
+    "synonyms": [
+      "true"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 211,
+    "word": "without",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/wɪˈðaʊt/",
+    "definition": "Not having something.",
+    "examples": [
+      "I drink coffee without sugar.",
+      "She left without me.",
+      "I can't live without you."
+    ],
+    "spanish": {
+      "word": "sin",
+      "definition": "Que no tiene algo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 212,
+    "word": "baby",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈbeɪbi/",
+    "definition": "A very young child.",
+    "examples": [
+      "The baby is sleeping.",
+      "She had a baby.",
+      "He cries like a baby."
+    ],
+    "spanish": {
+      "word": "bebé",
+      "definition": "Niño muy pequeño."
+    },
+    "synonyms": [
+      "infant"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 213,
+    "word": "room",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ruːm/",
+    "definition": "A part of a building with walls; space.",
+    "examples": [
+      "This is my room.",
+      "The hotel room is small.",
+      "There is no room for me."
+    ],
+    "spanish": {
+      "word": "habitación / espacio",
+      "definition": "Parte de un edificio con paredes; espacio."
+    },
+    "synonyms": [
+      "space"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 214,
+    "word": "already",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ɔːlˈredi/",
+    "definition": "Before now.",
+    "examples": [
+      "I already ate.",
+      "She has already left.",
+      "Are you here already?"
+    ],
+    "spanish": {
+      "word": "ya",
+      "definition": "Antes de ahora."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 215,
+    "word": "move",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/muːv/",
+    "definition": "To change place or position.",
+    "examples": [
+      "Don't move!",
+      "We moved to a new house.",
+      "Can you move your car?"
+    ],
+    "spanish": {
+      "word": "mover / mudarse",
+      "definition": "Cambiar de lugar o posición."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "move",
+        "past": "moved",
+        "participle": "moved",
+        "gerund": "moving",
+        "third": "moves"
+      }
+    }
+  },
+  {
+    "rank": 216,
+    "word": "most",
+    "type": [
+      "determiner",
+      "adverb"
+    ],
+    "IPA": "/moʊst/",
+    "definition": "The largest number or amount.",
+    "examples": [
+      "Most people like music.",
+      "This is the most beautiful place.",
+      "I work most days."
+    ],
+    "spanish": {
+      "word": "la mayoría / más",
+      "definition": "El mayor número o cantidad."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 217,
+    "word": "live",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/lɪv/",
+    "definition": "To have your home in a place; to be alive.",
+    "examples": [
+      "I live in Bogotá.",
+      "Where do you live?",
+      "She lived to be ninety."
+    ],
+    "spanish": {
+      "word": "vivir",
+      "definition": "Tener tu casa en un lugar; estar vivo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "live",
+        "past": "lived",
+        "participle": "lived",
+        "gerund": "living",
+        "third": "lives"
+      }
+    }
+  },
+  {
+    "rank": 218,
+    "word": "miss",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/mɪs/",
+    "definition": "To feel sad without someone; to fail to catch.",
+    "examples": [
+      "I miss you.",
+      "I missed the bus.",
+      "Don't miss this movie."
+    ],
+    "spanish": {
+      "word": "extrañar / perder",
+      "definition": "Sentir la ausencia de alguien; no alcanzar algo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "miss",
+        "past": "missed",
+        "participle": "missed",
+        "gerund": "missing",
+        "third": "misses"
+      }
+    }
+  },
+  {
+    "rank": 219,
+    "word": "actually",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ˈæktʃuəli/",
+    "definition": "In fact.",
+    "examples": [
+      "I actually like it.",
+      "Actually, I'm not sure.",
+      "She is actually my sister."
+    ],
+    "spanish": {
+      "word": "en realidad",
+      "definition": "De hecho."
+    },
+    "synonyms": [
+      "really"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 220,
+    "word": "both",
+    "type": [
+      "determiner",
+      "pronoun"
+    ],
+    "IPA": "/boʊθ/",
+    "definition": "The two together.",
+    "examples": [
+      "Both my parents work.",
+      "I like both of them.",
+      "We both agree."
+    ],
+    "spanish": {
+      "word": "ambos",
+      "definition": "Los dos juntos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 221,
+    "word": "once",
+    "type": [
+      "adverb",
+      "conjunction"
+    ],
+    "IPA": "/wʌns/",
+    "definition": "One time.",
+    "examples": [
+      "I go there once a week.",
+      "I met him once.",
+      "Call me once you arrive."
+    ],
+    "spanish": {
+      "word": "una vez",
+      "definition": "Una sola vez."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 222,
+    "word": "ready",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈredi/",
+    "definition": "Prepared.",
+    "examples": [
+      "Are you ready?",
+      "Dinner is ready.",
+      "I'm ready to go."
+    ],
+    "spanish": {
+      "word": "listo",
+      "definition": "Preparado."
+    },
+    "synonyms": [
+      "prepared"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 223,
+    "word": "head",
+    "type": [
+      "noun",
+      "verb"
+    ],
+    "IPA": "/hed/",
+    "definition": "The top part of the body; to go.",
+    "examples": [
+      "My head hurts.",
+      "She nodded her head.",
+      "We headed home."
+    ],
+    "spanish": {
+      "word": "cabeza",
+      "definition": "La parte superior del cuerpo; dirigirse."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "head",
+        "past": "headed",
+        "participle": "headed",
+        "gerund": "heading",
+        "third": "heads"
+      }
+    }
+  },
+  {
+    "rank": 224,
+    "word": "hold",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/hoʊld/",
+    "definition": "To have something in your hands.",
+    "examples": [
+      "Hold my hand.",
+      "She is holding a baby.",
+      "Hold on a minute."
+    ],
+    "spanish": {
+      "word": "sostener",
+      "definition": "Tener algo en las manos."
+    },
+    "synonyms": [
+      "carry"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "hold",
+        "past": "held",
+        "participle": "held",
+        "gerund": "holding",
+        "third": "holds"
+      }
+    }
+  },
+  {
+    "rank": 225,
+    "word": "happy",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈhæpi/",
+    "definition": "Feeling good.",
+    "examples": [
+      "I'm so happy!",
+      "Happy birthday!",
+      "She looks happy."
+    ],
+    "spanish": {
+      "word": "feliz",
+      "definition": "Que se siente bien."
+    },
+    "synonyms": [
+      "glad"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 226,
+    "word": "door",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/dɔːr/",
+    "definition": "What you open to enter a room.",
+    "examples": [
+      "Close the door, please.",
+      "Someone is at the door.",
+      "She opened the door."
+    ],
+    "spanish": {
+      "word": "puerta",
+      "definition": "Lo que abres para entrar a un lugar."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 227,
+    "word": "such",
+    "type": [
+      "determiner"
+    ],
+    "IPA": "/sʌtʃ/",
+    "definition": "Of this kind; so great.",
+    "examples": [
+      "She is such a nice person.",
+      "I've never seen such a thing.",
+      "It was such a good day."
+    ],
+    "spanish": {
+      "word": "tan / tal",
+      "definition": "De este tipo; tan grande."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 228,
+    "word": "brother",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈbrʌðər/",
+    "definition": "A boy with the same parents as you.",
+    "examples": [
+      "I have two brothers.",
+      "My brother is older than me.",
+      "This is my brother."
+    ],
+    "spanish": {
+      "word": "hermano",
+      "definition": "Niño con los mismos padres que tú."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 229,
+    "word": "also",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ˈɔːlsoʊ/",
+    "definition": "In addition.",
+    "examples": [
+      "She also speaks French.",
+      "I also want one.",
+      "He is also a doctor."
+    ],
+    "spanish": {
+      "word": "también",
+      "definition": "Además."
+    },
+    "synonyms": [
+      "too"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 230,
+    "word": "pretty",
+    "type": [
+      "adjective",
+      "adverb"
+    ],
+    "IPA": "/ˈprɪti/",
+    "definition": "Nice to look at; quite.",
+    "examples": [
+      "She is very pretty.",
+      "It's pretty cold today.",
+      "What a pretty dress!"
+    ],
+    "spanish": {
+      "word": "bonito / bastante",
+      "definition": "Agradable a la vista; bastante."
+    },
+    "synonyms": [
+      "beautiful"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 231,
+    "word": "yet",
+    "type": [
+      "adverb",
+      "conjunction"
+    ],
+    "IPA": "/jet/",
+    "definition": "Until now.",
+    "examples": [
+      "I haven't eaten yet.",
+      "Is it ready yet?",
+      "Not yet."
+    ],
+    "spanish": {
+      "word": "todavía / aún",
+      "definition": "Hasta ahora."
+    },
+    "synonyms": [
+      "still"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 232,
+    "word": "start",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/stɑːrt/",
+    "definition": "To begin.",
+    "examples": [
+      "Let's start now.",
+      "The movie starts at eight.",
+      "It started to rain."
+    ],
+    "spanish": {
+      "word": "empezar",
+      "definition": "Comenzar."
+    },
+    "synonyms": [
+      "begin"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "start",
+        "past": "started",
+        "participle": "started",
+        "gerund": "starting",
+        "third": "starts"
+      }
+    }
+  },
+  {
+    "rank": 233,
+    "word": "use",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/juːz/",
+    "definition": "To do something with a tool or thing.",
+    "examples": [
+      "Can I use your phone?",
+      "I use my car every day.",
+      "How do you use this?"
+    ],
+    "spanish": {
+      "word": "usar",
+      "definition": "Hacer algo con una herramienta o cosa."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "use",
+        "past": "used",
+        "participle": "used",
+        "gerund": "using",
+        "third": "uses"
+      }
+    }
+  },
+  {
+    "rank": 234,
+    "word": "while",
+    "type": [
+      "conjunction",
+      "noun"
+    ],
+    "IPA": "/waɪl/",
+    "definition": "During the time that.",
+    "examples": [
+      "I read while I eat.",
+      "Wait a while.",
+      "She called while you were out."
+    ],
+    "spanish": {
+      "word": "mientras",
+      "definition": "Durante el tiempo en que."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 235,
+    "word": "since",
+    "type": [
+      "preposition",
+      "conjunction"
+    ],
+    "IPA": "/sɪns/",
+    "definition": "From a time until now; because.",
+    "examples": [
+      "I've lived here since May.",
+      "Since you're here, stay.",
+      "We've been friends since 2010."
+    ],
+    "spanish": {
+      "word": "desde / ya que",
+      "definition": "Desde un momento hasta ahora; porque."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 236,
+    "word": "wife",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/waɪf/",
+    "definition": "The woman a man is married to.",
+    "examples": [
+      "This is my wife.",
+      "His wife is a doctor.",
+      "I love my wife."
+    ],
+    "spanish": {
+      "word": "esposa",
+      "definition": "Mujer con la que un hombre está casado."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 237,
+    "word": "guess",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ɡes/",
+    "definition": "To say something without being sure.",
+    "examples": [
+      "Guess what!",
+      "I guess you're right.",
+      "Can you guess my age?"
+    ],
+    "spanish": {
+      "word": "adivinar / suponer",
+      "definition": "Decir algo sin estar seguro."
+    },
+    "synonyms": [
+      "suppose"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "guess",
+        "past": "guessed",
+        "participle": "guessed",
+        "gerund": "guessing",
+        "third": "guesses"
+      }
+    }
+  },
+  {
+    "rank": 238,
+    "word": "tomorrow",
+    "type": [
+      "adverb",
+      "noun"
+    ],
+    "IPA": "/təˈmɑːroʊ/",
+    "definition": "The day after today.",
+    "examples": [
+      "See you tomorrow.",
+      "Tomorrow is Friday.",
+      "I work tomorrow."
+    ],
+    "spanish": {
+      "word": "mañana",
+      "definition": "El día después de hoy."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 239,
+    "word": "matter",
+    "type": [
+      "noun",
+      "verb"
+    ],
+    "IPA": "/ˈmætər/",
+    "definition": "A subject or problem; to be important.",
+    "examples": [
+      "What's the matter?",
+      "It doesn't matter.",
+      "This matter is serious."
+    ],
+    "spanish": {
+      "word": "asunto / importar",
+      "definition": "Un tema o problema; ser importante."
+    },
+    "synonyms": [
+      "issue"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "matter",
+        "past": "mattered",
+        "participle": "mattered",
+        "gerund": "mattering",
+        "third": "matters"
+      }
+    }
+  },
+  {
+    "rank": 240,
+    "word": "meet",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/miːt/",
+    "definition": "To see someone by plan or for the first time.",
+    "examples": [
+      "Nice to meet you.",
+      "Let's meet at six.",
+      "I met her at work."
+    ],
+    "spanish": {
+      "word": "conocer / encontrarse",
+      "definition": "Ver a alguien por primera vez o por plan."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "meet",
+        "past": "met",
+        "participle": "met",
+        "gerund": "meeting",
+        "third": "meets"
+      }
+    }
+  },
+  {
+    "rank": 241,
+    "word": "bring",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/brɪŋ/",
+    "definition": "To carry something to a place.",
+    "examples": [
+      "Bring your friends.",
+      "She brought a cake.",
+      "Can you bring me water?"
+    ],
+    "spanish": {
+      "word": "traer",
+      "definition": "Llevar algo a un lugar."
+    },
+    "synonyms": [
+      "carry"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "bring",
+        "past": "brought",
+        "participle": "brought",
+        "gerund": "bringing",
+        "third": "brings"
+      }
+    }
+  },
+  {
+    "rank": 242,
+    "word": "tonight",
+    "type": [
+      "adverb",
+      "noun"
+    ],
+    "IPA": "/təˈnaɪt/",
+    "definition": "This night.",
+    "examples": [
+      "Are you free tonight?",
+      "I'll call you tonight.",
+      "What's for dinner tonight?"
+    ],
+    "spanish": {
+      "word": "esta noche",
+      "definition": "Esta noche."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 243,
+    "word": "everyone",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/ˈevriwʌn/",
+    "definition": "All people.",
+    "examples": [
+      "Hello, everyone!",
+      "Everyone likes her.",
+      "Everyone is here."
+    ],
+    "spanish": {
+      "word": "todos",
+      "definition": "Todas las personas."
+    },
+    "synonyms": [
+      "everybody"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 244,
+    "word": "run",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/rʌn/",
+    "definition": "To move fast on your feet.",
+    "examples": [
+      "I run every morning.",
+      "Run, it's late!",
+      "She ran to the bus."
+    ],
+    "spanish": {
+      "word": "correr",
+      "definition": "Moverse rápido con los pies."
+    },
+    "synonyms": [
+      "jog"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "run",
+        "past": "ran",
+        "participle": "run",
+        "gerund": "running",
+        "third": "runs"
+      }
+    }
+  },
+  {
+    "rank": 245,
+    "word": "hard",
+    "type": [
+      "adjective",
+      "adverb"
+    ],
+    "IPA": "/hɑːrd/",
+    "definition": "Difficult; solid; with effort.",
+    "examples": [
+      "This test is hard.",
+      "She works hard.",
+      "The bed is too hard."
+    ],
+    "spanish": {
+      "word": "difícil / duro",
+      "definition": "Difícil; sólido; con esfuerzo."
+    },
+    "synonyms": [
+      "difficult"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 246,
+    "word": "alone",
+    "type": [
+      "adjective",
+      "adverb"
+    ],
+    "IPA": "/əˈloʊn/",
+    "definition": "Without other people.",
+    "examples": [
+      "I live alone.",
+      "Leave me alone.",
+      "She was alone at home."
+    ],
+    "spanish": {
+      "word": "solo",
+      "definition": "Sin otras personas."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 247,
+    "word": "myself",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/maɪˈself/",
+    "definition": "Me, and no one else.",
+    "examples": [
+      "I did it myself.",
+      "I hurt myself.",
+      "I live by myself."
+    ],
+    "spanish": {
+      "word": "yo mismo",
+      "definition": "Yo y nadie más."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 248,
+    "word": "school",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/skuːl/",
+    "definition": "A place where children learn.",
+    "examples": [
+      "My kids are at school.",
+      "School starts at eight.",
+      "She teaches at a school."
+    ],
+    "spanish": {
+      "word": "escuela",
+      "definition": "Lugar donde aprenden los niños."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 249,
+    "word": "end",
+    "type": [
+      "noun",
+      "verb"
+    ],
+    "IPA": "/end/",
+    "definition": "The last part; to finish.",
+    "examples": [
+      "This is the end.",
+      "The movie ends at ten.",
+      "At the end of the day."
+    ],
+    "spanish": {
+      "word": "fin / terminar",
+      "definition": "La última parte; acabar."
+    },
+    "synonyms": [
+      "finish"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "end",
+        "past": "ended",
+        "participle": "ended",
+        "gerund": "ending",
+        "third": "ends"
+      }
+    }
+  },
+  {
+    "rank": 250,
+    "word": "phone",
+    "type": [
+      "noun",
+      "verb"
+    ],
+    "IPA": "/foʊn/",
+    "definition": "A device used to talk to people.",
+    "examples": [
+      "My phone is dead.",
+      "She is on the phone.",
+      "Give me your phone number."
+    ],
+    "spanish": {
+      "word": "teléfono",
+      "definition": "Aparato para hablar con la gente."
+    },
+    "synonyms": [
+      "cell phone"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "phone",
+        "past": "phoned",
+        "participle": "phoned",
+        "gerund": "phoning",
+        "third": "phones"
+      }
+    }
+  },
+  {
+    "rank": 251,
+    "word": "play",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/pleɪ/",
+    "definition": "To have fun; to take part in a game.",
+    "examples": [
+      "The kids play outside.",
+      "I play soccer.",
+      "She plays the piano."
+    ],
+    "spanish": {
+      "word": "jugar / tocar",
+      "definition": "Divertirse; participar en un juego."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "play",
+        "past": "played",
+        "participle": "played",
+        "gerund": "playing",
+        "third": "plays"
+      }
+    }
+  },
+  {
+    "rank": 252,
+    "word": "problem",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈprɑːbləm/",
+    "definition": "Something difficult.",
+    "examples": [
+      "No problem.",
+      "We have a problem.",
+      "What's the problem?"
+    ],
+    "spanish": {
+      "word": "problema",
+      "definition": "Algo difícil."
+    },
+    "synonyms": [
+      "issue"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 253,
+    "word": "few",
+    "type": [
+      "determiner"
+    ],
+    "IPA": "/fjuː/",
+    "definition": "A small number of.",
+    "examples": [
+      "I have a few friends.",
+      "Wait a few minutes.",
+      "Few people came."
+    ],
+    "spanish": {
+      "word": "pocos",
+      "definition": "Un número pequeño de."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 254,
+    "word": "ago",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/əˈɡoʊ/",
+    "definition": "In the past.",
+    "examples": [
+      "I saw her two days ago.",
+      "It happened long ago.",
+      "He left an hour ago."
+    ],
+    "spanish": {
+      "word": "hace (tiempo)",
+      "definition": "En el pasado."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 255,
+    "word": "open",
+    "type": [
+      "verb",
+      "adjective"
+    ],
+    "IPA": "/ˈoʊpən/",
+    "definition": "To move something so it isn't closed.",
+    "examples": [
+      "Open the window.",
+      "The store is open.",
+      "She opened the box."
+    ],
+    "spanish": {
+      "word": "abrir / abierto",
+      "definition": "Mover algo para que no esté cerrado."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "open",
+        "past": "opened",
+        "participle": "opened",
+        "gerund": "opening",
+        "third": "opens"
+      }
+    }
+  },
+  {
+    "rank": 256,
+    "word": "anyone",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/ˈeniwʌn/",
+    "definition": "Any person.",
+    "examples": [
+      "Is anyone home?",
+      "Don't tell anyone.",
+      "Anyone can do it."
+    ],
+    "spanish": {
+      "word": "alguien / nadie",
+      "definition": "Cualquier persona."
+    },
+    "synonyms": [
+      "anybody"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 257,
+    "word": "hope",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/hoʊp/",
+    "definition": "To want something good to happen.",
+    "examples": [
+      "I hope you're well.",
+      "We hope to see you.",
+      "Don't lose hope."
+    ],
+    "spanish": {
+      "word": "esperar / esperanza",
+      "definition": "Desear que pase algo bueno."
+    },
+    "synonyms": [
+      "wish"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "hope",
+        "past": "hoped",
+        "participle": "hoped",
+        "gerund": "hoping",
+        "third": "hopes"
+      }
+    }
+  },
+  {
+    "rank": 258,
+    "word": "face",
+    "type": [
+      "noun",
+      "verb"
+    ],
+    "IPA": "/feɪs/",
+    "definition": "The front of the head.",
+    "examples": [
+      "Wash your face.",
+      "She has a nice face.",
+      "We must face the problem."
+    ],
+    "spanish": {
+      "word": "cara",
+      "definition": "La parte frontal de la cabeza."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "face",
+        "past": "faced",
+        "participle": "faced",
+        "gerund": "facing",
+        "third": "faces"
+      }
+    }
+  },
+  {
+    "rank": 259,
+    "word": "until",
+    "type": [
+      "preposition",
+      "conjunction"
+    ],
+    "IPA": "/ənˈtɪl/",
+    "definition": "Up to a time.",
+    "examples": [
+      "Wait until tomorrow.",
+      "I work until five.",
+      "Stay until I come back."
+    ],
+    "spanish": {
+      "word": "hasta",
+      "definition": "Hasta un momento."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 260,
+    "word": "lose",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/luːz/",
+    "definition": "To stop having something; to not win.",
+    "examples": [
+      "I lost my keys.",
+      "Don't lose hope.",
+      "Our team lost the game."
+    ],
+    "spanish": {
+      "word": "perder",
+      "definition": "Dejar de tener algo; no ganar."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "lose",
+        "past": "lost",
+        "participle": "lost",
+        "gerund": "losing",
+        "third": "loses"
+      }
+    }
+  },
+  {
+    "rank": 261,
+    "word": "police",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pəˈliːs/",
+    "definition": "People who enforce the law.",
+    "examples": [
+      "Call the police!",
+      "The police are here.",
+      "He works for the police."
+    ],
+    "spanish": {
+      "word": "policía",
+      "definition": "Personas que hacen cumplir la ley."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 262,
+    "word": "excuse",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/ɪkˈskjuːz/",
+    "definition": "To forgive; a reason you give.",
+    "examples": [
+      "Excuse me, where is the bank?",
+      "That's a bad excuse.",
+      "Excuse my English."
+    ],
+    "spanish": {
+      "word": "disculpar / excusa",
+      "definition": "Perdonar; una razón que das."
+    },
+    "synonyms": [
+      "pardon"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "excuse",
+        "past": "excused",
+        "participle": "excused",
+        "gerund": "excusing",
+        "third": "excuses"
+      }
+    }
+  },
+  {
+    "rank": 263,
+    "word": "turn",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/tɜːrn/",
+    "definition": "To move in another direction.",
+    "examples": [
+      "Turn left here.",
+      "Turn off the TV.",
+      "It's your turn."
+    ],
+    "spanish": {
+      "word": "girar / turno",
+      "definition": "Moverse hacia otra dirección."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "turn",
+        "past": "turned",
+        "participle": "turned",
+        "gerund": "turning",
+        "third": "turns"
+      }
+    }
+  },
+  {
+    "rank": 264,
+    "word": "business",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈbɪznəs/",
+    "definition": "Buying and selling; a company.",
+    "examples": [
+      "She has her own business.",
+      "It's none of your business.",
+      "Business is good."
+    ],
+    "spanish": {
+      "word": "negocio",
+      "definition": "Comprar y vender; una empresa."
+    },
+    "synonyms": [
+      "company"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 265,
+    "word": "case",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/keɪs/",
+    "definition": "A situation; a container.",
+    "examples": [
+      "In that case, let's go.",
+      "Just in case.",
+      "I bought a phone case."
+    ],
+    "spanish": {
+      "word": "caso / estuche",
+      "definition": "Una situación; un recipiente."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 266,
+    "word": "true",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/truː/",
+    "definition": "Correct; real.",
+    "examples": [
+      "Is it true?",
+      "That's a true story.",
+      "It's not true."
+    ],
+    "spanish": {
+      "word": "verdadero",
+      "definition": "Correcto; real."
+    },
+    "synonyms": [
+      "real"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 267,
+    "word": "die",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/daɪ/",
+    "definition": "To stop living.",
+    "examples": [
+      "My plant died.",
+      "He died last year.",
+      "Don't die on me!"
+    ],
+    "spanish": {
+      "word": "morir",
+      "definition": "Dejar de vivir."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "die",
+        "past": "died",
+        "participle": "died",
+        "gerund": "dying",
+        "third": "dies"
+      }
+    }
+  },
+  {
+    "rank": 268,
+    "word": "soon",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/suːn/",
+    "definition": "In a short time.",
+    "examples": [
+      "See you soon.",
+      "I'll be back soon.",
+      "Dinner is ready soon."
+    ],
+    "spanish": {
+      "word": "pronto",
+      "definition": "En poco tiempo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 269,
+    "word": "each",
+    "type": [
+      "determiner",
+      "pronoun"
+    ],
+    "IPA": "/iːtʃ/",
+    "definition": "Every one of a group.",
+    "examples": [
+      "Each student has a book.",
+      "They cost five dollars each.",
+      "We help each other."
+    ],
+    "spanish": {
+      "word": "cada",
+      "definition": "Cada uno de un grupo."
+    },
+    "synonyms": [
+      "every"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 270,
+    "word": "worry",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/ˈwɜːri/",
+    "definition": "To think about problems and feel nervous.",
+    "examples": [
+      "Don't worry.",
+      "I worry about my kids.",
+      "She worries a lot."
+    ],
+    "spanish": {
+      "word": "preocuparse",
+      "definition": "Pensar en problemas con nervios."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "worry",
+        "past": "worried",
+        "participle": "worried",
+        "gerund": "worrying",
+        "third": "worries"
+      }
+    }
+  },
+  {
+    "rank": 271,
+    "word": "later",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ˈleɪtər/",
+    "definition": "At a future time.",
+    "examples": [
+      "See you later.",
+      "Call me later.",
+      "I'll do it later."
+    ],
+    "spanish": {
+      "word": "más tarde",
+      "definition": "En un momento futuro."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 272,
+    "word": "watch",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/wɑːtʃ/",
+    "definition": "To look at something for a time; a small clock.",
+    "examples": [
+      "I watch TV at night.",
+      "Watch out!",
+      "I lost my watch."
+    ],
+    "spanish": {
+      "word": "mirar / reloj",
+      "definition": "Mirar algo un tiempo; un reloj pequeño."
+    },
+    "synonyms": [
+      "see"
+    ],
+    "conjugations": {
+      "forms": {
+        "base": "watch",
+        "past": "watched",
+        "participle": "watched",
+        "gerund": "watching",
+        "third": "watches"
+      }
+    }
+  },
+  {
+    "rank": 273,
+    "word": "music",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmjuːzɪk/",
+    "definition": "Sounds of voices or instruments.",
+    "examples": [
+      "I love music.",
+      "What music do you like?",
+      "Turn off the music."
+    ],
+    "spanish": {
+      "word": "música",
+      "definition": "Sonidos de voces o instrumentos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 274,
+    "word": "hand",
+    "type": [
+      "noun",
+      "verb"
+    ],
+    "IPA": "/hænd/",
+    "definition": "The part at the end of your arm.",
+    "examples": [
+      "Wash your hands.",
+      "Give me your hand.",
+      "She raised her hand."
+    ],
+    "spanish": {
+      "word": "mano",
+      "definition": "La parte al final del brazo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "hand",
+        "past": "handed",
+        "participle": "handed",
+        "gerund": "handing",
+        "third": "hands"
+      }
+    }
+  },
+  {
+    "rank": 275,
+    "word": "probably",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ˈprɑːbəbli/",
+    "definition": "Very likely.",
+    "examples": [
+      "It will probably rain.",
+      "She's probably at home.",
+      "You're probably right."
+    ],
+    "spanish": {
+      "word": "probablemente",
+      "definition": "Muy posiblemente."
+    },
+    "synonyms": [
+      "likely"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 276,
+    "word": "beautiful",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈbjuːtɪfəl/",
+    "definition": "Very nice to see or hear.",
+    "examples": [
+      "What a beautiful day!",
+      "She is beautiful.",
+      "It's a beautiful song."
+    ],
+    "spanish": {
+      "word": "hermoso",
+      "definition": "Muy agradable de ver u oír."
+    },
+    "synonyms": [
+      "pretty"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 277,
+    "word": "doctor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈdɑːktər/",
+    "definition": "A person who treats sick people.",
+    "examples": [
+      "I need a doctor.",
+      "She is a doctor.",
+      "Go see a doctor."
+    ],
+    "spanish": {
+      "word": "médico",
+      "definition": "Persona que atiende enfermos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 278,
+    "word": "sit",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/sɪt/",
+    "definition": "To rest on a chair.",
+    "examples": [
+      "Sit down, please.",
+      "She sat next to me.",
+      "Can I sit here?"
+    ],
+    "spanish": {
+      "word": "sentarse",
+      "definition": "Descansar en una silla."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "sit",
+        "past": "sat",
+        "participle": "sat",
+        "gerund": "sitting",
+        "third": "sits"
+      }
+    }
+  },
+  {
+    "rank": 279,
+    "word": "eat",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/iːt/",
+    "definition": "To put food in your mouth and swallow it.",
+    "examples": [
+      "I eat at noon.",
+      "What did you eat?",
+      "Let's eat!"
+    ],
+    "spanish": {
+      "word": "comer",
+      "definition": "Poner comida en la boca y tragarla."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "eat",
+        "past": "ate",
+        "participle": "eaten",
+        "gerund": "eating",
+        "third": "eats"
+      }
+    }
+  },
+  {
+    "rank": 280,
+    "word": "young",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/jʌŋ/",
+    "definition": "Not old.",
+    "examples": [
+      "She is very young.",
+      "He looks young.",
+      "When I was young, I played a lot."
+    ],
+    "spanish": {
+      "word": "joven",
+      "definition": "No viejo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 281,
+    "word": "second",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/ˈsekənd/",
+    "definition": "Next after the first; a short time unit.",
+    "examples": [
+      "This is my second car.",
+      "Wait a second.",
+      "She came second."
+    ],
+    "spanish": {
+      "word": "segundo",
+      "definition": "Siguiente al primero; unidad de tiempo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 282,
+    "word": "water",
+    "type": [
+      "noun",
+      "verb"
+    ],
+    "IPA": "/ˈwɔːtər/",
+    "definition": "The clear liquid we drink.",
+    "examples": [
+      "I drink a lot of water.",
+      "Can I have some water?",
+      "Water the plants."
+    ],
+    "spanish": {
+      "word": "agua",
+      "definition": "El líquido claro que bebemos."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "water",
+        "past": "watered",
+        "participle": "watered",
+        "gerund": "watering",
+        "third": "waters"
+      }
+    }
+  },
+  {
+    "rank": 283,
+    "word": "person",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈpɜːrsən/",
+    "definition": "A human being.",
+    "examples": [
+      "She is a nice person.",
+      "He is a good person.",
+      "One person called."
+    ],
+    "spanish": {
+      "word": "persona",
+      "definition": "Un ser humano."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 284,
+    "word": "part",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɑːrt/",
+    "definition": "A piece of something.",
+    "examples": [
+      "This is the best part.",
+      "Part of the money is mine.",
+      "She is part of the team."
+    ],
+    "spanish": {
+      "word": "parte",
+      "definition": "Un pedazo de algo."
+    },
+    "synonyms": [
+      "piece"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 285,
+    "word": "kid",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kɪd/",
+    "definition": "A child.",
+    "examples": [
+      "I have two kids.",
+      "The kids are playing.",
+      "He is just a kid."
+    ],
+    "spanish": {
+      "word": "niño",
+      "definition": "Un niño."
+    },
+    "synonyms": [
+      "child"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 286,
+    "word": "late",
+    "type": [
+      "adjective",
+      "adverb"
+    ],
+    "IPA": "/leɪt/",
+    "definition": "After the expected time.",
+    "examples": [
+      "I'm late for work.",
+      "It's getting late.",
+      "She arrived late."
+    ],
+    "spanish": {
+      "word": "tarde",
+      "definition": "Después de la hora esperada."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 287,
+    "word": "stuff",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/stʌf/",
+    "definition": "Things in general.",
+    "examples": [
+      "Where's my stuff?",
+      "I have a lot of stuff to do.",
+      "I like this stuff."
+    ],
+    "spanish": {
+      "word": "cosas",
+      "definition": "Cosas en general."
+    },
+    "synonyms": [
+      "things"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 288,
+    "word": "exactly",
+    "type": [
+      "adverb"
+    ],
+    "IPA": "/ɪɡˈzæktli/",
+    "definition": "Precisely.",
+    "examples": [
+      "That's exactly right.",
+      "Exactly!",
+      "What exactly do you want?"
+    ],
+    "spanish": {
+      "word": "exactamente",
+      "definition": "De forma precisa."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 289,
+    "word": "under",
+    "type": [
+      "preposition"
+    ],
+    "IPA": "/ˈʌndər/",
+    "definition": "Below something.",
+    "examples": [
+      "The cat is under the table.",
+      "She is under twenty.",
+      "Look under the bed."
+    ],
+    "spanish": {
+      "word": "debajo de",
+      "definition": "Por debajo de algo."
+    },
+    "synonyms": [
+      "below"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 290,
+    "word": "death",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/deθ/",
+    "definition": "The end of life.",
+    "examples": [
+      "His death was a shock.",
+      "It's a matter of life and death.",
+      "She was scared to death."
+    ],
+    "spanish": {
+      "word": "muerte",
+      "definition": "El fin de la vida."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 291,
+    "word": "minute",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmɪnɪt/",
+    "definition": "Sixty seconds.",
+    "examples": [
+      "Wait a minute.",
+      "I'll be there in five minutes.",
+      "It takes ten minutes."
+    ],
+    "spanish": {
+      "word": "minuto",
+      "definition": "Sesenta segundos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 292,
+    "word": "pay",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/peɪ/",
+    "definition": "To give money for something.",
+    "examples": [
+      "I'll pay for dinner.",
+      "She paid the bill.",
+      "The pay is good."
+    ],
+    "spanish": {
+      "word": "pagar",
+      "definition": "Dar dinero por algo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "pay",
+        "past": "paid",
+        "participle": "paid",
+        "gerund": "paying",
+        "third": "pays"
+      }
+    }
+  },
+  {
+    "rank": 293,
+    "word": "crazy",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈkreɪzi/",
+    "definition": "Not sensible; very strange.",
+    "examples": [
+      "You're crazy!",
+      "That's a crazy idea.",
+      "This week was crazy."
+    ],
+    "spanish": {
+      "word": "loco",
+      "definition": "No sensato; muy extraño."
+    },
+    "synonyms": [
+      "mad"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 294,
+    "word": "forget",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/fərˈɡet/",
+    "definition": "To not remember.",
+    "examples": [
+      "I forgot your name.",
+      "Don't forget to call.",
+      "She forgot her keys."
+    ],
+    "spanish": {
+      "word": "olvidar",
+      "definition": "No recordar."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "forget",
+        "past": "forgot",
+        "participle": "forgotten",
+        "gerund": "forgetting",
+        "third": "forgets"
+      }
+    }
+  },
+  {
+    "rank": 295,
+    "word": "everybody",
+    "type": [
+      "pronoun"
+    ],
+    "IPA": "/ˈevribɑːdi/",
+    "definition": "All people.",
+    "examples": [
+      "Everybody is here.",
+      "Hi, everybody!",
+      "Everybody loves her."
+    ],
+    "spanish": {
+      "word": "todos",
+      "definition": "Todas las personas."
+    },
+    "synonyms": [
+      "everyone"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 296,
+    "word": "change",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/tʃeɪndʒ/",
+    "definition": "To become different.",
+    "examples": [
+      "I changed my mind.",
+      "Things change.",
+      "Keep the change."
+    ],
+    "spanish": {
+      "word": "cambiar / cambio",
+      "definition": "Volverse diferente."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "change",
+        "past": "changed",
+        "participle": "changed",
+        "gerund": "changing",
+        "third": "changes"
+      }
+    }
+  },
+  {
+    "rank": 297,
+    "word": "five",
+    "type": [
+      "determiner"
+    ],
+    "IPA": "/faɪv/",
+    "definition": "The number 5.",
+    "examples": [
+      "I have five dollars.",
+      "It's five o'clock.",
+      "We stayed five days."
+    ],
+    "spanish": {
+      "word": "cinco",
+      "definition": "El número 5."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 298,
+    "word": "drink",
+    "type": [
+      "verb",
+      "noun"
+    ],
+    "IPA": "/drɪŋk/",
+    "definition": "To take liquid into your mouth and swallow it.",
+    "examples": [
+      "I drink coffee every day.",
+      "Do you want a drink?",
+      "She drank all the water."
+    ],
+    "spanish": {
+      "word": "beber",
+      "definition": "Tomar líquido y tragarlo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "forms": {
+        "base": "drink",
+        "past": "drank",
+        "participle": "drunk",
+        "gerund": "drinking",
+        "third": "drinks"
+      }
+    }
+  }
+]
