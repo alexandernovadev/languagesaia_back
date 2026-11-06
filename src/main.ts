@@ -22,6 +22,7 @@ import AuthRoutes from "./app/routes/authRoutes";
 import UserRoutes from "./app/routes/userRoutes";
 import LessonRoutes from "./app/routes/lessonRoutes";
 import ProgressRoutes from "./app/routes/progressRoutes";
+import AudioRoutes from "./app/routes/audioRoutes";
 
 // Utils
 import { errorResponse, successResponse } from "./app/utils/responseHelpers";
@@ -96,6 +97,7 @@ app.use("/api/expressions", authMiddleware, extendTimeout, ExpressionRoutes);
 app.use("/api/users", authMiddleware, UserRoutes);
 app.use("/api/lessons", authMiddleware, extendTimeout, LessonRoutes);
 app.use("/api/progress", authMiddleware, ProgressRoutes);
+app.use("/api/audio", authMiddleware, extendTimeout, AudioRoutes);
 
 // Admin panel
 app.use("/api/labs", authMiddleware, requireAdmin, extendTimeout, LabsRoutes);

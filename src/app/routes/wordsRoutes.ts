@@ -28,7 +28,7 @@ import {
   generateWordSynonymsJson,
   updateImageWord,
 } from "../controllers/wordAIController";
-import { answerReview, practiceWord, getReviewQueue, getReviewSummary } from "../controllers/wordReviewController";
+import { answerReview, getWordAudio, practiceWord, getReviewQueue, getReviewSummary } from "../controllers/wordReviewController";
 import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
 
 const router = Router();
@@ -71,5 +71,6 @@ router.put('/:id/difficulty', updateWordDifficulty);
 router.put("/:id/increment-seen", updateIncrementWordSeens);
 router.post("/:id/review", answerReview);
 router.post("/:id/practice", practiceWord);
+router.post("/:id/audio", getWordAudio);
 
 export default router;

@@ -70,6 +70,7 @@ Se puede parar y volver a ejecutar: continúa con lo que falta. Usa 2 peticiones
 | `rank` | Posición en la lista de frecuencia |
 | `source` | Qué IA la escribió |
 | `reviewNotes` | Problemas encontrados; vacío si pasó la revisión |
+| `audio` | Pronunciación: se crea con fal.ai la primera vez que alguien la escucha y queda en PocketBase |. Ejemplos y expresiones se guardan aparte, en `SpeechClip`, por su texto |
 
 No lleva imagen: la tarjeta sin imagen muestra la inicial. El admin la crea a mano cuando quiera.
 

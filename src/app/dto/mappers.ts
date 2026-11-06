@@ -46,6 +46,7 @@ export const toWordDTO = (doc: any) => {
     IPA: d.IPA,
     seen: d.seen,
     img: d.img,
+    audio: d.audio,
     difficulty: d.difficulty,
     codeSwitching: d.codeSwitching,
     conjugations: d.conjugations,

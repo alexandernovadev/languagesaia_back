@@ -9,6 +9,7 @@ export interface IWord extends Document {
   type?: string[];
   IPA?: string;
   img?: string;
+  audio?: string;
   synonyms?: string[];
   codeSwitching?: string[];
   rank?: number;

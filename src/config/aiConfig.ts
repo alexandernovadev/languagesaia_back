@@ -66,6 +66,17 @@ export const IMAGE_AI = {
   },
 } as const;
 
+/** Word pronunciation, on demand. Changing the model only affects words without audio. */
+export const WORD_AUDIO_AI = {
+  name: "fal.ai",
+  apiKey: process.env.FAL_KEY,
+  baseURL: "https://fal.run",
+  model: "fal-ai/minimax/speech-2.8-hd",
+  voice: "Wise_Woman",
+  sampleRate: 44100,
+  bitrate: 128000,
+} as const;
+
 /** Audio: chapter narration (TTS) and word timestamps for karaoke (transcription). */
 export const AUDIO_AI = {
   name: "OpenAI",

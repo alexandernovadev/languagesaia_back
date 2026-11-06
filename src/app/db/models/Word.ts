@@ -48,6 +48,10 @@ const WordSchema: Schema = new Schema<IWord>(
     img: {
       type: String,
     },
+    /** Pronunciation, created the first time someone listens. */
+    audio: {
+      type: String,
+    },
     codeSwitching: {
       type: [String],
       default: [],

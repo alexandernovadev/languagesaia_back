@@ -26,6 +26,9 @@ export const MAX_PAGINATION_LIMIT = 100;
 export const MAX_NEW_CARDS_PER_DAY = 20;
 export const MAX_INTERVAL_DAYS = 180;
 
+// Longest example or expression sent to the voice model
+export const MAX_SPEECH_TEXT_LENGTH = 300;
+
 // XP and streak
 export const DAILY_XP_GOAL = 50;
 export const REVIEW_XP = 2;
