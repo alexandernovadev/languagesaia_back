@@ -15,6 +15,8 @@ export interface ChapterPromptParams {
   previousText?: string;
   /** Words the learner is reviewing. */
   words: string[];
+  /** What the reader wants to happen now, in any language. */
+  idea?: string;
 }
 
 const LEVEL_RULES: Record<string, string> = {
@@ -44,6 +46,9 @@ export const createChapterPrompt = (p: ChapterPromptParams) => {
   const history = p.summaries.length
     ? `\nWhat happened so far:\n${p.summaries.map((s, i) => `Chapter ${i + 1}: ${s}`).join("\n")}\n`
     : "";
+  const idea = p.idea
+    ? `\nThe reader decides what happens now. Make this idea really happen in this chapter, connect it naturally with the story so far, and never ignore or soften it. It may be in another language, but the chapter stays in ${lang}: ${p.idea}\n`
+    : "";
   const previous = p.previousText
     ? `\nPrevious chapter, to continue from exactly where it stopped. Never retell it:\n${p.previousText}\n`
     : "";
@@ -70,7 +75,7 @@ Genre: ${p.genre}
 Premise: ${p.description}
 Protagonist: ${p.protagonist}
 Chapter ${p.chapterNumber} of ${p.totalChapters}. ${position}
-${history}${previous}
+${history}${previous}${idea}
 Use these words naturally, at least 5 of them, conjugated or inflected when needed, without explaining them: ${p.words.join(", ") || "none"}.`,
   };
 };
@@ -79,6 +84,8 @@ export interface ChapterDetailsParams {
   content: string;
   language: string;
   words: string[];
+  /** The reader's own words, which may come with mistakes. */
+  idea?: string;
 }
 
 /** What the reader needs once the text exists: it runs after the chapter has been streamed. */
@@ -90,7 +97,9 @@ export const createChapterDetailsPrompt = (p: ChapterDetailsParams) => {
 Respond with only a JSON object:
 {
   "summary": "what happened, in 2 sentences, in English, naming characters and facts to remember",
-  "usedForms": ["each word from the list that was really used, exactly as it appears in the text, for example fell or batia"],
+  "usedForms": ["each word from the list that was really used, exactly as it appears in the text, for example fell or batia"],${
+    p.idea ? `\n  "idea": "the reader's idea with its spelling, accents, grammar and punctuation corrected, in the same language they wrote it, keeping their meaning and tone",` : ""
+  }
   "questions": [
     { "question": "comprehension question in ${lang}", "options": ["three short options"], "answer": 0 }
   ]
@@ -99,6 +108,6 @@ Write exactly 3 questions about facts in this chapter, each with exactly 3 optio
     user: `Chapter:
 ${p.content}
 
-Word list: ${p.words.join(", ") || "none"}.`,
+Word list: ${p.words.join(", ") || "none"}.${p.idea ? `\n\nReader's idea: ${p.idea}` : ""}`,
   };
 };

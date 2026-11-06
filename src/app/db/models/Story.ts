@@ -16,6 +16,8 @@ const ChapterSchema = new Schema(
     },
     /** What happened: the next chapters are written from these. */
     summary: { type: String, default: "" },
+    /** What the reader asked to happen in this chapter. */
+    idea: { type: String },
     /** The learner's words used in this chapter. */
     targetVocabulary: { type: [String], default: [] },
     questions: {

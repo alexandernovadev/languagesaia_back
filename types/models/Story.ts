@@ -10,6 +10,7 @@ export interface IChapter {
   voice?: string;
   audioAlignment?: { word: string; start: number; end: number }[];
   summary?: string;
+  idea?: string;
   targetVocabulary?: string[];
   questions?: { question: string; options: string[]; answer: number }[];
   createdAt: Date;

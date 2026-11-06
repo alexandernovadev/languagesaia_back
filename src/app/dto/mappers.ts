@@ -144,6 +144,7 @@ export const toStoryDTO = (doc: any) => {
       voice: ch.voice,
       audioAlignment: ch.audioAlignment,
       summary: ch.summary,
+      idea: ch.idea,
       targetVocabulary: ch.targetVocabulary,
       questions: ch.questions,
       createdAt: ch.createdAt,

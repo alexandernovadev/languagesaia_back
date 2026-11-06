@@ -67,7 +67,7 @@ export class StoryService {
   }
 
   /** Starts the next chapter. Call `save` with the streamed text, and `release` when it's over. */
-  async writeChapter(storyId: string, userId: string, options: AIContentOptions = {}) {
+  async writeChapter(storyId: string, userId: string, idea: string | undefined, options: AIContentOptions = {}) {
     const story = await Story.findById(storyId);
     if (!story) return null;
     if (story.chapters.length >= story.totalChapters) throw Object.assign(new Error("The story is finished"), { status: 409 });
@@ -90,28 +90,30 @@ export class StoryService {
           summaries: story.chapters.map((c) => c.summary ?? ""),
           previousText: story.chapters.at(-1)?.content,
           words,
+          idea,
         },
         options,
       );
-      return { stream, release, save: (text: string) => this.saveChapter(story, text, words, options) };
+      return { stream, release, save: (text: string) => this.saveChapter(story, text, words, idea, options) };
     } catch (error) {
       release();
       throw error;
     }
   }
 
-  private async saveChapter(story: IStory, text: string, words: string[], options: AIContentOptions) {
+  private async saveChapter(story: IStory, text: string, words: string[], idea: string | undefined, options: AIContentOptions) {
     const [firstLine, ...rest] = text.trim().split("\n");
     const title = firstLine.replace(/[#*"“”]/g, "").trim();
     const content = sanitizeLectureContent(rest.join("\n").trim());
     if (!title || !content) throw new Error("The chapter came back incomplete");
 
-    const details = await generateChapterDetails({ content, language: story.language, words }, options);
+    const details = await generateChapterDetails({ content, language: story.language, words, idea }, options);
     story.chapters.push({
       order: story.chapters.length,
       title,
       content,
       summary: details.summary,
+      idea: details.idea?.trim() || idea,
       targetVocabulary: details.usedForms ?? [],
       questions: details.questions,
     } as any);

@@ -10,6 +10,8 @@ export interface StoryIdea {
 
 export interface ChapterDetails {
   summary: string;
+  /** The reader's idea, with its mistakes corrected. */
+  idea?: string;
   usedForms: string[];
   questions: { question: string; options: string[]; answer: number }[];
 }
