@@ -34,7 +34,7 @@ Claude escribe las fichas por tandas y se commitean en `scripts/data/claude-entr
 
 **Conjugaciones en portugués:** presente, pretérito perfeito, imperfeito, futuro y presente do subjuntivo, con eu, você, nós, eles. Un verbo es una sola entrada con su tabla dentro, no una entrada por forma.
 
-Las fichas no llevan imagen ni audio: la tarjeta sin imagen muestra la inicial, y la pronunciación se crea con fal.ai la primera vez que alguien la escucha (nada de eso cambia con este script).
+Las fichas no llevan imagen ni audio. Las imágenes salen de `docs/IMAGENES-LOCAL.md` y la pronunciación de `docs/AUDIO-LOCAL.md`, y la tarjeta sin imagen muestra la inicial.
 
 ## La carga
 
@@ -42,12 +42,12 @@ Las fichas no llevan imagen ni audio: la tarjeta sin imagen muestra la inicial, 
 
 1. **Ya existe:** solo le pone su `rank`. No toca los demás campos.
 2. **Es nueva:** la crea con `source: "claude"`.
-3. **Repetida entre archivos:** se carga una sola vez (gana el primer archivo).
+3. **Repetida entre archivos:** se carga una sola vez (gana el primer archivo, sin avisar).
 4. **Error al crear:** se reporta y sigue con la siguiente.
 
 ```bash
 pnpm seed:dictionary pt
-pnpm seed:dictionary en --redo   # reescribe las fichas cuyo source es "claude"
+pnpm seed:dictionary en --redo   # reescribe las fichas cuyo source es "claude"; conserva audio, imagen, oculta y completada
 ```
 
 Se puede parar y volver a ejecutar: continúa con lo que falta.
@@ -55,6 +55,7 @@ Se puede parar y volver a ejecutar: continúa con lo que falta.
 ## Reglas
 
 - El script solo escribe en `words`: **nunca en la lista de nadie**.
+- Nada de palabras muy raras: si la lista de frecuencia trae ruido o palabras raras, se saltan aunque se salten ranks.
 - Las palabras entran solas a "Mis palabras": cuando Repasar se queda sin nuevas, toma las siguientes por `rank`, sin límite diario. Una palabra de la lista no se puede quitar.
 - Las palabras existentes no se sobrescriben, salvo con `--redo`.
 - Portugués solo de Brasil e inglés solo de USA en todas las fichas.
@@ -64,8 +65,8 @@ Se puede parar y volver a ejecutar: continúa con lo que falta.
 
 | Tanda | Estado |
 |---|---|
-| Portugués | ~4.570 fichas escritas por Claude (hasta el rank ~5.480) |
-| Inglés | ~5.120 fichas escritas por Claude (hasta el rank ~5.120) |
+| Portugués | 6.621 palabras en total, fichas de Claude hasta el rank 6.700 (archivo 56) |
+| Inglés | 6.943 palabras en total, fichas de Claude hasta el rank 6.122 (archivo 62) |
 | Ambos hasta 10.000 | Pendiente |
 
 ## Pendiente

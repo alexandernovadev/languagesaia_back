@@ -4,7 +4,8 @@
  * are already written, this only loads them.
  *
  * - A word already in the dictionary only gets its rank: its fields are kept.
- * - With --redo the entry from the file replaces the one in the dictionary.
+ * - With --redo the entry's fields replace the ones in the dictionary. Audio,
+ *   image, hidden and completed are kept.
  * - Safe to stop and run again: it continues with what's missing.
  * - Words go to the dictionary only, not to anyone's list.
  * - Repeated words across files are loaded once (the first one wins).
@@ -91,7 +92,8 @@ async function main() {
 
     const known = byKey.get(key);
     if (known && redo && known.source === SOURCE) {
-      await Word.replaceOne({ _id: known._id }, { ...fields, wordKey: key });
+      // only the entry's fields: audio, image, hidden and completed stay as they are
+      await Word.updateOne({ _id: known._id }, { $set: { ...fields, wordKey: key } });
       stats.redone++;
     } else if (known) {
       if (entry.rank != null) await Word.updateOne({ _id: known._id }, { rank: entry.rank }, { timestamps: false });

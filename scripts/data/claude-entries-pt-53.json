@@ -1,0 +1,2139 @@
+[
+ {
+  "rank": 6301,
+  "word": "fornecedor",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/foʁneseˈdoʁ/",
+  "definition": "Empresa ou pessoa que entrega produtos para outra.",
+  "examples": [
+   "O fornecedor entregou as caixas hoje.",
+   "Trocamos de fornecedor este ano.",
+   "O fornecedor de frutas é da região."
+  ],
+  "spanish": {
+   "word": "proveedor",
+   "definition": "Empresa o persona que entrega productos."
+  },
+  "synonyms": [
+   "distribuidor"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6302,
+  "word": "mouse",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmawzi/",
+  "definition": "Aparelho que se usa com a mão para controlar o computador.",
+  "examples": [
+   "O mouse parou de funcionar.",
+   "Clique com o mouse no botão.",
+   "Comprei um mouse sem fio."
+  ],
+  "spanish": {
+   "word": "ratón",
+   "definition": "Dispositivo para controlar el ordenador."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6303,
+  "word": "notebook",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/notʃiˈbuki/",
+  "definition": "Computador portátil que se pode levar na mochila.",
+  "examples": [
+   "Levei o notebook para o trabalho.",
+   "Meu notebook está sem bateria.",
+   "Ela estuda no notebook todos os dias."
+  ],
+  "spanish": {
+   "word": "portátil",
+   "definition": "Ordenador portátil."
+  },
+  "synonyms": [
+   "laptop"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6304,
+  "word": "smartphone",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/smaʁtʃiˈfoni/",
+  "definition": "Celular moderno com internet e aplicativos.",
+  "examples": [
+   "Comprei um smartphone novo.",
+   "Meu smartphone tem duas câmeras.",
+   "Ele usa o smartphone para trabalhar."
+  ],
+  "spanish": {
+   "word": "teléfono inteligente",
+   "definition": "Móvil moderno con internet y aplicaciones."
+  },
+  "synonyms": [
+   "celular"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6305,
+  "word": "pendrive",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pẽdɾiˈvajvi/",
+  "definition": "Pequeno aparelho para guardar e levar arquivos.",
+  "examples": [
+   "Salvei as fotos no pendrive.",
+   "Esqueci o pendrive em casa.",
+   "O pendrive tem trinta e dois gigas."
+  ],
+  "spanish": {
+   "word": "memoria USB",
+   "definition": "Pequeño dispositivo para guardar archivos."
+  },
+  "synonyms": [
+   "pen drive"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6306,
+  "word": "antivírus",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɐ̃tʃiˈviɾus/",
+  "definition": "Programa que protege o computador de vírus.",
+  "examples": [
+   "O antivírus encontrou um problema.",
+   "Instalei um antivírus no notebook.",
+   "Atualize o antivírus toda semana."
+  ],
+  "spanish": {
+   "word": "antivirus",
+   "definition": "Programa que protege el ordenador de virus."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6307,
+  "word": "atualização",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/atwawizaˈsɐ̃w̃/",
+  "definition": "Versão nova de um programa ou de informações.",
+  "examples": [
+   "A atualização do celular demora.",
+   "Fiz a atualização do aplicativo.",
+   "A empresa publicou uma atualização."
+  ],
+  "spanish": {
+   "word": "actualización",
+   "definition": "Versión nueva de un programa o datos."
+  },
+  "synonyms": [
+   "versão nova"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6308,
+  "word": "configuração",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kõfiɡuɾaˈsɐ̃w̃/",
+  "definition": "Forma como algo está ajustado ou preparado.",
+  "examples": [
+   "Mudei a configuração do celular.",
+   "A configuração da impressora está errada.",
+   "As configurações ficam no menu."
+  ],
+  "spanish": {
+   "word": "configuración",
+   "definition": "Forma en que algo está ajustado."
+  },
+  "synonyms": [
+   "ajuste"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6309,
+  "word": "servidor",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/seʁviˈdoʁ/",
+  "definition": "Computador que guarda dados para outros computadores.",
+  "examples": [
+   "O servidor da empresa caiu.",
+   "Os arquivos ficam no servidor.",
+   "O servidor precisa de manutenção."
+  ],
+  "spanish": {
+   "word": "servidor",
+   "definition": "Ordenador que almacena datos para otros."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6310,
+  "word": "algoritmo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/awɡoˈɾitʃimu/",
+  "definition": "Conjunto de passos que um computador segue para resolver algo.",
+  "examples": [
+   "O algoritmo escolhe os vídeos para você.",
+   "Ela estudou algoritmo na faculdade.",
+   "O algoritmo ficou mais rápido."
+  ],
+  "spanish": {
+   "word": "algoritmo",
+   "definition": "Conjunto de pasos que sigue un ordenador."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6311,
+  "word": "videogame",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/vidjoˈɡejmi/",
+  "definition": "Jogo eletrônico ou o aparelho onde se joga.",
+  "examples": [
+   "Meu irmão joga videogame à noite.",
+   "Ganhei um videogame no aniversário.",
+   "Esse videogame é muito caro."
+  ],
+  "spanish": {
+   "word": "videojuego",
+   "definition": "Juego electrónico o el aparato para jugarlo."
+  },
+  "synonyms": [
+   "jogo eletrônico"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6312,
+  "word": "curtida",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kuʁˈtʃidɐ/",
+  "definition": "Ação de curtir uma publicação nas redes sociais.",
+  "examples": [
+   "Minha foto ganhou muitas curtidas.",
+   "Ele deu uma curtida no meu post.",
+   "As curtidas mostram que o vídeo fez sucesso."
+  ],
+  "spanish": {
+   "word": "me gusta",
+   "definition": "Acción de dar 'me gusta' en redes sociales."
+  },
+  "synonyms": [
+   "like"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6313,
+  "word": "selfie",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɛwfʃi/",
+  "definition": "Foto que a própria pessoa tira de si mesma.",
+  "examples": [
+   "Tiramos uma selfie na praia.",
+   "Ela postou uma selfie nova.",
+   "Vamos tirar uma selfie juntos?"
+  ],
+  "spanish": {
+   "word": "selfi",
+   "definition": "Foto que uno se toma a sí mismo."
+  },
+  "synonyms": [
+   "autorretrato"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6314,
+  "word": "emoji",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/eˈmoʒi/",
+  "definition": "Pequeno desenho usado nas mensagens do celular.",
+  "examples": [
+   "Ela mandou um emoji de coração.",
+   "Uso muitos emojis nas conversas.",
+   "Esse emoji significa feliz."
+  ],
+  "spanish": {
+   "word": "emoji",
+   "definition": "Pequeño dibujo usado en los mensajes."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6315,
+  "word": "postagem",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/posˈtaʒẽj/",
+  "definition": "Publicação feita em uma rede social.",
+  "examples": [
+   "A postagem teve muitos comentários.",
+   "Ele apagou a postagem antiga.",
+   "Gostei da sua postagem de hoje."
+  ],
+  "spanish": {
+   "word": "publicación",
+   "definition": "Publicación hecha en una red social."
+  },
+  "synonyms": [
+   "publicação",
+   "post"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6316,
+  "word": "blog",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈblɔɡi/",
+  "definition": "Site com textos e fotos sobre um assunto.",
+  "examples": [
+   "Ela escreve em um blog de viagens.",
+   "O blog tem receitas fáceis.",
+   "Eu leio esse blog todos os dias."
+  ],
+  "spanish": {
+   "word": "blog",
+   "definition": "Sitio web con textos sobre un tema."
+  },
+  "synonyms": [
+   "site"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6317,
+  "word": "link",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlĩki/",
+  "definition": "Endereço que leva a outra página ou arquivo.",
+  "examples": [
+   "Clique no link para abrir o vídeo.",
+   "Mandei o link por mensagem.",
+   "O link não está funcionando."
+  ],
+  "spanish": {
+   "word": "enlace",
+   "definition": "Dirección que lleva a otra página."
+  },
+  "synonyms": [
+   "endereço"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6318,
+  "word": "alto-falante",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/awtu faˈlɐ̃tʃi/",
+  "definition": "Aparelho que amplifica e solta o som.",
+  "examples": [
+   "O alto-falante da escola é muito alto.",
+   "O alto-falante parou de funcionar.",
+   "Puseram um alto-falante na praça."
+  ],
+  "spanish": {
+   "word": "altavoz",
+   "definition": "Aparato que amplifica el sonido."
+  },
+  "synonyms": [
+   "caixa de som"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6319,
+  "word": "webcam",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwɛbkɐ̃/",
+  "definition": "Câmera ligada ao computador para videochamadas.",
+  "examples": [
+   "Liguei a webcam para a reunião.",
+   "Minha webcam não aparece na tela.",
+   "A webcam do notebook é boa."
+  ],
+  "spanish": {
+   "word": "cámara web",
+   "definition": "Cámara conectada al ordenador."
+  },
+  "synonyms": [
+   "câmera"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6320,
+  "word": "roteador",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʁoteaˈdoʁ/",
+  "definition": "Aparelho que distribui a internet para a casa.",
+  "examples": [
+   "O roteador está na sala.",
+   "Reinicie o roteador para voltar a internet.",
+   "O roteador novo é mais rápido."
+  ],
+  "spanish": {
+   "word": "router",
+   "definition": "Aparato que distribuye internet en casa."
+  },
+  "synonyms": [
+   "modem"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6321,
+  "word": "notificação",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/notʃifikaˈsɐ̃w̃/",
+  "definition": "Aviso que aparece no celular ou no computador.",
+  "examples": [
+   "Recebi uma notificação do banco.",
+   "Desliguei as notificações do aplicativo.",
+   "A notificação apareceu na tela."
+  ],
+  "spanish": {
+   "word": "notificación",
+   "definition": "Aviso que aparece en el móvil."
+  },
+  "synonyms": [
+   "aviso"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6322,
+  "word": "compartilhamento",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kõpaʁtʃiʎaˈmẽtu/",
+  "definition": "Ato de dividir algo com outras pessoas, também na internet.",
+  "examples": [
+   "O compartilhamento de arquivos é fácil.",
+   "O compartilhamento da notícia foi grande.",
+   "Essa conta permite compartilhamento."
+  ],
+  "spanish": {
+   "word": "compartición",
+   "definition": "Acción de compartir algo, también en internet."
+  },
+  "synonyms": [
+   "partilha"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6323,
+  "word": "adesivo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/adeˈzivu/",
+  "definition": "Pequeno papel ou plástico que cola em superfícies.",
+  "examples": [
+   "Colei um adesivo no notebook.",
+   "O adesivo do carro está descolando.",
+   "Ganhei um adesivo da loja."
+  ],
+  "spanish": {
+   "word": "pegatina",
+   "definition": "Pequeña lámina que se pega en superficies."
+  },
+  "synonyms": [
+   "figurinha"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6324,
+  "word": "chip",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʃipi/",
+  "definition": "Pequena peça do celular que guarda os dados da linha.",
+  "examples": [
+   "Troquei o chip do celular.",
+   "O chip não está funcionando.",
+   "Coloquei um chip novo no celular."
+  ],
+  "spanish": {
+   "word": "chip",
+   "definition": "Pequeña pieza del móvil con los datos de la línea."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6325,
+  "word": "operadora",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/opeɾaˈdoɾɐ/",
+  "definition": "Empresa que oferece serviços de telefone e internet.",
+  "examples": [
+   "Minha operadora tem sinal fraco aqui.",
+   "Troquei de operadora de celular.",
+   "A operadora cobrou a mais na conta."
+  ],
+  "spanish": {
+   "word": "operadora",
+   "definition": "Empresa que ofrece servicios de telefonía e internet."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6326,
+  "word": "capinha",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kaˈpĩɲɐ/",
+  "definition": "Capa que protege o celular.",
+  "examples": [
+   "Comprei uma capinha azul para o celular.",
+   "A capinha protege o celular de quedas.",
+   "Minha capinha está suja."
+  ],
+  "spanish": {
+   "word": "funda",
+   "definition": "Funda que protege el móvil."
+  },
+  "synonyms": [
+   "capa"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6327,
+  "word": "película",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/peˈlikulɐ/",
+  "definition": "Película fina que protege a tela do celular.",
+  "examples": [
+   "Coloquei uma película na tela.",
+   "A película do celular está arranhada.",
+   "Preciso trocar a película do celular."
+  ],
+  "spanish": {
+   "word": "protector de pantalla",
+   "definition": "Lámina fina que protege la pantalla."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6328,
+  "word": "armazenamento",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aʁmazenaˈmẽtu/",
+  "definition": "Espaço onde se guardam dados ou objetos.",
+  "examples": [
+   "O armazenamento do celular está cheio.",
+   "Preciso de mais armazenamento para as fotos.",
+   "O armazenamento dos arquivos é seguro."
+  ],
+  "spanish": {
+   "word": "almacenamiento",
+   "definition": "Espacio donde se guardan datos u objetos."
+  },
+  "synonyms": [
+   "espaço"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6329,
+  "word": "busca",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbuska/",
+  "definition": "Ação de procurar algo ou alguém.",
+  "examples": [
+   "A busca pelo celular durou uma hora.",
+   "Fiz uma busca no site.",
+   "A busca de emprego é difícil."
+  ],
+  "spanish": {
+   "word": "búsqueda",
+   "definition": "Acción de buscar algo o a alguien."
+  },
+  "synonyms": [
+   "procura"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6330,
+  "word": "zagueiro",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/zaˈɡejɾu/",
+  "definition": "Jogador de futebol que defende a área.",
+  "examples": [
+   "O zagueiro cortou a bola.",
+   "O zagueiro do time é muito forte.",
+   "O zagueiro salvou o time no fim."
+  ],
+  "spanish": {
+   "word": "defensa central",
+   "definition": "Jugador que defiende el área en fútbol."
+  },
+  "synonyms": [
+   "defensor"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6331,
+  "word": "atacante",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ataˈkɐ̃tʃi/",
+  "definition": "Jogador que ataca e busca fazer gols.",
+  "examples": [
+   "O atacante fez dois gols.",
+   "O atacante correu para o gol.",
+   "O time contratou um atacante novo."
+  ],
+  "spanish": {
+   "word": "delantero",
+   "definition": "Jugador que ataca y busca marcar goles."
+  },
+  "synonyms": [
+   "dianteiro"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6332,
+  "word": "drible",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdɾibli/",
+  "definition": "Movimento para passar pelo adversário com a bola.",
+  "examples": [
+   "O jogador fez um drible bonito.",
+   "O drible deixou o zagueiro para trás.",
+   "Ele treina drible todos os dias."
+  ],
+  "spanish": {
+   "word": "regate",
+   "definition": "Movimiento para pasar al adversario con el balón."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6333,
+  "word": "impedimento",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ĩpedʒiˈmẽtu/",
+  "definition": "Falta no futebol quando o jogador está à frente do último defensor.",
+  "examples": [
+   "O juiz marcou impedimento.",
+   "O gol foi anulado por impedimento.",
+   "O impedimento foi muito claro."
+  ],
+  "spanish": {
+   "word": "fuera de juego",
+   "definition": "Falta en fútbol por estar adelantado."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6334,
+  "word": "craque",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɾaki/",
+  "definition": "Jogador muito bom; pessoa habilidosa.",
+  "examples": [
+   "Aquele jogador é um craque.",
+   "O craque do time fez a diferença.",
+   "Meu irmão é craque no videogame."
+  ],
+  "spanish": {
+   "word": "crack",
+   "definition": "Jugador muy bueno."
+  },
+  "synonyms": [
+   "estrela",
+   "fenômeno"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6335,
+  "word": "ciclismo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/siˈklizmu/",
+  "definition": "Esporte de andar de bicicleta.",
+  "examples": [
+   "O ciclismo é muito popular na Europa.",
+   "Ele treina ciclismo desde criança.",
+   "Assistimos à prova de ciclismo."
+  ],
+  "spanish": {
+   "word": "ciclismo",
+   "definition": "Deporte de andar en bicicleta."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6336,
+  "word": "ioga",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈjɔɡɐ/",
+  "definition": "Prática de exercícios e respiração para corpo e mente.",
+  "examples": [
+   "Faço ioga duas vezes por semana.",
+   "A ioga ajuda a relaxar.",
+   "A aula de ioga é de manhã."
+  ],
+  "spanish": {
+   "word": "yoga",
+   "definition": "Práctica de ejercicios y respiración."
+  },
+  "synonyms": [
+   "yoga"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6337,
+  "word": "alongamento",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/alõɡaˈmẽtu/",
+  "definition": "Exercício para esticar os músculos.",
+  "examples": [
+   "Faço alongamento antes de correr.",
+   "O alongamento evita dores.",
+   "O professor ensinou um alongamento novo."
+  ],
+  "spanish": {
+   "word": "estiramiento",
+   "definition": "Ejercicio para estirar los músculos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6338,
+  "word": "patinação",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/patʃinaˈsɐ̃w̃/",
+  "definition": "Esporte de deslizar com patins ou patins de gelo.",
+  "examples": [
+   "A patinação no gelo é difícil.",
+   "Ela faz patinação no parque.",
+   "A pista de patinação abriu hoje."
+  ],
+  "spanish": {
+   "word": "patinaje",
+   "definition": "Deporte de deslizarse con patines."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6339,
+  "word": "escalada",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/eskaˈladɐ/",
+  "definition": "Esporte de subir paredes ou montanhas.",
+  "examples": [
+   "A escalada exige força e técnica.",
+   "Fizemos escalada no fim de semana.",
+   "A academia tem parede de escalada."
+  ],
+  "spanish": {
+   "word": "escalada",
+   "definition": "Deporte de subir paredes o montañas."
+  },
+  "synonyms": [
+   "alpinismo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6340,
+  "word": "remo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʁemu/",
+  "definition": "Esporte de remar em barcos; o remo usado para remar.",
+  "examples": [
+   "O remo é um esporte muito completo.",
+   "Ele pratica remo no clube.",
+   "O remo do barco quebrou."
+  ],
+  "spanish": {
+   "word": "remo",
+   "definition": "Deporte de remar; pala para remar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6341,
+  "word": "caiaque",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kajˈaki/",
+  "definition": "Barco pequeno e estreito movido a remo.",
+  "examples": [
+   "Alugamos um caiaque na praia.",
+   "O caiaque virou na correnteza.",
+   "Ela rema caiaque muito bem."
+  ],
+  "spanish": {
+   "word": "kayak",
+   "definition": "Embarcación pequeña movida a remo."
+  },
+  "synonyms": [
+   "canoa"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6342,
+  "word": "pedalinho",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pedaˈlĩɲu/",
+  "definition": "Barco pequeno movido por pedais, comum em lagos.",
+  "examples": [
+   "Andamos de pedalinho no lago.",
+   "O pedalinho é uma diversão barata.",
+   "O pedalinho tem forma de cisne."
+  ],
+  "spanish": {
+   "word": "pedaló",
+   "definition": "Embarcación pequeña movida por pedales."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6343,
+  "word": "asa-delta",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈazɐ ˈdɛwtɐ/",
+  "definition": "Aparelho de voo em que a pessoa fica pendurada.",
+  "examples": [
+   "Ele saltou de asa-delta no Rio.",
+   "A asa-delta voou sobre a praia.",
+   "Quero experimentar asa-delta um dia."
+  ],
+  "spanish": {
+   "word": "ala delta",
+   "definition": "Aparato de vuelo donde la persona va colgada."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6344,
+  "word": "tirolesa",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/tʃiɾoˈlezɐ/",
+  "definition": "Cabo com roldana onde a pessoa desliza.",
+  "examples": [
+   "Desci pela tirolesa no parque.",
+   "A tirolesa é alta e rápida.",
+   "As crianças adoraram a tirolesa."
+  ],
+  "spanish": {
+   "word": "tirolesa",
+   "definition": "Cable con polea por el que se desliza una persona."
+  },
+  "synonyms": [
+   "zip line"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6345,
+  "word": "montanha-russa",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/mõˈtɐɲɐ ˈʁusɐ/",
+  "definition": "Brinquedo de parque com trilhos que sobem e descem rápido.",
+  "examples": [
+   "A montanha-russa é a atração mais famosa.",
+   "Senti medo na montanha-russa.",
+   "A fila da montanha-russa é grande."
+  ],
+  "spanish": {
+   "word": "montaña rusa",
+   "definition": "Atracción de feria con subidas y bajadas rápidas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6346,
+  "word": "roda-gigante",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʁɔdɐ ʒiˈɡɐ̃tʃi/",
+  "definition": "Brinquedo alto com cabines que giram.",
+  "examples": [
+   "Subimos na roda-gigante à noite.",
+   "A roda-gigante tem cinquenta metros.",
+   "A vista da roda-gigante é linda."
+  ],
+  "spanish": {
+   "word": "noria",
+   "definition": "Atracción alta con cabinas giratorias."
+  },
+  "synonyms": [
+   "roda gigante"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6347,
+  "word": "quebra-cabeça",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɛbɾɐ kaˈbesɐ/",
+  "definition": "Jogo de peças que formam uma imagem; problema difícil.",
+  "examples": [
+   "Montamos um quebra-cabeça de mil peças.",
+   "Esse problema é um quebra-cabeça.",
+   "O quebra-cabeça ficou sobre a mesa."
+  ],
+  "spanish": {
+   "word": "rompecabezas",
+   "definition": "Juego de piezas que forman una imagen."
+  },
+  "synonyms": [
+   "puzzle"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6348,
+  "word": "baralho",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/baˈɾaʎu/",
+  "definition": "Conjunto de cartas para jogos.",
+  "examples": [
+   "Jogamos cartas com um baralho novo.",
+   "O baralho tem cinquenta e duas cartas.",
+   "Esqueci o baralho em casa."
+  ],
+  "spanish": {
+   "word": "baraja",
+   "definition": "Conjunto de cartas para juegos."
+  },
+  "synonyms": [
+   "jogo de cartas"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6349,
+  "word": "pebolim",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/peboˈlĩ/",
+  "definition": "Jogo de mesa com times de bonecos movidos por hastes.",
+  "examples": [
+   "Jogamos pebolim no bar.",
+   "Ele é muito bom no pebolim.",
+   "O pebolim do clube é novo."
+  ],
+  "spanish": {
+   "word": "futbolín",
+   "definition": "Juego de mesa con muñecos y varillas."
+  },
+  "synonyms": [
+   "totó"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6350,
+  "word": "sinuca",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/siˈnukɐ/",
+  "definition": "Jogo de mesa com bolas e tacos.",
+  "examples": [
+   "Jogamos sinuca depois do jantar.",
+   "Meu pai joga sinuca muito bem.",
+   "A mesa de sinuca fica no fundo."
+  ],
+  "spanish": {
+   "word": "billar",
+   "definition": "Juego de mesa con bolas y tacos."
+  },
+  "synonyms": [
+   "bilhar"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6351,
+  "word": "fliperama",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/flipeˈɾɐmɐ/",
+  "definition": "Máquina de jogos eletrônicos; lugar com essas máquinas.",
+  "examples": [
+   "Ele jogou fliperama a tarde toda.",
+   "O fliperama da galeria é antigo.",
+   "Gastei todas as moedas no fliperama."
+  ],
+  "spanish": {
+   "word": "máquina recreativa",
+   "definition": "Máquina de videojuegos; lugar con ellas."
+  },
+  "synonyms": [
+   "arcade"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6352,
+  "word": "karaokê",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kaɾaoˈke/",
+  "definition": "Atividade de cantar músicas com playback.",
+  "examples": [
+   "Fizemos karaokê na festa.",
+   "Ela canta muito bem no karaokê.",
+   "O bar tem karaokê às sextas."
+  ],
+  "spanish": {
+   "word": "karaoke",
+   "definition": "Actividad de cantar con música grabada."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6353,
+  "word": "dança",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdɐ̃sɐ/",
+  "definition": "Arte ou ato de mover o corpo com música.",
+  "examples": [
+   "A dança é a paixão dela.",
+   "Fizemos uma dança na apresentação.",
+   "A aula de dança é na terça."
+  ],
+  "spanish": {
+   "word": "danza",
+   "definition": "Arte o acción de mover el cuerpo con música."
+  },
+  "synonyms": [
+   "baile"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6354,
+  "word": "pagode",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/paˈɡɔdʒi/",
+  "definition": "Estilo de música brasileira; festa animada.",
+  "examples": [
+   "Ouvimos pagode no fim de semana.",
+   "A banda de pagode tocou a noite toda.",
+   "Meu vizinho adora pagode."
+  ],
+  "spanish": {
+   "word": "pagode",
+   "definition": "Estilo de música brasileña; fiesta animada."
+  },
+  "synonyms": [
+   "samba"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6355,
+  "word": "berimbau",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/beɾĩˈbaw/",
+  "definition": "Instrumento de corda usado na capoeira.",
+  "examples": [
+   "O berimbau comanda a roda de capoeira.",
+   "Ele aprendeu a tocar berimbau.",
+   "O som do berimbau é marcante."
+  ],
+  "spanish": {
+   "word": "berimbau",
+   "definition": "Instrumento de cuerda usado en la capoeira."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6356,
+  "word": "pescaria",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/peskaˈɾiɐ/",
+  "definition": "Ato de pescar; viagem para pescar.",
+  "examples": [
+   "Fizemos uma pescaria no lago.",
+   "A pescaria rendeu três peixes.",
+   "Meu avô vai à pescaria todo domingo."
+  ],
+  "spanish": {
+   "word": "pesca",
+   "definition": "Acción de pescar; viaje para pescar."
+  },
+  "synonyms": [
+   "pesca"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6357,
+  "word": "cavalgada",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kavawˈɡadɐ/",
+  "definition": "Passeio a cavalo, geralmente em grupo.",
+  "examples": [
+   "A cavalgada passou pela fazenda.",
+   "Participamos de uma cavalgada no campo.",
+   "A cavalgada durou duas horas."
+  ],
+  "spanish": {
+   "word": "cabalgata",
+   "definition": "Paseo a caballo, generalmente en grupo."
+  },
+  "synonyms": [
+   "passeio a cavalo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6358,
+  "word": "ringue",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʁĩɡi/",
+  "definition": "Área onde acontecem lutas.",
+  "examples": [
+   "O lutador entrou no ringue.",
+   "O ringue estava cheio de gente.",
+   "A luta começou no ringue."
+  ],
+  "spanish": {
+   "word": "ring",
+   "definition": "Área donde se celebran combates."
+  },
+  "synonyms": [
+   "ring"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6359,
+  "word": "prancha",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpɾɐ̃ʃɐ/",
+  "definition": "Tábua usada para surfar; tábua plana em geral.",
+  "examples": [
+   "Levei minha prancha para a praia.",
+   "A prancha dele é azul.",
+   "Ela alugou uma prancha por uma hora."
+  ],
+  "spanish": {
+   "word": "tabla",
+   "definition": "Tabla usada para surfear."
+  },
+  "synonyms": [
+   "tábua"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6360,
+  "word": "guarda-sol",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɡwaʁdɐ ˈsɔw/",
+  "definition": "Objeto aberto que protege do sol na praia.",
+  "examples": [
+   "Levamos o guarda-sol para a praia.",
+   "O guarda-sol voou com o vento.",
+   "Alugamos um guarda-sol e duas cadeiras."
+  ],
+  "spanish": {
+   "word": "sombrilla",
+   "definition": "Objeto que protege del sol en la playa."
+  },
+  "synonyms": [
+   "sombrinha"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6361,
+  "word": "futevôlei",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/futʃiˈvolej/",
+  "definition": "Esporte de vôlei jogado com os pés na areia.",
+  "examples": [
+   "Eles jogam futevôlei na praia.",
+   "O futevôlei é popular no Rio.",
+   "Aprendi futevôlei no verão."
+  ],
+  "spanish": {
+   "word": "futvóley",
+   "definition": "Deporte de vóley jugado con los pies en la arena."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6362,
+  "word": "frescobol",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/fɾeskoˈbɔw/",
+  "definition": "Jogo de praia com raquetes e bolinha.",
+  "examples": [
+   "Jogamos frescobol na areia.",
+   "O frescobol precisa de duas raquetes.",
+   "Eles levam o frescobol para a praia."
+  ],
+  "spanish": {
+   "word": "palas de playa",
+   "definition": "Juego de playa con raquetas y pelota."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6363,
+  "word": "peteca",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/peˈtɛkɐ/",
+  "definition": "Objeto com penas que se bate com a mão.",
+  "examples": [
+   "Brincamos de peteca no quintal.",
+   "A peteca caiu no telhado.",
+   "Comprei uma peteca nova."
+  ],
+  "spanish": {
+   "word": "peteca",
+   "definition": "Objeto con plumas que se golpea con la mano."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6364,
+  "word": "pelada",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/peˈladɐ/",
+  "definition": "Partida informal de futebol entre amigos.",
+  "examples": [
+   "Jogamos uma pelada no sábado.",
+   "A pelada acontece no campo do bairro.",
+   "Ele machucou o pé na pelada."
+  ],
+  "spanish": {
+   "word": "pichanga",
+   "definition": "Partido informal de fútbol entre amigos."
+  },
+  "synonyms": [
+   "futebol de rua"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6365,
+  "word": "arena",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aˈɾenɐ/",
+  "definition": "Espaço grande para shows, esportes ou eventos.",
+  "examples": [
+   "O show foi na arena da cidade.",
+   "A arena estava lotada.",
+   "A arena recebe jogos importantes."
+  ],
+  "spanish": {
+   "word": "arena",
+   "definition": "Espacio grande para espectáculos o deportes."
+  },
+  "synonyms": [
+   "estádio"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6366,
+  "word": "flexão",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/flekˈsɐ̃w̃/",
+  "definition": "Exercício de abaixar e levantar o corpo com os braços.",
+  "examples": [
+   "Faço vinte flexões toda manhã.",
+   "A flexão fortalece os braços.",
+   "Ele aprendeu a fazer flexão corretamente."
+  ],
+  "spanish": {
+   "word": "flexión",
+   "definition": "Ejercicio de bajar y subir el cuerpo con los brazos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6367,
+  "word": "escorregador",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/eskoʁeɡaˈdoʁ/",
+  "definition": "Brinquedo com rampa onde as crianças escorregam.",
+  "examples": [
+   "A criança desceu pelo escorregador.",
+   "O escorregador do parque é amarelo.",
+   "Ela tem medo do escorregador alto."
+  ],
+  "spanish": {
+   "word": "tobogán",
+   "definition": "Juego con rampa por donde bajan los niños."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6368,
+  "word": "gangorra",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɡɐ̃ˈɡoʁɐ/",
+  "definition": "Brinquedo que sobe de um lado e desce do outro.",
+  "examples": [
+   "As crianças brincam na gangorra.",
+   "A gangorra precisa de duas pessoas.",
+   "Ele caiu da gangorra."
+  ],
+  "spanish": {
+   "word": "balancín",
+   "definition": "Juego que sube y baja por los lados."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6369,
+  "word": "jaguar",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʒaˈɡwaʁ/",
+  "definition": "Grande felino das Américas, também chamado onça.",
+  "examples": [
+   "O jaguar vive na floresta.",
+   "O jaguar é um animal forte.",
+   "Vi um jaguar no zoológico."
+  ],
+  "spanish": {
+   "word": "jaguar",
+   "definition": "Gran felino de América."
+  },
+  "synonyms": [
+   "onça"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6370,
+  "word": "rã",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʁɐ̃/",
+  "definition": "Animal pequeno que pula e vive perto da água.",
+  "examples": [
+   "A rã pulou no lago.",
+   "Ouvimos o som das rãs à noite.",
+   "A rã é verde e pequena."
+  ],
+  "spanish": {
+   "word": "rana",
+   "definition": "Animal pequeño que salta y vive cerca del agua."
+  },
+  "synonyms": [
+   "sapo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6371,
+  "word": "perereca",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/peɾeˈɾɛkɐ/",
+  "definition": "Espécie de rã pequena que sobe em paredes e plantas.",
+  "examples": [
+   "Uma perereca apareceu na janela.",
+   "A perereca fica nas folhas.",
+   "Ele pegou a perereca com cuidado."
+  ],
+  "spanish": {
+   "word": "rana arborícola",
+   "definition": "Rana pequeña que trepa por paredes y plantas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6372,
+  "word": "caramujo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kaɾaˈmuʒu/",
+  "definition": "Animal com concha em espiral.",
+  "examples": [
+   "Achei um caramujo na pedra.",
+   "O caramujo anda devagar.",
+   "O caramujo vive na água doce."
+  ],
+  "spanish": {
+   "word": "caracol",
+   "definition": "Animal con concha en espiral."
+  },
+  "synonyms": [
+   "caracol"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6373,
+  "word": "besouro",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/beˈzowɾu/",
+  "definition": "Inseto com asas duras, como o escaravelho.",
+  "examples": [
+   "O besouro pousou na folha.",
+   "O besouro é preto e brilhante.",
+   "Meu filho coleciona besouros."
+  ],
+  "spanish": {
+   "word": "escarabajo",
+   "definition": "Insecto con alas duras."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6374,
+  "word": "libélula",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/liˈbɛlulɐ/",
+  "definition": "Inseto de asas finas que voa perto da água.",
+  "examples": [
+   "A libélula voou sobre o rio.",
+   "A libélula tem asas transparentes.",
+   "Vi uma libélula azul no jardim."
+  ],
+  "spanish": {
+   "word": "libélula",
+   "definition": "Insecto de alas finas que vuela cerca del agua."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6375,
+  "word": "casulo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kaˈzulu/",
+  "definition": "Invólucro onde a lagarta se transforma em borboleta.",
+  "examples": [
+   "A borboleta saiu do casulo.",
+   "Encontramos um casulo na árvore.",
+   "O casulo é feito de fios finos."
+  ],
+  "spanish": {
+   "word": "capullo",
+   "definition": "Envoltura donde la oruga se transforma en mariposa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6376,
+  "word": "colmeia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kowˈmejɐ/",
+  "definition": "Casa das abelhas onde elas fazem o mel.",
+  "examples": [
+   "As abelhas voltaram para a colmeia.",
+   "O mel vem da colmeia.",
+   "Cuidado com a colmeia no quintal."
+  ],
+  "spanish": {
+   "word": "colmena",
+   "definition": "Casa de las abejas."
+  },
+  "synonyms": [
+   "casa de abelha"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6377,
+  "word": "formigueiro",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/foʁmiˈɡejɾu/",
+  "definition": "Lugar onde vivem muitas formigas.",
+  "examples": [
+   "Há um formigueiro no jardim.",
+   "As formigas saíram do formigueiro.",
+   "O formigueiro é enorme."
+  ],
+  "spanish": {
+   "word": "hormiguero",
+   "definition": "Lugar donde viven muchas hormigas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6378,
+  "word": "galinheiro",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɡaliˈɲejɾu/",
+  "definition": "Lugar onde se criam galinhas.",
+  "examples": [
+   "As galinhas dormem no galinheiro.",
+   "Meu avô limpa o galinheiro todo dia.",
+   "O galinheiro fica atrás da casa."
+  ],
+  "spanish": {
+   "word": "gallinero",
+   "definition": "Lugar donde se crían gallinas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6379,
+  "word": "chiqueiro",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʃiˈkejɾu/",
+  "definition": "Lugar onde se criam porcos; algo muito sujo.",
+  "examples": [
+   "Os porcos estão no chiqueiro.",
+   "O chiqueiro precisa de limpeza.",
+   "Esse quarto está um chiqueiro."
+  ],
+  "spanish": {
+   "word": "pocilga",
+   "definition": "Lugar donde se crían cerdos; sitio muy sucio."
+  },
+  "synonyms": [
+   "pocilga"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6380,
+  "word": "estábulo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/esˈtabulu/",
+  "definition": "Lugar onde se criam cavalos e outros animais.",
+  "examples": [
+   "Os cavalos voltaram para o estábulo.",
+   "O estábulo fica atrás da casa.",
+   "Ela trabalha no estábulo de manhã."
+  ],
+  "spanish": {
+   "word": "establo",
+   "definition": "Lugar donde se crían caballos."
+  },
+  "synonyms": [
+   "cavalariça"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6381,
+  "word": "canil",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kaˈniw/",
+  "definition": "Lugar onde se criam ou cuidam cachorros.",
+  "examples": [
+   "Adotamos um cachorro no canil.",
+   "O canil cuida de cães abandonados.",
+   "O canil fica perto do parque."
+  ],
+  "spanish": {
+   "word": "perrera",
+   "definition": "Lugar donde se crían o cuidan perros."
+  },
+  "synonyms": [
+   "abrigo de animais"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6382,
+  "word": "viveiro",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/viˈvejɾu/",
+  "definition": "Lugar onde se criam plantas ou animais pequenos.",
+  "examples": [
+   "Compramos flores no viveiro.",
+   "O viveiro cria mudas de árvores.",
+   "O viveiro tem plantas de todos os tipos."
+  ],
+  "spanish": {
+   "word": "vivero",
+   "definition": "Lugar donde se crían plantas o animales pequeños."
+  },
+  "synonyms": [
+   "estufa"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6383,
+  "word": "samambaia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/samaˈmbajɐ/",
+  "definition": "Planta verde de folhas longas, comum em casas.",
+  "examples": [
+   "A samambaia ficou linda na sala.",
+   "Rego a samambaia duas vezes por semana.",
+   "Minha samambaia cresceu muito."
+  ],
+  "spanish": {
+   "word": "helecho",
+   "definition": "Planta verde de hojas largas."
+  },
+  "synonyms": [
+   "planta"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6384,
+  "word": "coqueiro",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/koˈkejɾu/",
+  "definition": "Árvore alta que dá cocos.",
+  "examples": [
+   "O coqueiro balança com o vento.",
+   "Há um coqueiro na praia.",
+   "O coqueiro dá cocos o ano todo."
+  ],
+  "spanish": {
+   "word": "cocotero",
+   "definition": "Árbol alto que da cocos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6385,
+  "word": "broto",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbɾotu/",
+  "definition": "Parte nova e pequena de uma planta.",
+  "examples": [
+   "A planta tem um broto novo.",
+   "Comi broto de feijão na salada.",
+   "O broto apareceu depois da chuva."
+  ],
+  "spanish": {
+   "word": "brote",
+   "definition": "Parte nueva y pequeña de una planta."
+  },
+  "synonyms": [
+   "rebento"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6386,
+  "word": "mata",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmatɐ/",
+  "definition": "Floresta ou vegetação densa.",
+  "examples": [
+   "A mata é protegida por lei.",
+   "Caminhamos pela mata fechada.",
+   "A mata fica atrás da fazenda."
+  ],
+  "spanish": {
+   "word": "bosque",
+   "definition": "Bosque o vegetación densa."
+  },
+  "synonyms": [
+   "floresta",
+   "mato"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6387,
+  "word": "córrego",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɔʁeɡu/",
+  "definition": "Água pequena e estreita que corre no campo.",
+  "examples": [
+   "O córrego passa atrás da casa.",
+   "As crianças brincam no córrego.",
+   "O córrego secou no verão."
+  ],
+  "spanish": {
+   "word": "arroyo",
+   "definition": "Corriente pequeña de agua."
+  },
+  "synonyms": [
+   "riacho"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6388,
+  "word": "brejo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbɾeʒu/",
+  "definition": "Terreno baixo e úmido, com lama.",
+  "examples": [
+   "O carro atolou no brejo.",
+   "O brejo fica perto do rio.",
+   "Há muitas rãs no brejo."
+  ],
+  "spanish": {
+   "word": "pantano",
+   "definition": "Terreno bajo y húmedo con lodo."
+  },
+  "synonyms": [
+   "pântano"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6389,
+  "word": "poça",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈposɐ/",
+  "definition": "Pequena quantidade de água parada no chão.",
+  "examples": [
+   "Pisei numa poça e molhei o tênis.",
+   "As crianças pulam nas poças.",
+   "A poça secou com o sol."
+  ],
+  "spanish": {
+   "word": "charco",
+   "definition": "Pequeña cantidad de agua estancada."
+  },
+  "synonyms": [
+   "lagoa"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6390,
+  "word": "coral",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/koˈʁaw/",
+  "definition": "Animal marinho que forma recifes coloridos.",
+  "examples": [
+   "O coral do mar é colorido.",
+   "Mergulhamos para ver o coral.",
+   "O coral precisa de água limpa."
+  ],
+  "spanish": {
+   "word": "coral",
+   "definition": "Animal marino que forma arrecifes."
+  },
+  "synonyms": [
+   "recife"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6391,
+  "word": "alga",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈawɡɐ/",
+  "definition": "Planta que vive na água.",
+  "examples": [
+   "A alga apareceu na praia.",
+   "A alga é usada em alguns alimentos.",
+   "O tanque ficou cheio de alga."
+  ],
+  "spanish": {
+   "word": "alga",
+   "definition": "Planta que vive en el agua."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6392,
+  "word": "queimada",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kejˈmadɐ/",
+  "definition": "Fogo que queima a vegetação de uma área.",
+  "examples": [
+   "A queimada destruiu parte da floresta.",
+   "A queimada foi vista de longe.",
+   "As queimadas aumentam no tempo seco."
+  ],
+  "spanish": {
+   "word": "quema",
+   "definition": "Incendio que destruye la vegetación."
+  },
+  "synonyms": [
+   "incêndio"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6393,
+  "word": "desmatamento",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/dezmateˈmẽtu/",
+  "definition": "Ato de derrubar árvores de uma área.",
+  "examples": [
+   "O desmatamento preocupa os cientistas.",
+   "O desmatamento diminuiu este ano.",
+   "A lei tenta controlar o desmatamento."
+  ],
+  "spanish": {
+   "word": "deforestación",
+   "definition": "Acción de talar árboles de una zona."
+  },
+  "synonyms": [
+   "desflorestamento"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6394,
+  "word": "reciclagem",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʁesikˈlaʒẽj/",
+  "definition": "Processo de transformar objetos usados em novos.",
+  "examples": [
+   "A reciclagem ajuda o meio ambiente.",
+   "Fazemos reciclagem em casa.",
+   "O curso ensina reciclagem de papel."
+  ],
+  "spanish": {
+   "word": "reciclaje",
+   "definition": "Proceso de transformar objetos usados en nuevos."
+  },
+  "synonyms": [
+   "reaproveitamento"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6395,
+  "word": "ecologia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ekoloˈʒiɐ/",
+  "definition": "Ciência que estuda a relação dos seres vivos com o ambiente.",
+  "examples": [
+   "Ela estuda ecologia na faculdade.",
+   "A ecologia é importante para o futuro.",
+   "O projeto fala sobre ecologia."
+  ],
+  "spanish": {
+   "word": "ecología",
+   "definition": "Ciencia que estudia la relación de los seres vivos con el ambiente."
+  },
+  "synonyms": [
+   "meio ambiente"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6396,
+  "word": "fauna",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfawnɐ/",
+  "definition": "Conjunto de animais de uma região.",
+  "examples": [
+   "A fauna da Amazônia é rica.",
+   "A fauna local está protegida.",
+   "O livro apresenta a fauna brasileira."
+  ],
+  "spanish": {
+   "word": "fauna",
+   "definition": "Conjunto de animales de una región."
+  },
+  "synonyms": [
+   "animais"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6397,
+  "word": "flora",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈflɔɾɐ/",
+  "definition": "Conjunto de plantas de uma região.",
+  "examples": [
+   "A flora da ilha é única.",
+   "Estudaram a flora da região.",
+   "A flora precisa de proteção."
+  ],
+  "spanish": {
+   "word": "flora",
+   "definition": "Conjunto de plantas de una región."
+  },
+  "synonyms": [
+   "vegetação"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6398,
+  "word": "conservação",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kõseʁvaˈsɐ̃w̃/",
+  "definition": "Ato de proteger e manter algo em bom estado.",
+  "examples": [
+   "A conservação da floresta é essencial.",
+   "O projeto trabalha com conservação da água.",
+   "A conservação dos alimentos evita perdas."
+  ],
+  "spanish": {
+   "word": "conservación",
+   "definition": "Acción de proteger y mantener algo."
+  },
+  "synonyms": [
+   "preservação"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6399,
+  "word": "coleta",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/koˈletɐ/",
+  "definition": "Ato de recolher coisas, como lixo ou dados.",
+  "examples": [
+   "A coleta de lixo passa na terça.",
+   "A coleta de sangue foi rápida.",
+   "A coleta de dados terminou ontem."
+  ],
+  "spanish": {
+   "word": "recogida",
+   "definition": "Acción de recoger cosas, como basura o datos."
+  },
+  "synonyms": [
+   "recolha"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6400,
+  "word": "mormaço",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/moʁˈmasu/",
+  "definition": "Calor úmido e sem vento, típico de tempo abafado.",
+  "examples": [
+   "O mormaço de hoje é insuportável.",
+   "Ficou um mormaço antes da chuva.",
+   "O mormaço deixa todo mundo cansado."
+  ],
+  "spanish": {
+   "word": "bochorno",
+   "definition": "Calor húmedo y sin viento."
+  },
+  "synonyms": [
+   "calor abafado"
+  ],
+  "conjugations": null
+ }
+]

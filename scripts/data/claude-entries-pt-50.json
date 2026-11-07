@@ -1,0 +1,2131 @@
+[
+ {
+  "rank": 6001,
+  "word": "saboneteira",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/sɐboˈnetʃe(j)ɾɐ/",
+  "definition": "Recipiente ou suporte onde se coloca o sabonete, geralmente perto da pia ou do chuveiro.",
+  "examples": [
+   "A saboneteira fica ao lado da pia.",
+   "Comprei uma saboneteira nova para o banheiro.",
+   "O sabonete caiu da saboneteira."
+  ],
+  "spanish": {
+   "word": "jabonera",
+   "definition": "Recipiente o soporte donde se coloca el jabón, generalmente junto al lavabo o la ducha."
+  },
+  "synonyms": [
+   "porta-sabonete"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6002,
+  "word": "sofá-cama",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/soˈfa ˈkɐ̃mɐ/",
+  "definition": "Sofá que pode ser aberto e transformado em cama para dormir.",
+  "examples": [
+   "As visitas dormem no sofá-cama da sala.",
+   "Este sofá-cama é muito confortável.",
+   "Abri o sofá-cama para o meu primo."
+  ],
+  "spanish": {
+   "word": "sofá cama",
+   "definition": "Sofá que se puede abrir y transformar en cama para dormir."
+  },
+  "synonyms": [
+   "sofá dobrável"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6003,
+  "word": "umidificador",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/umiʤifikaˈdoʁ/",
+  "definition": "Aparelho que deixa o ar do quarto mais úmido, ajudando a respirar melhor no tempo seco.",
+  "examples": [
+   "Liguei o umidificador antes de dormir.",
+   "O umidificador ajuda quando o ar está seco.",
+   "Coloquei água no umidificador."
+  ],
+  "spanish": {
+   "word": "humidificador",
+   "definition": "Aparato que humedece el aire de la habitación y ayuda a respirar mejor en tiempo seco."
+  },
+  "synonyms": [
+   "umidificador de ar"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6004,
+  "word": "veneziana",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/veneˈziɐ̃nɐ/",
+  "definition": "Tipo de janela ou persiana com ripas que controlam a luz; no Brasil também pode significar cortina leve.",
+  "examples": [
+   "Feche a veneziana antes de dormir.",
+   "A luz entra pelas ripas da veneziana.",
+   "A veneziana do quarto está quebrada."
+  ],
+  "spanish": {
+   "word": "persiana veneciana",
+   "definition": "Tipo de ventana o persiana con lamas que controlan la luz; en Brasil también puede ser una cortina ligera."
+  },
+  "synonyms": [
+   "persiana",
+   "postigo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6005,
+  "word": "alfinete",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/awfiˈnetʃi/",
+  "definition": "Objeto pequeno e fino de metal, com ponta, usado para prender tecidos ou papéis.",
+  "examples": [
+   "Preciso de um alfinete para prender a barra.",
+   "Cuidado, o alfinete é pontudo!",
+   "Perdi um alfinete no tapete."
+  ],
+  "spanish": {
+   "word": "alfiler",
+   "definition": "Objeto pequeño y fino de metal, con punta, usado para sujetar telas o papeles."
+  },
+  "synonyms": [
+   "alfinete de segurança"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6006,
+  "word": "bainha",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/baˈĩɲɐ/",
+  "definition": "Parte dobrada e costurada da borda de uma roupa; também pode ser a capa onde se guarda uma faca.",
+  "examples": [
+   "A costureira fez a bainha da calça.",
+   "A bainha da saia está solta.",
+   "Minha mãe precisa ajustar a bainha do vestido."
+  ],
+  "spanish": {
+   "word": "dobladillo",
+   "definition": "Parte doblada y cosida del borde de una ropa; también puede ser la funda donde se guarda un cuchillo."
+  },
+  "synonyms": [
+   "orla",
+   "borda"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6007,
+  "word": "blusão",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/bluˈzɐ̃w/",
+  "definition": "Peça de roupa grande e grossa, usada por cima, geralmente no frio; também pode ser um casaco leve de moletom.",
+  "examples": [
+   "Vista um blusão porque está frio.",
+   "Meu blusão de lã é azul.",
+   "Guardei o blusão no armário."
+  ],
+  "spanish": {
+   "word": "jersey grueso / sudadera",
+   "definition": "Prenda de ropa grande y gruesa que se usa por encima, generalmente en el frío; también puede ser una chaqueta ligera de felpa."
+  },
+  "synonyms": [
+   "casaco",
+   "suéter",
+   "moletom"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6008,
+  "word": "brinco",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbɾĩku/",
+  "definition": "Joia ou enfeite que se usa pendurado na orelha.",
+  "examples": [
+   "Ela perdeu um brinco na festa.",
+   "Ganhei brincos novos de presente.",
+   "Estes brincos combinam com o vestido."
+  ],
+  "spanish": {
+   "word": "pendiente / arete",
+   "definition": "Joya u adorno que se usa colgado en la oreja."
+  },
+  "synonyms": [
+   "argola"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6009,
+  "word": "broche",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbɾɔʃi/",
+  "definition": "Enfeite com alfinete que se prende na roupa, geralmente no peito.",
+  "examples": [
+   "Minha avó tem um broche antigo.",
+   "O broche de flores é bonito.",
+   "Prendi o broche no casaco."
+  ],
+  "spanish": {
+   "word": "broche",
+   "definition": "Adorno con alfiler que se prende en la ropa, generalmente en el pecho."
+  },
+  "synonyms": [
+   "broche de peito"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6010,
+  "word": "camurça",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kɐˈmuʁsɐ/",
+  "definition": "Couro macio e aveludado usado em roupas e sapatos; também é o nome de um animal parecido com a cabra.",
+  "examples": [
+   "Comprei uma jaqueta de camurça.",
+   "A camurça não pode molhar.",
+   "Estes sapatos de camurça são caros."
+  ],
+  "spanish": {
+   "word": "gamuza",
+   "definition": "Cuero suave y aterciopelado usado en ropa y zapatos; también es el nombre de un animal parecido a la cabra."
+  },
+  "synonyms": [
+   "couro aveludado"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6011,
+  "word": "canga",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɐ̃ɡɐ/",
+  "definition": "Pedaço de tecido colorido que se amarra no corpo para usar na praia.",
+  "examples": [
+   "Levei uma canga para a praia.",
+   "A canga dela tem flores coloridas.",
+   "Usei a canga como toalha na areia."
+  ],
+  "spanish": {
+   "word": "pareo",
+   "definition": "Trozo de tela colorida que se ata al cuerpo para usar en la playa."
+  },
+  "synonyms": [
+   "saída de praia"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6012,
+  "word": "capuz",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kaˈpus/",
+  "definition": "Parte da roupa que cobre a cabeça, como nos casacos de moletom.",
+  "examples": [
+   "Coloque o capuz porque vai chover.",
+   "O capuz do meu casaco é grande.",
+   "Ele correu com o capuz na cabeça."
+  ],
+  "spanish": {
+   "word": "capucha",
+   "definition": "Parte de la ropa que cubre la cabeza, como en las sudaderas con capucha."
+  },
+  "synonyms": [
+   "capucha"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6013,
+  "word": "cetim",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/seˈtʃĩ/",
+  "definition": "Tecido liso, brilhante e macio, usado em vestidos e roupas de festa.",
+  "examples": [
+   "O vestido de cetim é muito bonito.",
+   "Comprei uma blusa de cetim azul.",
+   "O cetim brilha na luz."
+  ],
+  "spanish": {
+   "word": "satén / raso",
+   "definition": "Tejido liso, brillante y suave, usado en vestidos y ropa de fiesta."
+  },
+  "synonyms": [
+   "seda brilhante"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6014,
+  "word": "colarinho",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kolaˈɾĩɲu/",
+  "definition": "Parte da camisa que fica em volta do pescoço e se dobra para baixo.",
+  "examples": [
+   "O colarinho da camisa está sujo.",
+   "Passe o colarinho com cuidado.",
+   "Esta camisa tem colarinho branco."
+  ],
+  "spanish": {
+   "word": "cuello (de camisa)",
+   "definition": "Parte de la camisa que rodea el cuello y se dobla hacia abajo."
+  },
+  "synonyms": [
+   "gola"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6015,
+  "word": "dedal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/deˈdaw/",
+  "definition": "Pequena proteção de metal ou plástico que se coloca no dedo para costurar.",
+  "examples": [
+   "Minha avó costura com um dedal.",
+   "Perdi meu dedal de metal.",
+   "O dedal protege o dedo da agulha."
+  ],
+  "spanish": {
+   "word": "dedal",
+   "definition": "Pequeña protección de metal o plástico que se pone en el dedo para coser."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6016,
+  "word": "echarpe",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/eˈʃaʁpi/",
+  "definition": "Pedaço de tecido leve que se usa em volta do pescoço ou dos ombros, como enfeite ou no frio.",
+  "examples": [
+   "Ela usa uma echarpe colorida.",
+   "A echarpe de seda é elegante.",
+   "Comprei uma echarpe para o inverno."
+  ],
+  "spanish": {
+   "word": "fular / echarpe",
+   "definition": "Trozo de tela ligera que se usa alrededor del cuello o los hombros, como adorno o en el frío."
+  },
+  "synonyms": [
+   "lenço de pescoço",
+   "cachecol"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6017,
+  "word": "estampa",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/isˈtɐ̃pɐ/",
+  "definition": "Desenho ou figura impressa em um tecido, papel ou objeto.",
+  "examples": [
+   "Esta camiseta tem uma estampa de flores.",
+   "Gosto da estampa da sua saia.",
+   "A estampa da camisa desbotou."
+  ],
+  "spanish": {
+   "word": "estampado",
+   "definition": "Dibujo o figura impresa en una tela, papel u objeto."
+  },
+  "synonyms": [
+   "padrão",
+   "desenho"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6018,
+  "word": "galocha",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɡaˈlɔʃɐ/",
+  "definition": "Bota de borracha usada nos dias de chuva para não molhar os pés.",
+  "examples": [
+   "Use galochas quando chover.",
+   "As crianças adoram suas galochas coloridas.",
+   "Minha galocha é amarela."
+  ],
+  "spanish": {
+   "word": "bota de agua",
+   "definition": "Bota de goma usada en los días de lluvia para no mojarse los pies."
+  },
+  "synonyms": [
+   "bota de chuva"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6019,
+  "word": "gola",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɡɔlɐ/",
+  "definition": "Parte da roupa que fica em volta do pescoço, como a gola alta de um casaco.",
+  "examples": [
+   "Este casaco tem gola alta.",
+   "A gola do suéter está larga.",
+   "Levante a gola porque está ventando."
+  ],
+  "spanish": {
+   "word": "cuello (de prenda)",
+   "definition": "Parte de la ropa que queda alrededor del cuello, como el cuello alto de un abrigo."
+  },
+  "synonyms": [
+   "colarinho"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6020,
+  "word": "jeans",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʤĩs/",
+  "definition": "Tecido forte e azul usado para fazer calças e jaquetas; também se refere às próprias calças.",
+  "examples": [
+   "Comprei uma calça jeans nova.",
+   "Ela veste jeans quase todos os dias.",
+   "A jaqueta jeans é clássica."
+  ],
+  "spanish": {
+   "word": "mezclilla / vaquero",
+   "definition": "Tela fuerte y azul usada para hacer pantalones y chaquetas; también se refiere a los propios pantalones."
+  },
+  "synonyms": [
+   "brim"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6021,
+  "word": "linho",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlĩɲu/",
+  "definition": "Tecido natural, leve e fresco, feito de uma planta, usado em roupas de verão.",
+  "examples": [
+   "Esta camisa de linho é muito fresca.",
+   "Comprei um vestido de linho branco.",
+   "O linho amassa fácil."
+  ],
+  "spanish": {
+   "word": "lino",
+   "definition": "Tejido natural, ligero y fresco, hecho de una planta, usado en ropa de verano."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6022,
+  "word": "malha",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmaʎɐ/",
+  "definition": "Tecido elástico e macio feito de pontos entrelaçados; também pode ser a blusa feita desse tecido.",
+  "examples": [
+   "Comprei uma blusa de malha.",
+   "A malha é um tecido confortável.",
+   "Esta camiseta de malha estica bem."
+  ],
+  "spanish": {
+   "word": "punto (tejido)",
+   "definition": "Tejido elástico y suave hecho de puntos entrelazados; también puede ser la prenda hecha de ese tejido."
+  },
+  "synonyms": [
+   "tricô"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6023,
+  "word": "meia-calça",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmejɐ ˈkawsɐ/",
+  "definition": "Peça de roupa fina e elástica que cobre as pernas e os pés, usada por baixo de saias e vestidos.",
+  "examples": [
+   "Ela usa meia-calça no inverno.",
+   "Comprei uma meia-calça preta.",
+   "Minha meia-calça rasgou."
+  ],
+  "spanish": {
+   "word": "pantimedias / medias",
+   "definition": "Prenda fina y elástica que cubre las piernas y los pies, usada debajo de faldas y vestidos."
+  },
+  "synonyms": [
+   "meia fina"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6024,
+  "word": "mocassim",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/mokaˈsĩ/",
+  "definition": "Sapato baixo e confortável, sem cadarço, que se calça facilmente.",
+  "examples": [
+   "Ele usa mocassim no trabalho.",
+   "Comprei um mocassim de couro marrom.",
+   "O mocassim é um sapato elegante."
+  ],
+  "spanish": {
+   "word": "mocasín",
+   "definition": "Zapato bajo y cómodo, sin cordones, que se calza fácilmente."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6025,
+  "word": "palmilha",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pawˈmiʎɐ/",
+  "definition": "Peça macia que se coloca dentro do sapato, embaixo do pé, para dar conforto.",
+  "examples": [
+   "Coloquei uma palmilha nova no tênis.",
+   "A palmilha do sapato está gasta.",
+   "Esta palmilha é de gel."
+  ],
+  "spanish": {
+   "word": "plantilla",
+   "definition": "Pieza suave que se coloca dentro del zapato, debajo del pie, para dar comodidad."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6026,
+  "word": "pingente",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pĩˈʒẽtʃi/",
+  "definition": "Enfeite pequeno que se pendura em um colar ou em uma pulseira.",
+  "examples": [
+   "O colar tem um pingente de coração.",
+   "Ganhei um pingente de prata.",
+   "Perdi o pingente da minha pulseira."
+  ],
+  "spanish": {
+   "word": "dije / colgante",
+   "definition": "Adorno pequeño que se cuelga en un collar o en una pulsera."
+  },
+  "synonyms": [
+   "berloque"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6027,
+  "word": "pochete",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/poˈʃetʃi/",
+  "definition": "Bolsa pequena que se amarra na cintura, usada para carregar dinheiro e celular.",
+  "examples": [
+   "Uso pochete quando viajo.",
+   "Guardei o celular na pochete.",
+   "A pochete dele é preta."
+  ],
+  "spanish": {
+   "word": "riñonera",
+   "definition": "Bolsa pequeña que se ata a la cintura, usada para llevar dinero y teléfono."
+  },
+  "synonyms": [
+   "bolsa de cintura"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6028,
+  "word": "presilha",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pɾeˈziʎɐ/",
+  "definition": "Objeto usado para prender o cabelo ou fechar alguma coisa, como uma bolsa.",
+  "examples": [
+   "Prendi o cabelo com uma presilha.",
+   "A presilha da bolsa quebrou.",
+   "Comprei presilhas coloridas."
+  ],
+  "spanish": {
+   "word": "pinza / hebilla",
+   "definition": "Objeto usado para sujetar el cabello o cerrar algo, como un bolso."
+  },
+  "synonyms": [
+   "grampo",
+   "trava"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6029,
+  "word": "provador",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pɾovaˈdoʁ/",
+  "definition": "Espaço pequeno dentro de uma loja de roupas onde as pessoas experimentam as peças.",
+  "examples": [
+   "Onde fica o provador da loja?",
+   "Experimentei a calça no provador.",
+   "O provador está ocupado."
+  ],
+  "spanish": {
+   "word": "probador",
+   "definition": "Espacio pequeño dentro de una tienda de ropa donde las personas se prueban las prendas."
+  },
+  "synonyms": [
+   "cabine de provas"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6030,
+  "word": "regata",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʁeˈɡatɐ/",
+  "definition": "Camiseta sem mangas, usada no calor; a palavra também pode significar uma corrida de barcos.",
+  "examples": [
+   "Vou usar uma regata branca hoje.",
+   "Está muito quente para manga longa, use regata.",
+   "Comprei uma regata para a academia."
+  ],
+  "spanish": {
+   "word": "camiseta sin mangas",
+   "definition": "Camiseta sin mangas, usada en el calor; la palabra también puede significar una regata de barcos."
+  },
+  "synonyms": [
+   "camiseta sem manga"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6031,
+  "word": "saia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsajɐ/",
+  "definition": "Peça de roupa feminina que cobre da cintura para baixo e não tem pernas separadas.",
+  "examples": [
+   "Ela comprou uma saia azul.",
+   "Esta saia é muito curta.",
+   "Vou usar saia amanhã."
+  ],
+  "spanish": {
+   "word": "falda",
+   "definition": "Prenda de ropa femenina que cubre de la cintura hacia abajo y no tiene piernas separadas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6032,
+  "word": "sapatilha",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/sapaˈtʃiʎɐ/",
+  "definition": "Sapato baixo e leve, sem salto, parecido com o que as bailarinas usam.",
+  "examples": [
+   "Uso sapatilha para trabalhar.",
+   "Minha sapatilha preta é confortável.",
+   "A bailarina dança com sapatilhas de ponta."
+  ],
+  "spanish": {
+   "word": "bailarina (zapato)",
+   "definition": "Zapato bajo y ligero, sin tacón, parecido al que usan las bailarinas."
+  },
+  "synonyms": [
+   "sapato baixo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6033,
+  "word": "sola",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɔlɐ/",
+  "definition": "Parte de baixo do sapato, que toca o chão.",
+  "examples": [
+   "A sola do meu tênis está gasta.",
+   "A sola do sapato é de borracha.",
+   "Preciso trocar a sola desta bota."
+  ],
+  "spanish": {
+   "word": "suela",
+   "definition": "Parte de abajo del zapato, la que toca el suelo."
+  },
+  "synonyms": [
+   "base do sapato"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6034,
+  "word": "tamanco",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/taˈmɐ̃ku/",
+  "definition": "Calçado aberto, geralmente de madeira ou com base alta, que prende só na frente do pé.",
+  "examples": [
+   "Ela usa tamanco no verão.",
+   "O tamanco de madeira faz barulho.",
+   "Comprei um tamanco confortável."
+  ],
+  "spanish": {
+   "word": "zueco",
+   "definition": "Calzado abierto, generalmente de madera o con base alta, que sujeta solo la parte delantera del pie."
+  },
+  "synonyms": [
+   "chinelo de madeira"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6035,
+  "word": "tesoura",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/teˈzowɾɐ/",
+  "definition": "Objeto com duas lâminas usado para cortar papel, tecido ou cabelo.",
+  "examples": [
+   "Preciso de uma tesoura para cortar o papel.",
+   "A tesoura está na gaveta.",
+   "O cabeleireiro usa tesoura profissional."
+  ],
+  "spanish": {
+   "word": "tijeras",
+   "definition": "Objeto con dos hojas usado para cortar papel, tela o cabello."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6036,
+  "word": "tiara",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtjaɾɐ/",
+  "definition": "Enfeite em forma de arco que se coloca na cabeça para segurar o cabelo.",
+  "examples": [
+   "Ela usa uma tiara de flores.",
+   "A tiara segura o cabelo para trás.",
+   "Comprei uma tiara bonita para a festa."
+  ],
+  "spanish": {
+   "word": "diadema / tiara",
+   "definition": "Adorno en forma de arco que se coloca en la cabeza para sujetar el cabello."
+  },
+  "synonyms": [
+   "arco de cabelo",
+   "coroa"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6037,
+  "word": "tornozeleira",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/toʁnozeˈlejɾɐ/",
+  "definition": "Enfeite ou corrente que se usa em volta do tornozelo; também pode ser um aparelho eletrônico de vigilância.",
+  "examples": [
+   "Ela usa uma tornozeleira de prata.",
+   "A tornozeleira combina com o colar.",
+   "Comprei uma tornozeleira na praia."
+  ],
+  "spanish": {
+   "word": "tobillera",
+   "definition": "Adorno o cadena que se usa alrededor del tobillo; también puede ser un dispositivo electrónico de vigilancia."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6038,
+  "word": "véu",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/vew/",
+  "definition": "Tecido fino e transparente que cobre o rosto ou a cabeça, usado por noivas e em cerimônias.",
+  "examples": [
+   "A noiva usou um véu branco.",
+   "O véu cobria o rosto dela.",
+   "O véu do vestido é longo."
+  ],
+  "spanish": {
+   "word": "velo",
+   "definition": "Tela fina y transparente que cubre el rostro o la cabeza, usada por novias y en ceremonias."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6039,
+  "word": "xale",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʃali/",
+  "definition": "Peça de tecido grande que se coloca sobre os ombros para aquecer ou enfeitar.",
+  "examples": [
+   "Minha avó sempre usa um xale.",
+   "O xale de lã é quentinho.",
+   "Coloquei um xale sobre os ombros."
+  ],
+  "spanish": {
+   "word": "chal",
+   "definition": "Prenda de tela grande que se coloca sobre los hombros para abrigar o adornar."
+  },
+  "synonyms": [
+   "manta de ombros"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6040,
+  "word": "acupuntura",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/akupũˈtuɾɐ/",
+  "definition": "Tratamento da medicina chinesa que usa agulhas finas no corpo para aliviar dores.",
+  "examples": [
+   "A acupuntura ajuda com dores nas costas.",
+   "Minha mãe faz acupuntura toda semana.",
+   "A acupuntura não dói muito."
+  ],
+  "spanish": {
+   "word": "acupuntura",
+   "definition": "Tratamiento de la medicina china que usa agujas finas en el cuerpo para aliviar dolores."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6041,
+  "word": "amamentação",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/amamẽtaˈsɐ̃w/",
+  "definition": "Ato de dar leite materno ao bebê; o período em que a mãe amamenta.",
+  "examples": [
+   "A amamentação é importante para o bebê.",
+   "A amamentação exclusiva dura seis meses.",
+   "Ela está na fase de amamentação."
+  ],
+  "spanish": {
+   "word": "lactancia (materna)",
+   "definition": "Acto de dar leche materna al bebé; el período en que la madre amamanta."
+  },
+  "synonyms": [
+   "aleitamento"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6042,
+  "word": "ambulatório",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɐ̃bulɐˈtɔɾju/",
+  "definition": "Local onde médicos atendem pacientes que não precisam ficar internados, para consultas e pequenos tratamentos.",
+  "examples": [
+   "Fui ao ambulatório da escola.",
+   "O ambulatório abre às oito horas.",
+   "O ambulatório do hospital fica no térreo."
+  ],
+  "spanish": {
+   "word": "ambulatorio / consultorio externo",
+   "definition": "Lugar donde los médicos atienden a pacientes que no necesitan quedar internados, para consultas y pequeños tratamientos."
+  },
+  "synonyms": [
+   "posto de atendimento"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6043,
+  "word": "amigdalite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/amidaʊˈlitʃi/",
+  "definition": "Inflamação das amígdalas, que causa dor de garganta e febre.",
+  "examples": [
+   "Estou com amigdalite e não consigo engolir.",
+   "A amigdalite deu febre na criança.",
+   "O médico receitou remédio para a amigdalite."
+  ],
+  "spanish": {
+   "word": "amigdalitis",
+   "definition": "Inflamación de las amígdalas, que causa dolor de garganta y fiebre."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6044,
+  "word": "analgésico",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/anawˈʒɛziku/",
+  "definition": "Remédio que alivia a dor, como dor de cabeça ou dor no corpo.",
+  "examples": [
+   "Tomei um analgésico para a dor de cabeça.",
+   "O médico receitou um analgésico.",
+   "Não tome analgésico sem orientação."
+  ],
+  "spanish": {
+   "word": "analgésico",
+   "definition": "Medicamento que alivia el dolor, como el dolor de cabeza o el dolor corporal."
+  },
+  "synonyms": [
+   "remédio para dor"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6045,
+  "word": "anemia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aneˈmiɐ/",
+  "definition": "Doença em que o sangue tem poucos glóbulos vermelhos, causando cansaço e fraqueza.",
+  "examples": [
+   "Ela está com anemia e sente muito cansaço.",
+   "A anemia pode causar tontura.",
+   "O exame de sangue mostrou anemia."
+  ],
+  "spanish": {
+   "word": "anemia",
+   "definition": "Enfermedad en la que la sangre tiene pocos glóbulos rojos, causando cansancio y debilidad."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6046,
+  "word": "anestesia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɐ̃nesˈtezjɐ/",
+  "definition": "Medicamento ou efeito que faz perder a sensibilidade à dor durante uma cirurgia ou procedimento.",
+  "examples": [
+   "A anestesia fez meu braço dormir.",
+   "Antes da cirurgia, o médico aplicou a anestesia.",
+   "A anestesia local não dói."
+  ],
+  "spanish": {
+   "word": "anestesia",
+   "definition": "Medicamento o efecto que hace perder la sensibilidad al dolor durante una cirugía o procedimiento."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6047,
+  "word": "anestesista",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɐ̃nesˈtezistɐ/",
+  "definition": "Médico especialista que aplica anestesia antes e durante as cirurgias.",
+  "examples": [
+   "O anestesista conversou comigo antes da cirurgia.",
+   "O anestesista aplicou a anestesia geral.",
+   "O anestesista acompanha o paciente na sala de cirurgia."
+  ],
+  "spanish": {
+   "word": "anestesista",
+   "definition": "Médico especialista que aplica anestesia antes y durante las cirugías."
+  },
+  "synonyms": [
+   "médico anestesista"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6048,
+  "word": "andador",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɐ̃daˈdoʁ/",
+  "definition": "Aparelho com rodas ou apoio que ajuda bebês ou pessoas idosas a andar.",
+  "examples": [
+   "O bebê aprende a andar com o andador.",
+   "Minha avó usa um andador.",
+   "O andador tem freio nas rodas."
+  ],
+  "spanish": {
+   "word": "andador",
+   "definition": "Aparato con ruedas o apoyo que ayuda a bebés o personas mayores a caminar."
+  },
+  "synonyms": [
+   "andadeira"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6049,
+  "word": "anti-inflamatório",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɐ̃tʃi ĩflɐmaˈtɔɾju/",
+  "definition": "Remédio que combate a inflamação, reduzindo dor, inchaço e vermelhidão.",
+  "examples": [
+   "O médico receitou um anti-inflamatório.",
+   "Tomei anti-inflamatório para a dor no joelho.",
+   "Não tome anti-inflamatório por conta própria."
+  ],
+  "spanish": {
+   "word": "antiinflamatorio",
+   "definition": "Medicamento que combate la inflamación, reduciendo dolor, hinchazón y enrojecimiento."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6050,
+  "word": "antitérmico",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɐ̃tiˈtɛʁmiku/",
+  "definition": "Remédio que baixa a febre, também chamado de antipirético.",
+  "examples": [
+   "Dei um antitérmico para a criança com febre.",
+   "O antitérmico baixou a febre em uma hora.",
+   "Só use antitérmico com orientação médica."
+  ],
+  "spanish": {
+   "word": "antitérmico",
+   "definition": "Medicamento que baja la fiebre, también llamado antipirético."
+  },
+  "synonyms": [
+   "antipirético"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6051,
+  "word": "apendicite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/apẽdʒisiˈtʃi/",
+  "definition": "Inflamação do apêndice, uma parte pequena do intestino. Causa dor forte na barriga e precisa de médico.",
+  "examples": [
+   "Ele está com apendicite.",
+   "A apendicite dói muito.",
+   "O médico disse que é apendicite."
+  ],
+  "spanish": {
+   "word": "apendicitis",
+   "definition": "Inflamación del apéndice que causa dolor fuerte en el vientre."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6052,
+  "word": "apneia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/apˈneja/",
+  "definition": "Quando a pessoa para de respirar por alguns segundos enquanto dorme. O tipo mais comum é a apneia do sono.",
+  "examples": [
+   "Meu pai tem apneia do sono.",
+   "A apneia atrapalha o sono.",
+   "Ele usa uma máscara para a apneia."
+  ],
+  "spanish": {
+   "word": "apnea",
+   "definition": "Pausa de la respiración por algunos segundos, sobre todo al dormir."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6053,
+  "word": "ardência",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aʁˈdẽsjɐ/",
+  "definition": "Sensação de queimar ou queimar-se, como quando os olhos ou a pele ardem. Também se usa para ardência na garganta.",
+  "examples": [
+   "Sinto ardência nos olhos.",
+   "A ardência na garganta piorou.",
+   "Essa pomada tira a ardência."
+  ],
+  "spanish": {
+   "word": "ardor",
+   "definition": "Sensación de quemazón en la piel, los ojos o la garganta."
+  },
+  "synonyms": [
+   "queimação",
+   "queimor"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6054,
+  "word": "arritmia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aʁitʃiˈmiɐ/",
+  "definition": "Quando o coração bate de forma irregular, rápido demais ou devagar demais.",
+  "examples": [
+   "A avó tem arritmia.",
+   "A arritmia precisa de tratamento.",
+   "O exame mostrou uma arritmia leve."
+  ],
+  "spanish": {
+   "word": "arritmia",
+   "definition": "Ritmo irregular del corazón."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6055,
+  "word": "articulação",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aʁtikulɐˈsɐ̃w/",
+  "definition": "O lugar do corpo onde dois ossos se juntam, como o joelho ou o cotovelo.",
+  "examples": [
+   "Minha articulação do joelho dói.",
+   "Exercício é bom para as articulações.",
+   "Tenho dor nas articulações quando chove."
+  ],
+  "spanish": {
+   "word": "articulación",
+   "definition": "Lugar donde se unen dos huesos, como la rodilla o el codo."
+  },
+  "synonyms": [
+   "junta"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6056,
+  "word": "artrite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aʁˈtʁitʃi/",
+  "definition": "Inflamação das articulações que causa dor e dificuldade para mexer as mãos, os joelhos ou outras juntas.",
+  "examples": [
+   "Minha tia tem artrite.",
+   "A artrite dói no frio.",
+   "O remédio ajuda na artrite."
+  ],
+  "spanish": {
+   "word": "artritis",
+   "definition": "Inflamación de las articulaciones que causa dolor."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6057,
+  "word": "axila",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aˈʃilɐ/",
+  "definition": "A parte de baixo do braço, onde ele se junta ao ombro. No dia a dia, muita gente chama de \"suvaco\".",
+  "examples": [
+   "Passei desodorante na axila.",
+   "A axila está doendo.",
+   "Ele tem um caroço na axila."
+  ],
+  "spanish": {
+   "word": "axila",
+   "definition": "Parte inferior del brazo donde se une al hombro."
+  },
+  "synonyms": [
+   "suvaco",
+   "sovaco"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6058,
+  "word": "azia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/aˈziɐ/",
+  "definition": "Sensação de queimação no estômago ou no peito, geralmente depois de comer.",
+  "examples": [
+   "Estou com azia.",
+   "Café me dá azia.",
+   "O leite ajuda com a azia."
+  ],
+  "spanish": {
+   "word": "acidez",
+   "definition": "Sensación de quemazón en el estómago o el pecho después de comer."
+  },
+  "synonyms": [
+   "queimação",
+   "pirose"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6059,
+  "word": "baço",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbasu/",
+  "definition": "Órgão do corpo que fica perto do estômago e ajuda a filtrar o sangue. Cuidado: como adjetivo, \"baço\" significa sem brilho.",
+  "examples": [
+   "O baço fica do lado esquerdo.",
+   "Ele machucou o baço.",
+   "O médico examinou o baço dele."
+  ],
+  "spanish": {
+   "word": "bazo",
+   "definition": "Órgano cerca del estómago que filtra la sangre."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6060,
+  "word": "batimento",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/batʃiˈmẽtu/",
+  "definition": "Cada movimento de bater do coração. Geralmente usamos \"batimento cardíaco\".",
+  "examples": [
+   "Meu batimento está acelerado.",
+   "O batimento cardíaco dele é forte.",
+   "O médico mediu meus batimentos."
+  ],
+  "spanish": {
+   "word": "latido",
+   "definition": "Cada movimiento del corazón al latir."
+  },
+  "synonyms": [
+   "pulsar",
+   "batida"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6061,
+  "word": "biópsia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/biˈɔpsiɐ/",
+  "definition": "Exame em que o médico tira um pedacinho do corpo para analisar no laboratório.",
+  "examples": [
+   "Ela vai fazer uma biópsia.",
+   "A biópsia foi rápida.",
+   "O resultado da biópsia saiu hoje."
+  ],
+  "spanish": {
+   "word": "biopsia",
+   "definition": "Examen en el que se extrae un pequeño trozo de tejido para analizarlo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6062,
+  "word": "bocejo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/boˈseʒu/",
+  "definition": "Quando a pessoa abre muito a boca e respira fundo porque está com sono ou cansada.",
+  "examples": [
+   "Ele deu um bocejo grande.",
+   "Não consegui parar de dar bocejos.",
+   "O bocejo é contagioso."
+  ],
+  "spanish": {
+   "word": "bostezo",
+   "definition": "Abrir mucho la boca y respirar hondo por sueño o cansancio."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6063,
+  "word": "bronquite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/bʁõˈkitʃi/",
+  "definition": "Inflamação dos brônquios, os tubos que levam o ar aos pulmões. Causa tosse e dificuldade para respirar.",
+  "examples": [
+   "Meu filho tem bronquite.",
+   "A bronquite piora no inverno.",
+   "Ela usa bombinha para a bronquite."
+  ],
+  "spanish": {
+   "word": "bronquitis",
+   "definition": "Inflamación de los bronquios que causa tos y dificultad para respirar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6064,
+  "word": "calafrio",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kalɐˈfɾiw/",
+  "definition": "Quando o corpo treme de repente por frio, febre ou medo.",
+  "examples": [
+   "Estou com calafrios.",
+   "A febre veio com calafrio.",
+   "O filme de terror me deu calafrios."
+  ],
+  "spanish": {
+   "word": "escalofrío",
+   "definition": "Temblor repentino del cuerpo por frío, fiebre o miedo."
+  },
+  "synonyms": [
+   "tremor",
+   "arrepios"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6065,
+  "word": "caloria",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kaluˈɾiɐ/",
+  "definition": "Unidade de energia dos alimentos. Comida com muitas calorias engorda.",
+  "examples": [
+   "Esse bolo tem muitas calorias.",
+   "Eu conto as calorias do jantar.",
+   "Uma maçã tem poucas calorias."
+  ],
+  "spanish": {
+   "word": "caloría",
+   "definition": "Unidad de energía de los alimentos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6066,
+  "word": "cardiologista",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kaʁdʒioloˈʒistɐ/",
+  "definition": "Médico especialista no coração. Pode ser homem ou mulher.",
+  "examples": [
+   "Vou ao cardiologista amanhã.",
+   "O cardiologista pediu um exame.",
+   "Minha mãe é cardiologista."
+  ],
+  "spanish": {
+   "word": "cardiólogo",
+   "definition": "Médico especialista en el corazón."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6067,
+  "word": "caspa",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkaspɐ/",
+  "definition": "Pedacinhos brancos de pele seca que caem do couro cabeludo.",
+  "examples": [
+   "Ele tem caspa.",
+   "Esse shampoo é para caspa.",
+   "A caspa piorou no frio."
+  ],
+  "spanish": {
+   "word": "caspa",
+   "definition": "Pequeños trozos blancos de piel seca que caen del cuero cabelludo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6068,
+  "word": "catapora",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kataˈpɔɾɐ/",
+  "definition": "Doença comum em crianças que causa bolinhas vermelhas que coçam no corpo inteiro. Também chamada de varicela.",
+  "examples": [
+   "Meu filho pegou catapora.",
+   "Catapora coça muito.",
+   "Quase todos tiveram catapora na escola."
+  ],
+  "spanish": {
+   "word": "varicela",
+   "definition": "Enfermedad infantil que causa granitos rojos que pican en todo el cuerpo."
+  },
+  "synonyms": [
+   "varicela"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6069,
+  "word": "catarata",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/katɐˈɾatɐ/",
+  "definition": "Doença dos olhos em que a visão fica embaçada, comum em pessoas idosas. Também significa queda d'água grande.",
+  "examples": [
+   "Minha avó operou a catarata.",
+   "A catarata atrapalha a visão.",
+   "Ele vai fazer cirurgia de catarata."
+  ],
+  "spanish": {
+   "word": "catarata",
+   "definition": "Enfermedad de los ojos que deja la visión borrosa, común en personas mayores."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6070,
+  "word": "cavanhaque",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kɐvɐˈɲaki/",
+  "definition": "Barba que cresce só no queixo, em volta da boca.",
+  "examples": [
+   "Ele deixou crescer um cavanhaque.",
+   "O cavanhaque dele está bem feito.",
+   "Meu irmão usa cavanhaque."
+  ],
+  "spanish": {
+   "word": "perilla",
+   "definition": "Barba que crece solo en el mentón, alrededor de la boca."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6071,
+  "word": "caxumba",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kaˈʃũbɐ/",
+  "definition": "Doença que faz o rosto inchar perto das orelhas, com febre e dor. Também chamada de papeira.",
+  "examples": [
+   "Ele pegou caxumba.",
+   "A caxumba inchou o rosto dele.",
+   "A vacina protege contra a caxumba."
+  ],
+  "spanish": {
+   "word": "paperas",
+   "definition": "Enfermedad que hincha la cara cerca de las orejas, con fiebre y dolor."
+  },
+  "synonyms": [
+   "papeira"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6072,
+  "word": "céu-da-boca",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɛwdɐˈbokɐ/",
+  "definition": "A parte de cima de dentro da boca, que também se chama palato.",
+  "examples": [
+   "Queimei o céu-da-boca com café.",
+   "O céu-da-boca está doendo.",
+   "Tem uma ferida no céu-da-boca dele."
+  ],
+  "spanish": {
+   "word": "paladar",
+   "definition": "Parte superior del interior de la boca."
+  },
+  "synonyms": [
+   "palato"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6073,
+  "word": "colesterol",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kolesteˈɾɔw/",
+  "definition": "Tipo de gordura no sangue. Muito colesterol faz mal para o coração.",
+  "examples": [
+   "Meu colesterol está alto.",
+   "Exercício ajuda a baixar o colesterol.",
+   "Ele precisa controlar o colesterol."
+  ],
+  "spanish": {
+   "word": "colesterol",
+   "definition": "Tipo de grasa en la sangre; en exceso daña el corazón."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6074,
+  "word": "conjuntivite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kõʒũtʃiˈvitʃi/",
+  "definition": "Inflamação dos olhos que deixa eles vermelhos e irritados. É contagiosa.",
+  "examples": [
+   "Estou com conjuntivite.",
+   "A conjuntivite deixa o olho vermelho.",
+   "Não pegue na toalha dele, ele tem conjuntivite."
+  ],
+  "spanish": {
+   "word": "conjuntivitis",
+   "definition": "Inflamación de los ojos que los deja rojos e irritados; es contagiosa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6075,
+  "word": "constipação",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kõstʃipaˈsɐ̃w/",
+  "definition": "No Brasil, significa resfriado: nariz entupido e coriza. Cuidado: em Portugal, significa prisão de ventre.",
+  "examples": [
+   "Estou com uma constipação forte.",
+   "A constipação me deixou com nariz entupido.",
+   "Ela pegou uma constipação no frio."
+  ],
+  "spanish": {
+   "word": "resfriado",
+   "definition": "En Brasil: congestión nasal y moqueo (resfriado). En Portugal significa estreñimiento."
+  },
+  "synonyms": [
+   "resfriado",
+   "gripe"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6076,
+  "word": "convulsão",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kõvuwˈsɐ̃w/",
+  "definition": "Quando o corpo treme muito e a pessoa perde a consciência por causa de um problema no cérebro.",
+  "examples": [
+   "A criança teve uma convulsão.",
+   "A convulsão durou um minuto.",
+   "Chame uma ambulância, ele está em convulsão!"
+  ],
+  "spanish": {
+   "word": "convulsión",
+   "definition": "Temblor fuerte del cuerpo con pérdida de conciencia por un problema cerebral."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6077,
+  "word": "coágulo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kuˈaɡulu/",
+  "definition": "Massa de sangue endurecido dentro de uma veia ou artéria. Pode ser perigoso.",
+  "examples": [
+   "O exame mostrou um coágulo.",
+   "O coágulo bloqueou a veia.",
+   "O remédio dissolve o coágulo."
+  ],
+  "spanish": {
+   "word": "coágulo",
+   "definition": "Masa de sangre endurecida dentro de una vena o arteria."
+  },
+  "synonyms": [
+   "trombo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6078,
+  "word": "cólica",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɔlikɐ/",
+  "definition": "Dor forte na barriga que vai e volta. Pode ser de menstruação, de gás ou de rim.",
+  "examples": [
+   "Estou com cólica.",
+   "A cólica menstrual dói muito.",
+   "O chá ajuda com a cólica."
+  ],
+  "spanish": {
+   "word": "cólico",
+   "definition": "Dolor fuerte en la barriga que va y vuelve."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6079,
+  "word": "cãibra",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɐ̃jbɾɐ/",
+  "definition": "Quando o músculo se contrai de repente e dói muito, geralmente na perna ou no pé.",
+  "examples": [
+   "Tive uma cãibra na perna.",
+   "Alongamento evita cãibras.",
+   "Ele acordou com cãibra no pé."
+  ],
+  "spanish": {
+   "word": "calambre",
+   "definition": "Contracción repentina y dolorosa de un músculo, generalmente en la pierna o el pie."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6080,
+  "word": "dengue",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdẽɡi/",
+  "definition": "Doença transmitida pela picada do mosquito Aedes. Causa febre alta e dor no corpo. Em gíria, \"dengue\" também é carinho.",
+  "examples": [
+   "Ele está com dengue.",
+   "A dengue causa febre alta.",
+   "O mosquito da dengue se reproduz em água parada."
+  ],
+  "spanish": {
+   "word": "dengue",
+   "definition": "Enfermedad transmitida por el mosquito Aedes; causa fiebre alta y dolor en el cuerpo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6081,
+  "word": "dermatologista",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/deʁmatoloˈʒistɐ/",
+  "definition": "Médico especialista na pele. Pode ser homem ou mulher.",
+  "examples": [
+   "Vou ao dermatologista na sexta.",
+   "A dermatologista receitou um creme.",
+   "O dermatologista examinou minha pinta."
+  ],
+  "spanish": {
+   "word": "dermatólogo",
+   "definition": "Médico especialista en la piel."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6082,
+  "word": "derrame",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/deˈʁɐ̃mi/",
+  "definition": "Quando o sangue para de chegar a uma parte do cérebro, também chamado de AVC. Pode deixar a pessoa sem mover um lado do corpo.",
+  "examples": [
+   "Meu avô teve um derrame.",
+   "O derrame foi leve.",
+   "Pressão alta aumenta o risco de derrame."
+  ],
+  "spanish": {
+   "word": "derrame cerebral",
+   "definition": "Interrupción del flujo de sangre al cerebro, también llamado ACV."
+  },
+  "synonyms": [
+   "AVC",
+   "acidente vascular cerebral"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6083,
+  "word": "desmaio",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/dezˈmaju/",
+  "definition": "Quando a pessoa perde a consciência e cai por alguns segundos ou minutos.",
+  "examples": [
+   "Ela teve um desmaio no ônibus.",
+   "O desmaio assustou todo mundo.",
+   "Depois do desmaio, ele acordou bem."
+  ],
+  "spanish": {
+   "word": "desmayo",
+   "definition": "Pérdida de conciencia por algunos segundos o minutos."
+  },
+  "synonyms": [
+   "síncope"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6084,
+  "word": "diarreia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/dʒiaˈʁejɐ/",
+  "definition": "Quando a pessoa vai muitas vezes ao banheiro com fezes moles ou líquidas.",
+  "examples": [
+   "Estou com diarreia desde ontem.",
+   "A diarreia desidrata o corpo.",
+   "Beba muita água quando tiver diarreia."
+  ],
+  "spanish": {
+   "word": "diarrea",
+   "definition": "Ir muchas veces al baño con heces blandas o líquidas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6085,
+  "word": "doador",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/doaˈdoʁ/",
+  "definition": "Pessoa que doa sangue, órgãos ou dinheiro para ajudar os outros. A mulher é \"doadora\".",
+  "examples": [
+   "Ele é doador de sangue.",
+   "Precisamos de mais doadores.",
+   "A doadora salvou uma vida."
+  ],
+  "spanish": {
+   "word": "donante",
+   "definition": "Persona que dona sangre, órganos o dinero para ayudar a otros."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6086,
+  "word": "eletrocardiograma",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/eletʁukaʁdʒioˈɡɾɐ̃mɐ/",
+  "definition": "Exame que registra os batimentos do coração com fios no peito. Muita gente diz só \"eletro\".",
+  "examples": [
+   "Vou fazer um eletrocardiograma.",
+   "O eletrocardiograma foi normal.",
+   "O médico pediu um eletrocardiograma."
+  ],
+  "spanish": {
+   "word": "electrocardiograma",
+   "definition": "Examen que registra los latidos del corazón con cables en el pecho."
+  },
+  "synonyms": [
+   "eletro"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6087,
+  "word": "enjoo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ẽˈʒow/",
+  "definition": "Sensação de querer vomitar, por exemplo no carro, no barco ou na gravidez.",
+  "examples": [
+   "Estou com enjoo.",
+   "Viagem de barco me dá enjoo.",
+   "O enjoo passou depois de um tempo."
+  ],
+  "spanish": {
+   "word": "náusea",
+   "definition": "Sensación de querer vomitar, por ejemplo en el coche o el barco."
+  },
+  "synonyms": [
+   "náusea",
+   "mal-estar"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6088,
+  "word": "espirro",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/isˈpiʁu/",
+  "definition": "Quando o ar sai de repente pelo nariz com barulho, porque algo irritou o nariz.",
+  "examples": [
+   "Ele deu um espirro forte.",
+   "Os espirros não param, é alergia.",
+   "Depois do espirro, diga \"saúde!\""
+  ],
+  "spanish": {
+   "word": "estornudo",
+   "definition": "Salida repentina y ruidosa del aire por la nariz."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6089,
+  "word": "esôfago",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/eˈzɔfaɡu/",
+  "definition": "O tubo que leva a comida da boca até o estômago.",
+  "examples": [
+   "A comida passa pelo esôfago.",
+   "Ele sente queimação no esôfago.",
+   "O médico examinou meu esôfago."
+  ],
+  "spanish": {
+   "word": "esófago",
+   "definition": "Tubo que lleva la comida de la boca al estómago."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6090,
+  "word": "fêmur",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfemur/",
+  "definition": "O osso mais longo do corpo, que fica na coxa.",
+  "examples": [
+   "Ele quebrou o fêmur.",
+   "O fêmur fica na coxa.",
+   "A cirurgia do fêmur foi bem."
+  ],
+  "spanish": {
+   "word": "fémur",
+   "definition": "El hueso más largo del cuerpo, situado en el muslo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6091,
+  "word": "fisioterapia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/fizjoteɾaˈpiɐ/",
+  "definition": "Tratamento com exercícios e massagens para recuperar músculos e movimentos depois de uma lesão.",
+  "examples": [
+   "Ele faz fisioterapia duas vezes por semana.",
+   "A fisioterapia ajudou meu joelho.",
+   "Vou começar a fisioterapia amanhã."
+  ],
+  "spanish": {
+   "word": "fisioterapia",
+   "definition": "Tratamiento con ejercicios y masajes para recuperar músculos y movimientos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6092,
+  "word": "gastrite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɡɐsˈtʁitʃi/",
+  "definition": "Inflamação do estômago que causa dor e queimação.",
+  "examples": [
+   "Estou com gastrite.",
+   "Pimenta piora a gastrite.",
+   "O médico receitou remédio para gastrite."
+  ],
+  "spanish": {
+   "word": "gastritis",
+   "definition": "Inflamación del estómago que causa dolor y quemazón."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6093,
+  "word": "gengivite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʒẽʒiˈvitʃi/",
+  "definition": "Inflamação das gengivas que faz sangrar quando escovamos os dentes.",
+  "examples": [
+   "Minha gengiva sangra, é gengivite.",
+   "A gengivite dói ao escovar.",
+   "O dentista tratou minha gengivite."
+  ],
+  "spanish": {
+   "word": "gingivitis",
+   "definition": "Inflamación de las encías que sangran al cepillarse."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6094,
+  "word": "gesso",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʒesu/",
+  "definition": "Proteção dura que o médico coloca num braço ou perna quebrada. Também é um material de construção.",
+  "examples": [
+   "Ele quebrou o braço e pôs gesso.",
+   "O gesso coça muito.",
+   "O médico vai tirar o gesso semana que vem."
+  ],
+  "spanish": {
+   "word": "yeso",
+   "definition": "Protección dura que se pone en un brazo o pierna rotos; también es un material de construcción."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6095,
+  "word": "ginecologista",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʒinekoloˈʒistɐ/",
+  "definition": "Médico especialista na saúde da mulher. Pode ser homem ou mulher.",
+  "examples": [
+   "Ela foi à ginecologista hoje.",
+   "O ginecologista pediu exames.",
+   "Minha irmã trabalha como ginecologista."
+  ],
+  "spanish": {
+   "word": "ginecólogo",
+   "definition": "Médico especialista en la salud de la mujer."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6096,
+  "word": "glicemia",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɡliseˈmiɐ/",
+  "definition": "A quantidade de açúcar no sangue. Quem tem diabetes mede a glicemia.",
+  "examples": [
+   "Minha glicemia está alta.",
+   "Ele mede a glicemia todo dia.",
+   "O exame de glicemia foi em jejum."
+  ],
+  "spanish": {
+   "word": "glucemia",
+   "definition": "Cantidad de azúcar en la sangre."
+  },
+  "synonyms": [
+   "açúcar no sangue"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6097,
+  "word": "glicose",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɡliˈkɔzi/",
+  "definition": "O açúcar que circula no sangue e dá energia ao corpo.",
+  "examples": [
+   "A glicose dele está normal.",
+   "Glicose é a energia do corpo.",
+   "O médico mediu minha glicose."
+  ],
+  "spanish": {
+   "word": "glucosa",
+   "definition": "El azúcar que circula en la sangre y da energía al cuerpo."
+  },
+  "synonyms": [
+   "açúcar"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6098,
+  "word": "hematoma",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ematˈtomɐ/",
+  "definition": "Mancha roxa na pele depois de uma batida. No dia a dia, chamamos de \"roxo\".",
+  "examples": [
+   "Ficou um hematoma no braço.",
+   "O hematoma está ficando amarelo.",
+   "Gelo ajuda a diminuir o hematoma."
+  ],
+  "spanish": {
+   "word": "hematoma",
+   "definition": "Mancha morada en la piel después de un golpe."
+  },
+  "synonyms": [
+   "contusão",
+   "equimose"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6099,
+  "word": "hemograma",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/emoˈɡɾɐ̃mɐ/",
+  "definition": "Exame de sangue que mostra como estão as células do sangue.",
+  "examples": [
+   "Fiz um hemograma ontem.",
+   "O hemograma está pronto.",
+   "O médico pediu um hemograma completo."
+  ],
+  "spanish": {
+   "word": "hemograma",
+   "definition": "Análisis de sangre que muestra el estado de las células sanguíneas."
+  },
+  "synonyms": [
+   "exame de sangue"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6100,
+  "word": "hepatite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/epatˈtitʃi/",
+  "definition": "Inflamação do fígado causada por vírus ou álcool. Existem vários tipos, como hepatite A, B e C.",
+  "examples": [
+   "Ele foi diagnosticado com hepatite.",
+   "A hepatite C tem tratamento.",
+   "Existe vacina contra a hepatite B."
+  ],
+  "spanish": {
+   "word": "hepatitis",
+   "definition": "Inflamación del hígado causada por virus o alcohol."
+  },
+  "synonyms": [],
+  "conjugations": null
+ }
+]
