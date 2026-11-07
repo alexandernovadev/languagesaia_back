@@ -17,6 +17,7 @@ import StoryRoutes from "./app/routes/storyRoutes";
 import WordsRoutes from "./app/routes/wordsRoutes";
 import ExpressionRoutes from "./app/routes/expressionRoutes";
 import LabsRoutes from "./app/routes/labsRoutes";
+import DictionaryRoutes from "./app/routes/dictionaryRoutes";
 import UploadRoutes from "./app/routes/uploadRoutes";
 import AuthRoutes from "./app/routes/authRoutes";
 import UserRoutes from "./app/routes/userRoutes";
@@ -101,6 +102,7 @@ app.use("/api/audio", authMiddleware, extendTimeout, AudioRoutes);
 
 // Admin panel
 app.use("/api/labs", authMiddleware, requireAdmin, extendTimeout, LabsRoutes);
+app.use("/api/dictionary", authMiddleware, requireAdmin, extendTimeout, DictionaryRoutes);
 
 // Upload routes (must be after labs to avoid conflict)
 app.use("/api", authMiddleware, requireAdmin, UploadRoutes);

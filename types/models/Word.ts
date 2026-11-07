@@ -15,6 +15,7 @@ export interface IWord extends Document {
   rank?: number;
   /** When the AI filled in what a lean dictionary word was missing. */
   completedAt?: Date;
+  hiddenAt?: Date;
   conjugations?: Record<string, Record<string, string>>;
   source?: string;
   reviewNotes?: string[];

@@ -58,6 +58,8 @@ const WordSchema: Schema = new Schema<IWord>(
     },
     /** Position in the language's list of most common words. */
     completedAt: { type: Date },
+    /** Hidden by an admin: it stops reaching Repasar, and learners keep their progress. */
+    hiddenAt: { type: Date },
     rank: {
       type: Number,
     },

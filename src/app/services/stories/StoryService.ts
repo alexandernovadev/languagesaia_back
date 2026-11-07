@@ -108,20 +108,42 @@ export class StoryService {
     const content = sanitizeLectureContent(rest.join("\n").trim());
     if (!title || !content) throw new Error("The chapter came back incomplete");
 
-    const details = await generateChapterDetails({ content, language: story.language, words, idea }, options);
+    const lower = content.toLowerCase();
     story.chapters.push({
       order: story.chapters.length,
       title,
       content,
-      summary: details.summary,
-      idea: details.idea?.trim() || idea,
-      targetVocabulary: details.usedForms ?? [],
-      questions: details.questions,
+      idea,
+      targetVocabulary: words.filter((w) => lower.includes(w.toLowerCase())), // the details bring the inflected forms
+      questions: [],
     } as any);
     await story.save();
+
+    // Readable from here on. Everything else arrives while you read
     const index = story.chapters.length - 1;
-    void this.markPhrases(String(story._id), index);
-    void this.paintChapter(String(story._id), index); // last of all: it needs the finished chapter
+    const id = String(story._id);
+    void this.addDetails(id, index, content, story.language, words, idea, options);
+    void this.markPhrases(id, index);
+    void this.paintChapter(id, index);
+  }
+
+  private async addDetails(storyId: string, index: number, content: string, language: string, words: string[], idea: string | undefined, options: AIContentOptions) {
+    try {
+      const details = await generateChapterDetails({ content, language, words, idea }, options);
+      const at = `chapters.${index}`;
+      await Story.updateOne(
+        { _id: storyId },
+        {
+          [`${at}.summary`]: details.summary,
+          [`${at}.questions`]: details.questions,
+          ...(details.usedForms?.length ? { [`${at}.targetVocabulary`]: details.usedForms } : {}),
+          ...(details.idea?.trim() ? { [`${at}.idea`]: details.idea.trim() } : {}),
+        },
+        { timestamps: false },
+      );
+    } catch (error) {
+      logger.error("Could not write the chapter's details:", error);
+    }
   }
 
   async addChatTurn(storyId: string, index: number, question: string, answer: string) {

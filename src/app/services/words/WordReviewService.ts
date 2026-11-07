@@ -15,6 +15,9 @@ const START_EASE = 2.5;
 const MIN_EASE = 1.3;
 const DAY_MS = 24 * 60 * 60 * 1000;
 
+/** A word the admin hid stays in the learner's list, but it doesn't come up to study. */
+const visibleWords = [...joinWord, { $match: { hiddenAt: { $exists: false } } }];
+
 const DIFFICULTY: Record<ReviewAnswer, string> = { again: "hard", hard: "medium", easy: "easy" };
 
 const startOfDay = (date: Date) => new Date(date.getFullYear(), date.getMonth(), date.getDate());
@@ -51,7 +54,7 @@ export class WordReviewService {
   private async dictionaryWords(user: User) {
     const scope = this.scope(user);
     const mine = await UserWord.distinct("wordId", scope);
-    return { language: scope.language, rank: { $exists: true }, _id: { $nin: mine } };
+    return { language: scope.language, rank: { $exists: true }, hiddenAt: { $exists: false }, _id: { $nin: mine } };
   }
 
   /** When the list runs out of new words, the next most common ones join it. */
@@ -87,7 +90,7 @@ export class WordReviewService {
       { $match: { ...scope, "review.dueAt": { $lte: now } } },
       { $sort: { "review.dueAt": 1 } },
       { $limit: limit },
-      ...joinWord,
+      ...visibleWords,
     ]);
     const room = limit - due.length;
     if (room <= 0) return due;
@@ -100,7 +103,7 @@ export class WordReviewService {
       { $addFields: { difficultyRank: { $indexOfArray: [["hard", "medium", "easy"], "$difficulty"] } } },
       { $sort: { difficultyRank: 1, seen: 1, createdAt: -1 } },
       { $limit: room },
-      ...joinWord,
+      ...visibleWords,
     ]);
     const left = room - fresh.length;
     if (left <= 0) return [...due, ...fresh];
@@ -109,7 +112,7 @@ export class WordReviewService {
       { $match: { ...scope, "review.dueAt": { $gt: now } } },
       { $sort: { "review.dueAt": 1 } },
       { $limit: left },
-      ...joinWord,
+      ...visibleWords,
     ]);
     return [...due, ...fresh, ...early];
   }

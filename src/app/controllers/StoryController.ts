@@ -43,8 +43,6 @@ export const createStory = async (req: Request, res: Response): Promise<Response
   }
 };
 
-/** Tells the reader the text is complete; the response stays open while the chapter is saved. */
-const END_OF_TEXT = "\u0003";
 const MAX_IDEA_LENGTH = 300;
 
 export const nextChapter = async (req: Request, res: Response): Promise<Response | void> => {
@@ -59,10 +57,7 @@ export const nextChapter = async (req: Request, res: Response): Promise<Response
     setSSEHeaders(res);
     await streamTextResponse(res, stream as any, {
       filterMarkdownTables: false,
-      onComplete: async (text) => {
-        res.write(END_OF_TEXT);
-        await save(text);
-      },
+      onComplete: save,
     });
   } catch (error: any) {
     logger.error("Error writing chapter:", error);
