@@ -12,18 +12,15 @@
 
 /** Text generation: words, expressions, stories, reader, chats, lessons. */
 export const TEXT_AI = {
-  name: "Fireworks",
-  apiKey: process.env.FIREWORKS_API_KEY,
-  baseURL: "https://api.fireworks.ai/inference/v1",
-  /**
-   * Must be a SERVERLESS model on Fireworks (or a deployment you own).
-   * Qwen 3.8 (qwen3p8-*) was too slow / often hanging on Fireworks serverless.
-   */
+  name: "DeepSeek",
+  apiKey: process.env.DEEPSEEK_API_KEY,
+  baseURL: "https://api.deepseek.com",
+  /** DeepSeek's own API. Model names come from GET /models. */
   models: {
-    /** Default for every text task. */
-    default: "accounts/fireworks/models/deepseek-v4p1-flash",
+    /** Default for every text task: DeepSeek V4.1 Flash. */
+    default: "deepseek-flash",
     /** Tasks that need careful reasoning (lesson validation & correction). */
-    reasoning: "accounts/fireworks/models/deepseek-v4p1-flash",
+    reasoning: "deepseek-flash",
   },
   /** How much the model "thinks" before answering, per tier (low | medium | high | none). */
   reasoningEffort: {
@@ -31,11 +28,11 @@ export const TEXT_AI = {
     reasoning: "medium",
   },
   /**
-   * Backup model. If the main model doesn't START answering within
-   * `primaryTimeoutMs` (Fireworks sometimes leaves requests hanging),
-   * the same request is retried here so the app never gets stuck.
+   * Backup model, same provider. If the main model doesn't START answering
+   * within `primaryTimeoutMs`, the same request is retried here so the app
+   * never gets stuck. Also the second opinion when finding phrases.
    */
-  fallback: "accounts/fireworks/models/kimi-k3",
+  fallback: "deepseek-v4-pro",
   primaryTimeoutMs: 20_000,
   /** Same, for non-streamed calls: there the whole answer must arrive (lesson generation takes 15–25 s). */
   primaryTimeoutMsFull: 45_000,

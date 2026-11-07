@@ -95,7 +95,7 @@ export async function getSystemInfo() {
       audio: { provider: AUDIO_AI.name, model: modelName(AUDIO_AI.ttsModel) },
     },
     integrations: [
-      { name: "Fireworks", purpose: "Texto", configured: Boolean(TEXT_AI.apiKey) },
+      { name: TEXT_AI.name, purpose: "Texto", configured: Boolean(TEXT_AI.apiKey) },
       { name: "fal.ai", purpose: "Imágenes y audio", configured: Boolean(IMAGE_AI.apiKey) },
       { name: "Cloudinary", purpose: "Guardar imágenes", configured: Boolean(process.env.CLOUDINARY_API_KEY) },
       { name: "PocketBase", purpose: "Guardar audio", configured: Boolean(process.env.POCKETBASE_URL) },

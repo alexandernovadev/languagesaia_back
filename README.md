@@ -10,7 +10,7 @@ API de Glota, una app para aprender idiomas con IA. Antes se llamaba LanguagesAI
 
 | Para qué | Proveedor |
 |---|---|
-| Texto (palabras, expresiones, historias, chats, lecciones) | Fireworks |
+| Texto (palabras, expresiones, historias, chats, lecciones) | DeepSeek |
 | Imágenes | fal.ai |
 | Pronunciación (MiniMax) y narración de capítulos (ElevenLabs) | fal.ai |
 | Almacenamiento de imágenes | Cloudinary |
