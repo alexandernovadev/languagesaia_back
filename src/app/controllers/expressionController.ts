@@ -4,7 +4,6 @@ import { ExpressionService } from "../services/expressions/expressionService";
 import progressService from "../services/progress/ProgressService";
 import { ADD_WORD_XP } from "../../config/constants";
 import { ExpressionChatService } from "../services/expressions/ExpressionChatService";
-import { ExpressionImportExportService } from "../services/expressions/ExpressionImportExportService";
 import {
   generateExpressionData,
   generateExpressionChat,
@@ -15,7 +14,6 @@ import {
 } from "../services/cloudinary/cloudinaryService";
 import { expressionImagePrompt } from "../services/ai/prompts";
 import { successResponse, errorResponse } from "../utils/responseHelpers";
-import { validateJsonBuffer, MAX_IMPORT_ITEMS } from "../middlewares/uploadMiddleware";
 import logger from "../utils/logger";
 import { setSSEHeaders, streamTextResponse } from "../utils/http/sse";
 import { ExpressionCreateSchema, ExpressionUpdateSchema, parseBody } from "../validators/schemas";
@@ -25,7 +23,6 @@ import { routeParams } from "../utils/http/routeParams";
 
 const expressionService = new ExpressionService();
 const expressionChatService = new ExpressionChatService();
-const expressionImportExportService = new ExpressionImportExportService();
 
 // Create a new expression
 export const createExpression = async (req: Request, res: Response) => {
@@ -161,140 +158,6 @@ export const getExpressionsOnly = async (req: Request, res: Response) => {
     return successResponse(res, "Expressions retrieved successfully", result);
   } catch (error: any) {
     logger.error("Error getting expressions only:", error);
-    return errorResponse(res, error.message, 500, error);
-  }
-};
-
-// Export expressions to JSON
-export const exportExpressionsToJSON = async (req: Request, res: Response) => {
-  try {
-    const expressions = await expressionImportExportService.getAllExpressionsForExport();
-
-    // Set headers for file download
-    const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-    const filename = `expressions-export-${timestamp}.json`;
-
-    res.setHeader("Content-Type", "application/json");
-    res.setHeader("Content-Disposition", `attachment; filename="${filename}"`);
-
-    // Send the JSON data
-    return successResponse(res, `Exported ${expressions.length} expressions successfully`, {
-      totalExpressions: expressions.length,
-      exportDate: new Date().toISOString(),
-      expressions,
-    });
-  } catch (error: any) {
-    logger.error("Error exporting expressions:", error);
-    return errorResponse(res, error.message, 500, error);
-  }
-};
-
-// Import expressions from JSON file
-export const importExpressionsFromFile = async (
-  req: Request,
-  res: Response
-) => {
-  try {
-    if (!req.file) {
-      return errorResponse(res, "No file uploaded", 400);
-    }
-
-    // Validate file content before parsing (MIME type is spoofable)
-    if (!validateJsonBuffer(req.file.buffer)) {
-      return errorResponse(res, "File content is not valid JSON", 400);
-    }
-
-    // Parse the JSON file content
-    let fileData: any;
-    try {
-      const fileContent = req.file.buffer.toString("utf-8");
-      fileData = JSON.parse(fileContent);
-    } catch (parseError) {
-      return errorResponse(res, "Invalid JSON file format", 400);
-    }
-
-    // Validate file structure - handle both direct and nested structures
-    let expressions: any[] = [];
-
-    // Try to find expressions in different possible structures
-    if (
-      fileData.data?.expressions &&
-      Array.isArray(fileData.data.expressions)
-    ) {
-      // Direct structure: data.expressions
-      expressions = fileData.data.expressions;
-    } else if (
-      fileData.data?.data?.expressions &&
-      Array.isArray(fileData.data.data.expressions)
-    ) {
-      // Nested structure: data.data.expressions (from export)
-      expressions = fileData.data.data.expressions;
-    } else if (fileData.expressions && Array.isArray(fileData.expressions)) {
-      // Root level: expressions
-      expressions = fileData.expressions;
-    } else {
-      return errorResponse(
-        res,
-        "Invalid file structure. Expected 'data.expressions' or 'data.data.expressions' array",
-        400
-      );
-    }
-
-    if (expressions.length > MAX_IMPORT_ITEMS) {
-      return errorResponse(res, `Import exceeds maximum of ${MAX_IMPORT_ITEMS} items per request`, 400);
-    }
-    const {
-      duplicateStrategy = "skip",
-      validateOnly = false,
-      batchSize = 10,
-    } = req.query;
-
-    // Validate duplicateStrategy
-    const validStrategies = ["skip", "overwrite", "error", "merge"];
-    if (!validStrategies.includes(duplicateStrategy as string)) {
-      return errorResponse(
-        res,
-        `Invalid duplicateStrategy. Must be one of: ${validStrategies.join(
-          ", "
-        )}`,
-        400
-      );
-    }
-
-    // Validate batchSize
-    const batchSizeNum = parseInt(batchSize as string);
-    if (isNaN(batchSizeNum) || batchSizeNum < 1 || batchSizeNum > 100) {
-      return errorResponse(
-        res,
-        "Invalid batchSize. Must be a number between 1 and 100",
-        400
-      );
-    }
-
-    // Convert validateOnly to boolean
-    const validateOnlyBool = validateOnly === "true";
-
-    // validateOnly: report what would happen, without importing
-    if (validateOnlyBool) {
-      return successResponse(res, "Validation completed", await expressionImportExportService.previewExpressions(expressions));
-    }
-
-    // Import expressions
-    const importResult = await expressionImportExportService.importExpressions(
-      expressions,
-      {
-        duplicateStrategy: duplicateStrategy as
-          | "skip"
-          | "overwrite"
-          | "error"
-          | "merge",
-        batchSize: batchSizeNum,
-      }
-    );
-
-    return successResponse(res, "Import completed successfully", importResult);
-  } catch (error: any) {
-    logger.error("Error importing expressions:", error);
     return errorResponse(res, error.message, 500, error);
   }
 };

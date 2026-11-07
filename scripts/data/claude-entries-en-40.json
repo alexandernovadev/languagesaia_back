@@ -1,0 +1,2223 @@
+[
+ {
+  "rank": 3823,
+  "word": "cereal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɪriəl/",
+  "definition": "A breakfast food made from grain, eaten with milk.",
+  "examples": [
+   "I eat cereal every morning.",
+   "The kids want cereal with bananas.",
+   "We're out of cereal."
+  ],
+  "spanish": {
+   "word": "cereal",
+   "definition": "Comida de desayuno hecha de grano, que se come con leche."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3824,
+  "word": "bathtub",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbæθtʌb/",
+  "definition": "A long container you sit in to wash your body.",
+  "examples": [
+   "She's relaxing in the bathtub.",
+   "Our bathtub is too small.",
+   "I filled the bathtub with hot water."
+  ],
+  "spanish": {
+   "word": "bañera / tina",
+   "definition": "Recipiente largo en el que te sientas para lavarte el cuerpo."
+  },
+  "synonyms": [
+   "tub"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3825,
+  "word": "kettle",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈketəl/",
+  "definition": "A metal pot for heating water.",
+  "examples": [
+   "Put the kettle on for tea.",
+   "The kettle is whistling.",
+   "She filled the kettle with water."
+  ],
+  "spanish": {
+   "word": "tetera / hervidor",
+   "definition": "Olla de metal para calentar agua."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3826,
+  "word": "microwave",
+  "type": [
+   "noun",
+   "verb"
+  ],
+  "IPA": "/ˈmaɪkrəweɪv/",
+  "definition": "A small oven that cooks food very fast; to cook food in this oven.",
+  "examples": [
+   "Heat the soup in the microwave.",
+   "I microwaved some leftover rice.",
+   "Our microwave stopped working."
+  ],
+  "spanish": {
+   "word": "microondas / calentar en microondas",
+   "definition": "Horno pequeño que cocina muy rápido; cocinar comida en este horno."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "microwave",
+    "past": "microwaved",
+    "participle": "microwaved",
+    "gerund": "microwaving",
+    "third": "microwaves"
+   }
+  }
+ },
+ {
+  "rank": 3827,
+  "word": "flashlight",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈflæʃlaɪt/",
+  "definition": "A small electric light you carry in your hand.",
+  "examples": [
+   "I need a flashlight to see in the basement.",
+   "The flashlight needs new batteries.",
+   "He pointed his flashlight at the door."
+  ],
+  "spanish": {
+   "word": "linterna",
+   "definition": "Luz eléctrica pequeña que llevas en la mano."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3828,
+  "word": "driveway",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdraɪvweɪ/",
+  "definition": "A short private road from the street to a house.",
+  "examples": [
+   "There's a truck in our driveway.",
+   "He shoveled the snow from the driveway.",
+   "Park in the driveway, please."
+  ],
+  "spanish": {
+   "word": "entrada de carros",
+   "definition": "Camino privado corto desde la calle hasta una casa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3829,
+  "word": "keyboard",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkiːbɔːrd/",
+  "definition": "The set of keys for typing on a computer; an electric piano.",
+  "examples": [
+   "I spilled coffee on my keyboard.",
+   "My keyboard has a broken key.",
+   "She plays keyboard in a band."
+  ],
+  "spanish": {
+   "word": "teclado",
+   "definition": "Conjunto de teclas para escribir en una computadora; piano eléctrico."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3830,
+  "word": "ketchup",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈketʃəp/",
+  "definition": "A thick red sauce made from tomatoes.",
+  "examples": [
+   "Do you want ketchup on your fries?",
+   "The kids put ketchup on everything.",
+   "We need another bottle of ketchup."
+  ],
+  "spanish": {
+   "word": "salsa de tomate",
+   "definition": "Salsa roja y espesa hecha de tomates."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3831,
+  "word": "muffin",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmʌfɪn/",
+  "definition": "A small, round, sweet cake.",
+  "examples": [
+   "I had a blueberry muffin for breakfast.",
+   "She baked a dozen muffins.",
+   "A coffee and a muffin, please."
+  ],
+  "spanish": {
+   "word": "panecillo / muffin",
+   "definition": "Pastel pequeño, redondo y dulce."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3832,
+  "word": "sidewalk",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsaɪdwɔːk/",
+  "definition": "A path for walking next to a street.",
+  "examples": [
+   "Stay on the sidewalk, please.",
+   "The kids drew on the sidewalk with chalk.",
+   "The sidewalk was covered with snow."
+  ],
+  "spanish": {
+   "word": "andén / acera",
+   "definition": "Camino para peatones al lado de una calle."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3833,
+  "word": "shampoo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʃæmˈpuː/",
+  "definition": "A liquid soap for washing your hair.",
+  "examples": [
+   "We're out of shampoo.",
+   "This shampoo smells like apples.",
+   "I bought a new shampoo for dry hair."
+  ],
+  "spanish": {
+   "word": "champú",
+   "definition": "Jabón líquido para lavar el pelo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3834,
+  "word": "dolphin",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdɑːlfɪn/",
+  "definition": "A smart sea animal that looks like a large fish.",
+  "examples": [
+   "We saw dolphins from the boat.",
+   "Dolphins are very smart.",
+   "The dolphin jumped out of the water."
+  ],
+  "spanish": {
+   "word": "delfín",
+   "definition": "Animal de mar inteligente que parece un pez grande."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3835,
+  "word": "penguin",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpeŋɡwɪn/",
+  "definition": "A black and white sea bird that can't fly.",
+  "examples": [
+   "Penguins live in very cold places.",
+   "The kids love the penguins at the zoo.",
+   "A penguin can swim very fast."
+  ],
+  "spanish": {
+   "word": "pingüino",
+   "definition": "Ave marina blanca y negra que no puede volar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3836,
+  "word": "dictionary",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdɪkʃəneri/",
+  "definition": "A book or a website that explains the meanings of words.",
+  "examples": [
+   "Look up the word in the dictionary.",
+   "I use an online dictionary.",
+   "This dictionary has thousands of words."
+  ],
+  "spanish": {
+   "word": "diccionario",
+   "definition": "Libro o sitio web que explica el significado de las palabras."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3837,
+  "word": "tablet",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtæblət/",
+  "definition": "A small, flat computer; a small, hard piece of medicine.",
+  "examples": [
+   "She reads on her tablet.",
+   "Take two tablets after meals.",
+   "My son watches cartoons on his tablet."
+  ],
+  "spanish": {
+   "word": "tableta",
+   "definition": "Computadora pequeña y plana; pedazo pequeño y duro de medicina."
+  },
+  "synonyms": [
+   "pill"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3838,
+  "word": "napkin",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnæpkɪn/",
+  "definition": "A piece of paper or cloth for cleaning your mouth during a meal.",
+  "examples": [
+   "Can I have a napkin, please?",
+   "He wiped his mouth with a napkin.",
+   "She wrote her number on a napkin."
+  ],
+  "spanish": {
+   "word": "servilleta",
+   "definition": "Pedazo de papel o tela para limpiarte la boca al comer."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3839,
+  "word": "mosquito",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/məˈskiːtoʊ/",
+  "definition": "A small flying insect that bites people.",
+  "examples": [
+   "A mosquito bit me on the arm.",
+   "There are a lot of mosquitoes near the lake.",
+   "That mosquito kept me awake all night."
+  ],
+  "spanish": {
+   "word": "mosquito / zancudo",
+   "definition": "Insecto pequeño que vuela y pica a la gente."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3840,
+  "word": "lettuce",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈletɪs/",
+  "definition": "A green leafy vegetable used in salads.",
+  "examples": [
+   "I'd like a sandwich with lettuce and tomato.",
+   "Wash the lettuce before you eat it.",
+   "She grows lettuce in her garden."
+  ],
+  "spanish": {
+   "word": "lechuga",
+   "definition": "Verdura verde de hojas que se usa en ensaladas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3841,
+  "word": "zipper",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈzɪpər/",
+  "definition": "A metal or plastic strip that closes clothes and bags.",
+  "examples": [
+   "The zipper on my jacket is stuck.",
+   "Your zipper is open.",
+   "She pulled up the zipper of her bag."
+  ],
+  "spanish": {
+   "word": "cremallera",
+   "definition": "Tira de metal o plástico que cierra ropa y bolsos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3842,
+  "word": "goldfish",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɡoʊldfɪʃ/",
+  "definition": "A small orange fish often kept as a pet.",
+  "examples": [
+   "My daughter has a pet goldfish.",
+   "The goldfish swims around its bowl.",
+   "We won a goldfish at the fair."
+  ],
+  "spanish": {
+   "word": "pez dorado",
+   "definition": "Pez pequeño y anaranjado que suele tenerse como mascota."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3843,
+  "word": "vitamin",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈvaɪtəmɪn/",
+  "definition": "A natural substance in food that keeps you healthy.",
+  "examples": [
+   "Oranges have a lot of vitamin C.",
+   "I take a vitamin every day.",
+   "Fresh vegetables are full of vitamins."
+  ],
+  "spanish": {
+   "word": "vitamina",
+   "definition": "Sustancia natural de la comida que te mantiene sano."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3844,
+  "word": "cabbage",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkæbɪdʒ/",
+  "definition": "A large round vegetable with green or purple leaves.",
+  "examples": [
+   "We had cabbage soup for lunch.",
+   "She chopped the cabbage for the salad.",
+   "This cabbage came from our garden."
+  ],
+  "spanish": {
+   "word": "repollo",
+   "definition": "Verdura grande y redonda de hojas verdes o moradas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3845,
+  "word": "pickle",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpɪkəl/",
+  "definition": "A small cucumber kept in salty water or vinegar.",
+  "examples": [
+   "I want extra pickles on my burger.",
+   "This sandwich comes with a pickle.",
+   "She opened a jar of pickles."
+  ],
+  "spanish": {
+   "word": "pepinillo",
+   "definition": "Pepino pequeño conservado en agua salada o vinagre."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3846,
+  "word": "hamburger",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhæmbɜːrɡər/",
+  "definition": "Cooked ground beef in a round bread.",
+  "examples": [
+   "I'd like a hamburger and fries.",
+   "We made hamburgers on the grill.",
+   "This hamburger is delicious."
+  ],
+  "spanish": {
+   "word": "hamburguesa",
+   "definition": "Carne molida cocinada dentro de un pan redondo."
+  },
+  "synonyms": [
+   "burger"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3847,
+  "word": "doughnut",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdoʊnʌt/",
+  "definition": "A small, sweet fried cake, usually with a hole in the middle.",
+  "examples": [
+   "He brought doughnuts to the office.",
+   "I had coffee and a doughnut.",
+   "This doughnut has chocolate on top."
+  ],
+  "spanish": {
+   "word": "dona",
+   "definition": "Pastel pequeño, dulce y frito, normalmente con un hueco en el medio."
+  },
+  "synonyms": [
+   "donut"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3848,
+  "word": "watermelon",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwɔːtərmelən/",
+  "definition": "A large green fruit that is red and sweet inside.",
+  "examples": [
+   "We ate watermelon at the picnic.",
+   "This watermelon is so sweet.",
+   "She cut the watermelon into slices."
+  ],
+  "spanish": {
+   "word": "sandía / patilla",
+   "definition": "Fruta grande y verde, roja y dulce por dentro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3849,
+  "word": "pineapple",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpaɪnæpəl/",
+  "definition": "A large tropical fruit with yellow inside and rough skin.",
+  "examples": [
+   "Do you like pineapple on pizza?",
+   "I had a glass of pineapple juice.",
+   "Hawaii is famous for its pineapples."
+  ],
+  "spanish": {
+   "word": "piña",
+   "definition": "Fruta tropical grande, amarilla por dentro y de piel áspera."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3850,
+  "word": "mushroom",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmʌʃruːm/",
+  "definition": "A small plant with a round top that people often eat.",
+  "examples": [
+   "I ordered a mushroom pizza.",
+   "Don't eat wild mushrooms.",
+   "He added mushrooms to the sauce."
+  ],
+  "spanish": {
+   "word": "hongo / champiñón",
+   "definition": "Planta pequeña con la parte de arriba redonda que se suele comer."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3851,
+  "word": "playground",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpleɪɡraʊnd/",
+  "definition": "An outside area where children play.",
+  "examples": [
+   "The kids are at the playground.",
+   "Our school has a big playground.",
+   "There's a new slide at the playground."
+  ],
+  "spanish": {
+   "word": "parque infantil",
+   "definition": "Área al aire libre donde juegan los niños."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3852,
+  "word": "dairy",
+  "type": [
+   "noun",
+   "adjective"
+  ],
+  "IPA": "/ˈderi/",
+  "definition": "Food made from milk; connected to milk.",
+  "examples": [
+   "I can't eat dairy.",
+   "Milk and cheese are dairy products.",
+   "He works on a dairy farm."
+  ],
+  "spanish": {
+   "word": "lácteos / lácteo",
+   "definition": "Comida hecha de leche; relacionado con la leche."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3853,
+  "word": "flour",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈflaʊər/",
+  "definition": "A white powder made from grain, used to make bread.",
+  "examples": [
+   "Mix the flour and the eggs.",
+   "You need two cups of flour.",
+   "There's flour all over the kitchen."
+  ],
+  "spanish": {
+   "word": "harina",
+   "definition": "Polvo blanco hecho de grano que se usa para hacer pan."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3854,
+  "word": "cinnamon",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɪnəmən/",
+  "definition": "A sweet brown spice.",
+  "examples": [
+   "I put cinnamon in my coffee.",
+   "She baked some cinnamon rolls.",
+   "The kitchen smelled like cinnamon and apples."
+  ],
+  "spanish": {
+   "word": "canela",
+   "definition": "Especia dulce de color marrón."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3855,
+  "word": "lemonade",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌleməˈneɪd/",
+  "definition": "A cold, sweet drink made from lemons.",
+  "examples": [
+   "The kids are selling lemonade.",
+   "I'd love a glass of cold lemonade.",
+   "She makes the best lemonade."
+  ],
+  "spanish": {
+   "word": "limonada",
+   "definition": "Bebida fría y dulce hecha con limones."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3856,
+  "word": "blouse",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/blaʊs/",
+  "definition": "A nice shirt for women.",
+  "examples": [
+   "She wore a white silk blouse.",
+   "This blouse goes well with your skirt.",
+   "I spilled coffee on my blouse."
+  ],
+  "spanish": {
+   "word": "blusa",
+   "definition": "Camisa bonita para mujer."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3857,
+  "word": "mailbox",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmeɪlbɑːks/",
+  "definition": "A box where you get or send letters.",
+  "examples": [
+   "There's a package in the mailbox.",
+   "I checked the mailbox this morning.",
+   "He put the letter in the mailbox."
+  ],
+  "spanish": {
+   "word": "buzón",
+   "definition": "Caja donde recibes o envías cartas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3858,
+  "word": "raccoon",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ræˈkuːn/",
+  "definition": "A small gray animal with a black mask on its face.",
+  "examples": [
+   "A raccoon got into our trash.",
+   "Raccoons come out at night.",
+   "I saw a raccoon in the backyard."
+  ],
+  "spanish": {
+   "word": "mapache",
+   "definition": "Animal pequeño y gris con una máscara negra en la cara."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3859,
+  "word": "spinach",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈspɪnɪtʃ/",
+  "definition": "A vegetable with dark green leaves.",
+  "examples": [
+   "I put spinach in my salad.",
+   "Spinach is very healthy.",
+   "My kids won't eat spinach."
+  ],
+  "spanish": {
+   "word": "espinaca",
+   "definition": "Verdura de hojas verde oscuro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3860,
+  "word": "pear",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/per/",
+  "definition": "A sweet green or yellow fruit that is wide at the bottom.",
+  "examples": [
+   "She ate a pear with her lunch.",
+   "We have a pear tree in the yard.",
+   "This pear is very juicy."
+  ],
+  "spanish": {
+   "word": "pera",
+   "definition": "Fruta dulce, verde o amarilla, ancha en la parte de abajo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3861,
+  "word": "sponge",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/spʌndʒ/",
+  "definition": "A soft object full of holes, used for washing.",
+  "examples": [
+   "Use a sponge to wash the dishes.",
+   "He cleaned the table with a wet sponge.",
+   "This sponge smells bad."
+  ],
+  "spanish": {
+   "word": "esponja",
+   "definition": "Objeto suave lleno de huecos que se usa para lavar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3862,
+  "word": "stool",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/stuːl/",
+  "definition": "A seat with no back.",
+  "examples": [
+   "He sat on a stool at the bar.",
+   "She stood on a stool to reach the shelf.",
+   "We bought two stools for the kitchen."
+  ],
+  "spanish": {
+   "word": "taburete / banco",
+   "definition": "Asiento sin espaldar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3863,
+  "word": "headline",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhedlaɪn/",
+  "definition": "The title of a story in a newspaper.",
+  "examples": [
+   "Did you see today's headlines?",
+   "The story made headlines all over the world.",
+   "The headline was in huge letters."
+  ],
+  "spanish": {
+   "word": "titular",
+   "definition": "Título de una noticia en un periódico."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3864,
+  "word": "quiz",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kwɪz/",
+  "definition": "A short test.",
+  "examples": [
+   "We have a math quiz tomorrow.",
+   "The teacher gave us a pop quiz.",
+   "I got an A on the history quiz."
+  ],
+  "spanish": {
+   "word": "prueba corta",
+   "definition": "Examen corto."
+  },
+  "synonyms": [
+   "test"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3865,
+  "word": "feedback",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfiːdbæk/",
+  "definition": "Comments about how good or bad something is.",
+  "examples": [
+   "The teacher gave me useful feedback.",
+   "We'd love your feedback on the app.",
+   "The customer feedback was very positive."
+  ],
+  "spanish": {
+   "word": "comentarios / retroalimentación",
+   "definition": "Opiniones sobre qué tan bueno o malo es algo."
+  },
+  "synonyms": [
+   "comments"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3866,
+  "word": "marathon",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmærəθɑːn/",
+  "definition": "A running race of about 26 miles.",
+  "examples": [
+   "She ran the Boston Marathon.",
+   "He's training for a marathon.",
+   "I watched a movie marathon all weekend."
+  ],
+  "spanish": {
+   "word": "maratón",
+   "definition": "Carrera de unas 26 millas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3867,
+  "word": "mist",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/mɪst/",
+  "definition": "Very small drops of water in the air.",
+  "examples": [
+   "The mountains were hidden in the mist.",
+   "There was a light mist in the morning.",
+   "The mist came in from the sea."
+  ],
+  "spanish": {
+   "word": "neblina",
+   "definition": "Gotas de agua muy pequeñas en el aire."
+  },
+  "synonyms": [
+   "fog"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3868,
+  "word": "rainy",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈreɪni/",
+  "definition": "With a lot of rain.",
+  "examples": [
+   "It's a rainy day.",
+   "We stayed home on that rainy afternoon.",
+   "April is the rainy season here."
+  ],
+  "spanish": {
+   "word": "lluvioso",
+   "definition": "Con mucha lluvia."
+  },
+  "synonyms": [
+   "wet"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3869,
+  "word": "windy",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈwɪndi/",
+  "definition": "With a lot of wind.",
+  "examples": [
+   "It's too windy to fly a kite today.",
+   "It was a cold, windy night.",
+   "Chicago is a very windy city."
+  ],
+  "spanish": {
+   "word": "ventoso",
+   "definition": "Con mucho viento."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3870,
+  "word": "cloudy",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈklaʊdi/",
+  "definition": "Full of clouds.",
+  "examples": [
+   "It's cloudy today, but it's not raining.",
+   "The sky got cloudy after lunch.",
+   "Tomorrow will be cold and cloudy."
+  ],
+  "spanish": {
+   "word": "nublado",
+   "definition": "Lleno de nubes."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3871,
+  "word": "muddy",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈmʌdi/",
+  "definition": "Covered with wet earth.",
+  "examples": [
+   "Take off your muddy boots.",
+   "The road was too muddy to drive on.",
+   "The dog came in with muddy feet."
+  ],
+  "spanish": {
+   "word": "embarrado",
+   "definition": "Cubierto de tierra mojada."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3872,
+  "word": "chilly",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈtʃɪli/",
+  "definition": "Cold in a way that is not comfortable.",
+  "examples": [
+   "It's a little chilly in here.",
+   "Take a jacket; it's chilly outside.",
+   "The mornings are getting chilly."
+  ],
+  "spanish": {
+   "word": "frío / fresco",
+   "definition": "Frío de una manera poco agradable."
+  },
+  "synonyms": [
+   "cold"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3873,
+  "word": "fuzzy",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈfʌzi/",
+  "definition": "Covered with soft hair; not clear.",
+  "examples": [
+   "The baby ducks are so fuzzy.",
+   "She's wearing fuzzy socks.",
+   "The picture on the TV is fuzzy."
+  ],
+  "spanish": {
+   "word": "peludito / borroso",
+   "definition": "Cubierto de pelo suave; que no es claro."
+  },
+  "synonyms": [
+   "blurry"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3874,
+  "word": "salty",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈsɔːlti/",
+  "definition": "Tasting of salt.",
+  "examples": [
+   "This soup is too salty.",
+   "I love salty snacks.",
+   "The sea water is very salty."
+  ],
+  "spanish": {
+   "word": "salado",
+   "definition": "Con sabor a sal."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3875,
+  "word": "juicy",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈdʒuːsi/",
+  "definition": "Full of juice.",
+  "examples": [
+   "This orange is very juicy.",
+   "I want a big, juicy steak.",
+   "She picked a juicy red apple."
+  ],
+  "spanish": {
+   "word": "jugoso",
+   "definition": "Lleno de jugo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3876,
+  "word": "curly",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈkɜːrli/",
+  "definition": "Having a round, twisted shape, like hair.",
+  "examples": [
+   "She has long, curly hair.",
+   "The baby has curly red hair.",
+   "He has a curly mustache."
+  ],
+  "spanish": {
+   "word": "rizado / crespo",
+   "definition": "Con forma redonda y torcida, como el pelo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3877,
+  "word": "gasoline",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌɡæsəˈliːn/",
+  "definition": "The liquid that makes cars run.",
+  "examples": [
+   "The car is out of gasoline.",
+   "The price of gasoline went up.",
+   "This truck uses a lot of gasoline."
+  ],
+  "spanish": {
+   "word": "gasolina",
+   "definition": "Líquido que hace funcionar los carros."
+  },
+  "synonyms": [
+   "gas"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3878,
+  "word": "athlete",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈæθliːt/",
+  "definition": "A person who is good at sports.",
+  "examples": [
+   "She's a great athlete.",
+   "The best athletes in the world are in the Olympics.",
+   "He was a college athlete."
+  ],
+  "spanish": {
+   "word": "atleta",
+   "definition": "Persona buena para los deportes."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3879,
+  "word": "vegetarian",
+  "type": [
+   "noun",
+   "adjective"
+  ],
+  "IPA": "/ˌvedʒəˈteriən/",
+  "definition": "A person who doesn't eat meat; without meat.",
+  "examples": [
+   "My sister is a vegetarian.",
+   "Is there a vegetarian option on the menu?",
+   "We ordered a vegetarian pizza."
+  ],
+  "spanish": {
+   "word": "vegetariano",
+   "definition": "Persona que no come carne; sin carne."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3880,
+  "word": "environmental",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ɪnˌvaɪrənˈmentəl/",
+  "definition": "Connected to the natural world.",
+  "examples": [
+   "Pollution is a big environmental problem.",
+   "She works for an environmental group.",
+   "We need stronger environmental laws."
+  ],
+  "spanish": {
+   "word": "ambiental",
+   "definition": "Relacionado con el mundo natural."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3881,
+  "word": "rental",
+  "type": [
+   "noun",
+   "adjective"
+  ],
+  "IPA": "/ˈrentəl/",
+  "definition": "Something you rent, like a car or a house; connected to renting.",
+  "examples": [
+   "We picked up a rental car at the airport.",
+   "This apartment is a rental.",
+   "The rental fee is fifty dollars a day."
+  ],
+  "spanish": {
+   "word": "alquiler / de alquiler",
+   "definition": "Algo que alquilas, como un carro o una casa; relacionado con alquilar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3882,
+  "word": "neutral",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈnuːtrəl/",
+  "definition": "Not taking sides; not strong in color.",
+  "examples": [
+   "Switzerland stayed neutral in the war.",
+   "The walls are painted a neutral color.",
+   "I'm neutral on this question."
+  ],
+  "spanish": {
+   "word": "neutral",
+   "definition": "Que no toma partido; de color no fuerte."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3883,
+  "word": "overall",
+  "type": [
+   "adjective",
+   "adverb"
+  ],
+  "IPA": "/ˌoʊvərˈɔːl/",
+  "definition": "Including everything; in general.",
+  "examples": [
+   "Overall, I liked the movie.",
+   "The overall cost is about $500.",
+   "She's in good overall health."
+  ],
+  "spanish": {
+   "word": "en general / total",
+   "definition": "Incluyendo todo; en general."
+  },
+  "synonyms": [
+   "generally"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3884,
+  "word": "comedian",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kəˈmiːdiən/",
+  "definition": "A person whose job is making people laugh.",
+  "examples": [
+   "He's a very funny comedian.",
+   "We saw a comedian at the club.",
+   "She started as a stand-up comedian."
+  ],
+  "spanish": {
+   "word": "comediante",
+   "definition": "Persona cuyo trabajo es hacer reír a la gente."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3885,
+  "word": "delete",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/dɪˈliːt/",
+  "definition": "To remove something from a computer or a phone.",
+  "examples": [
+   "I accidentally deleted the file.",
+   "You should delete those old emails.",
+   "He's deleting all of his photos."
+  ],
+  "spanish": {
+   "word": "borrar / eliminar",
+   "definition": "Quitar algo de una computadora o un teléfono."
+  },
+  "synonyms": [
+   "erase"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "delete",
+    "past": "deleted",
+    "participle": "deleted",
+    "gerund": "deleting",
+    "third": "deletes"
+   }
+  }
+ },
+ {
+  "rank": 3886,
+  "word": "estimate",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/ˈestɪmeɪt/",
+  "definition": "To guess a number or a size; a guess about a number or a price.",
+  "examples": [
+   "The mechanic gave me an estimate for the repairs.",
+   "They estimate that it will cost $2,000.",
+   "I estimated the trip at three hours."
+  ],
+  "spanish": {
+   "word": "estimar / presupuesto",
+   "definition": "Calcular más o menos un número o tamaño; cálculo aproximado de un número o precio."
+  },
+  "synonyms": [
+   "guess"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "estimate",
+    "past": "estimated",
+    "participle": "estimated",
+    "gerund": "estimating",
+    "third": "estimates"
+   }
+  }
+ },
+ {
+  "rank": 3887,
+  "word": "tutor",
+  "type": [
+   "noun",
+   "verb"
+  ],
+  "IPA": "/ˈtuːtər/",
+  "definition": "A private teacher; to teach one person.",
+  "examples": [
+   "My parents hired a math tutor.",
+   "She tutors kids after school.",
+   "I need a tutor for my French class."
+  ],
+  "spanish": {
+   "word": "tutor / dar clases particulares",
+   "definition": "Profesor privado; enseñarle a una sola persona."
+  },
+  "synonyms": [
+   "teacher"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "tutor",
+    "past": "tutored",
+    "participle": "tutored",
+    "gerund": "tutoring",
+    "third": "tutors"
+   }
+  }
+ },
+ {
+  "rank": 3888,
+  "word": "nickel",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnɪkəl/",
+  "definition": "A US coin worth five cents; a hard silver metal.",
+  "examples": [
+   "I found a nickel on the floor.",
+   "Five nickels make a quarter.",
+   "This coin is made of nickel."
+  ],
+  "spanish": {
+   "word": "moneda de cinco centavos / níquel",
+   "definition": "Moneda de Estados Unidos de cinco centavos; metal duro y plateado."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3889,
+  "word": "confuse",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/kənˈfjuːz/",
+  "definition": "To make someone unable to understand; to think one thing is another.",
+  "examples": [
+   "These instructions confuse me.",
+   "People confuse me with my brother.",
+   "You're confusing the kids."
+  ],
+  "spanish": {
+   "word": "confundir",
+   "definition": "Hacer que alguien no pueda entender; creer que una cosa es otra."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "confuse",
+    "past": "confused",
+    "participle": "confused",
+    "gerund": "confusing",
+    "third": "confuses"
+   }
+  }
+ },
+ {
+  "rank": 3890,
+  "word": "wage",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/weɪdʒ/",
+  "definition": "The money you get for your work.",
+  "examples": [
+   "He earns a good wage.",
+   "The minimum wage went up.",
+   "Workers are asking for higher wages."
+  ],
+  "spanish": {
+   "word": "salario",
+   "definition": "Dinero que recibes por tu trabajo."
+  },
+  "synonyms": [
+   "pay"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3891,
+  "word": "scooter",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈskuːtər/",
+  "definition": "A small motorcycle; a toy with two wheels that you stand on.",
+  "examples": [
+   "She rides a scooter to work.",
+   "My son got a scooter for his birthday.",
+   "You can rent an electric scooter downtown."
+  ],
+  "spanish": {
+   "word": "patineta / motoneta",
+   "definition": "Moto pequeña; juguete de dos ruedas sobre el que te paras."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3892,
+  "word": "souvenir",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌsuːvəˈnɪr/",
+  "definition": "Something you keep to remember a place.",
+  "examples": [
+   "I bought a souvenir in Paris.",
+   "This shirt is a souvenir from Hawaii.",
+   "The shop sells souvenirs for tourists."
+  ],
+  "spanish": {
+   "word": "recuerdo",
+   "definition": "Algo que guardas para recordar un lugar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3893,
+  "word": "stitch",
+  "type": [
+   "noun",
+   "verb"
+  ],
+  "IPA": "/stɪtʃ/",
+  "definition": "A line of thread in a cut or in cloth; to sew.",
+  "examples": [
+   "He needed five stitches in his head.",
+   "She stitched the button on my shirt.",
+   "The doctor will remove the stitches next week."
+  ],
+  "spanish": {
+   "word": "punto / coser",
+   "definition": "Línea de hilo en una herida o una tela; coser."
+  },
+  "synonyms": [
+   "sew"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "stitch",
+    "past": "stitched",
+    "participle": "stitched",
+    "gerund": "stitching",
+    "third": "stitches"
+   }
+  }
+ },
+ {
+  "rank": 3894,
+  "word": "dislike",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/dɪsˈlaɪk/",
+  "definition": "To not like someone or something.",
+  "examples": [
+   "I dislike cold weather.",
+   "She dislikes her new boss.",
+   "He has a strong dislike of cats."
+  ],
+  "spanish": {
+   "word": "no gustar / aversión",
+   "definition": "No gustarte alguien o algo."
+  },
+  "synonyms": [
+   "hate"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "dislike",
+    "past": "disliked",
+    "participle": "disliked",
+    "gerund": "disliking",
+    "third": "dislikes"
+   }
+  }
+ },
+ {
+  "rank": 3895,
+  "word": "recruit",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/rɪˈkruːt/",
+  "definition": "To find new people for a job or a group; a new member.",
+  "examples": [
+   "We need to recruit more nurses.",
+   "The army recruited him at eighteen.",
+   "The new recruits start on Monday."
+  ],
+  "spanish": {
+   "word": "reclutar / recluta",
+   "definition": "Buscar personas nuevas para un trabajo o grupo; miembro nuevo."
+  },
+  "synonyms": [
+   "hire"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "recruit",
+    "past": "recruited",
+    "participle": "recruited",
+    "gerund": "recruiting",
+    "third": "recruits"
+   }
+  }
+ },
+ {
+  "rank": 3896,
+  "word": "carpenter",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɑːrpəntər/",
+  "definition": "A person who makes things from wood.",
+  "examples": [
+   "The carpenter built us a new table.",
+   "He worked as a carpenter for forty years.",
+   "We hired a carpenter to fix the door."
+  ],
+  "spanish": {
+   "word": "carpintero",
+   "definition": "Persona que hace cosas de madera."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3897,
+  "word": "stereo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsterioʊ/",
+  "definition": "A machine that plays music.",
+  "examples": [
+   "I turned up the stereo.",
+   "My car has a great stereo.",
+   "He bought a new stereo for his room."
+  ],
+  "spanish": {
+   "word": "equipo de sonido",
+   "definition": "Aparato que reproduce música."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3898,
+  "word": "employer",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪmˈplɔɪər/",
+  "definition": "A person or company that pays people to work.",
+  "examples": [
+   "My employer gives me two weeks of vacation.",
+   "The hospital is the biggest employer in town.",
+   "Ask your employer about health insurance."
+  ],
+  "spanish": {
+   "word": "empleador",
+   "definition": "Persona o empresa que le paga a la gente por trabajar."
+  },
+  "synonyms": [
+   "boss"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3899,
+  "word": "rehearse",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/rɪˈhɜːrs/",
+  "definition": "To practice for a show.",
+  "examples": [
+   "The band rehearses every Tuesday.",
+   "We rehearsed the play for weeks.",
+   "She's rehearsing her speech in the mirror."
+  ],
+  "spanish": {
+   "word": "ensayar",
+   "definition": "Practicar para un espectáculo."
+  },
+  "synonyms": [
+   "practice"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "rehearse",
+    "past": "rehearsed",
+    "participle": "rehearsed",
+    "gerund": "rehearsing",
+    "third": "rehearses"
+   }
+  }
+ },
+ {
+  "rank": 3900,
+  "word": "preparation",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌprepəˈreɪʃən/",
+  "definition": "The act of getting ready for something.",
+  "examples": [
+   "The wedding took months of preparation.",
+   "Good preparation is the key to success.",
+   "She's cleaning the house in preparation for the party."
+  ],
+  "spanish": {
+   "word": "preparación",
+   "definition": "Acto de alistarse para algo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3901,
+  "word": "promote",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/prəˈmoʊt/",
+  "definition": "To give someone a higher job; to advertise something.",
+  "examples": [
+   "She was promoted to manager.",
+   "The singer is promoting her new album.",
+   "They promoted him after two years."
+  ],
+  "spanish": {
+   "word": "ascender / promover",
+   "definition": "Darle a alguien un puesto más alto; hacer publicidad de algo."
+  },
+  "synonyms": [
+   "advertise"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "promote",
+    "past": "promoted",
+    "participle": "promoted",
+    "gerund": "promoting",
+    "third": "promotes"
+   }
+  }
+ },
+ {
+  "rank": 3902,
+  "word": "introduction",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌɪntrəˈdʌkʃən/",
+  "definition": "The first part of a book; the act of telling people each other's names.",
+  "examples": [
+   "Read the introduction first.",
+   "Let's start with a quick introduction.",
+   "This book is a good introduction to Spanish."
+  ],
+  "spanish": {
+   "word": "introducción / presentación",
+   "definition": "Primera parte de un libro; acto de decirles a las personas sus nombres."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3903,
+  "word": "valid",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈvælɪd/",
+  "definition": "Legally accepted; reasonable.",
+  "examples": [
+   "Your passport is valid for ten years.",
+   "You need a valid driver's license.",
+   "That's a valid point."
+  ],
+  "spanish": {
+   "word": "válido",
+   "definition": "Aceptado legalmente; razonable."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3904,
+  "word": "absent",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈæbsənt/",
+  "definition": "Not present.",
+  "examples": [
+   "He was absent from school today.",
+   "She's been absent for two weeks.",
+   "Three students are absent."
+  ],
+  "spanish": {
+   "word": "ausente",
+   "definition": "Que no está presente."
+  },
+  "synonyms": [
+   "away"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3905,
+  "word": "understandable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˌʌndərˈstændəbəl/",
+  "definition": "Normal or easy to understand.",
+  "examples": [
+   "Her anger is understandable.",
+   "It's understandable that you're nervous.",
+   "Please write it in understandable language."
+  ],
+  "spanish": {
+   "word": "comprensible",
+   "definition": "Normal o fácil de entender."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3906,
+  "word": "inspire",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ɪnˈspaɪr/",
+  "definition": "To give someone the desire to do something good.",
+  "examples": [
+   "My teacher inspired me to write.",
+   "Her story inspires a lot of people.",
+   "What inspired you to become a doctor?"
+  ],
+  "spanish": {
+   "word": "inspirar",
+   "definition": "Darle a alguien el deseo de hacer algo bueno."
+  },
+  "synonyms": [
+   "motivate"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "inspire",
+    "past": "inspired",
+    "participle": "inspired",
+    "gerund": "inspiring",
+    "third": "inspires"
+   }
+  }
+ },
+ {
+  "rank": 3907,
+  "word": "inherit",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ɪnˈherɪt/",
+  "definition": "To get money or property from someone who has died.",
+  "examples": [
+   "She inherited the house from her father.",
+   "He'll inherit a lot of money.",
+   "I inherited my mother's green eyes."
+  ],
+  "spanish": {
+   "word": "heredar",
+   "definition": "Recibir dinero o propiedad de alguien que murió."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "inherit",
+    "past": "inherited",
+    "participle": "inherited",
+    "gerund": "inheriting",
+    "third": "inherits"
+   }
+  }
+ },
+ {
+  "rank": 3908,
+  "word": "decline",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/dɪˈklaɪn/",
+  "definition": "To say no politely; to become less; a drop in amount.",
+  "examples": [
+   "She declined the invitation.",
+   "Sales have declined this year.",
+   "There's been a decline in crime."
+  ],
+  "spanish": {
+   "word": "rechazar / disminuir / descenso",
+   "definition": "Decir que no con cortesía; volverse menos; caída en una cantidad."
+  },
+  "synonyms": [
+   "refuse"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "decline",
+    "past": "declined",
+    "participle": "declined",
+    "gerund": "declining",
+    "third": "declines"
+   }
+  }
+ },
+ {
+  "rank": 3909,
+  "word": "manipulate",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/məˈnɪpjəleɪt/",
+  "definition": "To control someone in a dishonest way.",
+  "examples": [
+   "He tries to manipulate his friends.",
+   "Don't let her manipulate you.",
+   "She's manipulating you to get money."
+  ],
+  "spanish": {
+   "word": "manipular",
+   "definition": "Controlar a alguien de forma deshonesta."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "manipulate",
+    "past": "manipulated",
+    "participle": "manipulated",
+    "gerund": "manipulating",
+    "third": "manipulates"
+   }
+  }
+ },
+ {
+  "rank": 3910,
+  "word": "convenience",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kənˈviːniəns/",
+  "definition": "The state of being easy and useful.",
+  "examples": [
+   "I love the convenience of online shopping.",
+   "We stopped at a convenience store for water.",
+   "Please call at your convenience."
+  ],
+  "spanish": {
+   "word": "conveniencia / comodidad",
+   "definition": "Estado de ser fácil y útil."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3911,
+  "word": "errand",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈerənd/",
+  "definition": "A short trip to do something, like buy food.",
+  "examples": [
+   "I have a few errands to run.",
+   "She's out running errands.",
+   "Can you do an errand for me?"
+  ],
+  "spanish": {
+   "word": "mandado / diligencia",
+   "definition": "Viaje corto para hacer algo, como comprar comida."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3912,
+  "word": "cathedral",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kəˈθiːdrəl/",
+  "definition": "A large and important church.",
+  "examples": [
+   "The old cathedral is in the center of the city.",
+   "We visited a beautiful cathedral in Spain.",
+   "The cathedral took 200 years to build."
+  ],
+  "spanish": {
+   "word": "catedral",
+   "definition": "Iglesia grande e importante."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3913,
+  "word": "slot",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/slɑːt/",
+  "definition": "A narrow opening; a time for something in a schedule.",
+  "examples": [
+   "Put a coin in the slot.",
+   "She played the slot machines in Las Vegas.",
+   "The doctor has a free slot on Friday."
+  ],
+  "spanish": {
+   "word": "ranura / espacio",
+   "definition": "Abertura estrecha; tiempo para algo en un horario."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3914,
+  "word": "gigantic",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/dʒaɪˈɡæntɪk/",
+  "definition": "Extremely big.",
+  "examples": [
+   "They live in a gigantic house.",
+   "He ate a gigantic plate of pasta.",
+   "The tree was gigantic."
+  ],
+  "spanish": {
+   "word": "gigantesco",
+   "definition": "Extremadamente grande."
+  },
+  "synonyms": [
+   "huge"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 3915,
+  "word": "sneeze",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/sniːz/",
+  "definition": "To blow air out of your nose suddenly and loudly.",
+  "examples": [
+   "Cats make me sneeze.",
+   "He sneezed three times.",
+   "Cover your mouth when you sneeze."
+  ],
+  "spanish": {
+   "word": "estornudar / estornudo",
+   "definition": "Sacar aire por la nariz de repente y con ruido."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "sneeze",
+    "past": "sneezed",
+    "participle": "sneezed",
+    "gerund": "sneezing",
+    "third": "sneezes"
+   }
+  }
+ },
+ {
+  "rank": 3916,
+  "word": "install",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ɪnˈstɔːl/",
+  "definition": "To put something in place so it can be used.",
+  "examples": [
+   "I installed the new app.",
+   "They're installing a new heater.",
+   "He installed a camera at the door."
+  ],
+  "spanish": {
+   "word": "instalar",
+   "definition": "Poner algo en su lugar para que se pueda usar."
+  },
+  "synonyms": [
+   "set up"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "install",
+    "past": "installed",
+    "participle": "installed",
+    "gerund": "installing",
+    "third": "installs"
+   }
+  }
+ },
+ {
+  "rank": 3917,
+  "word": "reset",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈset/",
+  "definition": "To set something again; to return a machine to its first state.",
+  "examples": [
+   "I need to reset my password.",
+   "He reset the clock after the power went out.",
+   "She's resetting her phone."
+  ],
+  "spanish": {
+   "word": "restablecer / reiniciar",
+   "definition": "Volver a ajustar algo; regresar una máquina a su estado inicial."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "reset",
+    "past": "reset",
+    "participle": "reset",
+    "gerund": "resetting",
+    "third": "resets"
+   }
+  }
+ },
+ {
+  "rank": 3918,
+  "word": "bruise",
+  "type": [
+   "noun",
+   "verb"
+  ],
+  "IPA": "/bruːz/",
+  "definition": "A dark mark on the skin after being hit.",
+  "examples": [
+   "I have a big bruise on my leg.",
+   "She bruised her knee when she fell.",
+   "His arm is covered in bruises."
+  ],
+  "spanish": {
+   "word": "moretón / magullar",
+   "definition": "Marca oscura en la piel después de un golpe."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "bruise",
+    "past": "bruised",
+    "participle": "bruised",
+    "gerund": "bruising",
+    "third": "bruises"
+   }
+  }
+ },
+ {
+  "rank": 3919,
+  "word": "calculate",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˈkælkjəleɪt/",
+  "definition": "To find a number using math.",
+  "examples": [
+   "Can you calculate the total?",
+   "She calculated the cost of the trip.",
+   "The app calculates how many steps you walk."
+  ],
+  "spanish": {
+   "word": "calcular",
+   "definition": "Hallar un número usando las matemáticas."
+  },
+  "synonyms": [
+   "work out"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "calculate",
+    "past": "calculated",
+    "participle": "calculated",
+    "gerund": "calculating",
+    "third": "calculates"
+   }
+  }
+ },
+ {
+  "rank": 3920,
+  "word": "cucumber",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkjuːkʌmbər/",
+  "definition": "A long green vegetable that is cool and fresh inside.",
+  "examples": [
+   "I put cucumber in my salad.",
+   "Slice the cucumber very thin.",
+   "We grow cucumbers in our garden."
+  ],
+  "spanish": {
+   "word": "pepino",
+   "definition": "Verdura larga y verde, fresca por dentro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3921,
+  "word": "bookstore",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbʊkstɔːr/",
+  "definition": "A store that sells books.",
+  "examples": [
+   "I bought this novel at a bookstore.",
+   "There's a small bookstore next to the café.",
+   "She works at the college bookstore."
+  ],
+  "spanish": {
+   "word": "librería",
+   "definition": "Tienda que vende libros."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 3922,
+  "word": "postcard",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpoʊstkɑːrd/",
+  "definition": "A card with a picture that you mail to someone.",
+  "examples": [
+   "She sent me a postcard from Rome.",
+   "I bought some postcards at the museum.",
+   "He wrote a short note on the postcard."
+  ],
+  "spanish": {
+   "word": "postal",
+   "definition": "Tarjeta con una foto que le envías a alguien por correo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ }
+]

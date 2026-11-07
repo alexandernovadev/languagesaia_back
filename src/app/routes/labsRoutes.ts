@@ -10,7 +10,11 @@ import {
   deleteAllExpressions,
   deleteAllLessons,
   deleteAllStories,
+  downloadBackup,
+  previewBackupFile,
+  importBackupFile,
 } from "../controllers/labsController";
+import { createBackupUploadMiddleware } from "../middlewares/uploadMiddleware";
 
 const routes = Router();
 
@@ -23,6 +27,9 @@ routes.get("/system", getSystemInfoHandler);
 // Backup and maintenance
 routes.get("/backup/status", getBackupStatusHandler);
 routes.post("/backup/send-email", sendBackupByEmailHandler);
+routes.get("/backup/download", downloadBackup);
+routes.post("/backup/preview", ...createBackupUploadMiddleware(), previewBackupFile);
+routes.post("/backup/import", ...createBackupUploadMiddleware(), importBackupFile);
 
 // Data Management - Dangerous Operations ⚠️
 routes.get("/data/counts", getDataCountsHandler);

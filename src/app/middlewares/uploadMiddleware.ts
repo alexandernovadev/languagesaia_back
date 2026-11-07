@@ -33,17 +33,14 @@ export const imageUpload = multer({
   },
 });
 
-// ZIP file configuration
-export const zipUpload = multer({
+// Glota backup file. Browsers report .gz with several mime types, so the name decides.
+export const backupUpload = multer({
   ...baseConfig,
   fileFilter: (req, file, cb) => {
-    if (
-      file.mimetype === "application/zip" ||
-      file.mimetype === "application/x-zip-compressed"
-    ) {
+    if (file.originalname.toLowerCase().endsWith(".gz")) {
       cb(null, true);
     } else {
-      cb(new Error("Only ZIP files are allowed"));
+      cb(new Error("Only .json.gz backup files are allowed"));
     }
   },
 });
@@ -84,8 +81,8 @@ export const createImageUploadMiddleware = () => {
   return [imageUpload.single("image"), handleMulterError];
 };
 
-export const createZipUploadMiddleware = () => {
-  return [zipUpload.single("file"), handleMulterError];
+export const createBackupUploadMiddleware = () => {
+  return [backupUpload.single("file"), handleMulterError];
 };
 
 /**

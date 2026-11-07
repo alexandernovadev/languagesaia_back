@@ -1,12 +1,8 @@
-import { WordExportService } from '../words/WordExportService';
-import { ExpressionImportExportService } from '../expressions/ExpressionImportExportService';
+import { createBackup } from './fullBackupService';
 import { sendEmailWithAttachments } from '../email/gmailService';
 import BackupRun from '../../db/models/BackupRun';
 import logger from '../../utils/logger';
 import { generateId } from '../../utils/generateId';
-
-const wordService = new WordExportService();
-const expressionService = new ExpressionImportExportService();
 
 // Backup email configuration
 const BACKUP_EMAIL_RECIPIENT = process.env.BACKUP_EMAIL_RECIPIENT || 'titoantifa69@gmail.com';
@@ -55,72 +51,29 @@ const runBackup = async (): Promise<BackupResult> => {
       throw new Error('Backup email service is disabled');
     }
 
-    // 1. Generate backup data
-    logger.info('Generating backup data', { operationId });
+    // 1. Generate the backup
+    const { filename, buffer, wordsCount, expressionsCount, summary } = await createBackup();
 
-    const [words, expressions] = await Promise.all([
-      wordService.getAllWordsForExport(),
-      expressionService.getAllExpressionsForExport(),
-    ]);
+    logger.info('Backup generated', { operationId, filename, bytes: buffer.length, summary });
 
-    logger.info('Backup data generated', {
-      operationId,
-      wordsCount: words.length,
-      expressionsCount: expressions.length,
-    });
-
-    // 2. Create backup files with timestamp
-    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-    const wordsFilename = `words-backup-${timestamp}.json`;
-    const expressionsFilename = `expressions-backup-${timestamp}.json`;
-
-    // 3. Prepare email content
-    const emailSubject = `🔒 Backup Diario - LanguageAI [${new Date().toLocaleDateString('es-ES')}]`;
-    const emailText = `Backup completado exitosamente.
+    // 2. Prepare the email
+    const emailSubject = `🔒 Backup Diario - Glota [${new Date().toLocaleDateString('es-ES')}]`;
+    const emailText = `Backup completado.
 
 📊 Resumen:
-- Words: ${words.length} registros
-- Expressions: ${expressions.length} registros
-- Fecha: ${new Date().toLocaleDateString('es-ES')}
-- Hora: ${new Date().toLocaleTimeString('es-ES')}
+- Diccionario: ${summary.dictionary}
+- Expresiones: ${summary.expressions}
+- Historias: ${summary.stories}
+- Lecciones: ${summary.lessons}
+- Progreso: ${summary.progress}
 
-📎 Archivos adjuntos:
-- ${wordsFilename}
-- ${expressionsFilename}
+📎 ${filename}
 
-Este backup se genera automáticamente todos los días.`;
+Se restaura en Admin, Importar y exportar. Imágenes y audios no van en el archivo.`;
 
-    // 4. Prepare attachments with same structure as exports
-    const attachments = [
-      {
-        filename: wordsFilename,
-        content: JSON.stringify({
-          success: true,
-          message: `Backup generated ${words.length} words successfully`,
-          data: {
-            totalWords: words.length,
-            exportDate: new Date().toISOString(),
-            words: words
-          }
-        }, null, 2),
-        contentType: 'application/json'
-      },
-      {
-        filename: expressionsFilename,
-        content: JSON.stringify({
-          success: true,
-          message: `Backup generated ${expressions.length} expressions successfully`,
-          data: {
-            totalExpressions: expressions.length,
-            exportDate: new Date().toISOString(),
-            expressions: expressions
-          }
-        }, null, 2),
-        contentType: 'application/json'
-      }
-    ];
+    const attachments = [{ filename, content: buffer, contentType: 'application/gzip' }];
 
-    // 5. Send email
+    // 3. Send email
     logger.info('Sending backup email', {
       operationId,
       recipient: BACKUP_EMAIL_RECIPIENT,
@@ -144,8 +97,8 @@ Este backup se genera automáticamente todos los días.`;
 
     logger.info('Backup email sent successfully', {
       operationId,
-      wordsCount: words.length,
-      expressionsCount: expressions.length,
+      wordsCount,
+      expressionsCount,
       recipient: BACKUP_EMAIL_RECIPIENT,
       duration: `${duration}ms`,
       timestamp: new Date().toISOString()
@@ -153,8 +106,8 @@ Este backup se genera automáticamente todos los días.`;
 
     return {
       success: true,
-      wordsCount: words.length,
-      expressionsCount: expressions.length,
+      wordsCount,
+      expressionsCount,
       emailSent: true,
       timestamp: new Date().toISOString(),
       duration
@@ -183,35 +136,4 @@ Este backup se genera automáticamente todos los días.`;
       duration
     };
   }
-};
-
-    // Test backup service
-    export const testBackupService = async (): Promise<boolean> => {
-      try {
-        logger.info('Testing backup service...');
-
-        // Test data generation
-        const [words, expressions] = await Promise.all([
-          wordService.getAllWordsForExport(),
-          expressionService.getAllExpressionsForExport(),
-        ]);
-
-        logger.info('Backup service test successful', {
-          wordsCount: words.length,
-          expressionsCount: expressions.length,
-        });
-
-        return true;
-      } catch (error: any) {
-        logger.error('Backup service test failed', {
-          error: error.message,
-          stack: error.stack
-        });
-        return false;
-      }
-    };
-
-export default {
-  sendBackupByEmail,
-  testBackupService
 };

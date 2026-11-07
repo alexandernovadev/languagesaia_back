@@ -124,5 +124,4 @@ Cada tanda se revisa antes de lanzar la siguiente.
 ## Pendiente
 
 - Corregir las fichas con `reviewNotes`.
-- Exportar e importar: hoy el archivo lleva todo el diccionario y la importación enlaza todas las palabras a quien importa. Hay que marcar cuáles son de tu lista.
 - La cola de la lista trae más ruido (`cincinnati`, `yorkshire`). Quizá haga falta otra fuente para el tramo final.

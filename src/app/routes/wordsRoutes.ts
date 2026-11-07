@@ -14,7 +14,6 @@ import {
   getWordCountsByLanguage,
   updateWordDifficulty,
 } from "../controllers/wordController";
-import { exportWordsToJSON, importWordsFromFile } from "../controllers/wordImportExportController";
 import {
   getChatHistory,
   clearChatHistory,
@@ -30,14 +29,9 @@ import {
   updateImageWord,
 } from "../controllers/wordAIController";
 import { answerReview, getWordAudio, practiceWord, getReviewQueue, getReviewSummary } from "../controllers/wordReviewController";
-import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
 
 const router = Router();
 router.param("id", validateObjectId);
-
-// Import/Export routes (MUST BE BEFORE DYNAMIC ROUTES)
-router.get("/export-file", requireAdmin, exportWordsToJSON);
-router.post("/import-file", requireAdmin, ...createJsonUploadMiddleware(), importWordsFromFile);
 
 // Static routes
 // Ruta unificada para tarjetas Anki

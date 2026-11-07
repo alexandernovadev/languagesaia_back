@@ -31,7 +31,7 @@ async function main() {
 
   await mongoose.connect(process.env.MONGO_URL!);
   const words = mongoose.connection.db!.collection("words");
-  fs.mkdirSync(path.join(LAB, "out"), { recursive: true });
+  const png = path.join(os.tmpdir(), "glota-word-image.png"); // mflux only writes to a file: one, reused and removed
 
   for (const name of list.split(",")) {
     const word: any = await words.findOne({ language, wordKey: name.toLowerCase() });
@@ -46,7 +46,6 @@ async function main() {
 
     const started = Date.now();
     const prompt = await wordImagePrompt(word);
-    const png = path.join(LAB, "out", `${name}.png`);
     fs.rmSync(png, { force: true }); // mflux won't overwrite: an old file would be uploaded again
     const run = spawnSync(
       path.join(LAB, ".venv/bin/mflux-generate"),
@@ -59,6 +58,7 @@ async function main() {
     }
 
     const webp = await sharp(png).webp({ quality: WEBP_QUALITY, effort: 5 }).toBuffer();
+    fs.rmSync(png);
     const form = new FormData();
     form.append("wordId", String(word._id));
     form.append("word", word.word);

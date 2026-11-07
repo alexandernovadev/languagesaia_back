@@ -2,6 +2,8 @@ import { Request, Response } from "express";
 import { errorResponse, successResponse } from "../utils/responseHelpers";
 import { seedAdminUser } from "../services/seed/user";
 import { sendBackupByEmail } from "../services/backup/backupEmailService";
+import { BackupFileError, createBackup, importBackup, previewBackup, readBackup } from "../services/backup/fullBackupService";
+import { getUserId } from "../utils/http/requestUser";
 import { LabsService } from "../services/labs/labsService";
 import { getSystemInfo } from "../services/system/systemService";
 import logger from "../utils/logger";
@@ -252,3 +254,31 @@ export const deleteAllStories = async (
     return errorResponse(res, "Error deleting all stories", 500, error);
   }
 };
+
+/** The whole backup as a file to download. */
+export const downloadBackup = async (req: Request, res: Response) => {
+  try {
+    const { filename, buffer } = await createBackup();
+    res.setHeader("Content-Type", "application/gzip");
+    res.setHeader("Content-Disposition", `attachment; filename="${filename}"`);
+    return res.send(buffer);
+  } catch (error) {
+    return errorResponse(res, "Error creating the backup", 500, error);
+  }
+};
+
+const withBackupFile = (work: (req: Request, file: Buffer) => Promise<unknown>) => async (req: Request, res: Response) => {
+  try {
+    if (!req.file) return errorResponse(res, "No file uploaded", 400);
+    return successResponse(res, "Backup read", await work(req, req.file.buffer));
+  } catch (error) {
+    if (error instanceof BackupFileError) return errorResponse(res, error.message, 400);
+    return errorResponse(res, "Error reading the backup", 500, error);
+  }
+};
+
+export const previewBackupFile = withBackupFile((req, file) => previewBackup(readBackup(file), getUserId(req)));
+
+export const importBackupFile = withBackupFile((req, file) =>
+  importBackup(readBackup(file), getUserId(req), req.query.strategy === "replace" ? "replace" : "keep")
+);

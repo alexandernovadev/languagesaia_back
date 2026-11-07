@@ -1,0 +1,3903 @@
+[
+  {
+    "rank": 3683,
+    "word": "pesar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/peˈzaʁ/",
+    "definition": "Ter um certo peso; medir o peso de algo.",
+    "examples": [
+      "Quanto você pesa?",
+      "A mala pesa vinte quilos.",
+      "Pesei as frutas na balança."
+    ],
+    "spanish": {
+      "word": "pesar",
+      "definition": "Tener cierto peso; medir el peso de algo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "peso",
+        "voce": "pesa",
+        "nos": "pesamos",
+        "eles": "pesam"
+      },
+      "preterito": {
+        "eu": "pesei",
+        "voce": "pesou",
+        "nos": "pesamos",
+        "eles": "pesaram"
+      },
+      "imperfeito": {
+        "eu": "pesava",
+        "voce": "pesava",
+        "nos": "pesávamos",
+        "eles": "pesavam"
+      },
+      "futuro": {
+        "eu": "pesarei",
+        "voce": "pesará",
+        "nos": "pesaremos",
+        "eles": "pesarão"
+      },
+      "subjuntivo": {
+        "eu": "pese",
+        "voce": "pese",
+        "nos": "pesemos",
+        "eles": "pesem"
+      }
+    }
+  },
+  {
+    "rank": 3684,
+    "word": "balançar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/balɐ̃ˈsaʁ/",
+    "definition": "Mover de um lado para o outro.",
+    "examples": [
+      "O vento balança as árvores.",
+      "A criança balançou na rede.",
+      "Ele balançou a cabeça e não disse nada."
+    ],
+    "spanish": {
+      "word": "balancear",
+      "definition": "Mover de un lado a otro."
+    },
+    "synonyms": [
+      "mexer"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "balanço",
+        "voce": "balança",
+        "nos": "balançamos",
+        "eles": "balançam"
+      },
+      "preterito": {
+        "eu": "balancei",
+        "voce": "balançou",
+        "nos": "balançamos",
+        "eles": "balançaram"
+      },
+      "imperfeito": {
+        "eu": "balançava",
+        "voce": "balançava",
+        "nos": "balançávamos",
+        "eles": "balançavam"
+      },
+      "futuro": {
+        "eu": "balançarei",
+        "voce": "balançará",
+        "nos": "balançaremos",
+        "eles": "balançarão"
+      },
+      "subjuntivo": {
+        "eu": "balance",
+        "voce": "balance",
+        "nos": "balancemos",
+        "eles": "balancem"
+      }
+    }
+  },
+  {
+    "rank": 3685,
+    "word": "divorciar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/dʒivoʁsiˈaʁ/",
+    "definition": "Terminar um casamento na lei.",
+    "examples": [
+      "Meus pais se divorciaram em 2010.",
+      "Ela quer se divorciar do marido.",
+      "Eles se divorciam depois de vinte anos juntos."
+    ],
+    "spanish": {
+      "word": "divorciar",
+      "definition": "Terminar un matrimonio ante la ley."
+    },
+    "synonyms": [
+      "separar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "divorcio",
+        "voce": "divorcia",
+        "nos": "divorciamos",
+        "eles": "divorciam"
+      },
+      "preterito": {
+        "eu": "divorciei",
+        "voce": "divorciou",
+        "nos": "divorciamos",
+        "eles": "divorciaram"
+      },
+      "imperfeito": {
+        "eu": "divorciava",
+        "voce": "divorciava",
+        "nos": "divorciávamos",
+        "eles": "divorciavam"
+      },
+      "futuro": {
+        "eu": "divorciarei",
+        "voce": "divorciará",
+        "nos": "divorciaremos",
+        "eles": "divorciarão"
+      },
+      "subjuntivo": {
+        "eu": "divorcie",
+        "voce": "divorcie",
+        "nos": "divorciemos",
+        "eles": "divorciem"
+      }
+    }
+  },
+  {
+    "rank": 3686,
+    "word": "rodar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁoˈdaʁ/",
+    "definition": "Girar; andar de carro por um lugar.",
+    "examples": [
+      "A roda rodou sem parar.",
+      "Rodamos a cidade toda atrás de uma farmácia.",
+      "Esse jogo não roda no meu computador."
+    ],
+    "spanish": {
+      "word": "rodar",
+      "definition": "Girar; andar en carro por un lugar."
+    },
+    "synonyms": [
+      "girar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "rodo",
+        "voce": "roda",
+        "nos": "rodamos",
+        "eles": "rodam"
+      },
+      "preterito": {
+        "eu": "rodei",
+        "voce": "rodou",
+        "nos": "rodamos",
+        "eles": "rodaram"
+      },
+      "imperfeito": {
+        "eu": "rodava",
+        "voce": "rodava",
+        "nos": "rodávamos",
+        "eles": "rodavam"
+      },
+      "futuro": {
+        "eu": "rodarei",
+        "voce": "rodará",
+        "nos": "rodaremos",
+        "eles": "rodarão"
+      },
+      "subjuntivo": {
+        "eu": "rode",
+        "voce": "rode",
+        "nos": "rodemos",
+        "eles": "rodem"
+      }
+    }
+  },
+  {
+    "rank": 3687,
+    "word": "festejar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/festeˈʒaʁ/",
+    "definition": "Comemorar com uma festa.",
+    "examples": [
+      "Vamos festejar o seu aniversário.",
+      "O time festejou o título na rua.",
+      "Festejamos o Ano-Novo na praia."
+    ],
+    "spanish": {
+      "word": "festejar",
+      "definition": "Celebrar con una fiesta."
+    },
+    "synonyms": [
+      "comemorar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "festejo",
+        "voce": "festeja",
+        "nos": "festejamos",
+        "eles": "festejam"
+      },
+      "preterito": {
+        "eu": "festejei",
+        "voce": "festejou",
+        "nos": "festejamos",
+        "eles": "festejaram"
+      },
+      "imperfeito": {
+        "eu": "festejava",
+        "voce": "festejava",
+        "nos": "festejávamos",
+        "eles": "festejavam"
+      },
+      "futuro": {
+        "eu": "festejarei",
+        "voce": "festejará",
+        "nos": "festejaremos",
+        "eles": "festejarão"
+      },
+      "subjuntivo": {
+        "eu": "festeje",
+        "voce": "festeje",
+        "nos": "festejemos",
+        "eles": "festejem"
+      }
+    }
+  },
+  {
+    "rank": 3688,
+    "word": "embarcar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ẽbaʁˈkaʁ/",
+    "definition": "Entrar em um avião, navio ou ônibus.",
+    "examples": [
+      "Embarcamos às seis da manhã.",
+      "Os passageiros já embarcaram.",
+      "Vou embarcar para Recife hoje."
+    ],
+    "spanish": {
+      "word": "embarcar",
+      "definition": "Entrar en un avión, barco o bus."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "embarco",
+        "voce": "embarca",
+        "nos": "embarcamos",
+        "eles": "embarcam"
+      },
+      "preterito": {
+        "eu": "embarquei",
+        "voce": "embarcou",
+        "nos": "embarcamos",
+        "eles": "embarcaram"
+      },
+      "imperfeito": {
+        "eu": "embarcava",
+        "voce": "embarcava",
+        "nos": "embarcávamos",
+        "eles": "embarcavam"
+      },
+      "futuro": {
+        "eu": "embarcarei",
+        "voce": "embarcará",
+        "nos": "embarcaremos",
+        "eles": "embarcarão"
+      },
+      "subjuntivo": {
+        "eu": "embarque",
+        "voce": "embarque",
+        "nos": "embarquemos",
+        "eles": "embarquem"
+      }
+    }
+  },
+  {
+    "rank": 3689,
+    "word": "armar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/aʁˈmaʁ/",
+    "definition": "Dar armas a alguém; montar algo.",
+    "examples": [
+      "Armamos a barraca perto do rio.",
+      "Eles armaram uma confusão na festa.",
+      "O país armou os soldados."
+    ],
+    "spanish": {
+      "word": "armar",
+      "definition": "Dar armas a alguien; montar algo."
+    },
+    "synonyms": [
+      "montar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "armo",
+        "voce": "arma",
+        "nos": "armamos",
+        "eles": "armam"
+      },
+      "preterito": {
+        "eu": "armei",
+        "voce": "armou",
+        "nos": "armamos",
+        "eles": "armaram"
+      },
+      "imperfeito": {
+        "eu": "armava",
+        "voce": "armava",
+        "nos": "armávamos",
+        "eles": "armavam"
+      },
+      "futuro": {
+        "eu": "armarei",
+        "voce": "armará",
+        "nos": "armaremos",
+        "eles": "armarão"
+      },
+      "subjuntivo": {
+        "eu": "arme",
+        "voce": "arme",
+        "nos": "armemos",
+        "eles": "armem"
+      }
+    }
+  },
+  {
+    "rank": 3690,
+    "word": "desfrutar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/desfɾuˈtaʁ/",
+    "definition": "Aproveitar algo bom.",
+    "examples": [
+      "Desfrute das suas férias.",
+      "Eles desfrutam da vista do hotel.",
+      "Desfrutamos de um jantar delicioso."
+    ],
+    "spanish": {
+      "word": "disfrutar",
+      "definition": "Aprovechar algo bueno."
+    },
+    "synonyms": [
+      "aproveitar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "desfruto",
+        "voce": "desfruta",
+        "nos": "desfrutamos",
+        "eles": "desfrutam"
+      },
+      "preterito": {
+        "eu": "desfrutei",
+        "voce": "desfrutou",
+        "nos": "desfrutamos",
+        "eles": "desfrutaram"
+      },
+      "imperfeito": {
+        "eu": "desfrutava",
+        "voce": "desfrutava",
+        "nos": "desfrutávamos",
+        "eles": "desfrutavam"
+      },
+      "futuro": {
+        "eu": "desfrutarei",
+        "voce": "desfrutará",
+        "nos": "desfrutaremos",
+        "eles": "desfrutarão"
+      },
+      "subjuntivo": {
+        "eu": "desfrute",
+        "voce": "desfrute",
+        "nos": "desfrutemos",
+        "eles": "desfrutem"
+      }
+    }
+  },
+  {
+    "rank": 3691,
+    "word": "reconstruir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁekõstɾuˈiʁ/",
+    "definition": "Construir de novo.",
+    "examples": [
+      "Eles vão reconstruir a ponte.",
+      "A cidade foi reconstruída depois da guerra.",
+      "Ela reconstruiu a vida em outro país."
+    ],
+    "spanish": {
+      "word": "reconstruir",
+      "definition": "Construir de nuevo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "reconstruo",
+        "voce": "reconstrói",
+        "nos": "reconstruímos",
+        "eles": "reconstroem"
+      },
+      "preterito": {
+        "eu": "reconstruí",
+        "voce": "reconstruiu",
+        "nos": "reconstruímos",
+        "eles": "reconstruíram"
+      },
+      "imperfeito": {
+        "eu": "reconstruía",
+        "voce": "reconstruía",
+        "nos": "reconstruíamos",
+        "eles": "reconstruíam"
+      },
+      "futuro": {
+        "eu": "reconstruirei",
+        "voce": "reconstruirá",
+        "nos": "reconstruiremos",
+        "eles": "reconstruirão"
+      },
+      "subjuntivo": {
+        "eu": "reconstrua",
+        "voce": "reconstrua",
+        "nos": "reconstruamos",
+        "eles": "reconstruam"
+      }
+    }
+  },
+  {
+    "rank": 3692,
+    "word": "interrogar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ĩteʁoˈgaʁ/",
+    "definition": "Fazer muitas perguntas a alguém.",
+    "examples": [
+      "A polícia interrogou o suspeito.",
+      "Não me interrogue, estou cansado.",
+      "O delegado interrogava as testemunhas."
+    ],
+    "spanish": {
+      "word": "interrogar",
+      "definition": "Hacer muchas preguntas a alguien."
+    },
+    "synonyms": [
+      "perguntar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "interrogo",
+        "voce": "interroga",
+        "nos": "interrogamos",
+        "eles": "interrogam"
+      },
+      "preterito": {
+        "eu": "interroguei",
+        "voce": "interrogou",
+        "nos": "interrogamos",
+        "eles": "interrogaram"
+      },
+      "imperfeito": {
+        "eu": "interrogava",
+        "voce": "interrogava",
+        "nos": "interrogávamos",
+        "eles": "interrogavam"
+      },
+      "futuro": {
+        "eu": "interrogarei",
+        "voce": "interrogará",
+        "nos": "interrogaremos",
+        "eles": "interrogarão"
+      },
+      "subjuntivo": {
+        "eu": "interrogue",
+        "voce": "interrogue",
+        "nos": "interroguemos",
+        "eles": "interroguem"
+      }
+    }
+  },
+  {
+    "rank": 3693,
+    "word": "decolar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/dekoˈlaʁ/",
+    "definition": "Sair do chão e começar a voar.",
+    "examples": [
+      "O avião decolou com atraso.",
+      "Vamos decolar em dez minutos.",
+      "A carreira dela decolou no ano passado."
+    ],
+    "spanish": {
+      "word": "despegar",
+      "definition": "Salir del suelo y empezar a volar."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "decolo",
+        "voce": "decola",
+        "nos": "decolamos",
+        "eles": "decolam"
+      },
+      "preterito": {
+        "eu": "decolei",
+        "voce": "decolou",
+        "nos": "decolamos",
+        "eles": "decolaram"
+      },
+      "imperfeito": {
+        "eu": "decolava",
+        "voce": "decolava",
+        "nos": "decolávamos",
+        "eles": "decolavam"
+      },
+      "futuro": {
+        "eu": "decolarei",
+        "voce": "decolará",
+        "nos": "decolaremos",
+        "eles": "decolarão"
+      },
+      "subjuntivo": {
+        "eu": "decole",
+        "voce": "decole",
+        "nos": "decolemos",
+        "eles": "decolem"
+      }
+    }
+  },
+  {
+    "rank": 3694,
+    "word": "discordar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/dʒiskoʁˈdaʁ/",
+    "definition": "Ter uma opinião diferente.",
+    "examples": [
+      "Discordo de você nesse ponto.",
+      "Ela discordou do chefe na reunião.",
+      "Podemos discordar sem brigar."
+    ],
+    "spanish": {
+      "word": "discrepar",
+      "definition": "Tener una opinión diferente."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "discordo",
+        "voce": "discorda",
+        "nos": "discordamos",
+        "eles": "discordam"
+      },
+      "preterito": {
+        "eu": "discordei",
+        "voce": "discordou",
+        "nos": "discordamos",
+        "eles": "discordaram"
+      },
+      "imperfeito": {
+        "eu": "discordava",
+        "voce": "discordava",
+        "nos": "discordávamos",
+        "eles": "discordavam"
+      },
+      "futuro": {
+        "eu": "discordarei",
+        "voce": "discordará",
+        "nos": "discordaremos",
+        "eles": "discordarão"
+      },
+      "subjuntivo": {
+        "eu": "discorde",
+        "voce": "discorde",
+        "nos": "discordemos",
+        "eles": "discordem"
+      }
+    }
+  },
+  {
+    "rank": 3695,
+    "word": "costurar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kostuˈɾaʁ/",
+    "definition": "Unir panos com agulha e linha.",
+    "examples": [
+      "Minha avó costura muito bem.",
+      "Costurei o botão da camisa.",
+      "Você sabe costurar?"
+    ],
+    "spanish": {
+      "word": "coser",
+      "definition": "Unir telas con aguja e hilo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "costuro",
+        "voce": "costura",
+        "nos": "costuramos",
+        "eles": "costuram"
+      },
+      "preterito": {
+        "eu": "costurei",
+        "voce": "costurou",
+        "nos": "costuramos",
+        "eles": "costuraram"
+      },
+      "imperfeito": {
+        "eu": "costurava",
+        "voce": "costurava",
+        "nos": "costurávamos",
+        "eles": "costuravam"
+      },
+      "futuro": {
+        "eu": "costurarei",
+        "voce": "costurará",
+        "nos": "costuraremos",
+        "eles": "costurarão"
+      },
+      "subjuntivo": {
+        "eu": "costure",
+        "voce": "costure",
+        "nos": "costuremos",
+        "eles": "costurem"
+      }
+    }
+  },
+  {
+    "rank": 3696,
+    "word": "suar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/suˈaʁ/",
+    "definition": "Soltar água pela pele com o calor.",
+    "examples": [
+      "Suei muito na academia.",
+      "Ele sua quando fica nervoso.",
+      "Hoje está tão quente que suamos sem fazer nada."
+    ],
+    "spanish": {
+      "word": "sudar",
+      "definition": "Soltar agua por la piel con el calor."
+    },
+    "synonyms": [
+      "transpirar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "suo",
+        "voce": "sua",
+        "nos": "suamos",
+        "eles": "suam"
+      },
+      "preterito": {
+        "eu": "suei",
+        "voce": "suou",
+        "nos": "suamos",
+        "eles": "suaram"
+      },
+      "imperfeito": {
+        "eu": "suava",
+        "voce": "suava",
+        "nos": "suávamos",
+        "eles": "suavam"
+      },
+      "futuro": {
+        "eu": "suarei",
+        "voce": "suará",
+        "nos": "suaremos",
+        "eles": "suarão"
+      },
+      "subjuntivo": {
+        "eu": "sue",
+        "voce": "sue",
+        "nos": "suemos",
+        "eles": "suem"
+      }
+    }
+  },
+  {
+    "rank": 3697,
+    "word": "fritar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/fɾiˈtaʁ/",
+    "definition": "Cozinhar em óleo quente.",
+    "examples": [
+      "Vou fritar um ovo.",
+      "Ela fritou o peixe no azeite.",
+      "Não frite tudo, prefiro assado."
+    ],
+    "spanish": {
+      "word": "freír",
+      "definition": "Cocinar en aceite caliente."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "frito",
+        "voce": "frita",
+        "nos": "fritamos",
+        "eles": "fritam"
+      },
+      "preterito": {
+        "eu": "fritei",
+        "voce": "fritou",
+        "nos": "fritamos",
+        "eles": "fritaram"
+      },
+      "imperfeito": {
+        "eu": "fritava",
+        "voce": "fritava",
+        "nos": "fritávamos",
+        "eles": "fritavam"
+      },
+      "futuro": {
+        "eu": "fritarei",
+        "voce": "fritará",
+        "nos": "fritaremos",
+        "eles": "fritarão"
+      },
+      "subjuntivo": {
+        "eu": "frite",
+        "voce": "frite",
+        "nos": "fritemos",
+        "eles": "fritem"
+      }
+    }
+  },
+  {
+    "rank": 3698,
+    "word": "assar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/aˈsaʁ/",
+    "definition": "Cozinhar no forno ou na brasa.",
+    "examples": [
+      "Asse o bolo por quarenta minutos.",
+      "Assamos um frango no domingo.",
+      "Ele assa carne muito bem."
+    ],
+    "spanish": {
+      "word": "asar",
+      "definition": "Cocinar en el horno o en las brasas."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "asso",
+        "voce": "assa",
+        "nos": "assamos",
+        "eles": "assam"
+      },
+      "preterito": {
+        "eu": "assei",
+        "voce": "assou",
+        "nos": "assamos",
+        "eles": "assaram"
+      },
+      "imperfeito": {
+        "eu": "assava",
+        "voce": "assava",
+        "nos": "assávamos",
+        "eles": "assavam"
+      },
+      "futuro": {
+        "eu": "assarei",
+        "voce": "assará",
+        "nos": "assaremos",
+        "eles": "assarão"
+      },
+      "subjuntivo": {
+        "eu": "asse",
+        "voce": "asse",
+        "nos": "assemos",
+        "eles": "assem"
+      }
+    }
+  },
+  {
+    "rank": 3699,
+    "word": "varrer",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/vaˈʁeʁ/",
+    "definition": "Limpar o chão com vassoura.",
+    "examples": [
+      "Varri a casa de manhã.",
+      "Você pode varrer a calçada?",
+      "Ele varre a loja antes de abrir."
+    ],
+    "spanish": {
+      "word": "barrer",
+      "definition": "Limpiar el piso con escoba."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "varro",
+        "voce": "varre",
+        "nos": "varremos",
+        "eles": "varrem"
+      },
+      "preterito": {
+        "eu": "varri",
+        "voce": "varreu",
+        "nos": "varremos",
+        "eles": "varreram"
+      },
+      "imperfeito": {
+        "eu": "varria",
+        "voce": "varria",
+        "nos": "varríamos",
+        "eles": "varriam"
+      },
+      "futuro": {
+        "eu": "varrerei",
+        "voce": "varrerá",
+        "nos": "varreremos",
+        "eles": "varrerão"
+      },
+      "subjuntivo": {
+        "eu": "varra",
+        "voce": "varra",
+        "nos": "varramos",
+        "eles": "varram"
+      }
+    }
+  },
+  {
+    "rank": 3700,
+    "word": "ferver",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/feʁˈveʁ/",
+    "definition": "Esquentar um líquido até soltar bolhas.",
+    "examples": [
+      "A água já ferveu.",
+      "Ferva o leite antes de beber.",
+      "Deixe ferver por cinco minutos."
+    ],
+    "spanish": {
+      "word": "hervir",
+      "definition": "Calentar un líquido hasta que suelte burbujas."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "fervo",
+        "voce": "ferve",
+        "nos": "fervemos",
+        "eles": "fervem"
+      },
+      "preterito": {
+        "eu": "fervi",
+        "voce": "ferveu",
+        "nos": "fervemos",
+        "eles": "ferveram"
+      },
+      "imperfeito": {
+        "eu": "fervia",
+        "voce": "fervia",
+        "nos": "fervíamos",
+        "eles": "ferviam"
+      },
+      "futuro": {
+        "eu": "ferverei",
+        "voce": "ferverá",
+        "nos": "ferveremos",
+        "eles": "ferverão"
+      },
+      "subjuntivo": {
+        "eu": "ferva",
+        "voce": "ferva",
+        "nos": "fervamos",
+        "eles": "fervam"
+      }
+    }
+  },
+  {
+    "rank": 3701,
+    "word": "sacudir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/sakuˈdʒiʁ/",
+    "definition": "Mover com força para os lados.",
+    "examples": [
+      "Sacuda a garrafa antes de abrir.",
+      "O cachorro sacode o corpo quando sai da água.",
+      "Ele sacudiu a toalha na janela."
+    ],
+    "spanish": {
+      "word": "sacudir",
+      "definition": "Mover con fuerza hacia los lados."
+    },
+    "synonyms": [
+      "balançar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "sacudo",
+        "voce": "sacode",
+        "nos": "sacudimos",
+        "eles": "sacodem"
+      },
+      "preterito": {
+        "eu": "sacudi",
+        "voce": "sacudiu",
+        "nos": "sacudimos",
+        "eles": "sacudiram"
+      },
+      "imperfeito": {
+        "eu": "sacudia",
+        "voce": "sacudia",
+        "nos": "sacudíamos",
+        "eles": "sacudiam"
+      },
+      "futuro": {
+        "eu": "sacudirei",
+        "voce": "sacudirá",
+        "nos": "sacudiremos",
+        "eles": "sacudirão"
+      },
+      "subjuntivo": {
+        "eu": "sacuda",
+        "voce": "sacuda",
+        "nos": "sacudamos",
+        "eles": "sacudam"
+      }
+    }
+  },
+  {
+    "rank": 3702,
+    "word": "coçar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/koˈsaʁ/",
+    "definition": "Passar as unhas na pele; sentir vontade de fazer isso.",
+    "examples": [
+      "Meu nariz está coçando.",
+      "Não coce a picada do mosquito.",
+      "O cachorro coça a orelha com a pata."
+    ],
+    "spanish": {
+      "word": "rascar",
+      "definition": "Pasar las uñas por la piel; sentir ganas de hacerlo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "coço",
+        "voce": "coça",
+        "nos": "coçamos",
+        "eles": "coçam"
+      },
+      "preterito": {
+        "eu": "cocei",
+        "voce": "coçou",
+        "nos": "coçamos",
+        "eles": "coçaram"
+      },
+      "imperfeito": {
+        "eu": "coçava",
+        "voce": "coçava",
+        "nos": "coçávamos",
+        "eles": "coçavam"
+      },
+      "futuro": {
+        "eu": "coçarei",
+        "voce": "coçará",
+        "nos": "coçaremos",
+        "eles": "coçarão"
+      },
+      "subjuntivo": {
+        "eu": "coce",
+        "voce": "coce",
+        "nos": "cocemos",
+        "eles": "cocem"
+      }
+    }
+  },
+  {
+    "rank": 3703,
+    "word": "patinar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/patʃiˈnaʁ/",
+    "definition": "Andar sobre patins.",
+    "examples": [
+      "Aprendi a patinar no parque.",
+      "As crianças patinam no gelo.",
+      "O carro patinou na lama."
+    ],
+    "spanish": {
+      "word": "patinar",
+      "definition": "Andar sobre patines."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "patino",
+        "voce": "patina",
+        "nos": "patinamos",
+        "eles": "patinam"
+      },
+      "preterito": {
+        "eu": "patinei",
+        "voce": "patinou",
+        "nos": "patinamos",
+        "eles": "patinaram"
+      },
+      "imperfeito": {
+        "eu": "patinava",
+        "voce": "patinava",
+        "nos": "patinávamos",
+        "eles": "patinavam"
+      },
+      "futuro": {
+        "eu": "patinarei",
+        "voce": "patinará",
+        "nos": "patinaremos",
+        "eles": "patinarão"
+      },
+      "subjuntivo": {
+        "eu": "patine",
+        "voce": "patine",
+        "nos": "patinemos",
+        "eles": "patinem"
+      }
+    }
+  },
+  {
+    "rank": 3704,
+    "word": "escorregar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/eskoʁeˈgaʁ/",
+    "definition": "Perder o equilíbrio em um chão liso.",
+    "examples": [
+      "Escorreguei no banheiro molhado.",
+      "Cuidado para não escorregar.",
+      "O copo escorregou da minha mão."
+    ],
+    "spanish": {
+      "word": "resbalar",
+      "definition": "Perder el equilibrio en un piso liso."
+    },
+    "synonyms": [
+      "deslizar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "escorrego",
+        "voce": "escorrega",
+        "nos": "escorregamos",
+        "eles": "escorregam"
+      },
+      "preterito": {
+        "eu": "escorreguei",
+        "voce": "escorregou",
+        "nos": "escorregamos",
+        "eles": "escorregaram"
+      },
+      "imperfeito": {
+        "eu": "escorregava",
+        "voce": "escorregava",
+        "nos": "escorregávamos",
+        "eles": "escorregavam"
+      },
+      "futuro": {
+        "eu": "escorregarei",
+        "voce": "escorregará",
+        "nos": "escorregaremos",
+        "eles": "escorregarão"
+      },
+      "subjuntivo": {
+        "eu": "escorregue",
+        "voce": "escorregue",
+        "nos": "escorreguemos",
+        "eles": "escorreguem"
+      }
+    }
+  },
+  {
+    "rank": 3705,
+    "word": "tropeçar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/tɾopeˈsaʁ/",
+    "definition": "Bater o pé em algo e quase cair.",
+    "examples": [
+      "Tropecei em uma pedra.",
+      "Ele tropeçou no tapete.",
+      "Cuidado para não tropeçar no fio."
+    ],
+    "spanish": {
+      "word": "tropezar",
+      "definition": "Golpear el pie con algo y casi caer."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "tropeço",
+        "voce": "tropeça",
+        "nos": "tropeçamos",
+        "eles": "tropeçam"
+      },
+      "preterito": {
+        "eu": "tropecei",
+        "voce": "tropeçou",
+        "nos": "tropeçamos",
+        "eles": "tropeçaram"
+      },
+      "imperfeito": {
+        "eu": "tropeçava",
+        "voce": "tropeçava",
+        "nos": "tropeçávamos",
+        "eles": "tropeçavam"
+      },
+      "futuro": {
+        "eu": "tropeçarei",
+        "voce": "tropeçará",
+        "nos": "tropeçaremos",
+        "eles": "tropeçarão"
+      },
+      "subjuntivo": {
+        "eu": "tropece",
+        "voce": "tropece",
+        "nos": "tropecemos",
+        "eles": "tropecem"
+      }
+    }
+  },
+  {
+    "rank": 3706,
+    "word": "engordar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ẽgoʁˈdaʁ/",
+    "definition": "Ficar mais gordo.",
+    "examples": [
+      "Engordei cinco quilos nas férias.",
+      "Doce engorda.",
+      "Ele engordou depois de parar de correr."
+    ],
+    "spanish": {
+      "word": "engordar",
+      "definition": "Ponerse más gordo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "engordo",
+        "voce": "engorda",
+        "nos": "engordamos",
+        "eles": "engordam"
+      },
+      "preterito": {
+        "eu": "engordei",
+        "voce": "engordou",
+        "nos": "engordamos",
+        "eles": "engordaram"
+      },
+      "imperfeito": {
+        "eu": "engordava",
+        "voce": "engordava",
+        "nos": "engordávamos",
+        "eles": "engordavam"
+      },
+      "futuro": {
+        "eu": "engordarei",
+        "voce": "engordará",
+        "nos": "engordaremos",
+        "eles": "engordarão"
+      },
+      "subjuntivo": {
+        "eu": "engorde",
+        "voce": "engorde",
+        "nos": "engordemos",
+        "eles": "engordem"
+      }
+    }
+  },
+  {
+    "rank": 3707,
+    "word": "remar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁeˈmaʁ/",
+    "definition": "Mover um barco com remos.",
+    "examples": [
+      "Remamos até a outra margem do rio.",
+      "Ele rema todo fim de semana.",
+      "Estou cansado de remar."
+    ],
+    "spanish": {
+      "word": "remar",
+      "definition": "Mover un bote con remos."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "remo",
+        "voce": "rema",
+        "nos": "remamos",
+        "eles": "remam"
+      },
+      "preterito": {
+        "eu": "remei",
+        "voce": "remou",
+        "nos": "remamos",
+        "eles": "remaram"
+      },
+      "imperfeito": {
+        "eu": "remava",
+        "voce": "remava",
+        "nos": "remávamos",
+        "eles": "remavam"
+      },
+      "futuro": {
+        "eu": "remarei",
+        "voce": "remará",
+        "nos": "remaremos",
+        "eles": "remarão"
+      },
+      "subjuntivo": {
+        "eu": "reme",
+        "voce": "reme",
+        "nos": "rememos",
+        "eles": "remem"
+      }
+    }
+  },
+  {
+    "rank": 3708,
+    "word": "malhar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/maˈʎaʁ/",
+    "definition": "Fazer exercícios na academia.",
+    "examples": [
+      "Malho três vezes por semana.",
+      "Ela vai malhar depois do trabalho.",
+      "Ontem malhei as pernas."
+    ],
+    "spanish": {
+      "word": "hacer ejercicio",
+      "definition": "Hacer ejercicios en el gimnasio."
+    },
+    "synonyms": [
+      "treinar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "malho",
+        "voce": "malha",
+        "nos": "malhamos",
+        "eles": "malham"
+      },
+      "preterito": {
+        "eu": "malhei",
+        "voce": "malhou",
+        "nos": "malhamos",
+        "eles": "malharam"
+      },
+      "imperfeito": {
+        "eu": "malhava",
+        "voce": "malhava",
+        "nos": "malhávamos",
+        "eles": "malhavam"
+      },
+      "futuro": {
+        "eu": "malharei",
+        "voce": "malhará",
+        "nos": "malharemos",
+        "eles": "malharão"
+      },
+      "subjuntivo": {
+        "eu": "malhe",
+        "voce": "malhe",
+        "nos": "malhemos",
+        "eles": "malhem"
+      }
+    }
+  },
+  {
+    "rank": 3709,
+    "word": "espirrar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/espiˈʁaʁ/",
+    "definition": "Soltar ar pelo nariz com força e barulho.",
+    "examples": [
+      "Espirrei a noite toda.",
+      "A poeira me faz espirrar.",
+      "Saúde! Você espirrou três vezes."
+    ],
+    "spanish": {
+      "word": "estornudar",
+      "definition": "Soltar aire por la nariz con fuerza y ruido."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "espirro",
+        "voce": "espirra",
+        "nos": "espirramos",
+        "eles": "espirram"
+      },
+      "preterito": {
+        "eu": "espirrei",
+        "voce": "espirrou",
+        "nos": "espirramos",
+        "eles": "espirraram"
+      },
+      "imperfeito": {
+        "eu": "espirrava",
+        "voce": "espirrava",
+        "nos": "espirrávamos",
+        "eles": "espirravam"
+      },
+      "futuro": {
+        "eu": "espirrarei",
+        "voce": "espirrará",
+        "nos": "espirraremos",
+        "eles": "espirrarão"
+      },
+      "subjuntivo": {
+        "eu": "espirre",
+        "voce": "espirre",
+        "nos": "espirremos",
+        "eles": "espirrem"
+      }
+    }
+  },
+  {
+    "rank": 3710,
+    "word": "espremer",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/espɾeˈmeʁ/",
+    "definition": "Apertar para tirar o líquido.",
+    "examples": [
+      "Esprema o limão sobre o peixe.",
+      "Espremi três laranjas para o suco.",
+      "Não esprema as espinhas do rosto."
+    ],
+    "spanish": {
+      "word": "exprimir",
+      "definition": "Apretar para sacar el líquido."
+    },
+    "synonyms": [
+      "apertar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "espremo",
+        "voce": "espreme",
+        "nos": "esprememos",
+        "eles": "espremem"
+      },
+      "preterito": {
+        "eu": "espremi",
+        "voce": "espremeu",
+        "nos": "esprememos",
+        "eles": "espremeram"
+      },
+      "imperfeito": {
+        "eu": "espremia",
+        "voce": "espremia",
+        "nos": "espremíamos",
+        "eles": "espremiam"
+      },
+      "futuro": {
+        "eu": "espremerei",
+        "voce": "espremerá",
+        "nos": "espremeremos",
+        "eles": "espremerão"
+      },
+      "subjuntivo": {
+        "eu": "esprema",
+        "voce": "esprema",
+        "nos": "espremamos",
+        "eles": "espremam"
+      }
+    }
+  },
+  {
+    "rank": 3711,
+    "word": "arranhar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/aʁɐ̃ˈɲaʁ/",
+    "definition": "Ferir de leve com as unhas ou algo duro.",
+    "examples": [
+      "O gato me arranhou.",
+      "Arranhei o carro na garagem.",
+      "Não arranhe a mesa."
+    ],
+    "spanish": {
+      "word": "arañar",
+      "definition": "Herir levemente con las uñas o algo duro."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "arranho",
+        "voce": "arranha",
+        "nos": "arranhamos",
+        "eles": "arranham"
+      },
+      "preterito": {
+        "eu": "arranhei",
+        "voce": "arranhou",
+        "nos": "arranhamos",
+        "eles": "arranharam"
+      },
+      "imperfeito": {
+        "eu": "arranhava",
+        "voce": "arranhava",
+        "nos": "arranhávamos",
+        "eles": "arranhavam"
+      },
+      "futuro": {
+        "eu": "arranharei",
+        "voce": "arranhará",
+        "nos": "arranharemos",
+        "eles": "arranharão"
+      },
+      "subjuntivo": {
+        "eu": "arranhe",
+        "voce": "arranhe",
+        "nos": "arranhemos",
+        "eles": "arranhem"
+      }
+    }
+  },
+  {
+    "rank": 3712,
+    "word": "picar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/piˈkaʁ/",
+    "definition": "Cortar em pedaços pequenos; ferir com ferrão.",
+    "examples": [
+      "Pique a cebola bem fina.",
+      "Uma abelha me picou.",
+      "Os mosquitos picaram as minhas pernas."
+    ],
+    "spanish": {
+      "word": "picar",
+      "definition": "Cortar en pedazos pequeños; herir con aguijón."
+    },
+    "synonyms": [
+      "cortar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "pico",
+        "voce": "pica",
+        "nos": "picamos",
+        "eles": "picam"
+      },
+      "preterito": {
+        "eu": "piquei",
+        "voce": "picou",
+        "nos": "picamos",
+        "eles": "picaram"
+      },
+      "imperfeito": {
+        "eu": "picava",
+        "voce": "picava",
+        "nos": "picávamos",
+        "eles": "picavam"
+      },
+      "futuro": {
+        "eu": "picarei",
+        "voce": "picará",
+        "nos": "picaremos",
+        "eles": "picarão"
+      },
+      "subjuntivo": {
+        "eu": "pique",
+        "voce": "pique",
+        "nos": "piquemos",
+        "eles": "piquem"
+      }
+    }
+  },
+  {
+    "rank": 3713,
+    "word": "tossir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/toˈsiʁ/",
+    "definition": "Soltar o ar pela boca com força e barulho.",
+    "examples": [
+      "Ele tossiu a noite inteira.",
+      "Tusso muito quando fumam perto de mim.",
+      "O bebê está tossindo."
+    ],
+    "spanish": {
+      "word": "toser",
+      "definition": "Soltar el aire por la boca con fuerza y ruido."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "tusso",
+        "voce": "tosse",
+        "nos": "tossimos",
+        "eles": "tossem"
+      },
+      "preterito": {
+        "eu": "tossi",
+        "voce": "tossiu",
+        "nos": "tossimos",
+        "eles": "tossiram"
+      },
+      "imperfeito": {
+        "eu": "tossia",
+        "voce": "tossia",
+        "nos": "tossíamos",
+        "eles": "tossiam"
+      },
+      "futuro": {
+        "eu": "tossirei",
+        "voce": "tossirá",
+        "nos": "tossiremos",
+        "eles": "tossirão"
+      },
+      "subjuntivo": {
+        "eu": "tussa",
+        "voce": "tussa",
+        "nos": "tussamos",
+        "eles": "tussam"
+      }
+    }
+  },
+  {
+    "rank": 3714,
+    "word": "descascar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/deskasˈkaʁ/",
+    "definition": "Tirar a casca.",
+    "examples": [
+      "Descasque as batatas.",
+      "Descasquei uma laranja para o meu filho.",
+      "Meu nariz descascou depois da praia."
+    ],
+    "spanish": {
+      "word": "pelar",
+      "definition": "Quitar la cáscara."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "descasco",
+        "voce": "descasca",
+        "nos": "descascamos",
+        "eles": "descascam"
+      },
+      "preterito": {
+        "eu": "descasquei",
+        "voce": "descascou",
+        "nos": "descascamos",
+        "eles": "descascaram"
+      },
+      "imperfeito": {
+        "eu": "descascava",
+        "voce": "descascava",
+        "nos": "descascávamos",
+        "eles": "descascavam"
+      },
+      "futuro": {
+        "eu": "descascarei",
+        "voce": "descascará",
+        "nos": "descascaremos",
+        "eles": "descascarão"
+      },
+      "subjuntivo": {
+        "eu": "descasque",
+        "voce": "descasque",
+        "nos": "descasquemos",
+        "eles": "descasquem"
+      }
+    }
+  },
+  {
+    "rank": 3715,
+    "word": "engasgar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ẽgazˈgaʁ/",
+    "definition": "Ficar com algo preso na garganta.",
+    "examples": [
+      "Engasguei com a espinha do peixe.",
+      "Coma devagar para não engasgar.",
+      "O bebê engasgou com o leite."
+    ],
+    "spanish": {
+      "word": "atragantarse",
+      "definition": "Quedar con algo atorado en la garganta."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "engasgo",
+        "voce": "engasga",
+        "nos": "engasgamos",
+        "eles": "engasgam"
+      },
+      "preterito": {
+        "eu": "engasguei",
+        "voce": "engasgou",
+        "nos": "engasgamos",
+        "eles": "engasgaram"
+      },
+      "imperfeito": {
+        "eu": "engasgava",
+        "voce": "engasgava",
+        "nos": "engasgávamos",
+        "eles": "engasgavam"
+      },
+      "futuro": {
+        "eu": "engasgarei",
+        "voce": "engasgará",
+        "nos": "engasgaremos",
+        "eles": "engasgarão"
+      },
+      "subjuntivo": {
+        "eu": "engasgue",
+        "voce": "engasgue",
+        "nos": "engasguemos",
+        "eles": "engasguem"
+      }
+    }
+  },
+  {
+    "rank": 3716,
+    "word": "desamarrar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/dezamaˈʁaʁ/",
+    "definition": "Soltar o que estava preso com nó.",
+    "examples": [
+      "Desamarrei o barco.",
+      "Não consigo desamarrar o tênis.",
+      "Ele desamarrou o cachorro."
+    ],
+    "spanish": {
+      "word": "desamarrar",
+      "definition": "Soltar lo que estaba sujeto con nudo."
+    },
+    "synonyms": [
+      "soltar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "desamarro",
+        "voce": "desamarra",
+        "nos": "desamarramos",
+        "eles": "desamarram"
+      },
+      "preterito": {
+        "eu": "desamarrei",
+        "voce": "desamarrou",
+        "nos": "desamarramos",
+        "eles": "desamarraram"
+      },
+      "imperfeito": {
+        "eu": "desamarrava",
+        "voce": "desamarrava",
+        "nos": "desamarrávamos",
+        "eles": "desamarravam"
+      },
+      "futuro": {
+        "eu": "desamarrarei",
+        "voce": "desamarrará",
+        "nos": "desamarraremos",
+        "eles": "desamarrarão"
+      },
+      "subjuntivo": {
+        "eu": "desamarre",
+        "voce": "desamarre",
+        "nos": "desamarremos",
+        "eles": "desamarrem"
+      }
+    }
+  },
+  {
+    "rank": 3717,
+    "word": "emagrecer",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/emagɾeˈseʁ/",
+    "definition": "Ficar mais magro.",
+    "examples": [
+      "Quero emagrecer dez quilos.",
+      "Ela emagreceu muito com a dieta.",
+      "Emagreço quando ando de bicicleta."
+    ],
+    "spanish": {
+      "word": "adelgazar",
+      "definition": "Ponerse más delgado."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "emagreço",
+        "voce": "emagrece",
+        "nos": "emagrecemos",
+        "eles": "emagrecem"
+      },
+      "preterito": {
+        "eu": "emagreci",
+        "voce": "emagreceu",
+        "nos": "emagrecemos",
+        "eles": "emagreceram"
+      },
+      "imperfeito": {
+        "eu": "emagrecia",
+        "voce": "emagrecia",
+        "nos": "emagrecíamos",
+        "eles": "emagreciam"
+      },
+      "futuro": {
+        "eu": "emagrecerei",
+        "voce": "emagrecerá",
+        "nos": "emagreceremos",
+        "eles": "emagrecerão"
+      },
+      "subjuntivo": {
+        "eu": "emagreça",
+        "voce": "emagreça",
+        "nos": "emagreçamos",
+        "eles": "emagreçam"
+      }
+    }
+  },
+  {
+    "rank": 3718,
+    "word": "regar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁeˈgaʁ/",
+    "definition": "Colocar água nas plantas.",
+    "examples": [
+      "Reguei as plantas de manhã.",
+      "Você pode regar o jardim?",
+      "Regue essa flor duas vezes por semana."
+    ],
+    "spanish": {
+      "word": "regar",
+      "definition": "Poner agua a las plantas."
+    },
+    "synonyms": [
+      "molhar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "rego",
+        "voce": "rega",
+        "nos": "regamos",
+        "eles": "regam"
+      },
+      "preterito": {
+        "eu": "reguei",
+        "voce": "regou",
+        "nos": "regamos",
+        "eles": "regaram"
+      },
+      "imperfeito": {
+        "eu": "regava",
+        "voce": "regava",
+        "nos": "regávamos",
+        "eles": "regavam"
+      },
+      "futuro": {
+        "eu": "regarei",
+        "voce": "regará",
+        "nos": "regaremos",
+        "eles": "regarão"
+      },
+      "subjuntivo": {
+        "eu": "regue",
+        "voce": "regue",
+        "nos": "reguemos",
+        "eles": "reguem"
+      }
+    }
+  },
+  {
+    "rank": 3719,
+    "word": "pedalar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/pedaˈlaʁ/",
+    "definition": "Andar de bicicleta.",
+    "examples": [
+      "Pedalo até o trabalho.",
+      "Pedalamos vinte quilômetros no domingo.",
+      "Ele adora pedalar na praia."
+    ],
+    "spanish": {
+      "word": "pedalear",
+      "definition": "Andar en bicicleta."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "pedalo",
+        "voce": "pedala",
+        "nos": "pedalamos",
+        "eles": "pedalam"
+      },
+      "preterito": {
+        "eu": "pedalei",
+        "voce": "pedalou",
+        "nos": "pedalamos",
+        "eles": "pedalaram"
+      },
+      "imperfeito": {
+        "eu": "pedalava",
+        "voce": "pedalava",
+        "nos": "pedalávamos",
+        "eles": "pedalavam"
+      },
+      "futuro": {
+        "eu": "pedalarei",
+        "voce": "pedalará",
+        "nos": "pedalaremos",
+        "eles": "pedalarão"
+      },
+      "subjuntivo": {
+        "eu": "pedale",
+        "voce": "pedale",
+        "nos": "pedalemos",
+        "eles": "pedalem"
+      }
+    }
+  },
+  {
+    "rank": 3720,
+    "word": "roncar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁõˈkaʁ/",
+    "definition": "Fazer barulho ao respirar dormindo.",
+    "examples": [
+      "Meu marido ronca muito.",
+      "Você roncou a noite toda.",
+      "Meu estômago está roncando de fome."
+    ],
+    "spanish": {
+      "word": "roncar",
+      "definition": "Hacer ruido al respirar durmiendo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "ronco",
+        "voce": "ronca",
+        "nos": "roncamos",
+        "eles": "roncam"
+      },
+      "preterito": {
+        "eu": "ronquei",
+        "voce": "roncou",
+        "nos": "roncamos",
+        "eles": "roncaram"
+      },
+      "imperfeito": {
+        "eu": "roncava",
+        "voce": "roncava",
+        "nos": "roncávamos",
+        "eles": "roncavam"
+      },
+      "futuro": {
+        "eu": "roncarei",
+        "voce": "roncará",
+        "nos": "roncaremos",
+        "eles": "roncarão"
+      },
+      "subjuntivo": {
+        "eu": "ronque",
+        "voce": "ronque",
+        "nos": "ronquemos",
+        "eles": "ronquem"
+      }
+    }
+  },
+  {
+    "rank": 3721,
+    "word": "arrepiar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/aʁepiˈaʁ/",
+    "definition": "Levantar os pelos da pele com frio ou medo.",
+    "examples": [
+      "Essa música me arrepia.",
+      "O frio arrepiou os meus braços.",
+      "Fiquei arrepiado com a história."
+    ],
+    "spanish": {
+      "word": "erizar",
+      "definition": "Levantar los pelos de la piel por frío o miedo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "arrepio",
+        "voce": "arrepia",
+        "nos": "arrepiamos",
+        "eles": "arrepiam"
+      },
+      "preterito": {
+        "eu": "arrepiei",
+        "voce": "arrepiou",
+        "nos": "arrepiamos",
+        "eles": "arrepiaram"
+      },
+      "imperfeito": {
+        "eu": "arrepiava",
+        "voce": "arrepiava",
+        "nos": "arrepiávamos",
+        "eles": "arrepiavam"
+      },
+      "futuro": {
+        "eu": "arrepiarei",
+        "voce": "arrepiará",
+        "nos": "arrepiaremos",
+        "eles": "arrepiarão"
+      },
+      "subjuntivo": {
+        "eu": "arrepie",
+        "voce": "arrepie",
+        "nos": "arrepiemos",
+        "eles": "arrepiem"
+      }
+    }
+  },
+  {
+    "rank": 3722,
+    "word": "enxugar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ẽʃuˈgaʁ/",
+    "definition": "Tirar a água com um pano ou toalha.",
+    "examples": [
+      "Enxugue as mãos na toalha.",
+      "Enxuguei a louça.",
+      "Ela enxugou as lágrimas do filho."
+    ],
+    "spanish": {
+      "word": "secar",
+      "definition": "Quitar el agua con un paño o toalla."
+    },
+    "synonyms": [
+      "secar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "enxugo",
+        "voce": "enxuga",
+        "nos": "enxugamos",
+        "eles": "enxugam"
+      },
+      "preterito": {
+        "eu": "enxuguei",
+        "voce": "enxugou",
+        "nos": "enxugamos",
+        "eles": "enxugaram"
+      },
+      "imperfeito": {
+        "eu": "enxugava",
+        "voce": "enxugava",
+        "nos": "enxugávamos",
+        "eles": "enxugavam"
+      },
+      "futuro": {
+        "eu": "enxugarei",
+        "voce": "enxugará",
+        "nos": "enxugaremos",
+        "eles": "enxugarão"
+      },
+      "subjuntivo": {
+        "eu": "enxugue",
+        "voce": "enxugue",
+        "nos": "enxuguemos",
+        "eles": "enxuguem"
+      }
+    }
+  },
+  {
+    "rank": 3723,
+    "word": "destrancar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/dʒistɾɐ̃ˈkaʁ/",
+    "definition": "Abrir o que estava fechado com chave.",
+    "examples": [
+      "Destranquei a porta.",
+      "Destranque o celular com o dedo.",
+      "Quem destrancou o portão?"
+    ],
+    "spanish": {
+      "word": "abrir con llave",
+      "definition": "Abrir lo que estaba cerrado con llave."
+    },
+    "synonyms": [
+      "abrir"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "destranco",
+        "voce": "destranca",
+        "nos": "destrancamos",
+        "eles": "destrancam"
+      },
+      "preterito": {
+        "eu": "destranquei",
+        "voce": "destrancou",
+        "nos": "destrancamos",
+        "eles": "destrancaram"
+      },
+      "imperfeito": {
+        "eu": "destrancava",
+        "voce": "destrancava",
+        "nos": "destrancávamos",
+        "eles": "destrancavam"
+      },
+      "futuro": {
+        "eu": "destrancarei",
+        "voce": "destrancará",
+        "nos": "destrancaremos",
+        "eles": "destrancarão"
+      },
+      "subjuntivo": {
+        "eu": "destranque",
+        "voce": "destranque",
+        "nos": "destranquemos",
+        "eles": "destranquem"
+      }
+    }
+  },
+  {
+    "rank": 3724,
+    "word": "fatiar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/fatʃiˈaʁ/",
+    "definition": "Cortar em pedaços finos.",
+    "examples": [
+      "Fatie o pão com cuidado.",
+      "Fatiei o tomate para o sanduíche.",
+      "O padeiro fatia o queijo na hora."
+    ],
+    "spanish": {
+      "word": "rebanar",
+      "definition": "Cortar en pedazos delgados."
+    },
+    "synonyms": [
+      "cortar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "fatio",
+        "voce": "fatia",
+        "nos": "fatiamos",
+        "eles": "fatiam"
+      },
+      "preterito": {
+        "eu": "fatiei",
+        "voce": "fatiou",
+        "nos": "fatiamos",
+        "eles": "fatiaram"
+      },
+      "imperfeito": {
+        "eu": "fatiava",
+        "voce": "fatiava",
+        "nos": "fatiávamos",
+        "eles": "fatiavam"
+      },
+      "futuro": {
+        "eu": "fatiarei",
+        "voce": "fatiará",
+        "nos": "fatiaremos",
+        "eles": "fatiarão"
+      },
+      "subjuntivo": {
+        "eu": "fatie",
+        "voce": "fatie",
+        "nos": "fatiemos",
+        "eles": "fatiem"
+      }
+    }
+  },
+  {
+    "rank": 3725,
+    "word": "ralar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁaˈlaʁ/",
+    "definition": "Passar um alimento no ralador; ferir a pele; trabalhar muito.",
+    "examples": [
+      "Rale a cenoura para o bolo.",
+      "Ralei o joelho no chão.",
+      "Ralei muito para pagar a faculdade."
+    ],
+    "spanish": {
+      "word": "rallar",
+      "definition": "Pasar un alimento por el rallador; herir la piel; trabajar mucho."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "ralo",
+        "voce": "rala",
+        "nos": "ralamos",
+        "eles": "ralam"
+      },
+      "preterito": {
+        "eu": "ralei",
+        "voce": "ralou",
+        "nos": "ralamos",
+        "eles": "ralaram"
+      },
+      "imperfeito": {
+        "eu": "ralava",
+        "voce": "ralava",
+        "nos": "ralávamos",
+        "eles": "ralavam"
+      },
+      "futuro": {
+        "eu": "ralarei",
+        "voce": "ralará",
+        "nos": "ralaremos",
+        "eles": "ralarão"
+      },
+      "subjuntivo": {
+        "eu": "rale",
+        "voce": "rale",
+        "nos": "ralemos",
+        "eles": "ralem"
+      }
+    }
+  },
+  {
+    "rank": 3726,
+    "word": "agachar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/agaˈʃaʁ/",
+    "definition": "Dobrar os joelhos e abaixar o corpo.",
+    "examples": [
+      "Eu me agachei para pegar a moeda.",
+      "Agache para não bater a cabeça.",
+      "A criança se agacha para ver a formiga."
+    ],
+    "spanish": {
+      "word": "agachar",
+      "definition": "Doblar las rodillas y bajar el cuerpo."
+    },
+    "synonyms": [
+      "abaixar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "agacho",
+        "voce": "agacha",
+        "nos": "agachamos",
+        "eles": "agacham"
+      },
+      "preterito": {
+        "eu": "agachei",
+        "voce": "agachou",
+        "nos": "agachamos",
+        "eles": "agacharam"
+      },
+      "imperfeito": {
+        "eu": "agachava",
+        "voce": "agachava",
+        "nos": "agachávamos",
+        "eles": "agachavam"
+      },
+      "futuro": {
+        "eu": "agacharei",
+        "voce": "agachará",
+        "nos": "agacharemos",
+        "eles": "agacharão"
+      },
+      "subjuntivo": {
+        "eu": "agache",
+        "voce": "agache",
+        "nos": "agachemos",
+        "eles": "agachem"
+      }
+    }
+  },
+  {
+    "rank": 3727,
+    "word": "podar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/poˈdaʁ/",
+    "definition": "Cortar os galhos de uma planta.",
+    "examples": [
+      "Meu pai podou as roseiras.",
+      "Preciso podar a árvore do quintal.",
+      "No inverno, é bom podar os galhos secos."
+    ],
+    "spanish": {
+      "word": "podar",
+      "definition": "Cortar las ramas de una planta."
+    },
+    "synonyms": [
+      "cortar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "podo",
+        "voce": "poda",
+        "nos": "podamos",
+        "eles": "podam"
+      },
+      "preterito": {
+        "eu": "podei",
+        "voce": "podou",
+        "nos": "podamos",
+        "eles": "podaram"
+      },
+      "imperfeito": {
+        "eu": "podava",
+        "voce": "podava",
+        "nos": "podávamos",
+        "eles": "podavam"
+      },
+      "futuro": {
+        "eu": "podarei",
+        "voce": "podará",
+        "nos": "podaremos",
+        "eles": "podarão"
+      },
+      "subjuntivo": {
+        "eu": "pode",
+        "voce": "pode",
+        "nos": "podemos",
+        "eles": "podem"
+      }
+    }
+  },
+  {
+    "rank": 3728,
+    "word": "temperar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/tẽpeˈɾaʁ/",
+    "definition": "Colocar sal e outros sabores na comida.",
+    "examples": [
+      "Tempere a salada com limão.",
+      "Temperei a carne com alho.",
+      "Ela tempera o frango na noite anterior."
+    ],
+    "spanish": {
+      "word": "sazonar",
+      "definition": "Poner sal y otros sabores en la comida."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "tempero",
+        "voce": "tempera",
+        "nos": "temperamos",
+        "eles": "temperam"
+      },
+      "preterito": {
+        "eu": "temperei",
+        "voce": "temperou",
+        "nos": "temperamos",
+        "eles": "temperaram"
+      },
+      "imperfeito": {
+        "eu": "temperava",
+        "voce": "temperava",
+        "nos": "temperávamos",
+        "eles": "temperavam"
+      },
+      "futuro": {
+        "eu": "temperarei",
+        "voce": "temperará",
+        "nos": "temperaremos",
+        "eles": "temperarão"
+      },
+      "subjuntivo": {
+        "eu": "tempere",
+        "voce": "tempere",
+        "nos": "temperemos",
+        "eles": "temperem"
+      }
+    }
+  },
+  {
+    "rank": 3729,
+    "word": "boiar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/bojˈaʁ/",
+    "definition": "Ficar em cima da água; não entender nada.",
+    "examples": [
+      "A rolha boia na água.",
+      "Boiei de costas no mar.",
+      "Não entendi nada, fiquei boiando na aula."
+    ],
+    "spanish": {
+      "word": "flotar",
+      "definition": "Quedarse sobre el agua; no entender nada."
+    },
+    "synonyms": [
+      "flutuar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "boio",
+        "voce": "boia",
+        "nos": "boiamos",
+        "eles": "boiam"
+      },
+      "preterito": {
+        "eu": "boiei",
+        "voce": "boiou",
+        "nos": "boiamos",
+        "eles": "boiaram"
+      },
+      "imperfeito": {
+        "eu": "boiava",
+        "voce": "boiava",
+        "nos": "boiávamos",
+        "eles": "boiavam"
+      },
+      "futuro": {
+        "eu": "boiarei",
+        "voce": "boiará",
+        "nos": "boiaremos",
+        "eles": "boiarão"
+      },
+      "subjuntivo": {
+        "eu": "boie",
+        "voce": "boie",
+        "nos": "boiemos",
+        "eles": "boiem"
+      }
+    }
+  },
+  {
+    "rank": 3730,
+    "word": "bordar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/boʁˈdaʁ/",
+    "definition": "Fazer desenhos em pano com agulha e linha.",
+    "examples": [
+      "Minha mãe borda toalhas lindas.",
+      "Bordei o nome dela na camisa.",
+      "Ela aprendeu a bordar com a avó."
+    ],
+    "spanish": {
+      "word": "bordar",
+      "definition": "Hacer dibujos en tela con aguja e hilo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "bordo",
+        "voce": "borda",
+        "nos": "bordamos",
+        "eles": "bordam"
+      },
+      "preterito": {
+        "eu": "bordei",
+        "voce": "bordou",
+        "nos": "bordamos",
+        "eles": "bordaram"
+      },
+      "imperfeito": {
+        "eu": "bordava",
+        "voce": "bordava",
+        "nos": "bordávamos",
+        "eles": "bordavam"
+      },
+      "futuro": {
+        "eu": "bordarei",
+        "voce": "bordará",
+        "nos": "bordaremos",
+        "eles": "bordarão"
+      },
+      "subjuntivo": {
+        "eu": "borde",
+        "voce": "borde",
+        "nos": "bordemos",
+        "eles": "bordem"
+      }
+    }
+  },
+  {
+    "rank": 3731,
+    "word": "bocejar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/boseˈʒaʁ/",
+    "definition": "Abrir a boca por causa de sono ou tédio.",
+    "examples": [
+      "Ele bocejou durante a reunião.",
+      "Quando alguém boceja, eu bocejo também.",
+      "Pare de bocejar e vá dormir."
+    ],
+    "spanish": {
+      "word": "bostezar",
+      "definition": "Abrir la boca por sueño o aburrimiento."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "bocejo",
+        "voce": "boceja",
+        "nos": "bocejamos",
+        "eles": "bocejam"
+      },
+      "preterito": {
+        "eu": "bocejei",
+        "voce": "bocejou",
+        "nos": "bocejamos",
+        "eles": "bocejaram"
+      },
+      "imperfeito": {
+        "eu": "bocejava",
+        "voce": "bocejava",
+        "nos": "bocejávamos",
+        "eles": "bocejavam"
+      },
+      "futuro": {
+        "eu": "bocejarei",
+        "voce": "bocejará",
+        "nos": "bocejaremos",
+        "eles": "bocejarão"
+      },
+      "subjuntivo": {
+        "eu": "boceje",
+        "voce": "boceje",
+        "nos": "bocejemos",
+        "eles": "bocejem"
+      }
+    }
+  },
+  {
+    "rank": 3732,
+    "word": "soluçar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/soluˈsaʁ/",
+    "definition": "Ter soluço; chorar com a respiração cortada.",
+    "examples": [
+      "O bebê soluça depois de mamar.",
+      "Ela soluçava de tanto chorar.",
+      "Bebi água rápido e comecei a soluçar."
+    ],
+    "spanish": {
+      "word": "tener hipo; sollozar",
+      "definition": "Tener hipo; llorar con la respiración cortada."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "soluço",
+        "voce": "soluça",
+        "nos": "soluçamos",
+        "eles": "soluçam"
+      },
+      "preterito": {
+        "eu": "solucei",
+        "voce": "soluçou",
+        "nos": "soluçamos",
+        "eles": "soluçaram"
+      },
+      "imperfeito": {
+        "eu": "soluçava",
+        "voce": "soluçava",
+        "nos": "soluçávamos",
+        "eles": "soluçavam"
+      },
+      "futuro": {
+        "eu": "soluçarei",
+        "voce": "soluçará",
+        "nos": "soluçaremos",
+        "eles": "soluçarão"
+      },
+      "subjuntivo": {
+        "eu": "soluce",
+        "voce": "soluce",
+        "nos": "solucemos",
+        "eles": "solucem"
+      }
+    }
+  },
+  {
+    "rank": 3733,
+    "word": "refogar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁefoˈgaʁ/",
+    "definition": "Fritar de leve com alho, cebola e óleo.",
+    "examples": [
+      "Refogue o alho e a cebola.",
+      "Refoguei a couve no azeite.",
+      "Ela refoga o arroz antes de colocar a água."
+    ],
+    "spanish": {
+      "word": "sofreír",
+      "definition": "Freír un poco con ajo, cebolla y aceite."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "refogo",
+        "voce": "refoga",
+        "nos": "refogamos",
+        "eles": "refogam"
+      },
+      "preterito": {
+        "eu": "refoguei",
+        "voce": "refogou",
+        "nos": "refogamos",
+        "eles": "refogaram"
+      },
+      "imperfeito": {
+        "eu": "refogava",
+        "voce": "refogava",
+        "nos": "refogávamos",
+        "eles": "refogavam"
+      },
+      "futuro": {
+        "eu": "refogarei",
+        "voce": "refogará",
+        "nos": "refogaremos",
+        "eles": "refogarão"
+      },
+      "subjuntivo": {
+        "eu": "refogue",
+        "voce": "refogue",
+        "nos": "refoguemos",
+        "eles": "refoguem"
+      }
+    }
+  },
+  {
+    "rank": 3734,
+    "word": "coar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/koˈaʁ/",
+    "definition": "Passar um líquido por um filtro.",
+    "examples": [
+      "Vou coar um café.",
+      "Coe o suco antes de servir.",
+      "Coei o chá e levei para a mesa."
+    ],
+    "spanish": {
+      "word": "colar",
+      "definition": "Pasar un líquido por un filtro."
+    },
+    "synonyms": [
+      "filtrar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "coo",
+        "voce": "coa",
+        "nos": "coamos",
+        "eles": "coam"
+      },
+      "preterito": {
+        "eu": "coei",
+        "voce": "coou",
+        "nos": "coamos",
+        "eles": "coaram"
+      },
+      "imperfeito": {
+        "eu": "coava",
+        "voce": "coava",
+        "nos": "coávamos",
+        "eles": "coavam"
+      },
+      "futuro": {
+        "eu": "coarei",
+        "voce": "coará",
+        "nos": "coaremos",
+        "eles": "coarão"
+      },
+      "subjuntivo": {
+        "eu": "coe",
+        "voce": "coe",
+        "nos": "coemos",
+        "eles": "coem"
+      }
+    }
+  },
+  {
+    "rank": 3735,
+    "word": "peneirar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/penejˈɾaʁ/",
+    "definition": "Passar farinha ou areia por uma peneira.",
+    "examples": [
+      "Peneire a farinha antes de fazer o bolo.",
+      "Peneirei o açúcar em cima da torta.",
+      "Eles peneiravam areia no rio."
+    ],
+    "spanish": {
+      "word": "cernir",
+      "definition": "Pasar harina o arena por un cedazo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "peneiro",
+        "voce": "peneira",
+        "nos": "peneiramos",
+        "eles": "peneiram"
+      },
+      "preterito": {
+        "eu": "peneirei",
+        "voce": "peneirou",
+        "nos": "peneiramos",
+        "eles": "peneiraram"
+      },
+      "imperfeito": {
+        "eu": "peneirava",
+        "voce": "peneirava",
+        "nos": "peneirávamos",
+        "eles": "peneiravam"
+      },
+      "futuro": {
+        "eu": "peneirarei",
+        "voce": "peneirará",
+        "nos": "peneiraremos",
+        "eles": "peneirarão"
+      },
+      "subjuntivo": {
+        "eu": "peneire",
+        "voce": "peneire",
+        "nos": "peneiremos",
+        "eles": "peneirem"
+      }
+    }
+  },
+  {
+    "rank": 3736,
+    "word": "surfar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/suʁˈfaʁ/",
+    "definition": "Deslizar nas ondas em cima de uma prancha.",
+    "examples": [
+      "Ele surfa desde criança.",
+      "Quero aprender a surfar.",
+      "Surfamos a manhã toda em Floripa."
+    ],
+    "spanish": {
+      "word": "surfear",
+      "definition": "Deslizarse sobre las olas encima de una tabla."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "surfo",
+        "voce": "surfa",
+        "nos": "surfamos",
+        "eles": "surfam"
+      },
+      "preterito": {
+        "eu": "surfei",
+        "voce": "surfou",
+        "nos": "surfamos",
+        "eles": "surfaram"
+      },
+      "imperfeito": {
+        "eu": "surfava",
+        "voce": "surfava",
+        "nos": "surfávamos",
+        "eles": "surfavam"
+      },
+      "futuro": {
+        "eu": "surfarei",
+        "voce": "surfará",
+        "nos": "surfaremos",
+        "eles": "surfarão"
+      },
+      "subjuntivo": {
+        "eu": "surfe",
+        "voce": "surfe",
+        "nos": "surfemos",
+        "eles": "surfem"
+      }
+    }
+  },
+  {
+    "rank": 3737,
+    "word": "ajoelhar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/aʒoeˈʎaʁ/",
+    "definition": "Colocar os joelhos no chão.",
+    "examples": [
+      "Ele se ajoelhou para pedir a mão dela.",
+      "Os fiéis se ajoelham na igreja.",
+      "Ajoelhei para limpar o chão."
+    ],
+    "spanish": {
+      "word": "arrodillar",
+      "definition": "Poner las rodillas en el suelo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "ajoelho",
+        "voce": "ajoelha",
+        "nos": "ajoelhamos",
+        "eles": "ajoelham"
+      },
+      "preterito": {
+        "eu": "ajoelhei",
+        "voce": "ajoelhou",
+        "nos": "ajoelhamos",
+        "eles": "ajoelharam"
+      },
+      "imperfeito": {
+        "eu": "ajoelhava",
+        "voce": "ajoelhava",
+        "nos": "ajoelhávamos",
+        "eles": "ajoelhavam"
+      },
+      "futuro": {
+        "eu": "ajoelharei",
+        "voce": "ajoelhará",
+        "nos": "ajoelharemos",
+        "eles": "ajoelharão"
+      },
+      "subjuntivo": {
+        "eu": "ajoelhe",
+        "voce": "ajoelhe",
+        "nos": "ajoelhemos",
+        "eles": "ajoelhem"
+      }
+    }
+  },
+  {
+    "rank": 3738,
+    "word": "tricotar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/tɾikoˈtaʁ/",
+    "definition": "Fazer roupa de lã com duas agulhas.",
+    "examples": [
+      "Minha avó tricota blusas no inverno.",
+      "Ela tricotou um cachecol para mim.",
+      "Aprendi a tricotar pela internet."
+    ],
+    "spanish": {
+      "word": "tejer",
+      "definition": "Hacer ropa de lana con dos agujas."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "tricoto",
+        "voce": "tricota",
+        "nos": "tricotamos",
+        "eles": "tricotam"
+      },
+      "preterito": {
+        "eu": "tricotei",
+        "voce": "tricotou",
+        "nos": "tricotamos",
+        "eles": "tricotaram"
+      },
+      "imperfeito": {
+        "eu": "tricotava",
+        "voce": "tricotava",
+        "nos": "tricotávamos",
+        "eles": "tricotavam"
+      },
+      "futuro": {
+        "eu": "tricotarei",
+        "voce": "tricotará",
+        "nos": "tricotaremos",
+        "eles": "tricotarão"
+      },
+      "subjuntivo": {
+        "eu": "tricote",
+        "voce": "tricote",
+        "nos": "tricotemos",
+        "eles": "tricotem"
+      }
+    }
+  },
+  {
+    "rank": 3739,
+    "word": "mastigar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/mastʃiˈgaʁ/",
+    "definition": "Triturar a comida com os dentes.",
+    "examples": [
+      "Mastigue bem antes de engolir.",
+      "Ele mastiga de boca aberta.",
+      "Mastiguei um chiclete a tarde toda."
+    ],
+    "spanish": {
+      "word": "masticar",
+      "definition": "Triturar la comida con los dientes."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "mastigo",
+        "voce": "mastiga",
+        "nos": "mastigamos",
+        "eles": "mastigam"
+      },
+      "preterito": {
+        "eu": "mastiguei",
+        "voce": "mastigou",
+        "nos": "mastigamos",
+        "eles": "mastigaram"
+      },
+      "imperfeito": {
+        "eu": "mastigava",
+        "voce": "mastigava",
+        "nos": "mastigávamos",
+        "eles": "mastigavam"
+      },
+      "futuro": {
+        "eu": "mastigarei",
+        "voce": "mastigará",
+        "nos": "mastigaremos",
+        "eles": "mastigarão"
+      },
+      "subjuntivo": {
+        "eu": "mastigue",
+        "voce": "mastigue",
+        "nos": "mastiguemos",
+        "eles": "mastiguem"
+      }
+    }
+  },
+  {
+    "rank": 3740,
+    "word": "derreter",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/deʁeˈteʁ/",
+    "definition": "Passar de sólido a líquido com o calor.",
+    "examples": [
+      "O sorvete derreteu no sol.",
+      "Derreta a manteiga na panela.",
+      "Com o calor, o gelo derrete rápido."
+    ],
+    "spanish": {
+      "word": "derretir",
+      "definition": "Pasar de sólido a líquido con el calor."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "derreto",
+        "voce": "derrete",
+        "nos": "derretemos",
+        "eles": "derretem"
+      },
+      "preterito": {
+        "eu": "derreti",
+        "voce": "derreteu",
+        "nos": "derretemos",
+        "eles": "derreteram"
+      },
+      "imperfeito": {
+        "eu": "derretia",
+        "voce": "derretia",
+        "nos": "derretíamos",
+        "eles": "derretiam"
+      },
+      "futuro": {
+        "eu": "derreterei",
+        "voce": "derreterá",
+        "nos": "derreteremos",
+        "eles": "derreterão"
+      },
+      "subjuntivo": {
+        "eu": "derreta",
+        "voce": "derreta",
+        "nos": "derretamos",
+        "eles": "derretam"
+      }
+    }
+  },
+  {
+    "rank": 3741,
+    "word": "esvaziar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ezvaziˈaʁ/",
+    "definition": "Deixar sem nada dentro.",
+    "examples": [
+      "Esvaziei a mala assim que cheguei.",
+      "Esvazie os bolsos, por favor.",
+      "O estádio esvaziou depois do jogo."
+    ],
+    "spanish": {
+      "word": "vaciar",
+      "definition": "Dejar sin nada adentro."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "esvazio",
+        "voce": "esvazia",
+        "nos": "esvaziamos",
+        "eles": "esvaziam"
+      },
+      "preterito": {
+        "eu": "esvaziei",
+        "voce": "esvaziou",
+        "nos": "esvaziamos",
+        "eles": "esvaziaram"
+      },
+      "imperfeito": {
+        "eu": "esvaziava",
+        "voce": "esvaziava",
+        "nos": "esvaziávamos",
+        "eles": "esvaziavam"
+      },
+      "futuro": {
+        "eu": "esvaziarei",
+        "voce": "esvaziará",
+        "nos": "esvaziaremos",
+        "eles": "esvaziarão"
+      },
+      "subjuntivo": {
+        "eu": "esvazie",
+        "voce": "esvazie",
+        "nos": "esvaziemos",
+        "eles": "esvaziem"
+      }
+    }
+  },
+  {
+    "rank": 3742,
+    "word": "furar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/fuˈɾaʁ/",
+    "definition": "Fazer um buraco; deixar de ir ao combinado.",
+    "examples": [
+      "O pneu furou na estrada.",
+      "Ele furou a fila.",
+      "Ela furou comigo de novo."
+    ],
+    "spanish": {
+      "word": "perforar",
+      "definition": "Hacer un hueco; dejar de ir a lo acordado."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "furo",
+        "voce": "fura",
+        "nos": "furamos",
+        "eles": "furam"
+      },
+      "preterito": {
+        "eu": "furei",
+        "voce": "furou",
+        "nos": "furamos",
+        "eles": "furaram"
+      },
+      "imperfeito": {
+        "eu": "furava",
+        "voce": "furava",
+        "nos": "furávamos",
+        "eles": "furavam"
+      },
+      "futuro": {
+        "eu": "furarei",
+        "voce": "furará",
+        "nos": "furaremos",
+        "eles": "furarão"
+      },
+      "subjuntivo": {
+        "eu": "fure",
+        "voce": "fure",
+        "nos": "furemos",
+        "eles": "furem"
+      }
+    }
+  },
+  {
+    "rank": 3743,
+    "word": "salgado",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/sawˈgadu/",
+    "definition": "Com sal ou muito sal; pequena comida de festa.",
+    "examples": [
+      "A comida está muito salgada.",
+      "A água do mar é salgada.",
+      "Na festa tem salgados e doces."
+    ],
+    "spanish": {
+      "word": "salado",
+      "definition": "Con sal o con mucha sal; pequeña comida de fiesta."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3744,
+    "word": "azedo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/aˈzedu/",
+    "definition": "De gosto forte como o do limão.",
+    "examples": [
+      "O limão é azedo.",
+      "Esse leite ficou azedo.",
+      "Ele acordou de humor azedo."
+    ],
+    "spanish": {
+      "word": "agrio",
+      "definition": "De sabor fuerte como el del limón."
+    },
+    "synonyms": [
+      "ácido"
+    ]
+  },
+  {
+    "rank": 3745,
+    "word": "crocante",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/kɾoˈkɐ̃tʃi/",
+    "definition": "Que faz barulho quando se morde.",
+    "examples": [
+      "O frango ficou bem crocante.",
+      "Adoro pão crocante.",
+      "A casca da torta está crocante."
+    ],
+    "spanish": {
+      "word": "crujiente",
+      "definition": "Que hace ruido cuando se muerde."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3746,
+    "word": "saboroso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/saboˈɾozu/",
+    "definition": "Com gosto muito bom.",
+    "examples": [
+      "Comi um peixe saboroso.",
+      "A sopa ficou saborosa.",
+      "Esse bolo é muito saboroso."
+    ],
+    "spanish": {
+      "word": "sabroso",
+      "definition": "Con muy buen sabor."
+    },
+    "synonyms": [
+      "gostoso"
+    ]
+  },
+  {
+    "rank": 3747,
+    "word": "apimentado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/apimẽˈtadu/",
+    "definition": "Com muita pimenta.",
+    "examples": [
+      "A comida baiana é apimentada.",
+      "Não gosto de prato muito apimentado.",
+      "Esse molho está bem apimentado."
+    ],
+    "spanish": {
+      "word": "picante",
+      "definition": "Con mucho ají."
+    },
+    "synonyms": [
+      "picante"
+    ]
+  },
+  {
+    "rank": 3748,
+    "word": "picante",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/piˈkɐ̃tʃi/",
+    "definition": "Que queima a língua quando se come.",
+    "examples": [
+      "Esse molho é muito picante.",
+      "Prefiro comida menos picante.",
+      "Ela pediu um frango picante."
+    ],
+    "spanish": {
+      "word": "picante",
+      "definition": "Que quema la lengua cuando se come."
+    },
+    "synonyms": [
+      "apimentado"
+    ]
+  },
+  {
+    "rank": 3749,
+    "word": "áspero",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈaspeɾu/",
+    "definition": "Que não é liso ao toque.",
+    "examples": [
+      "A parede é áspera.",
+      "Minhas mãos estão ásperas por causa do frio.",
+      "O tecido é áspero e pinica."
+    ],
+    "spanish": {
+      "word": "áspero",
+      "definition": "Que no es liso al tacto."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3750,
+    "word": "liso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈlizu/",
+    "definition": "Sem rugas, ondas ou desenhos; sem dinheiro.",
+    "examples": [
+      "Ela tem cabelo liso.",
+      "A pedra é bem lisa.",
+      "Hoje estou liso, não tenho um real."
+    ],
+    "spanish": {
+      "word": "liso",
+      "definition": "Sin arrugas, ondas ni dibujos; sin dinero."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3751,
+    "word": "medroso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/meˈdɾozu/",
+    "definition": "Que tem medo de tudo.",
+    "examples": [
+      "Meu cachorro é medroso.",
+      "Ela é medrosa e não vê filme de terror.",
+      "Não seja medroso, vamos entrar."
+    ],
+    "spanish": {
+      "word": "miedoso",
+      "definition": "Que tiene miedo de todo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3752,
+    "word": "cheiroso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʃejˈɾozu/",
+    "definition": "Com cheiro bom.",
+    "examples": [
+      "A casa está cheirosa.",
+      "Você está bem cheiroso hoje.",
+      "O bebê é tão cheiroso!"
+    ],
+    "spanish": {
+      "word": "perfumado",
+      "definition": "Con buen olor."
+    },
+    "synonyms": [
+      "perfumado"
+    ]
+  },
+  {
+    "rank": 3753,
+    "word": "fedido",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/feˈdʒidu/",
+    "definition": "Com cheiro ruim.",
+    "examples": [
+      "Esse queijo é muito fedido.",
+      "Seu tênis está fedido.",
+      "Saí do jogo suado e fedido."
+    ],
+    "spanish": {
+      "word": "apestoso",
+      "definition": "Con mal olor."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3754,
+    "word": "azarado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/azaˈɾadu/",
+    "definition": "Que tem pouca sorte.",
+    "examples": [
+      "Sou muito azarado no jogo.",
+      "Ele é tão azarado que perdeu duas vezes o voo.",
+      "Foi um dia azarado."
+    ],
+    "spanish": {
+      "word": "desafortunado",
+      "definition": "Que tiene poca suerte."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3755,
+    "word": "guloso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/guˈlozu/",
+    "definition": "Que gosta muito de comer.",
+    "examples": [
+      "Meu filho é guloso.",
+      "Ela é gulosa, comeu o bolo todo.",
+      "Que menino guloso!"
+    ],
+    "spanish": {
+      "word": "goloso",
+      "definition": "Que le gusta mucho comer."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3756,
+    "word": "desajeitado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/dezaʒejˈtadu/",
+    "definition": "Que derruba as coisas ou se move mal.",
+    "examples": [
+      "Sou desajeitado na cozinha.",
+      "Ele é tão desajeitado que quebrou o copo.",
+      "A menina deu uns passos desajeitados."
+    ],
+    "spanish": {
+      "word": "torpe",
+      "definition": "Que tumba las cosas o se mueve mal."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3757,
+    "word": "bagunçado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/bagũˈsadu/",
+    "definition": "Fora de ordem.",
+    "examples": [
+      "Meu quarto está bagunçado.",
+      "Ela é muito bagunçada.",
+      "Deixei a mesa bagunçada."
+    ],
+    "spanish": {
+      "word": "desordenado",
+      "definition": "Fuera de orden."
+    },
+    "synonyms": [
+      "desarrumado"
+    ]
+  },
+  {
+    "rank": 3758,
+    "word": "comprido",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/kõˈpɾidu/",
+    "definition": "De grande extensão.",
+    "examples": [
+      "Ela tem o cabelo comprido.",
+      "A calça ficou comprida para mim.",
+      "A mesa da sala é bem comprida."
+    ],
+    "spanish": {
+      "word": "largo",
+      "definition": "De gran extensión."
+    },
+    "synonyms": [
+      "longo"
+    ]
+  },
+  {
+    "rank": 3759,
+    "word": "estreito",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/esˈtɾejtu/",
+    "definition": "De pouca largura; passagem de mar entre duas terras.",
+    "examples": [
+      "A rua é muito estreita.",
+      "Passamos por um corredor estreito.",
+      "O estreito separa as duas ilhas."
+    ],
+    "spanish": {
+      "word": "estrecho",
+      "definition": "De poco ancho; paso de mar entre dos tierras."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3760,
+    "word": "aconchegante",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/akõʃeˈgɐ̃tʃi/",
+    "definition": "Confortável e agradável.",
+    "examples": [
+      "A casa é pequena, mas aconchegante.",
+      "Esse café é bem aconchegante.",
+      "Fizemos um quarto aconchegante para o bebê."
+    ],
+    "spanish": {
+      "word": "acogedor",
+      "definition": "Cómodo y agradable."
+    },
+    "synonyms": [
+      "confortável"
+    ]
+  },
+  {
+    "rank": 3761,
+    "word": "carinhoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/kaɾiˈɲozu/",
+    "definition": "Que trata com amor.",
+    "examples": [
+      "Meu filho é muito carinhoso.",
+      "Ela é carinhosa com os avós.",
+      "Ele deu um abraço carinhoso na mãe."
+    ],
+    "spanish": {
+      "word": "cariñoso",
+      "definition": "Que trata con amor."
+    },
+    "synonyms": [
+      "afetuoso"
+    ]
+  },
+  {
+    "rank": 3762,
+    "word": "atencioso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/atẽsiˈozu/",
+    "definition": "Que cuida e dá atenção aos outros.",
+    "examples": [
+      "O atendente foi muito atencioso.",
+      "Ela é uma médica atenciosa.",
+      "Obrigado por ser tão atencioso comigo."
+    ],
+    "spanish": {
+      "word": "atento",
+      "definition": "Que cuida y da atención a los demás."
+    },
+    "synonyms": [
+      "gentil"
+    ]
+  },
+  {
+    "rank": 3763,
+    "word": "mimado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/miˈmadu/",
+    "definition": "Que tem tudo e acha que pode fazer o que quer.",
+    "examples": [
+      "Essa criança é muito mimada.",
+      "Ele foi um filho mimado.",
+      "Não seja mimada, divida os brinquedos."
+    ],
+    "spanish": {
+      "word": "mimado",
+      "definition": "Que tiene todo y cree que puede hacer lo que quiere."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3764,
+    "word": "tagarela",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/tagaˈɾɛlɐ/",
+    "definition": "Que fala demais.",
+    "examples": [
+      "Minha sobrinha é muito tagarela.",
+      "O professor pediu silêncio para os tagarelas.",
+      "Ele é um tagarela, não para de falar."
+    ],
+    "spanish": {
+      "word": "parlanchín",
+      "definition": "Que habla demasiado."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3765,
+    "word": "vaidoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/vajˈdozu/",
+    "definition": "Que cuida muito da aparência.",
+    "examples": [
+      "Ela é vaidosa, não sai sem maquiagem.",
+      "Ele é vaidoso com o cabelo.",
+      "Meu avô é muito vaidoso."
+    ],
+    "spanish": {
+      "word": "vanidoso",
+      "definition": "Que cuida mucho de su apariencia."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3766,
+    "word": "brega",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈbɾɛgɐ/",
+    "definition": "De mau gosto; fora de moda.",
+    "examples": [
+      "Essa camisa é muito brega.",
+      "Adoro música brega.",
+      "A decoração da festa ficou brega."
+    ],
+    "spanish": {
+      "word": "cursi",
+      "definition": "De mal gusto; pasado de moda."
+    },
+    "synonyms": [
+      "cafona"
+    ]
+  },
+  {
+    "rank": 3767,
+    "word": "cafona",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/kaˈfonɐ/",
+    "definition": "De mau gosto; sem elegância.",
+    "examples": [
+      "Esse vestido é cafona.",
+      "A sala tem uma decoração cafona.",
+      "Ele usa uns óculos cafonas."
+    ],
+    "spanish": {
+      "word": "cursi",
+      "definition": "De mal gusto; sin elegancia."
+    },
+    "synonyms": [
+      "brega"
+    ]
+  },
+  {
+    "rank": 3768,
+    "word": "rabugento",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʁabuˈʒẽtu/",
+    "definition": "Que reclama de tudo e está sempre de mau humor.",
+    "examples": [
+      "Meu avô é rabugento.",
+      "Ela acorda rabugenta.",
+      "Que velhinho rabugento!"
+    ],
+    "spanish": {
+      "word": "gruñón",
+      "definition": "Que se queja de todo y siempre está de mal humor."
+    },
+    "synonyms": [
+      "mal-humorado"
+    ]
+  },
+  {
+    "rank": 3769,
+    "word": "nublado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/nuˈbladu/",
+    "definition": "Com o céu cheio de nuvens.",
+    "examples": [
+      "Hoje o dia está nublado.",
+      "O céu ficou nublado de repente.",
+      "Amanhã vai ficar nublado."
+    ],
+    "spanish": {
+      "word": "nublado",
+      "definition": "Con el cielo lleno de nubes."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3770,
+    "word": "abafado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/abaˈfadu/",
+    "definition": "Quente e com pouco ar.",
+    "examples": [
+      "O dia está abafado.",
+      "Esse quarto é muito abafado.",
+      "Depois da chuva, ficou mais abafado."
+    ],
+    "spanish": {
+      "word": "bochornoso",
+      "definition": "Caliente y con poco aire."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3771,
+    "word": "frouxo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈfɾowʃu/",
+    "definition": "Mal apertado; sem coragem.",
+    "examples": [
+      "O parafuso está frouxo.",
+      "Esse nó ficou frouxo.",
+      "Ele é frouxo e não enfrenta o chefe."
+    ],
+    "spanish": {
+      "word": "flojo",
+      "definition": "Mal apretado; sin coraje."
+    },
+    "synonyms": [
+      "solto"
+    ]
+  },
+  {
+    "rank": 3772,
+    "word": "folgado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/fowˈgadu/",
+    "definition": "Largo no corpo; que abusa dos outros.",
+    "examples": [
+      "Gosto de roupa folgada.",
+      "Seu irmão é muito folgado.",
+      "A camisa ficou folgada."
+    ],
+    "spanish": {
+      "word": "holgado; abusivo",
+      "definition": "Ancho en el cuerpo; que abusa de los demás."
+    },
+    "synonyms": [
+      "largo"
+    ]
+  },
+  {
+    "rank": 3773,
+    "word": "espaçoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/espaˈsozu/",
+    "definition": "Com muito espaço.",
+    "examples": [
+      "O apartamento é espaçoso.",
+      "Esse carro é bem espaçoso.",
+      "Temos uma cozinha espaçosa."
+    ],
+    "spanish": {
+      "word": "espacioso",
+      "definition": "Con mucho espacio."
+    },
+    "synonyms": [
+      "amplo"
+    ]
+  },
+  {
+    "rank": 3774,
+    "word": "sonolento",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/sonoˈlẽtu/",
+    "definition": "Com sono.",
+    "examples": [
+      "Fiquei sonolento depois do almoço.",
+      "Esse remédio me deixa sonolenta.",
+      "Ele chegou sonolento ao trabalho."
+    ],
+    "spanish": {
+      "word": "somnoliento",
+      "definition": "Con sueño."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3775,
+    "word": "indeciso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩdeˈsizu/",
+    "definition": "Que tem dificuldade para decidir.",
+    "examples": [
+      "Estou indeciso entre os dois.",
+      "Ela é muito indecisa para comprar roupa.",
+      "Muitos eleitores ainda estão indecisos."
+    ],
+    "spanish": {
+      "word": "indeciso",
+      "definition": "Que tiene dificultad para decidir."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3776,
+    "word": "desconfiado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/deskõfiˈadu/",
+    "definition": "Que não acredita fácil nos outros.",
+    "examples": [
+      "Meu pai é um homem desconfiado.",
+      "Ela olhou para mim desconfiada.",
+      "O cachorro ficou desconfiado da visita."
+    ],
+    "spanish": {
+      "word": "desconfiado",
+      "definition": "Que no cree fácilmente en los demás."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3777,
+    "word": "prestativo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/pɾestaˈtʃivu/",
+    "definition": "Que gosta de ajudar.",
+    "examples": [
+      "O vizinho é muito prestativo.",
+      "Ela é uma funcionária prestativa.",
+      "Os brasileiros são bem prestativos."
+    ],
+    "spanish": {
+      "word": "servicial",
+      "definition": "Que le gusta ayudar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3778,
+    "word": "desanimado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/dezaniˈmadu/",
+    "definition": "Sem vontade ou energia.",
+    "examples": [
+      "Estou desanimado com o trabalho.",
+      "Ela voltou da prova desanimada.",
+      "O time parece desanimado."
+    ],
+    "spanish": {
+      "word": "desanimado",
+      "definition": "Sin ganas ni energía."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3779,
+    "word": "emocionado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/emosioˈnadu/",
+    "definition": "Tocado por um sentimento forte.",
+    "examples": [
+      "Fiquei emocionado com a homenagem.",
+      "A noiva chegou emocionada.",
+      "Estou muito emocionado de estar aqui."
+    ],
+    "spanish": {
+      "word": "emocionado",
+      "definition": "Tocado por un sentimiento fuerte."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3780,
+    "word": "entusiasmado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ẽtuziazˈmadu/",
+    "definition": "Muito animado com algo.",
+    "examples": [
+      "Ele está entusiasmado com o novo emprego.",
+      "As crianças ficaram entusiasmadas com a viagem.",
+      "Ela falou entusiasmada sobre o projeto."
+    ],
+    "spanish": {
+      "word": "entusiasmado",
+      "definition": "Muy animado con algo."
+    },
+    "synonyms": [
+      "animado"
+    ]
+  },
+  {
+    "rank": 3781,
+    "word": "enjoado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ẽʒoˈadu/",
+    "definition": "Com vontade de vomitar; cansado de algo.",
+    "examples": [
+      "Fiquei enjoado no barco.",
+      "Ela está enjoada desde cedo.",
+      "Estou enjoado dessa comida."
+    ],
+    "spanish": {
+      "word": "mareado; harto",
+      "definition": "Con ganas de vomitar; cansado de algo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3782,
+    "word": "ciumento",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/siuˈmẽtu/",
+    "definition": "Que sente ciúme.",
+    "examples": [
+      "Meu namorado é muito ciumento.",
+      "Ela é ciumenta com as amigas.",
+      "Não seja tão ciumento!"
+    ],
+    "spanish": {
+      "word": "celoso",
+      "definition": "Que siente celos."
+    },
+    "synonyms": []
+  }
+]

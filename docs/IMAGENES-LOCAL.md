@@ -34,11 +34,11 @@ Por cada palabra:
 
 1. Salta las que ya tienen imagen.
 2. Escribe la escena con la misma lógica de la app (`wordImagePrompt`), así que el estilo combina con las imágenes actuales.
-3. Genera un PNG de 768 × 768 en 4 pasos, en `~/.cache/glota-images/out/`.
+3. Genera un PNG temporal de 768 × 768 en 4 pasos.
 4. Lo convierte a WebP con calidad 80.
 5. Lo sube a la colección `word_images` y guarda la URL en `word.img`.
 
-El PNG es solo un paso intermedio. La app usa el WebP.
+El PNG es solo un paso intermedio y se borra enseguida. La app usa el WebP.
 
 ## Dónde se guardan
 
@@ -81,6 +81,5 @@ FLUX schnell es de 2024. mflux soporta modelos más nuevos. Calidad y tiempo sin
 - **Escenas complejas:** en `stern` el niño quedó sin cuerpo detrás del escritorio. Idea: pedir un solo personaje, con el cuerpo visible y sin objetos tapándolo. Fallaron 2 de 40 imágenes.
 - Cargar el modelo una sola vez para todas las imágenes, en vez de una por imagen.
 - Saltar palabras sin imagen útil (`que`, `mas`, `sobre`).
-- Borrar los PNG al terminar, si se generan miles.
 - El botón "Otra imagen" del admin sigue usando fal.ai y Cloudinary.
 - Las imágenes solo están en el VPS: incluir la carpeta de PocketBase en sus backups.

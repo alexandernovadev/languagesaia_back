@@ -1,0 +1,1940 @@
+[
+  {
+    "rank": 3582,
+    "word": "abacaxi",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/abakaˈʃi/",
+    "definition": "Fruta amarela, doce e ácida, com casca dura.",
+    "examples": [
+      "Comprei um abacaxi na feira.",
+      "O suco de abacaxi está gelado.",
+      "Esse abacaxi está muito doce."
+    ],
+    "spanish": {
+      "word": "piña",
+      "definition": "Fruta amarilla, dulce y ácida, con cáscara dura."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3583,
+    "word": "alface",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/awˈfasi/",
+    "definition": "Verdura de folhas verdes usada em saladas.",
+    "examples": [
+      "Lave bem a alface.",
+      "Quero um sanduíche com alface e tomate.",
+      "A alface da horta está bonita."
+    ],
+    "spanish": {
+      "word": "lechuga",
+      "definition": "Verdura de hojas verdes usada en ensaladas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3584,
+    "word": "melancia",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/melɐ̃ˈsiɐ/",
+    "definition": "Fruta grande, verde por fora e vermelha por dentro.",
+    "examples": [
+      "No verão, adoro comer melancia.",
+      "Essa melancia pesa oito quilos.",
+      "Cortei a melancia em fatias."
+    ],
+    "spanish": {
+      "word": "sandía",
+      "definition": "Fruta grande, verde por fuera y roja por dentro."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3585,
+    "word": "melão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/meˈlɐ̃w̃/",
+    "definition": "Fruta grande, doce, de polpa clara.",
+    "examples": [
+      "O melão está maduro.",
+      "Comi melão no café da manhã.",
+      "Tire as sementes do melão."
+    ],
+    "spanish": {
+      "word": "melón",
+      "definition": "Fruta grande y dulce, de pulpa clara."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3586,
+    "word": "pepino",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/peˈpinu/",
+    "definition": "Legume verde e comprido, comido em saladas.",
+    "examples": [
+      "Coloquei pepino na salada.",
+      "Ela colocou rodelas de pepino nos olhos.",
+      "Não gosto de pepino no sanduíche."
+    ],
+    "spanish": {
+      "word": "pepino",
+      "definition": "Hortaliza verde y larga que se come en ensaladas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3587,
+    "word": "pera",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈpeɾɐ/",
+    "definition": "Fruta doce, verde ou amarela, mais larga embaixo.",
+    "examples": [
+      "Quer uma pera ou uma maçã?",
+      "A pera ainda está dura.",
+      "Fiz um doce de pera."
+    ],
+    "spanish": {
+      "word": "pera",
+      "definition": "Fruta dulce, verde o amarilla, más ancha abajo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3588,
+    "word": "pêssego",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈpesegu/",
+    "definition": "Fruta redonda, de casca macia e caroço grande.",
+    "examples": [
+      "Abri uma lata de pêssego em calda.",
+      "O pêssego está suculento.",
+      "Fiz um bolo de pêssego."
+    ],
+    "spanish": {
+      "word": "durazno",
+      "definition": "Fruta redonda, de cáscara suave y hueso grande."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3589,
+    "word": "ameixa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/aˈmejʃɐ/",
+    "definition": "Fruta pequena e roxa ou vermelha, com caroço.",
+    "examples": [
+      "Comprei ameixas na feira.",
+      "Comi ameixa seca no lanche.",
+      "O pudim vem com calda de ameixa."
+    ],
+    "spanish": {
+      "word": "ciruela",
+      "definition": "Fruta pequeña y morada o roja, con hueso."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3590,
+    "word": "vinagre",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/viˈnagɾi/",
+    "definition": "Líquido ácido usado para temperar comida.",
+    "examples": [
+      "Tempere a salada com azeite e vinagre.",
+      "O vinagre também serve para limpar.",
+      "Esse vinagre é de maçã."
+    ],
+    "spanish": {
+      "word": "vinagre",
+      "definition": "Líquido ácido usado para sazonar comida."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3591,
+    "word": "azeite",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/aˈzejtʃi/",
+    "definition": "Óleo feito de azeitonas.",
+    "examples": [
+      "Coloque um pouco de azeite no peixe.",
+      "Comprei azeite de oliva.",
+      "O azeite de dendê é típico da Bahia."
+    ],
+    "spanish": {
+      "word": "aceite de oliva",
+      "definition": "Aceite hecho de aceitunas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3592,
+    "word": "gengibre",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʒẽˈʒibɾi/",
+    "definition": "Raiz de gosto forte usada em chás e comidas.",
+    "examples": [
+      "Fiz um chá de gengibre com limão.",
+      "O gengibre é bom para a garganta.",
+      "Rale um pouco de gengibre no molho."
+    ],
+    "spanish": {
+      "word": "jengibre",
+      "definition": "Raíz de sabor fuerte usada en tés y comidas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3593,
+    "word": "coentro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/koˈẽtɾu/",
+    "definition": "Erva verde muito usada no Nordeste e em peixes.",
+    "examples": [
+      "A moqueca leva coentro.",
+      "Tem gente que odeia coentro.",
+      "Pique o coentro bem fino."
+    ],
+    "spanish": {
+      "word": "cilantro",
+      "definition": "Hierba verde muy usada en el Nordeste y en pescados."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3594,
+    "word": "couve",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈkowvi/",
+    "definition": "Verdura de folhas verde-escuras.",
+    "examples": [
+      "A feijoada vem com couve.",
+      "Fiz um suco verde com couve.",
+      "Corte a couve bem fininha."
+    ],
+    "spanish": {
+      "word": "col",
+      "definition": "Verdura de hojas verde oscuro."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3595,
+    "word": "ervilha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/eʁˈviʎɐ/",
+    "definition": "Pequeno grão verde e redondo.",
+    "examples": [
+      "Abri uma lata de ervilha.",
+      "A sopa de ervilha está pronta.",
+      "O arroz leva milho e ervilha."
+    ],
+    "spanish": {
+      "word": "guisante",
+      "definition": "Pequeño grano verde y redondo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3596,
+    "word": "brócolis",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈbɾɔkolis/",
+    "definition": "Verdura verde que parece uma pequena árvore.",
+    "examples": [
+      "Meu filho não come brócolis.",
+      "Cozinhe o brócolis no vapor.",
+      "Fiz arroz com brócolis."
+    ],
+    "spanish": {
+      "word": "brócoli",
+      "definition": "Verdura verde que parece un árbol pequeño."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3597,
+    "word": "beterraba",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/beteˈʁabɐ/",
+    "definition": "Raiz roxa e doce.",
+    "examples": [
+      "Ralei beterraba para a salada.",
+      "O suco de beterraba é muito forte.",
+      "A beterraba mancha as mãos."
+    ],
+    "spanish": {
+      "word": "remolacha",
+      "definition": "Raíz morada y dulce."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3598,
+    "word": "abacate",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/abaˈkatʃi/",
+    "definition": "Fruta verde de polpa macia e caroço grande.",
+    "examples": [
+      "No Brasil, comemos abacate com açúcar.",
+      "Fiz uma vitamina de abacate.",
+      "O abacate ainda não está maduro."
+    ],
+    "spanish": {
+      "word": "aguacate",
+      "definition": "Fruta verde de pulpa suave y hueso grande."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3599,
+    "word": "azeitona",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/azejˈtonɐ/",
+    "definition": "Fruto pequeno, verde ou preto, de onde vem o azeite.",
+    "examples": [
+      "A pizza vem com azeitona.",
+      "Tirei o caroço da azeitona.",
+      "Prefiro azeitona preta."
+    ],
+    "spanish": {
+      "word": "aceituna",
+      "definition": "Fruto pequeño, verde o negro, del que sale el aceite."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3600,
+    "word": "pimentão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pimẽˈtɐ̃w̃/",
+    "definition": "Legume oco, verde, vermelho ou amarelo.",
+    "examples": [
+      "Refoguei cebola e pimentão.",
+      "O pimentão vermelho é mais doce.",
+      "A moqueca leva pimentão e tomate."
+    ],
+    "spanish": {
+      "word": "pimentón",
+      "definition": "Hortaliza hueca, verde, roja o amarilla."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3601,
+    "word": "repolho",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁeˈpoʎu/",
+    "definition": "Verdura redonda de folhas bem fechadas.",
+    "examples": [
+      "Fiz uma salada de repolho.",
+      "Corte o repolho em tiras.",
+      "O repolho roxo deixa o prato bonito."
+    ],
+    "spanish": {
+      "word": "repollo",
+      "definition": "Verdura redonda de hojas bien cerradas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3602,
+    "word": "salsa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈsawsɐ/",
+    "definition": "Erva verde usada para temperar comida.",
+    "examples": [
+      "Pique a salsa e jogue por cima.",
+      "Comprei um maço de salsa.",
+      "A sopa leva salsa e cebolinha."
+    ],
+    "spanish": {
+      "word": "perejil",
+      "definition": "Hierba verde usada para sazonar comida."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3603,
+    "word": "figo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈfigu/",
+    "definition": "Fruta pequena e doce com muitas sementes dentro.",
+    "examples": [
+      "Comi figo com queijo.",
+      "Minha avó faz doce de figo.",
+      "O figo está maduro."
+    ],
+    "spanish": {
+      "word": "higo",
+      "definition": "Fruta pequeña y dulce con muchas semillas adentro."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3604,
+    "word": "tangerina",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/tɐ̃ʒeˈɾinɐ/",
+    "definition": "Fruta cítrica pequena, fácil de descascar.",
+    "examples": [
+      "Comprei um quilo de tangerina.",
+      "Tomei suco de tangerina.",
+      "A tangerina está azeda."
+    ],
+    "spanish": {
+      "word": "mandarina",
+      "definition": "Fruta cítrica pequeña, fácil de pelar."
+    },
+    "synonyms": [
+      "mexerica"
+    ]
+  },
+  {
+    "rank": 3605,
+    "word": "caju",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kaˈʒu/",
+    "definition": "Fruta tropical com uma castanha na ponta.",
+    "examples": [
+      "O suco de caju é típico do Nordeste.",
+      "Adoro castanha de caju.",
+      "O caju deixa a boca seca."
+    ],
+    "spanish": {
+      "word": "marañón",
+      "definition": "Fruta tropical con una nuez en la punta."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3606,
+    "word": "maracujá",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/maɾakuˈʒa/",
+    "definition": "Fruta azeda de polpa amarela e muitas sementes.",
+    "examples": [
+      "O suco de maracujá acalma.",
+      "Fiz uma mousse de maracujá.",
+      "O maracujá está bem azedo."
+    ],
+    "spanish": {
+      "word": "maracuyá",
+      "definition": "Fruta ácida de pulpa amarilla y muchas semillas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3607,
+    "word": "mandioca",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mɐ̃dʒiˈɔkɐ/",
+    "definition": "Raiz branca muito usada no Brasil.",
+    "examples": [
+      "Pedi mandioca frita de entrada.",
+      "A farinha é feita de mandioca.",
+      "Cozinhei a mandioca na panela de pressão."
+    ],
+    "spanish": {
+      "word": "yuca",
+      "definition": "Raíz blanca muy usada en Brasil."
+    },
+    "synonyms": [
+      "aipim"
+    ]
+  },
+  {
+    "rank": 3608,
+    "word": "quiabo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kiˈabu/",
+    "definition": "Legume verde e comprido, que solta uma baba.",
+    "examples": [
+      "Mineiro adora frango com quiabo.",
+      "O quiabo solta uma baba quando cozinha.",
+      "Comprei quiabo fresco na feira."
+    ],
+    "spanish": {
+      "word": "okra",
+      "definition": "Hortaliza verde y larga que suelta una baba."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3609,
+    "word": "chuchu",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʃuˈʃu/",
+    "definition": "Legume verde-claro de gosto suave.",
+    "examples": [
+      "Fiz uma salada de chuchu.",
+      "O chuchu quase não tem gosto.",
+      "Coloquei chuchu na sopa."
+    ],
+    "spanish": {
+      "word": "chayote",
+      "definition": "Hortaliza verde claro de sabor suave."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3610,
+    "word": "rúcula",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈʁukulɐ/",
+    "definition": "Verdura de folhas verdes e gosto forte.",
+    "examples": [
+      "Pedi uma pizza de rúcula.",
+      "A salada leva rúcula e tomate seco.",
+      "Gosto do sabor forte da rúcula."
+    ],
+    "spanish": {
+      "word": "rúcula",
+      "definition": "Verdura de hojas verdes y sabor fuerte."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3611,
+    "word": "lentilha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/lẽˈtʃiʎɐ/",
+    "definition": "Grão pequeno e redondo, parecido com o feijão.",
+    "examples": [
+      "No Ano-Novo, comemos lentilha.",
+      "Fiz uma sopa de lentilha.",
+      "A lentilha cozinha rápido."
+    ],
+    "spanish": {
+      "word": "lenteja",
+      "definition": "Grano pequeño y redondo, parecido al frijol."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3612,
+    "word": "farofa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/faˈɾɔfɐ/",
+    "definition": "Farinha de mandioca tostada com manteiga e temperos.",
+    "examples": [
+      "O churrasco não fica bom sem farofa.",
+      "Minha mãe faz uma farofa de banana.",
+      "Coloquei farofa no feijão."
+    ],
+    "spanish": {
+      "word": "farofa",
+      "definition": "Harina de yuca tostada con mantequilla y condimentos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3613,
+    "word": "feijoada",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/fejʒuˈadɐ/",
+    "definition": "Prato brasileiro de feijão preto com carnes.",
+    "examples": [
+      "Hoje é dia de feijoada.",
+      "Comemos feijoada no sábado.",
+      "A feijoada vem com arroz, couve e laranja."
+    ],
+    "spanish": {
+      "word": "feijoada",
+      "definition": "Plato brasileño de frijol negro con carnes."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3614,
+    "word": "goiaba",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gojˈabɐ/",
+    "definition": "Fruta tropical de polpa rosa ou branca.",
+    "examples": [
+      "Comprei uma goiaba bem madura.",
+      "O doce de goiaba se chama goiabada.",
+      "Tem uma goiaba no quintal."
+    ],
+    "spanish": {
+      "word": "guayaba",
+      "definition": "Fruta tropical de pulpa rosada o blanca."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3615,
+    "word": "guaraná",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gwaɾaˈna/",
+    "definition": "Fruto da Amazônia usado em refrigerantes.",
+    "examples": [
+      "Quero um guaraná bem gelado.",
+      "O guaraná dá energia.",
+      "Pedi uma pizza e um guaraná."
+    ],
+    "spanish": {
+      "word": "guaraná",
+      "definition": "Fruto de la Amazonía usado en refrescos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3616,
+    "word": "jabuticaba",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʒabutʃiˈkabɐ/",
+    "definition": "Fruta preta e doce que nasce no tronco da árvore.",
+    "examples": [
+      "A jabuticaba é uma fruta brasileira.",
+      "Minha avó tem um pé de jabuticaba.",
+      "Fizemos geleia de jabuticaba."
+    ],
+    "spanish": {
+      "word": "jabuticaba",
+      "definition": "Fruta negra y dulce que nace en el tronco del árbol."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3617,
+    "word": "moqueca",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/moˈkɛkɐ/",
+    "definition": "Prato brasileiro de peixe com leite de coco e temperos.",
+    "examples": [
+      "A moqueca baiana leva azeite de dendê.",
+      "Pedimos uma moqueca de camarão.",
+      "A moqueca capixaba é feita na panela de barro."
+    ],
+    "spanish": {
+      "word": "moqueca",
+      "definition": "Plato brasileño de pescado con leche de coco y condimentos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3618,
+    "word": "pamonha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/paˈmõɲɐ/",
+    "definition": "Doce ou salgado de milho cozido na palha.",
+    "examples": [
+      "Olha o carro da pamonha na rua!",
+      "Comi pamonha na festa junina.",
+      "A pamonha de Goiás é famosa."
+    ],
+    "spanish": {
+      "word": "pamonha",
+      "definition": "Dulce o salado de maíz cocido en la hoja."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3619,
+    "word": "açaí",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/asaˈi/",
+    "definition": "Fruta roxa da Amazônia, servida gelada.",
+    "examples": [
+      "Vamos tomar um açaí na praia?",
+      "Pedi açaí com banana.",
+      "No Pará, o açaí é comido com peixe."
+    ],
+    "spanish": {
+      "word": "azaí",
+      "definition": "Fruta morada de la Amazonía, servida fría."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3620,
+    "word": "tapioca",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/tapiˈɔkɐ/",
+    "definition": "Massa de mandioca, parecida com uma panqueca.",
+    "examples": [
+      "Comi uma tapioca com queijo.",
+      "A tapioca é boa no café da manhã.",
+      "Ela vende tapioca na feira."
+    ],
+    "spanish": {
+      "word": "tapioca",
+      "definition": "Masa de yuca, parecida a un panqueque."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3621,
+    "word": "cuscuz",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kusˈkus/",
+    "definition": "Prato feito de farinha de milho cozida no vapor.",
+    "examples": [
+      "No Nordeste, o cuscuz é comum no café da manhã.",
+      "Comi cuscuz com ovo.",
+      "O cuscuz paulista leva sardinha."
+    ],
+    "spanish": {
+      "word": "cuscús",
+      "definition": "Plato de harina de maíz cocida al vapor."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3622,
+    "word": "coxinha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/koˈʃiɲɐ/",
+    "definition": "Salgado de massa com frango desfiado dentro.",
+    "examples": [
+      "Pedi uma coxinha e um suco.",
+      "A coxinha estava quentinha.",
+      "A festa teve coxinha e brigadeiro."
+    ],
+    "spanish": {
+      "word": "coxinha",
+      "definition": "Bocadillo de masa rellena de pollo desmenuzado."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3623,
+    "word": "paçoca",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/paˈsɔkɐ/",
+    "definition": "Doce feito de amendoim, açúcar e farinha.",
+    "examples": [
+      "A paçoca é um doce de festa junina.",
+      "Comprei uma paçoca no mercado.",
+      "A paçoca esfarela na mão."
+    ],
+    "spanish": {
+      "word": "paçoca",
+      "definition": "Dulce hecho de maní, azúcar y harina."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3624,
+    "word": "acarajé",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/akaɾaˈʒɛ/",
+    "definition": "Bolinho baiano de feijão frito no dendê.",
+    "examples": [
+      "Comi acarajé em Salvador.",
+      "A baiana vende acarajé na rua.",
+      "O acarajé vem com vatapá e camarão."
+    ],
+    "spanish": {
+      "word": "acarajé",
+      "definition": "Bollo bahiano de frijol frito en aceite de palma."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3625,
+    "word": "pastel",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pasˈtɛw/",
+    "definition": "Massa fina frita com recheio.",
+    "examples": [
+      "Quero um pastel de queijo.",
+      "Na feira tem pastel e caldo de cana.",
+      "Esse pastel está crocante."
+    ],
+    "spanish": {
+      "word": "empanada frita",
+      "definition": "Masa fina frita con relleno."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3626,
+    "word": "linguiça",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/lĩˈgwisɐ/",
+    "definition": "Carne moída temperada em forma de tubo.",
+    "examples": [
+      "Colocamos linguiça na churrasqueira.",
+      "A linguiça calabresa é bem temperada.",
+      "Fiz feijão com linguiça."
+    ],
+    "spanish": {
+      "word": "longaniza",
+      "definition": "Carne molida y sazonada en forma de tubo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3627,
+    "word": "caldo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈkawdu/",
+    "definition": "Líquido quente feito com carne ou legumes.",
+    "examples": [
+      "Tomei um caldo de feijão.",
+      "No inverno, adoro caldo verde.",
+      "Coloque o caldo na panela."
+    ],
+    "spanish": {
+      "word": "caldo",
+      "definition": "Líquido caliente hecho con carne o verduras."
+    },
+    "synonyms": [
+      "sopa"
+    ]
+  },
+  {
+    "rank": 3628,
+    "word": "mingau",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mĩˈgaw/",
+    "definition": "Comida cremosa de leite com aveia ou farinha.",
+    "examples": [
+      "Minha mãe fazia mingau de aveia.",
+      "O bebê comeu todo o mingau.",
+      "O mingau está muito quente."
+    ],
+    "spanish": {
+      "word": "papilla",
+      "definition": "Comida cremosa de leche con avena o harina."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3629,
+    "word": "bombom",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/bõˈbõ/",
+    "definition": "Pequeno doce de chocolate.",
+    "examples": [
+      "Ganhei uma caixa de bombom.",
+      "Esse bombom tem recheio de morango.",
+      "Ela comeu três bombons."
+    ],
+    "spanish": {
+      "word": "bombón",
+      "definition": "Pequeño dulce de chocolate."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3630,
+    "word": "bolacha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/boˈlaʃɐ/",
+    "definition": "Massa seca e crocante, doce ou salgada.",
+    "examples": [
+      "Comi bolacha com café.",
+      "O pacote de bolacha acabou.",
+      "Ela guarda bolacha na lata."
+    ],
+    "spanish": {
+      "word": "galleta",
+      "definition": "Masa seca y crujiente, dulce o salada."
+    },
+    "synonyms": [
+      "biscoito"
+    ]
+  },
+  {
+    "rank": 3631,
+    "word": "brigadeiro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/bɾigaˈdejɾu/",
+    "definition": "Doce brasileiro de chocolate e leite condensado.",
+    "examples": [
+      "Não existe festa sem brigadeiro.",
+      "Fiz brigadeiro de panela.",
+      "Comi três brigadeiros no aniversário."
+    ],
+    "spanish": {
+      "word": "brigadeiro",
+      "definition": "Dulce brasileño de chocolate y leche condensada."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3632,
+    "word": "cocada",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/koˈkadɐ/",
+    "definition": "Doce feito de coco e açúcar.",
+    "examples": [
+      "Comprei uma cocada na praia.",
+      "A cocada branca é a minha favorita.",
+      "Essa cocada é bem doce."
+    ],
+    "spanish": {
+      "word": "cocada",
+      "definition": "Dulce hecho de coco y azúcar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3633,
+    "word": "empada",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ẽˈpadɐ/",
+    "definition": "Pequena torta salgada com recheio.",
+    "examples": [
+      "Comi uma empada de frango.",
+      "A massa da empada derrete na boca.",
+      "Pedi duas empadas de palmito."
+    ],
+    "spanish": {
+      "word": "empanada",
+      "definition": "Pequeña torta salada con relleno."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3634,
+    "word": "vitamina",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/vitaˈminɐ/",
+    "definition": "Substância boa para a saúde; bebida de leite batido com frutas.",
+    "examples": [
+      "Tomei uma vitamina de banana.",
+      "A laranja tem vitamina C.",
+      "O médico mandou tomar vitamina D."
+    ],
+    "spanish": {
+      "word": "vitamina; batido",
+      "definition": "Sustancia buena para la salud; bebida de leche batida con frutas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3635,
+    "word": "tempero",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/tẽˈpeɾu/",
+    "definition": "O que se coloca na comida para dar sabor.",
+    "examples": [
+      "Esse frango precisa de tempero.",
+      "Alho é o meu tempero favorito.",
+      "Sinto falta do tempero da minha mãe."
+    ],
+    "spanish": {
+      "word": "condimento",
+      "definition": "Lo que se pone en la comida para dar sabor."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3636,
+    "word": "cozido",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/koˈzidu/",
+    "definition": "Preparado em água quente; prato de carne com legumes.",
+    "examples": [
+      "Prefiro ovo cozido.",
+      "O cozido da minha tia é famoso.",
+      "A batata já está cozida."
+    ],
+    "spanish": {
+      "word": "cocido",
+      "definition": "Preparado en agua caliente; plato de carne con verduras."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3637,
+    "word": "assado",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/aˈsadu/",
+    "definition": "Preparado no forno; carne feita assim.",
+    "examples": [
+      "Comemos frango assado no domingo.",
+      "O assado de costela ficou ótimo.",
+      "Prefiro batata assada."
+    ],
+    "spanish": {
+      "word": "asado",
+      "definition": "Preparado en el horno; carne hecha así."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3638,
+    "word": "atum",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/aˈtũ/",
+    "definition": "Peixe grande do mar, muito vendido em lata.",
+    "examples": [
+      "Fiz um sanduíche de atum.",
+      "Abri uma lata de atum.",
+      "O atum é rico em proteína."
+    ],
+    "spanish": {
+      "word": "atún",
+      "definition": "Pez grande del mar, muy vendido en lata."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3639,
+    "word": "trigo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈtɾigu/",
+    "definition": "Cereal usado para fazer farinha e pão.",
+    "examples": [
+      "O pão é feito de farinha de trigo.",
+      "O Sul do Brasil planta muito trigo.",
+      "Ela não pode comer trigo."
+    ],
+    "spanish": {
+      "word": "trigo",
+      "definition": "Cereal usado para hacer harina y pan."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3640,
+    "word": "castanha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kasˈtɐ̃ɲɐ/",
+    "definition": "Fruto seco de casca dura.",
+    "examples": [
+      "A castanha-do-pará vem da Amazônia.",
+      "Comi um punhado de castanhas.",
+      "Coloquei castanha de caju na salada."
+    ],
+    "spanish": {
+      "word": "castaña",
+      "definition": "Fruto seco de cáscara dura."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3641,
+    "word": "fermento",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/feʁˈmẽtu/",
+    "definition": "Pó que faz o bolo e o pão crescerem.",
+    "examples": [
+      "Faltou fermento no bolo.",
+      "Coloque uma colher de fermento na massa.",
+      "Comprei fermento para fazer pão."
+    ],
+    "spanish": {
+      "word": "levadura",
+      "definition": "Polvo que hace crecer la torta y el pan."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3642,
+    "word": "ventilador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/vẽtʃilaˈdoʁ/",
+    "definition": "Aparelho elétrico que faz vento.",
+    "examples": [
+      "Ligue o ventilador, está calor.",
+      "Durmo com o ventilador ligado.",
+      "O ventilador de teto quebrou."
+    ],
+    "spanish": {
+      "word": "ventilador",
+      "definition": "Aparato eléctrico que hace viento."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3643,
+    "word": "torneira",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/toʁˈnejɾɐ/",
+    "definition": "Peça que abre e fecha a saída de água.",
+    "examples": [
+      "Feche a torneira, por favor.",
+      "A torneira da cozinha está pingando.",
+      "Não beba água da torneira aqui."
+    ],
+    "spanish": {
+      "word": "grifo",
+      "definition": "Pieza que abre y cierra la salida de agua."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3644,
+    "word": "almofada",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/awmoˈfadɐ/",
+    "definition": "Saco macio usado para apoiar o corpo.",
+    "examples": [
+      "Comprei almofadas para o sofá.",
+      "Coloque uma almofada nas costas.",
+      "O gato dorme na almofada."
+    ],
+    "spanish": {
+      "word": "cojín",
+      "definition": "Saco suave usado para apoyar el cuerpo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3645,
+    "word": "aspirador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/aspiɾaˈdoʁ/",
+    "definition": "Máquina que limpa o chão puxando a sujeira.",
+    "examples": [
+      "Passei o aspirador na sala.",
+      "O aspirador de pó quebrou.",
+      "Esse aspirador faz muito barulho."
+    ],
+    "spanish": {
+      "word": "aspiradora",
+      "definition": "Máquina que limpia el piso jalando la suciedad."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3646,
+    "word": "maçaneta",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/masaˈnetɐ/",
+    "definition": "Peça que se gira para abrir a porta.",
+    "examples": [
+      "A maçaneta da porta está solta.",
+      "Ele girou a maçaneta devagar.",
+      "Limpe as maçanetas da casa."
+    ],
+    "spanish": {
+      "word": "manija",
+      "definition": "Pieza que se gira para abrir la puerta."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3647,
+    "word": "chaleira",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʃaˈlejɾɐ/",
+    "definition": "Recipiente para ferver água.",
+    "examples": [
+      "A chaleira está no fogão.",
+      "Coloquei água na chaleira para o chá.",
+      "Essa chaleira é elétrica."
+    ],
+    "spanish": {
+      "word": "tetera",
+      "definition": "Recipiente para hervir agua."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3648,
+    "word": "frigideira",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/fɾiʒiˈdejɾɐ/",
+    "definition": "Panela rasa com cabo, usada para fritar.",
+    "examples": [
+      "Frite o ovo na frigideira.",
+      "Essa frigideira não gruda.",
+      "Lave a frigideira depois do almoço."
+    ],
+    "spanish": {
+      "word": "sartén",
+      "definition": "Olla plana con mango, usada para freír."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3649,
+    "word": "liquidificador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/likwidʒifikaˈdoʁ/",
+    "definition": "Aparelho que bate e mistura alimentos.",
+    "examples": [
+      "Bata tudo no liquidificador.",
+      "Fiz o suco no liquidificador.",
+      "O copo do liquidificador quebrou."
+    ],
+    "spanish": {
+      "word": "licuadora",
+      "definition": "Aparato que bate y mezcla alimentos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3650,
+    "word": "batedeira",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/bateˈdejɾɐ/",
+    "definition": "Aparelho usado para bater massas e cremes.",
+    "examples": [
+      "Bata os ovos na batedeira.",
+      "Ganhei uma batedeira de casamento.",
+      "A batedeira facilita o preparo do bolo."
+    ],
+    "spanish": {
+      "word": "batidora",
+      "definition": "Aparato usado para batir masas y cremas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3651,
+    "word": "cabide",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kaˈbidʒi/",
+    "definition": "Objeto usado para pendurar roupa.",
+    "examples": [
+      "Coloque a camisa no cabide.",
+      "Faltam cabides no armário.",
+      "Esse cabide de madeira é forte."
+    ],
+    "spanish": {
+      "word": "percha",
+      "definition": "Objeto usado para colgar ropa."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3652,
+    "word": "varal",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/vaˈɾaw/",
+    "definition": "Corda ou arame onde se seca a roupa.",
+    "examples": [
+      "A roupa está no varal.",
+      "Choveu e o varal ficou molhado.",
+      "Pendurei a toalha no varal."
+    ],
+    "spanish": {
+      "word": "tendedero",
+      "definition": "Cuerda o alambre donde se seca la ropa."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3653,
+    "word": "rodo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈʁodu/",
+    "definition": "Objeto com cabo usado para puxar água do chão.",
+    "examples": [
+      "Passe o rodo no banheiro.",
+      "O rodo está atrás da porta.",
+      "Limpei o chão com rodo e pano."
+    ],
+    "spanish": {
+      "word": "escurridor de piso",
+      "definition": "Objeto con mango usado para jalar el agua del piso."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3654,
+    "word": "tampa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈtɐ̃pɐ/",
+    "definition": "Peça que fecha um pote ou uma panela.",
+    "examples": [
+      "Coloque a tampa na panela.",
+      "Perdi a tampa da garrafa.",
+      "Essa tampa não fecha bem."
+    ],
+    "spanish": {
+      "word": "tapa",
+      "definition": "Pieza que cierra un frasco o una olla."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3655,
+    "word": "mangueira",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mɐ̃ˈgejɾɐ/",
+    "definition": "Tubo flexível para água; árvore que dá manga.",
+    "examples": [
+      "Molhe as plantas com a mangueira.",
+      "Há uma mangueira enorme no quintal.",
+      "Ele lavou o carro com a mangueira."
+    ],
+    "spanish": {
+      "word": "manguera; árbol de mango",
+      "definition": "Tubo flexible para agua; árbol que da mango."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3656,
+    "word": "interruptor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩteʁupˈtoʁ/",
+    "definition": "Botão que liga e desliga a luz.",
+    "examples": [
+      "O interruptor fica atrás da porta.",
+      "Apertei o interruptor e nada aconteceu.",
+      "Troque esse interruptor quebrado."
+    ],
+    "spanish": {
+      "word": "interruptor",
+      "definition": "Botón que prende y apaga la luz."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3657,
+    "word": "antena",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ɐ̃ˈtenɐ/",
+    "definition": "Peça que recebe sinais de TV ou rádio.",
+    "examples": [
+      "O vento derrubou a antena.",
+      "Instalamos uma antena no telhado.",
+      "As formigas têm antenas."
+    ],
+    "spanish": {
+      "word": "antena",
+      "definition": "Pieza que recibe señales de TV o radio."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3658,
+    "word": "poltrona",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/powˈtɾonɐ/",
+    "definition": "Cadeira grande e confortável.",
+    "examples": [
+      "Meu avô dorme na poltrona.",
+      "A minha poltrona no avião é a 12A.",
+      "Comprei uma poltrona para a sala."
+    ],
+    "spanish": {
+      "word": "sillón",
+      "definition": "Silla grande y cómoda."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3659,
+    "word": "estante",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/esˈtɐ̃tʃi/",
+    "definition": "Móvel com prateleiras para livros.",
+    "examples": [
+      "O livro está na estante.",
+      "Montei uma estante no quarto.",
+      "A estante está cheia de fotos."
+    ],
+    "spanish": {
+      "word": "estantería",
+      "definition": "Mueble con repisas para libros."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3660,
+    "word": "cadeado",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kadeˈadu/",
+    "definition": "Fechadura pequena que se tira e se coloca.",
+    "examples": [
+      "Tranquei o portão com cadeado.",
+      "Perdi a chave do cadeado.",
+      "Coloquei um cadeado na mala."
+    ],
+    "spanish": {
+      "word": "candado",
+      "definition": "Cerradura pequeña que se quita y se pone."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3661,
+    "word": "jarra",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈʒaʁɐ/",
+    "definition": "Recipiente com alça para servir líquidos.",
+    "examples": [
+      "Fiz uma jarra de suco.",
+      "Coloque a jarra na mesa.",
+      "A jarra de água está vazia."
+    ],
+    "spanish": {
+      "word": "jarra",
+      "definition": "Recipiente con asa para servir líquidos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3662,
+    "word": "ralo",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/ˈʁalu/",
+    "definition": "Buraco por onde a água sai; pouco espesso.",
+    "examples": [
+      "O ralo do banheiro está entupido.",
+      "Esse caldo está muito ralo.",
+      "Ele tem o cabelo ralo."
+    ],
+    "spanish": {
+      "word": "desagüe",
+      "definition": "Hueco por donde sale el agua; poco espeso."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3663,
+    "word": "sacada",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/saˈkadɐ/",
+    "definition": "Parte aberta de um apartamento; ideia boa e rápida.",
+    "examples": [
+      "Tomamos café na sacada.",
+      "O apartamento tem sacada com vista para o mar.",
+      "Que boa sacada!"
+    ],
+    "spanish": {
+      "word": "balcón",
+      "definition": "Parte abierta de un apartamento; idea buena y rápida."
+    },
+    "synonyms": [
+      "varanda"
+    ]
+  },
+  {
+    "rank": 3664,
+    "word": "azulejo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/azuˈleʒu/",
+    "definition": "Placa lisa usada em paredes.",
+    "examples": [
+      "A cozinha tem azulejos brancos.",
+      "Quebrou um azulejo do banheiro.",
+      "Lisboa e São Luís são famosas pelos azulejos."
+    ],
+    "spanish": {
+      "word": "azulejo",
+      "definition": "Placa lisa usada en paredes."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3665,
+    "word": "corrimão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/koʁiˈmɐ̃w̃/",
+    "definition": "Barra em que se apoia a mão nas escadas.",
+    "examples": [
+      "Segure no corrimão.",
+      "A escada não tem corrimão.",
+      "O corrimão é de madeira."
+    ],
+    "spanish": {
+      "word": "pasamanos",
+      "definition": "Barra donde se apoya la mano en las escaleras."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3666,
+    "word": "mesinha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/meˈziɲɐ/",
+    "definition": "Mesa pequena.",
+    "examples": [
+      "O abajur fica na mesinha.",
+      "Deixei o celular na mesinha de cabeceira.",
+      "Comprei uma mesinha para a varanda."
+    ],
+    "spanish": {
+      "word": "mesita",
+      "definition": "Mesa pequeña."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3667,
+    "word": "edredom",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/edɾeˈdõ/",
+    "definition": "Coberta grossa e macia para a cama.",
+    "examples": [
+      "Hoje vou dormir com edredom.",
+      "Lavei o edredom na lavanderia.",
+      "Esse edredom é bem quentinho."
+    ],
+    "spanish": {
+      "word": "edredón",
+      "definition": "Cobija gruesa y suave para la cama."
+    },
+    "synonyms": [
+      "coberta"
+    ]
+  },
+  {
+    "rank": 3668,
+    "word": "fronha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈfɾõɲɐ/",
+    "definition": "Capa de pano para o travesseiro.",
+    "examples": [
+      "Troque a fronha do travesseiro.",
+      "As fronhas estão no armário.",
+      "Comprei fronhas de algodão."
+    ],
+    "spanish": {
+      "word": "funda de almohada",
+      "definition": "Cubierta de tela para la almohada."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3669,
+    "word": "roupão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁowˈpɐ̃w̃/",
+    "definition": "Peça comprida usada depois do banho.",
+    "examples": [
+      "Saí do banho de roupão.",
+      "O hotel oferece roupão aos hóspedes.",
+      "Meu roupão é azul."
+    ],
+    "spanish": {
+      "word": "bata de baño",
+      "definition": "Prenda larga que se usa después del baño."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3670,
+    "word": "sabonete",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/saboˈnetʃi/",
+    "definition": "Sabão perfumado usado no banho.",
+    "examples": [
+      "Acabou o sabonete do banheiro.",
+      "Esse sabonete tem cheiro de lavanda.",
+      "Lave as mãos com sabonete."
+    ],
+    "spanish": {
+      "word": "jabón de tocador",
+      "definition": "Jabón perfumado usado en el baño."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3671,
+    "word": "xampu",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʃɐ̃ˈpu/",
+    "definition": "Líquido usado para lavar o cabelo.",
+    "examples": [
+      "Comprei um xampu novo.",
+      "O xampu caiu no meu olho.",
+      "Esse xampu é para cabelo seco."
+    ],
+    "spanish": {
+      "word": "champú",
+      "definition": "Líquido usado para lavar el cabello."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3672,
+    "word": "detergente",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/deteʁˈʒẽtʃi/",
+    "definition": "Líquido usado para lavar a louça.",
+    "examples": [
+      "Acabou o detergente da pia.",
+      "Lave o copo com detergente.",
+      "Esse detergente tem cheiro de limão."
+    ],
+    "spanish": {
+      "word": "detergente",
+      "definition": "Líquido usado para lavar los platos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3673,
+    "word": "guardanapo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gwaʁdaˈnapu/",
+    "definition": "Papel ou pano usado para limpar a boca.",
+    "examples": [
+      "Pode me dar um guardanapo?",
+      "Limpei a boca com o guardanapo.",
+      "Faltam guardanapos na mesa."
+    ],
+    "spanish": {
+      "word": "servilleta",
+      "definition": "Papel o tela usados para limpiar la boca."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3674,
+    "word": "canudo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kaˈnudu/",
+    "definition": "Tubo fino usado para beber.",
+    "examples": [
+      "Não precisa de canudo, obrigado.",
+      "Tomei a água de coco com canudo.",
+      "Muitos bares usam canudos de papel."
+    ],
+    "spanish": {
+      "word": "pajilla",
+      "definition": "Tubo delgado usado para beber."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3675,
+    "word": "palito",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/paˈlitu/",
+    "definition": "Pequeno pedaço de madeira fino.",
+    "examples": [
+      "Tem palito de dente na mesa.",
+      "O salgadinho vem no palito.",
+      "Ela fez uma casinha com palitos de sorvete."
+    ],
+    "spanish": {
+      "word": "palillo",
+      "definition": "Pequeño pedazo de madera delgado."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3676,
+    "word": "tijolo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/tʃiˈʒolu/",
+    "definition": "Bloco de barro usado para construir.",
+    "examples": [
+      "A casa é de tijolo.",
+      "O pedreiro empilhou os tijolos.",
+      "Essa parede tem tijolos à vista."
+    ],
+    "spanish": {
+      "word": "ladrillo",
+      "definition": "Bloque de barro usado para construir."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3677,
+    "word": "prego",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈpɾɛgu/",
+    "definition": "Peça fina de metal que se bate com martelo.",
+    "examples": [
+      "Bati um prego na parede.",
+      "Pisei em um prego enferrujado.",
+      "Preciso de um prego para pendurar o quadro."
+    ],
+    "spanish": {
+      "word": "clavo",
+      "definition": "Pieza delgada de metal que se golpea con martillo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3678,
+    "word": "marmita",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/maʁˈmitɐ/",
+    "definition": "Recipiente com comida levada para o trabalho.",
+    "examples": [
+      "Levo marmita para o escritório.",
+      "Ele vende marmita perto da obra.",
+      "Esquentei a marmita no micro-ondas."
+    ],
+    "spanish": {
+      "word": "fiambrera",
+      "definition": "Recipiente con comida que se lleva al trabajo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3679,
+    "word": "chácara",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈʃakaɾɐ/",
+    "definition": "Pequena propriedade no campo para descansar.",
+    "examples": [
+      "Passamos o feriado na chácara.",
+      "A festa foi em uma chácara.",
+      "Meu tio tem uma chácara perto da cidade."
+    ],
+    "spanish": {
+      "word": "finca pequeña",
+      "definition": "Pequeña propiedad en el campo para descansar."
+    },
+    "synonyms": [
+      "sítio"
+    ]
+  },
+  {
+    "rank": 3680,
+    "word": "sítio",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈsitʃiu/",
+    "definition": "Pequena fazenda.",
+    "examples": [
+      "Meus avós moram em um sítio.",
+      "No sítio tem galinha e vaca.",
+      "Passamos as férias no sítio."
+    ],
+    "spanish": {
+      "word": "finca",
+      "definition": "Hacienda pequeña."
+    },
+    "synonyms": [
+      "chácara"
+    ]
+  },
+  {
+    "rank": 3681,
+    "word": "condomínio",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõdoˈminiu/",
+    "definition": "Conjunto de casas ou apartamentos; taxa mensal paga pelos moradores.",
+    "examples": [
+      "Moro em um condomínio fechado.",
+      "O condomínio aumentou este mês.",
+      "O condomínio tem piscina e academia."
+    ],
+    "spanish": {
+      "word": "condominio",
+      "definition": "Conjunto de casas o apartamentos; cuota mensual que pagan los vecinos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3682,
+    "word": "síndico",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈsĩdʒiku/",
+    "definition": "Pessoa que administra um prédio.",
+    "examples": [
+      "Reclame com o síndico do prédio.",
+      "A síndica marcou uma reunião.",
+      "O síndico mandou consertar o elevador."
+    ],
+    "spanish": {
+      "word": "administrador del edificio",
+      "definition": "Persona que administra un edificio."
+    },
+    "synonyms": []
+  }
+]

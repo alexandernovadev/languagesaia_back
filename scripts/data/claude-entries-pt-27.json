@@ -1,0 +1,3311 @@
+[
+  {
+    "rank": 3482,
+    "word": "faltar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/fawˈtaʁ/",
+    "definition": "Não ter o suficiente; não ir a um lugar.",
+    "examples": [
+      "Falta sal na comida.",
+      "Ele faltou à aula ontem.",
+      "Faltam dois dias para a viagem."
+    ],
+    "spanish": {
+      "word": "faltar",
+      "definition": "No tener lo suficiente; no ir a un lugar."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "falto",
+        "voce": "falta",
+        "nos": "faltamos",
+        "eles": "faltam"
+      },
+      "preterito": {
+        "eu": "faltei",
+        "voce": "faltou",
+        "nos": "faltamos",
+        "eles": "faltaram"
+      },
+      "imperfeito": {
+        "eu": "faltava",
+        "voce": "faltava",
+        "nos": "faltávamos",
+        "eles": "faltavam"
+      },
+      "futuro": {
+        "eu": "faltarei",
+        "voce": "faltará",
+        "nos": "faltaremos",
+        "eles": "faltarão"
+      },
+      "subjuntivo": {
+        "eu": "falte",
+        "voce": "falte",
+        "nos": "faltemos",
+        "eles": "faltem"
+      }
+    }
+  },
+  {
+    "rank": 3483,
+    "word": "ocupar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/okuˈpaʁ/",
+    "definition": "Tomar um espaço ou um tempo.",
+    "examples": [
+      "Esse sofá ocupa a sala toda.",
+      "O trabalho ocupa o meu dia inteiro.",
+      "Os alunos ocuparam as primeiras cadeiras."
+    ],
+    "spanish": {
+      "word": "ocupar",
+      "definition": "Tomar un espacio o un tiempo."
+    },
+    "synonyms": [
+      "preencher"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "ocupo",
+        "voce": "ocupa",
+        "nos": "ocupamos",
+        "eles": "ocupam"
+      },
+      "preterito": {
+        "eu": "ocupei",
+        "voce": "ocupou",
+        "nos": "ocupamos",
+        "eles": "ocuparam"
+      },
+      "imperfeito": {
+        "eu": "ocupava",
+        "voce": "ocupava",
+        "nos": "ocupávamos",
+        "eles": "ocupavam"
+      },
+      "futuro": {
+        "eu": "ocuparei",
+        "voce": "ocupará",
+        "nos": "ocuparemos",
+        "eles": "ocuparão"
+      },
+      "subjuntivo": {
+        "eu": "ocupe",
+        "voce": "ocupe",
+        "nos": "ocupemos",
+        "eles": "ocupem"
+      }
+    }
+  },
+  {
+    "rank": 3484,
+    "word": "avaliar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/avaliˈaʁ/",
+    "definition": "Ver quanto vale ou se algo é bom.",
+    "examples": [
+      "O professor vai avaliar os alunos na sexta.",
+      "Avaliamos a casa antes de comprar.",
+      "O médico avaliou o paciente."
+    ],
+    "spanish": {
+      "word": "evaluar",
+      "definition": "Ver cuánto vale o si algo es bueno."
+    },
+    "synonyms": [
+      "julgar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "avalio",
+        "voce": "avalia",
+        "nos": "avaliamos",
+        "eles": "avaliam"
+      },
+      "preterito": {
+        "eu": "avaliei",
+        "voce": "avaliou",
+        "nos": "avaliamos",
+        "eles": "avaliaram"
+      },
+      "imperfeito": {
+        "eu": "avaliava",
+        "voce": "avaliava",
+        "nos": "avaliávamos",
+        "eles": "avaliavam"
+      },
+      "futuro": {
+        "eu": "avaliarei",
+        "voce": "avaliará",
+        "nos": "avaliaremos",
+        "eles": "avaliarão"
+      },
+      "subjuntivo": {
+        "eu": "avalie",
+        "voce": "avalie",
+        "nos": "avaliemos",
+        "eles": "avaliem"
+      }
+    }
+  },
+  {
+    "rank": 3485,
+    "word": "obrigar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/obɾiˈgaʁ/",
+    "definition": "Fazer alguém fazer algo sem querer.",
+    "examples": [
+      "Ninguém pode obrigar você a ficar.",
+      "A chuva nos obrigou a voltar.",
+      "Minha mãe me obrigava a comer legumes."
+    ],
+    "spanish": {
+      "word": "obligar",
+      "definition": "Hacer que alguien haga algo sin querer."
+    },
+    "synonyms": [
+      "forçar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "obrigo",
+        "voce": "obriga",
+        "nos": "obrigamos",
+        "eles": "obrigam"
+      },
+      "preterito": {
+        "eu": "obriguei",
+        "voce": "obrigou",
+        "nos": "obrigamos",
+        "eles": "obrigaram"
+      },
+      "imperfeito": {
+        "eu": "obrigava",
+        "voce": "obrigava",
+        "nos": "obrigávamos",
+        "eles": "obrigavam"
+      },
+      "futuro": {
+        "eu": "obrigarei",
+        "voce": "obrigará",
+        "nos": "obrigaremos",
+        "eles": "obrigarão"
+      },
+      "subjuntivo": {
+        "eu": "obrigue",
+        "voce": "obrigue",
+        "nos": "obriguemos",
+        "eles": "obriguem"
+      }
+    }
+  },
+  {
+    "rank": 3486,
+    "word": "dedicar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/dedʒiˈkaʁ/",
+    "definition": "Dar tempo ou atenção a algo ou alguém.",
+    "examples": [
+      "Ela dedica o fim de semana à família.",
+      "Dediquei esta música à minha mãe.",
+      "Ele se dedicou aos estudos."
+    ],
+    "spanish": {
+      "word": "dedicar",
+      "definition": "Dar tiempo o atención a algo o alguien."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "dedico",
+        "voce": "dedica",
+        "nos": "dedicamos",
+        "eles": "dedicam"
+      },
+      "preterito": {
+        "eu": "dediquei",
+        "voce": "dedicou",
+        "nos": "dedicamos",
+        "eles": "dedicaram"
+      },
+      "imperfeito": {
+        "eu": "dedicava",
+        "voce": "dedicava",
+        "nos": "dedicávamos",
+        "eles": "dedicavam"
+      },
+      "futuro": {
+        "eu": "dedicarei",
+        "voce": "dedicará",
+        "nos": "dedicaremos",
+        "eles": "dedicarão"
+      },
+      "subjuntivo": {
+        "eu": "dedique",
+        "voce": "dedique",
+        "nos": "dediquemos",
+        "eles": "dediquem"
+      }
+    }
+  },
+  {
+    "rank": 3487,
+    "word": "confundir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kõfũˈdʒiʁ/",
+    "definition": "Trocar uma coisa por outra; deixar alguém sem entender.",
+    "examples": [
+      "Sempre confundo os dois irmãos.",
+      "Essas regras me confundem.",
+      "Desculpe, confundi o dia da reunião."
+    ],
+    "spanish": {
+      "word": "confundir",
+      "definition": "Cambiar una cosa por otra; dejar a alguien sin entender."
+    },
+    "synonyms": [
+      "misturar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "confundo",
+        "voce": "confunde",
+        "nos": "confundimos",
+        "eles": "confundem"
+      },
+      "preterito": {
+        "eu": "confundi",
+        "voce": "confundiu",
+        "nos": "confundimos",
+        "eles": "confundiram"
+      },
+      "imperfeito": {
+        "eu": "confundia",
+        "voce": "confundia",
+        "nos": "confundíamos",
+        "eles": "confundiam"
+      },
+      "futuro": {
+        "eu": "confundirei",
+        "voce": "confundirá",
+        "nos": "confundiremos",
+        "eles": "confundirão"
+      },
+      "subjuntivo": {
+        "eu": "confunda",
+        "voce": "confunda",
+        "nos": "confundamos",
+        "eles": "confundam"
+      }
+    }
+  },
+  {
+    "rank": 3488,
+    "word": "gerar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʒeˈɾaʁ/",
+    "definition": "Produzir; dar origem a algo.",
+    "examples": [
+      "A fábrica vai gerar muitos empregos.",
+      "O sol gera energia para a casa.",
+      "A notícia gerou muita discussão."
+    ],
+    "spanish": {
+      "word": "generar",
+      "definition": "Producir; dar origen a algo."
+    },
+    "synonyms": [
+      "produzir",
+      "criar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "gero",
+        "voce": "gera",
+        "nos": "geramos",
+        "eles": "geram"
+      },
+      "preterito": {
+        "eu": "gerei",
+        "voce": "gerou",
+        "nos": "geramos",
+        "eles": "geraram"
+      },
+      "imperfeito": {
+        "eu": "gerava",
+        "voce": "gerava",
+        "nos": "gerávamos",
+        "eles": "geravam"
+      },
+      "futuro": {
+        "eu": "gerarei",
+        "voce": "gerará",
+        "nos": "geraremos",
+        "eles": "gerarão"
+      },
+      "subjuntivo": {
+        "eu": "gere",
+        "voce": "gere",
+        "nos": "geremos",
+        "eles": "gerem"
+      }
+    }
+  },
+  {
+    "rank": 3489,
+    "word": "utilizar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/utʃiliˈzaʁ/",
+    "definition": "Fazer uso de algo.",
+    "examples": [
+      "Você pode utilizar o meu computador.",
+      "Utilizamos ovos frescos nesta receita.",
+      "A empresa utiliza energia solar."
+    ],
+    "spanish": {
+      "word": "utilizar",
+      "definition": "Hacer uso de algo."
+    },
+    "synonyms": [
+      "usar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "utilizo",
+        "voce": "utiliza",
+        "nos": "utilizamos",
+        "eles": "utilizam"
+      },
+      "preterito": {
+        "eu": "utilizei",
+        "voce": "utilizou",
+        "nos": "utilizamos",
+        "eles": "utilizaram"
+      },
+      "imperfeito": {
+        "eu": "utilizava",
+        "voce": "utilizava",
+        "nos": "utilizávamos",
+        "eles": "utilizavam"
+      },
+      "futuro": {
+        "eu": "utilizarei",
+        "voce": "utilizará",
+        "nos": "utilizaremos",
+        "eles": "utilizarão"
+      },
+      "subjuntivo": {
+        "eu": "utilize",
+        "voce": "utilize",
+        "nos": "utilizemos",
+        "eles": "utilizem"
+      }
+    }
+  },
+  {
+    "rank": 3490,
+    "word": "administrar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/adʒiminisˈtɾaʁ/",
+    "definition": "Cuidar de uma empresa, de dinheiro ou de um trabalho.",
+    "examples": [
+      "Ela administra uma loja de roupas.",
+      "Preciso administrar melhor o meu tempo.",
+      "Meu pai administrou a fazenda por trinta anos."
+    ],
+    "spanish": {
+      "word": "administrar",
+      "definition": "Cuidar de una empresa, de dinero o de un trabajo."
+    },
+    "synonyms": [
+      "gerenciar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "administro",
+        "voce": "administra",
+        "nos": "administramos",
+        "eles": "administram"
+      },
+      "preterito": {
+        "eu": "administrei",
+        "voce": "administrou",
+        "nos": "administramos",
+        "eles": "administraram"
+      },
+      "imperfeito": {
+        "eu": "administrava",
+        "voce": "administrava",
+        "nos": "administrávamos",
+        "eles": "administravam"
+      },
+      "futuro": {
+        "eu": "administrarei",
+        "voce": "administrará",
+        "nos": "administraremos",
+        "eles": "administrarão"
+      },
+      "subjuntivo": {
+        "eu": "administre",
+        "voce": "administre",
+        "nos": "administremos",
+        "eles": "administrem"
+      }
+    }
+  },
+  {
+    "rank": 3491,
+    "word": "promover",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/pɾomoˈveʁ/",
+    "definition": "Fazer algo acontecer; dar um cargo melhor a alguém.",
+    "examples": [
+      "A escola vai promover uma festa junina.",
+      "O chefe promoveu a Ana a gerente.",
+      "A prefeitura promove aulas de dança na praça."
+    ],
+    "spanish": {
+      "word": "promover",
+      "definition": "Hacer que algo pase; dar un mejor cargo a alguien."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "promovo",
+        "voce": "promove",
+        "nos": "promovemos",
+        "eles": "promovem"
+      },
+      "preterito": {
+        "eu": "promovi",
+        "voce": "promoveu",
+        "nos": "promovemos",
+        "eles": "promoveram"
+      },
+      "imperfeito": {
+        "eu": "promovia",
+        "voce": "promovia",
+        "nos": "promovíamos",
+        "eles": "promoviam"
+      },
+      "futuro": {
+        "eu": "promoverei",
+        "voce": "promoverá",
+        "nos": "promoveremos",
+        "eles": "promoverão"
+      },
+      "subjuntivo": {
+        "eu": "promova",
+        "voce": "promova",
+        "nos": "promovamos",
+        "eles": "promovam"
+      }
+    }
+  },
+  {
+    "rank": 3492,
+    "word": "propor",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/pɾoˈpoʁ/",
+    "definition": "Apresentar uma ideia para os outros decidirem.",
+    "examples": [
+      "Proponho uma pausa para o café.",
+      "Ele propôs uma nova data para a reunião.",
+      "O que você propõe?"
+    ],
+    "spanish": {
+      "word": "proponer",
+      "definition": "Presentar una idea para que otros decidan."
+    },
+    "synonyms": [
+      "sugerir"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "proponho",
+        "voce": "propõe",
+        "nos": "propomos",
+        "eles": "propõem"
+      },
+      "preterito": {
+        "eu": "propus",
+        "voce": "propôs",
+        "nos": "propusemos",
+        "eles": "propuseram"
+      },
+      "imperfeito": {
+        "eu": "propunha",
+        "voce": "propunha",
+        "nos": "propúnhamos",
+        "eles": "propunham"
+      },
+      "futuro": {
+        "eu": "proporei",
+        "voce": "proporá",
+        "nos": "proporemos",
+        "eles": "proporão"
+      },
+      "subjuntivo": {
+        "eu": "proponha",
+        "voce": "proponha",
+        "nos": "proponhamos",
+        "eles": "proponham"
+      }
+    }
+  },
+  {
+    "rank": 3493,
+    "word": "impor",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ĩˈpoʁ/",
+    "definition": "Obrigar alguém a aceitar algo.",
+    "examples": [
+      "Não quero impor a minha opinião.",
+      "O juiz impôs uma multa alta.",
+      "Os pais impõem regras em casa."
+    ],
+    "spanish": {
+      "word": "imponer",
+      "definition": "Obligar a alguien a aceptar algo."
+    },
+    "synonyms": [
+      "obrigar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "imponho",
+        "voce": "impõe",
+        "nos": "impomos",
+        "eles": "impõem"
+      },
+      "preterito": {
+        "eu": "impus",
+        "voce": "impôs",
+        "nos": "impusemos",
+        "eles": "impuseram"
+      },
+      "imperfeito": {
+        "eu": "impunha",
+        "voce": "impunha",
+        "nos": "impúnhamos",
+        "eles": "impunham"
+      },
+      "futuro": {
+        "eu": "imporei",
+        "voce": "imporá",
+        "nos": "imporemos",
+        "eles": "imporão"
+      },
+      "subjuntivo": {
+        "eu": "imponha",
+        "voce": "imponha",
+        "nos": "imponhamos",
+        "eles": "imponham"
+      }
+    }
+  },
+  {
+    "rank": 3494,
+    "word": "afirmar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/afiʁˈmaʁ/",
+    "definition": "Dizer que algo é verdade.",
+    "examples": [
+      "Ele afirma que não viu nada.",
+      "Posso afirmar que a comida estava ótima.",
+      "A ministra afirmou que os preços vão cair."
+    ],
+    "spanish": {
+      "word": "afirmar",
+      "definition": "Decir que algo es verdad."
+    },
+    "synonyms": [
+      "declarar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "afirmo",
+        "voce": "afirma",
+        "nos": "afirmamos",
+        "eles": "afirmam"
+      },
+      "preterito": {
+        "eu": "afirmei",
+        "voce": "afirmou",
+        "nos": "afirmamos",
+        "eles": "afirmaram"
+      },
+      "imperfeito": {
+        "eu": "afirmava",
+        "voce": "afirmava",
+        "nos": "afirmávamos",
+        "eles": "afirmavam"
+      },
+      "futuro": {
+        "eu": "afirmarei",
+        "voce": "afirmará",
+        "nos": "afirmaremos",
+        "eles": "afirmarão"
+      },
+      "subjuntivo": {
+        "eu": "afirme",
+        "voce": "afirme",
+        "nos": "afirmemos",
+        "eles": "afirmem"
+      }
+    }
+  },
+  {
+    "rank": 3495,
+    "word": "concluir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kõkluˈiʁ/",
+    "definition": "Terminar; chegar a uma ideia depois de pensar.",
+    "examples": [
+      "Concluí o curso em dezembro.",
+      "Ele concluiu que estava errado.",
+      "Espero que eles concluam a obra este ano."
+    ],
+    "spanish": {
+      "word": "concluir",
+      "definition": "Terminar; llegar a una idea después de pensar."
+    },
+    "synonyms": [
+      "terminar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "concluo",
+        "voce": "conclui",
+        "nos": "concluímos",
+        "eles": "concluem"
+      },
+      "preterito": {
+        "eu": "concluí",
+        "voce": "concluiu",
+        "nos": "concluímos",
+        "eles": "concluíram"
+      },
+      "imperfeito": {
+        "eu": "concluía",
+        "voce": "concluía",
+        "nos": "concluíamos",
+        "eles": "concluíam"
+      },
+      "futuro": {
+        "eu": "concluirei",
+        "voce": "concluirá",
+        "nos": "concluiremos",
+        "eles": "concluirão"
+      },
+      "subjuntivo": {
+        "eu": "conclua",
+        "voce": "conclua",
+        "nos": "concluamos",
+        "eles": "concluam"
+      }
+    }
+  },
+  {
+    "rank": 3496,
+    "word": "aprovar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/apɾoˈvaʁ/",
+    "definition": "Dizer que algo está bom ou aceitar; passar alguém em uma prova.",
+    "examples": [
+      "O chefe aprovou o meu projeto.",
+      "Meus pais não aprovam essa viagem.",
+      "O banco aprovou o empréstimo."
+    ],
+    "spanish": {
+      "word": "aprobar",
+      "definition": "Decir que algo está bien o aceptarlo; pasar a alguien en un examen."
+    },
+    "synonyms": [
+      "aceitar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "aprovo",
+        "voce": "aprova",
+        "nos": "aprovamos",
+        "eles": "aprovam"
+      },
+      "preterito": {
+        "eu": "aprovei",
+        "voce": "aprovou",
+        "nos": "aprovamos",
+        "eles": "aprovaram"
+      },
+      "imperfeito": {
+        "eu": "aprovava",
+        "voce": "aprovava",
+        "nos": "aprovávamos",
+        "eles": "aprovavam"
+      },
+      "futuro": {
+        "eu": "aprovarei",
+        "voce": "aprovará",
+        "nos": "aprovaremos",
+        "eles": "aprovarão"
+      },
+      "subjuntivo": {
+        "eu": "aprove",
+        "voce": "aprove",
+        "nos": "aprovemos",
+        "eles": "aprovem"
+      }
+    }
+  },
+  {
+    "rank": 3497,
+    "word": "suspeitar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/suspejˈtaʁ/",
+    "definition": "Achar que algo pode ser verdade ou que alguém fez algo errado.",
+    "examples": [
+      "Suspeito que ele está mentindo.",
+      "A polícia suspeita do vizinho.",
+      "Ninguém suspeitou da festa surpresa."
+    ],
+    "spanish": {
+      "word": "sospechar",
+      "definition": "Creer que algo puede ser verdad o que alguien hizo algo malo."
+    },
+    "synonyms": [
+      "desconfiar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "suspeito",
+        "voce": "suspeita",
+        "nos": "suspeitamos",
+        "eles": "suspeitam"
+      },
+      "preterito": {
+        "eu": "suspeitei",
+        "voce": "suspeitou",
+        "nos": "suspeitamos",
+        "eles": "suspeitaram"
+      },
+      "imperfeito": {
+        "eu": "suspeitava",
+        "voce": "suspeitava",
+        "nos": "suspeitávamos",
+        "eles": "suspeitavam"
+      },
+      "futuro": {
+        "eu": "suspeitarei",
+        "voce": "suspeitará",
+        "nos": "suspeitaremos",
+        "eles": "suspeitarão"
+      },
+      "subjuntivo": {
+        "eu": "suspeite",
+        "voce": "suspeite",
+        "nos": "suspeitemos",
+        "eles": "suspeitem"
+      }
+    }
+  },
+  {
+    "rank": 3498,
+    "word": "rasgar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁazˈgaʁ/",
+    "definition": "Abrir ou partir papel ou pano com força.",
+    "examples": [
+      "Rasguei a carta e joguei fora.",
+      "Minha calça rasgou no joelho.",
+      "Não rasgue esse papel, é importante."
+    ],
+    "spanish": {
+      "word": "rasgar",
+      "definition": "Abrir o partir papel o tela con fuerza."
+    },
+    "synonyms": [
+      "romper"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "rasgo",
+        "voce": "rasga",
+        "nos": "rasgamos",
+        "eles": "rasgam"
+      },
+      "preterito": {
+        "eu": "rasguei",
+        "voce": "rasgou",
+        "nos": "rasgamos",
+        "eles": "rasgaram"
+      },
+      "imperfeito": {
+        "eu": "rasgava",
+        "voce": "rasgava",
+        "nos": "rasgávamos",
+        "eles": "rasgavam"
+      },
+      "futuro": {
+        "eu": "rasgarei",
+        "voce": "rasgará",
+        "nos": "rasgaremos",
+        "eles": "rasgarão"
+      },
+      "subjuntivo": {
+        "eu": "rasgue",
+        "voce": "rasgue",
+        "nos": "rasguemos",
+        "eles": "rasguem"
+      }
+    }
+  },
+  {
+    "rank": 3499,
+    "word": "governar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/goveʁˈnaʁ/",
+    "definition": "Mandar em um país, estado ou cidade.",
+    "examples": [
+      "Quem governa este país agora?",
+      "O prefeito governou a cidade por oito anos.",
+      "É difícil governar sem o apoio do povo."
+    ],
+    "spanish": {
+      "word": "gobernar",
+      "definition": "Mandar en un país, estado o ciudad."
+    },
+    "synonyms": [
+      "dirigir"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "governo",
+        "voce": "governa",
+        "nos": "governamos",
+        "eles": "governam"
+      },
+      "preterito": {
+        "eu": "governei",
+        "voce": "governou",
+        "nos": "governamos",
+        "eles": "governaram"
+      },
+      "imperfeito": {
+        "eu": "governava",
+        "voce": "governava",
+        "nos": "governávamos",
+        "eles": "governavam"
+      },
+      "futuro": {
+        "eu": "governarei",
+        "voce": "governará",
+        "nos": "governaremos",
+        "eles": "governarão"
+      },
+      "subjuntivo": {
+        "eu": "governe",
+        "voce": "governe",
+        "nos": "governemos",
+        "eles": "governem"
+      }
+    }
+  },
+  {
+    "rank": 3500,
+    "word": "denunciar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/denũsiˈaʁ/",
+    "definition": "Contar um crime ou um erro para as autoridades.",
+    "examples": [
+      "Ela denunciou o ladrão à polícia.",
+      "Você deve denunciar esse perfil falso.",
+      "Os moradores denunciaram o barulho."
+    ],
+    "spanish": {
+      "word": "denunciar",
+      "definition": "Contar un delito o un error a las autoridades."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "denuncio",
+        "voce": "denuncia",
+        "nos": "denunciamos",
+        "eles": "denunciam"
+      },
+      "preterito": {
+        "eu": "denunciei",
+        "voce": "denunciou",
+        "nos": "denunciamos",
+        "eles": "denunciaram"
+      },
+      "imperfeito": {
+        "eu": "denunciava",
+        "voce": "denunciava",
+        "nos": "denunciávamos",
+        "eles": "denunciavam"
+      },
+      "futuro": {
+        "eu": "denunciarei",
+        "voce": "denunciará",
+        "nos": "denunciaremos",
+        "eles": "denunciarão"
+      },
+      "subjuntivo": {
+        "eu": "denuncie",
+        "voce": "denuncie",
+        "nos": "denunciemos",
+        "eles": "denunciem"
+      }
+    }
+  },
+  {
+    "rank": 3501,
+    "word": "justificar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʒustʃifiˈkaʁ/",
+    "definition": "Explicar o motivo de algo.",
+    "examples": [
+      "Ele justificou a falta com um atestado.",
+      "Nada justifica essa violência.",
+      "Preciso justificar os meus gastos."
+    ],
+    "spanish": {
+      "word": "justificar",
+      "definition": "Explicar el motivo de algo."
+    },
+    "synonyms": [
+      "explicar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "justifico",
+        "voce": "justifica",
+        "nos": "justificamos",
+        "eles": "justificam"
+      },
+      "preterito": {
+        "eu": "justifiquei",
+        "voce": "justificou",
+        "nos": "justificamos",
+        "eles": "justificaram"
+      },
+      "imperfeito": {
+        "eu": "justificava",
+        "voce": "justificava",
+        "nos": "justificávamos",
+        "eles": "justificavam"
+      },
+      "futuro": {
+        "eu": "justificarei",
+        "voce": "justificará",
+        "nos": "justificaremos",
+        "eles": "justificarão"
+      },
+      "subjuntivo": {
+        "eu": "justifique",
+        "voce": "justifique",
+        "nos": "justifiquemos",
+        "eles": "justifiquem"
+      }
+    }
+  },
+  {
+    "rank": 3502,
+    "word": "bloquear",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/blokeˈaʁ/",
+    "definition": "Impedir a passagem ou o acesso.",
+    "examples": [
+      "Bloqueei esse número no celular.",
+      "Um caminhão bloqueou a rua.",
+      "O banco bloqueia o cartão em caso de roubo."
+    ],
+    "spanish": {
+      "word": "bloquear",
+      "definition": "Impedir el paso o el acceso."
+    },
+    "synonyms": [
+      "impedir"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "bloqueio",
+        "voce": "bloqueia",
+        "nos": "bloqueamos",
+        "eles": "bloqueiam"
+      },
+      "preterito": {
+        "eu": "bloqueei",
+        "voce": "bloqueou",
+        "nos": "bloqueamos",
+        "eles": "bloquearam"
+      },
+      "imperfeito": {
+        "eu": "bloqueava",
+        "voce": "bloqueava",
+        "nos": "bloqueávamos",
+        "eles": "bloqueavam"
+      },
+      "futuro": {
+        "eu": "bloquearei",
+        "voce": "bloqueará",
+        "nos": "bloquearemos",
+        "eles": "bloquearão"
+      },
+      "subjuntivo": {
+        "eu": "bloqueie",
+        "voce": "bloqueie",
+        "nos": "bloqueemos",
+        "eles": "bloqueiem"
+      }
+    }
+  },
+  {
+    "rank": 3503,
+    "word": "manipular",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/manipuˈlaʁ/",
+    "definition": "Usar com as mãos; controlar alguém com truques.",
+    "examples": [
+      "Ele sabe manipular as pessoas.",
+      "Lave as mãos antes de manipular alimentos.",
+      "Não deixe que ela manipule você."
+    ],
+    "spanish": {
+      "word": "manipular",
+      "definition": "Usar con las manos; controlar a alguien con trucos."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "manipulo",
+        "voce": "manipula",
+        "nos": "manipulamos",
+        "eles": "manipulam"
+      },
+      "preterito": {
+        "eu": "manipulei",
+        "voce": "manipulou",
+        "nos": "manipulamos",
+        "eles": "manipularam"
+      },
+      "imperfeito": {
+        "eu": "manipulava",
+        "voce": "manipulava",
+        "nos": "manipulávamos",
+        "eles": "manipulavam"
+      },
+      "futuro": {
+        "eu": "manipularei",
+        "voce": "manipulará",
+        "nos": "manipularemos",
+        "eles": "manipularão"
+      },
+      "subjuntivo": {
+        "eu": "manipule",
+        "voce": "manipule",
+        "nos": "manipulemos",
+        "eles": "manipulem"
+      }
+    }
+  },
+  {
+    "rank": 3504,
+    "word": "variar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/vaɾiˈaʁ/",
+    "definition": "Mudar; ser diferente de vez em quando.",
+    "examples": [
+      "O preço varia de uma loja para outra.",
+      "Vamos variar o cardápio hoje.",
+      "O clima aqui varia muito."
+    ],
+    "spanish": {
+      "word": "variar",
+      "definition": "Cambiar; ser diferente de vez en cuando."
+    },
+    "synonyms": [
+      "mudar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "vario",
+        "voce": "varia",
+        "nos": "variamos",
+        "eles": "variam"
+      },
+      "preterito": {
+        "eu": "variei",
+        "voce": "variou",
+        "nos": "variamos",
+        "eles": "variaram"
+      },
+      "imperfeito": {
+        "eu": "variava",
+        "voce": "variava",
+        "nos": "variávamos",
+        "eles": "variavam"
+      },
+      "futuro": {
+        "eu": "variarei",
+        "voce": "variará",
+        "nos": "variaremos",
+        "eles": "variarão"
+      },
+      "subjuntivo": {
+        "eu": "varie",
+        "voce": "varie",
+        "nos": "variemos",
+        "eles": "variem"
+      }
+    }
+  },
+  {
+    "rank": 3505,
+    "word": "tolerar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/toleˈɾaʁ/",
+    "definition": "Aceitar algo que não agrada.",
+    "examples": [
+      "Não tolero mentira.",
+      "Ela não tolera bem o calor.",
+      "O chefe tolerou o atraso dele."
+    ],
+    "spanish": {
+      "word": "tolerar",
+      "definition": "Aceptar algo que no agrada."
+    },
+    "synonyms": [
+      "suportar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "tolero",
+        "voce": "tolera",
+        "nos": "toleramos",
+        "eles": "toleram"
+      },
+      "preterito": {
+        "eu": "tolerei",
+        "voce": "tolerou",
+        "nos": "toleramos",
+        "eles": "toleraram"
+      },
+      "imperfeito": {
+        "eu": "tolerava",
+        "voce": "tolerava",
+        "nos": "tolerávamos",
+        "eles": "toleravam"
+      },
+      "futuro": {
+        "eu": "tolerarei",
+        "voce": "tolerará",
+        "nos": "toleraremos",
+        "eles": "tolerarão"
+      },
+      "subjuntivo": {
+        "eu": "tolere",
+        "voce": "tolere",
+        "nos": "toleremos",
+        "eles": "tolerem"
+      }
+    }
+  },
+  {
+    "rank": 3506,
+    "word": "preservar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/pɾezeʁˈvaʁ/",
+    "definition": "Proteger para não acabar ou estragar.",
+    "examples": [
+      "Precisamos preservar a floresta.",
+      "O sal ajuda a preservar a carne.",
+      "A cidade preservou as casas antigas."
+    ],
+    "spanish": {
+      "word": "preservar",
+      "definition": "Proteger para que no se acabe o se dañe."
+    },
+    "synonyms": [
+      "proteger",
+      "conservar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "preservo",
+        "voce": "preserva",
+        "nos": "preservamos",
+        "eles": "preservam"
+      },
+      "preterito": {
+        "eu": "preservei",
+        "voce": "preservou",
+        "nos": "preservamos",
+        "eles": "preservaram"
+      },
+      "imperfeito": {
+        "eu": "preservava",
+        "voce": "preservava",
+        "nos": "preservávamos",
+        "eles": "preservavam"
+      },
+      "futuro": {
+        "eu": "preservarei",
+        "voce": "preservará",
+        "nos": "preservaremos",
+        "eles": "preservarão"
+      },
+      "subjuntivo": {
+        "eu": "preserve",
+        "voce": "preserve",
+        "nos": "preservemos",
+        "eles": "preservem"
+      }
+    }
+  },
+  {
+    "rank": 3507,
+    "word": "facilitar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/fasiliˈtaʁ/",
+    "definition": "Deixar mais simples.",
+    "examples": [
+      "O aplicativo facilita a nossa vida.",
+      "Isso vai facilitar o trabalho.",
+      "Facilitei o acesso para os clientes."
+    ],
+    "spanish": {
+      "word": "facilitar",
+      "definition": "Hacer más simple."
+    },
+    "synonyms": [
+      "simplificar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "facilito",
+        "voce": "facilita",
+        "nos": "facilitamos",
+        "eles": "facilitam"
+      },
+      "preterito": {
+        "eu": "facilitei",
+        "voce": "facilitou",
+        "nos": "facilitamos",
+        "eles": "facilitaram"
+      },
+      "imperfeito": {
+        "eu": "facilitava",
+        "voce": "facilitava",
+        "nos": "facilitávamos",
+        "eles": "facilitavam"
+      },
+      "futuro": {
+        "eu": "facilitarei",
+        "voce": "facilitará",
+        "nos": "facilitaremos",
+        "eles": "facilitarão"
+      },
+      "subjuntivo": {
+        "eu": "facilite",
+        "voce": "facilite",
+        "nos": "facilitemos",
+        "eles": "facilitem"
+      }
+    }
+  },
+  {
+    "rank": 3508,
+    "word": "adaptar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/adapˈtaʁ/",
+    "definition": "Mudar algo para servir melhor; acostumar-se.",
+    "examples": [
+      "Eu me adaptei bem ao Brasil.",
+      "Ela adaptou a receita para a família.",
+      "As crianças se adaptam rápido à escola nova."
+    ],
+    "spanish": {
+      "word": "adaptar",
+      "definition": "Cambiar algo para que sirva mejor; acostumbrarse."
+    },
+    "synonyms": [
+      "ajustar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "adapto",
+        "voce": "adapta",
+        "nos": "adaptamos",
+        "eles": "adaptam"
+      },
+      "preterito": {
+        "eu": "adaptei",
+        "voce": "adaptou",
+        "nos": "adaptamos",
+        "eles": "adaptaram"
+      },
+      "imperfeito": {
+        "eu": "adaptava",
+        "voce": "adaptava",
+        "nos": "adaptávamos",
+        "eles": "adaptavam"
+      },
+      "futuro": {
+        "eu": "adaptarei",
+        "voce": "adaptará",
+        "nos": "adaptaremos",
+        "eles": "adaptarão"
+      },
+      "subjuntivo": {
+        "eu": "adapte",
+        "voce": "adapte",
+        "nos": "adaptemos",
+        "eles": "adaptem"
+      }
+    }
+  },
+  {
+    "rank": 3509,
+    "word": "prevenir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/pɾeveˈniʁ/",
+    "definition": "Agir antes para evitar um problema.",
+    "examples": [
+      "A vacina previne doenças.",
+      "É melhor prevenir do que remediar.",
+      "Use protetor solar para prevenir queimaduras."
+    ],
+    "spanish": {
+      "word": "prevenir",
+      "definition": "Actuar antes para evitar un problema."
+    },
+    "synonyms": [
+      "evitar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "previno",
+        "voce": "previne",
+        "nos": "prevenimos",
+        "eles": "previnem"
+      },
+      "preterito": {
+        "eu": "preveni",
+        "voce": "preveniu",
+        "nos": "prevenimos",
+        "eles": "preveniram"
+      },
+      "imperfeito": {
+        "eu": "prevenia",
+        "voce": "prevenia",
+        "nos": "preveníamos",
+        "eles": "preveniam"
+      },
+      "futuro": {
+        "eu": "prevenirei",
+        "voce": "prevenirá",
+        "nos": "preveniremos",
+        "eles": "prevenirão"
+      },
+      "subjuntivo": {
+        "eu": "previna",
+        "voce": "previna",
+        "nos": "previnamos",
+        "eles": "previnam"
+      }
+    }
+  },
+  {
+    "rank": 3510,
+    "word": "restaurar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁestawˈɾaʁ/",
+    "definition": "Deixar como era antes; consertar algo antigo.",
+    "examples": [
+      "Eles restauraram a igreja antiga.",
+      "Meu tio restaura móveis velhos.",
+      "O técnico conseguiu restaurar os arquivos."
+    ],
+    "spanish": {
+      "word": "restaurar",
+      "definition": "Dejar como era antes; arreglar algo antiguo."
+    },
+    "synonyms": [
+      "recuperar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "restauro",
+        "voce": "restaura",
+        "nos": "restauramos",
+        "eles": "restauram"
+      },
+      "preterito": {
+        "eu": "restaurei",
+        "voce": "restaurou",
+        "nos": "restauramos",
+        "eles": "restauraram"
+      },
+      "imperfeito": {
+        "eu": "restaurava",
+        "voce": "restaurava",
+        "nos": "restaurávamos",
+        "eles": "restauravam"
+      },
+      "futuro": {
+        "eu": "restaurarei",
+        "voce": "restaurará",
+        "nos": "restauraremos",
+        "eles": "restaurarão"
+      },
+      "subjuntivo": {
+        "eu": "restaure",
+        "voce": "restaure",
+        "nos": "restauremos",
+        "eles": "restaurem"
+      }
+    }
+  },
+  {
+    "rank": 3511,
+    "word": "condenar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kõdeˈnaʁ/",
+    "definition": "Dar uma pena a alguém; dizer que algo é errado.",
+    "examples": [
+      "O juiz condenou o réu a dez anos de prisão.",
+      "Todos condenam a violência.",
+      "Não condene ninguém sem ouvir a história toda."
+    ],
+    "spanish": {
+      "word": "condenar",
+      "definition": "Dar una pena a alguien; decir que algo está mal."
+    },
+    "synonyms": [
+      "sentenciar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "condeno",
+        "voce": "condena",
+        "nos": "condenamos",
+        "eles": "condenam"
+      },
+      "preterito": {
+        "eu": "condenei",
+        "voce": "condenou",
+        "nos": "condenamos",
+        "eles": "condenaram"
+      },
+      "imperfeito": {
+        "eu": "condenava",
+        "voce": "condenava",
+        "nos": "condenávamos",
+        "eles": "condenavam"
+      },
+      "futuro": {
+        "eu": "condenarei",
+        "voce": "condenará",
+        "nos": "condenaremos",
+        "eles": "condenarão"
+      },
+      "subjuntivo": {
+        "eu": "condene",
+        "voce": "condene",
+        "nos": "condenemos",
+        "eles": "condenem"
+      }
+    }
+  },
+  {
+    "rank": 3512,
+    "word": "distribuir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/dʒistɾibuˈiʁ/",
+    "definition": "Dar uma parte para cada pessoa.",
+    "examples": [
+      "A professora distribuiu as provas.",
+      "Eles distribuem comida na praça.",
+      "Vou distribuir os convites hoje."
+    ],
+    "spanish": {
+      "word": "distribuir",
+      "definition": "Dar una parte a cada persona."
+    },
+    "synonyms": [
+      "repartir"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "distribuo",
+        "voce": "distribui",
+        "nos": "distribuímos",
+        "eles": "distribuem"
+      },
+      "preterito": {
+        "eu": "distribuí",
+        "voce": "distribuiu",
+        "nos": "distribuímos",
+        "eles": "distribuíram"
+      },
+      "imperfeito": {
+        "eu": "distribuía",
+        "voce": "distribuía",
+        "nos": "distribuíamos",
+        "eles": "distribuíam"
+      },
+      "futuro": {
+        "eu": "distribuirei",
+        "voce": "distribuirá",
+        "nos": "distribuiremos",
+        "eles": "distribuirão"
+      },
+      "subjuntivo": {
+        "eu": "distribua",
+        "voce": "distribua",
+        "nos": "distribuamos",
+        "eles": "distribuam"
+      }
+    }
+  },
+  {
+    "rank": 3513,
+    "word": "traduzir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/tɾaduˈziʁ/",
+    "definition": "Passar um texto de uma língua para outra.",
+    "examples": [
+      "Você pode traduzir esta frase?",
+      "Ela traduz livros do inglês.",
+      "Traduzi a carta para o espanhol."
+    ],
+    "spanish": {
+      "word": "traducir",
+      "definition": "Pasar un texto de una lengua a otra."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "traduzo",
+        "voce": "traduz",
+        "nos": "traduzimos",
+        "eles": "traduzem"
+      },
+      "preterito": {
+        "eu": "traduzi",
+        "voce": "traduziu",
+        "nos": "traduzimos",
+        "eles": "traduziram"
+      },
+      "imperfeito": {
+        "eu": "traduzia",
+        "voce": "traduzia",
+        "nos": "traduzíamos",
+        "eles": "traduziam"
+      },
+      "futuro": {
+        "eu": "traduzirei",
+        "voce": "traduzirá",
+        "nos": "traduziremos",
+        "eles": "traduzirão"
+      },
+      "subjuntivo": {
+        "eu": "traduza",
+        "voce": "traduza",
+        "nos": "traduzamos",
+        "eles": "traduzam"
+      }
+    }
+  },
+  {
+    "rank": 3514,
+    "word": "atualizar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/atwaliˈzaʁ/",
+    "definition": "Deixar com as informações mais novas.",
+    "examples": [
+      "Preciso atualizar o aplicativo.",
+      "O celular atualizou sozinho.",
+      "Atualize a página, por favor."
+    ],
+    "spanish": {
+      "word": "actualizar",
+      "definition": "Dejar con la información más nueva."
+    },
+    "synonyms": [
+      "renovar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "atualizo",
+        "voce": "atualiza",
+        "nos": "atualizamos",
+        "eles": "atualizam"
+      },
+      "preterito": {
+        "eu": "atualizei",
+        "voce": "atualizou",
+        "nos": "atualizamos",
+        "eles": "atualizaram"
+      },
+      "imperfeito": {
+        "eu": "atualizava",
+        "voce": "atualizava",
+        "nos": "atualizávamos",
+        "eles": "atualizavam"
+      },
+      "futuro": {
+        "eu": "atualizarei",
+        "voce": "atualizará",
+        "nos": "atualizaremos",
+        "eles": "atualizarão"
+      },
+      "subjuntivo": {
+        "eu": "atualize",
+        "voce": "atualize",
+        "nos": "atualizemos",
+        "eles": "atualizem"
+      }
+    }
+  },
+  {
+    "rank": 3515,
+    "word": "imprimir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ĩpɾiˈmiʁ/",
+    "definition": "Passar um texto ou uma foto para o papel com uma máquina.",
+    "examples": [
+      "Vou imprimir o meu currículo.",
+      "A máquina imprime em cores.",
+      "Imprimi as passagens ontem."
+    ],
+    "spanish": {
+      "word": "imprimir",
+      "definition": "Pasar un texto o una foto al papel con una máquina."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "imprimo",
+        "voce": "imprime",
+        "nos": "imprimimos",
+        "eles": "imprimem"
+      },
+      "preterito": {
+        "eu": "imprimi",
+        "voce": "imprimiu",
+        "nos": "imprimimos",
+        "eles": "imprimiram"
+      },
+      "imperfeito": {
+        "eu": "imprimia",
+        "voce": "imprimia",
+        "nos": "imprimíamos",
+        "eles": "imprimiam"
+      },
+      "futuro": {
+        "eu": "imprimirei",
+        "voce": "imprimirá",
+        "nos": "imprimiremos",
+        "eles": "imprimirão"
+      },
+      "subjuntivo": {
+        "eu": "imprima",
+        "voce": "imprima",
+        "nos": "imprimamos",
+        "eles": "imprimam"
+      }
+    }
+  },
+  {
+    "rank": 3516,
+    "word": "criticar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kɾitʃiˈkaʁ/",
+    "definition": "Falar dos erros de alguém ou de algo.",
+    "examples": [
+      "Ele critica tudo o que eu faço.",
+      "O jornal criticou o governo.",
+      "Não critique sem conhecer o trabalho dela."
+    ],
+    "spanish": {
+      "word": "criticar",
+      "definition": "Hablar de los errores de alguien o de algo."
+    },
+    "synonyms": [],
+    "conjugations": {
+      "presente": {
+        "eu": "critico",
+        "voce": "critica",
+        "nos": "criticamos",
+        "eles": "criticam"
+      },
+      "preterito": {
+        "eu": "critiquei",
+        "voce": "criticou",
+        "nos": "criticamos",
+        "eles": "criticaram"
+      },
+      "imperfeito": {
+        "eu": "criticava",
+        "voce": "criticava",
+        "nos": "criticávamos",
+        "eles": "criticavam"
+      },
+      "futuro": {
+        "eu": "criticarei",
+        "voce": "criticará",
+        "nos": "criticaremos",
+        "eles": "criticarão"
+      },
+      "subjuntivo": {
+        "eu": "critique",
+        "voce": "critique",
+        "nos": "critiquemos",
+        "eles": "critiquem"
+      }
+    }
+  },
+  {
+    "rank": 3517,
+    "word": "calcular",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kawkuˈlaʁ/",
+    "definition": "Descobrir um valor fazendo contas.",
+    "examples": [
+      "Vou calcular quanto gastamos.",
+      "Calcule o preço com o desconto.",
+      "O engenheiro calculou o tamanho da ponte."
+    ],
+    "spanish": {
+      "word": "calcular",
+      "definition": "Descubrir un valor haciendo cuentas."
+    },
+    "synonyms": [
+      "contar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "calculo",
+        "voce": "calcula",
+        "nos": "calculamos",
+        "eles": "calculam"
+      },
+      "preterito": {
+        "eu": "calculei",
+        "voce": "calculou",
+        "nos": "calculamos",
+        "eles": "calcularam"
+      },
+      "imperfeito": {
+        "eu": "calculava",
+        "voce": "calculava",
+        "nos": "calculávamos",
+        "eles": "calculavam"
+      },
+      "futuro": {
+        "eu": "calcularei",
+        "voce": "calculará",
+        "nos": "calcularemos",
+        "eles": "calcularão"
+      },
+      "subjuntivo": {
+        "eu": "calcule",
+        "voce": "calcule",
+        "nos": "calculemos",
+        "eles": "calculem"
+      }
+    }
+  },
+  {
+    "rank": 3518,
+    "word": "contribuir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kõtɾibuˈiʁ/",
+    "definition": "Ajudar com algo, como dinheiro ou trabalho.",
+    "examples": [
+      "Todos contribuíram para o presente.",
+      "O exercício contribui para a saúde.",
+      "Quero contribuir com o projeto."
+    ],
+    "spanish": {
+      "word": "contribuir",
+      "definition": "Ayudar con algo, como dinero o trabajo."
+    },
+    "synonyms": [
+      "ajudar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "contribuo",
+        "voce": "contribui",
+        "nos": "contribuímos",
+        "eles": "contribuem"
+      },
+      "preterito": {
+        "eu": "contribuí",
+        "voce": "contribuiu",
+        "nos": "contribuímos",
+        "eles": "contribuíram"
+      },
+      "imperfeito": {
+        "eu": "contribuía",
+        "voce": "contribuía",
+        "nos": "contribuíamos",
+        "eles": "contribuíam"
+      },
+      "futuro": {
+        "eu": "contribuirei",
+        "voce": "contribuirá",
+        "nos": "contribuiremos",
+        "eles": "contribuirão"
+      },
+      "subjuntivo": {
+        "eu": "contribua",
+        "voce": "contribua",
+        "nos": "contribuamos",
+        "eles": "contribuam"
+      }
+    }
+  },
+  {
+    "rank": 3519,
+    "word": "decorar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/dekoˈɾaʁ/",
+    "definition": "Enfeitar um lugar; aprender algo de memória.",
+    "examples": [
+      "Decoramos a sala para o Natal.",
+      "Preciso decorar o texto da peça.",
+      "Ela decorou todos os números de telefone."
+    ],
+    "spanish": {
+      "word": "decorar; memorizar",
+      "definition": "Adornar un lugar; aprender algo de memoria."
+    },
+    "synonyms": [
+      "enfeitar",
+      "memorizar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "decoro",
+        "voce": "decora",
+        "nos": "decoramos",
+        "eles": "decoram"
+      },
+      "preterito": {
+        "eu": "decorei",
+        "voce": "decorou",
+        "nos": "decoramos",
+        "eles": "decoraram"
+      },
+      "imperfeito": {
+        "eu": "decorava",
+        "voce": "decorava",
+        "nos": "decorávamos",
+        "eles": "decoravam"
+      },
+      "futuro": {
+        "eu": "decorarei",
+        "voce": "decorará",
+        "nos": "decoraremos",
+        "eles": "decorarão"
+      },
+      "subjuntivo": {
+        "eu": "decore",
+        "voce": "decore",
+        "nos": "decoremos",
+        "eles": "decorem"
+      }
+    }
+  },
+  {
+    "rank": 3520,
+    "word": "inscrever",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ĩskɾeˈveʁ/",
+    "definition": "Colocar o nome em uma lista para participar.",
+    "examples": [
+      "Vou me inscrever no curso de inglês.",
+      "Ela inscreveu o filho na natação.",
+      "Eles se inscreveram na maratona."
+    ],
+    "spanish": {
+      "word": "inscribir",
+      "definition": "Poner el nombre en una lista para participar."
+    },
+    "synonyms": [
+      "matricular"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "inscrevo",
+        "voce": "inscreve",
+        "nos": "inscrevemos",
+        "eles": "inscrevem"
+      },
+      "preterito": {
+        "eu": "inscrevi",
+        "voce": "inscreveu",
+        "nos": "inscrevemos",
+        "eles": "inscreveram"
+      },
+      "imperfeito": {
+        "eu": "inscrevia",
+        "voce": "inscrevia",
+        "nos": "inscrevíamos",
+        "eles": "inscreviam"
+      },
+      "futuro": {
+        "eu": "inscreverei",
+        "voce": "inscreverá",
+        "nos": "inscreveremos",
+        "eles": "inscreverão"
+      },
+      "subjuntivo": {
+        "eu": "inscreva",
+        "voce": "inscreva",
+        "nos": "inscrevamos",
+        "eles": "inscrevam"
+      }
+    }
+  },
+  {
+    "rank": 3521,
+    "word": "basear",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/bazeˈaʁ/",
+    "definition": "Usar algo como ponto de partida.",
+    "examples": [
+      "O filme se baseia em uma história real.",
+      "Ela baseou a decisão nos números.",
+      "Não baseie a sua opinião em boatos."
+    ],
+    "spanish": {
+      "word": "basar",
+      "definition": "Usar algo como punto de partida."
+    },
+    "synonyms": [
+      "apoiar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "baseio",
+        "voce": "baseia",
+        "nos": "baseamos",
+        "eles": "baseiam"
+      },
+      "preterito": {
+        "eu": "baseei",
+        "voce": "baseou",
+        "nos": "baseamos",
+        "eles": "basearam"
+      },
+      "imperfeito": {
+        "eu": "baseava",
+        "voce": "baseava",
+        "nos": "baseávamos",
+        "eles": "baseavam"
+      },
+      "futuro": {
+        "eu": "basearei",
+        "voce": "baseará",
+        "nos": "basearemos",
+        "eles": "basearão"
+      },
+      "subjuntivo": {
+        "eu": "baseie",
+        "voce": "baseie",
+        "nos": "baseemos",
+        "eles": "baseiem"
+      }
+    }
+  },
+  {
+    "rank": 3522,
+    "word": "bordo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈbɔʁdu/",
+    "definition": "Parte de dentro de um navio ou avião.",
+    "examples": [
+      "Todos os passageiros já estão a bordo.",
+      "O serviço de bordo oferece café e água.",
+      "Há um médico a bordo?"
+    ],
+    "spanish": {
+      "word": "bordo",
+      "definition": "Parte de adentro de un barco o avión."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3523,
+    "word": "mano",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmɐ̃nu/",
+    "definition": "Irmão; jeito informal de chamar um amigo.",
+    "examples": [
+      "Fala, mano, tudo bem?",
+      "Meu mano mora em São Paulo.",
+      "Ô mano, me espera!"
+    ],
+    "spanish": {
+      "word": "hermano",
+      "definition": "Hermano; forma informal de llamar a un amigo."
+    },
+    "synonyms": [
+      "irmão",
+      "cara"
+    ]
+  },
+  {
+    "rank": 3524,
+    "word": "almirante",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/awmiˈɾɐ̃tʃi/",
+    "definition": "Chefe de alto posto na Marinha.",
+    "examples": [
+      "O almirante deu a ordem aos marinheiros.",
+      "Meu avô foi almirante da Marinha.",
+      "O almirante visitou o navio."
+    ],
+    "spanish": {
+      "word": "almirante",
+      "definition": "Jefe de alto rango en la Marina."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3525,
+    "word": "comissário",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/komiˈsaɾiu/",
+    "definition": "Pessoa que cuida dos passageiros no avião; chefe de polícia.",
+    "examples": [
+      "O comissário de bordo trouxe água.",
+      "Minha irmã é comissária em uma companhia aérea.",
+      "O comissário chegou ao local do crime."
+    ],
+    "spanish": {
+      "word": "comisario",
+      "definition": "Persona que cuida a los pasajeros en el avión; jefe de policía."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3526,
+    "word": "reverendo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁeveˈɾẽdu/",
+    "definition": "Título de respeito para padres e pastores.",
+    "examples": [
+      "O reverendo falou na missa de domingo.",
+      "O reverendo casou os meus pais.",
+      "Pedimos um conselho ao reverendo."
+    ],
+    "spanish": {
+      "word": "reverendo",
+      "definition": "Título de respeto para sacerdotes y pastores."
+    },
+    "synonyms": [
+      "padre",
+      "pastor"
+    ]
+  },
+  {
+    "rank": 3527,
+    "word": "interrogatório",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩteʁogaˈtɔɾiu/",
+    "definition": "Série de perguntas que a polícia faz a uma pessoa.",
+    "examples": [
+      "O interrogatório durou três horas.",
+      "O suspeito ficou calado durante o interrogatório.",
+      "A polícia marcou o interrogatório para amanhã."
+    ],
+    "spanish": {
+      "word": "interrogatorio",
+      "definition": "Serie de preguntas que la policía le hace a una persona."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3528,
+    "word": "informante",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩfoʁˈmɐ̃tʃi/",
+    "definition": "Pessoa que passa informações em segredo.",
+    "examples": [
+      "A polícia tem um informante na quadrilha.",
+      "O informante pediu para não mostrar o rosto.",
+      "O jornalista protegeu a sua informante."
+    ],
+    "spanish": {
+      "word": "informante",
+      "definition": "Persona que pasa información en secreto."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3529,
+    "word": "duque",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈduki/",
+    "definition": "Homem nobre de título muito alto.",
+    "examples": [
+      "O duque mora em um castelo.",
+      "A filha do duque casou com um príncipe.",
+      "O duque e a duquesa chegaram à festa."
+    ],
+    "spanish": {
+      "word": "duque",
+      "definition": "Hombre noble de título muy alto."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3530,
+    "word": "gatinho",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gaˈtʃiɲu/",
+    "definition": "Gato pequeno ou filhote de gato.",
+    "examples": [
+      "Encontrei um gatinho na rua.",
+      "A gatinha dorme no sofá.",
+      "Nossa gata teve quatro gatinhos."
+    ],
+    "spanish": {
+      "word": "gatito",
+      "definition": "Gato pequeño o cría de gato."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3531,
+    "word": "barão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/baˈɾɐ̃w̃/",
+    "definition": "Homem nobre; homem muito rico de um negócio.",
+    "examples": [
+      "O barão era dono de toda a terra.",
+      "Essa casa foi de um barão do café.",
+      "A rua tem o nome de um barão."
+    ],
+    "spanish": {
+      "word": "barón",
+      "definition": "Hombre noble; hombre muy rico de un negocio."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3532,
+    "word": "telegrama",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/teleˈgɾɐmɐ/",
+    "definition": "Mensagem curta enviada pelo correio.",
+    "examples": [
+      "Recebi um telegrama do banco.",
+      "Antigamente as pessoas mandavam telegramas.",
+      "O telegrama chegou de manhã."
+    ],
+    "spanish": {
+      "word": "telegrama",
+      "definition": "Mensaje corto enviado por correo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3533,
+    "word": "santuário",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/sɐ̃tuˈaɾiu/",
+    "definition": "Lugar sagrado; lugar onde os animais são protegidos.",
+    "examples": [
+      "Milhões de pessoas visitam o santuário de Aparecida.",
+      "Este parque é um santuário de aves.",
+      "Rezamos no santuário da cidade."
+    ],
+    "spanish": {
+      "word": "santuario",
+      "definition": "Lugar sagrado; lugar donde se protege a los animales."
+    },
+    "synonyms": [
+      "templo"
+    ]
+  },
+  {
+    "rank": 3534,
+    "word": "substituto",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/substʃiˈtutu/",
+    "definition": "Pessoa ou coisa que fica no lugar de outra.",
+    "examples": [
+      "Hoje temos um professor substituto.",
+      "O técnico chamou o substituto do goleiro.",
+      "A chefe procura uma substituta para o João."
+    ],
+    "spanish": {
+      "word": "sustituto",
+      "definition": "Persona o cosa que queda en el lugar de otra."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3535,
+    "word": "guardião",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gwaʁdʒiˈɐ̃w̃/",
+    "definition": "Pessoa que protege algo ou alguém.",
+    "examples": [
+      "Ele é o guardião da família.",
+      "Os povos indígenas são guardiões da floresta.",
+      "A avó é a guardiã das receitas antigas."
+    ],
+    "spanish": {
+      "word": "guardián",
+      "definition": "Persona que protege algo o a alguien."
+    },
+    "synonyms": [
+      "protetor"
+    ]
+  },
+  {
+    "rank": 3536,
+    "word": "asilo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/aˈzilu/",
+    "definition": "Casa onde moram idosos; proteção dada por um país.",
+    "examples": [
+      "Minha avó mora em um asilo.",
+      "Ele pediu asilo no Canadá.",
+      "Visitamos o asilo no domingo."
+    ],
+    "spanish": {
+      "word": "asilo",
+      "definition": "Casa donde viven ancianos; protección dada por un país."
+    },
+    "synonyms": [
+      "refúgio"
+    ]
+  },
+  {
+    "rank": 3537,
+    "word": "convenção",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõvẽˈsɐ̃w̃/",
+    "definition": "Grande reunião de pessoas; acordo entre grupos.",
+    "examples": [
+      "A convenção de quadrinhos foi um sucesso.",
+      "Os países assinaram uma convenção.",
+      "Fomos a uma convenção de vendas em Salvador."
+    ],
+    "spanish": {
+      "word": "convención",
+      "definition": "Gran reunión de personas; acuerdo entre grupos."
+    },
+    "synonyms": [
+      "acordo"
+    ]
+  },
+  {
+    "rank": 3538,
+    "word": "fardo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈfaʁdu/",
+    "definition": "Coisa pesada; problema difícil de carregar.",
+    "examples": [
+      "Ele carregava um fardo de palha.",
+      "Não quero ser um fardo para ninguém.",
+      "Comprei um fardo de água."
+    ],
+    "spanish": {
+      "word": "carga",
+      "definition": "Cosa pesada; problema difícil de llevar."
+    },
+    "synonyms": [
+      "peso"
+    ]
+  },
+  {
+    "rank": 3539,
+    "word": "legado",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/leˈgadu/",
+    "definition": "O que alguém deixa para as pessoas depois da morte.",
+    "examples": [
+      "O escritor deixou um grande legado.",
+      "Esse é o legado do meu avô.",
+      "A educação é o melhor legado."
+    ],
+    "spanish": {
+      "word": "legado",
+      "definition": "Lo que alguien deja a las personas después de morir."
+    },
+    "synonyms": [
+      "herança"
+    ]
+  },
+  {
+    "rank": 3540,
+    "word": "sermão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/seʁˈmɐ̃w̃/",
+    "definition": "Fala do padre na missa; bronca longa.",
+    "examples": [
+      "O padre fez um sermão sobre o perdão.",
+      "Minha mãe me deu um sermão.",
+      "Não preciso de sermão agora."
+    ],
+    "spanish": {
+      "word": "sermón",
+      "definition": "Discurso del sacerdote en la misa; regaño largo."
+    },
+    "synonyms": [
+      "bronca"
+    ]
+  },
+  {
+    "rank": 3541,
+    "word": "orfanato",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/oʁfaˈnatu/",
+    "definition": "Casa onde moram crianças sem pais.",
+    "examples": [
+      "Ele cresceu em um orfanato.",
+      "Levamos brinquedos para o orfanato.",
+      "O orfanato precisa de doações."
+    ],
+    "spanish": {
+      "word": "orfanato",
+      "definition": "Casa donde viven niños sin padres."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3542,
+    "word": "gerador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʒeɾaˈdoʁ/",
+    "definition": "Máquina que produz eletricidade.",
+    "examples": [
+      "O hospital tem um gerador próprio.",
+      "Ligaram o gerador quando a luz acabou.",
+      "O gerador faz muito barulho."
+    ],
+    "spanish": {
+      "word": "generador",
+      "definition": "Máquina que produce electricidad."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3543,
+    "word": "supremo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/suˈpɾemu/",
+    "definition": "Que está acima de todos.",
+    "examples": [
+      "O Supremo Tribunal decidiu o caso.",
+      "Essa é a autoridade suprema do país.",
+      "Foi um esforço supremo."
+    ],
+    "spanish": {
+      "word": "supremo",
+      "definition": "Que está por encima de todos."
+    },
+    "synonyms": [
+      "máximo"
+    ]
+  },
+  {
+    "rank": 3544,
+    "word": "fundamental",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/fũdamẽˈtaw/",
+    "definition": "Muito importante; que é a base de algo.",
+    "examples": [
+      "A água é fundamental para a vida.",
+      "Seu apoio foi fundamental.",
+      "Meu filho está no ensino fundamental."
+    ],
+    "spanish": {
+      "word": "fundamental",
+      "definition": "Muy importante; que es la base de algo."
+    },
+    "synonyms": [
+      "essencial"
+    ]
+  },
+  {
+    "rank": 3545,
+    "word": "soro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈsoɾu/",
+    "definition": "Líquido que o paciente recebe na veia; líquido do leite.",
+    "examples": [
+      "A enfermeira colocou soro no meu braço.",
+      "Ele tomou soro no hospital.",
+      "O soro do leite é rico em proteína."
+    ],
+    "spanish": {
+      "word": "suero",
+      "definition": "Líquido que el paciente recibe en la vena; líquido de la leche."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3546,
+    "word": "acompanhante",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/akõpɐ̃ˈɲɐ̃tʃi/",
+    "definition": "Pessoa que vai junto com outra.",
+    "examples": [
+      "O paciente pode ter um acompanhante.",
+      "Ela foi ao casamento sem acompanhante.",
+      "Cada criança precisa de uma acompanhante."
+    ],
+    "spanish": {
+      "word": "acompañante",
+      "definition": "Persona que va junto con otra."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3547,
+    "word": "rim",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁĩ/",
+    "definition": "Órgão que limpa o sangue e produz a urina.",
+    "examples": [
+      "Ele tem pedra no rim.",
+      "Temos dois rins.",
+      "O médico examinou o meu rim."
+    ],
+    "spanish": {
+      "word": "riñón",
+      "definition": "Órgano que limpia la sangre y produce la orina."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3548,
+    "word": "vara",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈvaɾɐ/",
+    "definition": "Pau fino e comprido.",
+    "examples": [
+      "Meu avô pesca com vara de bambu.",
+      "O menino bateu na árvore com uma vara.",
+      "Comprei uma vara de pescar nova."
+    ],
+    "spanish": {
+      "word": "vara",
+      "definition": "Palo delgado y largo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3549,
+    "word": "genética",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʒeˈnɛtʃikɐ/",
+    "definition": "Ciência que estuda o que herdamos dos pais.",
+    "examples": [
+      "Ela estuda genética na faculdade.",
+      "A cor dos olhos depende da genética.",
+      "Essa doença tem a ver com a genética."
+    ],
+    "spanish": {
+      "word": "genética",
+      "definition": "Ciencia que estudia lo que heredamos de los padres."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3550,
+    "word": "senado",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/seˈnadu/",
+    "definition": "Parte do Congresso que vota as leis.",
+    "examples": [
+      "O Senado aprovou a nova lei.",
+      "Ele trabalha no Senado em Brasília.",
+      "A proposta será votada no Senado."
+    ],
+    "spanish": {
+      "word": "senado",
+      "definition": "Parte del Congreso que vota las leyes."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3551,
+    "word": "cordeiro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/koʁˈdejɾu/",
+    "definition": "Filhote de ovelha.",
+    "examples": [
+      "O cordeiro segue a mãe no campo.",
+      "Comemos carne de cordeiro no almoço.",
+      "Ela é mansa como um cordeiro."
+    ],
+    "spanish": {
+      "word": "cordero",
+      "definition": "Cría de oveja."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3552,
+    "word": "cooperação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/koopeɾaˈsɐ̃w̃/",
+    "definition": "Trabalho feito em conjunto.",
+    "examples": [
+      "Agradeço a sua cooperação.",
+      "Os dois países têm um acordo de cooperação.",
+      "Sem cooperação, o projeto não anda."
+    ],
+    "spanish": {
+      "word": "cooperación",
+      "definition": "Trabajo hecho en conjunto."
+    },
+    "synonyms": [
+      "colaboração"
+    ]
+  },
+  {
+    "rank": 3553,
+    "word": "supervisor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/supeʁviˈzoʁ/",
+    "definition": "Pessoa que controla o trabalho dos outros.",
+    "examples": [
+      "Fale com o supervisor da loja.",
+      "Ela foi promovida a supervisora.",
+      "Meu supervisor aprovou as férias."
+    ],
+    "spanish": {
+      "word": "supervisor",
+      "definition": "Persona que controla el trabajo de los demás."
+    },
+    "synonyms": [
+      "chefe"
+    ]
+  },
+  {
+    "rank": 3554,
+    "word": "oriental",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/oɾiẽˈtaw/",
+    "definition": "Do leste; da Ásia.",
+    "examples": [
+      "Adoro comida oriental.",
+      "O bairro tem um mercado oriental.",
+      "Ela estuda medicina oriental."
+    ],
+    "spanish": {
+      "word": "oriental",
+      "definition": "Del este; de Asia."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3555,
+    "word": "embaraçoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ẽbaɾaˈsozu/",
+    "definition": "Que deixa a pessoa com vergonha.",
+    "examples": [
+      "Foi uma situação embaraçosa.",
+      "Ele fez uma pergunta embaraçosa.",
+      "Que momento embaraçoso!"
+    ],
+    "spanish": {
+      "word": "embarazoso",
+      "definition": "Que deja a la persona con vergüenza."
+    },
+    "synonyms": [
+      "constrangedor"
+    ]
+  },
+  {
+    "rank": 3556,
+    "word": "altar",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/awˈtaʁ/",
+    "definition": "Mesa da igreja onde se faz a missa.",
+    "examples": [
+      "O padre está no altar.",
+      "A noiva caminhou até o altar.",
+      "Colocaram flores no altar."
+    ],
+    "spanish": {
+      "word": "altar",
+      "definition": "Mesa de la iglesia donde se hace la misa."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3557,
+    "word": "expedição",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/espedʒiˈsɐ̃w̃/",
+    "definition": "Viagem feita com um objetivo especial.",
+    "examples": [
+      "A expedição subiu o rio Amazonas.",
+      "Eles organizaram uma expedição à montanha.",
+      "Os cientistas voltaram da expedição."
+    ],
+    "spanish": {
+      "word": "expedición",
+      "definition": "Viaje hecho con un objetivo especial."
+    },
+    "synonyms": [
+      "viagem"
+    ]
+  },
+  {
+    "rank": 3558,
+    "word": "massacre",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/maˈsakɾi/",
+    "definition": "Morte de muitas pessoas de forma cruel; derrota muito grande.",
+    "examples": [
+      "O massacre chocou o país.",
+      "O jogo foi um massacre: sete a zero.",
+      "Muitas famílias morreram no massacre."
+    ],
+    "spanish": {
+      "word": "masacre",
+      "definition": "Muerte de muchas personas de forma cruel; derrota muy grande."
+    },
+    "synonyms": [
+      "matança"
+    ]
+  },
+  {
+    "rank": 3559,
+    "word": "culto",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/ˈkuwtu/",
+    "definition": "Cerimônia religiosa; pessoa que sabe muito.",
+    "examples": [
+      "Vamos ao culto no domingo.",
+      "Ele é um homem culto.",
+      "O culto começa às sete horas."
+    ],
+    "spanish": {
+      "word": "culto",
+      "definition": "Ceremonia religiosa; persona que sabe mucho."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3560,
+    "word": "serpente",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/seʁˈpẽtʃi/",
+    "definition": "Cobra.",
+    "examples": [
+      "A serpente se escondeu nas pedras.",
+      "Há serpentes venenosas na mata.",
+      "Ela tem uma serpente tatuada no braço."
+    ],
+    "spanish": {
+      "word": "serpiente",
+      "definition": "Culebra."
+    },
+    "synonyms": [
+      "cobra"
+    ]
+  },
+  {
+    "rank": 3561,
+    "word": "carbono",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kaʁˈbonu/",
+    "definition": "Elemento químico presente em todos os seres vivos.",
+    "examples": [
+      "O diamante é feito de carbono.",
+      "As árvores absorvem carbono.",
+      "A empresa quer reduzir a emissão de carbono."
+    ],
+    "spanish": {
+      "word": "carbono",
+      "definition": "Elemento químico presente en todos los seres vivos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3562,
+    "word": "pacto",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈpaktu/",
+    "definition": "Acordo sério entre pessoas ou grupos.",
+    "examples": [
+      "Fizemos um pacto de silêncio.",
+      "Os dois partidos assinaram um pacto.",
+      "Eles quebraram o pacto."
+    ],
+    "spanish": {
+      "word": "pacto",
+      "definition": "Acuerdo serio entre personas o grupos."
+    },
+    "synonyms": [
+      "acordo"
+    ]
+  },
+  {
+    "rank": 3563,
+    "word": "banquete",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/bɐ̃ˈketʃi/",
+    "definition": "Refeição grande e festiva.",
+    "examples": [
+      "O almoço de domingo foi um banquete.",
+      "O rei ofereceu um banquete.",
+      "Minha avó preparou um banquete para nós."
+    ],
+    "spanish": {
+      "word": "banquete",
+      "definition": "Comida grande y festiva."
+    },
+    "synonyms": [
+      "festa"
+    ]
+  },
+  {
+    "rank": 3564,
+    "word": "cápsula",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈkapsulɐ/",
+    "definition": "Remédio em forma de pequeno tubo; pequeno recipiente fechado.",
+    "examples": [
+      "Tome uma cápsula por dia.",
+      "Comprei cápsulas de café.",
+      "A cápsula espacial voltou à Terra."
+    ],
+    "spanish": {
+      "word": "cápsula",
+      "definition": "Medicina en forma de tubo pequeño; pequeño recipiente cerrado."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3565,
+    "word": "finanças",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/fiˈnɐ̃sɐs/",
+    "definition": "O dinheiro e as contas de uma pessoa ou empresa.",
+    "examples": [
+      "Preciso organizar as minhas finanças.",
+      "Ele trabalha na área de finanças.",
+      "O ministro das Finanças deu uma entrevista."
+    ],
+    "spanish": {
+      "word": "finanzas",
+      "definition": "El dinero y las cuentas de una persona o empresa."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3566,
+    "word": "procurador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɾokuɾaˈdoʁ/",
+    "definition": "Advogado do governo; pessoa que age em nome de outra.",
+    "examples": [
+      "O procurador abriu uma investigação.",
+      "Ela é procuradora do estado.",
+      "Meu irmão foi meu procurador na venda da casa."
+    ],
+    "spanish": {
+      "word": "procurador",
+      "definition": "Abogado del gobierno; persona que actúa en nombre de otra."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3567,
+    "word": "sentimental",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/sẽtʃimẽˈtaw/",
+    "definition": "Que sente e se emociona muito.",
+    "examples": [
+      "Essa foto tem valor sentimental.",
+      "Ele é muito sentimental.",
+      "Ouvimos uma música sentimental."
+    ],
+    "spanish": {
+      "word": "sentimental",
+      "definition": "Que siente y se emociona mucho."
+    },
+    "synonyms": [
+      "emotivo"
+    ]
+  },
+  {
+    "rank": 3568,
+    "word": "chocante",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʃoˈkɐ̃tʃi/",
+    "definition": "Que causa grande surpresa ou horror.",
+    "examples": [
+      "A notícia foi chocante.",
+      "O filme tem cenas chocantes.",
+      "É chocante ver tanta pobreza."
+    ],
+    "spanish": {
+      "word": "impactante",
+      "definition": "Que causa gran sorpresa u horror."
+    },
+    "synonyms": [
+      "impressionante"
+    ]
+  },
+  {
+    "rank": 3569,
+    "word": "talentoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/talẽˈtozu/",
+    "definition": "Que faz algo muito bem de forma natural.",
+    "examples": [
+      "Ele é um pianista talentoso.",
+      "Minha filha é muito talentosa.",
+      "O time tem jogadores talentosos."
+    ],
+    "spanish": {
+      "word": "talentoso",
+      "definition": "Que hace algo muy bien de forma natural."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3570,
+    "word": "deprimido",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/depɾiˈmidu/",
+    "definition": "Muito triste e sem ânimo.",
+    "examples": [
+      "Ele anda deprimido desde o divórcio.",
+      "Ela ficou deprimida depois da demissão.",
+      "Hoje estou meio deprimido."
+    ],
+    "spanish": {
+      "word": "deprimido",
+      "definition": "Muy triste y sin ánimo."
+    },
+    "synonyms": [
+      "triste"
+    ]
+  },
+  {
+    "rank": 3571,
+    "word": "convincente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/kõvĩˈsẽtʃi/",
+    "definition": "Que faz as pessoas acreditarem.",
+    "examples": [
+      "A resposta dele não foi convincente.",
+      "Ela deu um argumento convincente.",
+      "O ator foi muito convincente."
+    ],
+    "spanish": {
+      "word": "convincente",
+      "definition": "Que hace creer a las personas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3572,
+    "word": "exibição",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ezibiˈsɐ̃w̃/",
+    "definition": "Ato de mostrar algo ao público.",
+    "examples": [
+      "O filme está em exibição no cinema.",
+      "Assistimos a uma exibição de aviões.",
+      "Foi uma exibição incrível do time."
+    ],
+    "spanish": {
+      "word": "exhibición",
+      "definition": "Acto de mostrar algo al público."
+    },
+    "synonyms": [
+      "apresentação"
+    ]
+  },
+  {
+    "rank": 3573,
+    "word": "imortal",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/imoʁˈtaw/",
+    "definition": "Que nunca morre.",
+    "examples": [
+      "Ninguém é imortal.",
+      "Essa música é imortal.",
+      "Os deuses gregos eram imortais."
+    ],
+    "spanish": {
+      "word": "inmortal",
+      "definition": "Que nunca muere."
+    },
+    "synonyms": [
+      "eterno"
+    ]
+  },
+  {
+    "rank": 3574,
+    "word": "agitado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/aʒiˈtadu/",
+    "definition": "Cheio de movimento; nervoso.",
+    "examples": [
+      "Tive um dia muito agitado.",
+      "O mar está agitado hoje.",
+      "As crianças ficaram agitadas com a festa."
+    ],
+    "spanish": {
+      "word": "agitado",
+      "definition": "Lleno de movimiento; nervioso."
+    },
+    "synonyms": [
+      "nervoso"
+    ]
+  },
+  {
+    "rank": 3575,
+    "word": "silencioso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/silẽsiˈozu/",
+    "definition": "Sem barulho.",
+    "examples": [
+      "A biblioteca é um lugar silencioso.",
+      "A rua fica silenciosa à noite.",
+      "Esse carro é muito silencioso."
+    ],
+    "spanish": {
+      "word": "silencioso",
+      "definition": "Sin ruido."
+    },
+    "synonyms": [
+      "quieto"
+    ]
+  },
+  {
+    "rank": 3576,
+    "word": "orientação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/oɾiẽtaˈsɐ̃w̃/",
+    "definition": "Conselho sobre o que fazer; direção.",
+    "examples": [
+      "Peça orientação ao seu professor.",
+      "O médico me deu uma orientação clara.",
+      "Perdi a orientação na mata."
+    ],
+    "spanish": {
+      "word": "orientación",
+      "definition": "Consejo sobre qué hacer; dirección."
+    },
+    "synonyms": [
+      "conselho"
+    ]
+  },
+  {
+    "rank": 3577,
+    "word": "corporal",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/koʁpoˈɾaw/",
+    "definition": "Do corpo.",
+    "examples": [
+      "Comprei um creme corporal.",
+      "A linguagem corporal diz muito.",
+      "O enfermeiro mediu a temperatura corporal."
+    ],
+    "spanish": {
+      "word": "corporal",
+      "definition": "Del cuerpo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3578,
+    "word": "barril",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/baˈʁiw/",
+    "definition": "Recipiente grande e redondo para líquidos.",
+    "examples": [
+      "O vinho fica em barris de madeira.",
+      "O preço do barril de petróleo subiu.",
+      "Compramos um barril de chope."
+    ],
+    "spanish": {
+      "word": "barril",
+      "definition": "Recipiente grande y redondo para líquidos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3579,
+    "word": "irlandês",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/iʁlɐ̃ˈdes/",
+    "definition": "Da Irlanda; pessoa que nasceu lá.",
+    "examples": [
+      "Conheci um irlandês em Dublin.",
+      "A música irlandesa é muito alegre.",
+      "Ela é casada com um irlandês."
+    ],
+    "spanish": {
+      "word": "irlandés",
+      "definition": "De Irlanda; persona que nació allí."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 3580,
+    "word": "tendência",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/tẽˈdẽsiɐ/",
+    "definition": "O que costuma acontecer; moda do momento.",
+    "examples": [
+      "Essa cor é tendência este ano.",
+      "Ele tem tendência a engordar.",
+      "A tendência é o preço cair."
+    ],
+    "spanish": {
+      "word": "tendencia",
+      "definition": "Lo que suele pasar; moda del momento."
+    },
+    "synonyms": [
+      "moda"
+    ]
+  },
+  {
+    "rank": 3581,
+    "word": "plantão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/plɐ̃ˈtɐ̃w̃/",
+    "definition": "Horário de trabalho fora do normal, como à noite.",
+    "examples": [
+      "A médica está de plantão hoje.",
+      "Ele dá plantão no hospital aos domingos.",
+      "Procure uma farmácia de plantão."
+    ],
+    "spanish": {
+      "word": "guardia",
+      "definition": "Horario de trabajo fuera de lo normal, como de noche."
+    },
+    "synonyms": []
+  }
+]

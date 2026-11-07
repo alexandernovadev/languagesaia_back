@@ -5,18 +5,12 @@ import { aiLimiter } from "../middlewares/rateLimiters";
 import {
   createExpression, getExpressionById, getExpressions, updateExpression, deleteExpression,
   getExpressionByExpression, getExpressionsByType, getExpressionsOnly,
-  exportExpressionsToJSON, importExpressionsFromFile,
   addChatMessage, getChatHistory, clearChatHistory, streamChatResponse, generateExpression,
   updateImageExpression,
 } from "../controllers/expressionController";
-import { createJsonUploadMiddleware } from "../middlewares/uploadMiddleware";
 
 const router = Router();
 router.param("id", validateObjectId);
-
-// Import/Export routes (MUST BE BEFORE DYNAMIC ROUTES)
-router.get("/export-file", exportExpressionsToJSON);
-router.post("/import-file", requireAdmin, ...createJsonUploadMiddleware(), importExpressionsFromFile);
 
 // AI Generation routes
 router.post("/generate", aiLimiter, generateExpression);
