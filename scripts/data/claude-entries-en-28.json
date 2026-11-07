@@ -1,0 +1,2272 @@
+[
+ {
+  "rank": 2623,
+  "word": "combination",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌkɑːmbɪˈneɪʃən/",
+  "definition": "Two or more things put together.",
+  "examples": [
+   "Red and blue is a nice combination.",
+   "Do you know the combination to the safe?",
+   "It's a combination of luck and hard work."
+  ],
+  "spanish": {
+   "word": "combinación",
+   "definition": "Dos o más cosas juntas."
+  },
+  "synonyms": [
+   "mix"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2624,
+  "word": "nanny",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnæni/",
+  "definition": "A person who is paid to take care of children at home.",
+  "examples": [
+   "The nanny takes the kids to school.",
+   "We hired a nanny for the baby.",
+   "She worked as a nanny in New York."
+  ],
+  "spanish": {
+   "word": "niñera",
+   "definition": "Persona a la que se le paga por cuidar niños en casa."
+  },
+  "synonyms": [
+   "babysitter"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2625,
+  "word": "develop",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/dɪˈveləp/",
+  "definition": "To grow or to change into something better; to create something new.",
+  "examples": [
+   "The company is developing a new app.",
+   "Children develop quickly.",
+   "She developed a bad cough."
+  ],
+  "spanish": {
+   "word": "desarrollar",
+   "definition": "Crecer o cambiar a algo mejor; crear algo nuevo."
+  },
+  "synonyms": [
+   "grow"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "develop",
+    "past": "developed",
+    "participle": "developed",
+    "gerund": "developing",
+    "third": "develops"
+   }
+  }
+ },
+ {
+  "rank": 2626,
+  "word": "severe",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/sɪˈvɪr/",
+  "definition": "Very bad or very serious.",
+  "examples": [
+   "He has severe back pain.",
+   "There's a severe storm coming.",
+   "She had a severe headache."
+  ],
+  "spanish": {
+   "word": "severo / grave",
+   "definition": "Muy malo o muy serio."
+  },
+  "synonyms": [
+   "serious"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2627,
+  "word": "organized",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈɔːrɡənaɪzd/",
+  "definition": "Planned well; able to keep things in order.",
+  "examples": [
+   "She's a very organized person.",
+   "We went on an organized tour.",
+   "My desk is clean and organized."
+  ],
+  "spanish": {
+   "word": "organizado",
+   "definition": "Bien planeado; que mantiene las cosas en orden."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2628,
+  "word": "splendid",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈsplendɪd/",
+  "definition": "Very beautiful or very good.",
+  "examples": [
+   "We had a splendid view of the lake.",
+   "What a splendid idea!",
+   "They live in a splendid house."
+  ],
+  "spanish": {
+   "word": "espléndido",
+   "definition": "Muy bonito o muy bueno."
+  },
+  "synonyms": [
+   "excellent"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2629,
+  "word": "vulnerable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈvʌlnərəbəl/",
+  "definition": "Easy to hurt or attack.",
+  "examples": [
+   "Old people are more vulnerable to the flu.",
+   "She felt vulnerable and alone.",
+   "Young animals are vulnerable to attack."
+  ],
+  "spanish": {
+   "word": "vulnerable",
+   "definition": "Fácil de lastimar o atacar."
+  },
+  "synonyms": [
+   "weak"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2630,
+  "word": "vital",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈvaɪtəl/",
+  "definition": "Very important; necessary.",
+  "examples": [
+   "Water is vital for life.",
+   "It's vital that you take this medicine.",
+   "She played a vital role in the team."
+  ],
+  "spanish": {
+   "word": "vital",
+   "definition": "Muy importante; necesario."
+  },
+  "synonyms": [
+   "essential"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2631,
+  "word": "bureau",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbjʊroʊ/",
+  "definition": "A government office; a piece of furniture with drawers.",
+  "examples": [
+   "He works for the Federal Bureau of Investigation.",
+   "She called the travel bureau.",
+   "My socks are in the top drawer of the bureau."
+  ],
+  "spanish": {
+   "word": "oficina / cómoda",
+   "definition": "Oficina del gobierno; mueble con cajones."
+  },
+  "synonyms": [
+   "office"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2632,
+  "word": "retreat",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/rɪˈtriːt/",
+  "definition": "To move back from danger; a quiet place to rest.",
+  "examples": [
+   "The soldiers had to retreat.",
+   "The army retreated to the hills.",
+   "They own a mountain retreat."
+  ],
+  "spanish": {
+   "word": "retirarse / refugio",
+   "definition": "Moverse hacia atrás por peligro; lugar tranquilo para descansar."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "retreat",
+    "past": "retreated",
+    "participle": "retreated",
+    "gerund": "retreating",
+    "third": "retreats"
+   }
+  }
+ },
+ {
+  "rank": 2633,
+  "word": "cart",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kɑːrt/",
+  "definition": "A vehicle you push in a store; a small vehicle with wheels.",
+  "examples": [
+   "Put the milk in the shopping cart.",
+   "He pushed the cart to the car.",
+   "We rented a golf cart."
+  ],
+  "spanish": {
+   "word": "carrito",
+   "definition": "Vehículo que empujas en una tienda; vehículo pequeño con ruedas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2634,
+  "word": "announce",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/əˈnaʊns/",
+  "definition": "To tell people something important in public.",
+  "examples": [
+   "They announced their wedding date.",
+   "The pilot announced a delay.",
+   "The president will announce the news tonight."
+  ],
+  "spanish": {
+   "word": "anunciar",
+   "definition": "Decir algo importante en público."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "announce",
+    "past": "announced",
+    "participle": "announced",
+    "gerund": "announcing",
+    "third": "announces"
+   }
+  }
+ },
+ {
+  "rank": 2635,
+  "word": "galaxy",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɡæləksi/",
+  "definition": "A very large group of stars.",
+  "examples": [
+   "Our galaxy is called the Milky Way.",
+   "There are billions of galaxies.",
+   "The ship came from another galaxy."
+  ],
+  "spanish": {
+   "word": "galaxia",
+   "definition": "Grupo muy grande de estrellas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2636,
+  "word": "jewelry",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdʒuːəlri/",
+  "definition": "Rings, necklaces and other beautiful things you wear.",
+  "examples": [
+   "She wears a lot of gold jewelry.",
+   "They stole her jewelry.",
+   "He bought her jewelry for their anniversary."
+  ],
+  "spanish": {
+   "word": "joyas",
+   "definition": "Anillos, collares y otras cosas bonitas que te pones."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2637,
+  "word": "groom",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɡruːm/",
+  "definition": "A man on the day of his wedding.",
+  "examples": [
+   "The groom looked nervous.",
+   "The bride and groom danced first.",
+   "He's the groom's brother."
+  ],
+  "spanish": {
+   "word": "novio",
+   "definition": "Hombre el día de su boda."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2638,
+  "word": "oops",
+  "type": [
+   "interjection"
+  ],
+  "IPA": "/uːps/",
+  "definition": "A word you say when you make a small mistake.",
+  "examples": [
+   "Oops, I dropped my phone.",
+   "Oops! Sorry about that.",
+   "Oops, I sent the wrong email."
+  ],
+  "spanish": {
+   "word": "ups",
+   "definition": "Palabra que dices cuando cometes un error pequeño."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2639,
+  "word": "alliance",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/əˈlaɪəns/",
+  "definition": "An agreement between countries or groups to work together.",
+  "examples": [
+   "The two countries formed an alliance.",
+   "The alliance ended after the war.",
+   "Our company made an alliance with a bank."
+  ],
+  "spanish": {
+   "word": "alianza",
+   "definition": "Acuerdo entre países o grupos para trabajar juntos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2640,
+  "word": "alike",
+  "type": [
+   "adjective",
+   "adverb"
+  ],
+  "IPA": "/əˈlaɪk/",
+  "definition": "Similar; in the same way.",
+  "examples": [
+   "The two sisters look alike.",
+   "We think alike.",
+   "All these houses look alike to me."
+  ],
+  "spanish": {
+   "word": "parecido / igual",
+   "definition": "Similar; de la misma forma."
+  },
+  "synonyms": [
+   "similar"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2641,
+  "word": "burger",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbɜːrɡər/",
+  "definition": "Cooked meat in a round piece of bread.",
+  "examples": [
+   "I'd like a burger and fries.",
+   "He made burgers on the grill.",
+   "This place has the best burgers in town."
+  ],
+  "spanish": {
+   "word": "hamburguesa",
+   "definition": "Carne cocinada dentro de un pan redondo."
+  },
+  "synonyms": [
+   "hamburger"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2642,
+  "word": "wreck",
+  "type": [
+   "noun",
+   "verb"
+  ],
+  "IPA": "/rek/",
+  "definition": "A car, ship or plane that is badly damaged; to destroy something.",
+  "examples": [
+   "They found the wreck of a ship.",
+   "He wrecked his new car.",
+   "She was killed in a car wreck."
+  ],
+  "spanish": {
+   "word": "naufragio / destrozar",
+   "definition": "Carro, barco o avión muy dañado; destruir algo."
+  },
+  "synonyms": [
+   "destroy"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "wreck",
+    "past": "wrecked",
+    "participle": "wrecked",
+    "gerund": "wrecking",
+    "third": "wrecks"
+   }
+  }
+ },
+ {
+  "rank": 2643,
+  "word": "approve",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/əˈpruːv/",
+  "definition": "To think something is good; to officially agree to something.",
+  "examples": [
+   "My parents don't approve of my boyfriend.",
+   "The bank approved our loan.",
+   "The boss approved the plan."
+  ],
+  "spanish": {
+   "word": "aprobar",
+   "definition": "Pensar que algo es bueno; aceptar algo oficialmente."
+  },
+  "synonyms": [
+   "accept"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "approve",
+    "past": "approved",
+    "participle": "approved",
+    "gerund": "approving",
+    "third": "approves"
+   }
+  }
+ },
+ {
+  "rank": 2644,
+  "word": "spiritual",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈspɪrɪtʃuəl/",
+  "definition": "Related to the soul or religion.",
+  "examples": [
+   "She's a very spiritual person.",
+   "He's our spiritual leader.",
+   "They went on a spiritual journey."
+  ],
+  "spanish": {
+   "word": "espiritual",
+   "definition": "Relacionado con el alma o la religión."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2645,
+  "word": "stab",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/stæb/",
+  "definition": "To push a knife into someone or something.",
+  "examples": [
+   "Someone stabbed him in the back.",
+   "She stabbed the meat with her fork.",
+   "He was stabbed outside a bar."
+  ],
+  "spanish": {
+   "word": "apuñalar",
+   "definition": "Clavar un cuchillo en alguien o algo."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "stab",
+    "past": "stabbed",
+    "participle": "stabbed",
+    "gerund": "stabbing",
+    "third": "stabs"
+   }
+  }
+ },
+ {
+  "rank": 2646,
+  "word": "inch",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪntʃ/",
+  "definition": "A unit of length equal to 2.54 centimeters.",
+  "examples": [
+   "This phone has a six-inch screen.",
+   "He's two inches taller than me.",
+   "It snowed ten inches last night."
+  ],
+  "spanish": {
+   "word": "pulgada",
+   "definition": "Unidad de longitud igual a 2.54 centímetros."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2647,
+  "word": "unexpected",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˌʌnɪkˈspektɪd/",
+  "definition": "Not expected; surprising.",
+  "examples": [
+   "We had an unexpected visit.",
+   "His death was unexpected.",
+   "The movie has an unexpected ending."
+  ],
+  "spanish": {
+   "word": "inesperado",
+   "definition": "Que no se espera; sorprendente."
+  },
+  "synonyms": [
+   "surprising"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2648,
+  "word": "arrival",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/əˈraɪvəl/",
+  "definition": "The moment when someone or something gets to a place.",
+  "examples": [
+   "We're waiting for the arrival of the flight.",
+   "Call me on your arrival.",
+   "The arrival of the baby changed our lives."
+  ],
+  "spanish": {
+   "word": "llegada",
+   "definition": "Momento en que alguien o algo llega a un lugar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2649,
+  "word": "basket",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbæskɪt/",
+  "definition": "A container made of thin pieces of wood, used to carry things.",
+  "examples": [
+   "She put the bread in a basket.",
+   "He scored a basket in the last second.",
+   "There's a basket of fruit on the table."
+  ],
+  "spanish": {
+   "word": "canasta",
+   "definition": "Recipiente hecho de tiras finas de madera, para llevar cosas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2650,
+  "word": "scandal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈskændəl/",
+  "definition": "An event that shocks people because it's wrong.",
+  "examples": [
+   "The scandal ended his career.",
+   "There's a new political scandal.",
+   "The newspapers loved the scandal."
+  ],
+  "spanish": {
+   "word": "escándalo",
+   "definition": "Hecho que sorprende a la gente porque está mal."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2651,
+  "word": "shield",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʃiːld/",
+  "definition": "A large object that soldiers carried for protection.",
+  "examples": [
+   "The soldier held up his shield.",
+   "He used his hand as a shield from the sun.",
+   "They carried a sword and a shield."
+  ],
+  "spanish": {
+   "word": "escudo",
+   "definition": "Objeto grande que los soldados llevaban para protegerse."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2652,
+  "word": "instant",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ˈɪnstənt/",
+  "definition": "Happening right away; a very short time.",
+  "examples": [
+   "We only have instant coffee.",
+   "The movie was an instant success.",
+   "For an instant, I couldn't speak."
+  ],
+  "spanish": {
+   "word": "instantáneo / instante",
+   "definition": "Que pasa de inmediato; un tiempo muy corto."
+  },
+  "synonyms": [
+   "moment"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2653,
+  "word": "rehearsal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/rɪˈhɜːrsəl/",
+  "definition": "Practice for a show or a performance.",
+  "examples": [
+   "We have a rehearsal at six.",
+   "The band missed the rehearsal.",
+   "The wedding rehearsal is on Friday."
+  ],
+  "spanish": {
+   "word": "ensayo",
+   "definition": "Práctica para un show o una presentación."
+  },
+  "synonyms": [
+   "practice"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2654,
+  "word": "scan",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/skæn/",
+  "definition": "To copy a paper with a machine; to look at something quickly; a medical picture of your body.",
+  "examples": [
+   "Please scan this document.",
+   "She scanned the page for her name.",
+   "The doctor ordered a brain scan."
+  ],
+  "spanish": {
+   "word": "escanear / escáner",
+   "definition": "Copiar un papel con una máquina; mirar algo rápido; imagen médica del cuerpo."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "scan",
+    "past": "scanned",
+    "participle": "scanned",
+    "gerund": "scanning",
+    "third": "scans"
+   }
+  }
+ },
+ {
+  "rank": 2655,
+  "word": "electronic",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ɪˌlekˈtrɑːnɪk/",
+  "definition": "Working with computers or electricity.",
+  "examples": [
+   "I bought an electronic dictionary.",
+   "She plays electronic music.",
+   "We use electronic payment at the store."
+  ],
+  "spanish": {
+   "word": "electrónico",
+   "definition": "Que funciona con computadoras o electricidad."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2656,
+  "word": "republic",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/rɪˈpʌblɪk/",
+  "definition": "A country with an elected leader and no king.",
+  "examples": [
+   "France is a republic.",
+   "The new republic has a young president.",
+   "The Dominican Republic is in the Caribbean."
+  ],
+  "spanish": {
+   "word": "república",
+   "definition": "País con un líder elegido y sin rey."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2657,
+  "word": "overnight",
+  "type": [
+   "adverb",
+   "adjective"
+  ],
+  "IPA": "/ˌoʊvərˈnaɪt/",
+  "definition": "During the night; very quickly.",
+  "examples": [
+   "We stayed overnight at a hotel.",
+   "She became famous overnight.",
+   "I took an overnight bus."
+  ],
+  "spanish": {
+   "word": "de la noche a la mañana",
+   "definition": "Durante la noche; muy rápido."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2658,
+  "word": "counsel",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkaʊnsəl/",
+  "definition": "Advice; a lawyer in a court.",
+  "examples": [
+   "He asked his father for counsel.",
+   "The defense counsel spoke to the jury.",
+   "She followed her doctor's counsel."
+  ],
+  "spanish": {
+   "word": "consejo / abogado",
+   "definition": "Consejo; abogado en un tribunal."
+  },
+  "synonyms": [
+   "advice"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2659,
+  "word": "bait",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/beɪt/",
+  "definition": "Food used to catch fish or animals.",
+  "examples": [
+   "He put some bait on the hook.",
+   "Worms are good bait for fish.",
+   "They used cheese as bait for the mouse."
+  ],
+  "spanish": {
+   "word": "carnada",
+   "definition": "Comida para atrapar peces o animales."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2660,
+  "word": "dignity",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdɪɡnəti/",
+  "definition": "The quality of being respected and calm.",
+  "examples": [
+   "She lost her job but kept her dignity.",
+   "Everyone deserves dignity.",
+   "He accepted his defeat with dignity."
+  ],
+  "spanish": {
+   "word": "dignidad",
+   "definition": "Cualidad de ser respetado y mantener la calma."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2661,
+  "word": "gossip",
+  "type": [
+   "noun",
+   "verb"
+  ],
+  "IPA": "/ˈɡɑːsɪp/",
+  "definition": "Talk about other people's private lives; to talk about others.",
+  "examples": [
+   "I don't like office gossip.",
+   "They're gossiping about the new neighbor.",
+   "Don't believe that gossip."
+  ],
+  "spanish": {
+   "word": "chisme / chismear",
+   "definition": "Hablar de la vida privada de otros; hablar de los demás."
+  },
+  "synonyms": [
+   "rumor"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "gossip",
+    "past": "gossiped",
+    "participle": "gossiped",
+    "gerund": "gossiping",
+    "third": "gossips"
+   }
+  }
+ },
+ {
+  "rank": 2662,
+  "word": "humble",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈhʌmbəl/",
+  "definition": "Not thinking you are better than others.",
+  "examples": [
+   "He's a very humble man.",
+   "She comes from a humble family.",
+   "Stay humble, even when you win."
+  ],
+  "spanish": {
+   "word": "humilde",
+   "definition": "Que no se cree mejor que los demás."
+  },
+  "synonyms": [
+   "modest"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2663,
+  "word": "economy",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪˈkɑːnəmi/",
+  "definition": "The money, business and jobs of a country.",
+  "examples": [
+   "The economy is growing.",
+   "Tourism is important for our economy.",
+   "The country's economy is very weak."
+  ],
+  "spanish": {
+   "word": "economía",
+   "definition": "Dinero, negocios y empleos de un país."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2664,
+  "word": "tissue",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtɪʃuː/",
+  "definition": "Thin, soft paper for your nose; the material that forms the body.",
+  "examples": [
+   "Can I have a tissue?",
+   "He wiped his nose with a tissue.",
+   "The doctor removed the damaged tissue."
+  ],
+  "spanish": {
+   "word": "pañuelo de papel / tejido",
+   "definition": "Papel suave y delgado para la nariz; material que forma el cuerpo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2665,
+  "word": "bump",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/bʌmp/",
+  "definition": "To hit something by accident; a small round area on your skin or on the road.",
+  "examples": [
+   "I bumped my head on the door.",
+   "He has a bump on his head.",
+   "The car hit a bump in the road."
+  ],
+  "spanish": {
+   "word": "golpearse / chichón",
+   "definition": "Golpear algo sin querer; parte redonda y pequeña en la piel o el camino."
+  },
+  "synonyms": [
+   "hit"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "bump",
+    "past": "bumped",
+    "participle": "bumped",
+    "gerund": "bumping",
+    "third": "bumps"
+   }
+  }
+ },
+ {
+  "rank": 2666,
+  "word": "supreme",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/suːˈpriːm/",
+  "definition": "The highest or the most important.",
+  "examples": [
+   "The Supreme Court made its decision.",
+   "He's the supreme leader of the country.",
+   "She made a supreme effort to finish."
+  ],
+  "spanish": {
+   "word": "supremo",
+   "definition": "El más alto o el más importante."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2667,
+  "word": "bingo",
+  "type": [
+   "noun",
+   "interjection"
+  ],
+  "IPA": "/ˈbɪŋɡoʊ/",
+  "definition": "A game where you mark numbers on a card; a word you say when you win.",
+  "examples": [
+   "My grandmother plays bingo on Tuesdays.",
+   "Bingo! I found my keys.",
+   "We won a prize at bingo."
+  ],
+  "spanish": {
+   "word": "bingo",
+   "definition": "Juego en que marcas números en una tarjeta; palabra que dices al ganar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2668,
+  "word": "excitement",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪkˈsaɪtmənt/",
+  "definition": "A feeling of being very happy and full of energy.",
+  "examples": [
+   "The kids couldn't sleep from excitement.",
+   "There was excitement in the air.",
+   "She jumped with excitement."
+  ],
+  "spanish": {
+   "word": "emoción",
+   "definition": "Sensación de estar muy feliz y lleno de energía."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2669,
+  "word": "mankind",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/mænˈkaɪnd/",
+  "definition": "All people in the world.",
+  "examples": [
+   "The moon landing was a big step for mankind.",
+   "War is the worst thing in the history of mankind.",
+   "This discovery will help all mankind."
+  ],
+  "spanish": {
+   "word": "humanidad",
+   "definition": "Todas las personas del mundo."
+  },
+  "synonyms": [
+   "humanity"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2670,
+  "word": "vessel",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈvesəl/",
+  "definition": "A ship or a large boat; a tube that carries blood.",
+  "examples": [
+   "The vessel left the port at dawn.",
+   "He has a damaged blood vessel.",
+   "A fishing vessel saved them."
+  ],
+  "spanish": {
+   "word": "embarcación / vaso",
+   "definition": "Barco grande; tubo que lleva sangre."
+  },
+  "synonyms": [
+   "ship"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2671,
+  "word": "foul",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/faʊl/",
+  "definition": "Very dirty or smelling very bad; an action against the rules in sports.",
+  "examples": [
+   "There's a foul smell in the kitchen.",
+   "The referee called a foul.",
+   "He's in a foul mood today."
+  ],
+  "spanish": {
+   "word": "asqueroso / falta",
+   "definition": "Muy sucio o con muy mal olor; acción contra las reglas en un deporte."
+  },
+  "synonyms": [
+   "disgusting"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2672,
+  "word": "element",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈeləmənt/",
+  "definition": "A part of something; a basic substance such as gold or oxygen.",
+  "examples": [
+   "Trust is a key element in any relationship.",
+   "Gold is a chemical element.",
+   "There's an element of risk in this job."
+  ],
+  "spanish": {
+   "word": "elemento",
+   "definition": "Parte de algo; sustancia básica como el oro o el oxígeno."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2673,
+  "word": "coma",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkoʊmə/",
+  "definition": "A long sleep after a serious illness or injury.",
+  "examples": [
+   "He's been in a coma for two weeks.",
+   "She woke up from the coma.",
+   "The accident left him in a coma."
+  ],
+  "spanish": {
+   "word": "coma",
+   "definition": "Sueño largo después de una enfermedad o lesión grave."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2674,
+  "word": "coffin",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɔːfɪn/",
+  "definition": "The box for a dead person.",
+  "examples": [
+   "They carried the coffin to the church.",
+   "The coffin was made of dark wood.",
+   "There were flowers on the coffin."
+  ],
+  "spanish": {
+   "word": "ataúd",
+   "definition": "Caja para una persona muerta."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2675,
+  "word": "puppy",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpʌpi/",
+  "definition": "A young dog.",
+  "examples": [
+   "We got a puppy for Christmas.",
+   "The puppy is sleeping on my bed.",
+   "Look at those cute puppies!"
+  ],
+  "spanish": {
+   "word": "cachorro",
+   "definition": "Perro joven."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2676,
+  "word": "announcement",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/əˈnaʊnsmənt/",
+  "definition": "Something important you tell people in public.",
+  "examples": [
+   "I have an announcement to make.",
+   "The announcement surprised everyone.",
+   "They made the announcement at the airport."
+  ],
+  "spanish": {
+   "word": "anuncio",
+   "definition": "Algo importante que dices en público."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2677,
+  "word": "oath",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/oʊθ/",
+  "definition": "A serious, formal promise.",
+  "examples": [
+   "The witness took an oath to tell the truth.",
+   "The president took the oath on a Bible.",
+   "Doctors take an oath to help people."
+  ],
+  "spanish": {
+   "word": "juramento",
+   "definition": "Promesa seria y formal."
+  },
+  "synonyms": [
+   "promise"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2678,
+  "word": "deposit",
+  "type": [
+   "noun",
+   "verb"
+  ],
+  "IPA": "/dɪˈpɑːzɪt/",
+  "definition": "Money you pay first or put in a bank; to put money in a bank.",
+  "examples": [
+   "We paid a deposit on the apartment.",
+   "I deposited the check this morning.",
+   "You'll get your deposit back."
+  ],
+  "spanish": {
+   "word": "depósito / depositar",
+   "definition": "Dinero que pagas primero o pones en un banco; poner dinero en un banco."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "deposit",
+    "past": "deposited",
+    "participle": "deposited",
+    "gerund": "depositing",
+    "third": "deposits"
+   }
+  }
+ },
+ {
+  "rank": 2679,
+  "word": "tax",
+  "type": [
+   "noun",
+   "verb"
+  ],
+  "IPA": "/tæks/",
+  "definition": "Money you must pay to the government; to charge this money.",
+  "examples": [
+   "We pay too much tax.",
+   "The price doesn't include tax.",
+   "The government taxes cigarettes."
+  ],
+  "spanish": {
+   "word": "impuesto / gravar",
+   "definition": "Dinero que debes pagar al gobierno; cobrar ese dinero."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "tax",
+    "past": "taxed",
+    "participle": "taxed",
+    "gerund": "taxing",
+    "third": "taxes"
+   }
+  }
+ },
+ {
+  "rank": 2680,
+  "word": "advise",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ədˈvaɪz/",
+  "definition": "To tell someone what you think they should do.",
+  "examples": [
+   "The doctor advised me to rest.",
+   "I advise you to call a lawyer.",
+   "She's advising the president."
+  ],
+  "spanish": {
+   "word": "aconsejar",
+   "definition": "Decirle a alguien lo que crees que debe hacer."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "advise",
+    "past": "advised",
+    "participle": "advised",
+    "gerund": "advising",
+    "third": "advises"
+   }
+  }
+ },
+ {
+  "rank": 2681,
+  "word": "lecture",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlektʃər/",
+  "definition": "A talk to a group of students; a long, serious talk to someone who did wrong.",
+  "examples": [
+   "I have a lecture at nine.",
+   "Don't give me a lecture about money.",
+   "The professor gave a lecture on art."
+  ],
+  "spanish": {
+   "word": "clase / sermón",
+   "definition": "Charla a un grupo de estudiantes; charla larga a quien hizo algo mal."
+  },
+  "synonyms": [
+   "talk"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2682,
+  "word": "skinny",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈskɪni/",
+  "definition": "Very thin.",
+  "examples": [
+   "He's tall and skinny.",
+   "She was a skinny little girl.",
+   "I bought skinny jeans."
+  ],
+  "spanish": {
+   "word": "flaco",
+   "definition": "Muy delgado."
+  },
+  "synonyms": [
+   "thin"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2683,
+  "word": "include",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ɪnˈkluːd/",
+  "definition": "To have something as a part of a group or a total.",
+  "examples": [
+   "The price includes breakfast.",
+   "Don't forget to include your name.",
+   "The tour included a visit to the museum."
+  ],
+  "spanish": {
+   "word": "incluir",
+   "definition": "Tener algo como parte de un grupo o un total."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "include",
+    "past": "included",
+    "participle": "included",
+    "gerund": "including",
+    "third": "includes"
+   }
+  }
+ },
+ {
+  "rank": 2684,
+  "word": "assistance",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/əˈsɪstəns/",
+  "definition": "Help.",
+  "examples": [
+   "Do you need any assistance?",
+   "Call us for assistance.",
+   "She asked for financial assistance."
+  ],
+  "spanish": {
+   "word": "asistencia / ayuda",
+   "definition": "Ayuda que se da a alguien."
+  },
+  "synonyms": [
+   "help"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2685,
+  "word": "solo",
+  "type": [
+   "adjective",
+   "adverb",
+   "noun"
+  ],
+  "IPA": "/ˈsoʊloʊ/",
+  "definition": "Alone; a piece of music for one person.",
+  "examples": [
+   "She took a solo trip to Peru.",
+   "He played a guitar solo.",
+   "I prefer to travel solo."
+  ],
+  "spanish": {
+   "word": "solo",
+   "definition": "Sin compañía; pieza de música para una persona."
+  },
+  "synonyms": [
+   "alone"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2686,
+  "word": "determine",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/dɪˈtɜːrmɪn/",
+  "definition": "To find out; to decide.",
+  "examples": [
+   "The police are trying to determine the cause of the fire.",
+   "Your grades determine your future.",
+   "Doctors determined the cause of death."
+  ],
+  "spanish": {
+   "word": "determinar",
+   "definition": "Averiguar; decidir."
+  },
+  "synonyms": [
+   "decide"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "determine",
+    "past": "determined",
+    "participle": "determined",
+    "gerund": "determining",
+    "third": "determines"
+   }
+  }
+ },
+ {
+  "rank": 2687,
+  "word": "lamp",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/læmp/",
+  "definition": "An object that gives light.",
+  "examples": [
+   "Turn on the lamp.",
+   "She has a lamp next to her bed.",
+   "The lamp in the living room is broken."
+  ],
+  "spanish": {
+   "word": "lámpara",
+   "definition": "Objeto que da luz."
+  },
+  "synonyms": [
+   "light"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2688,
+  "word": "practical",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈpræktɪkəl/",
+  "definition": "Useful; dealing with real situations.",
+  "examples": [
+   "She gave me some practical advice.",
+   "It's a very practical car for a family.",
+   "He's a practical man."
+  ],
+  "spanish": {
+   "word": "práctico",
+   "definition": "Útil; relacionado con situaciones reales."
+  },
+  "synonyms": [
+   "useful"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2689,
+  "word": "adorable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/əˈdɔːrəbəl/",
+  "definition": "Very cute.",
+  "examples": [
+   "Your baby is adorable.",
+   "What an adorable little dog!",
+   "She looks adorable in that hat."
+  ],
+  "spanish": {
+   "word": "adorable",
+   "definition": "Muy lindo."
+  },
+  "synonyms": [
+   "cute"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2690,
+  "word": "rubber",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈrʌbər/",
+  "definition": "A soft material that can stretch, used for tires.",
+  "examples": [
+   "Tires are made of rubber.",
+   "She's wearing rubber boots.",
+   "The kids play with a rubber ball."
+  ],
+  "spanish": {
+   "word": "caucho / goma",
+   "definition": "Material suave que se estira, usado para llantas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2691,
+  "word": "purple",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/ˈpɜːrpəl/",
+  "definition": "The color you get when you mix red and blue.",
+  "examples": [
+   "She's wearing a purple dress.",
+   "Purple is my favorite color.",
+   "The sky turned purple at sunset."
+  ],
+  "spanish": {
+   "word": "morado",
+   "definition": "Color que resulta al mezclar rojo y azul."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2692,
+  "word": "suite",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/swiːt/",
+  "definition": "A set of rooms in a hotel.",
+  "examples": [
+   "We stayed in a suite on the top floor.",
+   "The hotel gave us a suite for free.",
+   "The president's suite has three bedrooms."
+  ],
+  "spanish": {
+   "word": "suite",
+   "definition": "Conjunto de habitaciones en un hotel."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2693,
+  "word": "personnel",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌpɜːrsəˈnel/",
+  "definition": "The people who work in a company or in the army.",
+  "examples": [
+   "Only medical personnel can enter.",
+   "The hotel personnel were very kind.",
+   "Talk to the personnel office."
+  ],
+  "spanish": {
+   "word": "personal",
+   "definition": "Personas que trabajan en una empresa o en el ejército."
+  },
+  "synonyms": [
+   "staff"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2694,
+  "word": "beam",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/biːm/",
+  "definition": "A line of light; a long, heavy piece of wood or metal.",
+  "examples": [
+   "A beam of light came through the window.",
+   "The roof has wooden beams.",
+   "The steel beam fell to the ground."
+  ],
+  "spanish": {
+   "word": "rayo / viga",
+   "definition": "Línea de luz; pieza larga y pesada de madera o metal."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2695,
+  "word": "poet",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpoʊət/",
+  "definition": "A person who writes poems.",
+  "examples": [
+   "Pablo Neruda was a great poet.",
+   "She's a young poet from Boston.",
+   "The poet read his work aloud."
+  ],
+  "spanish": {
+   "word": "poeta",
+   "definition": "Persona que escribe poemas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2696,
+  "word": "arrow",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈæroʊ/",
+  "definition": "A thin stick you shoot with a bow; a sign that shows a direction.",
+  "examples": [
+   "Follow the arrows to the exit.",
+   "The arrow hit the target.",
+   "Click on the arrow to continue."
+  ],
+  "spanish": {
+   "word": "flecha",
+   "definition": "Palo delgado que se dispara con un arco; signo que muestra una dirección."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2697,
+  "word": "counselor",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkaʊnsələr/",
+  "definition": "A person whose job is to help people with problems or advice.",
+  "examples": [
+   "She talked to the school counselor.",
+   "We saw a marriage counselor.",
+   "My son is a camp counselor this summer."
+  ],
+  "spanish": {
+   "word": "consejero",
+   "definition": "Persona cuyo trabajo es ayudar con problemas o consejos."
+  },
+  "synonyms": [
+   "adviser"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2698,
+  "word": "carpet",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɑːrpɪt/",
+  "definition": "A thick cloth that covers a floor.",
+  "examples": [
+   "We have a new carpet in the bedroom.",
+   "He spilled coffee on the carpet.",
+   "She walked down the red carpet."
+  ],
+  "spanish": {
+   "word": "alfombra",
+   "definition": "Tela gruesa que cubre el piso."
+  },
+  "synonyms": [
+   "rug"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2699,
+  "word": "journalist",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdʒɜːrnəlɪst/",
+  "definition": "A person who writes news.",
+  "examples": [
+   "She's a journalist for a big newspaper.",
+   "The journalist asked a hard question.",
+   "He wants to become a journalist."
+  ],
+  "spanish": {
+   "word": "periodista",
+   "definition": "Persona que escribe noticias."
+  },
+  "synonyms": [
+   "reporter"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2700,
+  "word": "operator",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɑːpəreɪtər/",
+  "definition": "A person who answers calls or who uses a machine.",
+  "examples": [
+   "The operator put me on hold.",
+   "Call the operator for help.",
+   "He's a crane operator."
+  ],
+  "spanish": {
+   "word": "operador",
+   "definition": "Persona que contesta llamadas o usa una máquina."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2701,
+  "word": "rely",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/rɪˈlaɪ/",
+  "definition": "To need or trust someone or something.",
+  "examples": [
+   "You can rely on me.",
+   "We rely on tourists for our income.",
+   "She relied on her sister for help."
+  ],
+  "spanish": {
+   "word": "depender / contar con",
+   "definition": "Necesitar o confiar en alguien o algo."
+  },
+  "synonyms": [
+   "depend"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "rely",
+    "past": "relied",
+    "participle": "relied",
+    "gerund": "relying",
+    "third": "relies"
+   }
+  }
+ },
+ {
+  "rank": 2702,
+  "word": "eastern",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈiːstərn/",
+  "definition": "In or from the east.",
+  "examples": [
+   "New York is in the eastern part of the U.S.",
+   "We traveled through Eastern Europe.",
+   "The storm will reach the eastern coast."
+  ],
+  "spanish": {
+   "word": "oriental / del este",
+   "definition": "En el este o que viene del este."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2703,
+  "word": "shave",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ʃeɪv/",
+  "definition": "To cut hair from your face or body with a blade.",
+  "examples": [
+   "He shaves every morning.",
+   "I forgot to shave today.",
+   "She shaved her head for charity."
+  ],
+  "spanish": {
+   "word": "afeitarse",
+   "definition": "Cortar el pelo de la cara o del cuerpo con una cuchilla."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "shave",
+    "past": "shaved",
+    "participle": "shaved",
+    "gerund": "shaving",
+    "third": "shaves"
+   }
+  }
+ },
+ {
+  "rank": 2704,
+  "word": "toss",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/tɔːs/",
+  "definition": "To throw something lightly.",
+  "examples": [
+   "He tossed the keys to me.",
+   "She tossed the paper in the trash.",
+   "Toss the salad before you serve it."
+  ],
+  "spanish": {
+   "word": "lanzar",
+   "definition": "Tirar algo suavemente."
+  },
+  "synonyms": [
+   "throw"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "toss",
+    "past": "tossed",
+    "participle": "tossed",
+    "gerund": "tossing",
+    "third": "tosses"
+   }
+  }
+ },
+ {
+  "rank": 2705,
+  "word": "acid",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈæsɪd/",
+  "definition": "A strong chemical that can burn things.",
+  "examples": [
+   "The acid burned a hole in the table.",
+   "Lemons contain citric acid.",
+   "Be careful, that's battery acid."
+  ],
+  "spanish": {
+   "word": "ácido",
+   "definition": "Químico fuerte que puede quemar cosas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2706,
+  "word": "anonymous",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/əˈnɑːnɪməs/",
+  "definition": "With a name that nobody knows.",
+  "examples": [
+   "The police got an anonymous call.",
+   "She made an anonymous donation.",
+   "The writer wants to remain anonymous."
+  ],
+  "spanish": {
+   "word": "anónimo",
+   "definition": "Con un nombre que nadie conoce."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2707,
+  "word": "sixth",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/sɪksθ/",
+  "definition": "Coming after the fifth.",
+  "examples": [
+   "We live on the sixth floor.",
+   "She's in the sixth grade.",
+   "Today is the sixth of March."
+  ],
+  "spanish": {
+   "word": "sexto",
+   "definition": "Que viene después del quinto."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2708,
+  "word": "error",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈerər/",
+  "definition": "A mistake.",
+  "examples": [
+   "There's an error in your report.",
+   "The computer showed an error message.",
+   "It was a human error."
+  ],
+  "spanish": {
+   "word": "error",
+   "definition": "Equivocación al hacer algo."
+  },
+  "synonyms": [
+   "mistake"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2709,
+  "word": "roommate",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈruːmmeɪt/",
+  "definition": "A person who shares a room or an apartment with you.",
+  "examples": [
+   "My roommate is from Texas.",
+   "I'm looking for a new roommate.",
+   "She and her roommate get along well."
+  ],
+  "spanish": {
+   "word": "compañero de cuarto",
+   "definition": "Persona que comparte un cuarto o apartamento contigo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2710,
+  "word": "visitor",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈvɪzɪtər/",
+  "definition": "A person who goes to see a person or place.",
+  "examples": [
+   "The museum gets many visitors.",
+   "We had some visitors last night.",
+   "Visitors must sign in at the front desk."
+  ],
+  "spanish": {
+   "word": "visitante",
+   "definition": "Persona que va a ver a alguien o un lugar."
+  },
+  "synonyms": [
+   "guest"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2711,
+  "word": "commitment",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kəˈmɪtmənt/",
+  "definition": "A promise to do something; loyal effort.",
+  "examples": [
+   "Marriage is a big commitment.",
+   "I have a work commitment on Friday.",
+   "She shows real commitment to her students."
+  ],
+  "spanish": {
+   "word": "compromiso",
+   "definition": "Promesa de hacer algo; esfuerzo leal."
+  },
+  "synonyms": [
+   "promise"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2712,
+  "word": "react",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/riˈækt/",
+  "definition": "To do or say something because of something that happened.",
+  "examples": [
+   "How did your mother react?",
+   "He reacted badly to the news.",
+   "She didn't react to the joke."
+  ],
+  "spanish": {
+   "word": "reaccionar",
+   "definition": "Hacer o decir algo por algo que pasó."
+  },
+  "synonyms": [
+   "respond"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "react",
+    "past": "reacted",
+    "participle": "reacted",
+    "gerund": "reacting",
+    "third": "reacts"
+   }
+  }
+ },
+ {
+  "rank": 2713,
+  "word": "protest",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈproʊtest/",
+  "definition": "A public action to show that you don't agree with something.",
+  "examples": [
+   "There was a big protest in the capital.",
+   "Thousands of people joined the protest.",
+   "He quit in protest."
+  ],
+  "spanish": {
+   "word": "protesta",
+   "definition": "Acción pública para mostrar que no estás de acuerdo con algo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2714,
+  "word": "misery",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmɪzəri/",
+  "definition": "Great unhappiness or pain.",
+  "examples": [
+   "War brings misery to many families.",
+   "He lived a life of misery.",
+   "Please put me out of my misery."
+  ],
+  "spanish": {
+   "word": "miseria",
+   "definition": "Gran infelicidad o dolor."
+  },
+  "synonyms": [
+   "suffering"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2715,
+  "word": "embrace",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/ɪmˈbreɪs/",
+  "definition": "To put your arms around someone; to accept something happily.",
+  "examples": [
+   "They embraced at the airport.",
+   "He held her in a warm embrace.",
+   "She embraced the new idea."
+  ],
+  "spanish": {
+   "word": "abrazar / abrazo",
+   "definition": "Rodear a alguien con los brazos; aceptar algo con alegría."
+  },
+  "synonyms": [
+   "hug"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "embrace",
+    "past": "embraced",
+    "participle": "embraced",
+    "gerund": "embracing",
+    "third": "embraces"
+   }
+  }
+ },
+ {
+  "rank": 2716,
+  "word": "communicate",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/kəˈmjuːnɪkeɪt/",
+  "definition": "To share information or feelings with someone.",
+  "examples": [
+   "We communicate by email.",
+   "They need to communicate better.",
+   "She can communicate in three languages."
+  ],
+  "spanish": {
+   "word": "comunicarse",
+   "definition": "Compartir información o sentimientos con alguien."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "communicate",
+    "past": "communicated",
+    "participle": "communicated",
+    "gerund": "communicating",
+    "third": "communicates"
+   }
+  }
+ },
+ {
+  "rank": 2717,
+  "word": "faithful",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈfeɪθfəl/",
+  "definition": "Loyal; staying with someone.",
+  "examples": [
+   "He has a faithful dog.",
+   "She's always been faithful to her husband.",
+   "They're faithful friends."
+  ],
+  "spanish": {
+   "word": "fiel",
+   "definition": "Leal; que se queda con alguien."
+  },
+  "synonyms": [
+   "loyal"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2718,
+  "word": "flame",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/fleɪm/",
+  "definition": "The bright, hot part of a fire.",
+  "examples": [
+   "The house was in flames.",
+   "Keep the paper away from the flame.",
+   "She lit the candle and watched the flame."
+  ],
+  "spanish": {
+   "word": "llama",
+   "definition": "Parte brillante y caliente del fuego."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2719,
+  "word": "medal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmedəl/",
+  "definition": "A small metal prize you get for winning or being brave.",
+  "examples": [
+   "She won a gold medal.",
+   "The soldier got a medal.",
+   "He showed me his Olympic medal."
+  ],
+  "spanish": {
+   "word": "medalla",
+   "definition": "Premio pequeño de metal que ganas por vencer o por ser valiente."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2720,
+  "word": "silk",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/sɪlk/",
+  "definition": "A very soft, smooth cloth.",
+  "examples": [
+   "She wore a silk dress.",
+   "This scarf is made of silk.",
+   "He bought silk sheets."
+  ],
+  "spanish": {
+   "word": "seda",
+   "definition": "Tela muy suave y lisa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 2721,
+  "word": "cemetery",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈseməteri/",
+  "definition": "A place where dead people are buried.",
+  "examples": [
+   "My grandfather is buried in this cemetery.",
+   "They walked through the old cemetery.",
+   "There's a cemetery behind the church."
+  ],
+  "spanish": {
+   "word": "cementerio",
+   "definition": "Lugar donde se entierra a los muertos."
+  },
+  "synonyms": [
+   "graveyard"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 2722,
+  "word": "rear",
+  "type": [
+   "adjective",
+   "noun"
+  ],
+  "IPA": "/rɪr/",
+  "definition": "The back part of something.",
+  "examples": [
+   "Use the rear door.",
+   "He sat in the rear of the bus.",
+   "The rear window is broken."
+  ],
+  "spanish": {
+   "word": "trasero / parte de atrás",
+   "definition": "Parte de atrás de algo."
+  },
+  "synonyms": [
+   "back"
+  ],
+  "conjugations": null
+ }
+]
