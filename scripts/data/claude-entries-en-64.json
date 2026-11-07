@@ -1,0 +1,2064 @@
+[
+ {
+  "rank": 6223,
+  "word": "collarbone",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɑːlərboʊn/",
+  "definition": "The bone between your neck and your shoulder.",
+  "examples": [
+   "He broke his collarbone playing football.",
+   "She has a tattoo on her collarbone.",
+   "The collarbone takes six weeks to heal."
+  ],
+  "spanish": {
+   "word": "clavícula",
+   "definition": "Hueso entre el cuello y el hombro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6224,
+  "word": "eardrum",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɪrdrʌm/",
+  "definition": "A thin piece of skin inside your ear.",
+  "examples": [
+   "Loud music can damage your eardrum.",
+   "He has a hole in his eardrum.",
+   "The blast hurt her eardrums."
+  ],
+  "spanish": {
+   "word": "tímpano",
+   "definition": "Piel delgada dentro del oído."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6225,
+  "word": "eyelash",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈaɪlæʃ/",
+  "definition": "One of the small hairs on the edge of your eyelid.",
+  "examples": [
+   "She has long eyelashes.",
+   "There's an eyelash on your cheek.",
+   "He got an eyelash in his eye."
+  ],
+  "spanish": {
+   "word": "pestaña",
+   "definition": "Uno de los pelitos al borde del párpado."
+  },
+  "synonyms": [
+   "lash"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6226,
+  "word": "fingertip",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfɪŋɡərtɪp/",
+  "definition": "The end of your finger.",
+  "examples": [
+   "He touched the screen with his fingertip.",
+   "My fingertips are cold.",
+   "She has the answer at her fingertips."
+  ],
+  "spanish": {
+   "word": "yema del dedo",
+   "definition": "Punta del dedo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6227,
+  "word": "freckle",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfrekəl/",
+  "definition": "A small brown spot on the skin.",
+  "examples": [
+   "She has freckles on her nose.",
+   "The sun gives me freckles.",
+   "He's a redhead with lots of freckles."
+  ],
+  "spanish": {
+   "word": "peca",
+   "definition": "Manchita marrón en la piel."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6228,
+  "word": "kneecap",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈniːkæp/",
+  "definition": "The bone at the front of your knee.",
+  "examples": [
+   "He broke his kneecap.",
+   "She hurt her kneecap when she fell.",
+   "The doctor checked his kneecap."
+  ],
+  "spanish": {
+   "word": "rótula",
+   "definition": "Hueso de la parte delantera de la rodilla."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6229,
+  "word": "bellybutton",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbelibʌtən/",
+  "definition": "The small hole in the middle of your stomach.",
+  "examples": [
+   "The baby touched her bellybutton.",
+   "He has a scar near his bellybutton.",
+   "Her shirt shows her bellybutton."
+  ],
+  "spanish": {
+   "word": "ombligo",
+   "definition": "Hueco pequeño en el centro de la barriga."
+  },
+  "synonyms": [
+   "navel"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6230,
+  "word": "nostril",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnɑːstrəl/",
+  "definition": "One of the two openings in your nose.",
+  "examples": [
+   "Breathe in through your nostrils.",
+   "The horse's nostrils were wide.",
+   "She has a ring in her nostril."
+  ],
+  "spanish": {
+   "word": "fosa nasal",
+   "definition": "Una de las dos aberturas de la nariz."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6231,
+  "word": "pimple",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpɪmpəl/",
+  "definition": "A small red spot on the skin.",
+  "examples": [
+   "I have a pimple on my chin.",
+   "Don't touch your pimples.",
+   "Teenagers often get pimples."
+  ],
+  "spanish": {
+   "word": "grano",
+   "definition": "Manchita roja en la piel."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6232,
+  "word": "pore",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pɔːr/",
+  "definition": "A very small hole in your skin.",
+  "examples": [
+   "This cream cleans your pores.",
+   "Sweat comes out through your pores.",
+   "She has small pores."
+  ],
+  "spanish": {
+   "word": "poro",
+   "definition": "Hueco muy pequeño en la piel."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6233,
+  "word": "toenail",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtoʊneɪl/",
+  "definition": "The hard part at the end of your toe.",
+  "examples": [
+   "She painted her toenails pink.",
+   "Cut your toenails.",
+   "He hurt his big toenail."
+  ],
+  "spanish": {
+   "word": "uña del pie",
+   "definition": "Parte dura al final del dedo del pie."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6234,
+  "word": "dimple",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdɪmpəl/",
+  "definition": "A small hollow in your cheek when you smile.",
+  "examples": [
+   "She has dimples when she smiles.",
+   "The baby has cute dimples.",
+   "He has a dimple in his chin."
+  ],
+  "spanish": {
+   "word": "hoyuelo",
+   "definition": "Pequeño hundimiento en la mejilla al sonreír."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6235,
+  "word": "wart",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/wɔːrt/",
+  "definition": "A small hard lump on the skin.",
+  "examples": [
+   "He has a wart on his finger.",
+   "The witch has a wart on her nose.",
+   "The doctor removed the wart."
+  ],
+  "spanish": {
+   "word": "verruga",
+   "definition": "Bulto pequeño y duro en la piel."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6236,
+  "word": "torso",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtɔːrsoʊ/",
+  "definition": "The main part of the body without the head, arms, or legs.",
+  "examples": [
+   "He has a tattoo on his torso.",
+   "The statue has no arms, only a torso.",
+   "She was hurt in the torso."
+  ],
+  "spanish": {
+   "word": "torso",
+   "definition": "Parte principal del cuerpo sin cabeza, brazos ni piernas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6237,
+  "word": "ribcage",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈrɪbkeɪdʒ/",
+  "definition": "The bones that protect your heart and lungs.",
+  "examples": [
+   "The ribcage protects the heart.",
+   "He hurt his ribcage in the fall.",
+   "The X-ray shows her ribcage."
+  ],
+  "spanish": {
+   "word": "caja torácica",
+   "definition": "Huesos que protegen el corazón y los pulmones."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6238,
+  "word": "den",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/den/",
+  "definition": "A wild animal's home; a comfortable room in a house.",
+  "examples": [
+   "The bear went back to its den.",
+   "We watch TV in the den.",
+   "The lion lay in its den."
+  ],
+  "spanish": {
+   "word": "guarida / sala",
+   "definition": "Casa de un animal salvaje; cuarto cómodo en una casa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6239,
+  "word": "loft",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/lɔːft/",
+  "definition": "A room under the roof; an open apartment in an old building.",
+  "examples": [
+   "They live in a loft downtown.",
+   "We keep old boxes in the loft.",
+   "The barn has a hay loft."
+  ],
+  "spanish": {
+   "word": "desván / loft",
+   "definition": "Cuarto bajo el techo; apartamento abierto en un edificio viejo."
+  },
+  "synonyms": [
+   "attic"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6240,
+  "word": "bandanna",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/bænˈdænə/",
+  "definition": "A colored cloth worn on the head or neck.",
+  "examples": [
+   "He wore a red bandanna.",
+   "The cowboy tied a bandanna around his neck.",
+   "She covered her hair with a bandanna."
+  ],
+  "spanish": {
+   "word": "pañoleta",
+   "definition": "Tela de color que se usa en la cabeza o el cuello."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6241,
+  "word": "beanie",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbiːni/",
+  "definition": "A small warm hat that fits close to your head.",
+  "examples": [
+   "He wore a black beanie.",
+   "It's cold; put on your beanie.",
+   "She knit me a beanie."
+  ],
+  "spanish": {
+   "word": "gorro",
+   "definition": "Sombrero pequeño y cálido que se ajusta a la cabeza."
+  },
+  "synonyms": [
+   "hat"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6242,
+  "word": "beret",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/bəˈreɪ/",
+  "definition": "A round, flat, soft hat.",
+  "examples": [
+   "The artist wore a black beret.",
+   "She bought a red beret in Paris.",
+   "Soldiers wear green berets."
+  ],
+  "spanish": {
+   "word": "boina",
+   "definition": "Sombrero redondo, plano y suave."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6243,
+  "word": "headband",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhedbænd/",
+  "definition": "A band worn around your head.",
+  "examples": [
+   "She wore a pink headband.",
+   "The tennis player wore a headband.",
+   "My headband keeps my hair back."
+  ],
+  "spanish": {
+   "word": "diadema / balaca",
+   "definition": "Banda que se usa alrededor de la cabeza."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6244,
+  "word": "jumpsuit",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdʒʌmpsuːt/",
+  "definition": "Clothing that covers your body and legs in one piece.",
+  "examples": [
+   "She wore a black jumpsuit to the party.",
+   "Prisoners wear orange jumpsuits.",
+   "The mechanic wore a blue jumpsuit."
+  ],
+  "spanish": {
+   "word": "enterizo / overol",
+   "definition": "Prenda de una sola pieza que cubre el cuerpo y las piernas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6245,
+  "word": "kimono",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kɪˈmoʊnoʊ/",
+  "definition": "A long, loose Japanese robe.",
+  "examples": [
+   "She wore a silk kimono.",
+   "He bought a kimono in Tokyo.",
+   "The kimono has red flowers."
+  ],
+  "spanish": {
+   "word": "kimono",
+   "definition": "Bata larga y suelta japonesa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6246,
+  "word": "leggings",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈleɡɪŋz/",
+  "definition": "Tight pants made of stretchy cloth.",
+  "examples": [
+   "She wore black leggings to the gym.",
+   "These leggings are very comfortable.",
+   "My daughter wears leggings to school."
+  ],
+  "spanish": {
+   "word": "leggings / licras",
+   "definition": "Pantalón ajustado de tela elástica."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6247,
+  "word": "mitten",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmɪtən/",
+  "definition": "A warm glove without separate fingers.",
+  "examples": [
+   "Put on your mittens; it's snowing.",
+   "She lost one of her mittens.",
+   "My grandma knit these mittens."
+  ],
+  "spanish": {
+   "word": "mitón",
+   "definition": "Guante cálido sin dedos separados."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6248,
+  "word": "necktie",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnektaɪ/",
+  "definition": "A long piece of cloth men wear around the neck.",
+  "examples": [
+   "He wore a blue necktie.",
+   "She gave her dad a necktie.",
+   "Loosen your necktie and relax."
+  ],
+  "spanish": {
+   "word": "corbata",
+   "definition": "Tira larga de tela que los hombres usan alrededor del cuello."
+  },
+  "synonyms": [
+   "tie"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6249,
+  "word": "nightgown",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnaɪtɡaʊn/",
+  "definition": "A long, loose dress worn in bed.",
+  "examples": [
+   "She wore a white nightgown.",
+   "My grandmother sleeps in a nightgown.",
+   "The girl came downstairs in her nightgown."
+  ],
+  "spanish": {
+   "word": "camisón",
+   "definition": "Vestido largo y suelto para dormir."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6250,
+  "word": "overcoat",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈoʊvərkoʊt/",
+  "definition": "A long, warm coat.",
+  "examples": [
+   "He wore a black wool overcoat.",
+   "Take your overcoat; it's cold.",
+   "She hung her overcoat by the door."
+  ],
+  "spanish": {
+   "word": "abrigo",
+   "definition": "Chaqueta larga y cálida."
+  },
+  "synonyms": [
+   "coat"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6251,
+  "word": "parka",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpɑːrkə/",
+  "definition": "A warm jacket with a hood.",
+  "examples": [
+   "You need a parka in Chicago.",
+   "He zipped up his parka.",
+   "She bought a red parka for winter."
+  ],
+  "spanish": {
+   "word": "parka",
+   "definition": "Chaqueta cálida con capucha."
+  },
+  "synonyms": [
+   "coat"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6252,
+  "word": "poncho",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpɑːntʃoʊ/",
+  "definition": "A piece of cloth with a hole for your head.",
+  "examples": [
+   "He wore a rain poncho at the concert.",
+   "She bought a wool poncho in Peru.",
+   "Put on your poncho; it's raining."
+  ],
+  "spanish": {
+   "word": "poncho / ruana",
+   "definition": "Pedazo de tela con un hueco para la cabeza."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6253,
+  "word": "shawl",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ʃɔːl/",
+  "definition": "A large piece of cloth worn over the shoulders.",
+  "examples": [
+   "She put a shawl over her shoulders.",
+   "Grandma knit a wool shawl.",
+   "It was cold, so she wore a shawl."
+  ],
+  "spanish": {
+   "word": "chal",
+   "definition": "Tela grande que se lleva sobre los hombros."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6254,
+  "word": "shoelace",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʃuːleɪs/",
+  "definition": "A string for tying a shoe.",
+  "examples": [
+   "Your shoelace is untied.",
+   "He broke a shoelace.",
+   "She's learning to tie her shoelaces."
+  ],
+  "spanish": {
+   "word": "cordón",
+   "definition": "Cuerda para amarrar un zapato."
+  },
+  "synonyms": [
+   "lace"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6255,
+  "word": "stocking",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈstɑːkɪŋ/",
+  "definition": "A thin covering for a woman's leg; a big sock hung at Christmas.",
+  "examples": [
+   "She wore black stockings.",
+   "Santa filled the stockings with candy.",
+   "We hung our stockings by the fireplace."
+  ],
+  "spanish": {
+   "word": "media",
+   "definition": "Prenda delgada para la pierna; media grande que se cuelga en Navidad."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6256,
+  "word": "suspenders",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/səˈspendərz/",
+  "definition": "Straps over your shoulders that hold up your pants.",
+  "examples": [
+   "He wears red suspenders.",
+   "Grandpa always wore suspenders.",
+   "The suspenders hold up his jeans."
+  ],
+  "spanish": {
+   "word": "tirantes",
+   "definition": "Tiras sobre los hombros que sostienen los pantalones."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6257,
+  "word": "sweatpants",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈswetpænts/",
+  "definition": "Soft, warm pants for sports or relaxing.",
+  "examples": [
+   "I wore sweatpants all weekend.",
+   "He went to the store in his sweatpants.",
+   "These sweatpants are so comfortable."
+  ],
+  "spanish": {
+   "word": "sudadera (pantalón)",
+   "definition": "Pantalones suaves y cálidos para deporte o descanso."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6258,
+  "word": "tights",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/taɪts/",
+  "definition": "Tight clothing that covers the legs and hips.",
+  "examples": [
+   "She wore black tights with her skirt.",
+   "Dancers wear tights.",
+   "There's a hole in my tights."
+  ],
+  "spanish": {
+   "word": "pantimedias",
+   "definition": "Prenda ajustada que cubre las piernas y las caderas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6259,
+  "word": "tracksuit",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtræksuːt/",
+  "definition": "A jacket and pants for sports.",
+  "examples": [
+   "He went jogging in a tracksuit.",
+   "The team wore matching tracksuits.",
+   "She bought a gray tracksuit."
+  ],
+  "spanish": {
+   "word": "sudadera completa",
+   "definition": "Chaqueta y pantalón para hacer deporte."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6260,
+  "word": "turtleneck",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtɜːrtəlnek/",
+  "definition": "A sweater with a high collar around the neck.",
+  "examples": [
+   "He wore a black turtleneck.",
+   "Turtlenecks keep your neck warm.",
+   "She bought a white turtleneck."
+  ],
+  "spanish": {
+   "word": "cuello tortuga",
+   "definition": "Suéter con un cuello alto."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6261,
+  "word": "wig",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/wɪɡ/",
+  "definition": "False hair you wear on your head.",
+  "examples": [
+   "She wore a blond wig to the party.",
+   "The actor wears a wig.",
+   "His hair isn't real; it's a wig."
+  ],
+  "spanish": {
+   "word": "peluca",
+   "definition": "Pelo falso que te pones en la cabeza."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6262,
+  "word": "windbreaker",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwɪndbreɪkər/",
+  "definition": "A light jacket that protects you from the wind.",
+  "examples": [
+   "Take a windbreaker on the boat.",
+   "He wore a blue windbreaker.",
+   "My windbreaker is in the car."
+  ],
+  "spanish": {
+   "word": "rompevientos",
+   "definition": "Chaqueta ligera que protege del viento."
+  },
+  "synonyms": [
+   "jacket"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6263,
+  "word": "bead",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/biːd/",
+  "definition": "A small ball with a hole for a string.",
+  "examples": [
+   "She made a necklace of glass beads.",
+   "Beads of sweat rolled down his face.",
+   "The kids are making bead bracelets."
+  ],
+  "spanish": {
+   "word": "cuenta / chaquira",
+   "definition": "Bolita con un hueco para pasar un hilo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6264,
+  "word": "jug",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/dʒʌɡ/",
+  "definition": "A large container with a handle for liquids.",
+  "examples": [
+   "There's a jug of water on the table.",
+   "We bought a gallon jug of milk.",
+   "She filled the jug with lemonade."
+  ],
+  "spanish": {
+   "word": "jarra / garrafa",
+   "definition": "Recipiente grande con asa para líquidos."
+  },
+  "synonyms": [
+   "pitcher"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6265,
+  "word": "mat",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/mæt/",
+  "definition": "A small piece of thick material on the floor.",
+  "examples": [
+   "Wipe your feet on the mat.",
+   "Bring your yoga mat.",
+   "The cat is sleeping on the mat."
+  ],
+  "spanish": {
+   "word": "tapete",
+   "definition": "Pedazo pequeño de material grueso en el piso."
+  },
+  "synonyms": [
+   "rug"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6266,
+  "word": "pail",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/peɪl/",
+  "definition": "A bucket.",
+  "examples": [
+   "The kids filled the pail with sand.",
+   "She carried a pail of water.",
+   "Bring a pail and a shovel to the beach."
+  ],
+  "spanish": {
+   "word": "balde",
+   "definition": "Cubeta."
+  },
+  "synonyms": [
+   "bucket"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6267,
+  "word": "paintbrush",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpeɪntbrʌʃ/",
+  "definition": "A brush for painting.",
+  "examples": [
+   "Clean your paintbrush after you use it.",
+   "She bought new paintbrushes.",
+   "He dipped the paintbrush in blue paint."
+  ],
+  "spanish": {
+   "word": "pincel / brocha",
+   "definition": "Cepillo para pintar."
+  },
+  "synonyms": [
+   "brush"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6268,
+  "word": "tack",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/tæk/",
+  "definition": "A short nail with a flat head.",
+  "examples": [
+   "Put the poster up with tacks.",
+   "I stepped on a tack.",
+   "She pinned the note with a tack."
+  ],
+  "spanish": {
+   "word": "tachuela",
+   "definition": "Clavo corto con cabeza plana."
+  },
+  "synonyms": [
+   "pin"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6269,
+  "word": "crossroads",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkrɔːsroʊdz/",
+  "definition": "A place where two roads cross; a time to make an important choice.",
+  "examples": [
+   "Turn left at the crossroads.",
+   "There's a small store at the crossroads.",
+   "I'm at a crossroads in my life."
+  ],
+  "spanish": {
+   "word": "encrucijada",
+   "definition": "Lugar donde se cruzan dos caminos; momento de una decisión importante."
+  },
+  "synonyms": [
+   "intersection"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6270,
+  "word": "inn",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪn/",
+  "definition": "A small hotel.",
+  "examples": [
+   "We stayed at a little inn by the sea.",
+   "The inn has ten rooms.",
+   "They run an old country inn."
+  ],
+  "spanish": {
+   "word": "posada",
+   "definition": "Hotel pequeño."
+  },
+  "synonyms": [
+   "hotel"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6271,
+  "word": "parking",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpɑːrkɪŋ/",
+  "definition": "Space for leaving cars; the act of parking.",
+  "examples": [
+   "Parking is free on Sundays.",
+   "There's no parking on this street.",
+   "We couldn't find parking downtown."
+  ],
+  "spanish": {
+   "word": "parqueadero / estacionamiento",
+   "definition": "Espacio para dejar carros; acto de estacionar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6272,
+  "word": "pier",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pɪr/",
+  "definition": "A long structure going out into the water.",
+  "examples": [
+   "We walked to the end of the pier.",
+   "People fish from the pier.",
+   "The boat is at the pier."
+  ],
+  "spanish": {
+   "word": "muelle",
+   "definition": "Estructura larga que entra al agua."
+  },
+  "synonyms": [
+   "dock"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6273,
+  "word": "pub",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pʌb/",
+  "definition": "A bar that serves drinks and food.",
+  "examples": [
+   "Let's meet at the Irish pub.",
+   "We had dinner at a pub.",
+   "The pub was full of soccer fans."
+  ],
+  "spanish": {
+   "word": "bar / pub",
+   "definition": "Bar que sirve bebidas y comida."
+  },
+  "synonyms": [
+   "bar"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6274,
+  "word": "skyscraper",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈskaɪskreɪpər/",
+  "definition": "A very tall building.",
+  "examples": [
+   "New York has many skyscrapers.",
+   "She works on the 60th floor of a skyscraper.",
+   "They're building a new skyscraper downtown."
+  ],
+  "spanish": {
+   "word": "rascacielos",
+   "definition": "Edificio muy alto."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6275,
+  "word": "synagogue",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɪnəɡɑːɡ/",
+  "definition": "A building where Jewish people pray.",
+  "examples": [
+   "They go to the synagogue on Saturday.",
+   "There's an old synagogue downtown.",
+   "The synagogue has a beautiful window."
+  ],
+  "spanish": {
+   "word": "sinagoga",
+   "definition": "Edificio donde rezan los judíos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6276,
+  "word": "chipmunk",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtʃɪpmʌŋk/",
+  "definition": "A small animal with stripes on its back.",
+  "examples": [
+   "A chipmunk ran across the path.",
+   "Chipmunks store food in their cheeks.",
+   "We saw chipmunks in the park."
+  ],
+  "spanish": {
+   "word": "ardilla listada",
+   "definition": "Animal pequeño con rayas en la espalda."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6277,
+  "word": "cub",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/kʌb/",
+  "definition": "A baby bear, lion, or tiger.",
+  "examples": [
+   "The mother bear protected her cub.",
+   "The zoo has two new lion cubs.",
+   "The cubs played in the grass."
+  ],
+  "spanish": {
+   "word": "cachorro",
+   "definition": "Cría de oso, león o tigre."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6278,
+  "word": "duckling",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdʌklɪŋ/",
+  "definition": "A baby duck.",
+  "examples": [
+   "The ducklings followed their mother.",
+   "We fed the ducklings at the pond.",
+   "The ugly duckling became a swan."
+  ],
+  "spanish": {
+   "word": "patito",
+   "definition": "Cría de pato."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6279,
+  "word": "eel",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/iːl/",
+  "definition": "A long fish that looks like a snake.",
+  "examples": [
+   "An eel swam under the rock.",
+   "We ate grilled eel in Japan.",
+   "Eels live in rivers and seas."
+  ],
+  "spanish": {
+   "word": "anguila",
+   "definition": "Pez largo parecido a una serpiente."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6280,
+  "word": "elk",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/elk/",
+  "definition": "A very large deer.",
+  "examples": [
+   "We saw elk in the mountains.",
+   "The elk has huge horns.",
+   "A herd of elk crossed the road."
+  ],
+  "spanish": {
+   "word": "alce",
+   "definition": "Venado muy grande."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6281,
+  "word": "ferret",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈferɪt/",
+  "definition": "A small animal with a long body, kept as a pet.",
+  "examples": [
+   "My cousin has a pet ferret.",
+   "The ferret ran into the box.",
+   "Ferrets love to play."
+  ],
+  "spanish": {
+   "word": "hurón",
+   "definition": "Animal pequeño de cuerpo largo que se tiene como mascota."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6282,
+  "word": "foal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/foʊl/",
+  "definition": "A baby horse.",
+  "examples": [
+   "The foal stood up an hour after birth.",
+   "The mare and her foal are in the field.",
+   "The kids love the new foal."
+  ],
+  "spanish": {
+   "word": "potro",
+   "definition": "Cría de caballo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6283,
+  "word": "gerbil",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdʒɜːrbəl/",
+  "definition": "A small animal like a mouse, kept as a pet.",
+  "examples": [
+   "My son has two gerbils.",
+   "The gerbil ran on its wheel.",
+   "We keep the gerbil in a cage."
+  ],
+  "spanish": {
+   "word": "jerbo",
+   "definition": "Animal pequeño parecido a un ratón que se tiene como mascota."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6284,
+  "word": "gull",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɡʌl/",
+  "definition": "A white and gray sea bird.",
+  "examples": [
+   "Gulls flew over the beach.",
+   "A gull took my sandwich.",
+   "I could hear the gulls."
+  ],
+  "spanish": {
+   "word": "gaviota",
+   "definition": "Ave marina blanca y gris."
+  },
+  "synonyms": [
+   "seagull"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6285,
+  "word": "heron",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈherən/",
+  "definition": "A tall bird with long legs that lives near water.",
+  "examples": [
+   "A heron stood in the river.",
+   "The heron caught a fish.",
+   "We saw a gray heron at the lake."
+  ],
+  "spanish": {
+   "word": "garza",
+   "definition": "Ave alta de patas largas que vive cerca del agua."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6286,
+  "word": "iguana",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪˈɡwɑːnə/",
+  "definition": "A large green lizard.",
+  "examples": [
+   "An iguana was sitting in the sun.",
+   "We saw iguanas in Mexico.",
+   "He keeps an iguana as a pet."
+  ],
+  "spanish": {
+   "word": "iguana",
+   "definition": "Lagarto grande y verde."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6287,
+  "word": "koala",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/koʊˈɑːlə/",
+  "definition": "A small Australian animal that lives in trees.",
+  "examples": [
+   "The koala was sleeping in a tree.",
+   "Koalas eat leaves.",
+   "We held a koala in Australia."
+  ],
+  "spanish": {
+   "word": "koala",
+   "definition": "Animal pequeño de Australia que vive en los árboles."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6288,
+  "word": "llama",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlɑːmə/",
+  "definition": "A South American animal with long hair.",
+  "examples": [
+   "We saw llamas in Peru.",
+   "The llama carried our bags.",
+   "Llamas have soft wool."
+  ],
+  "spanish": {
+   "word": "llama",
+   "definition": "Animal suramericano de pelo largo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6289,
+  "word": "ox",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɑːks/",
+  "definition": "A large male cow used for pulling heavy things.",
+  "examples": [
+   "Two oxen pulled the cart.",
+   "He's as strong as an ox.",
+   "The farmer used an ox to plow the field."
+  ],
+  "spanish": {
+   "word": "buey",
+   "definition": "Toro grande usado para jalar cosas pesadas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6290,
+  "word": "piglet",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpɪɡlət/",
+  "definition": "A baby pig.",
+  "examples": [
+   "The piglets slept next to their mother.",
+   "The kids played with the piglets.",
+   "She held a little pink piglet."
+  ],
+  "spanish": {
+   "word": "cerdito",
+   "definition": "Cría de cerdo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6291,
+  "word": "porcupine",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpɔːrkjəpaɪn/",
+  "definition": "An animal covered in long, sharp points.",
+  "examples": [
+   "The dog got too close to a porcupine.",
+   "A porcupine climbed the tree.",
+   "Porcupines move slowly."
+  ],
+  "spanish": {
+   "word": "puercoespín",
+   "definition": "Animal cubierto de púas largas y afiladas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6292,
+  "word": "raven",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈreɪvən/",
+  "definition": "A large black bird.",
+  "examples": [
+   "A raven sat on the fence.",
+   "Ravens are very smart birds.",
+   "She has hair as black as a raven."
+  ],
+  "spanish": {
+   "word": "cuervo",
+   "definition": "Ave grande y negra."
+  },
+  "synonyms": [
+   "crow"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6293,
+  "word": "sloth",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/slɔːθ/",
+  "definition": "A slow animal that hangs from trees.",
+  "examples": [
+   "We saw a sloth in Costa Rica.",
+   "The sloth moves very slowly.",
+   "Sloths sleep most of the day."
+  ],
+  "spanish": {
+   "word": "perezoso",
+   "definition": "Animal lento que cuelga de los árboles."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6294,
+  "word": "stork",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/stɔːrk/",
+  "definition": "A tall white bird with long legs.",
+  "examples": [
+   "A stork built a nest on the roof.",
+   "Kids are told that a stork brings babies.",
+   "The stork stood on one leg."
+  ],
+  "spanish": {
+   "word": "cigüeña",
+   "definition": "Ave alta y blanca de patas largas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6295,
+  "word": "tadpole",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtædpoʊl/",
+  "definition": "A young frog that lives in water.",
+  "examples": [
+   "The kids caught tadpoles in the pond.",
+   "A tadpole becomes a frog.",
+   "The tadpoles have tiny tails."
+  ],
+  "spanish": {
+   "word": "renacuajo",
+   "definition": "Rana joven que vive en el agua."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6296,
+  "word": "toad",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/toʊd/",
+  "definition": "An animal like a frog with dry skin.",
+  "examples": [
+   "A toad jumped across the path.",
+   "Toads live on land.",
+   "The kids found a big toad in the garden."
+  ],
+  "spanish": {
+   "word": "sapo",
+   "definition": "Animal parecido a la rana con piel seca."
+  },
+  "synonyms": [
+   "frog"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6297,
+  "word": "yak",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/jæk/",
+  "definition": "A large hairy animal from Asia.",
+  "examples": [
+   "Yaks live in the mountains of Tibet.",
+   "They carried bags on yaks.",
+   "He drank yak milk."
+  ],
+  "spanish": {
+   "word": "yak",
+   "definition": "Animal grande y peludo de Asia."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6298,
+  "word": "acorn",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈeɪkɔːrn/",
+  "definition": "The small nut of an oak tree.",
+  "examples": [
+   "The squirrel buried an acorn.",
+   "Acorns fell from the tree.",
+   "The kids collected acorns in the park."
+  ],
+  "spanish": {
+   "word": "bellota",
+   "definition": "Fruto pequeño del roble."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6299,
+  "word": "brook",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/brʊk/",
+  "definition": "A small stream.",
+  "examples": [
+   "A brook runs behind the house.",
+   "We cooled our feet in the brook.",
+   "I could hear the brook from the cabin."
+  ],
+  "spanish": {
+   "word": "arroyo",
+   "definition": "Corriente pequeña de agua."
+  },
+  "synonyms": [
+   "creek"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6300,
+  "word": "crater",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkreɪtər/",
+  "definition": "A large hole in the ground or on the moon.",
+  "examples": [
+   "The moon has many craters.",
+   "The bomb left a big crater.",
+   "We looked into the volcano's crater."
+  ],
+  "spanish": {
+   "word": "cráter",
+   "definition": "Hueco grande en el suelo o en la luna."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6301,
+  "word": "dune",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/duːn/",
+  "definition": "A hill of sand.",
+  "examples": [
+   "We climbed the sand dunes.",
+   "The desert is full of dunes.",
+   "The kids rolled down the dune."
+  ],
+  "spanish": {
+   "word": "duna",
+   "definition": "Colina de arena."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6302,
+  "word": "gravel",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɡrævəl/",
+  "definition": "Small stones on paths and roads.",
+  "examples": [
+   "We drove down a gravel road.",
+   "The path is covered in gravel.",
+   "He put gravel in the driveway."
+  ],
+  "spanish": {
+   "word": "grava",
+   "definition": "Piedritas en caminos y carreteras."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6303,
+  "word": "pebble",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpebəl/",
+  "definition": "A small smooth stone.",
+  "examples": [
+   "The kids threw pebbles into the lake.",
+   "The beach is covered with pebbles.",
+   "She found a white pebble."
+  ],
+  "spanish": {
+   "word": "guijarro",
+   "definition": "Piedra pequeña y lisa."
+  },
+  "synonyms": [
+   "stone"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6304,
+  "word": "petal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpetəl/",
+  "definition": "One of the colored parts of a flower.",
+  "examples": [
+   "Rose petals covered the floor.",
+   "The flower has five petals.",
+   "She threw petals at the wedding."
+  ],
+  "spanish": {
+   "word": "pétalo",
+   "definition": "Una de las partes de color de una flor."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6305,
+  "word": "seashell",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsiːʃel/",
+  "definition": "The shell of a sea animal.",
+  "examples": [
+   "We collected seashells on the beach.",
+   "She made a necklace of seashells.",
+   "Hold the seashell to your ear."
+  ],
+  "spanish": {
+   "word": "concha",
+   "definition": "Caparazón de un animal marino."
+  },
+  "synonyms": [
+   "shell"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6306,
+  "word": "snowflake",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsnoʊfleɪk/",
+  "definition": "A small piece of snow.",
+  "examples": [
+   "No two snowflakes are the same.",
+   "A snowflake landed on her nose.",
+   "The kids caught snowflakes on their tongues."
+  ],
+  "spanish": {
+   "word": "copo de nieve",
+   "definition": "Pedacito de nieve."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6307,
+  "word": "twig",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/twɪɡ/",
+  "definition": "A small, thin branch.",
+  "examples": [
+   "The bird built a nest with twigs.",
+   "We used twigs to start the fire.",
+   "A twig broke under my foot."
+  ],
+  "spanish": {
+   "word": "ramita",
+   "definition": "Rama pequeña y delgada."
+  },
+  "synonyms": [
+   "stick"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6308,
+  "word": "algebra",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈældʒɪbrə/",
+  "definition": "A kind of math that uses letters for numbers.",
+  "examples": [
+   "I have an algebra test tomorrow.",
+   "She's good at algebra.",
+   "Algebra was hard for me."
+  ],
+  "spanish": {
+   "word": "álgebra",
+   "definition": "Tipo de matemáticas que usa letras en vez de números."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6309,
+  "word": "arithmetic",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/əˈrɪθmətɪk/",
+  "definition": "Basic math with numbers.",
+  "examples": [
+   "Kids learn arithmetic in first grade.",
+   "I'm bad at arithmetic.",
+   "Do the arithmetic in your head."
+  ],
+  "spanish": {
+   "word": "aritmética",
+   "definition": "Matemáticas básicas con números."
+  },
+  "synonyms": [
+   "math"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6310,
+  "word": "blackboard",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈblækbɔːrd/",
+  "definition": "A dark board you write on with chalk.",
+  "examples": [
+   "The teacher wrote on the blackboard.",
+   "Copy the words from the blackboard.",
+   "Clean the blackboard, please."
+  ],
+  "spanish": {
+   "word": "tablero",
+   "definition": "Tablero oscuro donde escribes con tiza."
+  },
+  "synonyms": [
+   "chalkboard"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6311,
+  "word": "dormitory",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdɔːrmɪtɔːri/",
+  "definition": "A building where students live.",
+  "examples": [
+   "She lives in a college dormitory.",
+   "The dormitory has 300 rooms.",
+   "Boys and girls live in separate dormitories."
+  ],
+  "spanish": {
+   "word": "residencia",
+   "definition": "Edificio donde viven los estudiantes."
+  },
+  "synonyms": [
+   "dorm"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6312,
+  "word": "lunchroom",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlʌntʃruːm/",
+  "definition": "A room where people eat lunch.",
+  "examples": [
+   "The kids eat in the lunchroom.",
+   "Let's meet in the lunchroom at noon.",
+   "The lunchroom is very noisy."
+  ],
+  "spanish": {
+   "word": "comedor",
+   "definition": "Cuarto donde la gente almuerza."
+  },
+  "synonyms": [
+   "cafeteria"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6313,
+  "word": "whiteboard",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwaɪtbɔːrd/",
+  "definition": "A white board you write on with markers.",
+  "examples": [
+   "She drew a map on the whiteboard.",
+   "Erase the whiteboard, please.",
+   "Every classroom has a whiteboard."
+  ],
+  "spanish": {
+   "word": "tablero blanco",
+   "definition": "Tablero blanco donde escribes con marcadores."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6314,
+  "word": "banker",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbæŋkər/",
+  "definition": "A person who works in a bank.",
+  "examples": [
+   "Her father is a banker.",
+   "The banker approved our loan.",
+   "He works as a banker in New York."
+  ],
+  "spanish": {
+   "word": "banquero",
+   "definition": "Persona que trabaja en un banco."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6315,
+  "word": "diver",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdaɪvər/",
+  "definition": "A person who swims under the water.",
+  "examples": [
+   "The divers found the old ship.",
+   "She's a scuba diver.",
+   "The diver jumped from the high board."
+  ],
+  "spanish": {
+   "word": "buzo / clavadista",
+   "definition": "Persona que nada bajo el agua."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6316,
+  "word": "jeweler",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdʒuːələr/",
+  "definition": "A person who makes or sells jewelry.",
+  "examples": [
+   "The jeweler fixed my watch.",
+   "He bought the ring from a jeweler.",
+   "She works as a jeweler."
+  ],
+  "spanish": {
+   "word": "joyero",
+   "definition": "Persona que hace o vende joyas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6317,
+  "word": "programmer",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈproʊɡræmər/",
+  "definition": "A person who writes computer programs.",
+  "examples": [
+   "He works as a programmer.",
+   "The company needs more programmers.",
+   "She's a video game programmer."
+  ],
+  "spanish": {
+   "word": "programador",
+   "definition": "Persona que escribe programas de computadora."
+  },
+  "synonyms": [
+   "developer"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6318,
+  "word": "shopkeeper",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʃɑːpkiːpər/",
+  "definition": "A person who owns a small store.",
+  "examples": [
+   "The shopkeeper gave me a free candy.",
+   "He's a shopkeeper in a small town.",
+   "The shopkeeper closed the store at six."
+  ],
+  "spanish": {
+   "word": "tendero",
+   "definition": "Persona dueña de una tienda pequeña."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6319,
+  "word": "vet",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/vet/",
+  "definition": "A doctor for animals; a person who was in the military.",
+  "examples": [
+   "Take the dog to the vet.",
+   "The vet said the cat is healthy.",
+   "He's a Vietnam vet."
+  ],
+  "spanish": {
+   "word": "veterinario / veterano",
+   "definition": "Doctor para animales; persona que estuvo en las fuerzas militares."
+  },
+  "synonyms": [
+   "veterinarian"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6320,
+  "word": "zookeeper",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈzuːkiːpər/",
+  "definition": "A person who takes care of zoo animals.",
+  "examples": [
+   "The zookeeper fed the lions.",
+   "She works as a zookeeper.",
+   "The zookeeper told us about the pandas."
+  ],
+  "spanish": {
+   "word": "cuidador de zoológico",
+   "definition": "Persona que cuida a los animales del zoológico."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6321,
+  "word": "locksmith",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlɑːksmɪθ/",
+  "definition": "A person who makes and fixes locks.",
+  "examples": [
+   "We called a locksmith when we lost our keys.",
+   "The locksmith opened the door in a minute.",
+   "He works as a locksmith."
+  ],
+  "spanish": {
+   "word": "cerrajero",
+   "definition": "Persona que hace y arregla cerraduras."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6322,
+  "word": "optician",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɑːpˈtɪʃən/",
+  "definition": "A person who makes and sells glasses.",
+  "examples": [
+   "The optician fixed my glasses.",
+   "I bought new lenses at the optician.",
+   "She works as an optician."
+  ],
+  "spanish": {
+   "word": "óptico",
+   "definition": "Persona que hace y vende gafas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ }
+]

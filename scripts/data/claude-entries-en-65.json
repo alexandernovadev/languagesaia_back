@@ -1,0 +1,2210 @@
+[
+ {
+  "rank": 6323,
+  "word": "accordion",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/əˈkɔːrdiən/",
+  "definition": "A music instrument that you squeeze to make sound.",
+  "examples": [
+   "He plays the accordion in a folk band.",
+   "Vallenato music uses the accordion.",
+   "My grandfather had an old accordion."
+  ],
+  "spanish": {
+   "word": "acordeón",
+   "definition": "Instrumento musical que aprietas para hacer sonido."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6324,
+  "word": "banjo",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbændʒoʊ/",
+  "definition": "A round music instrument with strings, used in country music.",
+  "examples": [
+   "He plays the banjo.",
+   "I heard a banjo on the porch.",
+   "The banjo is popular in bluegrass music."
+  ],
+  "spanish": {
+   "word": "banjo",
+   "definition": "Instrumento redondo de cuerdas que se usa en la música country."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6325,
+  "word": "cello",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtʃeloʊ/",
+  "definition": "A large violin you play sitting down.",
+  "examples": [
+   "She plays the cello in the orchestra.",
+   "The cello has a deep sound.",
+   "He carries his cello to school."
+  ],
+  "spanish": {
+   "word": "chelo",
+   "definition": "Violín grande que se toca sentado."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6326,
+  "word": "clarinet",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌklærəˈnet/",
+  "definition": "A black wooden music instrument that you blow into.",
+  "examples": [
+   "She plays the clarinet in the school band.",
+   "I'm learning the clarinet.",
+   "The clarinet has a soft sound."
+  ],
+  "spanish": {
+   "word": "clarinete",
+   "definition": "Instrumento musical negro de madera que se sopla."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6327,
+  "word": "cymbal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɪmbəl/",
+  "definition": "A round metal plate you hit to make a loud sound.",
+  "examples": [
+   "The drummer hit the cymbal.",
+   "The cymbals crashed at the end of the song.",
+   "He bought a new cymbal for his drums."
+  ],
+  "spanish": {
+   "word": "platillo",
+   "definition": "Placa redonda de metal que golpeas para hacer un sonido fuerte."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6328,
+  "word": "harmonica",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/hɑːrˈmɑːnɪkə/",
+  "definition": "A small instrument you play with your mouth.",
+  "examples": [
+   "He played the harmonica by the fire.",
+   "Bob Dylan plays the harmonica.",
+   "I bought a harmonica for my son."
+  ],
+  "spanish": {
+   "word": "armónica",
+   "definition": "Instrumento pequeño que tocas con la boca."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6329,
+  "word": "trombone",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/trɑːmˈboʊn/",
+  "definition": "A long metal instrument with a part that slides.",
+  "examples": [
+   "He plays the trombone in a jazz band.",
+   "The trombone is very loud.",
+   "She's learning the trombone."
+  ],
+  "spanish": {
+   "word": "trombón",
+   "definition": "Instrumento largo de metal con una parte que se desliza."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6330,
+  "word": "tuba",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtuːbə/",
+  "definition": "A very large metal instrument with a deep sound.",
+  "examples": [
+   "The tuba is the biggest instrument in the band.",
+   "He plays the tuba.",
+   "The tuba has a very deep sound."
+  ],
+  "spanish": {
+   "word": "tuba",
+   "definition": "Instrumento de metal muy grande con un sonido grave."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6331,
+  "word": "ukulele",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌjuːkəˈleɪli/",
+  "definition": "A small guitar with four strings.",
+  "examples": [
+   "She plays the ukulele.",
+   "The ukulele comes from Hawaii.",
+   "He sang a song on his ukulele."
+  ],
+  "spanish": {
+   "word": "ukelele",
+   "definition": "Guitarra pequeña con cuatro cuerdas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6332,
+  "word": "xylophone",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈzaɪləfoʊn/",
+  "definition": "An instrument with wooden bars you hit.",
+  "examples": [
+   "The kids played the xylophone.",
+   "She hit the xylophone with two sticks.",
+   "My son got a toy xylophone."
+  ],
+  "spanish": {
+   "word": "xilófono",
+   "definition": "Instrumento con barras de madera que golpeas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6333,
+  "word": "laziness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈleɪzinəs/",
+  "definition": "The quality of not wanting to work.",
+  "examples": [
+   "His laziness drives me crazy.",
+   "Laziness won't get you anywhere.",
+   "She lost her job because of laziness."
+  ],
+  "spanish": {
+   "word": "pereza",
+   "definition": "Cualidad de no querer trabajar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6334,
+  "word": "rudeness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈruːdnəs/",
+  "definition": "Impolite behavior.",
+  "examples": [
+   "I'm sorry for my rudeness.",
+   "His rudeness shocked everyone.",
+   "We won't accept rudeness in class."
+  ],
+  "spanish": {
+   "word": "grosería",
+   "definition": "Comportamiento descortés."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6335,
+  "word": "softness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɔːftnəs/",
+  "definition": "The quality of being soft.",
+  "examples": [
+   "I love the softness of this blanket.",
+   "The softness of her voice calmed me.",
+   "Add milk for softness."
+  ],
+  "spanish": {
+   "word": "suavidad",
+   "definition": "Cualidad de ser suave."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6336,
+  "word": "tiredness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtaɪərdnəs/",
+  "definition": "The feeling of being tired.",
+  "examples": [
+   "Tiredness can cause accidents.",
+   "She felt a wave of tiredness.",
+   "He fought his tiredness and kept working."
+  ],
+  "spanish": {
+   "word": "cansancio",
+   "definition": "Sensación de estar cansado."
+  },
+  "synonyms": [
+   "fatigue"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6337,
+  "word": "wellness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwelnəs/",
+  "definition": "Good health.",
+  "examples": [
+   "The company has a wellness program.",
+   "She runs a wellness center.",
+   "Sleep is important for wellness."
+  ],
+  "spanish": {
+   "word": "bienestar",
+   "definition": "Buena salud."
+  },
+  "synonyms": [
+   "health"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6338,
+  "word": "emptiness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈemptinəs/",
+  "definition": "The feeling of being empty; the state of having nothing inside.",
+  "examples": [
+   "She felt a deep emptiness after he left.",
+   "The emptiness of the house scared me.",
+   "There's an emptiness in my life."
+  ],
+  "spanish": {
+   "word": "vacío",
+   "definition": "Sensación de estar vacío; estado de no tener nada adentro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6339,
+  "word": "brightness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbraɪtnəs/",
+  "definition": "The quality of giving a lot of light.",
+  "examples": [
+   "Turn down the brightness of the screen.",
+   "The brightness of the sun hurt my eyes.",
+   "I love the brightness of her smile."
+  ],
+  "spanish": {
+   "word": "brillo",
+   "definition": "Cualidad de dar mucha luz."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6340,
+  "word": "coldness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkoʊldnəs/",
+  "definition": "The state of being cold; unfriendliness.",
+  "examples": [
+   "I felt the coldness of the water.",
+   "His coldness hurt her.",
+   "There was a coldness in his voice."
+  ],
+  "spanish": {
+   "word": "frialdad",
+   "definition": "Estado de estar frío; falta de amabilidad."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6341,
+  "word": "gentleness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdʒentəlnəs/",
+  "definition": "The quality of being kind and soft.",
+  "examples": [
+   "She treats the animals with gentleness.",
+   "I love his gentleness with the kids.",
+   "Speak to him with gentleness."
+  ],
+  "spanish": {
+   "word": "dulzura",
+   "definition": "Cualidad de ser amable y suave."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6342,
+  "word": "openness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈoʊpənnəs/",
+  "definition": "The quality of being honest and willing to share.",
+  "examples": [
+   "I like his openness about his past.",
+   "Openness is important in a relationship.",
+   "She spoke with great openness."
+  ],
+  "spanish": {
+   "word": "franqueza",
+   "definition": "Cualidad de ser honesto y dispuesto a compartir."
+  },
+  "synonyms": [
+   "honesty"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6343,
+  "word": "politeness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pəˈlaɪtnəs/",
+  "definition": "Good manners.",
+  "examples": [
+   "He thanked me out of politeness.",
+   "Politeness costs nothing.",
+   "I was impressed by the children's politeness."
+  ],
+  "spanish": {
+   "word": "cortesía",
+   "definition": "Buenos modales."
+  },
+  "synonyms": [
+   "courtesy"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6344,
+  "word": "roughness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈrʌfnəs/",
+  "definition": "The quality of not being smooth.",
+  "examples": [
+   "I could feel the roughness of the wall.",
+   "The roughness of the road made the ride bumpy.",
+   "She noticed the roughness of his hands."
+  ],
+  "spanish": {
+   "word": "aspereza",
+   "definition": "Cualidad de no ser liso."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6345,
+  "word": "sharpness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈʃɑːrpnəs/",
+  "definition": "The quality of being sharp.",
+  "examples": [
+   "Check the sharpness of the knife.",
+   "The sharpness of the photo is amazing.",
+   "He spoke with sharpness in his voice."
+  ],
+  "spanish": {
+   "word": "filo / nitidez",
+   "definition": "Cualidad de ser afilado o nítido."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6346,
+  "word": "stiffness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈstɪfnəs/",
+  "definition": "The state of being hard to move or bend.",
+  "examples": [
+   "I have some stiffness in my neck.",
+   "Stretching helps with stiffness.",
+   "The stiffness in his knees is worse in winter."
+  ],
+  "spanish": {
+   "word": "rigidez",
+   "definition": "Estado de ser difícil de mover o doblar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6347,
+  "word": "thickness",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈθɪknəs/",
+  "definition": "How thick something is.",
+  "examples": [
+   "Measure the thickness of the wall.",
+   "The ice is two inches in thickness.",
+   "I like the thickness of this blanket."
+  ],
+  "spanish": {
+   "word": "grosor",
+   "definition": "Qué tan grueso es algo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6348,
+  "word": "forgetful",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/fərˈɡetfəl/",
+  "definition": "Often forgetting things.",
+  "examples": [
+   "My grandfather is getting forgetful.",
+   "I'm so forgetful these days.",
+   "She's forgetful about birthdays."
+  ],
+  "spanish": {
+   "word": "olvidadizo",
+   "definition": "Que olvida las cosas a menudo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6349,
+  "word": "restful",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈrestfəl/",
+  "definition": "Helping you relax.",
+  "examples": [
+   "We had a restful weekend.",
+   "The room has a restful color.",
+   "I need a restful night's sleep."
+  ],
+  "spanish": {
+   "word": "tranquilo / reparador",
+   "definition": "Que te ayuda a relajarte."
+  },
+  "synonyms": [
+   "relaxing"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6350,
+  "word": "skillful",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈskɪlfəl/",
+  "definition": "Very good at doing something.",
+  "examples": [
+   "He's a skillful driver.",
+   "She's a skillful player.",
+   "It was a skillful repair."
+  ],
+  "spanish": {
+   "word": "hábil",
+   "definition": "Muy bueno para hacer algo."
+  },
+  "synonyms": [
+   "skilled"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6351,
+  "word": "tasteful",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈteɪstfəl/",
+  "definition": "Attractive and in good style.",
+  "examples": [
+   "Their house has tasteful furniture.",
+   "She wore a tasteful dress.",
+   "The decorations were simple and tasteful."
+  ],
+  "spanish": {
+   "word": "de buen gusto",
+   "definition": "Atractivo y con buen estilo."
+  },
+  "synonyms": [
+   "elegant"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6352,
+  "word": "wasteful",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈweɪstfəl/",
+  "definition": "Using too much of something.",
+  "examples": [
+   "It's wasteful to leave the lights on.",
+   "He's very wasteful with money.",
+   "Plastic bags are so wasteful."
+  ],
+  "spanish": {
+   "word": "derrochador",
+   "definition": "Que usa demasiado de algo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6353,
+  "word": "boastful",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈboʊstfəl/",
+  "definition": "Talking too proudly about yourself.",
+  "examples": [
+   "He's very boastful about his car.",
+   "Don't be so boastful.",
+   "She made a boastful comment."
+  ],
+  "spanish": {
+   "word": "jactancioso",
+   "definition": "Que habla con demasiado orgullo de sí mismo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6354,
+  "word": "mindful",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈmaɪndfəl/",
+  "definition": "Aware of something.",
+  "examples": [
+   "Be mindful of other people's feelings.",
+   "She's mindful of her health.",
+   "We try to be mindful of the time."
+  ],
+  "spanish": {
+   "word": "consciente",
+   "definition": "Que tiene en cuenta algo."
+  },
+  "synonyms": [
+   "aware"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6355,
+  "word": "jobless",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈdʒɑːbləs/",
+  "definition": "Having no job.",
+  "examples": [
+   "He's been jobless for a year.",
+   "Many people became jobless after the factory closed.",
+   "The jobless rate went down."
+  ],
+  "spanish": {
+   "word": "sin trabajo",
+   "definition": "Que no tiene empleo."
+  },
+  "synonyms": [
+   "unemployed"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6356,
+  "word": "motionless",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈmoʊʃənləs/",
+  "definition": "Not moving at all.",
+  "examples": [
+   "The cat sat motionless by the window.",
+   "He lay motionless on the floor.",
+   "The water was motionless."
+  ],
+  "spanish": {
+   "word": "inmóvil",
+   "definition": "Que no se mueve nada."
+  },
+  "synonyms": [
+   "still"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6357,
+  "word": "sleepless",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈsliːpləs/",
+  "definition": "Without sleep.",
+  "examples": [
+   "I had a sleepless night.",
+   "The new baby gave us many sleepless nights.",
+   "She spent a sleepless night worrying."
+  ],
+  "spanish": {
+   "word": "sin dormir",
+   "definition": "Sin sueño."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6358,
+  "word": "spotless",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈspɑːtləs/",
+  "definition": "Completely clean.",
+  "examples": [
+   "Her kitchen is spotless.",
+   "He keeps his car spotless.",
+   "The hotel room was spotless."
+  ],
+  "spanish": {
+   "word": "impecable",
+   "definition": "Completamente limpio."
+  },
+  "synonyms": [
+   "clean"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6359,
+  "word": "tasteless",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈteɪstləs/",
+  "definition": "Having no flavor; offensive.",
+  "examples": [
+   "The soup is tasteless.",
+   "That was a tasteless joke.",
+   "The tomatoes are tasteless in winter."
+  ],
+  "spanish": {
+   "word": "insípido / de mal gusto",
+   "definition": "Sin sabor; ofensivo."
+  },
+  "synonyms": [
+   "bland"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6360,
+  "word": "thoughtless",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈθɔːtləs/",
+  "definition": "Not thinking about how others feel.",
+  "examples": [
+   "It was thoughtless of me to forget.",
+   "He made a thoughtless comment.",
+   "Don't be so thoughtless."
+  ],
+  "spanish": {
+   "word": "desconsiderado",
+   "definition": "Que no piensa en cómo se sienten los demás."
+  },
+  "synonyms": [
+   "careless"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6361,
+  "word": "toothless",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈtuːθləs/",
+  "definition": "Having no teeth.",
+  "examples": [
+   "The baby gave a toothless smile.",
+   "He was a toothless old man.",
+   "The new law is toothless."
+  ],
+  "spanish": {
+   "word": "desdentado",
+   "definition": "Sin dientes."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6362,
+  "word": "breathless",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈbreθləs/",
+  "definition": "Having trouble breathing.",
+  "examples": [
+   "I was breathless after the run.",
+   "She arrived breathless.",
+   "The view left us breathless."
+  ],
+  "spanish": {
+   "word": "sin aliento",
+   "definition": "Con dificultad para respirar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6363,
+  "word": "uncooked",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ʌnˈkʊkt/",
+  "definition": "Not cooked.",
+  "examples": [
+   "Don't eat uncooked chicken.",
+   "Keep uncooked meat in the fridge.",
+   "The rice is still uncooked."
+  ],
+  "spanish": {
+   "word": "crudo",
+   "definition": "Que no está cocinado."
+  },
+  "synonyms": [
+   "raw"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6364,
+  "word": "unequal",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ʌnˈiːkwəl/",
+  "definition": "Not the same in size or value; not fair.",
+  "examples": [
+   "The two pieces are unequal.",
+   "Women get unequal pay.",
+   "It was an unequal fight."
+  ],
+  "spanish": {
+   "word": "desigual",
+   "definition": "Que no es igual en tamaño o valor; injusto."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6365,
+  "word": "unfit",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ʌnˈfɪt/",
+  "definition": "Not good enough; not physically healthy.",
+  "examples": [
+   "The water is unfit to drink.",
+   "He's too unfit to run a mile.",
+   "She's unfit for the job."
+  ],
+  "spanish": {
+   "word": "no apto / en mala forma",
+   "definition": "Que no es lo bastante bueno; sin buena condición física."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6366,
+  "word": "unhelpful",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ʌnˈhelpfəl/",
+  "definition": "Not helping.",
+  "examples": [
+   "The staff was very unhelpful.",
+   "That comment was unhelpful.",
+   "The map was unhelpful."
+  ],
+  "spanish": {
+   "word": "poco útil",
+   "definition": "Que no ayuda."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6367,
+  "word": "unmarried",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ʌnˈmærid/",
+  "definition": "Not married.",
+  "examples": [
+   "She's an unmarried mother.",
+   "He's still unmarried at forty.",
+   "Unmarried couples can live together."
+  ],
+  "spanish": {
+   "word": "soltero",
+   "definition": "Que no está casado."
+  },
+  "synonyms": [
+   "single"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6368,
+  "word": "unpaid",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ʌnˈpeɪd/",
+  "definition": "Not paid.",
+  "examples": [
+   "She has some unpaid bills.",
+   "It's an unpaid job.",
+   "He took unpaid leave."
+  ],
+  "spanish": {
+   "word": "sin pagar / no remunerado",
+   "definition": "Que no está pagado."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6369,
+  "word": "unseen",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ʌnˈsiːn/",
+  "definition": "Not seen.",
+  "examples": [
+   "He left the house unseen.",
+   "The photos are unseen until now.",
+   "There are many unseen dangers."
+  ],
+  "spanish": {
+   "word": "no visto",
+   "definition": "Que no se ha visto."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6370,
+  "word": "untrue",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ʌnˈtruː/",
+  "definition": "False.",
+  "examples": [
+   "That story is completely untrue.",
+   "It's untrue that he left.",
+   "These rumors are untrue."
+  ],
+  "spanish": {
+   "word": "falso",
+   "definition": "Que no es verdad."
+  },
+  "synonyms": [
+   "false"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6371,
+  "word": "unafraid",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˌʌnəˈfreɪd/",
+  "definition": "Not afraid.",
+  "examples": [
+   "She was unafraid of the dark.",
+   "He's unafraid to speak his mind.",
+   "The kids were unafraid of the big dog."
+  ],
+  "spanish": {
+   "word": "sin miedo",
+   "definition": "Que no tiene miedo."
+  },
+  "synonyms": [
+   "fearless"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6372,
+  "word": "unplug",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ʌnˈplʌɡ/",
+  "definition": "To take a plug out of an outlet.",
+  "examples": [
+   "Unplug the TV before you go.",
+   "She unplugged the iron.",
+   "I'm unplugging my phone."
+  ],
+  "spanish": {
+   "word": "desconectar",
+   "definition": "Sacar un enchufe del tomacorriente."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "unplug",
+    "past": "unplugged",
+    "participle": "unplugged",
+    "gerund": "unplugging",
+    "third": "unplugs"
+   }
+  }
+ },
+ {
+  "rank": 6373,
+  "word": "unwrap",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ʌnˈræp/",
+  "definition": "To remove the paper from a gift.",
+  "examples": [
+   "The kids unwrapped their gifts.",
+   "Unwrap the candy first.",
+   "She's unwrapping her presents."
+  ],
+  "spanish": {
+   "word": "desenvolver",
+   "definition": "Quitar el papel de un regalo."
+  },
+  "synonyms": [
+   "open"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "unwrap",
+    "past": "unwrapped",
+    "participle": "unwrapped",
+    "gerund": "unwrapping",
+    "third": "unwraps"
+   }
+  }
+ },
+ {
+  "rank": 6374,
+  "word": "unzip",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ʌnˈzɪp/",
+  "definition": "To open something with a zipper.",
+  "examples": [
+   "He unzipped his jacket.",
+   "Unzip the bag.",
+   "She's unzipping her suitcase."
+  ],
+  "spanish": {
+   "word": "abrir la cremallera",
+   "definition": "Abrir algo con cremallera."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "unzip",
+    "past": "unzipped",
+    "participle": "unzipped",
+    "gerund": "unzipping",
+    "third": "unzips"
+   }
+  }
+ },
+ {
+  "rank": 6375,
+  "word": "unbutton",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ʌnˈbʌtən/",
+  "definition": "To open the buttons of clothing.",
+  "examples": [
+   "He unbuttoned his shirt.",
+   "Unbutton your coat.",
+   "She's unbuttoning the baby's sweater."
+  ],
+  "spanish": {
+   "word": "desabotonar",
+   "definition": "Abrir los botones de una prenda."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "unbutton",
+    "past": "unbuttoned",
+    "participle": "unbuttoned",
+    "gerund": "unbuttoning",
+    "third": "unbuttons"
+   }
+  }
+ },
+ {
+  "rank": 6376,
+  "word": "reread",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈriːd/",
+  "definition": "To read something again.",
+  "examples": [
+   "I reread my favorite book every year.",
+   "She reread the letter three times.",
+   "He's rereading his notes."
+  ],
+  "spanish": {
+   "word": "releer",
+   "definition": "Volver a leer algo."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "reread",
+    "past": "reread",
+    "participle": "reread",
+    "gerund": "rereading",
+    "third": "rereads"
+   }
+  }
+ },
+ {
+  "rank": 6377,
+  "word": "recharge",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈtʃɑːrdʒ/",
+  "definition": "To put power back into a battery; to rest.",
+  "examples": [
+   "I need to recharge my phone.",
+   "A vacation helps you recharge.",
+   "The battery is recharging."
+  ],
+  "spanish": {
+   "word": "recargar",
+   "definition": "Volver a cargar una batería; descansar."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "recharge",
+    "past": "recharged",
+    "participle": "recharged",
+    "gerund": "recharging",
+    "third": "recharges"
+   }
+  }
+ },
+ {
+  "rank": 6378,
+  "word": "redo",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈduː/",
+  "definition": "To do something again.",
+  "examples": [
+   "I had to redo my homework.",
+   "She redid her makeup.",
+   "We're redoing the kitchen."
+  ],
+  "spanish": {
+   "word": "rehacer",
+   "definition": "Volver a hacer algo."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "redo",
+    "past": "redid",
+    "participle": "redone",
+    "gerund": "redoing",
+    "third": "redoes"
+   }
+  }
+ },
+ {
+  "rank": 6379,
+  "word": "relive",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈlɪv/",
+  "definition": "To experience something again in your mind.",
+  "examples": [
+   "She relives the accident in her dreams.",
+   "We relived our college days.",
+   "He doesn't want to relive that pain."
+  ],
+  "spanish": {
+   "word": "revivir",
+   "definition": "Volver a vivir algo en la mente."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "relive",
+    "past": "relived",
+    "participle": "relived",
+    "gerund": "reliving",
+    "third": "relives"
+   }
+  }
+ },
+ {
+  "rank": 6380,
+  "word": "remake",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/ˌriːˈmeɪk/",
+  "definition": "To make something again; a new version of a movie.",
+  "examples": [
+   "They remade the movie in 2019.",
+   "The remake isn't as good.",
+   "She's remaking her old dress."
+  ],
+  "spanish": {
+   "word": "rehacer / nueva versión",
+   "definition": "Volver a hacer algo; nueva versión de una película."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "remake",
+    "past": "remade",
+    "participle": "remade",
+    "gerund": "remaking",
+    "third": "remakes"
+   }
+  }
+ },
+ {
+  "rank": 6381,
+  "word": "remarry",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈmæri/",
+  "definition": "To marry again.",
+  "examples": [
+   "His mother remarried last year.",
+   "He never remarried.",
+   "She's remarrying in June."
+  ],
+  "spanish": {
+   "word": "volver a casarse",
+   "definition": "Casarse otra vez."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "remarry",
+    "past": "remarried",
+    "participle": "remarried",
+    "gerund": "remarrying",
+    "third": "remarries"
+   }
+  }
+ },
+ {
+  "rank": 6382,
+  "word": "repaint",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈpeɪnt/",
+  "definition": "To paint again.",
+  "examples": [
+   "We repainted the kitchen.",
+   "They need to repaint the house.",
+   "He's repainting his old car."
+  ],
+  "spanish": {
+   "word": "repintar",
+   "definition": "Pintar otra vez."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "repaint",
+    "past": "repainted",
+    "participle": "repainted",
+    "gerund": "repainting",
+    "third": "repaints"
+   }
+  }
+ },
+ {
+  "rank": 6383,
+  "word": "replay",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/ˌriːˈpleɪ/",
+  "definition": "To play a game or a recording again.",
+  "examples": [
+   "Let's watch the replay of the goal.",
+   "She replayed the message.",
+   "He keeps replaying the song."
+  ],
+  "spanish": {
+   "word": "repetir / repetición",
+   "definition": "Volver a reproducir un juego o una grabación."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "replay",
+    "past": "replayed",
+    "participle": "replayed",
+    "gerund": "replaying",
+    "third": "replays"
+   }
+  }
+ },
+ {
+  "rank": 6384,
+  "word": "resell",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈsel/",
+  "definition": "To sell something you bought.",
+  "examples": [
+   "He resells concert tickets.",
+   "She resold the car for more money.",
+   "They're reselling old phones."
+  ],
+  "spanish": {
+   "word": "revender",
+   "definition": "Vender algo que compraste."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "resell",
+    "past": "resold",
+    "participle": "resold",
+    "gerund": "reselling",
+    "third": "resells"
+   }
+  }
+ },
+ {
+  "rank": 6385,
+  "word": "restart",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈstɑːrt/",
+  "definition": "To start again.",
+  "examples": [
+   "Restart your computer.",
+   "The game restarted after the rain.",
+   "I'm restarting my phone."
+  ],
+  "spanish": {
+   "word": "reiniciar",
+   "definition": "Volver a empezar."
+  },
+  "synonyms": [
+   "reboot"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "restart",
+    "past": "restarted",
+    "participle": "restarted",
+    "gerund": "restarting",
+    "third": "restarts"
+   }
+  }
+ },
+ {
+  "rank": 6386,
+  "word": "retell",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈtel/",
+  "definition": "To tell a story again.",
+  "examples": [
+   "She retold the story to her kids.",
+   "Grandpa loves to retell old stories.",
+   "He's retelling the joke."
+  ],
+  "spanish": {
+   "word": "volver a contar",
+   "definition": "Contar otra vez una historia."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "retell",
+    "past": "retold",
+    "participle": "retold",
+    "gerund": "retelling",
+    "third": "retells"
+   }
+  }
+ },
+ {
+  "rank": 6387,
+  "word": "retry",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈtraɪ/",
+  "definition": "To try again.",
+  "examples": [
+   "The page didn't load, so I retried.",
+   "Please retry later.",
+   "He's retrying the password."
+  ],
+  "spanish": {
+   "word": "reintentar",
+   "definition": "Intentar otra vez."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "retry",
+    "past": "retried",
+    "participle": "retried",
+    "gerund": "retrying",
+    "third": "retries"
+   }
+  }
+ },
+ {
+  "rank": 6388,
+  "word": "reuse",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈjuːz/",
+  "definition": "To use something again.",
+  "examples": [
+   "Reuse your shopping bags.",
+   "We reused the old boxes.",
+   "She's reusing glass jars."
+  ],
+  "spanish": {
+   "word": "reutilizar",
+   "definition": "Volver a usar algo."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "reuse",
+    "past": "reused",
+    "participle": "reused",
+    "gerund": "reusing",
+    "third": "reuses"
+   }
+  }
+ },
+ {
+  "rank": 6389,
+  "word": "breakable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈbreɪkəbəl/",
+  "definition": "Easy to break.",
+  "examples": [
+   "Keep breakable things away from the baby.",
+   "The box has breakable glasses in it.",
+   "Is this vase breakable?"
+  ],
+  "spanish": {
+   "word": "frágil",
+   "definition": "Fácil de romper."
+  },
+  "synonyms": [
+   "fragile"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6390,
+  "word": "drinkable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈdrɪŋkəbəl/",
+  "definition": "Safe to drink.",
+  "examples": [
+   "Is the water drinkable here?",
+   "This wine is very drinkable.",
+   "The tap water isn't drinkable."
+  ],
+  "spanish": {
+   "word": "potable",
+   "definition": "Seguro para beber."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6391,
+  "word": "likable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈlaɪkəbəl/",
+  "definition": "Easy to like.",
+  "examples": [
+   "He's a very likable guy.",
+   "She has a likable personality.",
+   "The main character is likable."
+  ],
+  "spanish": {
+   "word": "simpático",
+   "definition": "Fácil de querer."
+  },
+  "synonyms": [
+   "pleasant"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6392,
+  "word": "lovable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈlʌvəbəl/",
+  "definition": "Easy to love.",
+  "examples": [
+   "Our dog is so lovable.",
+   "He's a lovable old man.",
+   "The baby is very lovable."
+  ],
+  "spanish": {
+   "word": "adorable",
+   "definition": "Fácil de amar."
+  },
+  "synonyms": [
+   "adorable"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6393,
+  "word": "notable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈnoʊtəbəl/",
+  "definition": "Important or interesting.",
+  "examples": [
+   "There was one notable change.",
+   "He's a notable writer.",
+   "The house is notable for its old windows."
+  ],
+  "spanish": {
+   "word": "notable",
+   "definition": "Importante o interesante."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6394,
+  "word": "readable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈriːdəbəl/",
+  "definition": "Easy to read.",
+  "examples": [
+   "Her handwriting isn't readable.",
+   "It's a short, readable book.",
+   "Make the font bigger so it's readable."
+  ],
+  "spanish": {
+   "word": "legible",
+   "definition": "Fácil de leer."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6395,
+  "word": "recyclable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˌriːˈsaɪkləbəl/",
+  "definition": "Able to be used again after processing.",
+  "examples": [
+   "These bottles are recyclable.",
+   "Is this box recyclable?",
+   "Put recyclable things in the blue bin."
+  ],
+  "spanish": {
+   "word": "reciclable",
+   "definition": "Que se puede reciclar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6396,
+  "word": "sizable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈsaɪzəbəl/",
+  "definition": "Fairly large.",
+  "examples": [
+   "He won a sizable amount of money.",
+   "They have a sizable house.",
+   "A sizable crowd came to the game."
+  ],
+  "spanish": {
+   "word": "considerable",
+   "definition": "Bastante grande."
+  },
+  "synonyms": [
+   "large"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6397,
+  "word": "washable",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈwɑːʃəbəl/",
+  "definition": "Able to be washed.",
+  "examples": [
+   "This jacket is machine washable.",
+   "Buy washable paint for the kids' room.",
+   "The cushion covers are washable."
+  ],
+  "spanish": {
+   "word": "lavable",
+   "definition": "Que se puede lavar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6398,
+  "word": "walker",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwɔːkər/",
+  "definition": "A person who walks; a frame that helps you walk.",
+  "examples": [
+   "She's a fast walker.",
+   "My grandmother uses a walker.",
+   "The park is full of dog walkers."
+  ],
+  "spanish": {
+   "word": "caminante / andador",
+   "definition": "Persona que camina; armazón que ayuda a caminar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6399,
+  "word": "learner",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlɜːrnər/",
+  "definition": "A person who is learning.",
+  "examples": [
+   "This book is for English learners.",
+   "She's a fast learner.",
+   "Learners can practice online."
+  ],
+  "spanish": {
+   "word": "aprendiz / estudiante",
+   "definition": "Persona que está aprendiendo."
+  },
+  "synonyms": [
+   "student"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6400,
+  "word": "thinker",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈθɪŋkər/",
+  "definition": "A person who thinks deeply.",
+  "examples": [
+   "He's a great thinker.",
+   "She's a creative thinker.",
+   "Plato was a famous thinker."
+  ],
+  "spanish": {
+   "word": "pensador",
+   "definition": "Persona que piensa profundamente."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6401,
+  "word": "dreamer",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdriːmər/",
+  "definition": "A person who has big hopes and ideas.",
+  "examples": [
+   "He's always been a dreamer.",
+   "She's a dreamer, not a doer.",
+   "The world needs dreamers."
+  ],
+  "spanish": {
+   "word": "soñador",
+   "definition": "Persona con grandes esperanzas e ideas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6402,
+  "word": "follower",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfɑːloʊər/",
+  "definition": "A person who follows someone or something.",
+  "examples": [
+   "She has a million followers on Instagram.",
+   "He's a follower, not a leader.",
+   "The church has many followers."
+  ],
+  "spanish": {
+   "word": "seguidor",
+   "definition": "Persona que sigue a alguien o algo."
+  },
+  "synonyms": [
+   "fan"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6403,
+  "word": "helper",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhelpər/",
+  "definition": "A person who helps.",
+  "examples": [
+   "My son is my little helper.",
+   "She hired a helper for the house.",
+   "Santa's helpers are elves."
+  ],
+  "spanish": {
+   "word": "ayudante",
+   "definition": "Persona que ayuda."
+  },
+  "synonyms": [
+   "assistant"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6404,
+  "word": "listener",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlɪsənər/",
+  "definition": "A person who listens.",
+  "examples": [
+   "She's a good listener.",
+   "The radio show has many listeners.",
+   "Thank you, listeners, for calling in."
+  ],
+  "spanish": {
+   "word": "oyente",
+   "definition": "Persona que escucha."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6405,
+  "word": "caller",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkɔːlər/",
+  "definition": "A person who makes a phone call.",
+  "examples": [
+   "The caller didn't give his name.",
+   "Our next caller is from Texas.",
+   "The first caller wins a prize."
+  ],
+  "spanish": {
+   "word": "persona que llama",
+   "definition": "Persona que hace una llamada."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6406,
+  "word": "seller",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈselər/",
+  "definition": "A person who sells something.",
+  "examples": [
+   "The seller wants $500 for the car.",
+   "Contact the seller before you buy.",
+   "The book became a best seller."
+  ],
+  "spanish": {
+   "word": "vendedor",
+   "definition": "Persona que vende algo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6407,
+  "word": "maker",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmeɪkər/",
+  "definition": "A person or a company that makes something.",
+  "examples": [
+   "He's a furniture maker.",
+   "We bought a new coffee maker.",
+   "The maker of this car is Japanese."
+  ],
+  "spanish": {
+   "word": "fabricante",
+   "definition": "Persona o empresa que hace algo."
+  },
+  "synonyms": [
+   "manufacturer"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6408,
+  "word": "renter",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈrentər/",
+  "definition": "A person who pays rent.",
+  "examples": [
+   "Many renters want to buy a home.",
+   "The renter moved out last month.",
+   "Renters have rights too."
+  ],
+  "spanish": {
+   "word": "inquilino",
+   "definition": "Persona que paga alquiler."
+  },
+  "synonyms": [
+   "tenant"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6409,
+  "word": "springtime",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsprɪŋtaɪm/",
+  "definition": "The season of spring.",
+  "examples": [
+   "The garden is beautiful in springtime.",
+   "Springtime brings flowers and rain.",
+   "We got married in the springtime."
+  ],
+  "spanish": {
+   "word": "primavera",
+   "definition": "La estación de la primavera."
+  },
+  "synonyms": [
+   "spring"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6410,
+  "word": "summertime",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsʌmərtaɪm/",
+  "definition": "The season of summer.",
+  "examples": [
+   "In summertime, the kids swim every day.",
+   "Summertime is my favorite time of year.",
+   "It's very hot here in summertime."
+  ],
+  "spanish": {
+   "word": "verano",
+   "definition": "La estación del verano."
+  },
+  "synonyms": [
+   "summer"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6411,
+  "word": "wintertime",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwɪntərtaɪm/",
+  "definition": "The season of winter.",
+  "examples": [
+   "It snows a lot in wintertime.",
+   "The lake freezes in wintertime.",
+   "We stay indoors more in wintertime."
+  ],
+  "spanish": {
+   "word": "invierno",
+   "definition": "La estación del invierno."
+  },
+  "synonyms": [
+   "winter"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6412,
+  "word": "streetcar",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈstriːtkɑːr/",
+  "definition": "A vehicle on rails in a city street.",
+  "examples": [
+   "We took the streetcar downtown.",
+   "The streetcar stops at every corner.",
+   "New Orleans has old streetcars."
+  ],
+  "spanish": {
+   "word": "tranvía",
+   "definition": "Vehículo sobre rieles en una calle de la ciudad."
+  },
+  "synonyms": [
+   "tram"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6413,
+  "word": "kayak",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkaɪæk/",
+  "definition": "A small narrow boat for one or two people.",
+  "examples": [
+   "We went down the river in a kayak.",
+   "She rented a kayak at the beach.",
+   "The kayak turned over."
+  ],
+  "spanish": {
+   "word": "kayak",
+   "definition": "Bote pequeño y estrecho para una o dos personas."
+  },
+  "synonyms": [
+   "canoe"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6414,
+  "word": "sailboat",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈseɪlboʊt/",
+  "definition": "A boat with sails.",
+  "examples": [
+   "They bought a small sailboat.",
+   "We spent the day on a sailboat.",
+   "A sailboat crossed the bay."
+  ],
+  "spanish": {
+   "word": "velero",
+   "definition": "Bote con velas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6415,
+  "word": "motorboat",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmoʊtərboʊt/",
+  "definition": "A small boat with an engine.",
+  "examples": [
+   "We rented a motorboat on the lake.",
+   "The motorboat was very fast.",
+   "He drove the motorboat to the island."
+  ],
+  "spanish": {
+   "word": "lancha",
+   "definition": "Bote pequeño con motor."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6416,
+  "word": "bookworm",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbʊkwɜːrm/",
+  "definition": "A person who loves reading.",
+  "examples": [
+   "My daughter is a real bookworm.",
+   "He was a bookworm as a child.",
+   "Bookworms love this store."
+  ],
+  "spanish": {
+   "word": "ratón de biblioteca",
+   "definition": "Persona a la que le encanta leer."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6417,
+  "word": "daydream",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdeɪdriːm/",
+  "definition": "Happy thoughts that take your attention away.",
+  "examples": [
+   "He was lost in a daydream.",
+   "She has daydreams about Paris.",
+   "My daydream ended when the bell rang."
+  ],
+  "spanish": {
+   "word": "ensueño",
+   "definition": "Pensamientos felices que te distraen."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6418,
+  "word": "doghouse",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdɔːɡhaʊs/",
+  "definition": "A small house for a dog.",
+  "examples": [
+   "We built a doghouse in the yard.",
+   "The dog sleeps in his doghouse.",
+   "I'm in the doghouse with my wife."
+  ],
+  "spanish": {
+   "word": "casa del perro",
+   "definition": "Casita para un perro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6419,
+  "word": "eyeglasses",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈaɪɡlæsɪz/",
+  "definition": "Glasses that help you see.",
+  "examples": [
+   "She needs eyeglasses to read.",
+   "He lost his eyeglasses.",
+   "Eyeglasses are expensive."
+  ],
+  "spanish": {
+   "word": "anteojos",
+   "definition": "Gafas que te ayudan a ver."
+  },
+  "synonyms": [
+   "glasses"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6420,
+  "word": "sandcastle",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsændkæsəl/",
+  "definition": "A castle made of sand.",
+  "examples": [
+   "The kids built a sandcastle on the beach.",
+   "A wave destroyed our sandcastle.",
+   "We made a huge sandcastle."
+  ],
+  "spanish": {
+   "word": "castillo de arena",
+   "definition": "Castillo hecho de arena."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 6421,
+  "word": "seashore",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsiːʃɔːr/",
+  "definition": "The land next to the sea.",
+  "examples": [
+   "We walked along the seashore.",
+   "They live by the seashore.",
+   "The kids collected shells on the seashore."
+  ],
+  "spanish": {
+   "word": "orilla del mar",
+   "definition": "Tierra junto al mar."
+  },
+  "synonyms": [
+   "beach"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 6422,
+  "word": "windmill",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwɪndmɪl/",
+  "definition": "A tall building with blades that turn in the wind.",
+  "examples": [
+   "Holland is famous for its windmills.",
+   "An old windmill stands on the hill.",
+   "The windmill makes electricity."
+  ],
+  "spanish": {
+   "word": "molino de viento",
+   "definition": "Construcción alta con aspas que giran con el viento."
+  },
+  "synonyms": [],
+  "conjugations": null
+ }
+]

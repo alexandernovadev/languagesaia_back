@@ -1,0 +1,2065 @@
+[
+  {
+    "rank": 7001,
+    "word": "clientela",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kliẽˈtɛlɐ/",
+    "definition": "Conjunto de clientes de um negócio.",
+    "examples": [
+      "A padaria tem uma clientela fiel.",
+      "A clientela cresceu este ano.",
+      "O restaurante atende uma clientela exigente."
+    ],
+    "spanish": {
+      "word": "clientela",
+      "definition": "Conjunto de clientes de un negocio."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7002,
+    "word": "complicação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõplikaˈsɐ̃w̃/",
+    "definition": "Problema que deixa algo mais difícil.",
+    "examples": [
+      "A cirurgia não teve complicações.",
+      "Houve uma complicação na viagem.",
+      "Não quero complicação."
+    ],
+    "spanish": {
+      "word": "complicación",
+      "definition": "Problema que hace algo más difícil."
+    },
+    "synonyms": [
+      "problema"
+    ]
+  },
+  {
+    "rank": 7003,
+    "word": "continuidade",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõtʃinuiˈdadʒi/",
+    "definition": "Ato de continuar sem parar.",
+    "examples": [
+      "O projeto precisa de continuidade.",
+      "Vamos dar continuidade ao trabalho.",
+      "A continuidade do tratamento é importante."
+    ],
+    "spanish": {
+      "word": "continuidad",
+      "definition": "Acto de continuar sin parar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7004,
+    "word": "narrativa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/naʁaˈtʃivɐ/",
+    "definition": "História contada.",
+    "examples": [
+      "A narrativa do livro é envolvente.",
+      "Cada um tem a sua narrativa.",
+      "A narrativa começa no Rio."
+    ],
+    "spanish": {
+      "word": "narrativa",
+      "definition": "Historia contada."
+    },
+    "synonyms": [
+      "história"
+    ]
+  },
+  {
+    "rank": 7005,
+    "word": "relativo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʁelaˈtʃivu/",
+    "definition": "Que depende de outra coisa; que se refere a algo.",
+    "examples": [
+      "Tudo é relativo.",
+      "Recebi um e-mail relativo à viagem.",
+      "O preço é relativo à qualidade."
+    ],
+    "spanish": {
+      "word": "relativo",
+      "definition": "Que depende de otra cosa; que se refiere a algo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7006,
+    "word": "residencial",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʁezidẽsiˈaw/",
+    "definition": "De moradia.",
+    "examples": [
+      "Moro em um bairro residencial.",
+      "O telefone residencial quase não toca.",
+      "É um prédio residencial."
+    ],
+    "spanish": {
+      "word": "residencial",
+      "definition": "De vivienda."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7007,
+    "word": "emotivo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/emoˈtʃivu/",
+    "definition": "Que se emociona fácil.",
+    "examples": [
+      "Ela é muito emotiva.",
+      "Foi um discurso emotivo.",
+      "Sou emotivo e choro em filmes."
+    ],
+    "spanish": {
+      "word": "emotivo",
+      "definition": "Que se emociona fácilmente."
+    },
+    "synonyms": [
+      "sentimental"
+    ]
+  },
+  {
+    "rank": 7008,
+    "word": "perspicaz",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/peʁspiˈkas/",
+    "definition": "Que percebe as coisas rápido.",
+    "examples": [
+      "Ela é uma menina perspicaz.",
+      "Foi uma observação perspicaz.",
+      "O detetive é muito perspicaz."
+    ],
+    "spanish": {
+      "word": "perspicaz",
+      "definition": "Que percibe las cosas rápido."
+    },
+    "synonyms": [
+      "esperto"
+    ]
+  },
+  {
+    "rank": 7009,
+    "word": "rachadura",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁaʃaˈduɾɐ/",
+    "definition": "Abertura fina em uma parede ou superfície.",
+    "examples": [
+      "Há uma rachadura na parede.",
+      "A rachadura no teto aumentou.",
+      "O celular tem uma rachadura na tela."
+    ],
+    "spanish": {
+      "word": "grieta",
+      "definition": "Abertura fina en una pared o superficie."
+    },
+    "synonyms": [
+      "fenda"
+    ]
+  },
+  {
+    "rank": 7010,
+    "word": "trunfo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈtɾũfu/",
+    "definition": "Vantagem guardada para usar na hora certa.",
+    "examples": [
+      "A experiência é o seu trunfo.",
+      "Ele guardou um trunfo para o final.",
+      "O goleiro é o trunfo do time."
+    ],
+    "spanish": {
+      "word": "as bajo la manga",
+      "definition": "Ventaja guardada para usar en el momento justo."
+    },
+    "synonyms": [
+      "vantagem"
+    ]
+  },
+  {
+    "rank": 7011,
+    "word": "declínio",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/deˈkliniu/",
+    "definition": "Queda; perda de força.",
+    "examples": [
+      "As vendas estão em declínio.",
+      "A cidade viveu um declínio econômico.",
+      "O império entrou em declínio."
+    ],
+    "spanish": {
+      "word": "declive",
+      "definition": "Caída; pérdida de fuerza."
+    },
+    "synonyms": [
+      "queda"
+    ]
+  },
+  {
+    "rank": 7012,
+    "word": "ameaçador",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ameasaˈdoʁ/",
+    "definition": "Que ameaça; que dá medo.",
+    "examples": [
+      "O céu está ameaçador.",
+      "Ele tinha um olhar ameaçador.",
+      "Recebi uma mensagem ameaçadora."
+    ],
+    "spanish": {
+      "word": "amenazador",
+      "definition": "Que amenaza; que da miedo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7013,
+    "word": "influente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩfluˈẽtʃi/",
+    "definition": "Que tem influência.",
+    "examples": [
+      "Ela é uma mulher influente.",
+      "Ele conhece pessoas influentes.",
+      "É um dos livros mais influentes."
+    ],
+    "spanish": {
+      "word": "influyente",
+      "definition": "Que tiene influencia."
+    },
+    "synonyms": [
+      "poderoso"
+    ]
+  },
+  {
+    "rank": 7014,
+    "word": "delírio",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/deˈliɾiu/",
+    "definition": "Estado de confusão com ideias sem sentido; grande entusiasmo.",
+    "examples": [
+      "A febre alta causou delírio.",
+      "Isso é um delírio!",
+      "A torcida foi ao delírio com o gol."
+    ],
+    "spanish": {
+      "word": "delirio",
+      "definition": "Estado de confusión con ideas sin sentido; gran entusiasmo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7015,
+    "word": "marcação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/maʁkaˈsɐ̃w̃/",
+    "definition": "Ato de marcar; agendamento.",
+    "examples": [
+      "A marcação de consultas é pelo site.",
+      "O zagueiro fez uma boa marcação.",
+      "Ele está de marcação comigo."
+    ],
+    "spanish": {
+      "word": "marcación; cita",
+      "definition": "Acto de marcar; programación de citas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7016,
+    "word": "estrondo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/esˈtɾõdu/",
+    "definition": "Barulho muito forte.",
+    "examples": [
+      "Ouvimos um estrondo na rua.",
+      "O trovão fez um estrondo.",
+      "A porta bateu com um estrondo."
+    ],
+    "spanish": {
+      "word": "estruendo",
+      "definition": "Ruido muy fuerte."
+    },
+    "synonyms": [
+      "barulho"
+    ]
+  },
+  {
+    "rank": 7017,
+    "word": "rivalidade",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁivaliˈdadʒi/",
+    "definition": "Disputa entre rivais.",
+    "examples": [
+      "A rivalidade entre os times é antiga.",
+      "Há rivalidade entre os irmãos.",
+      "A rivalidade virou amizade."
+    ],
+    "spanish": {
+      "word": "rivalidad",
+      "definition": "Disputa entre rivales."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7018,
+    "word": "amargura",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/amaʁˈguɾɐ/",
+    "definition": "Tristeza com mágoa.",
+    "examples": [
+      "Ele falou com amargura.",
+      "A amargura tomou conta dela.",
+      "Não guarde amargura no coração."
+    ],
+    "spanish": {
+      "word": "amargura",
+      "definition": "Tristeza con resentimiento."
+    },
+    "synonyms": [
+      "mágoa"
+    ]
+  },
+  {
+    "rank": 7019,
+    "word": "vitorioso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/vitoɾiˈozu/",
+    "definition": "Que venceu.",
+    "examples": [
+      "O time saiu vitorioso.",
+      "Foi uma campanha vitoriosa.",
+      "Ela voltou vitoriosa da competição."
+    ],
+    "spanish": {
+      "word": "victorioso",
+      "definition": "Que venció."
+    },
+    "synonyms": [
+      "vencedor"
+    ]
+  },
+  {
+    "rank": 7020,
+    "word": "unânime",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/uˈnɐ̃nimi/",
+    "definition": "Com a opinião de todos.",
+    "examples": [
+      "A decisão foi unânime.",
+      "O filme foi um sucesso unânime.",
+      "A aprovação foi unânime."
+    ],
+    "spanish": {
+      "word": "unánime",
+      "definition": "Con la opinión de todos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7021,
+    "word": "agudo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/aˈgudu/",
+    "definition": "Fino e alto, no som; forte e repentino, na dor.",
+    "examples": [
+      "Ela tem uma voz aguda.",
+      "Senti uma dor aguda no peito.",
+      "O acento agudo vai na vogal."
+    ],
+    "spanish": {
+      "word": "agudo",
+      "definition": "Fino y alto, en el sonido; fuerte y repentino, en el dolor."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7022,
+    "word": "consenso",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõˈsẽsu/",
+    "definition": "Acordo de todos.",
+    "examples": [
+      "Chegamos a um consenso.",
+      "Não há consenso sobre o tema.",
+      "A decisão foi por consenso."
+    ],
+    "spanish": {
+      "word": "consenso",
+      "definition": "Acuerdo de todos."
+    },
+    "synonyms": [
+      "acordo"
+    ]
+  },
+  {
+    "rank": 7023,
+    "word": "clandestino",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/klɐ̃desˈtʃinu/",
+    "definition": "Feito em segredo, contra a lei.",
+    "examples": [
+      "A polícia fechou uma fábrica clandestina.",
+      "Ele viajou clandestino no navio.",
+      "Era uma festa clandestina."
+    ],
+    "spanish": {
+      "word": "clandestino",
+      "definition": "Hecho en secreto, contra la ley."
+    },
+    "synonyms": [
+      "ilegal"
+    ]
+  },
+  {
+    "rank": 7024,
+    "word": "ultimato",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/uwtʃiˈmatu/",
+    "definition": "Última exigência antes de uma ação séria.",
+    "examples": [
+      "O chefe deu um ultimato.",
+      "Ela me deu um ultimato: ou eu mudo, ou ela vai.",
+      "O país recebeu um ultimato."
+    ],
+    "spanish": {
+      "word": "ultimátum",
+      "definition": "Última exigencia antes de una acción seria."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7025,
+    "word": "incontrolável",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩkõtɾoˈlavew/",
+    "definition": "Que não se consegue controlar.",
+    "examples": [
+      "Tive uma vontade incontrolável de rir.",
+      "O fogo ficou incontrolável.",
+      "A situação está incontrolável."
+    ],
+    "spanish": {
+      "word": "incontrolable",
+      "definition": "Que no se puede controlar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7026,
+    "word": "aceso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/aˈsezu/",
+    "definition": "Com luz ou fogo ligado.",
+    "examples": [
+      "Deixei a luz acesa.",
+      "O fogão está aceso.",
+      "A vela continua acesa."
+    ],
+    "spanish": {
+      "word": "encendido",
+      "definition": "Con la luz o el fuego prendido."
+    },
+    "synonyms": [
+      "ligado"
+    ]
+  },
+  {
+    "rank": 7027,
+    "word": "horroroso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/oʁoˈɾozu/",
+    "definition": "Muito feio ou ruim.",
+    "examples": [
+      "O tempo hoje está horroroso.",
+      "Que roupa horrorosa!",
+      "Tive um dia horroroso."
+    ],
+    "spanish": {
+      "word": "horroroso",
+      "definition": "Muy feo o malo."
+    },
+    "synonyms": [
+      "horrível"
+    ]
+  },
+  {
+    "rank": 7028,
+    "word": "inimaginável",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/inimaʒiˈnavew/",
+    "definition": "Que não dá para imaginar.",
+    "examples": [
+      "O preço é inimaginável.",
+      "Ela sentiu uma dor inimaginável.",
+      "Isso era inimaginável há dez anos."
+    ],
+    "spanish": {
+      "word": "inimaginable",
+      "definition": "Que no se puede imaginar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7029,
+    "word": "reconciliação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁekõsiliaˈsɐ̃w̃/",
+    "definition": "Volta à paz depois de uma briga.",
+    "examples": [
+      "Os irmãos tiveram uma reconciliação.",
+      "A reconciliação do casal foi bonita.",
+      "O país busca reconciliação."
+    ],
+    "spanish": {
+      "word": "reconciliación",
+      "definition": "Vuelta a la paz después de una pelea."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7030,
+    "word": "renovação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁenovaˈsɐ̃w̃/",
+    "definition": "Ato de renovar.",
+    "examples": [
+      "Fiz a renovação do passaporte.",
+      "O time passa por uma renovação.",
+      "A renovação do contrato é em junho."
+    ],
+    "spanish": {
+      "word": "renovación",
+      "definition": "Acto de renovar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7031,
+    "word": "seriedade",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/seɾieˈdadʒi/",
+    "definition": "Qualidade de quem é sério.",
+    "examples": [
+      "Trate o assunto com seriedade.",
+      "Ela trabalha com seriedade.",
+      "A seriedade da empresa é conhecida."
+    ],
+    "spanish": {
+      "word": "seriedad",
+      "definition": "Cualidad de quien es serio."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7032,
+    "word": "binóculo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/biˈnɔkulu/",
+    "definition": "Aparelho para ver longe com os dois olhos.",
+    "examples": [
+      "Vimos as aves com o binóculo.",
+      "Leve o binóculo para o jogo.",
+      "O binóculo está na mochila."
+    ],
+    "spanish": {
+      "word": "binoculares",
+      "definition": "Aparato para ver lejos con los dos ojos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7033,
+    "word": "espontâneo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/espõˈtɐ̃niu/",
+    "definition": "Que acontece de forma natural, sem planejar.",
+    "examples": [
+      "Ela é muito espontânea.",
+      "Foi um abraço espontâneo.",
+      "A festa foi espontânea."
+    ],
+    "spanish": {
+      "word": "espontáneo",
+      "definition": "Que pasa de forma natural, sin planear."
+    },
+    "synonyms": [
+      "natural"
+    ]
+  },
+  {
+    "rank": 7034,
+    "word": "consumidor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõsumiˈdoʁ/",
+    "definition": "Pessoa que compra e usa produtos.",
+    "examples": [
+      "O consumidor tem direitos.",
+      "A loja ouve o consumidor.",
+      "Os consumidores reclamaram do preço."
+    ],
+    "spanish": {
+      "word": "consumidor",
+      "definition": "Persona que compra y usa productos."
+    },
+    "synonyms": [
+      "cliente"
+    ]
+  },
+  {
+    "rank": 7035,
+    "word": "sossego",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/soˈsegu/",
+    "definition": "Calma, tranquilidade.",
+    "examples": [
+      "Quero um pouco de sossego.",
+      "No sítio tem paz e sossego.",
+      "Esse barulho acabou com o meu sossego."
+    ],
+    "spanish": {
+      "word": "sosiego",
+      "definition": "Calma, tranquilidad."
+    },
+    "synonyms": [
+      "calma"
+    ]
+  },
+  {
+    "rank": 7036,
+    "word": "genialidade",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʒenialiˈdadʒi/",
+    "definition": "Qualidade de gênio.",
+    "examples": [
+      "A genialidade de Pelé era rara.",
+      "O filme mostra a genialidade do diretor.",
+      "Que genialidade essa ideia!"
+    ],
+    "spanish": {
+      "word": "genialidad",
+      "definition": "Cualidad de genio."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7037,
+    "word": "distribuidor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/dʒistɾibuiˈdoʁ/",
+    "definition": "Empresa ou pessoa que entrega produtos para vender.",
+    "examples": [
+      "O distribuidor atrasou a entrega.",
+      "Ela é distribuidora de cosméticos.",
+      "O distribuidor de bebidas fica no centro."
+    ],
+    "spanish": {
+      "word": "distribuidor",
+      "definition": "Empresa o persona que entrega productos para vender."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7038,
+    "word": "traumático",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/tɾawˈmatʃiku/",
+    "definition": "Que deixa uma marca ruim na mente.",
+    "examples": [
+      "O acidente foi traumático.",
+      "Ela teve uma infância traumática.",
+      "Foi uma experiência traumática."
+    ],
+    "spanish": {
+      "word": "traumático",
+      "definition": "Que deja una marca mala en la mente."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7039,
+    "word": "interrogação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩteʁogaˈsɐ̃w̃/",
+    "definition": "Sinal de pontuação (?); dúvida.",
+    "examples": [
+      "A pergunta termina com ponto de interrogação.",
+      "O futuro é uma grande interrogação.",
+      "Ele me olhou com cara de interrogação."
+    ],
+    "spanish": {
+      "word": "interrogación",
+      "definition": "Signo de puntuación (?); duda."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7040,
+    "word": "continuação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõtʃinwaˈsɐ̃w̃/",
+    "definition": "O que vem depois; parte seguinte.",
+    "examples": [
+      "A continuação do filme sai em maio.",
+      "Esse livro é a continuação do primeiro.",
+      "Vamos ver a continuação amanhã."
+    ],
+    "spanish": {
+      "word": "continuación",
+      "definition": "Lo que viene después; parte siguiente."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7041,
+    "word": "crente",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/ˈkɾẽtʃi/",
+    "definition": "Pessoa que tem fé; no Brasil, membro de igreja evangélica.",
+    "examples": [
+      "Ela é crente e vai ao culto.",
+      "Os crentes cantaram na praça.",
+      "Ele é crente desde jovem."
+    ],
+    "spanish": {
+      "word": "creyente; evangélico",
+      "definition": "Persona que tiene fe; en Brasil, miembro de iglesia evangélica."
+    },
+    "synonyms": [
+      "evangélico"
+    ]
+  },
+  {
+    "rank": 7042,
+    "word": "poético",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/poˈɛtʃiku/",
+    "definition": "Da poesia; bonito como um poema.",
+    "examples": [
+      "Ela tem um jeito poético de falar.",
+      "O pôr do sol estava poético.",
+      "O texto é muito poético."
+    ],
+    "spanish": {
+      "word": "poético",
+      "definition": "De la poesía; bonito como un poema."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7043,
+    "word": "impresso",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/ĩˈpɾɛsu/",
+    "definition": "Que foi impresso; papel com texto impresso.",
+    "examples": [
+      "Traga o documento impresso.",
+      "O jornal impresso perdeu leitores.",
+      "Preencha o impresso na recepção."
+    ],
+    "spanish": {
+      "word": "impreso",
+      "definition": "Que fue impreso; papel con texto impreso."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7044,
+    "word": "educacional",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/edukasioˈnaw/",
+    "definition": "Da educação.",
+    "examples": [
+      "O jogo é educacional.",
+      "O sistema educacional precisa melhorar.",
+      "Ela trabalha num projeto educacional."
+    ],
+    "spanish": {
+      "word": "educativo",
+      "definition": "De la educación."
+    },
+    "synonyms": [
+      "educativo"
+    ]
+  },
+  {
+    "rank": 7045,
+    "word": "complexidade",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõpleksiˈdadʒi/",
+    "definition": "Qualidade do que é complexo.",
+    "examples": [
+      "A complexidade do problema é grande.",
+      "Não entendi a complexidade do caso.",
+      "A tarefa tem pouca complexidade."
+    ],
+    "spanish": {
+      "word": "complejidad",
+      "definition": "Cualidad de lo complejo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7046,
+    "word": "visibilidade",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/vizibiliˈdadʒi/",
+    "definition": "Facilidade de ver ou de ser visto.",
+    "examples": [
+      "A neblina reduziu a visibilidade.",
+      "A campanha deu visibilidade à causa.",
+      "Na estrada, a visibilidade estava baixa."
+    ],
+    "spanish": {
+      "word": "visibilidad",
+      "definition": "Facilidad de ver o de ser visto."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7047,
+    "word": "ileso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/iˈlezu/",
+    "definition": "Sem ferimentos.",
+    "examples": [
+      "O motorista saiu ileso do acidente.",
+      "Todos ficaram ilesos.",
+      "O gato caiu e saiu ileso."
+    ],
+    "spanish": {
+      "word": "ileso",
+      "definition": "Sin heridas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7048,
+    "word": "árduo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈaʁduu/",
+    "definition": "Muito difícil e cansativo.",
+    "examples": [
+      "Foi um trabalho árduo.",
+      "A subida é árdua.",
+      "Depois de um dia árduo, dormi cedo."
+    ],
+    "spanish": {
+      "word": "arduo",
+      "definition": "Muy difícil y cansado."
+    },
+    "synonyms": [
+      "difícil"
+    ]
+  },
+  {
+    "rank": 7049,
+    "word": "aprendizagem",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/apɾẽdʒiˈzaʒẽj̃/",
+    "definition": "Processo de aprender.",
+    "examples": [
+      "A aprendizagem de línguas exige prática.",
+      "Cada criança tem o seu ritmo de aprendizagem.",
+      "Jogos ajudam na aprendizagem."
+    ],
+    "spanish": {
+      "word": "aprendizaje",
+      "definition": "Proceso de aprender."
+    },
+    "synonyms": [
+      "aprendizado"
+    ]
+  },
+  {
+    "rank": 7050,
+    "word": "olfato",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/owˈfatu/",
+    "definition": "Sentido do cheiro.",
+    "examples": [
+      "O cachorro tem um ótimo olfato.",
+      "Perdi o olfato com a gripe.",
+      "O olfato ajuda a sentir o sabor."
+    ],
+    "spanish": {
+      "word": "olfato",
+      "definition": "Sentido del olor."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7051,
+    "word": "vestuário",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/vestuˈaɾiu/",
+    "definition": "Conjunto de roupas.",
+    "examples": [
+      "A loja vende artigos de vestuário.",
+      "O vestuário da peça é bonito.",
+      "Gasto pouco com vestuário."
+    ],
+    "spanish": {
+      "word": "vestuario; ropa",
+      "definition": "Conjunto de ropa."
+    },
+    "synonyms": [
+      "roupas"
+    ]
+  },
+  {
+    "rank": 7052,
+    "word": "península",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/peˈnĩsulɐ/",
+    "definition": "Terra cercada de água por quase todos os lados.",
+    "examples": [
+      "A Itália é uma península.",
+      "A cidade fica numa península.",
+      "Visitamos a península de Maraú."
+    ],
+    "spanish": {
+      "word": "península",
+      "definition": "Tierra rodeada de agua por casi todos los lados."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7053,
+    "word": "naufrágio",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/nawˈfɾaʒiu/",
+    "definition": "Afundamento de um barco.",
+    "examples": [
+      "O naufrágio do Titanic é famoso.",
+      "Houve um naufrágio perto da costa.",
+      "Os mergulhadores visitam o naufrágio."
+    ],
+    "spanish": {
+      "word": "naufragio",
+      "definition": "Hundimiento de un barco."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7054,
+    "word": "alvoroço",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/awvoˈɾosu/",
+    "definition": "Confusão e agitação.",
+    "examples": [
+      "A notícia causou alvoroço na escola.",
+      "Que alvoroço é esse?",
+      "Os pássaros fizeram alvoroço de manhã."
+    ],
+    "spanish": {
+      "word": "alboroto",
+      "definition": "Confusión y agitación."
+    },
+    "synonyms": [
+      "confusão"
+    ]
+  },
+  {
+    "rank": 7055,
+    "word": "presídio",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɾeˈzidʒiu/",
+    "definition": "Prisão.",
+    "examples": [
+      "Ele está preso no presídio.",
+      "O presídio fica longe da cidade.",
+      "Houve uma fuga do presídio."
+    ],
+    "spanish": {
+      "word": "presidio",
+      "definition": "Cárcel."
+    },
+    "synonyms": [
+      "prisão",
+      "cadeia"
+    ]
+  },
+  {
+    "rank": 7056,
+    "word": "espessura",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/espeˈsuɾɐ/",
+    "definition": "Grossura de algo.",
+    "examples": [
+      "Qual é a espessura da parede?",
+      "Corte o queijo com pouca espessura.",
+      "O gelo tinha dez centímetros de espessura."
+    ],
+    "spanish": {
+      "word": "espesor",
+      "definition": "Grosor de algo."
+    },
+    "synonyms": [
+      "grossura"
+    ]
+  },
+  {
+    "rank": 7057,
+    "word": "ênfase",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈẽfazi/",
+    "definition": "Destaque ou força dada a algo.",
+    "examples": [
+      "O professor deu ênfase a esse ponto.",
+      "Ela falou com ênfase.",
+      "O curso dá ênfase à conversação."
+    ],
+    "spanish": {
+      "word": "énfasis",
+      "definition": "Destaque o fuerza dada a algo."
+    },
+    "synonyms": [
+      "destaque"
+    ]
+  },
+  {
+    "rank": 7058,
+    "word": "materno",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/maˈtɛʁnu/",
+    "definition": "Da mãe.",
+    "examples": [
+      "O português é a minha língua materna.",
+      "O leite materno é muito importante.",
+      "Meus avós maternos moram no Sul."
+    ],
+    "spanish": {
+      "word": "materno",
+      "definition": "De la madre."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7059,
+    "word": "coordenação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kooʁdenaˈsɐ̃w̃/",
+    "definition": "Organização de um trabalho; controle dos movimentos.",
+    "examples": [
+      "Fale com a coordenação da escola.",
+      "Ela tem boa coordenação motora.",
+      "A coordenação do evento foi ótima."
+    ],
+    "spanish": {
+      "word": "coordinación",
+      "definition": "Organización de un trabajo; control de los movimientos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7060,
+    "word": "critério",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kɾiˈtɛɾiu/",
+    "definition": "Regra usada para decidir ou avaliar.",
+    "examples": [
+      "Qual é o critério de escolha?",
+      "Ela escolhe os amigos com critério.",
+      "O critério da prova é claro."
+    ],
+    "spanish": {
+      "word": "criterio",
+      "definition": "Regla usada para decidir o evaluar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7061,
+    "word": "pioneiro",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/pioˈnejɾu/",
+    "definition": "Quem faz algo primeiro.",
+    "examples": [
+      "Santos Dumont foi um pioneiro da aviação.",
+      "A empresa foi pioneira no país.",
+      "Os pioneiros chegaram a cavalo."
+    ],
+    "spanish": {
+      "word": "pionero",
+      "definition": "Quien hace algo primero."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7062,
+    "word": "cinzento",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/sĩˈzẽtu/",
+    "definition": "Cinza; sem cor e triste.",
+    "examples": [
+      "O céu está cinzento.",
+      "Ela usou um casaco cinzento.",
+      "Foi um dia cinzento."
+    ],
+    "spanish": {
+      "word": "gris",
+      "definition": "Gris; sin color y triste."
+    },
+    "synonyms": [
+      "cinza"
+    ]
+  },
+  {
+    "rank": 7063,
+    "word": "denso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈdẽsu/",
+    "definition": "Grosso, cheio; difícil de ler.",
+    "examples": [
+      "A floresta é densa.",
+      "O texto é muito denso.",
+      "Havia uma fumaça densa."
+    ],
+    "spanish": {
+      "word": "denso",
+      "definition": "Grueso, lleno; difícil de leer."
+    },
+    "synonyms": [
+      "espesso"
+    ]
+  },
+  {
+    "rank": 7064,
+    "word": "comício",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/koˈmisiu/",
+    "definition": "Reunião pública de um político com o povo.",
+    "examples": [
+      "O candidato fez um comício na praça.",
+      "O comício reuniu mil pessoas.",
+      "Fomos ao comício ontem."
+    ],
+    "spanish": {
+      "word": "mitin",
+      "definition": "Reunión pública de un político con el pueblo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7065,
+    "word": "divulgação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/dʒivuwgaˈsɐ̃w̃/",
+    "definition": "Ato de tornar conhecido.",
+    "examples": [
+      "A divulgação do evento foi nas redes.",
+      "Ele trabalha com divulgação.",
+      "A divulgação do resultado é amanhã."
+    ],
+    "spanish": {
+      "word": "divulgación; difusión",
+      "definition": "Acto de dar a conocer."
+    },
+    "synonyms": [
+      "propaganda"
+    ]
+  },
+  {
+    "rank": 7066,
+    "word": "relutante",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʁeluˈtɐ̃tʃi/",
+    "definition": "Que não quer muito fazer algo.",
+    "examples": [
+      "Ele estava relutante em aceitar.",
+      "Ela ficou relutante no começo.",
+      "Os alunos estavam relutantes."
+    ],
+    "spanish": {
+      "word": "reacio",
+      "definition": "Que no quiere mucho hacer algo."
+    },
+    "synonyms": [
+      "hesitante"
+    ]
+  },
+  {
+    "rank": 7067,
+    "word": "atropelamento",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/atɾopelaˈmẽtu/",
+    "definition": "Acidente em que um veículo bate em alguém.",
+    "examples": [
+      "Houve um atropelamento na avenida.",
+      "O atropelamento parou o trânsito.",
+      "A rua tem muitos atropelamentos."
+    ],
+    "spanish": {
+      "word": "atropello",
+      "definition": "Accidente en el que un vehículo golpea a alguien."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7068,
+    "word": "inexperiente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/inespeɾiˈẽtʃi/",
+    "definition": "Sem experiência.",
+    "examples": [
+      "Ele ainda é inexperiente no trabalho.",
+      "Ela é uma motorista inexperiente.",
+      "O time jovem é inexperiente."
+    ],
+    "spanish": {
+      "word": "inexperto",
+      "definition": "Sin experiencia."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7069,
+    "word": "adiamento",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/adʒiaˈmẽtu/",
+    "definition": "Ato de deixar para depois.",
+    "examples": [
+      "Houve o adiamento da prova.",
+      "O adiamento do jogo irritou a torcida.",
+      "Pedi o adiamento da reunião."
+    ],
+    "spanish": {
+      "word": "aplazamiento",
+      "definition": "Acto de dejar para después."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7070,
+    "word": "decadente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/dekaˈdẽtʃi/",
+    "definition": "Que está piorando.",
+    "examples": [
+      "O bairro está decadente.",
+      "Ele vive num hotel decadente.",
+      "A banda teve uma fase decadente."
+    ],
+    "spanish": {
+      "word": "decadente",
+      "definition": "Que está empeorando."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7071,
+    "word": "agressividade",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/agɾesiviˈdadʒi/",
+    "definition": "Comportamento agressivo.",
+    "examples": [
+      "A agressividade do cachorro preocupa.",
+      "O time jogou com agressividade.",
+      "Ele falou com agressividade."
+    ],
+    "spanish": {
+      "word": "agresividad",
+      "definition": "Comportamiento agresivo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7072,
+    "word": "espectador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/espektaˈdoʁ/",
+    "definition": "Pessoa que assiste a algo.",
+    "examples": [
+      "Os espectadores aplaudiram de pé.",
+      "O jogo teve vinte mil espectadores.",
+      "Fui só espectador da briga."
+    ],
+    "spanish": {
+      "word": "espectador",
+      "definition": "Persona que mira algo."
+    },
+    "synonyms": [
+      "público"
+    ]
+  },
+  {
+    "rank": 7073,
+    "word": "incenso",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩˈsẽsu/",
+    "definition": "Bastão que solta fumaça cheirosa.",
+    "examples": [
+      "Ela acendeu um incenso na sala.",
+      "O cheiro do incenso é forte.",
+      "Comprei incenso de lavanda."
+    ],
+    "spanish": {
+      "word": "incienso",
+      "definition": "Barra que suelta humo perfumado."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7074,
+    "word": "anseio",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ɐ̃ˈseju/",
+    "definition": "Desejo forte.",
+    "examples": [
+      "O anseio dela é viajar o mundo.",
+      "Temos o anseio de uma vida melhor.",
+      "O povo tem anseio por mudança."
+    ],
+    "spanish": {
+      "word": "anhelo",
+      "definition": "Deseo fuerte."
+    },
+    "synonyms": [
+      "desejo"
+    ]
+  },
+  {
+    "rank": 7075,
+    "word": "desrespeitoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/dezʁespejˈtozu/",
+    "definition": "Que não tem respeito.",
+    "examples": [
+      "Foi um comentário desrespeitoso.",
+      "Ele é desrespeitoso com os pais.",
+      "Não seja desrespeitoso."
+    ],
+    "spanish": {
+      "word": "irrespetuoso",
+      "definition": "Que no tiene respeto."
+    },
+    "synonyms": [
+      "grosseiro"
+    ]
+  },
+  {
+    "rank": 7076,
+    "word": "solene",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/soˈleni/",
+    "definition": "Sério e importante, com cerimônia.",
+    "examples": [
+      "Foi uma cerimônia solene.",
+      "Ele fez uma promessa solene.",
+      "O momento foi solene."
+    ],
+    "spanish": {
+      "word": "solemne",
+      "definition": "Serio e importante, con ceremonia."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7077,
+    "word": "milagroso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/milaˈgɾozu/",
+    "definition": "Que parece um milagre.",
+    "examples": [
+      "Ele teve uma recuperação milagrosa.",
+      "Esse remédio não é milagroso.",
+      "Foi uma vitória milagrosa."
+    ],
+    "spanish": {
+      "word": "milagroso",
+      "definition": "Que parece un milagro."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7078,
+    "word": "simbólico",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/sĩˈbɔliku/",
+    "definition": "Que tem valor de símbolo.",
+    "examples": [
+      "O presente teve valor simbólico.",
+      "Pagamos um preço simbólico.",
+      "Foi um gesto simbólico."
+    ],
+    "spanish": {
+      "word": "simbólico",
+      "definition": "Que tiene valor de símbolo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7079,
+    "word": "intocável",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩtoˈkavew/",
+    "definition": "Que não se pode tocar ou mudar.",
+    "examples": [
+      "Esse dinheiro é intocável.",
+      "Ele se acha intocável.",
+      "O jogador é intocável no time."
+    ],
+    "spanish": {
+      "word": "intocable",
+      "definition": "Que no se puede tocar o cambiar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7080,
+    "word": "detestável",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/detesˈtavew/",
+    "definition": "Muito ruim, que causa raiva.",
+    "examples": [
+      "Ele tem uma atitude detestável.",
+      "O barulho é detestável.",
+      "Que pessoa detestável!"
+    ],
+    "spanish": {
+      "word": "detestable",
+      "definition": "Muy malo, que causa rabia."
+    },
+    "synonyms": [
+      "odioso"
+    ]
+  },
+  {
+    "rank": 7081,
+    "word": "incondicional",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩkõdʒisioˈnaw/",
+    "definition": "Sem condições, total.",
+    "examples": [
+      "O amor de mãe é incondicional.",
+      "Ele tem o meu apoio incondicional.",
+      "Ela deu uma ajuda incondicional."
+    ],
+    "spanish": {
+      "word": "incondicional",
+      "definition": "Sin condiciones, total."
+    },
+    "synonyms": [
+      "total"
+    ]
+  },
+  {
+    "rank": 7082,
+    "word": "impróprio",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩˈpɾɔpɾiu/",
+    "definition": "Que não é adequado.",
+    "examples": [
+      "O filme é impróprio para crianças.",
+      "A água é imprópria para beber.",
+      "Foi um comentário impróprio."
+    ],
+    "spanish": {
+      "word": "impropio",
+      "definition": "Que no es adecuado."
+    },
+    "synonyms": [
+      "inadequado"
+    ]
+  },
+  {
+    "rank": 7083,
+    "word": "musculoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/muskuˈlozu/",
+    "definition": "Com músculos grandes.",
+    "examples": [
+      "Ele ficou musculoso na academia.",
+      "Ela tem pernas musculosas.",
+      "O segurança é alto e musculoso."
+    ],
+    "spanish": {
+      "word": "musculoso",
+      "definition": "Con músculos grandes."
+    },
+    "synonyms": [
+      "forte"
+    ]
+  },
+  {
+    "rank": 7084,
+    "word": "autoestima",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/awtoesˈtʃimɐ/",
+    "definition": "Valor que a pessoa dá a si mesma.",
+    "examples": [
+      "Ela tem a autoestima baixa.",
+      "O elogio melhorou a minha autoestima.",
+      "Esporte ajuda na autoestima."
+    ],
+    "spanish": {
+      "word": "autoestima",
+      "definition": "Valor que la persona se da a sí misma."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7085,
+    "word": "signo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈsignu/",
+    "definition": "Cada um dos doze grupos do horóscopo.",
+    "examples": [
+      "Qual é o seu signo?",
+      "Meu signo é Leão.",
+      "Ela acredita muito em signo."
+    ],
+    "spanish": {
+      "word": "signo",
+      "definition": "Cada uno de los doce grupos del horóscopo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7086,
+    "word": "abalar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/abaˈlaʁ/",
+    "definition": "Sacudir; deixar alguém triste ou fraco.",
+    "examples": [
+      "A notícia abalou a família.",
+      "O terremoto abalou a cidade.",
+      "Nada abala a confiança dela."
+    ],
+    "spanish": {
+      "word": "conmocionar; sacudir",
+      "definition": "Sacudir; dejar a alguien triste o débil."
+    },
+    "synonyms": [
+      "sacudir"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "abalo",
+        "voce": "abala",
+        "nos": "abalamos",
+        "eles": "abalam"
+      },
+      "preterito": {
+        "eu": "abalei",
+        "voce": "abalou",
+        "nos": "abalamos",
+        "eles": "abalaram"
+      },
+      "imperfeito": {
+        "eu": "abalava",
+        "voce": "abalava",
+        "nos": "abalávamos",
+        "eles": "abalavam"
+      },
+      "futuro": {
+        "eu": "abalarei",
+        "voce": "abalará",
+        "nos": "abalaremos",
+        "eles": "abalarão"
+      },
+      "subjuntivo": {
+        "eu": "abale",
+        "voce": "abale",
+        "nos": "abalemos",
+        "eles": "abalem"
+      }
+    }
+  },
+  {
+    "rank": 7087,
+    "word": "indispensável",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩdʒispẽˈsavew/",
+    "definition": "Que não pode faltar.",
+    "examples": [
+      "Água é indispensável.",
+      "Sua ajuda foi indispensável.",
+      "O passaporte é indispensável na viagem."
+    ],
+    "spanish": {
+      "word": "indispensable",
+      "definition": "Que no puede faltar."
+    },
+    "synonyms": [
+      "essencial"
+    ]
+  },
+  {
+    "rank": 7088,
+    "word": "democrático",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/demoˈkɾatʃiku/",
+    "definition": "Da democracia; que deixa todos participarem.",
+    "examples": [
+      "O Brasil é um país democrático.",
+      "Tomamos uma decisão democrática.",
+      "O futebol é um esporte democrático."
+    ],
+    "spanish": {
+      "word": "democrático",
+      "definition": "De la democracia; que deja participar a todos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7089,
+    "word": "travesso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/tɾaˈvesu/",
+    "definition": "Que faz travessuras.",
+    "examples": [
+      "Meu filho é muito travesso.",
+      "Que gato travesso!",
+      "As crianças travessas pintaram a parede."
+    ],
+    "spanish": {
+      "word": "travieso",
+      "definition": "Que hace travesuras."
+    },
+    "synonyms": [
+      "arteiro"
+    ]
+  },
+  {
+    "rank": 7090,
+    "word": "existente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ezisˈtẽtʃi/",
+    "definition": "Que existe.",
+    "examples": [
+      "Use os móveis existentes.",
+      "Não há vagas existentes.",
+      "Os problemas existentes são graves."
+    ],
+    "spanish": {
+      "word": "existente",
+      "definition": "Que existe."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7091,
+    "word": "rendimento",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁẽdʒiˈmẽtu/",
+    "definition": "Dinheiro ganho; desempenho.",
+    "examples": [
+      "O rendimento da poupança é baixo.",
+      "Meu rendimento na escola melhorou.",
+      "O carro tem bom rendimento na estrada."
+    ],
+    "spanish": {
+      "word": "rendimiento",
+      "definition": "Dinero ganado; desempeño."
+    },
+    "synonyms": [
+      "desempenho"
+    ]
+  },
+  {
+    "rank": 7092,
+    "word": "enredo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ẽˈʁedu/",
+    "definition": "A história de um filme, livro ou desfile.",
+    "examples": [
+      "O enredo da novela é bom.",
+      "A escola de samba escolheu o enredo.",
+      "Não conte o enredo do filme!"
+    ],
+    "spanish": {
+      "word": "trama",
+      "definition": "La historia de una película, libro o desfile."
+    },
+    "synonyms": [
+      "história"
+    ]
+  },
+  {
+    "rank": 7093,
+    "word": "sintético",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/sĩˈtɛtʃiku/",
+    "definition": "Feito pelo homem, não natural; resumido.",
+    "examples": [
+      "A bola é de couro sintético.",
+      "O tecido é sintético.",
+      "Faça um texto sintético."
+    ],
+    "spanish": {
+      "word": "sintético",
+      "definition": "Hecho por el hombre, no natural; resumido."
+    },
+    "synonyms": [
+      "artificial"
+    ]
+  },
+  {
+    "rank": 7094,
+    "word": "bege",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/ˈbɛʒi/",
+    "definition": "Cor entre o branco e o marrom-claro.",
+    "examples": [
+      "Comprei um sofá bege.",
+      "Ela usa uma calça bege.",
+      "As paredes são bege."
+    ],
+    "spanish": {
+      "word": "beige",
+      "definition": "Color entre el blanco y el marrón claro."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7095,
+    "word": "grisalho",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/gɾiˈzaʎu/",
+    "definition": "Com cabelos brancos misturados.",
+    "examples": [
+      "Meu pai está grisalho.",
+      "Ela assumiu o cabelo grisalho.",
+      "Um homem grisalho abriu a porta."
+    ],
+    "spanish": {
+      "word": "canoso",
+      "definition": "Con canas mezcladas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7096,
+    "word": "estratégico",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/estɾaˈtɛʒiku/",
+    "definition": "Que faz parte de uma estratégia.",
+    "examples": [
+      "A loja fica em um ponto estratégico.",
+      "Foi uma decisão estratégica.",
+      "O técnico fez uma mudança estratégica."
+    ],
+    "spanish": {
+      "word": "estratégico",
+      "definition": "Que forma parte de una estrategia."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7097,
+    "word": "contestar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kõtesˈtaʁ/",
+    "definition": "Não concordar e discutir; responder.",
+    "examples": [
+      "O time contestou o pênalti.",
+      "Ele contestou a multa.",
+      "Não conteste o professor sem motivo."
+    ],
+    "spanish": {
+      "word": "impugnar; cuestionar",
+      "definition": "No estar de acuerdo y discutir; responder."
+    },
+    "synonyms": [
+      "questionar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "contesto",
+        "voce": "contesta",
+        "nos": "contestamos",
+        "eles": "contestam"
+      },
+      "preterito": {
+        "eu": "contestei",
+        "voce": "contestou",
+        "nos": "contestamos",
+        "eles": "contestaram"
+      },
+      "imperfeito": {
+        "eu": "contestava",
+        "voce": "contestava",
+        "nos": "contestávamos",
+        "eles": "contestavam"
+      },
+      "futuro": {
+        "eu": "contestarei",
+        "voce": "contestará",
+        "nos": "contestaremos",
+        "eles": "contestarão"
+      },
+      "subjuntivo": {
+        "eu": "conteste",
+        "voce": "conteste",
+        "nos": "contestemos",
+        "eles": "contestem"
+      }
+    }
+  },
+  {
+    "rank": 7098,
+    "word": "historiador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/istoɾiaˈdoʁ/",
+    "definition": "Pessoa que estuda a história.",
+    "examples": [
+      "O historiador escreveu um livro sobre o Brasil.",
+      "Ela é historiadora.",
+      "Os historiadores discordam."
+    ],
+    "spanish": {
+      "word": "historiador",
+      "definition": "Persona que estudia la historia."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 7099,
+    "word": "justificativa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʒustʃifikaˈtʃivɐ/",
+    "definition": "Motivo que explica algo.",
+    "examples": [
+      "Ele faltou sem justificativa.",
+      "Preciso de uma justificativa por escrito.",
+      "Qual é a justificativa para o aumento?"
+    ],
+    "spanish": {
+      "word": "justificación",
+      "definition": "Motivo que explica algo."
+    },
+    "synonyms": [
+      "motivo"
+    ]
+  },
+  {
+    "rank": 7100,
+    "word": "contratempo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõtɾaˈtẽpu/",
+    "definition": "Problema que atrapalha.",
+    "examples": [
+      "Tive um contratempo e me atrasei.",
+      "A viagem foi sem contratempos.",
+      "Um contratempo mudou os planos."
+    ],
+    "spanish": {
+      "word": "contratiempo",
+      "definition": "Problema que estorba."
+    },
+    "synonyms": [
+      "imprevisto"
+    ]
+  }
+]
