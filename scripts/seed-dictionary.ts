@@ -77,6 +77,7 @@ async function main() {
     const type = check.ok === false ? (entry.type as string[]).filter((t) => !check.invalid.includes(t)) : entry.type;
     const fields = {
       word: entry.word,
+      language,
       definition: entry.definition,
       examples: entry.examples ?? [],
       type,

@@ -64,7 +64,7 @@ Se puede parar y volver a ejecutar: continúa con lo que falta.
 
 | Tanda | Estado |
 |---|---|
-| Portugués | ~3.970 fichas escritas por Claude (hasta el rank ~4.880) |
+| Portugués | ~4.570 fichas escritas por Claude (hasta el rank ~5.480) |
 | Inglés | ~5.120 fichas escritas por Claude (hasta el rank ~5.120) |
 | Ambos hasta 10.000 | Pendiente |
 

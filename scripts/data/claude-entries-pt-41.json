@@ -1,0 +1,2762 @@
+[
+  {
+    "rank": 4882,
+    "word": "alongar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/alõˈgaʁ/",
+    "definition": "Esticar o corpo ou um músculo para relaxar ou aquecer.",
+    "examples": [
+      "Eu alongo as pernas antes de correr.",
+      "Ela alongou os braços depois do trabalho.",
+      "Vamos alongar o corpo de manhã."
+    ],
+    "spanish": {
+      "word": "estirar",
+      "definition": "Estirar el cuerpo o un músculo para relajarlo o calentarlo."
+    },
+    "synonyms": [
+      "esticar",
+      "estender"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "alongo",
+        "voce": "alonga",
+        "nos": "alongamos",
+        "eles": "alongam"
+      },
+      "preterito": {
+        "eu": "alonguei",
+        "voce": "alongou",
+        "nos": "alongamos",
+        "eles": "alongaram"
+      },
+      "imperfeito": {
+        "eu": "alongava",
+        "voce": "alongava",
+        "nos": "alongávamos",
+        "eles": "alongavam"
+      },
+      "futuro": {
+        "eu": "alongarei",
+        "voce": "alongará",
+        "nos": "alongaremos",
+        "eles": "alongarão"
+      },
+      "subjuntivo": {
+        "eu": "alongue",
+        "voce": "alongue",
+        "nos": "alonguemos",
+        "eles": "alonguem"
+      }
+    }
+  },
+  {
+    "rank": 4883,
+    "word": "resfriar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁesfɾiˈaʁ/",
+    "definition": "Fazer ficar frio; pegar um resfriado.",
+    "examples": [
+      "Deixe a massa resfriar na geladeira.",
+      "O vento resfriou o quarto à noite.",
+      "Saí sem casaco e me resfriei."
+    ],
+    "spanish": {
+      "word": "enfriar",
+      "definition": "Hacer que algo se ponga frío; coger un resfriado."
+    },
+    "synonyms": [
+      "esfriar",
+      "gelar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "resfrio",
+        "voce": "resfria",
+        "nos": "resfriamos",
+        "eles": "resfriam"
+      },
+      "preterito": {
+        "eu": "resfriei",
+        "voce": "resfriou",
+        "nos": "resfriamos",
+        "eles": "resfriaram"
+      },
+      "imperfeito": {
+        "eu": "resfriava",
+        "voce": "resfriava",
+        "nos": "resfriávamos",
+        "eles": "resfriavam"
+      },
+      "futuro": {
+        "eu": "resfriarei",
+        "voce": "resfriará",
+        "nos": "resfriaremos",
+        "eles": "resfriarão"
+      },
+      "subjuntivo": {
+        "eu": "resfrie",
+        "voce": "resfrie",
+        "nos": "resfriemos",
+        "eles": "resfriem"
+      }
+    }
+  },
+  {
+    "rank": 4884,
+    "word": "grelhar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/gɾeˈʎaʁ/",
+    "definition": "Cozinhar carne ou legumes sobre uma grelha quente.",
+    "examples": [
+      "Vou grelhar o frango no almoço.",
+      "Ela grelhou os legumes na chapa.",
+      "Vamos grelhar a carne no churrasco."
+    ],
+    "spanish": {
+      "word": "asar a la parrilla",
+      "definition": "Cocinar carne o verduras sobre una parrilla caliente."
+    },
+    "synonyms": [
+      "assar",
+      "churrascar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "grelho",
+        "voce": "grelha",
+        "nos": "grelhamos",
+        "eles": "grelham"
+      },
+      "preterito": {
+        "eu": "grelhei",
+        "voce": "grelhou",
+        "nos": "grelhamos",
+        "eles": "grelharam"
+      },
+      "imperfeito": {
+        "eu": "grelhava",
+        "voce": "grelhava",
+        "nos": "grelhávamos",
+        "eles": "grelhavam"
+      },
+      "futuro": {
+        "eu": "grelharei",
+        "voce": "grelhará",
+        "nos": "grelharemos",
+        "eles": "grelharão"
+      },
+      "subjuntivo": {
+        "eu": "grelhe",
+        "voce": "grelhe",
+        "nos": "grelhemos",
+        "eles": "grelhem"
+      }
+    }
+  },
+  {
+    "rank": 4885,
+    "word": "enxaguar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ẽʃaˈgwaʁ/",
+    "definition": "Passar água em alguma coisa para tirar o sabão ou a sujeira.",
+    "examples": [
+      "Vou enxaguar a louça agora.",
+      "Enxágue o shampoo do cabelo.",
+      "Ela enxaguou a roupa duas vezes."
+    ],
+    "spanish": {
+      "word": "enjuagar",
+      "definition": "Pasar agua por algo para quitar el jabón o la suciedad."
+    },
+    "synonyms": [
+      "lavar",
+      "banhar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "enxáguo",
+        "voce": "enxágua",
+        "nos": "enxaguamos",
+        "eles": "enxáguam"
+      },
+      "preterito": {
+        "eu": "enxaguei",
+        "voce": "enxaguou",
+        "nos": "enxaguamos",
+        "eles": "enxaguaram"
+      },
+      "imperfeito": {
+        "eu": "enxaguava",
+        "voce": "enxaguava",
+        "nos": "enxaguávamos",
+        "eles": "enxaguavam"
+      },
+      "futuro": {
+        "eu": "enxaguarei",
+        "voce": "enxaguará",
+        "nos": "enxaguaremos",
+        "eles": "enxaguarão"
+      },
+      "subjuntivo": {
+        "eu": "enxágue",
+        "voce": "enxágue",
+        "nos": "enxaguemos",
+        "eles": "enxáguem"
+      }
+    }
+  },
+  {
+    "rank": 4886,
+    "word": "esculpir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/eskuwˈpiʁ/",
+    "definition": "Dar forma a uma figura em pedra, madeira ou barro.",
+    "examples": [
+      "O artista vai esculpir um santo em madeira.",
+      "Ela esculpiu uma figura de barro.",
+      "É difícil esculpir em mármore."
+    ],
+    "spanish": {
+      "word": "esculpir",
+      "definition": "Dar forma a una figura en piedra, madera o barro."
+    },
+    "synonyms": [
+      "talhar",
+      "modelar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "esculpo",
+        "voce": "esculpe",
+        "nos": "esculpimos",
+        "eles": "esculpem"
+      },
+      "preterito": {
+        "eu": "esculpi",
+        "voce": "esculpiu",
+        "nos": "esculpimos",
+        "eles": "esculpiram"
+      },
+      "imperfeito": {
+        "eu": "esculpia",
+        "voce": "esculpia",
+        "nos": "esculpíamos",
+        "eles": "esculpiam"
+      },
+      "futuro": {
+        "eu": "esculpirei",
+        "voce": "esculpirá",
+        "nos": "esculpiremos",
+        "eles": "esculpirão"
+      },
+      "subjuntivo": {
+        "eu": "esculpa",
+        "voce": "esculpa",
+        "nos": "esculpamos",
+        "eles": "esculpam"
+      }
+    }
+  },
+  {
+    "rank": 4887,
+    "word": "carimbar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/kaɾĩˈbaʁ/",
+    "definition": "Marcar um papel ou documento com um carimbo.",
+    "examples": [
+      "O funcionário vai carimbar o documento.",
+      "Eles carimbaram o passaporte no aeroporto.",
+      "Preciso carimbar este papel hoje."
+    ],
+    "spanish": {
+      "word": "sellar",
+      "definition": "Marcar un papel o documento con un sello."
+    },
+    "synonyms": [
+      "selar",
+      "marcar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "carimbo",
+        "voce": "carimba",
+        "nos": "carimbamos",
+        "eles": "carimbam"
+      },
+      "preterito": {
+        "eu": "carimbei",
+        "voce": "carimbou",
+        "nos": "carimbamos",
+        "eles": "carimbaram"
+      },
+      "imperfeito": {
+        "eu": "carimbava",
+        "voce": "carimbava",
+        "nos": "carimbávamos",
+        "eles": "carimbavam"
+      },
+      "futuro": {
+        "eu": "carimbarei",
+        "voce": "carimbará",
+        "nos": "carimbaremos",
+        "eles": "carimbarão"
+      },
+      "subjuntivo": {
+        "eu": "carimbe",
+        "voce": "carimbe",
+        "nos": "carimbemos",
+        "eles": "carimbem"
+      }
+    }
+  },
+  {
+    "rank": 4888,
+    "word": "etiquetar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/etʃikeˈtaʁ/",
+    "definition": "Colocar uma etiqueta com preço ou informação em alguma coisa.",
+    "examples": [
+      "A loja vai etiquetar todas as roupas.",
+      "Ela etiquetou as caixas da mudança.",
+      "Vamos etiquetar os produtos antes de vender."
+    ],
+    "spanish": {
+      "word": "etiquetar",
+      "definition": "Poner una etiqueta con precio o información a algo."
+    },
+    "synonyms": [
+      "marcar",
+      "rotular"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "etiqueto",
+        "voce": "etiqueta",
+        "nos": "etiquetamos",
+        "eles": "etiquetam"
+      },
+      "preterito": {
+        "eu": "etiquetei",
+        "voce": "etiquetou",
+        "nos": "etiquetamos",
+        "eles": "etiquetaram"
+      },
+      "imperfeito": {
+        "eu": "etiquetava",
+        "voce": "etiquetava",
+        "nos": "etiquetávamos",
+        "eles": "etiquetavam"
+      },
+      "futuro": {
+        "eu": "etiquetarei",
+        "voce": "etiquetará",
+        "nos": "etiquetaremos",
+        "eles": "etiquetarão"
+      },
+      "subjuntivo": {
+        "eu": "etiquete",
+        "voce": "etiquete",
+        "nos": "etiquetemos",
+        "eles": "etiquetem"
+      }
+    }
+  },
+  {
+    "rank": 4889,
+    "word": "embalar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ẽbaˈlaʁ/",
+    "definition": "Enrolar ou guardar um produto em papel ou caixa para proteger ou enviar.",
+    "examples": [
+      "A loja vai embalar o presente para você.",
+      "Ela embalou os doces com cuidado.",
+      "Vamos embalar os produtos para o envio."
+    ],
+    "spanish": {
+      "word": "empaquetar",
+      "definition": "Envolver o guardar un producto en papel o caja para protegerlo o enviarlo."
+    },
+    "synonyms": [
+      "empacotar",
+      "embrulhar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "embalo",
+        "voce": "embala",
+        "nos": "embalamos",
+        "eles": "embalam"
+      },
+      "preterito": {
+        "eu": "embalei",
+        "voce": "embalou",
+        "nos": "embalamos",
+        "eles": "embalaram"
+      },
+      "imperfeito": {
+        "eu": "embalava",
+        "voce": "embalava",
+        "nos": "embalávamos",
+        "eles": "embalavam"
+      },
+      "futuro": {
+        "eu": "embalarei",
+        "voce": "embalará",
+        "nos": "embalaremos",
+        "eles": "embalarão"
+      },
+      "subjuntivo": {
+        "eu": "embale",
+        "voce": "embale",
+        "nos": "embalemos",
+        "eles": "embalem"
+      }
+    }
+  },
+  {
+    "rank": 4890,
+    "word": "reembolsar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ʁeẽbowˈsaʁ/",
+    "definition": "Devolver a alguém o dinheiro que essa pessoa pagou.",
+    "examples": [
+      "A empresa vai reembolsar a passagem.",
+      "Eles reembolsaram o cliente ontem.",
+      "O plano de saúde reembolsa a consulta."
+    ],
+    "spanish": {
+      "word": "reembolsar",
+      "definition": "Devolver a alguien el dinero que pagó."
+    },
+    "synonyms": [
+      "devolver",
+      "ressarcir"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "reembolso",
+        "voce": "reembolsa",
+        "nos": "reembolsamos",
+        "eles": "reembolsam"
+      },
+      "preterito": {
+        "eu": "reembolsei",
+        "voce": "reembolsou",
+        "nos": "reembolsamos",
+        "eles": "reembolsaram"
+      },
+      "imperfeito": {
+        "eu": "reembolsava",
+        "voce": "reembolsava",
+        "nos": "reembolsávamos",
+        "eles": "reembolsavam"
+      },
+      "futuro": {
+        "eu": "reembolsarei",
+        "voce": "reembolsará",
+        "nos": "reembolsaremos",
+        "eles": "reembolsarão"
+      },
+      "subjuntivo": {
+        "eu": "reembolse",
+        "voce": "reembolse",
+        "nos": "reembolsemos",
+        "eles": "reembolsem"
+      }
+    }
+  },
+  {
+    "rank": 4891,
+    "word": "parcelar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/paʁseˈlaʁ/",
+    "definition": "Dividir o pagamento de uma compra em várias partes mensais.",
+    "examples": [
+      "Vou parcelar a geladeira em dez vezes.",
+      "A loja parcelou a compra sem juros.",
+      "Dá para parcelar este celular?"
+    ],
+    "spanish": {
+      "word": "pagar a plazos",
+      "definition": "Dividir el pago de una compra en varias partes mensuales."
+    },
+    "synonyms": [
+      "dividir"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "parcelo",
+        "voce": "parcela",
+        "nos": "parcelamos",
+        "eles": "parcelam"
+      },
+      "preterito": {
+        "eu": "parcelei",
+        "voce": "parcelou",
+        "nos": "parcelamos",
+        "eles": "parcelaram"
+      },
+      "imperfeito": {
+        "eu": "parcelava",
+        "voce": "parcelava",
+        "nos": "parcelávamos",
+        "eles": "parcelavam"
+      },
+      "futuro": {
+        "eu": "parcelarei",
+        "voce": "parcelará",
+        "nos": "parcelaremos",
+        "eles": "parcelarão"
+      },
+      "subjuntivo": {
+        "eu": "parcele",
+        "voce": "parcele",
+        "nos": "parcelemos",
+        "eles": "parcelem"
+      }
+    }
+  },
+  {
+    "rank": 4892,
+    "word": "supervisionar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/supeʁvizioˈnaʁ/",
+    "definition": "Acompanhar e conferir o trabalho de outras pessoas.",
+    "examples": [
+      "O engenheiro vai supervisionar a obra.",
+      "Ela supervisiona a equipe de vendas.",
+      "Quem supervisionou o projeto?"
+    ],
+    "spanish": {
+      "word": "supervisar",
+      "definition": "Acompañar y revisar el trabajo de otras personas."
+    },
+    "synonyms": [
+      "fiscalizar",
+      "inspecionar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "supervisiono",
+        "voce": "supervisiona",
+        "nos": "supervisionamos",
+        "eles": "supervisionam"
+      },
+      "preterito": {
+        "eu": "supervisionei",
+        "voce": "supervisionou",
+        "nos": "supervisionamos",
+        "eles": "supervisionaram"
+      },
+      "imperfeito": {
+        "eu": "supervisionava",
+        "voce": "supervisionava",
+        "nos": "supervisionávamos",
+        "eles": "supervisionavam"
+      },
+      "futuro": {
+        "eu": "supervisionarei",
+        "voce": "supervisionará",
+        "nos": "supervisionaremos",
+        "eles": "supervisionarão"
+      },
+      "subjuntivo": {
+        "eu": "supervisione",
+        "voce": "supervisione",
+        "nos": "supervisionemos",
+        "eles": "supervisionem"
+      }
+    }
+  },
+  {
+    "rank": 4893,
+    "word": "alertar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/aleʁˈtaʁ/",
+    "definition": "Avisar alguém de um perigo ou de um problema.",
+    "examples": [
+      "O médico alertou sobre o sol forte.",
+      "Vou alertar os vizinhos do prédio.",
+      "Eles alertam a população sobre a chuva."
+    ],
+    "spanish": {
+      "word": "alertar",
+      "definition": "Avisar a alguien de un peligro o de un problema."
+    },
+    "synonyms": [
+      "avisar",
+      "advertir"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "alerto",
+        "voce": "alerta",
+        "nos": "alertamos",
+        "eles": "alertam"
+      },
+      "preterito": {
+        "eu": "alertei",
+        "voce": "alertou",
+        "nos": "alertamos",
+        "eles": "alertaram"
+      },
+      "imperfeito": {
+        "eu": "alertava",
+        "voce": "alertava",
+        "nos": "alertávamos",
+        "eles": "alertavam"
+      },
+      "futuro": {
+        "eu": "alertarei",
+        "voce": "alertará",
+        "nos": "alertaremos",
+        "eles": "alertarão"
+      },
+      "subjuntivo": {
+        "eu": "alerte",
+        "voce": "alerte",
+        "nos": "alertemos",
+        "eles": "alertem"
+      }
+    }
+  },
+  {
+    "rank": 4894,
+    "word": "advertir",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/adʒiveʁˈtʃiʁ/",
+    "definition": "Avisar com firmeza; chamar a atenção de alguém.",
+    "examples": [
+      "O pai advertiu o filho sobre a mentira.",
+      "A juíza advertiu o jogador.",
+      "Eles advertem os alunos atrasados."
+    ],
+    "spanish": {
+      "word": "advertir",
+      "definition": "Avisar con firmeza; llamar la atención a alguien."
+    },
+    "synonyms": [
+      "avisar",
+      "repreender"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "advirto",
+        "voce": "adverte",
+        "nos": "advertimos",
+        "eles": "advertem"
+      },
+      "preterito": {
+        "eu": "adverti",
+        "voce": "advertiu",
+        "nos": "advertimos",
+        "eles": "advertiram"
+      },
+      "imperfeito": {
+        "eu": "advertia",
+        "voce": "advertia",
+        "nos": "advertíamos",
+        "eles": "advertiam"
+      },
+      "futuro": {
+        "eu": "advertirei",
+        "voce": "advertirá",
+        "nos": "advertiremos",
+        "eles": "advertirão"
+      },
+      "subjuntivo": {
+        "eu": "advirta",
+        "voce": "advirta",
+        "nos": "advirtamos",
+        "eles": "advirtam"
+      }
+    }
+  },
+  {
+    "rank": 4895,
+    "word": "comover",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/komoˈveʁ/",
+    "definition": "Tocar o coração; provocar uma emoção forte e boa.",
+    "examples": [
+      "O filme comoveu o público.",
+      "A carta comove a família toda.",
+      "Nada comove aquele homem."
+    ],
+    "spanish": {
+      "word": "conmover",
+      "definition": "Tocar el corazón; provocar una emoción fuerte."
+    },
+    "synonyms": [
+      "emocionar",
+      "tocar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "comovo",
+        "voce": "comove",
+        "nos": "comovemos",
+        "eles": "comovem"
+      },
+      "preterito": {
+        "eu": "comovi",
+        "voce": "comoveu",
+        "nos": "comovemos",
+        "eles": "comoveram"
+      },
+      "imperfeito": {
+        "eu": "comovia",
+        "voce": "comovia",
+        "nos": "comovíamos",
+        "eles": "comoviam"
+      },
+      "futuro": {
+        "eu": "comoverei",
+        "voce": "comoverá",
+        "nos": "comoveremos",
+        "eles": "comoverão"
+      },
+      "subjuntivo": {
+        "eu": "comova",
+        "voce": "comova",
+        "nos": "comovamos",
+        "eles": "comovam"
+      }
+    }
+  },
+  {
+    "rank": 4896,
+    "word": "frustrar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/fɾusˈtɾaʁ/",
+    "definition": "Deixar alguém decepcionado porque algo não aconteceu.",
+    "examples": [
+      "A chuva frustrou os planos do passeio.",
+      "O resultado frustrou a equipe.",
+      "Não quero frustrar você."
+    ],
+    "spanish": {
+      "word": "frustrar",
+      "definition": "Dejar a alguien decepcionado porque algo no pasó."
+    },
+    "synonyms": [
+      "decepcionar",
+      "desapontar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "frustro",
+        "voce": "frustra",
+        "nos": "frustramos",
+        "eles": "frustram"
+      },
+      "preterito": {
+        "eu": "frustrei",
+        "voce": "frustrou",
+        "nos": "frustramos",
+        "eles": "frustraram"
+      },
+      "imperfeito": {
+        "eu": "frustrava",
+        "voce": "frustrava",
+        "nos": "frustrávamos",
+        "eles": "frustravam"
+      },
+      "futuro": {
+        "eu": "frustrarei",
+        "voce": "frustrará",
+        "nos": "frustraremos",
+        "eles": "frustrarão"
+      },
+      "subjuntivo": {
+        "eu": "frustre",
+        "voce": "frustre",
+        "nos": "frustremos",
+        "eles": "frustrem"
+      }
+    }
+  },
+  {
+    "rank": 4897,
+    "word": "invejar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/ĩveˈʒaʁ/",
+    "definition": "Querer ter o que outra pessoa tem.",
+    "examples": [
+      "Ela inveja o carro do vizinho.",
+      "Eu não invejo ninguém.",
+      "Ele invejou o sucesso do irmão."
+    ],
+    "spanish": {
+      "word": "envidiar",
+      "definition": "Querer tener lo que otra persona tiene."
+    },
+    "synonyms": [
+      "cobiçar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "invejo",
+        "voce": "inveja",
+        "nos": "invejamos",
+        "eles": "invejam"
+      },
+      "preterito": {
+        "eu": "invejei",
+        "voce": "invejou",
+        "nos": "invejamos",
+        "eles": "invejaram"
+      },
+      "imperfeito": {
+        "eu": "invejava",
+        "voce": "invejava",
+        "nos": "invejávamos",
+        "eles": "invejavam"
+      },
+      "futuro": {
+        "eu": "invejarei",
+        "voce": "invejará",
+        "nos": "invejaremos",
+        "eles": "invejarão"
+      },
+      "subjuntivo": {
+        "eu": "inveje",
+        "voce": "inveje",
+        "nos": "invejemos",
+        "eles": "invejem"
+      }
+    }
+  },
+  {
+    "rank": 4898,
+    "word": "desconfiar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/deskõfiˈaʁ/",
+    "definition": "Não confiar; achar que algo pode ser mentira ou perigo.",
+    "examples": [
+      "Eu desconfio daquela oferta.",
+      "Ela desconfiou do vendedor.",
+      "Eles desconfiam de tudo."
+    ],
+    "spanish": {
+      "word": "desconfiar",
+      "definition": "No confiar; pensar que algo puede ser mentira o peligro."
+    },
+    "synonyms": [
+      "suspeitar",
+      "duvidar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "desconfio",
+        "voce": "desconfia",
+        "nos": "desconfiamos",
+        "eles": "desconfiam"
+      },
+      "preterito": {
+        "eu": "desconfiei",
+        "voce": "desconfiou",
+        "nos": "desconfiamos",
+        "eles": "desconfiaram"
+      },
+      "imperfeito": {
+        "eu": "desconfiava",
+        "voce": "desconfiava",
+        "nos": "desconfiávamos",
+        "eles": "desconfiavam"
+      },
+      "futuro": {
+        "eu": "desconfiarei",
+        "voce": "desconfiará",
+        "nos": "desconfiaremos",
+        "eles": "desconfiarão"
+      },
+      "subjuntivo": {
+        "eu": "desconfie",
+        "voce": "desconfie",
+        "nos": "desconfiemos",
+        "eles": "desconfiem"
+      }
+    }
+  },
+  {
+    "rank": 4899,
+    "word": "multar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/muwˈtaʁ/",
+    "definition": "Aplicar uma multa por uma infração.",
+    "examples": [
+      "O guarda multou o motorista.",
+      "Vão multar quem jogar lixo na rua.",
+      "A empresa foi multada pela prefeitura."
+    ],
+    "spanish": {
+      "word": "multar",
+      "definition": "Aplicar una multa por una infracción."
+    },
+    "synonyms": [
+      "autuar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "multo",
+        "voce": "multa",
+        "nos": "multamos",
+        "eles": "multam"
+      },
+      "preterito": {
+        "eu": "multei",
+        "voce": "multou",
+        "nos": "multamos",
+        "eles": "multaram"
+      },
+      "imperfeito": {
+        "eu": "multava",
+        "voce": "multava",
+        "nos": "multávamos",
+        "eles": "multavam"
+      },
+      "futuro": {
+        "eu": "multarei",
+        "voce": "multará",
+        "nos": "multaremos",
+        "eles": "multarão"
+      },
+      "subjuntivo": {
+        "eu": "multe",
+        "voce": "multe",
+        "nos": "multemos",
+        "eles": "multem"
+      }
+    }
+  },
+  {
+    "rank": 4900,
+    "word": "premiar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/pɾemiˈaʁ/",
+    "definition": "Dar um prêmio por um bom resultado.",
+    "examples": [
+      "A escola premiou os melhores alunos.",
+      "Vão premiar o vencedor do concurso.",
+      "O júri premia o melhor filme."
+    ],
+    "spanish": {
+      "word": "premiar",
+      "definition": "Dar un premio por un buen resultado."
+    },
+    "synonyms": [
+      "recompensar",
+      "condecorar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "premio",
+        "voce": "premia",
+        "nos": "premiamos",
+        "eles": "premiam"
+      },
+      "preterito": {
+        "eu": "premiei",
+        "voce": "premiou",
+        "nos": "premiamos",
+        "eles": "premiaram"
+      },
+      "imperfeito": {
+        "eu": "premiava",
+        "voce": "premiava",
+        "nos": "premiávamos",
+        "eles": "premiavam"
+      },
+      "futuro": {
+        "eu": "premiarei",
+        "voce": "premiará",
+        "nos": "premiaremos",
+        "eles": "premiarão"
+      },
+      "subjuntivo": {
+        "eu": "premie",
+        "voce": "premie",
+        "nos": "premiemos",
+        "eles": "premiem"
+      }
+    }
+  },
+  {
+    "rank": 4901,
+    "word": "presentear",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/pɾezẽtʃeˈaʁ/",
+    "definition": "Dar um presente a alguém.",
+    "examples": [
+      "Ele presenteou a mãe com flores.",
+      "Vou presentear meu amigo no aniversário.",
+      "Eles presenteiam as crianças no Natal."
+    ],
+    "spanish": {
+      "word": "regalar",
+      "definition": "Dar un regalo a alguien."
+    },
+    "synonyms": [
+      "oferecer",
+      "brindar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "presenteio",
+        "voce": "presenteia",
+        "nos": "presenteamos",
+        "eles": "presenteiam"
+      },
+      "preterito": {
+        "eu": "presenteei",
+        "voce": "presenteou",
+        "nos": "presenteamos",
+        "eles": "presentearam"
+      },
+      "imperfeito": {
+        "eu": "presenteava",
+        "voce": "presenteava",
+        "nos": "presenteávamos",
+        "eles": "presenteavam"
+      },
+      "futuro": {
+        "eu": "presentearei",
+        "voce": "presenteará",
+        "nos": "presentearemos",
+        "eles": "presentearão"
+      },
+      "subjuntivo": {
+        "eu": "presenteie",
+        "voce": "presenteie",
+        "nos": "presenteemos",
+        "eles": "presenteiem"
+      }
+    }
+  },
+  {
+    "rank": 4902,
+    "word": "cochichar",
+    "type": [
+      "verb"
+    ],
+    "IPA": "/koʃiˈʃaʁ/",
+    "definition": "Falar muito baixo, quase ao pé do ouvido.",
+    "examples": [
+      "As amigas cochicham no canto da sala.",
+      "Ele cochichou um segredo no meu ouvido.",
+      "Não cochiche durante a aula."
+    ],
+    "spanish": {
+      "word": "susurrar",
+      "definition": "Hablar muy bajito, casi al oído."
+    },
+    "synonyms": [
+      "sussurrar",
+      "segredar"
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "cochicho",
+        "voce": "cochicha",
+        "nos": "cochichamos",
+        "eles": "cochicham"
+      },
+      "preterito": {
+        "eu": "cochichei",
+        "voce": "cochichou",
+        "nos": "cochichamos",
+        "eles": "cochicharam"
+      },
+      "imperfeito": {
+        "eu": "cochichava",
+        "voce": "cochichava",
+        "nos": "cochichávamos",
+        "eles": "cochichavam"
+      },
+      "futuro": {
+        "eu": "cochicharei",
+        "voce": "cochichará",
+        "nos": "cochicharemos",
+        "eles": "cochicharão"
+      },
+      "subjuntivo": {
+        "eu": "cochiche",
+        "voce": "cochiche",
+        "nos": "cochichemos",
+        "eles": "cochichem"
+      }
+    }
+  },
+  {
+    "rank": 4903,
+    "word": "serrote",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/seˈʁɔtʃi/",
+    "definition": "Ferramenta com lâmina dentada usada para cortar madeira à mão.",
+    "examples": [
+      "Ele cortou a tábua com um serrote.",
+      "O serrote está guardado no armário.",
+      "Preciso de um serrote novo."
+    ],
+    "spanish": {
+      "word": "serrucho",
+      "definition": "Herramienta con hoja dentada para cortar madera a mano."
+    },
+    "synonyms": [
+      "serra"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4904,
+    "word": "rolo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈʁolu/",
+    "definition": "Peça em forma de cilindro; ferramenta usada para pintar paredes.",
+    "examples": [
+      "Comprei um rolo de tinta.",
+      "Passe o rolo na parede com calma.",
+      "O rolo de papel acabou."
+    ],
+    "spanish": {
+      "word": "rodillo",
+      "definition": "Pieza en forma de cilindro; herramienta para pintar paredes."
+    },
+    "synonyms": [
+      "cilindro"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4905,
+    "word": "lixa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈliʃɐ/",
+    "definition": "Material áspero usado para alisar ou desgastar uma superfície.",
+    "examples": [
+      "Passe a lixa na madeira antes de pintar.",
+      "Comprei lixa d'água na loja.",
+      "Ela usou a lixa nas unhas."
+    ],
+    "spanish": {
+      "word": "lija",
+      "definition": "Material áspero usado para alisar o desgastar una superficie."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4906,
+    "word": "verniz",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/veʁˈnis/",
+    "definition": "Líquido que dá brilho e protege a madeira.",
+    "examples": [
+      "A mesa tem verniz brilhante.",
+      "Vou passar verniz na porta.",
+      "O verniz secou rápido."
+    ],
+    "spanish": {
+      "word": "barniz",
+      "definition": "Líquido que da brillo y protege la madera."
+    },
+    "synonyms": [
+      "laca"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4907,
+    "word": "solvente",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/sowˈvẽtʃi/",
+    "definition": "Líquido que dissolve tinta, cola ou gordura.",
+    "examples": [
+      "Use solvente para limpar o pincel.",
+      "O solvente tem cheiro forte.",
+      "Comprei um frasco de solvente."
+    ],
+    "spanish": {
+      "word": "solvente",
+      "definition": "Líquido que disuelve pintura, pegamento o grasa."
+    },
+    "synonyms": [
+      "diluente"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4908,
+    "word": "broca",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈbɾɔkɐ/",
+    "definition": "Peça de metal que gira na furadeira para fazer furos.",
+    "examples": [
+      "Preciso de uma broca nova.",
+      "A broca não fura concreto.",
+      "Troque a broca da furadeira."
+    ],
+    "spanish": {
+      "word": "broca",
+      "definition": "Pieza de metal que gira en el taladro para hacer agujeros."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4909,
+    "word": "torno",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈtoʁnu/",
+    "definition": "Máquina que faz girar uma peça para modelar madeira ou metal.",
+    "examples": [
+      "O carpinteiro trabalha no torno.",
+      "O torno faz vasos de barro.",
+      "Ele comprou um torno pequeno."
+    ],
+    "spanish": {
+      "word": "torno",
+      "definition": "Máquina que hace girar una pieza para modelar madera o metal."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4910,
+    "word": "solda",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈsowdɐ/",
+    "definition": "União de duas peças de metal feita com calor.",
+    "examples": [
+      "A solda do portão quebrou.",
+      "Ele fez a solda do cano.",
+      "A solda ainda está quente."
+    ],
+    "spanish": {
+      "word": "soldadura",
+      "definition": "Unión de dos piezas de metal hecha con calor."
+    },
+    "synonyms": [
+      "soldadura"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4911,
+    "word": "maçarico",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/masaˈɾiku/",
+    "definition": "Ferramenta que produz uma chama forte para soldar ou cortar metal.",
+    "examples": [
+      "Ele cortou o ferro com maçarico.",
+      "O maçarico soldou a peça.",
+      "Use óculos com o maçarico."
+    ],
+    "spanish": {
+      "word": "soplete",
+      "definition": "Herramienta que produce una llama fuerte para soldar o cortar metal."
+    },
+    "synonyms": [
+      "soplete"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4912,
+    "word": "esmeril",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ezmeˈɾiw/",
+    "definition": "Máquina com pedra giratória usada para afiar ou polir metal.",
+    "examples": [
+      "Ele afiou a faca no esmeril.",
+      "O esmeril solta faíscas.",
+      "O esmeril fica na oficina."
+    ],
+    "spanish": {
+      "word": "esmeril",
+      "definition": "Máquina con piedra giratoria para afilar o pulir metal."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4913,
+    "word": "bigorna",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/biˈgoʁnɐ/",
+    "definition": "Bloco pesado de ferro onde o ferreiro bate o metal quente.",
+    "examples": [
+      "O ferreiro bateu o ferro na bigorna.",
+      "A bigorna é muito pesada.",
+      "A bigorna fica na oficina."
+    ],
+    "spanish": {
+      "word": "yunque",
+      "definition": "Bloque pesado de hierro donde el herrero golpea el metal caliente."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4914,
+    "word": "formão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/foʁˈmɐ̃w̃/",
+    "definition": "Ferramenta de ponta chata usada para talhar madeira.",
+    "examples": [
+      "O carpinteiro fez o encaixe com o formão.",
+      "O formão precisa estar afiado.",
+      "Ele comprou um jogo de formões."
+    ],
+    "spanish": {
+      "word": "formón",
+      "definition": "Herramienta de punta plana usada para tallar madera."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4915,
+    "word": "marreta",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/maˈʁetɐ/",
+    "definition": "Martelo grande e pesado usado para quebrar parede ou pedra.",
+    "examples": [
+      "Ele quebrou o muro com a marreta.",
+      "A marreta é muito pesada.",
+      "Use a marreta com cuidado."
+    ],
+    "spanish": {
+      "word": "mazo",
+      "definition": "Martillo grande y pesado para romper pared o piedra."
+    },
+    "synonyms": [
+      "mazo"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4916,
+    "word": "alavanca",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/alaˈvɐ̃kɐ/",
+    "definition": "Barra de ferro usada para mover ou levantar um peso grande.",
+    "examples": [
+      "Usei uma alavanca para abrir a tampa.",
+      "A alavanca moveu a pedra.",
+      "Ele pegou uma alavanca no carro."
+    ],
+    "spanish": {
+      "word": "palanca",
+      "definition": "Barra de hierro usada para mover o levantar un peso grande."
+    },
+    "synonyms": [
+      "pé-de-cabra"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4917,
+    "word": "morsa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmɔʁsɐ/",
+    "definition": "Peça de metal que aperta e segura o objeto na bancada.",
+    "examples": [
+      "Prenda a tábua na morsa.",
+      "A morsa segura o metal.",
+      "Aperte a morsa antes de serrar."
+    ],
+    "spanish": {
+      "word": "tornillo de banco",
+      "definition": "Pieza de metal que aprieta y sujeta el objeto en la mesa de trabajo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4918,
+    "word": "prumo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈpɾumu/",
+    "definition": "Peso na ponta de um fio usado para conferir se algo está na vertical.",
+    "examples": [
+      "O pedreiro conferiu o prumo da parede.",
+      "A parede está fora de prumo.",
+      "Use o prumo antes de assentar o azulejo."
+    ],
+    "spanish": {
+      "word": "plomada",
+      "definition": "Peso en la punta de un hilo usado para comprobar si algo está vertical."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4919,
+    "word": "esquadro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/esˈkwadɾu/",
+    "definition": "Instrumento em forma de L usado para verificar ângulos retos.",
+    "examples": [
+      "Confira o canto com o esquadro.",
+      "O esquadro está na gaveta.",
+      "Ele desenhou a planta com o esquadro."
+    ],
+    "spanish": {
+      "word": "escuadra",
+      "definition": "Instrumento en forma de L usado para verificar ángulos rectos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4920,
+    "word": "enxada",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ẽˈʃadɐ/",
+    "definition": "Ferramenta de cabo longo usada para cavar e limpar a terra.",
+    "examples": [
+      "Ele capinou o jardim com a enxada.",
+      "A enxada está no quintal.",
+      "Comprei uma enxada nova."
+    ],
+    "spanish": {
+      "word": "azada",
+      "definition": "Herramienta de mango largo usada para cavar y limpiar la tierra."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4921,
+    "word": "picareta",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pikaˈɾetɐ/",
+    "definition": "Ferramenta com ponta de ferro usada para quebrar pedras e solo duro.",
+    "examples": [
+      "Eles quebraram a rocha com a picareta.",
+      "A picareta é muito pesada.",
+      "O mineiro usou a picareta."
+    ],
+    "spanish": {
+      "word": "pico",
+      "definition": "Herramienta con punta de hierro para romper piedras y suelo duro."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4922,
+    "word": "ancinho",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ɐ̃ˈsiɲu/",
+    "definition": "Ferramenta usada para juntar folhas ou alisar a terra.",
+    "examples": [
+      "Juntei as folhas com o ancinho.",
+      "O ancinho está no quintal.",
+      "Use o ancinho no jardim."
+    ],
+    "spanish": {
+      "word": "rastrillo",
+      "definition": "Herramienta usada para juntar hojas o alisar la tierra."
+    },
+    "synonyms": [
+      "rastelo"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4923,
+    "word": "foice",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈfojsi/",
+    "definition": "Ferramenta com lâmina curva usada para cortar capim.",
+    "examples": [
+      "Ele cortou o mato com a foice.",
+      "A foice é muito afiada.",
+      "A foice fica no celeiro."
+    ],
+    "spanish": {
+      "word": "hoz",
+      "definition": "Herramienta con hoja curva usada para cortar hierba."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4924,
+    "word": "machadinha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/maʃaˈdʒiɲɐ/",
+    "definition": "Machado pequeno, usado com uma mão só.",
+    "examples": [
+      "Ele cortou os galhos com a machadinha.",
+      "A machadinha está afiada.",
+      "Leve a machadinha para o acampamento."
+    ],
+    "spanish": {
+      "word": "hacha pequeña",
+      "definition": "Hacha pequeña, usada con una sola mano."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4925,
+    "word": "cimento",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/siˈmẽtu/",
+    "definition": "Pó cinza que, misturado com água e areia, endurece e dá liga à construção.",
+    "examples": [
+      "Comprei dois sacos de cimento.",
+      "O cimento secou rápido.",
+      "Misture o cimento com areia."
+    ],
+    "spanish": {
+      "word": "cemento",
+      "definition": "Polvo gris que, mezclado con agua y arena, endurece y da liga a la construcción."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4926,
+    "word": "argamassa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/aʁgaˈmasɐ/",
+    "definition": "Mistura de cimento, areia e água usada para assentar tijolos e azulejos.",
+    "examples": [
+      "O pedreiro preparou a argamassa.",
+      "A argamassa prende o azulejo na parede.",
+      "Misture a argamassa com água."
+    ],
+    "spanish": {
+      "word": "mortero",
+      "definition": "Mezcla de cemento, arena y agua usada para asentar ladrillos y azulejos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4927,
+    "word": "rejunte",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁeˈʒũtʃi/",
+    "definition": "Massa que preenche os espaços entre os azulejos.",
+    "examples": [
+      "O rejunte do banheiro está escuro.",
+      "Vou trocar o rejunte da cozinha.",
+      "Comprei rejunte branco."
+    ],
+    "spanish": {
+      "word": "junta",
+      "definition": "Masa que rellena los espacios entre los azulejos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4928,
+    "word": "andaime",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ɐ̃ˈdajmi/",
+    "definition": "Estrutura montada ao lado da parede para trabalhar em altura.",
+    "examples": [
+      "Os pintores subiram no andaime.",
+      "O andaime está montado na fachada.",
+      "Monte o andaime com cuidado."
+    ],
+    "spanish": {
+      "word": "andamio",
+      "definition": "Estructura montada junto a la pared para trabajar en altura."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4929,
+    "word": "calha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈkaʎɐ/",
+    "definition": "Canal no beiral do telhado que recolhe a água da chuva.",
+    "examples": [
+      "A calha está entupida de folhas.",
+      "A chuva cai na calha.",
+      "Limpe a calha do telhado."
+    ],
+    "spanish": {
+      "word": "canaleta",
+      "definition": "Canal en el borde del techo que recoge el agua de lluvia."
+    },
+    "synonyms": [
+      "canaleta"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4930,
+    "word": "rodapé",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁodaˈpɛ/",
+    "definition": "Faixa estreita na parte de baixo da parede, junto ao chão.",
+    "examples": [
+      "O rodapé é de madeira.",
+      "Vou pintar o rodapé da sala.",
+      "O rodapé soltou da parede."
+    ],
+    "spanish": {
+      "word": "rodapié",
+      "definition": "Franja estrecha en la parte baja de la pared, junto al suelo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4931,
+    "word": "forro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈfoʁu/",
+    "definition": "Teto interno que cobre a parte de baixo do telhado.",
+    "examples": [
+      "O forro é de gesso.",
+      "A água manchou o forro.",
+      "Vamos trocar o forro do quarto."
+    ],
+    "spanish": {
+      "word": "cielo raso",
+      "definition": "Techo interno que cubre la parte de abajo del tejado."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4932,
+    "word": "viga",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈvigɐ/",
+    "definition": "Peça longa de concreto, aço ou madeira que sustenta a construção.",
+    "examples": [
+      "A viga sustenta o teto.",
+      "Colocaram as vigas ontem.",
+      "A viga rachou."
+    ],
+    "spanish": {
+      "word": "viga",
+      "definition": "Pieza larga de concreto, acero o madera que sostiene la construcción."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4933,
+    "word": "sifão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/siˈfɐ̃w̃/",
+    "definition": "Peça curva embaixo da pia que segura a água e evita mau cheiro.",
+    "examples": [
+      "O sifão da pia entupiu.",
+      "Troquei o sifão do banheiro.",
+      "O sifão está vazando."
+    ],
+    "spanish": {
+      "word": "sifón",
+      "definition": "Pieza curva debajo del lavaplatos que retiene agua y evita mal olor."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4934,
+    "word": "encanamento",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ẽkanaˈmẽtu/",
+    "definition": "Conjunto de canos que leva água pela casa.",
+    "examples": [
+      "O encanamento vazou de madrugada.",
+      "O encanador consertou o encanamento.",
+      "O encanamento do prédio é antigo."
+    ],
+    "spanish": {
+      "word": "tubería",
+      "definition": "Conjunto de tuberías que lleva agua por la casa."
+    },
+    "synonyms": [
+      "tubulação"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4935,
+    "word": "fiação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/fiaˈsɐ̃w̃/",
+    "definition": "Conjunto de fios elétricos de uma casa ou aparelho.",
+    "examples": [
+      "A fiação está velha.",
+      "O eletricista trocou a fiação.",
+      "A fiação pegou fogo."
+    ],
+    "spanish": {
+      "word": "cableado",
+      "definition": "Conjunto de cables eléctricos de una casa o aparato."
+    },
+    "synonyms": [
+      "cabos"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4936,
+    "word": "disjuntor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/dʒizũˈtoʁ/",
+    "definition": "Chave elétrica que desarma e corta a energia quando há um problema.",
+    "examples": [
+      "O disjuntor desarmou de novo.",
+      "Liga o disjuntor outra vez.",
+      "O disjuntor fica na caixa de força."
+    ],
+    "spanish": {
+      "word": "disyuntor",
+      "definition": "Interruptor eléctrico que se dispara y corta la energía cuando hay un problema."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4937,
+    "word": "fusível",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/fuˈzivew/",
+    "definition": "Peça que queima e corta a corrente para proteger o aparelho.",
+    "examples": [
+      "O fusível queimou.",
+      "Troque o fusível do carro.",
+      "Comprei fusíveis novos."
+    ],
+    "spanish": {
+      "word": "fusible",
+      "definition": "Pieza que se quema y corta la corriente para proteger el aparato."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4938,
+    "word": "voltagem",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/vowˈtaʒẽj̃/",
+    "definition": "Tensão elétrica; no dia a dia, se um aparelho é 110 ou 220.",
+    "examples": [
+      "Qual é a voltagem desta tomada?",
+      "O chuveiro é de qual voltagem?",
+      "A voltagem aqui é 220."
+    ],
+    "spanish": {
+      "word": "voltaje",
+      "definition": "Tensión eléctrica; en el día a día, si un aparato es 110 o 220."
+    },
+    "synonyms": [
+      "tensão"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4939,
+    "word": "curto-circuito",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kuʁtʃiʁˈkujtu/",
+    "definition": "Falha elétrica quando dois fios se tocam e a corrente passa direto.",
+    "examples": [
+      "O curto-circuito provocou o apagão.",
+      "Houve um curto-circuito na tomada.",
+      "O fio velho pode causar curto-circuito."
+    ],
+    "spanish": {
+      "word": "cortocircuito",
+      "definition": "Fallo eléctrico cuando dos cables se tocan y la corriente pasa directo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4940,
+    "word": "apagão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/apaˈgɐ̃w̃/",
+    "definition": "Falta de luz elétrica em toda uma área.",
+    "examples": [
+      "Ontem houve um apagão no bairro.",
+      "O apagão durou duas horas.",
+      "Ficamos no escuro durante o apagão."
+    ],
+    "spanish": {
+      "word": "apagón",
+      "definition": "Falta de luz eléctrica en toda una zona."
+    },
+    "synonyms": [
+      "blecaute"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4941,
+    "word": "tomada",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/toˈmadɐ/",
+    "definition": "Ponto na parede onde se liga o plugue dos aparelhos.",
+    "examples": [
+      "A tomada está sem energia.",
+      "Ligue o carregador na tomada.",
+      "Não há tomada perto da cama."
+    ],
+    "spanish": {
+      "word": "enchufe",
+      "definition": "Punto en la pared donde se conecta el enchufe de los aparatos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4942,
+    "word": "extensão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/estẽˈsɐ̃w̃/",
+    "definition": "Fio longo com tomadas usado para levar energia até longe.",
+    "examples": [
+      "Preciso de uma extensão.",
+      "A extensão chega até a varanda.",
+      "Não ligue muita coisa na extensão."
+    ],
+    "spanish": {
+      "word": "extensión",
+      "definition": "Cable largo con enchufes usado para llevar energía lejos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4943,
+    "word": "adaptador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/adaptaˈdoʁ/",
+    "definition": "Peça que permite ligar um plugue numa tomada diferente.",
+    "examples": [
+      "Comprei um adaptador de tomada.",
+      "O adaptador permite ligar o aparelho.",
+      "Perdi o adaptador do notebook."
+    ],
+    "spanish": {
+      "word": "adaptador",
+      "definition": "Pieza que permite conectar un enchufe en una toma diferente."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4944,
+    "word": "trinco",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈtɾĩku/",
+    "definition": "Peça de metal que fecha porta ou janela por dentro.",
+    "examples": [
+      "Passe o trinco da porta.",
+      "O trinco está quebrado.",
+      "A janela tem trinco novo."
+    ],
+    "spanish": {
+      "word": "pestillo",
+      "definition": "Pieza de metal que cierra puerta o ventana por dentro."
+    },
+    "synonyms": [
+      "ferrolho"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4945,
+    "word": "dobradiça",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/dobɾaˈdʒisɐ/",
+    "definition": "Peça que liga a porta ao batente e permite abrir e fechar.",
+    "examples": [
+      "A dobradiça está rangendo.",
+      "Troquei as dobradiças do armário.",
+      "Passe óleo na dobradiça."
+    ],
+    "spanish": {
+      "word": "bisagra",
+      "definition": "Pieza que une la puerta al marco y permite abrirla y cerrarla."
+    },
+    "synonyms": [
+      "charneira"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4946,
+    "word": "persiana",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/peʁsiˈɐ̃nɐ/",
+    "definition": "Cortina de lâminas que se abre e fecha para controlar a luz.",
+    "examples": [
+      "Feche a persiana, por favor.",
+      "A persiana do quarto quebrou.",
+      "Abra a persiana de manhã."
+    ],
+    "spanish": {
+      "word": "persiana",
+      "definition": "Cortina de láminas que se abre y cierra para controlar la luz."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4947,
+    "word": "abajur",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/abaˈʒuʁ/",
+    "definition": "Luminária pequena de mesa ou de cabeceira, com cúpula.",
+    "examples": [
+      "Ligue o abajur do quarto.",
+      "O abajur fica ao lado da cama.",
+      "Comprei um abajur novo."
+    ],
+    "spanish": {
+      "word": "lámpara de mesa",
+      "definition": "Lámpara pequeña de mesa o de cabecera, con pantalla."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4948,
+    "word": "interfone",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩteʁˈfõni/",
+    "definition": "Telefone interno usado para falar com a portaria ou outros andares.",
+    "examples": [
+      "O interfone tocou agora.",
+      "Fale comigo pelo interfone.",
+      "O interfone não funciona."
+    ],
+    "spanish": {
+      "word": "intercomunicador",
+      "definition": "Teléfono interno usado para hablar con la portería u otros pisos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4949,
+    "word": "portaria",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/poʁtaˈɾiɐ/",
+    "definition": "Local na entrada do prédio onde fica o porteiro.",
+    "examples": [
+      "Deixe a encomenda na portaria.",
+      "A portaria funciona 24 horas.",
+      "Ligue para a portaria."
+    ],
+    "spanish": {
+      "word": "portería",
+      "definition": "Lugar en la entrada del edificio donde está el portero."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4950,
+    "word": "hall",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈɔw/",
+    "definition": "Espaço de entrada de um prédio ou de uma casa.",
+    "examples": [
+      "Espere no hall do prédio.",
+      "O hall tem um espelho grande.",
+      "O hall está decorado para a festa."
+    ],
+    "spanish": {
+      "word": "vestíbulo",
+      "definition": "Espacio de entrada de un edificio o de una casa."
+    },
+    "synonyms": [
+      "vestíbulo",
+      "entrada"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4951,
+    "word": "churrasqueira",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʃuʁasˈkejɾɐ/",
+    "definition": "Lugar ou aparelho onde se faz churrasco.",
+    "examples": [
+      "Vamos acender a churrasqueira.",
+      "A churrasqueira fica no quintal.",
+      "Comprei uma churrasqueira elétrica."
+    ],
+    "spanish": {
+      "word": "parrilla",
+      "definition": "Lugar o aparato donde se hace barbacoa."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4952,
+    "word": "horta",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈɔʁtɐ/",
+    "definition": "Terreno pequeno onde se plantam verduras e legumes.",
+    "examples": [
+      "Minha avó tem uma horta.",
+      "Plantei alface na horta.",
+      "A horta fica no quintal."
+    ],
+    "spanish": {
+      "word": "huerta",
+      "definition": "Terreno pequeño donde se plantan verduras y hortalizas."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4953,
+    "word": "esfregão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/esfɾeˈgɐ̃w̃/",
+    "definition": "Utensílio com tiras de pano e cabo, usado para lavar o chão.",
+    "examples": [
+      "Passe o esfregão no chão.",
+      "O esfregão está molhado.",
+      "Comprei um esfregão novo."
+    ],
+    "spanish": {
+      "word": "fregona",
+      "definition": "Utensilio con tiras de tela y mango, usado para fregar el suelo."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4954,
+    "word": "pregador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɾegaˈdoʁ/",
+    "definition": "Pequena peça que prende a roupa no varal.",
+    "examples": [
+      "Prenda a roupa com pregadores.",
+      "Os pregadores estão no balde.",
+      "Comprei pregadores novos."
+    ],
+    "spanish": {
+      "word": "pinza de ropa",
+      "definition": "Pieza pequeña que sujeta la ropa en el tendedero."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4955,
+    "word": "amaciante",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/amasiˈɐ̃tʃi/",
+    "definition": "Produto que deixa as roupas macias e cheirosas na lavagem.",
+    "examples": [
+      "Coloque amaciante na máquina.",
+      "O amaciante tem cheiro de flores.",
+      "Comprei amaciante azul."
+    ],
+    "spanish": {
+      "word": "suavizante",
+      "definition": "Producto que deja la ropa suave y perfumada en el lavado."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4956,
+    "word": "abridor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/abɾiˈdoʁ/",
+    "definition": "Utensílio usado para abrir garrafas ou latas.",
+    "examples": [
+      "Pegue o abridor de garrafas.",
+      "O abridor está na gaveta.",
+      "Perdi o abridor de latas."
+    ],
+    "spanish": {
+      "word": "abridor",
+      "definition": "Utensilio usado para abrir botellas o latas."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4957,
+    "word": "peneira",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/peˈnejɾɐ/",
+    "definition": "Utensílio com rede fina usado para separar farinha ou coar líquidos.",
+    "examples": [
+      "Passe a farinha na peneira.",
+      "A peneira está na gaveta.",
+      "Comprei uma peneira pequena."
+    ],
+    "spanish": {
+      "word": "colador",
+      "definition": "Utensilio con red fina usado para cernir harina o colar líquidos."
+    },
+    "synonyms": [
+      "coador"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4958,
+    "word": "tábua",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈtabuɐ/",
+    "definition": "Peça plana de madeira usada para cortar alimentos.",
+    "examples": [
+      "Corte o pão na tábua.",
+      "A tábua é de madeira.",
+      "Lave a tábua depois de usar."
+    ],
+    "spanish": {
+      "word": "tabla",
+      "definition": "Pieza plana de madera usada para cortar alimentos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4959,
+    "word": "fósforo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈfɔsfoɾu/",
+    "definition": "Palito com ponta que acende fogo ao ser riscado.",
+    "examples": [
+      "Acenda a vela com um fósforo.",
+      "A caixa de fósforos está vazia.",
+      "Não deixe fósforos perto das crianças."
+    ],
+    "spanish": {
+      "word": "fósforo",
+      "definition": "Palito con punta que enciende fuego al ser raspado."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4960,
+    "word": "purificador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/puɾifikaˈdoʁ/",
+    "definition": "Aparelho que limpa e filtra a água de beber.",
+    "examples": [
+      "O purificador filtra a água.",
+      "Troque o refil do purificador.",
+      "Comprei um purificador novo."
+    ],
+    "spanish": {
+      "word": "purificador",
+      "definition": "Aparato que limpia y filtra el agua de beber."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4961,
+    "word": "repelente",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʁepeˈlẽtʃi/",
+    "definition": "Produto usado no corpo para afastar mosquitos.",
+    "examples": [
+      "Passe repelente antes de sair.",
+      "O repelente evita picadas.",
+      "Comprei repelente para a viagem."
+    ],
+    "spanish": {
+      "word": "repelente",
+      "definition": "Producto usado en el cuerpo para alejar mosquitos."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4962,
+    "word": "hidratante",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/idɾaˈtɐ̃tʃi/",
+    "definition": "Creme usado para deixar a pele macia e sem ressecar.",
+    "examples": [
+      "Passe hidratante nas mãos.",
+      "O hidratante tem cheiro suave.",
+      "Comprei um hidratante novo."
+    ],
+    "spanish": {
+      "word": "hidratante",
+      "definition": "Crema usada para dejar la piel suave y sin resecar."
+    },
+    "synonyms": [
+      "creme"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4963,
+    "word": "shampoo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʃɐ̃ˈpu/",
+    "definition": "Produto usado para lavar o cabelo (o mesmo que xampu).",
+    "examples": [
+      "Comprei shampoo sem sal.",
+      "O shampoo acabou.",
+      "Que shampoo você usa?"
+    ],
+    "spanish": {
+      "word": "champú",
+      "definition": "Producto usado para lavar el cabello."
+    },
+    "synonyms": [
+      "xampu"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4964,
+    "word": "condicionador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kõdʒisionaˈdoʁ/",
+    "definition": "Produto usado depois do shampoo para amaciar o cabelo.",
+    "examples": [
+      "Passe condicionador nas pontas.",
+      "O condicionador deixa o cabelo macio.",
+      "Comprei shampoo e condicionador."
+    ],
+    "spanish": {
+      "word": "acondicionador",
+      "definition": "Producto usado después del champú para suavizar el cabello."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4965,
+    "word": "desodorante",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/dezodoˈɾɐ̃tʃi/",
+    "definition": "Produto usado nas axilas para evitar o mau cheiro do suor.",
+    "examples": [
+      "Passe desodorante antes de sair.",
+      "O desodorante está no armário.",
+      "Comprei um desodorante sem álcool."
+    ],
+    "spanish": {
+      "word": "desodorante",
+      "definition": "Producto usado en las axilas para evitar el mal olor del sudor."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4966,
+    "word": "navalha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/naˈvaʎɐ/",
+    "definition": "Lâmina afiada usada para cortar cabelo ou barba.",
+    "examples": [
+      "O barbeiro usou a navalha.",
+      "A navalha corta muito.",
+      "Ele afiou a navalha."
+    ],
+    "spanish": {
+      "word": "navaja",
+      "definition": "Hoja afilada usada para cortar cabello o barba."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4967,
+    "word": "barbeador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/baʁbeaˈdoʁ/",
+    "definition": "Aparelho usado para raspar a barba.",
+    "examples": [
+      "Comprei um barbeador elétrico.",
+      "O barbeador está sem carga.",
+      "Ele raspou a barba com o barbeador."
+    ],
+    "spanish": {
+      "word": "afeitadora",
+      "definition": "Aparato usado para rasurar la barba."
+    },
+    "synonyms": [
+      "aparelho de barbear"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4968,
+    "word": "capô",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kaˈpo/",
+    "definition": "Tampa da frente do carro que cobre o motor.",
+    "examples": [
+      "Abra o capô do carro.",
+      "O capô está amassado.",
+      "Saiu fumaça do capô."
+    ],
+    "spanish": {
+      "word": "capó",
+      "definition": "Tapa delantera del auto que cubre el motor."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4969,
+    "word": "para-choque",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/paɾaˈʃɔki/",
+    "definition": "Peça na frente e atrás do carro que protege em batidas leves.",
+    "examples": [
+      "O para-choque traseiro quebrou.",
+      "Ele bateu o para-choque na garagem.",
+      "O para-choque é de plástico."
+    ],
+    "spanish": {
+      "word": "parachoques",
+      "definition": "Pieza delantera y trasera del auto que protege en choques leves."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4970,
+    "word": "limpador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/lĩpaˈdoʁ/",
+    "definition": "Haste com borracha que limpa o vidro do carro na chuva.",
+    "examples": [
+      "Ligue o limpador de para-brisa.",
+      "O limpador está fazendo barulho.",
+      "Troque a borracha do limpador."
+    ],
+    "spanish": {
+      "word": "limpiaparabrisas",
+      "definition": "Varilla con goma que limpia el vidrio del auto en la lluvia."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4971,
+    "word": "buzina",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/buˈzinɐ/",
+    "definition": "Aparelho que faz o som de aviso do carro.",
+    "examples": [
+      "Ele apertou a buzina.",
+      "A buzina não funciona.",
+      "Não use a buzina à noite."
+    ],
+    "spanish": {
+      "word": "bocina",
+      "definition": "Aparato que hace el sonido de aviso del auto."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4972,
+    "word": "estepe",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/esˈtepi/",
+    "definition": "Pneu sobressalente guardado no carro para emergências.",
+    "examples": [
+      "Trocamos o pneu pelo estepe.",
+      "O estepe está no porta-malas.",
+      "Verifique o estepe antes de viajar."
+    ],
+    "spanish": {
+      "word": "neumático de repuesto",
+      "definition": "Rueda de repuesto guardada en el auto para emergencias."
+    },
+    "synonyms": [
+      "pneu sobressalente"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4973,
+    "word": "extintor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/estʃĩˈtoʁ/",
+    "definition": "Aparelho usado para apagar fogo; obrigatório no carro.",
+    "examples": [
+      "O carro tem extintor.",
+      "Use o extintor de incêndio.",
+      "O extintor está vencido."
+    ],
+    "spanish": {
+      "word": "extintor",
+      "definition": "Aparato usado para apagar fuego; obligatorio en el auto."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4974,
+    "word": "etanol",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/etaˈnɔw/",
+    "definition": "Combustível feito de cana-de-açúcar.",
+    "examples": [
+      "Abasteço o carro com etanol.",
+      "O etanol está mais barato.",
+      "O carro flex aceita etanol."
+    ],
+    "spanish": {
+      "word": "etanol",
+      "definition": "Combustible hecho de caña de azúcar."
+    },
+    "synonyms": [
+      "álcool"
+    ],
+    "conjugations": null
+  },
+  {
+    "rank": 4975,
+    "word": "diesel",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈdʒizew/",
+    "definition": "Combustível usado em caminhões e ônibus.",
+    "examples": [
+      "O caminhão usa diesel.",
+      "O diesel subiu de preço.",
+      "Ele abasteceu o ônibus com diesel."
+    ],
+    "spanish": {
+      "word": "diésel",
+      "definition": "Combustible usado en camiones y autobuses."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4976,
+    "word": "embreagem",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ẽbɾeˈaʒẽj̃/",
+    "definition": "Pedal e sistema que liga e desliga o motor do câmbio no carro manual.",
+    "examples": [
+      "Pise na embreagem.",
+      "A embreagem está dura.",
+      "Solte a embreagem devagar."
+    ],
+    "spanish": {
+      "word": "embrague",
+      "definition": "Pedal y sistema que conecta y desconecta el motor de la caja en el auto manual."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4977,
+    "word": "velocímetro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/veloˈsimetɾu/",
+    "definition": "Painel que mostra a velocidade do carro.",
+    "examples": [
+      "Olhe o velocímetro.",
+      "O velocímetro marca oitenta.",
+      "O velocímetro quebrou."
+    ],
+    "spanish": {
+      "word": "velocímetro",
+      "definition": "Panel que muestra la velocidad del auto."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4978,
+    "word": "hodômetro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/oˈdometɾu/",
+    "definition": "Contador que marca os quilômetros que o carro já rodou.",
+    "examples": [
+      "O hodômetro marca cem mil quilômetros.",
+      "Olhe o hodômetro antes de comprar.",
+      "O hodômetro não funciona."
+    ],
+    "spanish": {
+      "word": "odómetro",
+      "definition": "Contador que marca los kilómetros que el auto ya recorrió."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4979,
+    "word": "porta-luvas",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɔʁtaˈluvɐs/",
+    "definition": "Compartimento fechado no painel do carro, na frente do passageiro.",
+    "examples": [
+      "O documento está no porta-luvas.",
+      "Abra o porta-luvas.",
+      "O porta-luvas está cheio de papéis."
+    ],
+    "spanish": {
+      "word": "guantera",
+      "definition": "Compartimento cerrado en el tablero del auto, frente al pasajero."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4980,
+    "word": "airbag",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ɛʁˈbɛgi/",
+    "definition": "Bolsa de ar que infla sozinha numa batida para proteger as pessoas.",
+    "examples": [
+      "O airbag salvou o motorista.",
+      "O carro tem airbag duplo.",
+      "Os airbags abriram na batida."
+    ],
+    "spanish": {
+      "word": "airbag",
+      "definition": "Bolsa de aire que se infla sola en un choque para proteger a las personas."
+    },
+    "synonyms": [],
+    "conjugations": null
+  },
+  {
+    "rank": 4981,
+    "word": "trava",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈtɾavɐ/",
+    "definition": "Fecho que segura algo fechado; nas portas do carro, o seguro.",
+    "examples": [
+      "Puxe a trava da porta.",
+      "A trava quebrou.",
+      "Acione as travas elétricas."
+    ],
+    "spanish": {
+      "word": "seguro",
+      "definition": "Cierre que mantiene algo cerrado; en las puertas del auto, el seguro."
+    },
+    "synonyms": [
+      "fecho"
+    ],
+    "conjugations": null
+  }
+]

@@ -62,7 +62,9 @@ def main():
     for item in words:
         word, best = item["word"], None
         for attempt in range(1, TRIES + 1):
-            pieces = tts.generate(text=word, ref_audio=ref["audio"], ref_text=ref["text"], lang_code=LANGUAGE[language], verbose=False)
+            pieces = list(tts.generate(text=word, ref_audio=ref["audio"], ref_text=ref["text"], lang_code=LANGUAGE[language], verbose=False))
+            if not pieces:  # now and then the model says nothing
+                continue
             audio = trim(np.concatenate([np.array(p.audio) for p in pieces]), rate)
             seconds = len(audio) / rate
             save_wav(wav, audio, rate)
@@ -74,6 +76,10 @@ def main():
             if score >= MIN_MATCH:
                 break
             mx.clear_cache()
+
+        if best is None:
+            print(f"silent: {word}", file=sys.stderr, flush=True)
+            continue
 
         save_wav(wav, best["audio"], rate)
         mp3 = os.path.join(out_dir, f"{item['id']}.mp3")
