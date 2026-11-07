@@ -1,0 +1,1979 @@
+[
+  {
+    "rank": 4382,
+    "word": "esquecido",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/eskeˈsidu/",
+    "definition": "Que esquece as coisas com facilidade.",
+    "examples": [
+      "Meu avô está meio esquecido.",
+      "Sou muito esquecida com datas.",
+      "Ele é tão esquecido que perdeu a chave de novo."
+    ],
+    "spanish": {
+      "word": "olvidadizo",
+      "definition": "Que olvida las cosas con facilidad."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4383,
+    "word": "abatido",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/abaˈtʃidu/",
+    "definition": "Triste ou fraco, sem energia.",
+    "examples": [
+      "Ele parece abatido depois da gripe.",
+      "Ela ficou abatida com a notícia.",
+      "Por que você está tão abatido?"
+    ],
+    "spanish": {
+      "word": "abatido",
+      "definition": "Triste o débil, sin energía."
+    },
+    "synonyms": [
+      "desanimado"
+    ]
+  },
+  {
+    "rank": 4384,
+    "word": "malandro",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/maˈlɐ̃dɾu/",
+    "definition": "Pessoa esperta que vive de truques.",
+    "examples": [
+      "Esse cara é um malandro.",
+      "O malandro é um personagem do samba.",
+      "Não seja malandro comigo."
+    ],
+    "spanish": {
+      "word": "pícaro",
+      "definition": "Persona astuta que vive de trucos."
+    },
+    "synonyms": [
+      "esperto"
+    ]
+  },
+  {
+    "rank": 4385,
+    "word": "desonesto",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/dezoˈnɛstu/",
+    "definition": "Que mente ou engana.",
+    "examples": [
+      "Ele é um comerciante desonesto.",
+      "Foi uma atitude desonesta.",
+      "Não confio em gente desonesta."
+    ],
+    "spanish": {
+      "word": "deshonesto",
+      "definition": "Que miente o engaña."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4386,
+    "word": "cauteloso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/kawteˈlozu/",
+    "definition": "Que age com cuidado.",
+    "examples": [
+      "Seja cauteloso na estrada.",
+      "Ela é cautelosa com dinheiro.",
+      "Ele deu uma resposta cautelosa."
+    ],
+    "spanish": {
+      "word": "cauteloso",
+      "definition": "Que actúa con cuidado."
+    },
+    "synonyms": [
+      "cuidadoso"
+    ]
+  },
+  {
+    "rank": 4387,
+    "word": "pontual",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/põtuˈaw/",
+    "definition": "Que chega na hora certa.",
+    "examples": [
+      "Meu chefe é muito pontual.",
+      "Seja pontual na entrevista.",
+      "O trem japonês é pontual."
+    ],
+    "spanish": {
+      "word": "puntual",
+      "definition": "Que llega a la hora correcta."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4388,
+    "word": "obediente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/obedʒiˈẽtʃi/",
+    "definition": "Que faz o que mandam.",
+    "examples": [
+      "Meu filho é muito obediente.",
+      "Esse cachorro é obediente.",
+      "Ela sempre foi uma aluna obediente."
+    ],
+    "spanish": {
+      "word": "obediente",
+      "definition": "Que hace lo que le mandan."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4389,
+    "word": "pessimista",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/pesiˈmistɐ/",
+    "definition": "Que só espera o pior.",
+    "examples": [
+      "Não seja tão pessimista.",
+      "Ele é pessimista com o futuro.",
+      "Meu pai é um pessimista."
+    ],
+    "spanish": {
+      "word": "pesimista",
+      "definition": "Que solo espera lo peor."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4390,
+    "word": "aventureiro",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/avẽtuˈɾejɾu/",
+    "definition": "Que gosta de aventuras.",
+    "examples": [
+      "Ela tem espírito aventureiro.",
+      "Ele é um aventureiro e já viajou o mundo.",
+      "Só os aventureiros sobem essa montanha."
+    ],
+    "spanish": {
+      "word": "aventurero",
+      "definition": "Que le gustan las aventuras."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4391,
+    "word": "carente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/kaˈɾẽtʃi/",
+    "definition": "Que precisa de carinho ou de algo.",
+    "examples": [
+      "Estou carente hoje.",
+      "O bairro é carente de escolas.",
+      "Ajudamos famílias carentes."
+    ],
+    "spanish": {
+      "word": "carente",
+      "definition": "Que necesita cariño o algo."
+    },
+    "synonyms": [
+      "necessitado"
+    ]
+  },
+  {
+    "rank": 4392,
+    "word": "dorminhoco",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/doʁmiˈɲoku/",
+    "definition": "Que dorme muito.",
+    "examples": [
+      "Meu filho é um dorminhoco.",
+      "Acorda, dorminhoca!",
+      "Que gato dorminhoco!"
+    ],
+    "spanish": {
+      "word": "dormilón",
+      "definition": "Que duerme mucho."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4393,
+    "word": "invejoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩveˈʒozu/",
+    "definition": "Que sente inveja.",
+    "examples": [
+      "Ele é muito invejoso.",
+      "Ela é invejosa com as amigas.",
+      "Não ligue para gente invejosa."
+    ],
+    "spanish": {
+      "word": "envidioso",
+      "definition": "Que siente envidia."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4394,
+    "word": "afobado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/afoˈbadu/",
+    "definition": "Com pressa e nervoso.",
+    "examples": [
+      "Saí afobado de casa.",
+      "Calma, não fique afobada.",
+      "Ele chegou afobado à reunião."
+    ],
+    "spanish": {
+      "word": "apurado",
+      "definition": "Con prisa y nervioso."
+    },
+    "synonyms": [
+      "apressado"
+    ]
+  },
+  {
+    "rank": 4395,
+    "word": "caloroso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/kaloˈɾozu/",
+    "definition": "Muito simpático e cheio de afeto.",
+    "examples": [
+      "Recebemos um abraço caloroso.",
+      "O povo brasileiro é caloroso.",
+      "Tivemos uma recepção calorosa."
+    ],
+    "spanish": {
+      "word": "caluroso",
+      "definition": "Muy simpático y lleno de afecto."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4396,
+    "word": "lotado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/loˈtadu/",
+    "definition": "Cheio de gente.",
+    "examples": [
+      "O ônibus está lotado.",
+      "O estádio ficou lotado.",
+      "Todos os hotéis estão lotados."
+    ],
+    "spanish": {
+      "word": "lleno",
+      "definition": "Lleno de gente."
+    },
+    "synonyms": [
+      "cheio"
+    ]
+  },
+  {
+    "rank": 4397,
+    "word": "desorganizado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/dezoʁganiˈzadu/",
+    "definition": "Sem ordem.",
+    "examples": [
+      "Sou muito desorganizado.",
+      "O escritório dela é desorganizado.",
+      "O evento foi bem desorganizado."
+    ],
+    "spanish": {
+      "word": "desorganizado",
+      "definition": "Sin orden."
+    },
+    "synonyms": [
+      "bagunçado"
+    ]
+  },
+  {
+    "rank": 4398,
+    "word": "mandão",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/mɐ̃ˈdɐ̃w̃/",
+    "definition": "Que gosta de mandar nos outros.",
+    "examples": [
+      "Meu irmão mais velho é mandão.",
+      "Ela é muito mandona.",
+      "Ninguém gosta de chefe mandão."
+    ],
+    "spanish": {
+      "word": "mandón",
+      "definition": "Que le gusta mandar a los demás."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4399,
+    "word": "grosseiro",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/gɾoˈsejɾu/",
+    "definition": "Sem educação; feito sem cuidado.",
+    "examples": [
+      "Ele foi grosseiro com a atendente.",
+      "Que resposta grosseira!",
+      "Cometi um erro grosseiro."
+    ],
+    "spanish": {
+      "word": "grosero",
+      "definition": "Sin educación; hecho sin cuidado."
+    },
+    "synonyms": [
+      "mal-educado"
+    ]
+  },
+  {
+    "rank": 4400,
+    "word": "ausente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/awˈzẽtʃi/",
+    "definition": "Que não está presente.",
+    "examples": [
+      "Ele foi um pai ausente.",
+      "Três alunos estão ausentes hoje.",
+      "Ela estava ausente do escritório."
+    ],
+    "spanish": {
+      "word": "ausente",
+      "definition": "Que no está presente."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4401,
+    "word": "fracassado",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/fɾakaˈsadu/",
+    "definition": "Que não teve sucesso.",
+    "examples": [
+      "Ele se sente um fracassado.",
+      "Foi uma tentativa fracassada.",
+      "O plano fracassado custou caro."
+    ],
+    "spanish": {
+      "word": "fracasado",
+      "definition": "Que no tuvo éxito."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4402,
+    "word": "empolgado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ẽpowˈgadu/",
+    "definition": "Muito animado.",
+    "examples": [
+      "Estou empolgado com a viagem.",
+      "Ela ficou empolgada com o novo curso.",
+      "As crianças estão empolgadas com o Natal."
+    ],
+    "spanish": {
+      "word": "emocionado",
+      "definition": "Muy animado."
+    },
+    "synonyms": [
+      "animado"
+    ]
+  },
+  {
+    "rank": 4403,
+    "word": "apavorado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/apavoˈɾadu/",
+    "definition": "Com muito medo.",
+    "examples": [
+      "Fiquei apavorado com o barulho.",
+      "A menina ficou apavorada com o cachorro.",
+      "Ele saiu apavorado do filme de terror."
+    ],
+    "spanish": {
+      "word": "aterrado",
+      "definition": "Con mucho miedo."
+    },
+    "synonyms": [
+      "assustado"
+    ]
+  },
+  {
+    "rank": 4404,
+    "word": "aborrecido",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/aboʁeˈsidu/",
+    "definition": "Irritado ou chateado.",
+    "examples": [
+      "Ele ficou aborrecido com o atraso.",
+      "Ela está aborrecida comigo.",
+      "Por que você está tão aborrecido?"
+    ],
+    "spanish": {
+      "word": "molesto",
+      "definition": "Irritado o disgustado."
+    },
+    "synonyms": [
+      "chateado"
+    ]
+  },
+  {
+    "rank": 4405,
+    "word": "impaciente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩpasiˈẽtʃi/",
+    "definition": "Que não gosta de esperar.",
+    "examples": [
+      "Ele ficou impaciente na fila.",
+      "Não seja impaciente.",
+      "Os clientes estão impacientes."
+    ],
+    "spanish": {
+      "word": "impaciente",
+      "definition": "Que no le gusta esperar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4406,
+    "word": "irônico",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/iˈɾoniku/",
+    "definition": "Que diz o contrário do que pensa, para brincar.",
+    "examples": [
+      "Ele deu um sorriso irônico.",
+      "Você está sendo irônico?",
+      "É irônico que o bombeiro tenha medo de fogo."
+    ],
+    "spanish": {
+      "word": "irónico",
+      "definition": "Que dice lo contrario de lo que piensa, para bromear."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4407,
+    "word": "ignorante",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/ignoˈɾɐ̃tʃi/",
+    "definition": "Que não sabe; grosseiro.",
+    "examples": [
+      "Ele é ignorante nesse assunto.",
+      "Não seja ignorante com a sua mãe.",
+      "Fui ignorante e peço desculpas."
+    ],
+    "spanish": {
+      "word": "ignorante",
+      "definition": "Que no sabe; grosero."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4408,
+    "word": "insuportável",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩsupoʁˈtavew/",
+    "definition": "Que não se aguenta.",
+    "examples": [
+      "O calor está insuportável.",
+      "Ele ficou insuportável depois da promoção.",
+      "Essa dor é insuportável."
+    ],
+    "spanish": {
+      "word": "insoportable",
+      "definition": "Que no se aguanta."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4409,
+    "word": "legítimo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/leˈʒitʃimu/",
+    "definition": "Verdadeiro; que está de acordo com a lei.",
+    "examples": [
+      "Esse relógio é legítimo.",
+      "Ela é a dona legítima da casa.",
+      "Foi uma reclamação legítima."
+    ],
+    "spanish": {
+      "word": "legítimo",
+      "definition": "Verdadero; que está de acuerdo con la ley."
+    },
+    "synonyms": [
+      "verdadeiro"
+    ]
+  },
+  {
+    "rank": 4410,
+    "word": "constrangedor",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/kõstɾɐ̃ʒeˈdoʁ/",
+    "definition": "Que deixa a pessoa sem graça.",
+    "examples": [
+      "Foi um silêncio constrangedor.",
+      "Que situação constrangedora!",
+      "Ele fez uma pergunta constrangedora."
+    ],
+    "spanish": {
+      "word": "incómodo",
+      "definition": "Que deja a la persona apenada."
+    },
+    "synonyms": [
+      "embaraçoso"
+    ]
+  },
+  {
+    "rank": 4411,
+    "word": "bonzinho",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/bõˈzĩɲu/",
+    "definition": "Gentil e de bom coração.",
+    "examples": [
+      "Ele é um menino bonzinho.",
+      "Seja bonzinho com a sua irmã.",
+      "Minha vizinha é muito boazinha."
+    ],
+    "spanish": {
+      "word": "bueno; bondadoso",
+      "definition": "Amable y de buen corazón."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4412,
+    "word": "baixinho",
+    "type": [
+      "adjective",
+      "adverb"
+    ],
+    "IPA": "/bajˈʃiɲu/",
+    "definition": "Pequeno de altura; com voz baixa.",
+    "examples": [
+      "Meu pai é baixinho.",
+      "Fale baixinho, o bebê está dormindo.",
+      "Ela é baixinha e simpática."
+    ],
+    "spanish": {
+      "word": "bajito",
+      "definition": "Pequeño de estatura; con voz baja."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4413,
+    "word": "loiro",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/ˈlojɾu/",
+    "definition": "De cabelo amarelo ou claro.",
+    "examples": [
+      "Ela tem cabelo loiro.",
+      "O menino loiro é meu sobrinho.",
+      "Ela pintou o cabelo de loiro."
+    ],
+    "spanish": {
+      "word": "rubio",
+      "definition": "De cabello amarillo o claro."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4414,
+    "word": "prático",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈpɾatʃiku/",
+    "definition": "Fácil de usar; que resolve as coisas.",
+    "examples": [
+      "Esse aplicativo é muito prático.",
+      "Ela é uma pessoa prática.",
+      "Fiz uma prova prática de direção."
+    ],
+    "spanish": {
+      "word": "práctico",
+      "definition": "Fácil de usar; que resuelve las cosas."
+    },
+    "synonyms": [
+      "útil"
+    ]
+  },
+  {
+    "rank": 4415,
+    "word": "modesto",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/moˈdɛstu/",
+    "definition": "Simples; que não se acha melhor que os outros.",
+    "examples": [
+      "Ele mora em uma casa modesta.",
+      "Apesar do sucesso, ela é modesta.",
+      "Tenho um salário modesto."
+    ],
+    "spanish": {
+      "word": "modesto",
+      "definition": "Sencillo; que no se cree mejor que los demás."
+    },
+    "synonyms": [
+      "humilde"
+    ]
+  },
+  {
+    "rank": 4416,
+    "word": "fixo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈfiksu/",
+    "definition": "Que não muda ou não se move.",
+    "examples": [
+      "Tenho um salário fixo.",
+      "Ligue para o telefone fixo.",
+      "A mesa é fixa no chão."
+    ],
+    "spanish": {
+      "word": "fijo",
+      "definition": "Que no cambia ni se mueve."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4417,
+    "word": "visível",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/viˈzivew/",
+    "definition": "Que se pode ver.",
+    "examples": [
+      "A mancha é bem visível.",
+      "A lua está visível hoje.",
+      "Coloque o aviso em um lugar visível."
+    ],
+    "spanish": {
+      "word": "visible",
+      "definition": "Que se puede ver."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4418,
+    "word": "aceitável",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/asejˈtavew/",
+    "definition": "Bom o suficiente.",
+    "examples": [
+      "O preço é aceitável.",
+      "Esse comportamento não é aceitável.",
+      "Ela teve uma nota aceitável."
+    ],
+    "spanish": {
+      "word": "aceptable",
+      "definition": "Bueno lo suficiente."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4419,
+    "word": "rígido",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈʁiʒidu/",
+    "definition": "Duro; muito severo.",
+    "examples": [
+      "O plástico é rígido.",
+      "Meu pai era muito rígido.",
+      "A escola tem regras rígidas."
+    ],
+    "spanish": {
+      "word": "rígido",
+      "definition": "Duro; muy severo."
+    },
+    "synonyms": [
+      "duro"
+    ]
+  },
+  {
+    "rank": 4420,
+    "word": "eficaz",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/efiˈkas/",
+    "definition": "Que dá o resultado esperado.",
+    "examples": [
+      "Esse remédio é muito eficaz.",
+      "Encontramos uma solução eficaz.",
+      "O método é simples e eficaz."
+    ],
+    "spanish": {
+      "word": "eficaz",
+      "definition": "Que da el resultado esperado."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4421,
+    "word": "racional",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʁasioˈnaw/",
+    "definition": "Que usa a razão.",
+    "examples": [
+      "Tome uma decisão racional.",
+      "O homem é um ser racional.",
+      "Ela é bem racional."
+    ],
+    "spanish": {
+      "word": "racional",
+      "definition": "Que usa la razón."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4422,
+    "word": "realista",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʁeaˈlistɐ/",
+    "definition": "Que vê as coisas como elas são.",
+    "examples": [
+      "Seja realista, não dá tempo.",
+      "Fiz um plano realista.",
+      "O filme é muito realista."
+    ],
+    "spanish": {
+      "word": "realista",
+      "definition": "Que ve las cosas como son."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4423,
+    "word": "ingrato",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/ĩˈgɾatu/",
+    "definition": "Que não agradece o que recebe.",
+    "examples": [
+      "Que filho ingrato!",
+      "Ele foi ingrato com quem o ajudou.",
+      "Não seja ingrata."
+    ],
+    "spanish": {
+      "word": "ingrato",
+      "definition": "Que no agradece lo que recibe."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4424,
+    "word": "inesquecível",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/inezkeˈsivew/",
+    "definition": "Que nunca se esquece.",
+    "examples": [
+      "Foi uma viagem inesquecível.",
+      "Aquela noite foi inesquecível.",
+      "Tivemos um dia inesquecível no Rio."
+    ],
+    "spanish": {
+      "word": "inolvidable",
+      "definition": "Que nunca se olvida."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4425,
+    "word": "obrigatório",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/obɾigaˈtɔɾiu/",
+    "definition": "Que tem que ser feito.",
+    "examples": [
+      "O uso do cinto é obrigatório.",
+      "O voto é obrigatório no Brasil.",
+      "A aula de hoje é obrigatória."
+    ],
+    "spanish": {
+      "word": "obligatorio",
+      "definition": "Que tiene que hacerse."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4426,
+    "word": "gratuito",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/gɾaˈtujtu/",
+    "definition": "Sem custo.",
+    "examples": [
+      "A entrada é gratuita.",
+      "O curso é gratuito para os alunos.",
+      "O hotel tem wi-fi gratuito."
+    ],
+    "spanish": {
+      "word": "gratuito",
+      "definition": "Sin costo."
+    },
+    "synonyms": [
+      "grátis"
+    ]
+  },
+  {
+    "rank": 4427,
+    "word": "portátil",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/poʁˈtatʃiw/",
+    "definition": "Fácil de carregar.",
+    "examples": [
+      "Comprei uma caixa de som portátil.",
+      "O carregador é portátil.",
+      "Esse computador portátil é leve."
+    ],
+    "spanish": {
+      "word": "portátil",
+      "definition": "Fácil de llevar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4428,
+    "word": "frequente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/fɾeˈkwẽtʃi/",
+    "definition": "Que acontece muitas vezes.",
+    "examples": [
+      "Esse erro é muito frequente.",
+      "Ele é um cliente frequente.",
+      "As chuvas são frequentes em março."
+    ],
+    "spanish": {
+      "word": "frecuente",
+      "definition": "Que pasa muchas veces."
+    },
+    "synonyms": [
+      "comum"
+    ]
+  },
+  {
+    "rank": 4429,
+    "word": "gaúcho",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/gaˈuʃu/",
+    "definition": "Pessoa do Rio Grande do Sul.",
+    "examples": [
+      "Meu marido é gaúcho.",
+      "O churrasco gaúcho é famoso.",
+      "Os gaúchos adoram chimarrão."
+    ],
+    "spanish": {
+      "word": "gaucho",
+      "definition": "Persona de Rio Grande do Sul."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4430,
+    "word": "nordestino",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/noʁdesˈtʃinu/",
+    "definition": "Pessoa da região Nordeste do Brasil.",
+    "examples": [
+      "Meus pais são nordestinos.",
+      "Adoro a comida nordestina.",
+      "O forró é uma dança nordestina."
+    ],
+    "spanish": {
+      "word": "nordestino",
+      "definition": "Persona de la región Nordeste de Brasil."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4431,
+    "word": "rural",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʁuˈɾaw/",
+    "definition": "Do campo.",
+    "examples": [
+      "Ele vive na zona rural.",
+      "A vida rural é mais calma.",
+      "Há poucas escolas nas áreas rurais."
+    ],
+    "spanish": {
+      "word": "rural",
+      "definition": "Del campo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4432,
+    "word": "urbano",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/uʁˈbɐ̃nu/",
+    "definition": "Da cidade.",
+    "examples": [
+      "O transporte urbano é ruim aqui.",
+      "A violência urbana cresceu.",
+      "Ela prefere a vida urbana."
+    ],
+    "spanish": {
+      "word": "urbano",
+      "definition": "De la ciudad."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4433,
+    "word": "semanal",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/semaˈnaw/",
+    "definition": "Que acontece toda semana.",
+    "examples": [
+      "Temos uma reunião semanal.",
+      "Faço a compra semanal na sexta.",
+      "A revista é semanal."
+    ],
+    "spanish": {
+      "word": "semanal",
+      "definition": "Que pasa cada semana."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4434,
+    "word": "redondo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ʁeˈdõdu/",
+    "definition": "Com forma de círculo.",
+    "examples": [
+      "A mesa é redonda.",
+      "A Terra é redonda.",
+      "Ele tem o rosto redondo."
+    ],
+    "spanish": {
+      "word": "redondo",
+      "definition": "Con forma de círculo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4435,
+    "word": "úmido",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈumidu/",
+    "definition": "Um pouco molhado.",
+    "examples": [
+      "O ar está úmido.",
+      "Passe um pano úmido na mesa.",
+      "Belém tem um clima quente e úmido."
+    ],
+    "spanish": {
+      "word": "húmedo",
+      "definition": "Un poco mojado."
+    },
+    "synonyms": [
+      "molhado"
+    ]
+  },
+  {
+    "rank": 4436,
+    "word": "torto",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈtoʁtu/",
+    "definition": "Que não está reto.",
+    "examples": [
+      "O quadro está torto.",
+      "Ele tem um dente torto.",
+      "Essa árvore cresceu torta."
+    ],
+    "spanish": {
+      "word": "torcido",
+      "definition": "Que no está recto."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4437,
+    "word": "veloz",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/veˈlɔs/",
+    "definition": "Muito rápido.",
+    "examples": [
+      "Esse carro é muito veloz.",
+      "O guepardo é o animal mais veloz.",
+      "Ele é um atacante veloz."
+    ],
+    "spanish": {
+      "word": "veloz",
+      "definition": "Muy rápido."
+    },
+    "synonyms": [
+      "rápido"
+    ]
+  },
+  {
+    "rank": 4438,
+    "word": "venenoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/veneˈnozu/",
+    "definition": "Que tem veneno.",
+    "examples": [
+      "Essa cobra é venenosa.",
+      "Há plantas venenosas na mata.",
+      "Ela fez um comentário venenoso."
+    ],
+    "spanish": {
+      "word": "venenoso",
+      "definition": "Que tiene veneno."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4439,
+    "word": "transparente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/tɾɐ̃spaˈɾẽtʃi/",
+    "definition": "Que deixa ver através.",
+    "examples": [
+      "O vidro é transparente.",
+      "A água do rio é transparente.",
+      "Seja transparente comigo."
+    ],
+    "spanish": {
+      "word": "transparente",
+      "definition": "Que deja ver a través."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4440,
+    "word": "sonhador",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/soɲaˈdoʁ/",
+    "definition": "Que vive pensando em sonhos e planos.",
+    "examples": [
+      "Ele sempre foi um sonhador.",
+      "Ela é uma menina sonhadora.",
+      "Os sonhadores mudam o mundo."
+    ],
+    "spanish": {
+      "word": "soñador",
+      "definition": "Que vive pensando en sueños y planes."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4441,
+    "word": "sossegado",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/soseˈgadu/",
+    "definition": "Calmo; sem barulho.",
+    "examples": [
+      "Moramos em um bairro sossegado.",
+      "Fique sossegado, vai dar tudo certo.",
+      "Hoje foi um dia sossegado."
+    ],
+    "spanish": {
+      "word": "tranquilo",
+      "definition": "Calmado; sin ruido."
+    },
+    "synonyms": [
+      "tranquilo",
+      "calmo"
+    ]
+  },
+  {
+    "rank": 4442,
+    "word": "sorridente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/soʁiˈdẽtʃi/",
+    "definition": "Que está sorrindo.",
+    "examples": [
+      "Ela chegou sorridente.",
+      "O bebê é muito sorridente.",
+      "Vi um rosto sorridente na foto."
+    ],
+    "spanish": {
+      "word": "sonriente",
+      "definition": "Que está sonriendo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4443,
+    "word": "severo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/seˈvɛɾu/",
+    "definition": "Muito rígido; grave.",
+    "examples": [
+      "O juiz foi severo.",
+      "Ela teve um problema de saúde severo.",
+      "O professor é severo com os alunos."
+    ],
+    "spanish": {
+      "word": "severo",
+      "definition": "Muy rígido; grave."
+    },
+    "synonyms": [
+      "rígido"
+    ]
+  },
+  {
+    "rank": 4444,
+    "word": "suculento",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/sukuˈlẽtu/",
+    "definition": "Cheio de suco.",
+    "examples": [
+      "Comi uma manga suculenta.",
+      "O bife está suculento.",
+      "Esse tomate é bem suculento."
+    ],
+    "spanish": {
+      "word": "jugoso",
+      "definition": "Lleno de jugo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4445,
+    "word": "inseguro",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩseˈguɾu/",
+    "definition": "Sem confiança; perigoso.",
+    "examples": [
+      "Ele é muito inseguro.",
+      "Essa ponte é insegura.",
+      "Fiquei insegura antes da prova."
+    ],
+    "spanish": {
+      "word": "inseguro",
+      "definition": "Sin confianza; peligroso."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4446,
+    "word": "indígena",
+    "type": [
+      "adjective",
+      "noun"
+    ],
+    "IPA": "/ĩˈdʒiʒenɐ/",
+    "definition": "Dos povos nativos do Brasil.",
+    "examples": [
+      "Muitas palavras vêm de línguas indígenas.",
+      "Visitamos uma aldeia indígena.",
+      "Os indígenas vivem na floresta há séculos."
+    ],
+    "spanish": {
+      "word": "indígena",
+      "definition": "De los pueblos nativos de Brasil."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4447,
+    "word": "infiel",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩfiˈɛw/",
+    "definition": "Que trai o parceiro.",
+    "examples": [
+      "Ele foi infiel à esposa.",
+      "Ela descobriu que o marido era infiel.",
+      "Um amigo infiel não merece confiança."
+    ],
+    "spanish": {
+      "word": "infiel",
+      "definition": "Que traiciona a su pareja."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4448,
+    "word": "irregular",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/iʁeguˈlaʁ/",
+    "definition": "Que não segue uma regra; desigual.",
+    "examples": [
+      "O verbo ser é irregular.",
+      "A estrada é muito irregular.",
+      "Essa obra está irregular."
+    ],
+    "spanish": {
+      "word": "irregular",
+      "definition": "Que no sigue una regla; desigual."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4449,
+    "word": "luxuoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/luʃuˈozu/",
+    "definition": "Cheio de luxo.",
+    "examples": [
+      "Ficamos em um hotel luxuoso.",
+      "Ele tem um carro luxuoso.",
+      "A festa foi muito luxuosa."
+    ],
+    "spanish": {
+      "word": "lujoso",
+      "definition": "Lleno de lujo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4450,
+    "word": "maduro",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/maˈduɾu/",
+    "definition": "Pronto para comer; adulto e sensato.",
+    "examples": [
+      "A banana está madura.",
+      "Ele é maduro para a idade.",
+      "Colha só as frutas maduras."
+    ],
+    "spanish": {
+      "word": "maduro",
+      "definition": "Listo para comer; adulto y sensato."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4451,
+    "word": "medieval",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/medʒieˈvaw/",
+    "definition": "Da Idade Média.",
+    "examples": [
+      "Visitamos um castelo medieval.",
+      "Gosto de história medieval.",
+      "Essa cidade medieval é linda."
+    ],
+    "spanish": {
+      "word": "medieval",
+      "definition": "De la Edad Media."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4452,
+    "word": "neutro",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈnewtɾu/",
+    "definition": "Que não toma partido; sem cor forte.",
+    "examples": [
+      "Prefiro ficar neutro nessa briga.",
+      "Use cores neutras na sala.",
+      "A Suíça é um país neutro."
+    ],
+    "spanish": {
+      "word": "neutro",
+      "definition": "Que no toma partido; sin color fuerte."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4453,
+    "word": "ofensivo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ofẽˈsivu/",
+    "definition": "Que ofende; que ataca.",
+    "examples": [
+      "Esse comentário é ofensivo.",
+      "Ele usou uma palavra ofensiva.",
+      "O time fez um jogo ofensivo."
+    ],
+    "spanish": {
+      "word": "ofensivo",
+      "definition": "Que ofende; que ataca."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4454,
+    "word": "orgânico",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/oʁˈgɐ̃niku/",
+    "definition": "Natural, sem produtos químicos.",
+    "examples": [
+      "Compro verduras orgânicas.",
+      "O lixo orgânico vai para a composteira.",
+      "Essa fazenda produz café orgânico."
+    ],
+    "spanish": {
+      "word": "orgánico",
+      "definition": "Natural, sin productos químicos."
+    },
+    "synonyms": [
+      "natural"
+    ]
+  },
+  {
+    "rank": 4455,
+    "word": "prudente",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/pɾuˈdẽtʃi/",
+    "definition": "Que age com cuidado.",
+    "examples": [
+      "Seja prudente ao dirigir.",
+      "Foi uma decisão prudente.",
+      "É prudente guardar um pouco de dinheiro."
+    ],
+    "spanish": {
+      "word": "prudente",
+      "definition": "Que actúa con cuidado."
+    },
+    "synonyms": [
+      "cauteloso"
+    ]
+  },
+  {
+    "rank": 4456,
+    "word": "primitivo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/pɾimiˈtʃivu/",
+    "definition": "Muito antigo e simples.",
+    "examples": [
+      "O homem primitivo vivia em cavernas.",
+      "Eles usam ferramentas primitivas.",
+      "Foi uma reação primitiva."
+    ],
+    "spanish": {
+      "word": "primitivo",
+      "definition": "Muy antiguo y simple."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4457,
+    "word": "provisório",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/pɾoviˈzɔɾiu/",
+    "definition": "Por pouco tempo.",
+    "examples": [
+      "Esse emprego é provisório.",
+      "Recebi uma senha provisória.",
+      "A solução é só provisória."
+    ],
+    "spanish": {
+      "word": "provisional",
+      "definition": "Por poco tiempo."
+    },
+    "synonyms": [
+      "temporário"
+    ]
+  },
+  {
+    "rank": 4458,
+    "word": "pegajoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/pegaˈʒozu/",
+    "definition": "Que gruda.",
+    "examples": [
+      "A mesa ficou pegajosa de açúcar.",
+      "Minhas mãos estão pegajosas.",
+      "Essa música é bem pegajosa."
+    ],
+    "spanish": {
+      "word": "pegajoso",
+      "definition": "Que se pega."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4459,
+    "word": "peludo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/peˈludu/",
+    "definition": "Com muitos pelos.",
+    "examples": [
+      "Esse cachorro é muito peludo.",
+      "Ele tem o peito peludo.",
+      "A aranha é grande e peluda."
+    ],
+    "spanish": {
+      "word": "peludo",
+      "definition": "Con muchos pelos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4460,
+    "word": "perplexo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/peʁˈplɛksu/",
+    "definition": "Muito surpreso, sem saber o que dizer.",
+    "examples": [
+      "Fiquei perplexo com a notícia.",
+      "Ela olhou perplexa para mim.",
+      "Todos ficaram perplexos com o resultado."
+    ],
+    "spanish": {
+      "word": "perplejo",
+      "definition": "Muy sorprendido, sin saber qué decir."
+    },
+    "synonyms": [
+      "surpreso"
+    ]
+  },
+  {
+    "rank": 4461,
+    "word": "monótono",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/moˈnɔtonu/",
+    "definition": "Sempre igual e sem graça.",
+    "examples": [
+      "Meu trabalho é monótono.",
+      "A aula foi monótona.",
+      "Ele fala com uma voz monótona."
+    ],
+    "spanish": {
+      "word": "monótono",
+      "definition": "Siempre igual y sin gracia."
+    },
+    "synonyms": [
+      "chato"
+    ]
+  },
+  {
+    "rank": 4462,
+    "word": "morno",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈmoʁnu/",
+    "definition": "Nem quente nem frio.",
+    "examples": [
+      "O café está morno.",
+      "Tomei um banho morno.",
+      "Prefiro água morna."
+    ],
+    "spanish": {
+      "word": "tibio",
+      "definition": "Ni caliente ni frío."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4463,
+    "word": "meigo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈmejgu/",
+    "definition": "Doce e carinhoso.",
+    "examples": [
+      "Ela tem um jeito meigo.",
+      "Meu filho é um menino meigo.",
+      "Ele me deu um sorriso meigo."
+    ],
+    "spanish": {
+      "word": "tierno",
+      "definition": "Dulce y cariñoso."
+    },
+    "synonyms": [
+      "carinhoso"
+    ]
+  },
+  {
+    "rank": 4464,
+    "word": "mútuo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈmutuu/",
+    "definition": "Que acontece dos dois lados.",
+    "examples": [
+      "O respeito é mútuo.",
+      "Eles se separaram por mútuo acordo.",
+      "Temos um amigo mútuo."
+    ],
+    "spanish": {
+      "word": "mutuo",
+      "definition": "Que pasa de ambos lados."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4465,
+    "word": "imaturo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/imaˈtuɾu/",
+    "definition": "Que age como criança.",
+    "examples": [
+      "Ele ainda é muito imaturo.",
+      "Foi uma atitude imatura.",
+      "Não seja imaturo, peça desculpas."
+    ],
+    "spanish": {
+      "word": "inmaduro",
+      "definition": "Que actúa como niño."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4466,
+    "word": "incompleto",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩkõˈplɛtu/",
+    "definition": "Que falta alguma parte.",
+    "examples": [
+      "O formulário está incompleto.",
+      "Ele tem o ensino médio incompleto.",
+      "Recebi um pedido incompleto."
+    ],
+    "spanish": {
+      "word": "incompleto",
+      "definition": "Que le falta alguna parte."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4467,
+    "word": "incorreto",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩkoˈʁɛtu/",
+    "definition": "Errado.",
+    "examples": [
+      "O endereço está incorreto.",
+      "A senha está incorreta.",
+      "Essa resposta é incorreta."
+    ],
+    "spanish": {
+      "word": "incorrecto",
+      "definition": "Equivocado."
+    },
+    "synonyms": [
+      "errado"
+    ]
+  },
+  {
+    "rank": 4468,
+    "word": "indireto",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩdʒiˈɾɛtu/",
+    "definition": "Que não vai direto ao assunto.",
+    "examples": [
+      "Ele mandou uma indireta para mim.",
+      "Esse é um custo indireto.",
+      "O voo é indireto, com uma parada em Lima."
+    ],
+    "spanish": {
+      "word": "indirecto",
+      "definition": "Que no va directo al tema."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4469,
+    "word": "informal",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ĩfoʁˈmaw/",
+    "definition": "Simples, sem regras sérias.",
+    "examples": [
+      "A festa é informal.",
+      "Pode vir com roupa informal.",
+      "Ele trabalha no mercado informal."
+    ],
+    "spanish": {
+      "word": "informal",
+      "definition": "Sencillo, sin reglas serias."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4470,
+    "word": "luminoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/lumiˈnozu/",
+    "definition": "Que tem muita luz.",
+    "examples": [
+      "O apartamento é luminoso.",
+      "A cidade tem letreiros luminosos.",
+      "A sala é bem luminosa."
+    ],
+    "spanish": {
+      "word": "luminoso",
+      "definition": "Que tiene mucha luz."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4471,
+    "word": "literário",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/liteˈɾaɾiu/",
+    "definition": "Da literatura.",
+    "examples": [
+      "Ela ganhou um prêmio literário.",
+      "Participei de um clube literário.",
+      "Machado de Assis tem um estilo literário único."
+    ],
+    "spanish": {
+      "word": "literario",
+      "definition": "De la literatura."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4472,
+    "word": "matinal",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/matʃiˈnaw/",
+    "definition": "Da manhã.",
+    "examples": [
+      "Faço uma caminhada matinal.",
+      "O programa matinal começa às oito.",
+      "Gosto do ar matinal."
+    ],
+    "spanish": {
+      "word": "matinal",
+      "definition": "De la mañana."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4473,
+    "word": "montanhoso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/mõtɐ̃ˈɲozu/",
+    "definition": "Com muitas montanhas.",
+    "examples": [
+      "Minas é uma região montanhosa.",
+      "A estrada passa por uma área montanhosa.",
+      "O país é muito montanhoso."
+    ],
+    "spanish": {
+      "word": "montañoso",
+      "definition": "Con muchas montañas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4474,
+    "word": "numeroso",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/numeˈɾozu/",
+    "definition": "Em grande quantidade.",
+    "examples": [
+      "Ele tem uma família numerosa.",
+      "Recebemos numerosos pedidos.",
+      "O público foi numeroso."
+    ],
+    "spanish": {
+      "word": "numeroso",
+      "definition": "En gran cantidad."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4475,
+    "word": "opaco",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/oˈpaku/",
+    "definition": "Sem brilho; que não deixa ver através.",
+    "examples": [
+      "O vidro do banheiro é opaco.",
+      "Meu cabelo está opaco.",
+      "Pintamos a parede com tinta opaca."
+    ],
+    "spanish": {
+      "word": "opaco",
+      "definition": "Sin brillo; que no deja ver a través."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4476,
+    "word": "oco",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/ˈoku/",
+    "definition": "Vazio por dentro.",
+    "examples": [
+      "O tronco da árvore é oco.",
+      "Essa bola é oca.",
+      "O ovo de Páscoa é oco."
+    ],
+    "spanish": {
+      "word": "hueco",
+      "definition": "Vacío por dentro."
+    },
+    "synonyms": [
+      "vazio"
+    ]
+  },
+  {
+    "rank": 4477,
+    "word": "sedentário",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/sedẽˈtaɾiu/",
+    "definition": "Que não faz exercício.",
+    "examples": [
+      "Levo uma vida sedentária.",
+      "Ele é muito sedentário.",
+      "O trabalho no escritório é sedentário."
+    ],
+    "spanish": {
+      "word": "sedentario",
+      "definition": "Que no hace ejercicio."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4478,
+    "word": "simultâneo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/simuwˈtɐ̃niu/",
+    "definition": "Que acontece ao mesmo tempo.",
+    "examples": [
+      "A tradução é simultânea.",
+      "Os dois jogos são simultâneos.",
+      "Ele faz duas tarefas simultâneas."
+    ],
+    "spanish": {
+      "word": "simultáneo",
+      "definition": "Que pasa al mismo tiempo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4479,
+    "word": "universal",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/univeʁˈsaw/",
+    "definition": "De todos ou do mundo inteiro.",
+    "examples": [
+      "A música é uma língua universal.",
+      "O voto universal é um direito.",
+      "O carregador é universal."
+    ],
+    "spanish": {
+      "word": "universal",
+      "definition": "De todos o del mundo entero."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4480,
+    "word": "vulgar",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/vuwˈgaʁ/",
+    "definition": "Sem educação; comum demais.",
+    "examples": [
+      "Ele usa palavras vulgares.",
+      "Esse vestido é vulgar.",
+      "Foi uma piada vulgar."
+    ],
+    "spanish": {
+      "word": "vulgar",
+      "definition": "Sin educación; demasiado común."
+    },
+    "synonyms": [
+      "grosseiro"
+    ]
+  },
+  {
+    "rank": 4481,
+    "word": "precário",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/pɾeˈkaɾiu/",
+    "definition": "Em más condições.",
+    "examples": [
+      "A estrada está em estado precário.",
+      "Eles vivem em condições precárias.",
+      "O hospital tem uma estrutura precária."
+    ],
+    "spanish": {
+      "word": "precario",
+      "definition": "En malas condiciones."
+    },
+    "synonyms": []
+  }
+]

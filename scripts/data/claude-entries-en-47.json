@@ -1,0 +1,2088 @@
+[
+ {
+  "rank": 4523,
+  "word": "sunscreen",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsʌnskriːn/",
+  "definition": "A cream that protects your skin from the sun.",
+  "examples": [
+   "Put on some sunscreen before you go out.",
+   "I forgot my sunscreen and got burned.",
+   "This sunscreen is safe for babies."
+  ],
+  "spanish": {
+   "word": "protector solar",
+   "definition": "Crema que protege la piel del sol."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4524,
+  "word": "firefighter",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfaɪərfaɪtər/",
+  "definition": "A person whose job is to stop fires.",
+  "examples": [
+   "The firefighters arrived in five minutes.",
+   "She's a firefighter in Chicago.",
+   "A firefighter carried the child out of the house."
+  ],
+  "spanish": {
+   "word": "bombero",
+   "definition": "Persona cuyo trabajo es apagar incendios."
+  },
+  "synonyms": [
+   "fireman"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4525,
+  "word": "smoothie",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsmuːði/",
+  "definition": "A thick cold drink made from fruit.",
+  "examples": [
+   "I had a banana smoothie for breakfast.",
+   "She makes a green smoothie every morning.",
+   "This strawberry smoothie is delicious."
+  ],
+  "spanish": {
+   "word": "batido",
+   "definition": "Bebida fría y espesa hecha de fruta."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4526,
+  "word": "meatball",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmiːtbɔːl/",
+  "definition": "A small ball of ground meat.",
+  "examples": [
+   "We had spaghetti and meatballs.",
+   "My grandma makes the best meatballs.",
+   "I'd like a meatball sandwich."
+  ],
+  "spanish": {
+   "word": "albóndiga",
+   "definition": "Bola pequeña de carne molida."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4527,
+  "word": "artwork",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɑːrtwɜːrk/",
+  "definition": "Paintings, drawings, and other pieces of art.",
+  "examples": [
+   "The walls are covered with her artwork.",
+   "The school is showing the children's artwork.",
+   "That artwork cost a lot of money."
+  ],
+  "spanish": {
+   "word": "obra de arte",
+   "definition": "Pinturas, dibujos y otras piezas de arte."
+  },
+  "synonyms": [
+   "art"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4528,
+  "word": "paramedic",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌpærəˈmedɪk/",
+  "definition": "A person trained to give medical help in an emergency.",
+  "examples": [
+   "The paramedics arrived in an ambulance.",
+   "She works as a paramedic in the city.",
+   "A paramedic checked my heart."
+  ],
+  "spanish": {
+   "word": "paramédico",
+   "definition": "Persona entrenada para dar ayuda médica en una emergencia."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4529,
+  "word": "milkshake",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmɪlkʃeɪk/",
+  "definition": "A cold drink made of milk and ice cream.",
+  "examples": [
+   "I'd like a chocolate milkshake.",
+   "We shared a milkshake after the movie.",
+   "This place has great burgers and milkshakes."
+  ],
+  "spanish": {
+   "word": "malteada",
+   "definition": "Bebida fría hecha de leche y helado."
+  },
+  "synonyms": [
+   "shake"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4530,
+  "word": "marshmallow",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmɑːrʃmeloʊ/",
+  "definition": "A soft, white, sweet food.",
+  "examples": [
+   "We toasted marshmallows over the fire.",
+   "I put marshmallows in my hot chocolate.",
+   "The kids ate the whole bag of marshmallows."
+  ],
+  "spanish": {
+   "word": "masmelo / malvavisco",
+   "definition": "Dulce suave y blanco."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4531,
+  "word": "seagull",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsiːɡʌl/",
+  "definition": "A white and gray bird that lives near the sea.",
+  "examples": [
+   "A seagull took my sandwich at the beach.",
+   "The seagulls were flying over the boat.",
+   "I could hear seagulls in the morning."
+  ],
+  "spanish": {
+   "word": "gaviota",
+   "definition": "Ave blanca y gris que vive cerca del mar."
+  },
+  "synonyms": [
+   "gull"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4532,
+  "word": "hairstyle",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈherstaɪl/",
+  "definition": "The way your hair is cut and arranged.",
+  "examples": [
+   "Do you like my new hairstyle?",
+   "She changes her hairstyle every year.",
+   "That hairstyle looks great on you."
+  ],
+  "spanish": {
+   "word": "peinado",
+   "definition": "Manera en que el pelo está cortado y arreglado."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4533,
+  "word": "coastline",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkoʊstlaɪn/",
+  "definition": "The land along the edge of the sea.",
+  "examples": [
+   "California has a beautiful coastline.",
+   "We drove along the coastline.",
+   "The storm hit the coastline at midnight."
+  ],
+  "spanish": {
+   "word": "costa / litoral",
+   "definition": "Tierra a lo largo de la orilla del mar."
+  },
+  "synonyms": [
+   "coast"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4534,
+  "word": "ponytail",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpoʊniteɪl/",
+  "definition": "Long hair tied at the back of your head.",
+  "examples": [
+   "She wore her hair in a ponytail.",
+   "He has a long gray ponytail.",
+   "She pulled her hair back into a ponytail for the game."
+  ],
+  "spanish": {
+   "word": "cola de caballo",
+   "definition": "Pelo largo amarrado atrás de la cabeza."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4535,
+  "word": "daycare",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdeɪker/",
+  "definition": "A place that takes care of young children during the day.",
+  "examples": [
+   "We take our son to daycare at eight.",
+   "Daycare is very expensive here.",
+   "She works at a daycare center."
+  ],
+  "spanish": {
+   "word": "guardería",
+   "definition": "Lugar que cuida a niños pequeños durante el día."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4536,
+  "word": "popsicle",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpɑːpsɪkəl/",
+  "definition": "Frozen sweet juice on a stick.",
+  "examples": [
+   "The kids ate popsicles in the yard.",
+   "I'd like a cherry popsicle.",
+   "My popsicle is melting."
+  ],
+  "spanish": {
+   "word": "paleta helada",
+   "definition": "Jugo dulce congelado en un palito."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4537,
+  "word": "soundtrack",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsaʊndtræk/",
+  "definition": "The music of a movie.",
+  "examples": [
+   "I love the soundtrack of this movie.",
+   "She bought the soundtrack on vinyl.",
+   "The soundtrack won an award."
+  ],
+  "spanish": {
+   "word": "banda sonora",
+   "definition": "Música de una película."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4538,
+  "word": "minivan",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmɪnivæn/",
+  "definition": "A small van for a family.",
+  "examples": [
+   "They bought a minivan after their third child.",
+   "The whole team fit in the minivan.",
+   "My mom drives a blue minivan."
+  ],
+  "spanish": {
+   "word": "camioneta familiar",
+   "definition": "Camioneta pequeña para una familia."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4539,
+  "word": "flashback",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈflæʃbæk/",
+  "definition": "A sudden memory; a part of a movie that shows the past.",
+  "examples": [
+   "The soldier still has flashbacks of the war.",
+   "The movie has a lot of flashbacks.",
+   "The smell gave me a flashback to my childhood."
+  ],
+  "spanish": {
+   "word": "recuerdo / escena retrospectiva",
+   "definition": "Recuerdo repentino; parte de una película que muestra el pasado."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4540,
+  "word": "healthcare",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhelθker/",
+  "definition": "The system of medical services.",
+  "examples": [
+   "Healthcare is expensive in the US.",
+   "She works in healthcare.",
+   "Everyone should have access to healthcare."
+  ],
+  "spanish": {
+   "word": "atención médica",
+   "definition": "Sistema de servicios médicos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4541,
+  "word": "catalog",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkætəlɔːɡ/",
+  "definition": "A book or list of things you can buy.",
+  "examples": [
+   "I ordered it from a catalog.",
+   "The store sends us a catalog every month.",
+   "You can see all our products in the online catalog."
+  ],
+  "spanish": {
+   "word": "catálogo",
+   "definition": "Libro o lista de cosas que puedes comprar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4542,
+  "word": "rainforest",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈreɪnfɔːrɪst/",
+  "definition": "A thick tropical forest with a lot of rain.",
+  "examples": [
+   "The Amazon is the largest rainforest in the world.",
+   "Many animals live in the rainforest.",
+   "They're cutting down the rainforest."
+  ],
+  "spanish": {
+   "word": "selva tropical",
+   "definition": "Bosque tropical espeso con mucha lluvia."
+  },
+  "synonyms": [
+   "jungle"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4543,
+  "word": "handyman",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhændimæn/",
+  "definition": "A person who is good at fixing things in a house.",
+  "examples": [
+   "We called a handyman to fix the door.",
+   "My dad is a real handyman.",
+   "The handyman repaired the fence."
+  ],
+  "spanish": {
+   "word": "persona que hace arreglos",
+   "definition": "Persona buena para arreglar cosas en una casa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4544,
+  "word": "boutique",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/buːˈtiːk/",
+  "definition": "A small store that sells stylish clothes.",
+  "examples": [
+   "She found the dress in a little boutique.",
+   "There are many boutiques on this street.",
+   "My sister opened a boutique downtown."
+  ],
+  "spanish": {
+   "word": "boutique",
+   "definition": "Tienda pequeña que vende ropa con estilo."
+  },
+  "synonyms": [
+   "shop"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4545,
+  "word": "veggie",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈvedʒi/",
+  "definition": "An informal word for vegetable.",
+  "examples": [
+   "Eat your veggies!",
+   "I'd like a veggie burger.",
+   "She cut up some veggies for the soup."
+  ],
+  "spanish": {
+   "word": "verdura",
+   "definition": "Palabra informal para verdura."
+  },
+  "synonyms": [
+   "vegetable"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4546,
+  "word": "songwriter",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɔːŋraɪtər/",
+  "definition": "A person who writes songs.",
+  "examples": [
+   "Bob Dylan is a great songwriter.",
+   "She's a singer and songwriter.",
+   "He works as a songwriter in Nashville."
+  ],
+  "spanish": {
+   "word": "compositor",
+   "definition": "Persona que escribe canciones."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4547,
+  "word": "seatbelt",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsiːtbelt/",
+  "definition": "A strap that holds you in your seat in a car.",
+  "examples": [
+   "Put on your seatbelt.",
+   "A seatbelt can save your life.",
+   "He wasn't wearing a seatbelt."
+  ],
+  "spanish": {
+   "word": "cinturón de seguridad",
+   "definition": "Cinta que te sujeta al asiento de un carro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4548,
+  "word": "stepdad",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈstepdæd/",
+  "definition": "An informal word for stepfather.",
+  "examples": [
+   "My stepdad taught me to fish.",
+   "She's close to her stepdad.",
+   "His stepdad came to every game."
+  ],
+  "spanish": {
+   "word": "padrastro",
+   "definition": "Palabra informal para padrastro."
+  },
+  "synonyms": [
+   "stepfather"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4549,
+  "word": "sleepover",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsliːpoʊvər/",
+  "definition": "A party where children stay at a friend's house all night.",
+  "examples": [
+   "My daughter is having a sleepover on Friday.",
+   "The boys stayed up late at the sleepover.",
+   "Can I go to Emma's sleepover?"
+  ],
+  "spanish": {
+   "word": "pijamada",
+   "definition": "Fiesta en la que los niños se quedan toda la noche en casa de un amigo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4550,
+  "word": "takeoff",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈteɪkɔːf/",
+  "definition": "The moment when a plane leaves the ground.",
+  "examples": [
+   "Please turn off your phone before takeoff.",
+   "The takeoff was very smooth.",
+   "We waited an hour for takeoff."
+  ],
+  "spanish": {
+   "word": "despegue",
+   "definition": "Momento en que un avión deja el suelo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4551,
+  "word": "freelance",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈfriːlæns/",
+  "definition": "Working for different companies, not for one employer.",
+  "examples": [
+   "She's a freelance writer.",
+   "He does freelance work from home.",
+   "They hired a freelance photographer."
+  ],
+  "spanish": {
+   "word": "independiente",
+   "definition": "Que trabaja para varias empresas y no para un solo empleador."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4552,
+  "word": "trendy",
+  "type": [
+   "adjective"
+  ],
+  "IPA": "/ˈtrendi/",
+  "definition": "Fashionable right now.",
+  "examples": [
+   "We went to a trendy restaurant.",
+   "She wears very trendy clothes.",
+   "That neighborhood is getting trendy."
+  ],
+  "spanish": {
+   "word": "de moda",
+   "definition": "Popular en este momento."
+  },
+  "synonyms": [
+   "fashionable"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4553,
+  "word": "swiftly",
+  "type": [
+   "adverb"
+  ],
+  "IPA": "/ˈswɪftli/",
+  "definition": "Very quickly.",
+  "examples": [
+   "The nurse acted swiftly.",
+   "The river flows swiftly here.",
+   "He swiftly changed the subject."
+  ],
+  "spanish": {
+   "word": "rápidamente",
+   "definition": "Muy rápido."
+  },
+  "synonyms": [
+   "quickly"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4554,
+  "word": "selfie",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈselfi/",
+  "definition": "A photo you take of yourself with a phone.",
+  "examples": [
+   "Let's take a selfie!",
+   "She posted a selfie from the beach.",
+   "Everyone was taking selfies with the singer."
+  ],
+  "spanish": {
+   "word": "selfi",
+   "definition": "Foto que te tomas a ti mismo con un teléfono."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4555,
+  "word": "ringtone",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈrɪŋtoʊn/",
+  "definition": "The sound a phone makes when someone calls.",
+  "examples": [
+   "I changed my ringtone.",
+   "That ringtone is so annoying.",
+   "Her ringtone is a song by Shakira."
+  ],
+  "spanish": {
+   "word": "tono de llamada",
+   "definition": "Sonido que hace un teléfono cuando alguien llama."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4556,
+  "word": "hashtag",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhæʃtæɡ/",
+  "definition": "A word after the # sign, used on social media.",
+  "examples": [
+   "Use this hashtag on your post.",
+   "The hashtag spread very fast.",
+   "She added a funny hashtag to her photo."
+  ],
+  "spanish": {
+   "word": "etiqueta / hashtag",
+   "definition": "Palabra después del signo # que se usa en redes sociales."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4557,
+  "word": "filmmaker",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfɪlmmeɪkər/",
+  "definition": "A person who makes movies.",
+  "examples": [
+   "She's a young filmmaker from Mexico.",
+   "Spielberg is a famous filmmaker.",
+   "The filmmaker won an Oscar."
+  ],
+  "spanish": {
+   "word": "cineasta",
+   "definition": "Persona que hace películas."
+  },
+  "synonyms": [
+   "director"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4558,
+  "word": "eyebrow",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈaɪbraʊ/",
+  "definition": "The line of hair above your eye.",
+  "examples": [
+   "He raised an eyebrow.",
+   "She has very thin eyebrows.",
+   "He has a small scar on his eyebrow."
+  ],
+  "spanish": {
+   "word": "ceja",
+   "definition": "Línea de pelo sobre el ojo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4559,
+  "word": "armpit",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɑːrmpɪt/",
+  "definition": "The hollow part under your arm where it joins your body.",
+  "examples": [
+   "He put the thermometer in his armpit.",
+   "My armpits are sweaty.",
+   "She carried the newspaper under her armpit."
+  ],
+  "spanish": {
+   "word": "axila",
+   "definition": "Parte hueca debajo del brazo, donde se une al cuerpo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4560,
+  "word": "knuckle",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnʌkəl/",
+  "definition": "One of the joints in your fingers.",
+  "examples": [
+   "I hurt my knuckle in the door.",
+   "He cracked his knuckles.",
+   "Her knuckles were white from holding on."
+  ],
+  "spanish": {
+   "word": "nudillo",
+   "definition": "Una de las articulaciones de los dedos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4561,
+  "word": "fingernail",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfɪŋɡərneɪl/",
+  "definition": "The hard part at the end of your finger.",
+  "examples": [
+   "She painted her fingernails red.",
+   "I broke a fingernail.",
+   "Stop biting your fingernails."
+  ],
+  "spanish": {
+   "word": "uña",
+   "definition": "Parte dura al final del dedo."
+  },
+  "synonyms": [
+   "nail"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4562,
+  "word": "toothache",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtuːθeɪk/",
+  "definition": "A pain in a tooth.",
+  "examples": [
+   "I have a terrible toothache.",
+   "Go to the dentist about your toothache.",
+   "The toothache kept him awake all night."
+  ],
+  "spanish": {
+   "word": "dolor de muela",
+   "definition": "Dolor en un diente."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4563,
+  "word": "migraine",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmaɪɡreɪn/",
+  "definition": "A very strong headache.",
+  "examples": [
+   "She gets migraines when she's stressed.",
+   "I have a migraine today.",
+   "Bright lights make my migraine worse."
+  ],
+  "spanish": {
+   "word": "migraña",
+   "definition": "Dolor de cabeza muy fuerte."
+  },
+  "synonyms": [
+   "headache"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4564,
+  "word": "broccoli",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbrɑːkəli/",
+  "definition": "A green vegetable like a small tree.",
+  "examples": [
+   "Eat your broccoli.",
+   "We had chicken and broccoli for dinner.",
+   "Broccoli is very good for you."
+  ],
+  "spanish": {
+   "word": "brócoli",
+   "definition": "Verdura verde parecida a un árbol pequeño."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4565,
+  "word": "celery",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈseləri/",
+  "definition": "A vegetable with long, light green stems.",
+  "examples": [
+   "Add some chopped celery to the soup.",
+   "She eats celery with peanut butter.",
+   "This salad has celery and apples."
+  ],
+  "spanish": {
+   "word": "apio",
+   "definition": "Verdura de tallos largos y verde claro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4566,
+  "word": "avocado",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌævəˈkɑːdoʊ/",
+  "definition": "A green fruit with soft flesh and a large seed.",
+  "examples": [
+   "I love avocado on toast.",
+   "Mash the avocado with some lime juice.",
+   "This avocado isn't ripe yet."
+  ],
+  "spanish": {
+   "word": "aguacate",
+   "definition": "Fruta verde de pulpa suave y una semilla grande."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4567,
+  "word": "eggplant",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈeɡplænt/",
+  "definition": "A large purple vegetable.",
+  "examples": [
+   "She made a dish with eggplant and cheese.",
+   "I grilled some eggplant for dinner.",
+   "We grow eggplant in the garden."
+  ],
+  "spanish": {
+   "word": "berenjena",
+   "definition": "Verdura grande y morada."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4568,
+  "word": "walnut",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwɔːlnʌt/",
+  "definition": "A nut with a hard round shell.",
+  "examples": [
+   "She put walnuts in the cake.",
+   "We have a walnut tree in the yard.",
+   "The table is made of walnut."
+  ],
+  "spanish": {
+   "word": "nuez",
+   "definition": "Fruto seco con cáscara dura y redonda."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4569,
+  "word": "almond",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɑːmənd/",
+  "definition": "A flat nut with a pale color.",
+  "examples": [
+   "I eat a handful of almonds every day.",
+   "She drinks almond milk.",
+   "The cookies have almonds on top."
+  ],
+  "spanish": {
+   "word": "almendra",
+   "definition": "Fruto seco plano de color claro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4570,
+  "word": "blueberry",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbluːberi/",
+  "definition": "A small, round, dark blue fruit.",
+  "examples": [
+   "I put blueberries on my pancakes.",
+   "We picked blueberries in Maine.",
+   "She baked a blueberry pie."
+  ],
+  "spanish": {
+   "word": "arándano",
+   "definition": "Fruta pequeña, redonda y azul oscuro."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4571,
+  "word": "blackberry",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈblækberi/",
+  "definition": "A small, soft, dark fruit that grows on bushes.",
+  "examples": [
+   "We picked blackberries by the road.",
+   "She made blackberry jam.",
+   "These blackberries are very sweet."
+  ],
+  "spanish": {
+   "word": "mora",
+   "definition": "Fruta pequeña, suave y oscura que crece en arbustos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4572,
+  "word": "raspberry",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈræzberi/",
+  "definition": "A small, soft, red fruit.",
+  "examples": [
+   "I'd like some raspberry jam.",
+   "The cake has fresh raspberries on top.",
+   "We grow raspberries behind the house."
+  ],
+  "spanish": {
+   "word": "frambuesa",
+   "definition": "Fruta pequeña, suave y roja."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4573,
+  "word": "grapefruit",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɡreɪpfruːt/",
+  "definition": "A large round yellow fruit with a sour taste.",
+  "examples": [
+   "I have half a grapefruit for breakfast.",
+   "She drinks grapefruit juice.",
+   "Grapefruit is too sour for me."
+  ],
+  "spanish": {
+   "word": "toronja",
+   "definition": "Fruta grande, redonda y amarilla de sabor ácido."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4574,
+  "word": "melon",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmelən/",
+  "definition": "A large round fruit with sweet, juicy flesh.",
+  "examples": [
+   "Cut the melon into slices.",
+   "We ate cold melon on a hot day.",
+   "This melon is very sweet."
+  ],
+  "spanish": {
+   "word": "melón",
+   "definition": "Fruta grande y redonda de pulpa dulce y jugosa."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4575,
+  "word": "raisin",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈreɪzən/",
+  "definition": "A dried grape.",
+  "examples": [
+   "She put raisins in the cookies.",
+   "I don't like raisins in my bread.",
+   "The kids took a box of raisins to school."
+  ],
+  "spanish": {
+   "word": "uva pasa",
+   "definition": "Uva seca."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4576,
+  "word": "oatmeal",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈoʊtmiːl/",
+  "definition": "A hot breakfast food made from oats.",
+  "examples": [
+   "I eat oatmeal every morning.",
+   "She made oatmeal with apples.",
+   "He baked some oatmeal cookies."
+  ],
+  "spanish": {
+   "word": "avena",
+   "definition": "Comida caliente de desayuno hecha de avena."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4577,
+  "word": "waffle",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈwɑːfəl/",
+  "definition": "A flat cake with a pattern of squares, eaten for breakfast.",
+  "examples": [
+   "We had waffles with syrup.",
+   "I'd like a waffle with strawberries.",
+   "Dad makes waffles on Sundays."
+  ],
+  "spanish": {
+   "word": "gofre / waffle",
+   "definition": "Pastel plano con cuadritos que se come al desayuno."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4578,
+  "word": "pretzel",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpretsəl/",
+  "definition": "A salty snack in the shape of a knot.",
+  "examples": [
+   "We bought a big soft pretzel at the game.",
+   "I love pretzels with mustard.",
+   "There's a bag of pretzels in the car."
+  ],
+  "spanish": {
+   "word": "pretzel",
+   "definition": "Snack salado en forma de nudo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4579,
+  "word": "brownie",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbraʊni/",
+  "definition": "A small, soft chocolate cake.",
+  "examples": [
+   "She baked brownies for the party.",
+   "I'd like a brownie with ice cream.",
+   "These brownies are so good."
+  ],
+  "spanish": {
+   "word": "brownie",
+   "definition": "Pastel pequeño y suave de chocolate."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4580,
+  "word": "cheeseburger",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtʃiːzbɜːrɡər/",
+  "definition": "A hamburger with cheese.",
+  "examples": [
+   "I'd like a cheeseburger and fries.",
+   "He ate two cheeseburgers.",
+   "This is the best cheeseburger in town."
+  ],
+  "spanish": {
+   "word": "hamburguesa con queso",
+   "definition": "Hamburguesa con queso."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4581,
+  "word": "mayonnaise",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈmeɪəneɪz/",
+  "definition": "A thick white sauce made from eggs and oil.",
+  "examples": [
+   "Put some mayonnaise on the bread.",
+   "I don't like mayonnaise on my sandwich.",
+   "She mixed the chicken with mayonnaise."
+  ],
+  "spanish": {
+   "word": "mayonesa",
+   "definition": "Salsa blanca y espesa hecha de huevos y aceite."
+  },
+  "synonyms": [
+   "mayo"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4582,
+  "word": "macaroni",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌmækəˈroʊni/",
+  "definition": "Pasta in the shape of small tubes.",
+  "examples": [
+   "The kids love macaroni and cheese.",
+   "Boil the macaroni for ten minutes.",
+   "She made a macaroni salad."
+  ],
+  "spanish": {
+   "word": "macarrones",
+   "definition": "Pasta en forma de tubos pequeños."
+  },
+  "synonyms": [
+   "pasta"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4583,
+  "word": "cheesecake",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtʃiːzkeɪk/",
+  "definition": "A sweet cake made with soft cheese.",
+  "examples": [
+   "We had cheesecake for dessert.",
+   "New York is famous for its cheesecake.",
+   "This strawberry cheesecake is amazing."
+  ],
+  "spanish": {
+   "word": "tarta de queso",
+   "definition": "Pastel dulce hecho con queso suave."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4584,
+  "word": "appetizer",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈæpɪtaɪzər/",
+  "definition": "A small dish you eat before the main meal.",
+  "examples": [
+   "Let's order an appetizer.",
+   "We had shrimp as an appetizer.",
+   "The appetizers were better than the main dish."
+  ],
+  "spanish": {
+   "word": "entrada / aperitivo",
+   "definition": "Plato pequeño que comes antes del plato principal."
+  },
+  "synonyms": [
+   "starter"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4585,
+  "word": "beverage",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈbevərɪdʒ/",
+  "definition": "A drink.",
+  "examples": [
+   "Would you like a hot beverage?",
+   "Food and beverages aren't allowed here.",
+   "The price includes one beverage."
+  ],
+  "spanish": {
+   "word": "bebida",
+   "definition": "Algo para tomar."
+  },
+  "synonyms": [
+   "drink"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4586,
+  "word": "leftover",
+  "type": [
+   "noun",
+   "adjective"
+  ],
+  "IPA": "/ˈleftoʊvər/",
+  "definition": "Food that was not eaten at a meal.",
+  "examples": [
+   "We had leftovers for lunch.",
+   "Put the leftover rice in the fridge.",
+   "There's some leftover pizza."
+  ],
+  "spanish": {
+   "word": "sobras / sobrante",
+   "definition": "Comida que no se comió en una comida."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4587,
+  "word": "coupon",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkuːpɑːn/",
+  "definition": "A piece of paper that gives you a lower price.",
+  "examples": [
+   "I have a coupon for free coffee.",
+   "She saves money with coupons.",
+   "Can I use this coupon online?"
+  ],
+  "spanish": {
+   "word": "cupón",
+   "definition": "Papel que te da un precio más bajo."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4588,
+  "word": "gallon",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈɡælən/",
+  "definition": "A US unit for liquid, about 3.8 liters.",
+  "examples": [
+   "Gas is four dollars a gallon.",
+   "We need a gallon of milk.",
+   "The tank holds fifteen gallons."
+  ],
+  "spanish": {
+   "word": "galón",
+   "definition": "Unidad de líquidos en Estados Unidos, de unos 3.8 litros."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4589,
+  "word": "raincoat",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈreɪnkoʊt/",
+  "definition": "A coat that keeps you dry in the rain.",
+  "examples": [
+   "Take your raincoat; it's going to rain.",
+   "She wore a yellow raincoat.",
+   "My raincoat is still wet."
+  ],
+  "spanish": {
+   "word": "impermeable",
+   "definition": "Abrigo que te mantiene seco bajo la lluvia."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4590,
+  "word": "swimsuit",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈswɪmsuːt/",
+  "definition": "Clothing you wear to swim.",
+  "examples": [
+   "Don't forget your swimsuit.",
+   "She bought a new swimsuit for the trip.",
+   "My swimsuit is still wet from the pool."
+  ],
+  "spanish": {
+   "word": "traje de baño",
+   "definition": "Ropa que usas para nadar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4591,
+  "word": "hoodie",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhʊdi/",
+  "definition": "A warm shirt with a hood.",
+  "examples": [
+   "He always wears a black hoodie.",
+   "I put on a hoodie because I was cold.",
+   "She borrowed my gray hoodie."
+  ],
+  "spanish": {
+   "word": "sudadera con capucha",
+   "definition": "Camisa cálida con capucha."
+  },
+  "synonyms": [
+   "sweatshirt"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4592,
+  "word": "mascara",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/mæˈskærə/",
+  "definition": "Makeup for your eyelashes.",
+  "examples": [
+   "Her mascara ran when she cried.",
+   "She put on some mascara.",
+   "I bought a new waterproof mascara."
+  ],
+  "spanish": {
+   "word": "rímel",
+   "definition": "Maquillaje para las pestañas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4593,
+  "word": "deodorant",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/diˈoʊdərənt/",
+  "definition": "A product you put under your arms to stop bad smells.",
+  "examples": [
+   "I forgot to put on deodorant.",
+   "He needs some deodorant.",
+   "This deodorant smells like lemon."
+  ],
+  "spanish": {
+   "word": "desodorante",
+   "definition": "Producto que te pones bajo los brazos para evitar el mal olor."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4594,
+  "word": "detergent",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/dɪˈtɜːrdʒənt/",
+  "definition": "A liquid or powder for washing clothes or dishes.",
+  "examples": [
+   "We're out of laundry detergent.",
+   "This detergent smells very fresh.",
+   "Add a cup of detergent to the washer."
+  ],
+  "spanish": {
+   "word": "detergente",
+   "definition": "Líquido o polvo para lavar ropa o platos."
+  },
+  "synonyms": [
+   "soap"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4595,
+  "word": "calculator",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkælkjəleɪtər/",
+  "definition": "A small machine for doing math.",
+  "examples": [
+   "You can't use a calculator on this test.",
+   "There's a calculator on my phone.",
+   "She added the numbers on her calculator."
+  ],
+  "spanish": {
+   "word": "calculadora",
+   "definition": "Máquina pequeña para hacer cálculos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4596,
+  "word": "thermometer",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/θərˈmɑːmətər/",
+  "definition": "A tool that measures temperature.",
+  "examples": [
+   "The thermometer says 90 degrees.",
+   "Put the thermometer under your tongue.",
+   "We have a thermometer outside the kitchen window."
+  ],
+  "spanish": {
+   "word": "termómetro",
+   "definition": "Instrumento que mide la temperatura."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4597,
+  "word": "socket",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈsɑːkɪt/",
+  "definition": "A place in a wall where you plug in electric things.",
+  "examples": [
+   "Plug the lamp into the socket.",
+   "There's no socket near the bed.",
+   "Keep your fingers away from the socket."
+  ],
+  "spanish": {
+   "word": "enchufe / toma",
+   "definition": "Lugar en la pared donde conectas aparatos eléctricos."
+  },
+  "synonyms": [
+   "outlet"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4598,
+  "word": "doorknob",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈdɔːrnɑːb/",
+  "definition": "A round handle that you turn to open a door.",
+  "examples": [
+   "The doorknob came off in my hand.",
+   "He turned the doorknob slowly.",
+   "She hung a sign on the doorknob."
+  ],
+  "spanish": {
+   "word": "pomo de la puerta",
+   "definition": "Manija redonda que giras para abrir una puerta."
+  },
+  "synonyms": [
+   "handle"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4599,
+  "word": "teapot",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtiːpɑːt/",
+  "definition": "A container for making and pouring tea.",
+  "examples": [
+   "She filled the teapot with hot water.",
+   "My grandmother has a beautiful teapot.",
+   "The teapot is on the table."
+  ],
+  "spanish": {
+   "word": "tetera",
+   "definition": "Recipiente para hacer y servir té."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4600,
+  "word": "hammock",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈhæmək/",
+  "definition": "A bed of cloth or rope that hangs between two trees.",
+  "examples": [
+   "He fell asleep in the hammock.",
+   "We hung a hammock in the backyard.",
+   "I'd love to spend all day in a hammock."
+  ],
+  "spanish": {
+   "word": "hamaca",
+   "definition": "Cama de tela o cuerda que cuelga entre dos árboles."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4601,
+  "word": "campfire",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkæmpfaɪər/",
+  "definition": "An outdoor fire at a camp.",
+  "examples": [
+   "We sat around the campfire.",
+   "They sang songs by the campfire.",
+   "Put out the campfire before you go to bed."
+  ],
+  "spanish": {
+   "word": "fogata",
+   "definition": "Fuego al aire libre en un campamento."
+  },
+  "synonyms": [
+   "bonfire"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4602,
+  "word": "crossword",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈkrɔːswɜːrd/",
+  "definition": "A word game on a grid of squares.",
+  "examples": [
+   "My dad does the crossword every morning.",
+   "I'm stuck on this crossword.",
+   "She finished the crossword in ten minutes."
+  ],
+  "spanish": {
+   "word": "crucigrama",
+   "definition": "Juego de palabras en una cuadrícula."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4603,
+  "word": "toddler",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtɑːdlər/",
+  "definition": "A very young child who is learning to walk.",
+  "examples": [
+   "She has a toddler and a new baby.",
+   "The toddler ran across the room.",
+   "Toddlers need a lot of attention."
+  ],
+  "spanish": {
+   "word": "niño pequeño",
+   "definition": "Niño muy pequeño que está aprendiendo a caminar."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4604,
+  "word": "teammate",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtiːmmeɪt/",
+  "definition": "A person on the same team as you.",
+  "examples": [
+   "He passed the ball to his teammate.",
+   "All of her teammates were crying.",
+   "He's a great teammate."
+  ],
+  "spanish": {
+   "word": "compañero de equipo",
+   "definition": "Persona en el mismo equipo que tú."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4605,
+  "word": "pedestrian",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/pəˈdestriən/",
+  "definition": "A person who is walking in the street.",
+  "examples": [
+   "The car almost hit a pedestrian.",
+   "This street is for pedestrians only.",
+   "Drivers must stop for pedestrians."
+  ],
+  "spanish": {
+   "word": "peatón",
+   "definition": "Persona que camina por la calle."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4606,
+  "word": "pharmacist",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈfɑːrməsɪst/",
+  "definition": "A person who prepares and sells medicine.",
+  "examples": [
+   "Ask your pharmacist about this drug.",
+   "The pharmacist filled my prescription.",
+   "She studied for six years to be a pharmacist."
+  ],
+  "spanish": {
+   "word": "farmacéutico",
+   "definition": "Persona que prepara y vende medicinas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4607,
+  "word": "electrician",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪˌlekˈtrɪʃən/",
+  "definition": "A person who fixes electric wires.",
+  "examples": [
+   "We called an electrician to fix the lights.",
+   "My uncle is an electrician.",
+   "The electrician finished the job in an hour."
+  ],
+  "spanish": {
+   "word": "electricista",
+   "definition": "Persona que arregla cables eléctricos."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4608,
+  "word": "veterinarian",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˌvetərəˈneriən/",
+  "definition": "A doctor for animals.",
+  "examples": [
+   "We took the dog to the veterinarian.",
+   "She wants to be a veterinarian.",
+   "The veterinarian gave the cat a shot."
+  ],
+  "spanish": {
+   "word": "veterinario",
+   "definition": "Doctor para animales."
+  },
+  "synonyms": [
+   "vet"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4609,
+  "word": "florist",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈflɔːrɪst/",
+  "definition": "A person who sells flowers.",
+  "examples": [
+   "He bought roses from the florist.",
+   "She works as a florist downtown.",
+   "The florist made a beautiful bouquet."
+  ],
+  "spanish": {
+   "word": "florista",
+   "definition": "Persona que vende flores."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4610,
+  "word": "lifeguard",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈlaɪfɡɑːrd/",
+  "definition": "A person who watches swimmers and keeps them safe.",
+  "examples": [
+   "The lifeguard saved a little boy.",
+   "She works as a lifeguard in the summer.",
+   "There's no lifeguard on this beach."
+  ],
+  "spanish": {
+   "word": "salvavidas",
+   "definition": "Persona que vigila a los nadadores y los protege."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4611,
+  "word": "realtor",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈriːəltər/",
+  "definition": "A person who sells houses.",
+  "examples": [
+   "Our realtor found us a great house.",
+   "She's a realtor in Florida.",
+   "Call a realtor if you want to sell."
+  ],
+  "spanish": {
+   "word": "agente inmobiliario",
+   "definition": "Persona que vende casas."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4612,
+  "word": "rapper",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈræpər/",
+  "definition": "A person who performs rap music.",
+  "examples": [
+   "He's a famous rapper from Atlanta.",
+   "The rapper released a new album.",
+   "My son wants to be a rapper."
+  ],
+  "spanish": {
+   "word": "rapero",
+   "definition": "Persona que canta música rap."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4613,
+  "word": "novelist",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈnɑːvəlɪst/",
+  "definition": "A person who writes novels.",
+  "examples": [
+   "Stephen King is a popular novelist.",
+   "She's a young American novelist.",
+   "The novelist spoke at the bookstore."
+  ],
+  "spanish": {
+   "word": "novelista",
+   "definition": "Persona que escribe novelas."
+  },
+  "synonyms": [
+   "writer"
+  ],
+  "conjugations": null
+ },
+ {
+  "rank": 4614,
+  "word": "pianist",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈpiːənɪst/",
+  "definition": "A person who plays the piano.",
+  "examples": [
+   "She's a great jazz pianist.",
+   "He studied to be a concert pianist.",
+   "The pianist played for two hours."
+  ],
+  "spanish": {
+   "word": "pianista",
+   "definition": "Persona que toca el piano."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4615,
+  "word": "inventor",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ɪnˈventər/",
+  "definition": "A person who makes new things for the first time.",
+  "examples": [
+   "Thomas Edison was a famous inventor.",
+   "The inventor of the telephone was Bell.",
+   "She's a young inventor from Texas."
+  ],
+  "spanish": {
+   "word": "inventor",
+   "definition": "Persona que crea cosas nuevas por primera vez."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4616,
+  "word": "tourism",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtʊrɪzəm/",
+  "definition": "The business of serving people on vacation.",
+  "examples": [
+   "Tourism is important to the island.",
+   "The city depends on tourism.",
+   "She studied tourism in college."
+  ],
+  "spanish": {
+   "word": "turismo",
+   "definition": "Negocio de atender a las personas en vacaciones."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4617,
+  "word": "yawn",
+  "type": [
+   "verb",
+   "noun"
+  ],
+  "IPA": "/jɔːn/",
+  "definition": "To open your mouth wide because you are tired.",
+  "examples": [
+   "He yawned during the meeting.",
+   "I can't stop yawning.",
+   "She covered her mouth to hide a yawn."
+  ],
+  "spanish": {
+   "word": "bostezar / bostezo",
+   "definition": "Abrir mucho la boca porque estás cansado."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "yawn",
+    "past": "yawned",
+    "participle": "yawned",
+    "gerund": "yawning",
+    "third": "yawns"
+   }
+  }
+ },
+ {
+  "rank": 4618,
+  "word": "rinse",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/rɪns/",
+  "definition": "To wash something with clean water.",
+  "examples": [
+   "Rinse the rice before you cook it.",
+   "She rinsed her hair with cold water.",
+   "He's rinsing the plates in the sink."
+  ],
+  "spanish": {
+   "word": "enjuagar",
+   "definition": "Lavar algo con agua limpia."
+  },
+  "synonyms": [
+   "wash"
+  ],
+  "conjugations": {
+   "forms": {
+    "base": "rinse",
+    "past": "rinsed",
+    "participle": "rinsed",
+    "gerund": "rinsing",
+    "third": "rinses"
+   }
+  }
+ },
+ {
+  "rank": 4619,
+  "word": "wrinkle",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈrɪŋkəl/",
+  "definition": "A small line in your skin or in cloth.",
+  "examples": [
+   "My grandmother has a lot of wrinkles.",
+   "There's a wrinkle in your shirt.",
+   "This cream is for wrinkles around the eyes."
+  ],
+  "spanish": {
+   "word": "arruga",
+   "definition": "Línea pequeña en la piel o en la tela."
+  },
+  "synonyms": [],
+  "conjugations": null
+ },
+ {
+  "rank": 4620,
+  "word": "recycle",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˌriːˈsaɪkəl/",
+  "definition": "To use old materials again.",
+  "examples": [
+   "We recycle all of our bottles.",
+   "This paper was recycled.",
+   "Are you recycling those cans?"
+  ],
+  "spanish": {
+   "word": "reciclar",
+   "definition": "Volver a usar materiales viejos."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "recycle",
+    "past": "recycled",
+    "participle": "recycled",
+    "gerund": "recycling",
+    "third": "recycles"
+   }
+  }
+ },
+ {
+  "rank": 4621,
+  "word": "sprinkle",
+  "type": [
+   "verb"
+  ],
+  "IPA": "/ˈsprɪŋkəl/",
+  "definition": "To drop small pieces of something over a surface.",
+  "examples": [
+   "Sprinkle some cheese on the pasta.",
+   "She sprinkled sugar on the cake.",
+   "He's sprinkling salt on the steps."
+  ],
+  "spanish": {
+   "word": "espolvorear",
+   "definition": "Dejar caer pedacitos de algo sobre una superficie."
+  },
+  "synonyms": [],
+  "conjugations": {
+   "forms": {
+    "base": "sprinkle",
+    "past": "sprinkled",
+    "participle": "sprinkled",
+    "gerund": "sprinkling",
+    "third": "sprinkles"
+   }
+  }
+ },
+ {
+  "rank": 4622,
+  "word": "tofu",
+  "type": [
+   "noun"
+  ],
+  "IPA": "/ˈtoʊfuː/",
+  "definition": "A soft white food made from soybeans.",
+  "examples": [
+   "She eats tofu instead of meat.",
+   "I ordered the tofu with rice.",
+   "This soup has tofu and vegetables."
+  ],
+  "spanish": {
+   "word": "tofu",
+   "definition": "Comida blanca y suave hecha de soya."
+  },
+  "synonyms": [],
+  "conjugations": null
+ }
+]

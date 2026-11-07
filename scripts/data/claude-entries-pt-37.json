@@ -1,0 +1,1948 @@
+[
+  {
+    "rank": 4482,
+    "word": "meio-dia",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mejuˈdʒiɐ/",
+    "definition": "Doze horas do dia.",
+    "examples": [
+      "Almoçamos ao meio-dia.",
+      "Chego em casa antes do meio-dia.",
+      "Já é meio-dia e ainda não comi."
+    ],
+    "spanish": {
+      "word": "mediodía",
+      "definition": "Las doce del día."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4483,
+    "word": "meia-noite",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mejɐˈnojtʃi/",
+    "definition": "Doze horas da noite.",
+    "examples": [
+      "Fui dormir à meia-noite.",
+      "A festa acabou depois da meia-noite.",
+      "O voo sai à meia-noite."
+    ],
+    "spanish": {
+      "word": "medianoche",
+      "definition": "Las doce de la noche."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4484,
+    "word": "guarda-chuva",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gwaʁdɐˈʃuvɐ/",
+    "definition": "Objeto que protege da chuva.",
+    "examples": [
+      "Leve o guarda-chuva, vai chover.",
+      "Esqueci o guarda-chuva no ônibus.",
+      "O vento quebrou o meu guarda-chuva."
+    ],
+    "spanish": {
+      "word": "paraguas",
+      "definition": "Objeto que protege de la lluvia."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4485,
+    "word": "guarda-roupa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gwaʁdɐˈʁowpɐ/",
+    "definition": "Móvel onde se guarda a roupa.",
+    "examples": [
+      "Meu guarda-roupa está cheio.",
+      "Comprei um guarda-roupa de seis portas.",
+      "Pendure a camisa no guarda-roupa."
+    ],
+    "spanish": {
+      "word": "armario",
+      "definition": "Mueble donde se guarda la ropa."
+    },
+    "synonyms": [
+      "armário"
+    ]
+  },
+  {
+    "rank": 4486,
+    "word": "porta-malas",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɔʁtɐˈmalɐs/",
+    "definition": "Parte de trás do carro para bagagens.",
+    "examples": [
+      "Coloque as sacolas no porta-malas.",
+      "O porta-malas está cheio.",
+      "Abra o porta-malas, por favor."
+    ],
+    "spanish": {
+      "word": "baúl",
+      "definition": "Parte trasera del carro para equipaje."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4487,
+    "word": "para-brisa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/paɾɐˈbɾizɐ/",
+    "definition": "Vidro da frente do carro.",
+    "examples": [
+      "Uma pedra trincou o para-brisa.",
+      "Limpe o para-brisa antes de sair.",
+      "O para-brisa está sujo."
+    ],
+    "spanish": {
+      "word": "parabrisas",
+      "definition": "Vidrio del frente del carro."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4488,
+    "word": "mal-entendido",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mawẽtẽˈdʒidu/",
+    "definition": "Erro ao entender o que alguém disse.",
+    "examples": [
+      "Foi só um mal-entendido.",
+      "Vamos resolver esse mal-entendido.",
+      "Desculpe o mal-entendido."
+    ],
+    "spanish": {
+      "word": "malentendido",
+      "definition": "Error al entender lo que alguien dijo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4489,
+    "word": "mal-estar",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mawesˈtaʁ/",
+    "definition": "Sensação de não estar bem.",
+    "examples": [
+      "Senti um mal-estar depois do almoço.",
+      "Ela saiu da aula com mal-estar.",
+      "A briga causou um mal-estar na família."
+    ],
+    "spanish": {
+      "word": "malestar",
+      "definition": "Sensación de no estar bien."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4490,
+    "word": "cachorro-quente",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/kaʃoʁuˈkẽtʃi/",
+    "definition": "Pão com salsicha e molho.",
+    "examples": [
+      "Comi um cachorro-quente na rua.",
+      "A festa teve cachorro-quente para as crianças.",
+      "O cachorro-quente brasileiro leva purê e batata palha."
+    ],
+    "spanish": {
+      "word": "perro caliente",
+      "definition": "Pan con salchicha y salsa."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4491,
+    "word": "bem-estar",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/bẽjesˈtaʁ/",
+    "definition": "Estado de quem se sente bem.",
+    "examples": [
+      "O exercício traz bem-estar.",
+      "Cuide do seu bem-estar.",
+      "O bem-estar da família vem primeiro."
+    ],
+    "spanish": {
+      "word": "bienestar",
+      "definition": "Estado de quien se siente bien."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4492,
+    "word": "bem-vindo",
+    "type": [
+      "adjective"
+    ],
+    "IPA": "/bẽjˈvĩdu/",
+    "definition": "Recebido com alegria.",
+    "examples": [
+      "Seja bem-vindo ao Brasil!",
+      "Vocês são sempre bem-vindos aqui.",
+      "Bem-vinda à nossa casa!"
+    ],
+    "spanish": {
+      "word": "bienvenido",
+      "definition": "Recibido con alegría."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4493,
+    "word": "salva-vidas",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/sawvɐˈvidɐs/",
+    "definition": "Pessoa que protege quem nada na praia.",
+    "examples": [
+      "O salva-vidas salvou o menino.",
+      "Nade perto do salva-vidas.",
+      "Vestimos o colete salva-vidas no barco."
+    ],
+    "spanish": {
+      "word": "salvavidas",
+      "definition": "Persona que protege a quien nada en la playa."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4494,
+    "word": "picanha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/piˈkɐ̃ɲɐ/",
+    "definition": "Corte de carne muito popular no churrasco.",
+    "examples": [
+      "A picanha é a estrela do churrasco.",
+      "Comprei dois quilos de picanha.",
+      "Essa picanha está no ponto."
+    ],
+    "spanish": {
+      "word": "picaña",
+      "definition": "Corte de carne muy popular en el asado."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4495,
+    "word": "figurinha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/figuˈɾĩɲɐ/",
+    "definition": "Adesivo de coleção; imagem enviada no celular.",
+    "examples": [
+      "Colei as figurinhas no álbum da Copa.",
+      "Ela me mandou uma figurinha engraçada.",
+      "Troquei figurinhas com o meu amigo."
+    ],
+    "spanish": {
+      "word": "lámina",
+      "definition": "Adhesivo de colección; imagen enviada por el celular."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4496,
+    "word": "fubá",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/fuˈba/",
+    "definition": "Farinha fina de milho.",
+    "examples": [
+      "Fiz um bolo de fubá.",
+      "O angu é feito de fubá.",
+      "O fubá acabou."
+    ],
+    "spanish": {
+      "word": "harina de maíz",
+      "definition": "Harina fina de maíz."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4497,
+    "word": "garoa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gaˈɾoɐ/",
+    "definition": "Chuva fina.",
+    "examples": [
+      "São Paulo é a terra da garoa.",
+      "Caiu uma garoa de manhã.",
+      "Saí sem guarda-chuva porque era só garoa."
+    ],
+    "spanish": {
+      "word": "llovizna",
+      "definition": "Lluvia fina."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4498,
+    "word": "gari",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gaˈɾi/",
+    "definition": "Pessoa que limpa as ruas.",
+    "examples": [
+      "O gari varre a rua de manhã.",
+      "Os garis trabalham no carnaval.",
+      "Ela é gari da prefeitura."
+    ],
+    "spanish": {
+      "word": "barrendero",
+      "definition": "Persona que limpia las calles."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4499,
+    "word": "gíria",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈʒiɾiɐ/",
+    "definition": "Palavra informal de um grupo.",
+    "examples": [
+      "Cara é uma gíria muito usada.",
+      "Não entendo as gírias de São Paulo.",
+      "Cada região tem as suas gírias."
+    ],
+    "spanish": {
+      "word": "jerga",
+      "definition": "Palabra informal de un grupo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4500,
+    "word": "girassol",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʒiɾaˈsɔw/",
+    "definition": "Flor grande e amarela.",
+    "examples": [
+      "O girassol segue o sol.",
+      "Plantei girassóis no quintal.",
+      "Ela me deu um girassol."
+    ],
+    "spanish": {
+      "word": "girasol",
+      "definition": "Flor grande y amarilla."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4501,
+    "word": "gruta",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈgɾutɐ/",
+    "definition": "Buraco grande em uma rocha.",
+    "examples": [
+      "Visitamos uma gruta em Bonito.",
+      "A gruta tem um lago azul.",
+      "Entramos na gruta com lanternas."
+    ],
+    "spanish": {
+      "word": "gruta",
+      "definition": "Hueco grande en una roca."
+    },
+    "synonyms": [
+      "caverna"
+    ]
+  },
+  {
+    "rank": 4502,
+    "word": "geografia",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ʒeogɾaˈfiɐ/",
+    "definition": "Ciência que estuda a Terra e os países.",
+    "examples": [
+      "Tenho prova de geografia.",
+      "Ela é professora de geografia.",
+      "Adoro geografia e mapas."
+    ],
+    "spanish": {
+      "word": "geografía",
+      "definition": "Ciencia que estudia la Tierra y los países."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4503,
+    "word": "gafanhoto",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gafɐ̃ˈɲotu/",
+    "definition": "Inseto verde que salta.",
+    "examples": [
+      "Um gafanhoto pulou na minha mão.",
+      "Os gafanhotos comeram a plantação.",
+      "O gafanhoto se esconde no capim."
+    ],
+    "spanish": {
+      "word": "saltamontes",
+      "definition": "Insecto verde que salta."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4504,
+    "word": "gaivota",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gajˈvɔtɐ/",
+    "definition": "Ave branca do mar.",
+    "examples": [
+      "As gaivotas voam sobre a praia.",
+      "Uma gaivota roubou o meu lanche.",
+      "A gaivota pousou no barco."
+    ],
+    "spanish": {
+      "word": "gaviota",
+      "definition": "Ave blanca del mar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4505,
+    "word": "grampeador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/gɾɐ̃peaˈdoʁ/",
+    "definition": "Objeto que une papéis com grampos.",
+    "examples": [
+      "Empreste o seu grampeador.",
+      "O grampeador está sem grampo.",
+      "Deixei o grampeador na mesa."
+    ],
+    "spanish": {
+      "word": "grapadora",
+      "definition": "Objeto que une papeles con grapas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4506,
+    "word": "grilo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈgɾilu/",
+    "definition": "Inseto que canta à noite; preocupação.",
+    "examples": [
+      "Ouvi um grilo no quintal.",
+      "Os grilos cantam à noite.",
+      "Sem grilo, pode deixar comigo."
+    ],
+    "spanish": {
+      "word": "grillo",
+      "definition": "Insecto que canta de noche; preocupación."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4507,
+    "word": "horóscopo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/oˈɾɔskopu/",
+    "definition": "Previsão baseada nos signos.",
+    "examples": [
+      "Leio o horóscopo no jornal.",
+      "O que diz o seu horóscopo?",
+      "Não acredito em horóscopo."
+    ],
+    "spanish": {
+      "word": "horóscopo",
+      "definition": "Previsión basada en los signos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4508,
+    "word": "hortaliça",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/oʁtaˈlisɐ/",
+    "definition": "Planta da horta usada na comida.",
+    "examples": [
+      "Comprei hortaliças frescas.",
+      "Ele planta hortaliças no sítio.",
+      "Coma mais frutas e hortaliças."
+    ],
+    "spanish": {
+      "word": "hortaliza",
+      "definition": "Planta de la huerta usada en la comida."
+    },
+    "synonyms": [
+      "verdura"
+    ]
+  },
+  {
+    "rank": 4509,
+    "word": "inquilino",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩkiˈlinu/",
+    "definition": "Pessoa que paga aluguel.",
+    "examples": [
+      "O inquilino pagou o aluguel.",
+      "Procuro um inquilino para o apartamento.",
+      "A inquilina mora aqui há dois anos."
+    ],
+    "spanish": {
+      "word": "inquilino",
+      "definition": "Persona que paga arriendo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4510,
+    "word": "imobiliária",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/imobiliˈaɾiɐ/",
+    "definition": "Empresa que vende e aluga casas.",
+    "examples": [
+      "Fui à imobiliária ver apartamentos.",
+      "A imobiliária cobra uma taxa.",
+      "A chave está na imobiliária."
+    ],
+    "spanish": {
+      "word": "inmobiliaria",
+      "definition": "Empresa que vende y alquila casas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4511,
+    "word": "impressora",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩpɾeˈsoɾɐ/",
+    "definition": "Máquina que coloca textos no papel.",
+    "examples": [
+      "A impressora está sem tinta.",
+      "Comprei uma impressora nova.",
+      "O papel travou na impressora."
+    ],
+    "spanish": {
+      "word": "impresora",
+      "definition": "Máquina que pone textos en el papel."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4512,
+    "word": "insônia",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩˈsoniɐ/",
+    "definition": "Dificuldade para dormir.",
+    "examples": [
+      "Tenho insônia há semanas.",
+      "O café me dá insônia.",
+      "Ela sofre de insônia."
+    ],
+    "spanish": {
+      "word": "insomnio",
+      "definition": "Dificultad para dormir."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4513,
+    "word": "infarto",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩˈfaʁtu/",
+    "definition": "Ataque do coração.",
+    "examples": [
+      "Meu tio teve um infarto.",
+      "Ele quase teve um infarto de susto.",
+      "O infarto é uma emergência."
+    ],
+    "spanish": {
+      "word": "infarto",
+      "definition": "Ataque al corazón."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4514,
+    "word": "inflação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩflaˈsɐ̃w̃/",
+    "definition": "Aumento geral dos preços.",
+    "examples": [
+      "A inflação subiu este ano.",
+      "Com a inflação, o salário não dá.",
+      "O governo tenta controlar a inflação."
+    ],
+    "spanish": {
+      "word": "inflación",
+      "definition": "Aumento general de los precios."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4515,
+    "word": "intercâmbio",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩteʁˈkɐ̃biu/",
+    "definition": "Temporada de estudo em outro país.",
+    "examples": [
+      "Fiz intercâmbio na Austrália.",
+      "Ela quer fazer um intercâmbio no Brasil.",
+      "O intercâmbio melhorou o meu inglês."
+    ],
+    "spanish": {
+      "word": "intercambio",
+      "definition": "Temporada de estudio en otro país."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4516,
+    "word": "inundação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/inũdaˈsɐ̃w̃/",
+    "definition": "Muita água cobrindo um lugar.",
+    "examples": [
+      "A chuva causou uma inundação.",
+      "A inundação destruiu muitas casas.",
+      "A rua sofre com inundações todo ano."
+    ],
+    "spanish": {
+      "word": "inundación",
+      "definition": "Mucha agua cubriendo un lugar."
+    },
+    "synonyms": [
+      "enchente"
+    ]
+  },
+  {
+    "rank": 4517,
+    "word": "inventor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩvẽˈtoʁ/",
+    "definition": "Pessoa que cria algo novo.",
+    "examples": [
+      "Santos Dumont foi um grande inventor.",
+      "A inventora ganhou um prêmio.",
+      "Quem foi o inventor do telefone?"
+    ],
+    "spanish": {
+      "word": "inventor",
+      "definition": "Persona que crea algo nuevo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4518,
+    "word": "iniciante",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/inisiˈɐ̃tʃi/",
+    "definition": "Pessoa que está começando.",
+    "examples": [
+      "Sou iniciante em português.",
+      "Esse curso é para iniciantes.",
+      "Ela é uma motorista iniciante."
+    ],
+    "spanish": {
+      "word": "principiante",
+      "definition": "Persona que está empezando."
+    },
+    "synonyms": [
+      "novato"
+    ]
+  },
+  {
+    "rank": 4519,
+    "word": "informática",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ĩfoʁˈmatʃikɐ/",
+    "definition": "Área dos computadores.",
+    "examples": [
+      "Ele estuda informática.",
+      "Fiz um curso de informática.",
+      "Trabalho na área de informática."
+    ],
+    "spanish": {
+      "word": "informática",
+      "definition": "Área de los computadores."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4520,
+    "word": "ladeira",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/laˈdejɾɐ/",
+    "definition": "Rua inclinada.",
+    "examples": [
+      "Subimos a ladeira a pé.",
+      "Olinda é cheia de ladeiras.",
+      "A casa fica no alto da ladeira."
+    ],
+    "spanish": {
+      "word": "cuesta",
+      "definition": "Calle inclinada."
+    },
+    "synonyms": [
+      "subida"
+    ]
+  },
+  {
+    "rank": 4521,
+    "word": "largura",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/laʁˈguɾɐ/",
+    "definition": "Medida de um lado ao outro.",
+    "examples": [
+      "Qual é a largura da porta?",
+      "A mesa tem um metro de largura.",
+      "Meça a largura da parede."
+    ],
+    "spanish": {
+      "word": "anchura",
+      "definition": "Medida de un lado al otro."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4522,
+    "word": "lancha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈlɐ̃ʃɐ/",
+    "definition": "Barco pequeno com motor.",
+    "examples": [
+      "Passeamos de lancha em Angra.",
+      "A lancha é muito rápida.",
+      "Ele alugou uma lancha."
+    ],
+    "spanish": {
+      "word": "lancha",
+      "definition": "Bote pequeño con motor."
+    },
+    "synonyms": [
+      "barco"
+    ]
+  },
+  {
+    "rank": 4523,
+    "word": "lebre",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈlɛbɾi/",
+    "definition": "Animal parecido com o coelho.",
+    "examples": [
+      "A lebre corre muito.",
+      "A tartaruga ganhou da lebre.",
+      "Vimos uma lebre no campo."
+    ],
+    "spanish": {
+      "word": "liebre",
+      "definition": "Animal parecido al conejo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4524,
+    "word": "leque",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈlɛki/",
+    "definition": "Objeto usado para fazer vento no rosto.",
+    "examples": [
+      "Ela se abanava com um leque.",
+      "Comprei um leque na Espanha.",
+      "Temos um leque de opções."
+    ],
+    "spanish": {
+      "word": "abanico",
+      "definition": "Objeto usado para hacer viento en la cara."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4525,
+    "word": "lembrete",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/lẽˈbɾetʃi/",
+    "definition": "Aviso para não esquecer.",
+    "examples": [
+      "Coloquei um lembrete no celular.",
+      "Deixei um lembrete na geladeira.",
+      "O aplicativo manda um lembrete todo dia."
+    ],
+    "spanish": {
+      "word": "recordatorio",
+      "definition": "Aviso para no olvidar."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4526,
+    "word": "liquidação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/likidaˈsɐ̃w̃/",
+    "definition": "Venda com preços baixos.",
+    "examples": [
+      "A loja está em liquidação.",
+      "Comprei o casaco na liquidação.",
+      "Hoje começa a liquidação de verão."
+    ],
+    "spanish": {
+      "word": "liquidación",
+      "definition": "Venta con precios bajos."
+    },
+    "synonyms": [
+      "promoção"
+    ]
+  },
+  {
+    "rank": 4527,
+    "word": "lixeiro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/liˈʃejɾu/",
+    "definition": "Pessoa que recolhe o lixo.",
+    "examples": [
+      "O lixeiro passa às terças.",
+      "Os lixeiros trabalham de madrugada.",
+      "Demos uma caixinha ao lixeiro no Natal."
+    ],
+    "spanish": {
+      "word": "basurero",
+      "definition": "Persona que recoge la basura."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4528,
+    "word": "louça",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈlowsɐ/",
+    "definition": "Pratos e copos de uma casa.",
+    "examples": [
+      "Vou lavar a louça.",
+      "A louça está na pia.",
+      "Quem seca a louça hoje?"
+    ],
+    "spanish": {
+      "word": "loza",
+      "definition": "Platos y vasos de una casa."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4529,
+    "word": "lustre",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈlustɾi/",
+    "definition": "Luz de teto com enfeites.",
+    "examples": [
+      "A sala tem um lustre de cristal.",
+      "O lustre caiu do teto.",
+      "Limpamos o lustre antes da festa."
+    ],
+    "spanish": {
+      "word": "lámpara de techo",
+      "definition": "Luz de techo con adornos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4530,
+    "word": "maço",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmasu/",
+    "definition": "Pacote de cigarros; grupo de coisas amarradas.",
+    "examples": [
+      "Ele fuma um maço por dia.",
+      "Comprei um maço de coentro.",
+      "Ela guarda um maço de cartas antigas."
+    ],
+    "spanish": {
+      "word": "cajetilla; manojo",
+      "definition": "Paquete de cigarrillos; grupo de cosas amarradas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4531,
+    "word": "macacão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/makaˈkɐ̃w̃/",
+    "definition": "Roupa de uma peça só.",
+    "examples": [
+      "O mecânico usa macacão.",
+      "O bebê está de macacão azul.",
+      "Ela foi à festa de macacão."
+    ],
+    "spanish": {
+      "word": "overol",
+      "definition": "Ropa de una sola pieza."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4532,
+    "word": "manada",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/maˈnadɐ/",
+    "definition": "Grupo de animais grandes.",
+    "examples": [
+      "Vimos uma manada de elefantes.",
+      "A manada de búfalos atravessou o rio.",
+      "O vaqueiro levou a manada."
+    ],
+    "spanish": {
+      "word": "manada",
+      "definition": "Grupo de animales grandes."
+    },
+    "synonyms": [
+      "rebanho"
+    ]
+  },
+  {
+    "rank": 4533,
+    "word": "manta",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmɐ̃tɐ/",
+    "definition": "Cobertor leve.",
+    "examples": [
+      "Coloque uma manta no bebê.",
+      "Leve uma manta para o avião.",
+      "Ela se cobriu com a manta no sofá."
+    ],
+    "spanish": {
+      "word": "manta",
+      "definition": "Cobija liviana."
+    },
+    "synonyms": [
+      "coberta"
+    ]
+  },
+  {
+    "rank": 4534,
+    "word": "massagista",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/masaˈʒistɐ/",
+    "definition": "Pessoa que faz massagens.",
+    "examples": [
+      "O massagista do time cuidou do jogador.",
+      "Fui a uma massagista por causa das costas.",
+      "Ela é massagista em um spa."
+    ],
+    "spanish": {
+      "word": "masajista",
+      "definition": "Persona que hace masajes."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4535,
+    "word": "matrícula",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/maˈtɾikulɐ/",
+    "definition": "Inscrição em uma escola ou curso.",
+    "examples": [
+      "Fiz a matrícula na faculdade.",
+      "O prazo da matrícula termina hoje.",
+      "Qual é o número da sua matrícula?"
+    ],
+    "spanish": {
+      "word": "matrícula",
+      "definition": "Inscripción en una escuela o curso."
+    },
+    "synonyms": [
+      "inscrição"
+    ]
+  },
+  {
+    "rank": 4536,
+    "word": "meditação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/medʒitaˈsɐ̃w̃/",
+    "definition": "Prática de ficar em silêncio para acalmar a mente.",
+    "examples": [
+      "A meditação me ajuda a dormir.",
+      "Faço meditação pela manhã.",
+      "Ela aprendeu meditação na Índia."
+    ],
+    "spanish": {
+      "word": "meditación",
+      "definition": "Práctica de quedarse en silencio para calmar la mente."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4537,
+    "word": "mergulhador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/meʁguʎaˈdoʁ/",
+    "definition": "Pessoa que mergulha.",
+    "examples": [
+      "O mergulhador achou um navio antigo.",
+      "Ela é mergulhadora profissional.",
+      "Os mergulhadores viram tartarugas."
+    ],
+    "spanish": {
+      "word": "buzo",
+      "definition": "Persona que bucea."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4538,
+    "word": "mofo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmofu/",
+    "definition": "Mancha causada pela umidade.",
+    "examples": [
+      "Tem mofo na parede do banheiro.",
+      "O pão criou mofo.",
+      "Esse quarto tem cheiro de mofo."
+    ],
+    "spanish": {
+      "word": "moho",
+      "definition": "Mancha causada por la humedad."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4539,
+    "word": "moldura",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/mowˈduɾɐ/",
+    "definition": "Borda de um quadro.",
+    "examples": [
+      "Comprei uma moldura para a foto.",
+      "A moldura é de madeira.",
+      "O quadro precisa de uma moldura nova."
+    ],
+    "spanish": {
+      "word": "marco",
+      "definition": "Borde de un cuadro."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4540,
+    "word": "mola",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmɔlɐ/",
+    "definition": "Peça de metal em espiral que volta à forma.",
+    "examples": [
+      "O colchão é de molas.",
+      "A mola do portão quebrou.",
+      "O brinquedo pula com uma mola."
+    ],
+    "spanish": {
+      "word": "resorte",
+      "definition": "Pieza de metal en espiral que vuelve a su forma."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4541,
+    "word": "motocicleta",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/motosiˈklɛtɐ/",
+    "definition": "Veículo de duas rodas com motor.",
+    "examples": [
+      "Ele comprou uma motocicleta.",
+      "Use capacete na motocicleta.",
+      "A motocicleta passou em alta velocidade."
+    ],
+    "spanish": {
+      "word": "motocicleta",
+      "definition": "Vehículo de dos ruedas con motor."
+    },
+    "synonyms": [
+      "moto"
+    ]
+  },
+  {
+    "rank": 4542,
+    "word": "murro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈmuʁu/",
+    "definition": "Golpe com a mão fechada.",
+    "examples": [
+      "Ele deu um murro na mesa.",
+      "Levou um murro no nariz.",
+      "É como dar murro em ponta de faca."
+    ],
+    "spanish": {
+      "word": "puñetazo",
+      "definition": "Golpe con la mano cerrada."
+    },
+    "synonyms": [
+      "soco"
+    ]
+  },
+  {
+    "rank": 4543,
+    "word": "nacionalidade",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/nasionaliˈdadʒi/",
+    "definition": "País de origem de uma pessoa.",
+    "examples": [
+      "Qual é a sua nacionalidade?",
+      "Ele tem dupla nacionalidade.",
+      "Escreva a sua nacionalidade no formulário."
+    ],
+    "spanish": {
+      "word": "nacionalidad",
+      "definition": "País de origen de una persona."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4544,
+    "word": "nadador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/nadaˈdoʁ/",
+    "definition": "Pessoa que nada.",
+    "examples": [
+      "Ele é um ótimo nadador.",
+      "A nadadora ganhou duas medalhas.",
+      "Os nadadores treinam cedo."
+    ],
+    "spanish": {
+      "word": "nadador",
+      "definition": "Persona que nada."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4545,
+    "word": "nevoeiro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/nevoˈejɾu/",
+    "definition": "Nuvem baixa e densa.",
+    "examples": [
+      "O aeroporto fechou por causa do nevoeiro.",
+      "Havia nevoeiro na estrada.",
+      "O nevoeiro cobriu o morro."
+    ],
+    "spanish": {
+      "word": "niebla",
+      "definition": "Nube baja y densa."
+    },
+    "synonyms": [
+      "neblina"
+    ]
+  },
+  {
+    "rank": 4546,
+    "word": "ouvinte",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/owˈvĩtʃi/",
+    "definition": "Pessoa que ouve rádio ou uma aula.",
+    "examples": [
+      "Bom dia, queridos ouvintes!",
+      "Ela é uma boa ouvinte.",
+      "Assisti à aula como ouvinte."
+    ],
+    "spanish": {
+      "word": "oyente",
+      "definition": "Persona que oye radio o una clase."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4547,
+    "word": "palavrão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/palaˈvɾɐ̃w̃/",
+    "definition": "Palavra feia e ofensiva.",
+    "examples": [
+      "Não fale palavrão na frente das crianças.",
+      "Ele soltou um palavrão.",
+      "Aprendi os palavrões primeiro."
+    ],
+    "spanish": {
+      "word": "grosería",
+      "definition": "Palabra fea y ofensiva."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4548,
+    "word": "palmito",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pawˈmitu/",
+    "definition": "Parte macia de uma palmeira, boa para comer.",
+    "examples": [
+      "A pizza leva palmito.",
+      "Comprei um vidro de palmito.",
+      "Pedi uma empada de palmito."
+    ],
+    "spanish": {
+      "word": "palmito",
+      "definition": "Parte suave de una palmera, buena para comer."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4549,
+    "word": "pantufa",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɐ̃ˈtufɐ/",
+    "definition": "Chinelo macio e quente.",
+    "examples": [
+      "Uso pantufa em casa no inverno.",
+      "Ganhei uma pantufa de coelho.",
+      "Ele foi até a porta de pantufa."
+    ],
+    "spanish": {
+      "word": "pantufla",
+      "definition": "Chancla suave y caliente."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4550,
+    "word": "papelão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/papeˈlɐ̃w̃/",
+    "definition": "Papel grosso de caixas; papel ridículo.",
+    "examples": [
+      "Guarde tudo na caixa de papelão.",
+      "Ele fez um papelão na festa.",
+      "Separamos o papelão para reciclar."
+    ],
+    "spanish": {
+      "word": "cartón",
+      "definition": "Papel grueso de cajas; papel ridículo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4551,
+    "word": "paraquedas",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/paɾaˈkɛdɐs/",
+    "definition": "Tecido que freia a queda de quem salta.",
+    "examples": [
+      "Saltei de paraquedas em Boituva.",
+      "O paraquedas abriu na hora.",
+      "Ele tem medo de pular de paraquedas."
+    ],
+    "spanish": {
+      "word": "paracaídas",
+      "definition": "Tela que frena la caída de quien salta."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4552,
+    "word": "parentesco",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/paɾẽˈtesku/",
+    "definition": "Ligação de família.",
+    "examples": [
+      "Qual é o seu grau de parentesco?",
+      "Temos o mesmo nome, mas sem parentesco.",
+      "Eles têm parentesco distante."
+    ],
+    "spanish": {
+      "word": "parentesco",
+      "definition": "Vínculo de familia."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4553,
+    "word": "passatempo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pasaˈtẽpu/",
+    "definition": "O que se faz por prazer no tempo livre.",
+    "examples": [
+      "Ler é o meu passatempo favorito.",
+      "Ele tem o passatempo de pescar.",
+      "Qual é o seu passatempo?"
+    ],
+    "spanish": {
+      "word": "pasatiempo",
+      "definition": "Lo que se hace por placer en el tiempo libre."
+    },
+    "synonyms": [
+      "hobby"
+    ]
+  },
+  {
+    "rank": 4554,
+    "word": "pavão",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/paˈvɐ̃w̃/",
+    "definition": "Ave de cauda grande e colorida.",
+    "examples": [
+      "O pavão abriu a cauda.",
+      "Tem um pavão no parque.",
+      "O pavão é uma ave linda."
+    ],
+    "spanish": {
+      "word": "pavo real",
+      "definition": "Ave de cola grande y colorida."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4555,
+    "word": "pediatra",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pedʒiˈatɾɐ/",
+    "definition": "Médico de crianças.",
+    "examples": [
+      "Levei o bebê à pediatra.",
+      "O pediatra receitou um xarope.",
+      "Marquei consulta com o pediatra."
+    ],
+    "spanish": {
+      "word": "pediatra",
+      "definition": "Médico de niños."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4556,
+    "word": "pechincha",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/peˈʃĩʃɐ/",
+    "definition": "Coisa comprada por preço muito baixo.",
+    "examples": [
+      "Esse sofá foi uma pechincha.",
+      "Achei uma pechincha na feira.",
+      "Por esse preço, é uma pechincha."
+    ],
+    "spanish": {
+      "word": "ganga",
+      "definition": "Cosa comprada a un precio muy bajo."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4557,
+    "word": "periferia",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/peɾifeˈɾiɐ/",
+    "definition": "Bairros longe do centro.",
+    "examples": [
+      "Ele mora na periferia de São Paulo.",
+      "O rap nasceu na periferia.",
+      "A periferia precisa de mais ônibus."
+    ],
+    "spanish": {
+      "word": "periferia",
+      "definition": "Barrios lejos del centro."
+    },
+    "synonyms": [
+      "subúrbio"
+    ]
+  },
+  {
+    "rank": 4558,
+    "word": "pernilongo",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/peʁniˈlõgu/",
+    "definition": "Mosquito de pernas longas.",
+    "examples": [
+      "Um pernilongo não me deixou dormir.",
+      "Tem muito pernilongo no verão.",
+      "Liguei o ventilador para espantar os pernilongos."
+    ],
+    "spanish": {
+      "word": "zancudo",
+      "definition": "Mosquito de patas largas."
+    },
+    "synonyms": [
+      "mosquito"
+    ]
+  },
+  {
+    "rank": 4559,
+    "word": "pesquisador",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/peskizaˈdoʁ/",
+    "definition": "Pessoa que faz estudos científicos.",
+    "examples": [
+      "Ela é pesquisadora na USP.",
+      "Os pesquisadores acharam uma nova espécie.",
+      "O pesquisador publicou um artigo."
+    ],
+    "spanish": {
+      "word": "investigador",
+      "definition": "Persona que hace estudios científicos."
+    },
+    "synonyms": [
+      "cientista"
+    ]
+  },
+  {
+    "rank": 4560,
+    "word": "pinheiro",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/piˈɲejɾu/",
+    "definition": "Árvore alta de folhas finas.",
+    "examples": [
+      "O pinheiro é uma árvore de Natal.",
+      "Há muitos pinheiros no Sul.",
+      "Enfeitamos o pinheiro da sala."
+    ],
+    "spanish": {
+      "word": "pino",
+      "definition": "Árbol alto de hojas finas."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4561,
+    "word": "piolho",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/piˈoʎu/",
+    "definition": "Inseto pequeno que vive no cabelo.",
+    "examples": [
+      "Minha filha pegou piolho na escola.",
+      "Passe esse xampu contra piolho.",
+      "Achei um piolho na cabeça dele."
+    ],
+    "spanish": {
+      "word": "piojo",
+      "definition": "Insecto pequeño que vive en el cabello."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4562,
+    "word": "pitada",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/piˈtadɐ/",
+    "definition": "Quantidade muito pequena.",
+    "examples": [
+      "Coloque uma pitada de sal.",
+      "Falta uma pitada de pimenta.",
+      "A história tem uma pitada de humor."
+    ],
+    "spanish": {
+      "word": "pizca",
+      "definition": "Cantidad muy pequeña."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4563,
+    "word": "pizzaria",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pitsaˈɾiɐ/",
+    "definition": "Lugar que faz e vende pizza.",
+    "examples": [
+      "Vamos jantar na pizzaria?",
+      "A pizzaria entrega em casa.",
+      "Essa pizzaria é famosa em São Paulo."
+    ],
+    "spanish": {
+      "word": "pizzería",
+      "definition": "Lugar que hace y vende pizza."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4564,
+    "word": "plural",
+    "type": [
+      "noun",
+      "adjective"
+    ],
+    "IPA": "/pluˈɾaw/",
+    "definition": "Forma que indica mais de um.",
+    "examples": [
+      "O plural de pão é pães.",
+      "Coloque a palavra no plural.",
+      "Essa frase está no plural."
+    ],
+    "spanish": {
+      "word": "plural",
+      "definition": "Forma que indica más de uno."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4565,
+    "word": "poluição",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/polujˈsɐ̃w̃/",
+    "definition": "Sujeira no ar, na água ou na terra.",
+    "examples": [
+      "A poluição do ar é um problema sério.",
+      "O rio sofre com a poluição.",
+      "Há muita poluição em São Paulo."
+    ],
+    "spanish": {
+      "word": "contaminación",
+      "definition": "Suciedad en el aire, el agua o la tierra."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4566,
+    "word": "pomar",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/poˈmaʁ/",
+    "definition": "Lugar com árvores de frutas.",
+    "examples": [
+      "Meu avô tem um pomar no sítio.",
+      "Colhemos laranjas no pomar.",
+      "O pomar está cheio de mangas."
+    ],
+    "spanish": {
+      "word": "huerto",
+      "definition": "Lugar con árboles frutales."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4567,
+    "word": "pontapé",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/põtaˈpɛ/",
+    "definition": "Chute.",
+    "examples": [
+      "Ele deu um pontapé na bola.",
+      "O pontapé inicial é às quatro.",
+      "Levei um pontapé na canela."
+    ],
+    "spanish": {
+      "word": "patada",
+      "definition": "Golpe con el pie."
+    },
+    "synonyms": [
+      "chute"
+    ]
+  },
+  {
+    "rank": 4568,
+    "word": "pontuação",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/põtwaˈsɐ̃w̃/",
+    "definition": "Pontos de um jogo; sinais como a vírgula.",
+    "examples": [
+      "Tirei a pontuação máxima.",
+      "Preste atenção à pontuação do texto.",
+      "Qual foi a sua pontuação?"
+    ],
+    "spanish": {
+      "word": "puntuación",
+      "definition": "Puntos de un juego; signos como la coma."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4569,
+    "word": "porcentagem",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/poʁsẽˈtaʒẽj̃/",
+    "definition": "Parte de cem.",
+    "examples": [
+      "Qual é a porcentagem de desconto?",
+      "Uma pequena porcentagem dos alunos faltou.",
+      "Calcule a porcentagem."
+    ],
+    "spanish": {
+      "word": "porcentaje",
+      "definition": "Parte de cien."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4570,
+    "word": "pronome",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɾoˈnomi/",
+    "definition": "Palavra como eu, você e ele.",
+    "examples": [
+      "Ele é um pronome pessoal.",
+      "Estudamos os pronomes na aula.",
+      "Use o pronome certo."
+    ],
+    "spanish": {
+      "word": "pronombre",
+      "definition": "Palabra como yo, tú y él."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4571,
+    "word": "pronúncia",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɾoˈnũsiɐ/",
+    "definition": "Forma de falar os sons.",
+    "examples": [
+      "A sua pronúncia está ótima.",
+      "A pronúncia do português é difícil.",
+      "Pratico a pronúncia todo dia."
+    ],
+    "spanish": {
+      "word": "pronunciación",
+      "definition": "Forma de decir los sonidos."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4572,
+    "word": "protagonista",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɾotagoˈnistɐ/",
+    "definition": "Personagem principal.",
+    "examples": [
+      "A protagonista da novela é muito boa.",
+      "Quem é o protagonista do filme?",
+      "Ele foi o protagonista do jogo."
+    ],
+    "spanish": {
+      "word": "protagonista",
+      "definition": "Personaje principal."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4573,
+    "word": "provérbio",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/pɾoˈvɛʁbiu/",
+    "definition": "Frase popular com um ensinamento.",
+    "examples": [
+      "Quem espera sempre alcança é um provérbio.",
+      "Minha avó adora provérbios.",
+      "Esse provérbio é muito antigo."
+    ],
+    "spanish": {
+      "word": "proverbio",
+      "definition": "Frase popular con una enseñanza."
+    },
+    "synonyms": [
+      "ditado"
+    ]
+  },
+  {
+    "rank": 4574,
+    "word": "pulga",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/ˈpuwgɐ/",
+    "definition": "Inseto pequeno que pula e pica.",
+    "examples": [
+      "Meu cachorro está com pulgas.",
+      "Fiquei com a pulga atrás da orelha.",
+      "Compramos remédio contra pulga."
+    ],
+    "spanish": {
+      "word": "pulga",
+      "definition": "Insecto pequeño que salta y pica."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4575,
+    "word": "leitor",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/lejˈtoʁ/",
+    "definition": "Pessoa que lê; aparelho que lê.",
+    "examples": [
+      "Ela é uma leitora apaixonada.",
+      "O jornal tem muitos leitores.",
+      "Passe o cartão no leitor."
+    ],
+    "spanish": {
+      "word": "lector",
+      "definition": "Persona que lee; aparato que lee."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4576,
+    "word": "lazer",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/laˈzeʁ/",
+    "definition": "Atividades do tempo livre.",
+    "examples": [
+      "Meu lazer é ir à praia.",
+      "O prédio tem área de lazer.",
+      "Falta lazer para os jovens do bairro."
+    ],
+    "spanish": {
+      "word": "ocio",
+      "definition": "Actividades del tiempo libre."
+    },
+    "synonyms": [
+      "diversão"
+    ]
+  },
+  {
+    "rank": 4577,
+    "word": "moradia",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/moɾaˈdʒiɐ/",
+    "definition": "Lugar onde se mora.",
+    "examples": [
+      "Muita gente não tem moradia.",
+      "A moradia aqui é cara.",
+      "O governo construiu moradias populares."
+    ],
+    "spanish": {
+      "word": "vivienda",
+      "definition": "Lugar donde se vive."
+    },
+    "synonyms": [
+      "casa"
+    ]
+  },
+  {
+    "rank": 4578,
+    "word": "mercearia",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/meʁseaˈɾiɐ/",
+    "definition": "Loja pequena de comida.",
+    "examples": [
+      "Comprei pão na mercearia.",
+      "A mercearia da esquina fecha às oito.",
+      "Meu avô tinha uma mercearia."
+    ],
+    "spanish": {
+      "word": "tienda de víveres",
+      "definition": "Tienda pequeña de comida."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4579,
+    "word": "orquídea",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/oʁˈkidʒiɐ/",
+    "definition": "Flor bonita e delicada.",
+    "examples": [
+      "Ganhei uma orquídea da minha mãe.",
+      "Ela coleciona orquídeas.",
+      "Regue a orquídea uma vez por semana."
+    ],
+    "spanish": {
+      "word": "orquídea",
+      "definition": "Flor bonita y delicada."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4580,
+    "word": "ortografia",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/oʁtogɾaˈfiɐ/",
+    "definition": "Forma certa de escrever as palavras.",
+    "examples": [
+      "Cuidado com a ortografia.",
+      "O corretor verifica a ortografia.",
+      "Essa palavra mudou com a nova ortografia."
+    ],
+    "spanish": {
+      "word": "ortografía",
+      "definition": "Forma correcta de escribir las palabras."
+    },
+    "synonyms": []
+  },
+  {
+    "rank": 4581,
+    "word": "nutrição",
+    "type": [
+      "noun"
+    ],
+    "IPA": "/nutɾiˈsɐ̃w̃/",
+    "definition": "Estudo dos alimentos e da saúde.",
+    "examples": [
+      "Ela estuda nutrição.",
+      "Uma boa nutrição é importante.",
+      "Fui a uma consulta de nutrição."
+    ],
+    "spanish": {
+      "word": "nutrición",
+      "definition": "Estudio de los alimentos y de la salud."
+    },
+    "synonyms": []
+  }
+]
