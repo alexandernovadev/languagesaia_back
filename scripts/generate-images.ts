@@ -3,6 +3,7 @@
  * on each word. Details and setup in docs/IMAGENES-LOCAL.md.
  *
  *   npx tsx scripts/generate-images.ts en pasta,priest,hallway
+ *   npx tsx scripts/generate-images.ts en --limit=5  (next missing words)
  *
  * A word that already has a picture is skipped.
  */
@@ -23,8 +24,9 @@ const SIZE = 768;
 const WEBP_QUALITY = 80;
 
 async function main() {
-  const [language, list] = process.argv.slice(2);
-  if (!language || !list) throw new Error("Usage: npx tsx scripts/generate-images.ts <language> <word,word,...>");
+  const [language, listOrFlag, ...flags] = process.argv.slice(2);
+  if (!language) throw new Error("Usage: npx tsx scripts/generate-images.ts <language> <word,word,...> | --limit=5");
+  const limit = Number((listOrFlag?.startsWith("--limit=") ? listOrFlag : flags.find((flag) => flag.startsWith("--limit=")))?.split("=")[1] ?? 0);
 
   const pb = new PocketBase(process.env.POCKETBASE_URL);
   await pb.collection("_superusers").authWithPassword(process.env.POCKETBASE_ADMIN_EMAIL!, process.env.POCKETBASE_ADMIN_PASSWORD!);
@@ -33,7 +35,11 @@ async function main() {
   const words = mongoose.connection.db!.collection("words");
   const png = path.join(os.tmpdir(), "glota-word-image.png"); // mflux only writes to a file: one, reused and removed
 
-  for (const name of list.split(",")) {
+  const names = listOrFlag?.startsWith("--limit=")
+    ? (await words.find({ language, $or: [{ img: null }, { img: "" }] }, { projection: { wordKey: 1 } }).sort({ rank: 1 }).limit(limit || 5).toArray()).map((word: any) => word.wordKey)
+    : listOrFlag?.split(",") ?? [];
+
+  for (const name of names) {
     const word: any = await words.findOne({ language, wordKey: name.toLowerCase() });
     if (!word) {
       console.log(`x ${name}: not in the dictionary`);
