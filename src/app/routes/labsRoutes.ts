@@ -13,6 +13,7 @@ import {
   downloadBackup,
   previewBackupFile,
   importBackupFile,
+  batchUpdateWordImages,
 } from "../controllers/labsController";
 import { createBackupUploadMiddleware } from "../middlewares/uploadMiddleware";
 
@@ -38,5 +39,8 @@ routes.delete("/data/exercises/delete-all", deleteAllExercises);
 routes.delete("/data/expressions/delete-all", deleteAllExpressions);
 routes.delete("/data/lessons/delete-all", deleteAllLessons);
 routes.delete("/data/stories/delete-all", deleteAllStories);
+
+// Batch operations
+routes.post("/words/batch-update-images", batchUpdateWordImages);
 
 export default routes;

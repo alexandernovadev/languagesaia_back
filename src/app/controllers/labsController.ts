@@ -267,6 +267,40 @@ export const downloadBackup = async (req: Request, res: Response) => {
   }
 };
 
+/** Batch update word images — uses raw MongoDB to bypass the findById bug in prod. */
+export const batchUpdateWordImages = async (req: Request, res: Response) => {
+  try {
+    const { updates } = req.body ?? {};
+    if (!Array.isArray(updates) || !updates.length) {
+      return errorResponse(res, "updates array is required", 400);
+    }
+
+    const db = (await import("../../db/mongoConnection")).default;
+    // Use raw collection to avoid the findById issue
+    const mongoose = (await import("mongoose")).default;
+    const wordsCol = mongoose.connection.db!.collection("words");
+
+    let updated = 0;
+    let failed = 0;
+
+    for (const { wordId, img } of updates) {
+      if (!wordId || !img) { failed++; continue; }
+      try {
+        const result = await wordsCol.updateOne(
+          { _id: new mongoose.Types.ObjectId(wordId) },
+          { $set: { img } }
+        );
+        if (result.modifiedCount > 0 || result.matchedCount > 0) updated++;
+        else failed++;
+      } catch { failed++; }
+    }
+
+    return successResponse(res, "Batch image update complete", { updated, failed, total: updates.length });
+  } catch (error) {
+    return errorResponse(res, "Error in batch update", 500, error);
+  }
+};
+
 const withBackupFile = (work: (req: Request, file: Buffer) => Promise<unknown>) => async (req: Request, res: Response) => {
   try {
     if (!req.file) return errorResponse(res, "No file uploaded", 400);
