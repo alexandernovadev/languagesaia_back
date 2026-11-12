@@ -7,6 +7,7 @@ import { getUserId } from "../utils/http/requestUser";
 import { LabsService } from "../services/labs/labsService";
 import { getSystemInfo } from "../services/system/systemService";
 import logger from "../utils/logger";
+import mongoose from "mongoose";
 
 const labsService = new LabsService();
 
@@ -275,8 +276,9 @@ export const batchUpdateWordImages = async (req: Request, res: Response) => {
       return errorResponse(res, "updates array is required", 400);
     }
 
-    const mongoose = await import("mongoose");
-    const wordsCol = mongoose.default.connection.db!.collection("words");
+    const db = mongoose.connection.db;
+    if (!db) return errorResponse(res, "Database not connected", 503);
+    const wordsCol = db.collection("words");
 
     let updated = 0;
     let failed = 0;
@@ -284,12 +286,9 @@ export const batchUpdateWordImages = async (req: Request, res: Response) => {
     for (const { wordId, img } of updates) {
       if (!wordId || !img) { failed++; continue; }
       try {
-        const result = await wordsCol.updateOne(
-          { _id: new mongoose.default.Types.ObjectId(wordId) },
-          { $set: { img } }
-        );
-        if (result.modifiedCount > 0 || result.matchedCount > 0) updated++;
-        else failed++;
+        const oid = new mongoose.Types.ObjectId(wordId);
+        const result = await wordsCol.updateOne({ _id: oid }, { $set: { img } });
+        result.matchedCount > 0 ? updated++ : failed++;
       } catch { failed++; }
     }
 
