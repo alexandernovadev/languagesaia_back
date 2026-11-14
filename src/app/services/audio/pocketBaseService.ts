@@ -9,7 +9,11 @@ const AUDIO_COLLECTION = "lecture_audio";
 let pb: PocketBase | null = null;
 
 const getClient = (): PocketBase => {
-  if (!pb) pb = new PocketBase(PB_URL);
+  if (!pb) {
+    pb = new PocketBase(PB_URL);
+    // uploads run side by side (server and scripts): the SDK must not cancel one for the next
+    pb.autoCancellation(false);
+  }
   return pb;
 };
 
