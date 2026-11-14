@@ -58,3 +58,31 @@ export const deleteAudioFromPocketBase = async (recordId: string): Promise<void>
     logger.error("Error eliminando audio de PocketBase", { recordId, err });
   }
 };
+
+// ── Word pictures (same collection as scripts/generate-images.ts) ──
+
+const IMAGE_COLLECTION = "word_images";
+
+export const uploadWordImageToPocketBase = async (webp: Buffer, filename: string, meta: { wordId: string; word: string }): Promise<string> => {
+  const client = await ensureAuth();
+  const formData = new FormData();
+  formData.append("wordId", meta.wordId);
+  formData.append("word", meta.word);
+  formData.append("image", new Blob([new Uint8Array(webp)], { type: "image/webp" }), filename);
+  const record = await client.collection(IMAGE_COLLECTION).create(formData as any);
+  logger.info("Imagen subida a PocketBase", { recordId: record.id, filename });
+  return `${PB_URL.replace(/\/$/, "")}/api/files/${IMAGE_COLLECTION}/${record.id}/${record.image}`;
+};
+
+/** Takes the picture's URL, as saved in word.img. Ignores URLs from anywhere else. */
+export const deleteWordImageFromPocketBase = async (url: string): Promise<void> => {
+  const recordId = url.match(new RegExp(`/api/files/${IMAGE_COLLECTION}/([^/]+)/`))?.[1];
+  if (!recordId) return;
+  try {
+    const client = await ensureAuth();
+    await client.collection(IMAGE_COLLECTION).delete(recordId);
+    logger.info("Imagen eliminada de PocketBase", { recordId });
+  } catch (err) {
+    logger.error("Error eliminando imagen de PocketBase", { recordId, err });
+  }
+};

@@ -22,7 +22,17 @@ export interface ImageSubject {
   meaning?: string;
   /** Spanish translation, part of speech, usage context, genre… */
   extra?: string;
+  /** A basic, very frequent word (pronouns, "is", "and"…): the most important ones, so they get a richer scene. */
+  basic?: boolean;
 }
+
+/** Grammar words have no picture of their own: they are shown through a moment that uses them. */
+const GRAMMAR_TYPES = ["auxiliary verb", "modal verb", "pronoun", "preposition", "conjunction", "determiner", "interjection", "particle"];
+/** The most frequent words are the ones learned first: they all get the detailed scene. */
+const BASIC_RANK = 300;
+
+const BASIC_BRIEF =
+  "one detailed illustration of an everyday moment that makes this very common word obvious. It is a basic word that may have no picture of its own, so build the moment from the example sentence and show the word's role through who is there, gestures, pointing, positions and facial expressions";
 
 const BRIEF: Record<ImageSubject["kind"], string> = {
   word: "one simple illustration that makes the meaning of this word obvious at a glance (noun → the thing, verb → the action, adjective → the quality)",
@@ -39,24 +49,32 @@ const FIGURE_RULES = `- Show one meaning only, the most common one, even if the 
 - The person stands or sits in the open. Any prop is small and held in the hands or resting on the floor beside them. Tables, desks and counters stay out of the scene.
 `;
 
+/** Basic words: pronouns and the like need the right number of people, and more detail. */
+const BASIC_FIGURE_RULES = `- Show one meaning only, the most common one, through one clear everyday moment.
+- Use as many people as the word needs and no more than three (for example two friends for we, one person pointing at their own chest for me). Each one is a full-length figure that fits in the frame.
+- For each person say their pose, gesture and facial expression, and name their clothes and shoes with colors, with both feet on the ground or floor.
+- Name the setting and two or three objects in it with their colors, so the moment feels real. Tables, desks and counters stay out of the scene.
+`;
+
 const sceneRequest = (s: ImageSubject) => `You write prompts for an image model that only understands visual descriptions.
-Describe ${BRIEF[s.kind]}.
+Describe ${s.basic ? BASIC_BRIEF : BRIEF[s.kind]}.
 
 ${s.kind === "story" ? "Story premise" : s.kind === "word" ? "Word" : "Expression"}: ${s.text}
 ${s.meaning ? `Meaning: ${s.meaning}\n` : ""}${s.extra ? `Details: ${s.extra}\n` : ""}
 How to write the scene:
-- English, 25 to 45 words.
+- English, ${s.basic ? "50 to 75" : "25 to 45"} words.
 - Describe only what is visible: subject, action, setting, mood, colors of key objects.
 - One clear subject in a simple setting. People (if any) look modern and casual, and everything is friendly for all ages.
 - Purely visual: describe objects, people and places only; avoid anything with writing on it (signs, labels, books with titles, screens, posters).
-${s.kind === "story" ? "" : FIGURE_RULES}- Do not repeat the ${s.kind === "story" ? "title" : s.kind} itself and do not use quotation marks.
+${s.kind === "story" ? "" : s.basic ? BASIC_FIGURE_RULES : FIGURE_RULES}- Do not repeat the ${s.kind === "story" ? "title" : s.kind} itself and do not use quotation marks.
 
 Return JSON: {"scene": "..."}`;
 
 /** Removes anything that would make FLUX draw letters: quotes and the target text itself. */
 const sanitize = (scene: string, s: ImageSubject) => {
   let out = scene.replace(/["“”«»'`]/g, "");
-  if (s.kind !== "story") {
+  // basic words (is, me, a…) are part of any English sentence: removing them would break the scene
+  if (s.kind !== "story" && !s.basic) {
     const target = s.text.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     if (target) out = out.replace(new RegExp(`\\b${target}\\b`, "gi"), "it");
   }
@@ -145,13 +163,29 @@ Return JSON: {"scene": "..."}`,
 
 // ── Helpers per content type ──
 
-export const wordImagePrompt = (w: { word: string; definition?: string; type?: string[]; spanish?: { word?: string; definition?: string } }) =>
-  buildImagePrompt({
+export const wordImagePrompt = (w: {
+  word: string;
+  definition?: string;
+  type?: string[];
+  rank?: number;
+  examples?: string[];
+  spanish?: { word?: string; definition?: string };
+}) => {
+  const basic = (w.rank != null && w.rank <= BASIC_RANK) || !!w.type?.some((t) => GRAMMAR_TYPES.includes(t));
+  return buildImagePrompt({
     kind: "word",
     text: w.word,
     meaning: w.spanish?.definition || w.definition,
-    extra: [w.type?.length ? `part of speech: ${w.type.join(", ")}` : "", w.spanish?.word ? `Spanish: ${w.spanish.word}` : ""].filter(Boolean).join("; "),
+    extra: [
+      w.type?.length ? `part of speech: ${w.type.join(", ")}` : "",
+      w.spanish?.word ? `Spanish: ${w.spanish.word}` : "",
+      basic && w.examples?.[0] ? `example sentence: ${w.examples[0]}` : "",
+    ]
+      .filter(Boolean)
+      .join("; "),
+    basic,
   });
+};
 
 export const expressionImagePrompt = (e: { expression: string; definition?: string; context?: string; spanish?: { definition?: string } }) =>
   buildImagePrompt({

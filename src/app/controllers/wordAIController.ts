@@ -14,10 +14,12 @@ import {
 import { generateImage } from "../services/ai/imageAIService";
 import { completeWord } from "../services/words/WordCompletionService";
 import { wordImagePrompt } from "../services/ai/prompts";
-import {
-  deleteImageFromCloudinary,
-  uploadImageToCloudinary,
-} from "../services/cloudinary/cloudinaryService";
+import sharp from "sharp";
+import { deleteImageFromCloudinary } from "../services/cloudinary/cloudinaryService";
+import { deleteWordImageFromPocketBase, uploadWordImageToPocketBase } from "../services/audio/pocketBaseService";
+
+const WORD_IMAGE_SIZE = 768;
+const WORD_IMAGE_QUALITY = 80;
 import { WordTypeValidationError } from "../data/business/shared";
 import type { Language } from "../../../types/business";
 import { errorResponse, successResponse } from "../utils/responseHelpers";
@@ -140,57 +142,43 @@ export const updateImageWord = async (req: Request, res: Response) => {
 
   try {
     const wordDoc = await wordService.getWordById(IDWord);
-    const imageResponse = await generateImage(await wordImagePrompt(wordDoc ?? { word }));
-    if (!imageResponse) {
-      return errorResponse(res, "Failed to generate image.", 400);
+    if (!wordDoc) {
+      return errorResponse(res, "Word not found.", 404);
     }
 
-    // Extract base64 string from the response object
-    const imageBase64 = imageResponse.b64_json;
-    if (!imageBase64) {
+    const { b64_json } = await generateImage(await wordImagePrompt(wordDoc));
+    if (!b64_json) {
       return errorResponse(res, "Failed to get image data from response.", 400);
     }
 
-    let deleteOldImagePromise: Promise<unknown> = Promise.resolve();
+    // Same format as scripts/generate-images.ts, so every word picture looks alike
+    const webp = await sharp(Buffer.from(b64_json, "base64"))
+      .resize(WORD_IMAGE_SIZE, WORD_IMAGE_SIZE)
+      .webp({ quality: WORD_IMAGE_QUALITY, effort: 5 })
+      .toBuffer();
+    const urlImage = await uploadWordImageToPocketBase(webp, `${wordDoc.wordKey || "word"}.webp`, {
+      wordId: String(wordDoc._id),
+      word: wordDoc.word,
+    });
 
-    if (imgOld && imgOld.includes("res.cloudinary.com")) {
-      const parts = imgOld.split("/");
-      let publicId = parts.pop();
-
-      // Remove extension if exists
-      if (publicId && publicId.includes(".")) {
-        publicId = publicId.split(".")[0];
-      }
-
-      // Delete old image
-      deleteOldImagePromise = deleteImageFromCloudinary(
-        "languagesai/words/" + publicId
-      );
-    }
-
-    // Upload new image while deleting the old one
-    const [_, urlImage] = await Promise.all([
-      deleteOldImagePromise,
-      uploadImageToCloudinary(imageBase64, "words"),
-    ]);
-
-    if (!urlImage) {
-      return errorResponse(res, "Failed to upload image to Cloudinary.", 500);
-    }
-
-    // Update word image
     const updatedWord = await wordService.updateWordImg(IDWord, urlImage);
-
     if (!updatedWord) {
+      await deleteWordImageFromPocketBase(urlImage);
       return errorResponse(res, "Word not found or failed to update.", 404);
     }
 
-    // Ensure the response includes the img field
-    const responseData = {
-      img: updatedWord.img || urlImage,
-    };
+    // The old picture goes only once the new one is saved
+    const old = String(imgOld || wordDoc.img || "");
+    if (old && old !== urlImage) {
+      if (old.includes("res.cloudinary.com")) {
+        const publicId = old.split("/").pop()?.split(".")[0];
+        if (publicId) await deleteImageFromCloudinary("languagesai/words/" + publicId).catch(() => undefined);
+      } else {
+        await deleteWordImageFromPocketBase(old);
+      }
+    }
 
-    return successResponse(res, "Word image updated successfully", responseData);
+    return successResponse(res, "Word image updated successfully", { img: urlImage });
   } catch (error) {
     return errorResponse(res, "Error generating word image", 500, error);
   }
