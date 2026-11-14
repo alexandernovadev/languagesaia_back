@@ -4,7 +4,7 @@ export const REFRESH_TOKEN_EXPIRES_IN = "30d";
 
 // ─── Rate limiting ────────────────────────────────────────────────────────────
 export const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000; // 15 minutes
-export const RATE_LIMIT_GENERAL_MAX = 300;
+export const RATE_LIMIT_GENERAL_MAX = 1500;
 export const RATE_LIMIT_AUTH_MAX = 10;
 export const RATE_LIMIT_AI_WINDOW_MS = 60 * 1000; // 1 minute
 export const RATE_LIMIT_AI_MAX = 20;

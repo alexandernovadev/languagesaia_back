@@ -1,5 +1,5 @@
 /**
- * Generates word pictures through the app's own API (fal.ai + Cloudinary), the
+ * Generates word pictures through the app's own API (fal.ai + PocketBase), the
  * same as the image button in the app. Talks only to the API, never to Mongo.
  *
  *   npx tsx scripts/generate-images-api.ts en --missing=50       (next 50 words without a picture, by rank)
@@ -23,11 +23,18 @@ let token = "";
 /** One login, reused across runs: the auth route allows only 10 logins per 15 minutes. */
 const TOKEN_FILE = path.join(os.homedir(), ".cache/glota-api-token.json");
 
-const call = async (path: string, init: RequestInit = {}) => {
+const call = async (path: string, init: RequestInit = {}, tries = 20): Promise<any> => {
   const res = await fetch(`${API}${path}`, {
     ...init,
     headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json", ...init.headers },
   });
+  // Rate limited (the app on the same IP counts too): wait for the window instead of skipping the word
+  if (res.status === 429 && tries > 0) {
+    const wait = Math.max(Number(res.headers.get("retry-after") ?? res.headers.get("ratelimit-reset") ?? 60), 60);
+    console.log(`… 429, waiting ${wait} s`);
+    await new Promise((resolve) => setTimeout(resolve, wait * 1000));
+    return call(path, init, tries - 1);
+  }
   const body: any = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error(`${init.method ?? "GET"} ${path.split("?")[0]} → ${res.status} ${body.error ?? body.message ?? ""} ${body.detail?.hint ?? ""}`.trim());
   return body.data;
@@ -53,6 +60,17 @@ const login = async () => {
   fs.writeFileSync(TOKEN_FILE, JSON.stringify({ api: API, token }), { mode: 0o600 });
 };
 
+/** The next `count` words without a picture, by rank. The API gives at most 100 per page. */
+const missingWords = async (language: string, count: number) => {
+  const names: string[] = [];
+  for (let page = 1; names.length < count; page++) {
+    const list = (await call(`/api/dictionary?language=${language}&missing=image&sort=rank&limit=100&page=${page}`))?.data ?? [];
+    names.push(...list.map((w: any) => w.word));
+    if (list.length < 100) break;
+  }
+  return names.slice(0, count);
+};
+
 async function main() {
   const [language, source, ...rest] = process.argv.slice(2);
   const flags = [source, ...rest].filter((arg) => arg?.startsWith("--"));
@@ -67,7 +85,7 @@ async function main() {
   console.log(`API ${API} (admin OK)`);
 
   const names: string[] = missing
-    ? ((await call(`/api/dictionary?language=${language}&missing=image&sort=rank&limit=${missing}&page=1`))?.data ?? []).map((w: any) => w.word)
+    ? await missingWords(language, missing)
     : (fs.existsSync(source) ? fs.readFileSync(source, "utf8") : source).split(/[\n,]/).map((name) => name.trim()).filter(Boolean);
 
   if (dry) {
