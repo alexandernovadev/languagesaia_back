@@ -120,7 +120,8 @@ async function main() {
     if (!pending.length) return;
     const batch = pending;
     pending = [];
-    const result = await call("/api/labs/words/batch-update-images", { method: "POST", body: JSON.stringify({ updates: batch }) });
+    // a deploy can restart prod mid-run: keep trying for a few minutes so no link is lost
+    const result = await withRetry(() => call("/api/labs/words/batch-update-images", { method: "POST", body: JSON.stringify({ updates: batch }) }), 8);
     saved += result?.updated ?? 0;
     console.log(`  ✓ saved ${result?.updated}/${batch.length} links in prod (${saved} total)`);
     if (result?.failed) failed.push(`${result.failed} links not saved`);
