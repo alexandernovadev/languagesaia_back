@@ -5,7 +5,7 @@ import { aiLimiter } from "../middlewares/rateLimiters";
 import {
   createExpression, getExpressionById, getExpressions, updateExpression, deleteExpression,
   getExpressionByExpression, getExpressionsByType, getExpressionsOnly,
-  addChatMessage, getChatHistory, clearChatHistory, streamChatResponse, generateExpression,
+  addChatMessage, getChatHistory, clearChatHistory, streamChatResponse, generateExpression, saveExpression,
   updateImageExpression,
 } from "../controllers/expressionController";
 
@@ -14,6 +14,7 @@ router.param("id", validateObjectId);
 
 // AI Generation routes
 router.post("/generate", aiLimiter, generateExpression);
+router.post("/save", aiLimiter, saveExpression); // by text: reuses the saved one
 router.post("/:id/generate-image", aiLimiter, updateImageExpression);
 
 // Filter and search routes

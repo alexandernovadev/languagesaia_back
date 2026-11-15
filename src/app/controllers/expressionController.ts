@@ -257,6 +257,36 @@ export const streamChatResponse = async (req: Request, res: Response) => {
   }
 };
 
+/**
+ * Saves an expression by its text: if it already exists, returns it without
+ * calling the AI or giving XP; otherwise the AI writes it and it's created.
+ */
+export const saveExpression = async (req: Request, res: Response) => {
+  try {
+    const text = String(req.body?.expression ?? "").trim().slice(0, 200);
+    const language = req.body?.language || req.user?.language || "en";
+    if (!text) return errorResponse(res, "expression is required", 400);
+
+    const known = await expressionService.findSaved(text, language);
+    if (known) return successResponse(res, "Expression already saved", { ...toExpressionDTO(known), alreadyExists: true, reward: null });
+
+    const userId = getUserId(req);
+    const draft: any = await generateExpressionData({ prompt: text, language }, { userId });
+    // the AI may tidy the text into one that's already saved
+    const same = draft?.expression ? await expressionService.findSaved(draft.expression, language) : null;
+    if (same) return successResponse(res, "Expression already saved", { ...toExpressionDTO(same), alreadyExists: true, reward: null });
+
+    const data = parseBody(ExpressionCreateSchema, { ...draft, language: draft?.language ?? language }, res);
+    if (!data) return res;
+    const expression = await expressionService.createExpression(data as any);
+    const reward = await progressService.award(userId, ADD_WORD_XP, timeZoneOf(req));
+    return successResponse(res, "Expression created successfully", { ...toExpressionDTO(expression), alreadyExists: false, reward }, 201);
+  } catch (error: any) {
+    logger.error("Error saving expression:", error);
+    return errorResponse(res, error.message, 500, error);
+  }
+};
+
 // Generate expressions with AI
 export const generateExpression = async (req: Request, res: Response) => {
   try {

@@ -92,6 +92,14 @@ export class ExpressionService {
     return await Expression.findByIdAndDelete(id);
   }
 
+  /** The same expression in that language, ignoring case and extra spaces. */
+  async findSaved(expression: string, language: string): Promise<IExpression | null> {
+    const text = expression.trim().replace(/\s+/g, " ");
+    if (!text) return null;
+    const filter: any = { language, expression: new RegExp(`^\\s*${escapeRegex(text).replace(/ /g, "\\s+")}\\s*$`, "i") };
+    return await Expression.findOne(filter);
+  }
+
   async findExpressionByExpression(expression: string): Promise<IExpression | null> {
     return await Expression.findOne({ expression });
   }

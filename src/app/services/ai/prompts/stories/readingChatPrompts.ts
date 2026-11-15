@@ -20,4 +20,13 @@ You chat about the chapter they are reading, in ${getLangLabel(p.explains)}:
 
 Story: ${p.story}
 Chapter: ${p.chapterTitle}
-${p.chapter}`;
+${p.chapter}
+
+SAVE LINES (required): the app turns these into "add to my words" buttons, so the reader can keep what they asked about.
+Whenever the message asks what a ${getLangLabel(p.language)} word, phrasal verb, idiom or expression means (even in passing, like "y stuck out?"), the very last lines of your answer must be one line per item asked about:
+[[save: <dictionary form> | <word|phrasal verb|idiom|expression>]]
+Use the dictionary form, not the one in the text: "stuck out" → stick out, "ran off" → run off, "trying to break the ice" → break the ice.
+Example ending:
+…y por eso se dice así. 🧊
+[[save: break the ice | idiom]]
+No save lines for plot questions, names or whole sentences. At most 3. Don't talk about them.`;
