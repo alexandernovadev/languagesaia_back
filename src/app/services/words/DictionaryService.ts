@@ -12,7 +12,7 @@ export interface DictionaryQuery {
   search?: string;
   type?: string;
   source?: string;
-  missing?: "image" | "details" | "list";
+  missing?: "image" | "audio" | "details" | "list";
   hidden?: boolean;
   sort?: "rank" | "alpha" | "recent";
   page: number;
@@ -36,6 +36,7 @@ export class DictionaryService {
       filter.$or = [{ word: like }, { "spanish.word": like }];
     }
     if (q.missing === "image") filter.$and = [{ $or: [{ img: { $exists: false } }, { img: "" }, { img: null }] }];
+    if (q.missing === "audio") filter.$and = [...((filter.$and as unknown[]) ?? []), { $or: [{ audio: { $exists: false } }, { audio: "" }, { audio: null }] }];
     if (q.missing === "details") Object.assign(filter, { completedAt: { $exists: false }, "codeSwitching.0": { $exists: false } });
     if (q.missing === "list") filter._id = { $nin: await UserWord.distinct("wordId", { userId: q.userId } as any) };
 

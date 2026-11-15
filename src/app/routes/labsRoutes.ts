@@ -14,6 +14,7 @@ import {
   previewBackupFile,
   importBackupFile,
   batchUpdateWordImages,
+  batchUpdateWordAudio,
 } from "../controllers/labsController";
 import { createBackupUploadMiddleware } from "../middlewares/uploadMiddleware";
 
@@ -42,5 +43,6 @@ routes.delete("/data/stories/delete-all", deleteAllStories);
 
 // Batch operations
 routes.post("/words/batch-update-images", batchUpdateWordImages);
+routes.post("/words/batch-update-audio", batchUpdateWordAudio);
 
 export default routes;

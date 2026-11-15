@@ -5,6 +5,7 @@
  *   npx tsx scripts/generate-word-audio.ts en              all the words missing audio
  *   npx tsx scripts/generate-word-audio.ts en --limit=100  the 100 most common
  *   npx tsx scripts/generate-word-audio.ts en --dry        only the files, nothing is saved
+ *   npx tsx scripts/generate-word-audio.ts en --prod       prod's words: listed and saved through the API
  *
  * It can be stopped and run again: it goes on with what's missing. A word that
  * failed the check is saved anyway and listed in review-<language>.jsonl.
@@ -20,6 +21,27 @@ import { uploadAudioToPocketBase } from "../src/app/services/audio/pocketBaseSer
 
 const LAB = path.join(os.homedir(), ".cache/glota-audio");
 const VOICE = "Matilda (Qwen3-TTS)";
+const API = (process.env.GLOTA_API_URL ?? "https://languagesapi.nova-inns.pro").replace(/\/$/, "");
+const TOKEN_FILE = path.join(os.homedir(), ".cache/glota-api-token.json");
+
+/** Prod, with the admin token the image scripts keep (generate-images-api.ts logs in and saves it). */
+const prodCall = async (route: string, init: RequestInit = {}) => {
+  const { token } = JSON.parse(fs.readFileSync(TOKEN_FILE, "utf8"));
+  const res = await fetch(`${API}${route}`, { ...init, headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" } });
+  const body: any = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(`${route.split("?")[0]} → ${res.status} ${body.error ?? ""}`);
+  return body.data;
+};
+
+const prodMissing = async (language: string, limit: number) => {
+  const words: { _id: string; word: string }[] = [];
+  for (let page = 1; !limit || words.length < limit; page++) {
+    const list = (await prodCall(`/api/dictionary?language=${language}&missing=audio&sort=rank&limit=100&page=${page}`))?.data ?? [];
+    words.push(...list);
+    if (list.length < 100) break;
+  }
+  return limit ? words.slice(0, limit) : words;
+};
 
 async function main() {
   const [language, ...flags] = process.argv.slice(2);
@@ -27,13 +49,12 @@ async function main() {
   const dry = flags.includes("--dry");
   const limit = Number(flags.find((flag) => flag.startsWith("--limit="))?.split("=")[1] ?? 0);
 
-  await mongoose.connect(process.env.MONGO_URL!);
-  const words = mongoose.connection.db!.collection("words");
-  const missing = await words
-    .find({ language, audio: { $in: [null, ""] } }, { projection: { word: 1 } })
-    .sort({ rank: 1 })
-    .limit(limit)
-    .toArray();
+  const prod = flags.includes("--prod");
+  const words = prod ? null : (await mongoose.connect(process.env.MONGO_URL!), mongoose.connection.db!.collection("words"));
+  const missing = prod
+    ? await prodMissing(language, limit)
+    : await words!.find({ language, audio: { $in: [null, ""] } }, { projection: { word: 1 } }).sort({ rank: 1 }).limit(limit).toArray();
+  if (prod) console.log(`API ${API}`);
   console.log(`${missing.length} words to say in ${language}`);
 
   const out = path.join(LAB, "out", language);
@@ -55,14 +76,15 @@ async function main() {
 
     try {
       const { url } = await uploadAudioToPocketBase(fs.readFileSync(said.file), `${said.id}.mp3`, { contentId: said.id, voice: VOICE });
-      await words.updateOne({ _id: new mongoose.Types.ObjectId(said.id) }, { $set: { audio: url } });
+      if (prod) await prodCall("/api/labs/words/batch-update-audio", { method: "POST", body: JSON.stringify({ updates: [{ wordId: said.id, audio: url }] }) });
+      else await words!.updateOne({ _id: new mongoose.Types.ObjectId(said.id) }, { $set: { audio: url } });
       fs.rmSync(said.file);
     } catch (error) {
       console.log(`x ${said.word}: ${(error as Error).message}`); // it stays without audio, so the next run takes it
     }
   }
 
-  await mongoose.disconnect();
+  if (!prod) await mongoose.disconnect();
 }
 
 main().catch((error) => {

@@ -298,6 +298,29 @@ export const batchUpdateWordImages = async (req: Request, res: Response) => {
   }
 };
 
+/** Pronunciations made on a Mac (scripts/generate-word-audio.ts --prod), saved in one go. */
+export const batchUpdateWordAudio = async (req: Request, res: Response) => {
+  try {
+    const { updates } = req.body ?? {};
+    if (!Array.isArray(updates) || !updates.length) return errorResponse(res, "updates array is required", 400);
+    const db = mongoose.connection.db;
+    if (!db) return errorResponse(res, "Database not connected", 503);
+    const wordsCol = db.collection("words");
+    let updated = 0;
+    let failed = 0;
+    for (const { wordId, audio } of updates) {
+      if (!wordId || !audio) { failed++; continue; }
+      try {
+        const result = await wordsCol.updateOne({ _id: new mongoose.Types.ObjectId(wordId) }, { $set: { audio } });
+        result.matchedCount > 0 ? updated++ : failed++;
+      } catch { failed++; }
+    }
+    return successResponse(res, "Batch audio update complete", { updated, failed, total: updates.length });
+  } catch (error) {
+    return errorResponse(res, "Error in batch update", 500, error);
+  }
+};
+
 const withBackupFile = (work: (req: Request, file: Buffer) => Promise<unknown>) => async (req: Request, res: Response) => {
   try {
     if (!req.file) return errorResponse(res, "No file uploaded", 400);
