@@ -46,7 +46,18 @@ async function fromDictionary(word: IWord, userId: string, extra: { translation?
     audio: word.audio,
     inList: !!mine,
     grammar: extra.grammar,
+    /** What the dictionary word means, when the tapped one is another form of it. */
+    lemmaTranslation: word.spanish?.word || "",
   };
+}
+
+/** What a form means and how it sounds. The AI answers once per form; after that it's saved. */
+async function explainForm(form: string, sentence: string, language: string, options: AIContentOptions) {
+  const saved = await WordForm.findOne({ language, form }).lean();
+  if (saved) return saved;
+  const explained = await lookupWordInContext(form, sentence, language, options);
+  await WordForm.updateOne({ language, form }, { $set: { lemma: explained.lemma, translation: explained.translation, ipa: explained.ipa } }, { upsert: true });
+  return explained;
 }
 
 export async function lookupWord(text: string, sentence: string, language: string, userId: string, options: AIContentOptions = {}) {
@@ -55,13 +66,13 @@ export async function lookupWord(text: string, sentence: string, language: strin
   const exact = await findByKey(form, language);
   if (exact) return fromDictionary(exact, userId);
   const verb = await findByConjugation(form, language);
-  if (verb) return fromDictionary(verb, userId, { grammar: grammarOf(verb, form, language) });
-
-  const saved = await WordForm.findOne({ language, form }).lean();
-  const explained = saved ?? (await lookupWordInContext(form, sentence, language, options));
-  if (!saved) {
-    await WordForm.updateOne({ language, form }, { $set: { lemma: explained.lemma, translation: explained.translation, ipa: explained.ipa } }, { upsert: true });
+  // a past is a past: the tapped form gets its own meaning and sound; the verb is only where it comes from
+  if (verb) {
+    const { translation, ipa } = await explainForm(form, sentence, language, options);
+    return fromDictionary(verb, userId, { translation, ipa, grammar: grammarOf(verb, form, language) });
   }
+
+  const explained = await explainForm(form, sentence, language, options);
 
   const lemma = await findByKey(explained.lemma, language);
   if (lemma) return fromDictionary(lemma, userId, explained);
