@@ -6,6 +6,7 @@
  *   npx tsx scripts/generate-word-audio.ts en --limit=100  the 100 most common
  *   npx tsx scripts/generate-word-audio.ts en --dry        only the files, nothing is saved
  *   npx tsx scripts/generate-word-audio.ts en --prod       prod's words: listed and saved through the API
+ *   npx tsx scripts/generate-word-audio.ts en --prod --words="deadbolt,flip through"   only these
  *
  * It can be stopped and run again: it goes on with what's missing. A word that
  * failed the check is saved anyway and listed in review-<language>.jsonl.
@@ -51,8 +52,9 @@ async function main() {
 
   const prod = flags.includes("--prod");
   const words = prod ? null : (await mongoose.connect(process.env.MONGO_URL!), mongoose.connection.db!.collection("words"));
+  const only = flags.find((flag) => flag.startsWith("--words="))?.slice(8).split(",").map((w) => w.trim().toLowerCase()).filter(Boolean);
   const missing = prod
-    ? await prodMissing(language, limit)
+    ? (await prodMissing(language, only ? 0 : limit)).filter((w) => !only || only.includes(w.word.toLowerCase()))
     : await words!.find({ language, audio: { $in: [null, ""] } }, { projection: { word: 1 } }).sort({ rank: 1 }).limit(limit).toArray();
   if (prod) console.log(`API ${API}`);
   console.log(`${missing.length} words to say in ${language}`);
